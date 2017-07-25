@@ -1853,6 +1853,7 @@ var charmsArray = {
     "Super Attraction Charm": [0, 0, 20, 0, "No Effect"],
     "Super Brain Charm": [100, 10, 10, 1, "Insanely Fresh"],
     "Super Cactus Charm": [500, 3, 5, 3, "Stale"],
+    "Super Enerchi Charm": [500, 5, 0, 0, "Fresh"],
     "Super Luck Charm": [0, 0, 0, 3, "No Effect"],
     "Super Nightshade Farming Charm": [300, 3, 2, 1, "Fresh"],
     "Super Polluted Charm": [0, 0, 0, 0, "No Effect"],
