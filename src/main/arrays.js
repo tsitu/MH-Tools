@@ -1578,6 +1578,7 @@ var weaponsArray = {
     "Chrome Arcane Capturing Rod Of Never Yielding Mystery": ["Arcane", 5000, 10, 10, 20, "No Effect"],
     "Chrome DeathBot": ["Physical", 2800, 20, 15, 30, "Very Stale"],
     "Chrome DrillBot": ["Physical", 3900, 20, 0, 26, "Insanely Stale"],
+    "Chrome Grand Arcanum Trap": ["Arcane", 5000, 12, 5, 23, "Fresh"],
     "Chrome MonstroBot": ["Physical", 8500, 22, 10, 30, "No Effect"],
     "Chrome Nannybot": ["Shadow", 1200, 5, 5, 6, "Fresh"],
     "Chrome Oasis Water Node Trap": ["Hydro", 5500, 15, 5, 24, "Fresh"],
