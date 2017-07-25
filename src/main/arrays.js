@@ -1656,6 +1656,7 @@ var weaponsArray = {
     "Phantasmic Oasis Trap": ["Hydro", 5850, 15, 20, 26, "No Effect"],
     "Pneumatic Tube Trap": ["Physical", 2300, 20, 5, 18, "No Effect"],
     "Pumpkin Pummeler": ["Shadow", 1150, 5, 10, 5, "Fresh"],
+    "Rocket Propelled Gavel Trap": ["Physical", 6200, 15, 0, 22, "Stale"],
     "Reaper's Perch": ["Shadow", 3300, 10, 5, 16, "Stale"],
     "Rewers Riposte": ["Tactical", 2900, 15, 5, 25, "Fresh"],
     "RhinoBot": ["Physical", 4950, 0, 0, 8, "Very Stale"],
