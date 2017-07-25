@@ -1540,6 +1540,7 @@ var basesArray = {
     "Tiki Base": [200, 18, 5, 0, "Very Fresh"],
     "Tribal Base": [175, 18, 2, 0, "Fresh"],
     "Tribal Kaboom Base": [200, 18, 2, 0, "Very Fresh"],
+    "Ultimate Iceberg Base": [200, 5, 10, 5, "Very Fresh"],
     "Washboard Base": [250, 10, 8, 8, "Extremely Stale"],
     "Wooden Base": [35, 0, 0, 0, "Very Fresh"],
     "Wooden Base with Target": [75, 0, 20, 0, "No Effect"]
