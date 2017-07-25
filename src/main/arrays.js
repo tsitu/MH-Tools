@@ -1809,6 +1809,7 @@ var charmsArray = {
     "Regal Charm": [1000, 0, 20, 6, "No Effect"],
 
     "Rift Antiskele Charm": [0, 0, 0, 0, "No Effect"],
+    "Rift Charm": [100, 1, 0, 0, "Stale"],
     "Rift Luck Charm": [0, 0, 0, 1, "No Effect"],
     "Rift Super Luck Charm": [0, 0, 0, 3, "No Effect"],
     "Rift Extreme Luck Charm": [0, 0, 0, 5, "No Effect"],
