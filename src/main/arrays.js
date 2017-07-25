@@ -48,7 +48,8 @@ var riftCharms = [
     "Enerchi Charm",
     "Gnarled Charm",
     "Stagnant Charm",
-    "Timesplit Charm"
+    "Timesplit Charm",
+    "Super Enerchi Charm"
 ];
 
 var labyrinthMiceClues = {
