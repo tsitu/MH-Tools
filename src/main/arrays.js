@@ -1794,6 +1794,7 @@ var charmsArray = {
     "Monkey Fling Charm": [0, 0, 0, 0, "No Effect"],
     "Nanny Charm": [120, 1, 5, 0, "Very Fresh"],
     "Nerg Power Charm": [0, 0, 0, 0, "No Effect"],
+    "Nightlight Charm": [120, 0, 0, 2, "No Effect"],
     "Nightshade Farming Charm": [50, 3, 2, 0, "No Effect"],
     "Nitropop Charm": [0, 4, 0, 0, "No Effect"],
     "Oxygen Burst Charm": [0, 0, 0, 0, "No Effect"],
