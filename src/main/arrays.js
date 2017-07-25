@@ -1885,6 +1885,7 @@ var charmsArray = {
     "Ultimate Polluted Charm": [0, 0, 0, 0, "No Effect"],
     "Ultimate Power Charm": [2400, 20, 0, 0, "No Effect"],
     "Ultimate Spore Charm": [1200, 10, 10, 10, "Extremely Stale"],
+    "Ultimate Wealth Charm": [0, 0, 0, 0, "No Effect"],
     "Uncharged Scholar Charm": [0, 0, 0, 0, "No Effect"],
     "Unstable Charm": [0, 0, 0, 1, "No Effect"],
     "Valentine Charm": [0, 0, 25, 0, "Fresh"],
