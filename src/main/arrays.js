@@ -48,7 +48,8 @@ var riftCharms = [
     "Enerchi Charm",
     "Gnarled Charm",
     "Stagnant Charm",
-    "Timesplit Charm"
+    "Timesplit Charm",
+    "Super Enerchi Charm"
 ];
 
 var labyrinthMiceClues = {
@@ -1540,6 +1541,7 @@ var basesArray = {
     "Tiki Base": [200, 18, 5, 0, "Very Fresh"],
     "Tribal Base": [175, 18, 2, 0, "Fresh"],
     "Tribal Kaboom Base": [200, 18, 2, 0, "Very Fresh"],
+    "Ultimate Iceberg Base": [200, 5, 10, 5, "Very Fresh"],
     "Washboard Base": [250, 10, 8, 8, "Extremely Stale"],
     "Wooden Base": [35, 0, 0, 0, "Very Fresh"],
     "Wooden Base with Target": [75, 0, 20, 0, "No Effect"]
@@ -1578,6 +1580,7 @@ var weaponsArray = {
     "Chrome Arcane Capturing Rod Of Never Yielding Mystery": ["Arcane", 5000, 10, 10, 20, "No Effect"],
     "Chrome DeathBot": ["Physical", 2800, 20, 15, 30, "Very Stale"],
     "Chrome DrillBot": ["Physical", 3900, 20, 0, 26, "Insanely Stale"],
+    "Chrome Grand Arcanum Trap": ["Arcane", 5000, 12, 5, 23, "Fresh"],
     "Chrome MonstroBot": ["Physical", 8500, 22, 10, 30, "No Effect"],
     "Chrome Nannybot": ["Shadow", 1200, 5, 5, 6, "Fresh"],
     "Chrome Oasis Water Node Trap": ["Hydro", 5500, 15, 5, 24, "Fresh"],
@@ -1655,6 +1658,7 @@ var weaponsArray = {
     "Phantasmic Oasis Trap": ["Hydro", 5850, 15, 20, 26, "No Effect"],
     "Pneumatic Tube Trap": ["Physical", 2300, 20, 5, 18, "No Effect"],
     "Pumpkin Pummeler": ["Shadow", 1150, 5, 10, 5, "Fresh"],
+    "Rocket Propelled Gavel Trap": ["Physical", 6200, 15, 0, 22, "Stale"],
     "Reaper's Perch": ["Shadow", 3300, 10, 5, 16, "Stale"],
     "Rewers Riposte": ["Tactical", 2900, 15, 5, 25, "Fresh"],
     "RhinoBot": ["Physical", 4950, 0, 0, 8, "Very Stale"],
@@ -1791,6 +1795,7 @@ var charmsArray = {
     "Monkey Fling Charm": [0, 0, 0, 0, "No Effect"],
     "Nanny Charm": [120, 1, 5, 0, "Very Fresh"],
     "Nerg Power Charm": [0, 0, 0, 0, "No Effect"],
+    "Nightlight Charm": [120, 0, 0, 2, "No Effect"],
     "Nightshade Farming Charm": [50, 3, 2, 0, "No Effect"],
     "Nitropop Charm": [0, 4, 0, 0, "No Effect"],
     "Oxygen Burst Charm": [0, 0, 0, 0, "No Effect"],
@@ -1805,6 +1810,7 @@ var charmsArray = {
     "Regal Charm": [1000, 0, 20, 6, "No Effect"],
 
     "Rift Antiskele Charm": [0, 0, 0, 0, "No Effect"],
+    "Rift Charm": [100, 1, 0, 0, "Stale"],
     "Rift Luck Charm": [0, 0, 0, 1, "No Effect"],
     "Rift Super Luck Charm": [0, 0, 0, 3, "No Effect"],
     "Rift Extreme Luck Charm": [0, 0, 0, 5, "No Effect"],
@@ -1848,6 +1854,7 @@ var charmsArray = {
     "Super Attraction Charm": [0, 0, 20, 0, "No Effect"],
     "Super Brain Charm": [100, 10, 10, 1, "Insanely Fresh"],
     "Super Cactus Charm": [500, 3, 5, 3, "Stale"],
+    "Super Enerchi Charm": [500, 5, 0, 0, "Fresh"],
     "Super Luck Charm": [0, 0, 0, 3, "No Effect"],
     "Super Nightshade Farming Charm": [300, 3, 2, 1, "Fresh"],
     "Super Polluted Charm": [0, 0, 0, 0, "No Effect"],
@@ -1879,6 +1886,7 @@ var charmsArray = {
     "Ultimate Polluted Charm": [0, 0, 0, 0, "No Effect"],
     "Ultimate Power Charm": [2400, 20, 0, 0, "No Effect"],
     "Ultimate Spore Charm": [1200, 10, 10, 10, "Extremely Stale"],
+    "Ultimate Wealth Charm": [0, 0, 0, 0, "No Effect"],
     "Uncharged Scholar Charm": [0, 0, 0, 0, "No Effect"],
     "Unstable Charm": [0, 0, 0, 1, "No Effect"],
     "Valentine Charm": [0, 0, 25, 0, "Fresh"],
