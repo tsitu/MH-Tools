@@ -1,10 +1,11 @@
 (function () {
     const SAMPLE_SIZE_LABEL = "SampleSize";
-    const POPULATIONS = "data/populations.csv";
+    const POPULATIONS = ["data/populations.csv", "data/pop_hw17.csv"];
 
     const fs = require("fs");
     const csv = require("csvtojson");
     const fileUtils = require("./modules/fileUtils");
+    const CombinedStream = require("combined-stream");
 
     var mapPopulations = {};
     var crePopulations = {};
@@ -18,9 +19,12 @@
         }
     });
 
-    var inputStream = fs.createReadStream(POPULATIONS);
+    var combinedStream = CombinedStream.create();
+    for (var i=0,l=POPULATIONS.length; i<l; i++) {
+        combinedStream.append(fs.createReadStream(POPULATIONS[i]));
+    }
     csvConverter
-        .fromStream(inputStream)
+        .fromStream(combinedStream)
         .on('json', function (jsonObj) {
             lineHandler(jsonObj)
         }).on('done', function (error) {

@@ -27,6 +27,7 @@
   "homepage": "https://tsitu.github.io/MH-Tools",
   "license": "Apache-2.0",
   "dependencies": {
+    "combined-stream": "^1.0.5",
     "csvtojson": "^1.1.7",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.0.2",

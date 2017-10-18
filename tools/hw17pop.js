@@ -29,6 +29,7 @@ function print (req) {
   })
 }
 
+console.log('Location,Phase,Cheese,Charm,Attraction Rate,Mouse,Sample Size')
 _.forEach(locations, function (name, id) {
   var loc = {}
   loc[ id ] = { exclude: false }
