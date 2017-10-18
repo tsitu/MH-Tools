@@ -216,7 +216,8 @@ var baselineAttArray = {
     "Null Onyx Gorgonzola": 0.99,
     "Ascended": 0.99,
     "Crescent": 0.85, // Slightly higher than Gouda?
-    "Moon": 0.9995
+    "Moon": 0.9995,
+    "Ghastly Galleon Gouda": 1.00,
 };
 
 /* Its okay using strings as keys here, JS will convert it */
