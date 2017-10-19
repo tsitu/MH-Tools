@@ -12,7 +12,8 @@
     "baselines": "node build/processBaselines.js",
     "advancement": "node build/processAdvancement.js",
     "build": "npm-run-all --parallel bookmarklet population baselines advancement",
-    "deploy": "build/deploy.sh"
+    "deploy": "build/deploy.sh",
+    "update:hw17": "node tools/hw17pop.js > data/pop_hw17.csv"
   },
   "repository": {
     "type": "git",

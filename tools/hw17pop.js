@@ -1,5 +1,6 @@
 var _ = require('lodash')
 var htpop = require('./htpop')
+var Promise = require('bluebird')
 
 var locations = {
   37: 'Town of Gnawnia',
@@ -14,9 +15,12 @@ var locations = {
   378: 'Moussu Picchu',
 }
 
+var total = 0
+
 function print (req) {
   return req.then(function (data) {
     data.forEach(function (row) {
+      total += Math.round(row.attraction * row.sample)
       console.log(
         (row.location || '-') + ',' + (row.phase || '-') + ',' +
         (row.cheese || '-') + ',' +
@@ -30,16 +34,22 @@ function print (req) {
 }
 
 console.log('Location,Phase,Cheese,Charm,Attraction Rate,Mouse,Sample Size')
-_.forEach(locations, function (name, id) {
+
+Promise.all(_.map(locations, function (name, id) {
   var loc = {}
   loc[ id ] = { exclude: false }
-  print(htpop({
+  return print(htpop({
     Location: loc,
     // Ghastly Galleon Gouda
-    Cheese: { 156: { exclude: false } }
+    Cheese: { 156: { exclude: false } },
   }, {
     retry: true,
     location: name,
     cheese: 'Ghastly Galleon Gouda',
+  }).then(function (data) {
+    console.error(name, ':', data.length && data[ 0 ].sample || 0)
+    return data
   }))
+})).finally(function () {
+  console.error('Total hunts', total)
 })

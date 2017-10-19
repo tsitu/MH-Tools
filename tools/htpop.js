@@ -37,8 +37,8 @@ module.exports = function (vars, opts) {
   opts = opts || {}
   return requestForm(serializeVars(vars), opts)
     .then(function (data) {
-      if (!data.getDetailedSAEncounterRateDataJSON) return Promise.reject('no data.getDetailedSAEncounterRateDataJSON in response')
-      if (!data.getDetailedSAEncounterRateDataJSON.mice) return Promise.reject('no data.getDetailedSAEncounterRateDataJSON.mice in response')
+      if (!data.getDetailedSAEncounterRateDataJSON) return Promise.reject('no data.getDetailedSAEncounterRateDataJSON in response: '+JSON.stringify(vars))
+      if (!data.getDetailedSAEncounterRateDataJSON.mice) return Promise.reject('no data.getDetailedSAEncounterRateDataJSON.mice in response: '+JSON.stringify(vars))
       var total = +data.getDetailedSAEncounterRateDataJSON.totalAttracted
       var sample = +data.getDetailedSAEncounterRateDataJSON.totalHunts
       return data.getDetailedSAEncounterRateDataJSON.mice.map(function (mice) {
