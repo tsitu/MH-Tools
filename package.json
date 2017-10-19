@@ -11,7 +11,9 @@
     "population": "node build/processPopulation.js",
     "baselines": "node build/processBaselines.js",
     "advancement": "node build/processAdvancement.js",
-    "build": "npm-run-all --parallel bookmarklet population baselines advancement"
+    "build": "npm-run-all --parallel bookmarklet population baselines advancement",
+    "deploy": "build/deploy.sh",
+    "update:hw17": "node tools/hw17pop.js > data/pop_hw17.csv"
   },
   "repository": {
     "type": "git",
@@ -26,9 +28,17 @@
   "homepage": "https://tsitu.github.io/MH-Tools",
   "license": "Apache-2.0",
   "dependencies": {
+    "combined-stream": "^1.0.5",
     "csvtojson": "^1.1.7",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.0.2",
     "uglify-js": "^3.0.25"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.4",
+    "request": "^2.83.0",
+    "request-debug": "^0.2.0",
+    "request-promise": "^4.2.2"
   }
 }
