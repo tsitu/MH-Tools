@@ -59,6 +59,56 @@ var setups = {
     },
     vectors: {},
     items: { potion: 'Greater Radioactive Blue Potion' }
+  },
+  fc: {
+    base: {
+      vars: { location: { 'fungal cavern': true }, charm: { 'super nighshade charm': false } },
+      fields: { location: 'Fungal Cavern' }
+    },
+    vectors: {
+      mouse: [
+        { vars: { mouse: { 'Bitter Root': true } }, fields: { mouse: 'Bitter Root' } },
+        { vars: { mouse: { 'Cavern Crumbler': true } }, fields: { mouse: 'Cavern Crumbler' } },
+        { vars: { mouse: { 'Crag Elder': true } }, fields: { mouse: 'Crag Elder' } },
+        { vars: { mouse: { 'Crystal Behemoth': true } }, fields: { mouse: 'Crystal Behemoth' } },
+        { vars: { mouse: { 'Crystal Cave Worm': true } }, fields: { mouse: 'Crystal Cave Worm' } },
+        { vars: { mouse: { 'Crystal Controller': true } }, fields: { mouse: 'Crystal Controller' } },
+        { vars: { mouse: { 'Crystal Golem': true } }, fields: { mouse: 'Crystal Golem' } },
+        { vars: { mouse: { 'Crystal Lurker': true } }, fields: { mouse: 'Crystal Lurker' } },
+        { vars: { mouse: { 'Crystal Observer': true } }, fields: { mouse: 'Crystal Observer' } },
+        { vars: { mouse: { 'Crystal Queen': true } }, fields: { mouse: 'Crystal Queen' } },
+        { vars: { mouse: { 'Crystalback': true } }, fields: { mouse: 'Crystalback' } },
+        { vars: { mouse: { 'Crystalline Slasher': true } }, fields: { mouse: 'Crystalline Slasher' } },
+        { vars: { mouse: { 'Diamondhide': true } }, fields: { mouse: 'Diamondhide' } },
+        { vars: { mouse: { 'Dirt Thing': true } }, fields: { mouse: 'Dirt Thing' } },
+        { vars: { mouse: { 'Floating Spore': true } }, fields: { mouse: 'Floating Spore' } },
+        { vars: { mouse: { 'Funglore': true } }, fields: { mouse: 'Funglore' } },
+        { vars: { mouse: { 'Gemorpher': true } }, fields: { mouse: 'Gemorpher' } },
+        { vars: { mouse: { 'Gemstone Worshipper': true } }, fields: { mouse: 'Gemstone Worshipper' } },
+        { vars: { mouse: { 'Huntereater': true } }, fields: { mouse: 'Huntereater' } },
+        { vars: { mouse: { 'Lumahead': true } }, fields: { mouse: 'Lumahead' } },
+        { vars: { mouse: { 'Mouldy Mole': true } }, fields: { mouse: 'Mouldy Mole' } },
+        { vars: { mouse: { 'Mush': true } }, fields: { mouse: 'Mush' } },
+        { vars: { mouse: { 'Mushroom Sprite': true } }, fields: { mouse: 'Mushroom Sprite' } },
+        { vars: { mouse: { 'Nightshade Masquerade': true } }, fields: { mouse: 'Nightshade Masquerade' } },
+        { vars: { mouse: { 'Quillback': true } }, fields: { mouse: 'Quillback' } },
+        { vars: { mouse: { 'Shattered Obsidian': true } }, fields: { mouse: 'Shattered Obsidian' } },
+        { vars: { mouse: { 'Spiked Burrower': true } }, fields: { mouse: 'Spiked Burrower' } },
+        { vars: { mouse: { 'Splintered Stone Sentry': true } }, fields: { mouse: 'Splintered Stone Sentry' } },
+        { vars: { mouse: { 'Spore Muncher': true } }, fields: { mouse: 'Spore Muncher' } },
+        { vars: { mouse: { 'Sporeticus': true } }, fields: { mouse: 'Sporeticus' } },
+        { vars: { mouse: { 'Stalagmite': true } }, fields: { mouse: 'Stalagmite' } },
+        { vars: { mouse: { 'Stone Maiden': true } }, fields: { mouse: 'Stone Maiden' } }
+      ]
+    },
+    items: {
+      fungus: 'Cavern Fungus',
+      nightshade: 'Nightshade',
+      mineral: 'Mineral',
+      gemstone: 'Gemstone',
+      diamond: 'Diamond',
+      crystal: 'Crystal Crucible'
+    }
   }
 }
 
@@ -82,8 +132,24 @@ function toCsv (rows) {
     })
 }
 
+var series = []
+
+if (process.argv.length > 2) {
+  for (var i = 2, l = process.argv.length; i < l; i++) {
+    var key = process.argv[ i ].toLowerCase()
+    if (setups[ key ]) {
+      series.push(setups[ key ])
+    } else {
+      console.error('Unknown config ' + key)
+      process.exit(100)
+    }
+  }
+} else {
+  series = _.values(setups)
+}
+
 Promise
-  .mapSeries(_.values(setups), function (setup) {
+  .mapSeries(series, function (setup) {
     var vectors = _.values(setup.vectors)
     if (!vectors || !vectors.length) vectors = [ [ {} ] ]
     var p = Combinatorics.cartesianProduct.apply(Combinatorics, vectors)

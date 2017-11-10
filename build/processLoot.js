@@ -3,6 +3,9 @@
     const INPUTS = [
         "data/loot-gilded.csv",
         "data/loot-mopi.csv",
+        "data/loot-laboratory.csv",
+        "data/loot-fc.csv",
+        "data/loot-frift.csv",
     ];
 
     const _ = require("lodash")
