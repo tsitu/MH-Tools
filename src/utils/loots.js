@@ -14,18 +14,39 @@
  */
 function extractMouseLoot (mouseLoots, locationName, phaseName, weaponName, baseName, cheeseName, charmName, mouseName) {
   var path = [ mouseName, locationName, phaseName, cheeseName, charmName, baseName, weaponName ]
-  var obj = mouseLoots
-
-  for (var i = 0, l = path.length; i < l && obj; i++) {
-    var key = path[ i ]
-    if (key in obj) {
-      obj = obj[ key ]
-    } else {
-      obj = obj[ '-' ]
+  var loots = {}
+  var hasMore = true
+  while (hasMore) {
+    var loot = extractByPath(mouseLoots, path)
+    for (var key in loot) {
+      if (!loot.hasOwnProperty(key)) continue
+      if (key in loots) continue
+      loots[ key ] = loot[ key ]
+    }
+    hasMore = false
+    for (var i = 0, l = path.length; i < l; i++) {
+      if (path[ i ] !== '-') {
+        path[ i ] = '-'
+        hasMore = true
+        break
+      }
     }
   }
 
-  return obj || {}
+  return loots
+
+  function extractByPath (obj, path) {
+    for (var i = 0, l = path.length; i < l && obj; i++) {
+      var key = path[ i ]
+      if (key in obj) {
+        obj = obj[ key ]
+      } else {
+        obj = obj[ '-' ]
+      }
+    }
+
+    return obj || {}
+  }
 }
 
 /**

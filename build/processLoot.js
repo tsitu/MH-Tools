@@ -6,6 +6,7 @@
         "data/loot-laboratory.csv",
         "data/loot-fc.csv",
         "data/loot-frift.csv",
+        "data/loot-specials.csv",
     ];
 
     const _ = require("lodash")

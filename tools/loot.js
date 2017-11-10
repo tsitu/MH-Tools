@@ -109,6 +109,48 @@ var setups = {
       diamond: 'Diamond',
       crystal: 'Crystal Crucible'
     }
+  },
+  special_nightshade: {
+    base: {
+      vars: {
+        charm: { 'super nightshade farming charm': true },
+        location: { 'fungal cavern': false, labyrinth: false, zokor: false }
+      },
+      fields: { charm: 'Super Nightshade Farming Charm' }
+    },
+    items: { nightshade: 'Nightshade' }
+  },
+  grift: {
+    base: {
+      vars: { location: { 'gnawnia rift': true }, charm: { 'rift vacuum': false, 'super rift vacuum': false } },
+      fields: { location: 'Gnawnia Rift' }
+    },
+    vectors: {
+      mouse: [
+        { vars: { mouse: { 'Agitated Gentle Giant': true } }, fields: { mouse: 'Agitated Gentle Giant' } },
+        { vars: { mouse: { 'Brawny': true } }, fields: { mouse: 'Brawny' } },
+        { vars: { mouse: { 'Cyborg': true } }, fields: { mouse: 'Cyborg' } },
+        { vars: { mouse: { 'Dream Drifter': true } }, fields: { mouse: 'Dream Drifter' } },
+        { vars: { mouse: { 'Excitable Electric': true } }, fields: { mouse: 'Excitable Electric' } },
+        { vars: { mouse: { 'Greyrun': true } }, fields: { mouse: 'Greyrun' } },
+        { vars: { mouse: { 'Micro': true } }, fields: { mouse: 'Micro' } },
+        { vars: { mouse: { 'Mighty Mole': true } }, fields: { mouse: 'Mighty Mole' } },
+        { vars: { mouse: { 'Raw Diamond': true } }, fields: { mouse: 'Raw Diamond' } },
+        { vars: { mouse: { 'Rift Guardian': true } }, fields: { mouse: 'Rift Guardian' } },
+        { vars: { mouse: { 'Riftweaver': true } }, fields: { mouse: 'Riftweaver' } },
+        { vars: { mouse: { 'Shard Centurion': true } }, fields: { mouse: 'Shard Centurion' } },
+        { vars: { mouse: { 'Spiritual Steel': true } }, fields: { mouse: 'Spiritual Steel' } },
+        { vars: { mouse: { 'Supernatural': true } }, fields: { mouse: 'Supernatural' } },
+        { vars: { mouse: { 'Wealth': true } }, fields: { mouse: 'Wealth' } },
+      ]
+    },
+    items: {
+      mist: 'Calcified Rift Mist',
+      potion: 'Riftiago Potion',
+      grass: 'Riftgrass',
+      dust: 'Riftdust',
+      seed: 'Magic seed'
+    }
   }
 }
 
