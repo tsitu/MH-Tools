@@ -13,21 +13,19 @@
  * @returns {object} a list with all loots
  */
 function extractMouseLoot (mouseLoots, locationName, phaseName, weaponName, baseName, cheeseName, charmName, mouseName) {
-  return getByPath(mouseLoots, [mouseName, locationName, phaseName, cheeseName, charmName, baseName, weaponName])
+  var path = [ mouseName, locationName, phaseName, cheeseName, charmName, baseName, weaponName ]
+  var obj = mouseLoots
 
-  function getByPath(obj, path) {
-    for (var i=0, l=path.length; i<l; i++) {
-      var key = path[i]
-      if (key in obj) {
-        obj = obj[key]
-      } else {
-        obj = obj['-']
-      }
+  for (var i = 0, l = path.length; i < l && obj; i++) {
+    var key = path[ i ]
+    if (key in obj) {
+      obj = obj[ key ]
+    } else {
+      obj = obj[ '-' ]
     }
-    return obj
   }
 
-  return loot
+  return obj || {}
 }
 
 /**
@@ -68,6 +66,7 @@ function accumulateLoot (accumulated, addition) {
 function lootToString (loot) {
   var res = ''
   for (var key in loot) {
+    if (key === SAMPLE_SIZE_LABEL) continue
     if (!loot.hasOwnProperty(key)) continue
     var qty = Math.round(loot[ key ] * 100) / 100
     if (qty === 0) continue
