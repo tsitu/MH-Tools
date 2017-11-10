@@ -55,15 +55,10 @@ var setups = {
   grbpotions: {
     base: {
       vars: { location: { laboratory: true }, mouse: { monster: true } },
-      fields: { location: 'Laboratory' }
+      fields: { location: 'Laboratory', mouse: 'Monster' }
     },
-    vectors: {
-      charm: [
-        { vars: { charm: { 'scientist\'s': true } }, fields: { charm: 'Scientist\'s Charm' } },
-        { vars: { charm: { 'scientist\'s': false } }, fields: { charm: '-' } }
-      ]
-    },
-    items: { potion: 'Greater Radioactive Blue Cheese Potion' }
+    vectors: {},
+    items: { potion: 'Greater Radioactive Blue Potion' }
   }
 }
 
@@ -89,7 +84,9 @@ function toCsv (rows) {
 
 Promise
   .mapSeries(_.values(setups), function (setup) {
-    var p = Combinatorics.cartesianProduct.apply(Combinatorics, _.values(setup.vectors))
+    var vectors = _.values(setup.vectors)
+    if (!vectors || !vectors.length) vectors = [ [ {} ] ]
+    var p = Combinatorics.cartesianProduct.apply(Combinatorics, vectors)
     return Promise
       .mapSeries(p.toArray(), function (iter) {
         var opts = iter.reduce(function (opts, vec) {
@@ -110,4 +107,4 @@ Promise
   })
   .reduce(function (a, b) { return a.concat(b) })
   .then(toCsv)
-  .then(function (output) { console.log(output)})
+  .then(function (output) { console.log(output) })
