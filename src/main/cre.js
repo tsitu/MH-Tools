@@ -1,6 +1,7 @@
 "use strict";
 
 var POPULATION_JSON_URL = "data/populations-cre.json";
+var LOOT_JSON_URL = "data/loot-cre.json";
 
 var cheeseCost = 0,
   sampleSize = 0,
@@ -23,7 +24,7 @@ window.onload = function() {
     "#bookmarkletloader"
   );
   loadBookmarkletFromJS(CRE_BOOKMARKLET_URL, "creBookmarklet", "#bookmarklet");
-  startPopulationLoad(POPULATION_JSON_URL);
+  startPopulationLoad(POPULATION_JSON_URL, LOOT_JSON_URL);
 
   loadDropdown("weapon", weaponKeys, weaponChanged, "<option></option>");
   loadDropdown("base", baseKeys, baseChanged, "<option></option>");
@@ -126,7 +127,7 @@ function updateCustomSetup() {
 }
 
 function checkLoadState() {
-  var loadPercentage = (popLoaded + wisdomLoaded) / 2 * 100;
+  var loadPercentage = (popLoaded + wisdomLoaded + lootLoaded) / 3 * 100;
   var status = document.getElementById("status");
   status.innerHTML = "<td>Loaded " + loadPercentage + "%...</td>";
 
@@ -233,7 +234,7 @@ function showPop(type) {
 
   function getHeaderRow() {
     var headerHTML =
-      "<tr align='left'><th align='left'>Mouse</th><th data-filter='false'>Attraction<br>Rate</th><th data-filter='false'>Catch<br>Rate</th><th data-filter='false'>Catches /<br>100 hunts</th><th data-filter='false'>Gold</th><th data-filter='false'>Points</th><th data-filter='false'>Tourney<br>Points</th><th data-filter='false'>Min.<br>Luck</th>";
+      "<tr align='left'><th align='left'>Mouse</th><th data-filter='false'>Attraction<br>Rate</th><th data-filter='false'>Catch<br>Rate</th><th data-filter='false'>Catches /<br>100 hunts</th><th data-filter='false'>Gold</th><th data-filter='false'>Points</th><th data-filter='false'>Tourney<br>Points</th><th data-filter='false'>Min.<br>Luck</th><th>Loot</th>";
     if (rank) {
       headerHTML += "<th data-filter='false'>Rank</th>";
     }
@@ -310,6 +311,7 @@ function showPop(type) {
     var overallTP = 0;
     var minLuckOverall = 0;
     var overallProgress = 0;
+    var overallLoot = {};
 
     if (
       specialCharmsList &&
@@ -592,6 +594,10 @@ function showPop(type) {
         var gold = catches * mouseGold / 100;
         var points = catches * mousePoints / 100;
 
+        var loot = extractMouseLoot(mouseLoot, locationName, phaseName, weaponName, baseName, cheeseName, charmName, mouseName);
+        var catchAffectedLoot = multiplyLoot(loot, catches)
+        accumulateLoot(overallLoot, catchAffectedLoot)
+
         var tournamentMice = tourneysArray[tournamentName];
         if (tournamentMice) {
           var tourneyPoints = tournamentMice[mouseName] || 0;
@@ -627,6 +633,8 @@ function showPop(type) {
           tourneyPoints +
           "</td><td>" +
           minLuckValue +
+          "</td><td>" +
+          lootToString(loot) +
           "</td>";
 
         if (rank) {
@@ -791,6 +799,8 @@ function showPop(type) {
       overallTP.toFixed(2) +
       "</td><td>" +
       minLuckOverall +
+      "</td><td>" +
+      lootToString(overallLoot) +
       "</td>";
     if (rank) {
       resultsHTML += "<td>" + overallProgress.toFixed(4) + "%</td>";
