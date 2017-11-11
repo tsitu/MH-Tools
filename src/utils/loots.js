@@ -1,7 +1,8 @@
 "use strict";
 
 /**
- * Extract the loot the specific mouse should drop in the given location, phase, weapon, base, cheese and charm
+ * Extract the loot the specific mouse should drop in the given location, phase, weapon, base, cheese and charm.
+ *
  * @param {{mouse: {location: {phase: {cheese: {charm: {base: {trap: {loot: number}}}}}}}}} mouseLoots
  * @param {string} locationName
  * @param {string} phaseName
@@ -16,6 +17,8 @@ function extractMouseLoot (mouseLoots, locationName, phaseName, weaponName, base
   var path = [ mouseName, locationName, phaseName, cheeseName, charmName, baseName, weaponName ]
   var loots = {}
   var hasMore = true
+
+  // iterate by removing the first non-empty item from the path and adding the new loots
   while (hasMore) {
     var loot = extractByPath(mouseLoots, path)
     for (var key in loot) {
@@ -35,6 +38,17 @@ function extractMouseLoot (mouseLoots, locationName, phaseName, weaponName, base
 
   return loots
 
+  /**
+   * Get value from object by resolving path.
+   *
+   * @param {object} obj
+   * @param {string[]} path
+   * @returns {*}
+   *
+   * @example
+   * // return {c:12}
+   * extractByPath({a:{b:{c:12}}}, ['a', 'b'])
+   */
   function extractByPath (obj, path) {
     for (var i = 0, l = path.length; i < l && obj; i++) {
       var key = path[ i ]
@@ -80,7 +94,7 @@ function accumulateLoot (accumulated, addition) {
 }
 
 /**
- * Convert a list of loots into a string of the form "xxx,xxx.xxx loota, xxx lootb, ..."
+ * Convert a list of loots into a string of the form "xxx,xxx.xxx loot a, xxx loot b, ..."
  * @param {object} loot
  * @returns {string}
  */
