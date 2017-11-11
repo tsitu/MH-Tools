@@ -1,0 +1,87 @@
+Location,Phase,Trap,Base,Cheese,Charm,Mouse,Loot,Qty,Sample
+Fungal Cavern,-,-,-,-,-,Floating Spore,Nightshade,1.4999,184045
+Fungal Cavern,-,-,-,-,Nightshade Farming Charm,Floating Spore,Nightshade,2.4999,184045
+Fungal Cavern,-,-,-,-,-,Mushroom Sprite,Nightshade,0.5505,124843
+Fungal Cavern,-,-,-,-,Nightshade Farming Charm,Mushroom Sprite,Nightshade,1.1010,124843
+Fungal Cavern,-,-,-,-,-,Nightshade Masquerade,Nightshade,1.4993,41947
+Fungal Cavern,-,-,-,-,Nightshade Farming Charm,Nightshade Masquerade,Nightshade,2.4992,41947
+Fungal Cavern,-,-,-,-,Super Nightshade Farming Charm,Floating Spore,Nightshade,2.4999,184045
+Fungal Cavern,-,-,-,-,Super Nightshade Farming Charm,Mushroom Sprite,Nightshade,1.5505,124843
+Fungal Cavern,-,-,-,-,Super Nightshade Farming Charm,Nightshade Masquerade,Nightshade,2.4992,41947
+Fungal Cavern,-,-,-,-,-,Bitter Root,Cavern Fungus,0.3227,112888
+Fungal Cavern,-,-,-,-,-,Funglore,Cavern Fungus,3.4965,191369
+Fungal Cavern,-,-,-,-,-,Funglore,Flawed Orb,0.2065,191369
+Fungal Cavern,-,-,-,-,-,Lumahead,Cavern Fungus,1.2774,183269
+Fungal Cavern,-,-,-,-,-,Lumahead,Flawed Orb,0.2040,183269
+Fungal Cavern,-,-,-,-,-,Mouldy Mole,Flawed Orb,0.1399,29986
+Fungal Cavern,-,-,-,-,-,Mush,Cavern Fungus,0.7316,195941
+Fungal Cavern,-,-,-,-,-,Nightshade Masquerade,Cavern Fungus,6.5237,42043
+Fungal Cavern,-,-,-,-,-,Nightshade Masquerade,Flawed Orb,0.5936,42043
+Fungal Cavern,-,-,-,-,-,Quillback,Cavern Fungus,0.7311,161905
+Fungal Cavern,-,-,-,-,-,Spore Muncher,Flawed Orb,0.1375,31458
+Fungal Cavern,-,-,-,-,-,Sporeticus,Flawed Orb,0.1330,21945
+Fungal Cavern,-,-,-,-,-,Cavern Crumbler,Mineral,0.1018,88816
+Fungal Cavern,-,Crystal Mineral Crusher Trap,-,-,-,Cavern Crumbler,Mineral,0.2373,88816
+Fungal Cavern,-,-,-,-,-,Crag Elder,Mineral,3.9379,152174
+Fungal Cavern,-,Crystal Mineral Crusher Trap,-,-,-,Crag Elder,Mineral,5.2504,152174
+Fungal Cavern,-,-,-,-,-,Crag Elder,Simple Orb,0.5290,152174
+Fungal Cavern,-,-,-,-,-,Crystalline Slasher,Mineral,11.0036,116144
+Fungal Cavern,-,Crystal Mineral Crusher Trap,-,-,-,Crystalline Slasher,Mineral,13.0036,116144
+Fungal Cavern,-,-,-,-,-,Dirt Thing,Mineral,6.7621,120970
+Fungal Cavern,-,Crystal Mineral Crusher Trap,-,-,-,Dirt Thing,Mineral,8.4532,120970
+Fungal Cavern,-,-,-,-,-,Gemstone Worshipper,Mineral,20.0000,14931
+Fungal Cavern,-,Crystal Mineral Crusher Trap,-,-,-,Gemstone Worshipper,Mineral,22.0000,14931
+Fungal Cavern,-,-,-,-,-,Gemstone Worshipper,Simple Orb,0.2443,14931
+Fungal Cavern,-,-,-,-,-,Gemstone Worshipper,Diamond,0.0420,14931
+Fungal Cavern,-,-,-,-,Diamond Boost Charm,Gemstone Worshipper,Diamond,0.0840,14931
+Fungal Cavern,-,-,-,-,-,Gemstone Worshipper,Gemstone,0.0322,14931
+Fungal Cavern,-,-,-,-,Gemstone Boost Charm,Gemstone Worshipper,Gemstone,0.0644,14931
+Fungal Cavern,-,-,-,-,-,Shattered Obsidian,Mineral,19.9879,32669
+Fungal Cavern,-,Crystal Mineral Crusher Trap,-,-,-,Shattered Obsidian,Mineral,21.9879,32669
+Fungal Cavern,-,-,-,-,-,Shattered Obsidian,Simple Orb,0.2409,32669
+Fungal Cavern,-,-,-,-,-,Shattered Obsidian,Gemstone,0.0311,32669
+Fungal Cavern,-,-,-,-,Gemstone Boost Charm,Shattered Obsidian,Gemstone,0.0622,32669
+Fungal Cavern,-,-,-,-,-,Shattered Obsidian,Diamond,0.0200,32669
+Fungal Cavern,-,-,-,-,Diamond Boost Charm,Shattered Obsidian,Diamond,0.0400,32669
+Fungal Cavern,-,-,-,-,-,Splintered Stone Sentry,Mineral,14.0023,23581
+Fungal Cavern,-,Crystal Mineral Crusher Trap,-,-,-,Splintered Stone Sentry,Mineral,16.0023,23581
+Fungal Cavern,-,-,-,-,-,Splintered Stone Sentry,Simple Orb,0.2432,23581
+Fungal Cavern,-,-,-,-,-,Splintered Stone Sentry,Diamond,0.0204,23581
+Fungal Cavern,-,-,-,-,Diamond Boost Charm,Splintered Stone Sentry,Diamond,0.0407,23581
+Fungal Cavern,-,-,-,-,-,Splintered Stone Sentry,Gemstone,0.0197,23581
+Fungal Cavern,-,-,-,-,Gemstone Boost Charm,Splintered Stone Sentry,Gemstone,0.0394,23581
+Fungal Cavern,-,-,-,-,-,Stone Maiden,Mineral,1.4855,144514
+Fungal Cavern,-,Crystal Mineral Crusher Trap,-,-,-,Stone Maiden,Mineral,2.0792,144514
+Fungal Cavern,-,-,-,-,-,Crystal Cave Worm,Gemstone,1.5008,18945
+Fungal Cavern,-,-,-,-,Gemstone Boost Charm,Crystal Cave Worm,Gemstone,2.5008,18945
+Fungal Cavern,-,-,-,-,-,Crystal Cave Worm,Simple Orb,0.5568,18945
+Fungal Cavern,-,-,-,-,-,Crystal Cave Worm,Flawless Orb,0.5544,18945
+Fungal Cavern,-,-,-,-,-,Crystal Controller,Gemstone,0.4718,83922
+Fungal Cavern,-,-,-,-,Gemstone Boost Charm,Crystal Controller,Gemstone,0.9437,83922
+Fungal Cavern,-,-,-,-,-,Crystalback,Gemstone,0.4730,79872
+Fungal Cavern,-,-,-,-,Gemstone Boost Charm,Crystalback,Gemstone,0.9461,79872
+Fungal Cavern,-,-,-,-,-,Crystalback,Flawless Orb,0.1262,79872
+Fungal Cavern,-,-,-,-,-,Gemorpher,Simple Orb,0.1022,97195
+Fungal Cavern,-,-,-,-,-,Stalagmite,Gemstone,1.0000,44259
+Fungal Cavern,-,-,-,-,Gemstone Boost Charm,Stalagmite,Gemstone,2.0000,44259
+Fungal Cavern,-,-,-,-,-,Stalagmite,Flawless Orb,0.2423,44259
+Fungal Cavern,-,-,-,-,-,Crystal Golem,Diamond,1.0000,6928
+Fungal Cavern,-,-,-,-,Diamond Boost Charm,Crystal Golem,Diamond,2.0000,6928
+Fungal Cavern,-,-,-,-,-,Crystal Golem,Flawed Orb,0.5618,6928
+Fungal Cavern,-,-,-,-,-,Crystal Lurker,Diamond,0.5596,32848
+Fungal Cavern,-,-,-,-,Diamond Boost Charm,Crystal Lurker,Diamond,1.1192,32848
+Fungal Cavern,-,-,-,-,-,Crystal Observer,Diamond,0.5480,25688
+Fungal Cavern,-,-,-,-,Diamond Boost Charm,Crystal Observer,Diamond,1.0960,25688
+Fungal Cavern,-,-,-,-,-,Crystal Queen,Diamond,0.5581,42513
+Fungal Cavern,-,-,-,-,Diamond Boost Charm,Crystal Queen,Diamond,1.1162,42513
+Fungal Cavern,-,-,-,-,-,Crystal Behemoth,Crystal Crucible,10.0000,6368
+Fungal Cavern,-,-,-,-,Crucible Cloning Charm,Crystal Behemoth,Crystal Crucible,13.0000,6368
+Fungal Cavern,-,-,-,-,-,Crystal Behemoth,Ancient Relic,0.9480,6368
+Fungal Cavern,-,-,-,-,-,Crystal Behemoth,Divine Orb,0.5766,6368
+Fungal Cavern,-,-,-,-,-,Diamondhide,Divine Orb,1.5000,1156
+Fungal Cavern,-,-,-,-,-,Diamondhide,Crystal Crucible,1.9974,1156
+Fungal Cavern,-,-,-,-,Crucible Cloning Charm,Diamondhide,Crystal Crucible,4.9974,1156
+Fungal Cavern,-,-,-,-,-,Diamondhide,Ancient Relic,0.9438,1156
+Fungal Cavern,-,-,-,-,-,Huntereater,Crystal Crucible,1.0000,3835
+Fungal Cavern,-,-,-,-,Crucible Cloning Charm,Huntereater,Crystal Crucible,4.0000,3835
+Fungal Cavern,-,-,-,-,-,Huntereater,Ancient Relic,0.1030,3835

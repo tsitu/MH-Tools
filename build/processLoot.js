@@ -4,7 +4,7 @@
         "data/loot-gilded.csv",
         "data/loot-mopi.csv",
         "data/loot-laboratory.csv",
-        "data/loot-fc.csv",
+        "data/loot-fungal-cavern.csv",
         "data/loot-frift.csv",
         "data/loot-specials.csv",
     ];

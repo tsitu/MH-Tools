@@ -1,8 +1,58 @@
 "Location","Phase","Trap","Base","Cheese","Charm","Mouse","Loot","Qty","Sample"
 "Laboratory","-","-","-","-","Scientist's Charm","Bionic","Radioactive Blue Cheese Potion",1.4802744425385934,3498
+"Laboratory","-","-","-","-","Scientist's Charm","Bionic","Lab Research (1,000 bonus points)",0.24757004002287022,3498
+"Laboratory","-","-","-","-","Scientist's Charm","Bionic","SUPER|brie+",0.0005717552887364208,3498
+"Laboratory","-","-","-","-","Scientist's Charm","Black Widow","SUPER|brie+",5.384615384615385,26
+"Laboratory","-","-","-","-","Scientist's Charm","Black Widow","Ancient Relic",0.34615384615384615,26
+"Laboratory","-","-","-","-","Scientist's Charm","Burglar","Brie Cheese",10.134275618374557,283
+"Laboratory","-","-","-","-","Scientist's Charm","Burglar","Flawless Orb",0.8798586572438163,283
+"Laboratory","-","-","-","-","Scientist's Charm","Burglar","Gilded Cheese",2.522968197879859,283
 "Laboratory","-","-","-","-","Scientist's Charm","Granite","Radioactive Blue Cheese Potion",1.1144470105209134,3897
+"Laboratory","-","-","-","-","Scientist's Charm","Granite","Lab Research (500 bonus points)",0.24300744162176033,3897
+"Laboratory","-","-","-","-","Scientist's Charm","Monster","Living Shard",1.9311294765840221,363
+"Laboratory","-","-","-","-","Scientist's Charm","Monster","Cheddar Cheese",16.34710743801653,363
+"Laboratory","-","-","-","-","Scientist's Charm","Monster","Swiss Cheese",5.564738292011019,363
+"Laboratory","-","-","-","-","Scientist's Charm","Monster","Marble Cheese",8.506887052341598,363
+"Laboratory","-","-","-","-","Scientist's Charm","Monster","Brie Cheese",1.5399449035812671,363
+"Laboratory","-","-","-","-","Scientist's Charm","Monster","Lab Research (1,000 bonus points)",0.1349862258953168,363
+"Laboratory","-","-","-","-","Scientist's Charm","Monster","Greater Radioactive Blue Potion",0.1763085399449036,363
+"Laboratory","-","-","-","-","Scientist's Charm","Monster","Ancient Relic",0.005509641873278237,363
 "Laboratory","-","-","-","-","Scientist's Charm","Steel","Radioactive Blue Cheese Potion",0.729625832906202,3902
-"Laboratory","-","-","-","-","-","Bionic","Radioactive Blue Cheese Potion",0.5687971710561038,75788
-"Laboratory","-","-","-","-","-","Granite","Radioactive Blue Cheese Potion",0.42470645851001565,83719
-"Laboratory","-","-","-","-","-","Steel","Radioactive Blue Cheese Potion",0.2825401376146789,83712
-"Laboratory","-","-","-","-","-","Monster","Greater Radioactive Blue Potion",0.18396077190762417,12644
+"Laboratory","-","-","-","-","Scientist's Charm","Steel","Lab Research (750 bonus points)",0.24525884161968223,3902
+"Laboratory","-","-","-","-","Scientist's Charm","Steel","Scrap Metal",0.0033316248077908763,3902
+"Laboratory","-","-","-","-","Scientist's Charm","Steel","SUPER|brie+",0.0005125576627370579,3902
+"Laboratory","-","-","-","-","-","Bionic","Radioactive Blue Cheese Potion",0.56871100088387,75803
+"Laboratory","-","-","-","-","-","Bionic","Lab Research (1,000 bonus points)",0.2814400485468913,75803
+"Laboratory","-","-","-","-","-","Bionic","SUPER|brie+",0.0006859886811867604,75803
+"Laboratory","-","-","-","-","-","Black Widow","SUPER|brie+",5.29553264604811,582
+"Laboratory","-","-","-","-","-","Black Widow","Ancient Relic",0.5996563573883161,582
+"Laboratory","-","-","-","-","-","Burglar","Brie Cheese",10.338957055214724,3260
+"Laboratory","-","-","-","-","-","Burglar","Flawless Orb",0.8466257668711656,3260
+"Laboratory","-","-","-","-","-","Burglar","Gilded Cheese",2.5840490797546014,3260
+"Laboratory","-","-","-","-","-","Dwarf","SUPER|brie+",0.0007508760220256966,11986
+"Laboratory","-","-","-","-","-","Granite","Radioactive Blue Cheese Potion",0.4247038310881819,83736
+"Laboratory","-","-","-","-","-","Granite","Lab Research (500 bonus points)",0.2817426196617942,83736
+"Laboratory","-","-","-","-","-","Granite","Radioactive Sludge",0.005696474634565778,83736
+"Laboratory","-","-","-","-","-","Granite","SUPER|brie+",0.0006687685105569886,83736
+"Laboratory","-","-","-","-","-","Granite","Lab Research (750 bonus points)",0.000011942294831374797,83736
+"Laboratory","-","-","-","-","-","Monster","Living Shard",2.0060187067913784,12295
+"Laboratory","-","-","-","-","-","Monster","Cheddar Cheese",16.976250508336722,12295
+"Laboratory","-","-","-","-","-","Monster","Swiss Cheese",5.793737291581944,12295
+"Laboratory","-","-","-","-","-","Monster","Marble Cheese",7.682553883692558,12295
+"Laboratory","-","-","-","-","-","Monster","Brie Cheese",1.5991053273688491,12295
+"Laboratory","-","-","-","-","-","Monster","Lab Research (1,000 bonus points)",0.12452216348108987,12295
+"Laboratory","-","-","-","-","-","Monster","Greater Radioactive Blue Potion",0.18397722651484344,12295
+"Laboratory","-","-","-","-","-","Monster","Ancient Relic",0.013745424969499797,12295
+"Laboratory","-","-","-","-","-","Monster","SUPER|brie+",0.0008946726311508743,12295
+"Laboratory","-","-","-","-","-","Mutated Brown","SUPER|brie+",0.0011039050641644817,7247
+"Laboratory","-","-","-","-","-","Mutated Grey","Radioactive Sludge",0.005865423148384276,27449
+"Laboratory","-","-","-","-","-","Mutated Grey","SUPER|brie+",0.0006921927939087034,27449
+"Laboratory","-","-","-","-","-","Mutated White","Radioactive Sludge",0.005400860256783416,30921
+"Laboratory","-","-","-","-","-","Mutated White","SUPER|brie+",0.0005174476892726626,30921
+"Laboratory","-","-","-","-","-","Steel","Radioactive Blue Cheese Potion",0.2825645558130091,83726
+"Laboratory","-","-","-","-","-","Steel","Lab Research (750 bonus points)",0.2809521534529298,83726
+"Laboratory","-","-","-","-","-","Steel","Scrap Metal",0.006282397343716408,83726
+"Laboratory","-","-","-","-","-","Steel","Radioactive Sludge",0.005135800109882235,83726
+"Laboratory","-","-","-","-","-","Steel","SUPER|brie+",0.0005494111745455414,83726
+"Laboratory","-","-","-","-","-",,"Radioactive Sludge",0.005932822197882439,21912
+"Laboratory","-","-","-","-","-",,"SUPER|brie+",0.0006389193136181087,21912
