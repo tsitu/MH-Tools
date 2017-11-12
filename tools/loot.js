@@ -20,8 +20,11 @@ var fields = [
 ]
 
 var setups = {
-  laboratory: require('./lootSetups/laboratory'),
+  'laboratory': require('./lootSetups/laboratory'),
   'fungal-cavern': require('./lootSetups/fungal-cavern'),
+  'great-gnarled-tree': require('./lootSetups/great-gnarled-tree'),
+  'lagoon': require('./lootSetups/lagoon'),
+  'calm-clearing': require('./lootSetups/calm-clearing')
   // gilded: [ {
   //   base: [ {
   //     vars: { mouse: { burglar: true } },

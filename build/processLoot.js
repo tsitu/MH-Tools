@@ -7,6 +7,9 @@
         "data/loot-fungal-cavern.csv",
         "data/loot-frift.csv",
         "data/loot-specials.csv",
+        "data/loot-calm-clearing.csv",
+        "data/loot-great-gnarled-tree.csv",
+        "data/loot-lagoon.csv",
     ];
 
     const _ = require("lodash")

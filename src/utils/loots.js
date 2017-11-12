@@ -114,7 +114,7 @@ function lootToString (loot) {
     if (qty === 0) continue
 
     if (res !== '') res += ', '
-    res += commafy(qty) + '&nbsp;' + key.replace(/\W/g, '&nbsp;')
+    res += commafy(qty) + '&nbsp;' + key.replace(/ /g, '&nbsp;')
   }
   return res
 }
