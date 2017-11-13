@@ -1,4 +1,3 @@
-var ht = require('horntracker-client')
 var utils = require('./_utils')
 var genVarField = utils.genVarField
 

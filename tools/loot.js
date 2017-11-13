@@ -81,6 +81,7 @@ var setups = {
   'gnawnia-rift': require('./lootSetups/gnawnia-rift'),
   'burroughs-rift': require('./lootSetups/burroughs-rift'),
   'whisker-woods-rift': require('./lootSetups/whisker-woods-rift'),
+  'furoma-rift': require('./lootSetups/furoma-rift'),
   // gilded: [ {
   //   base: [ {
   //     vars: { mouse: { burglar: true } },
