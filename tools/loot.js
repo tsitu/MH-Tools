@@ -63,6 +63,15 @@ var setups = {
   'crystal-library': require('./lootSetups/crystal-library'),
   'iceberg': require('./lootSetups/iceberg'),
   'sunken-city': require('./lootSetups/sunken-city'),
+  // Sandtail Desert
+  'fiery-warpath': require('./lootSetups/fiery-warpath'),
+  'muridae-market': require('./lootSetups/muridae-market'),
+  'living-garden': require('./lootSetups/living-garden'),
+  'lost-city': require('./lootSetups/lost-city'),
+  'sand-dunes': require('./lootSetups/sand-dunes'),
+  'twisted-garden': require('./lootSetups/twisted-garden'),
+  'cursed-city': require('./lootSetups/cursed-city'),
+  'sand-crypts': require('./lootSetups/sand-crypts'),
   // Hollow Heights
   'fungal-cavern': require('./lootSetups/fungal-cavern'),
   // gilded: [ {
