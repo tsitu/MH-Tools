@@ -78,7 +78,8 @@ var setups = {
   'zokor': require('./lootSetups/zokor'),
   'moussu-picchu': require('./lootSetups/moussu-picchu'),
   // Rift
-  
+  'gnawnia-rift': require('./lootSetups/gnawnia-rift'),
+  'burroughs-rift': require('./lootSetups/burroughs-rift'),
   // gilded: [ {
   //   base: [ {
   //     vars: { mouse: { burglar: true } },
