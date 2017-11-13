@@ -7,7 +7,7 @@ var genVarField = utils.genVarField
  */
 module.exports = [
   {
-    base: genVarField('location', 'Elub Shore', {
+    base: genVarField('location', 'Nerg Plains', {
       vars: {
         // Isle Idol Trap increase drops of seashells, savoury vegetables, delicious stones and seeds
         trap: {'Isle Idol': false},

@@ -77,6 +77,8 @@ var setups = {
   'labyrinth': require('./lootSetups/labyrinth'),
   'zokor': require('./lootSetups/zokor'),
   'moussu-picchu': require('./lootSetups/moussu-picchu'),
+  // Rift
+  
   // gilded: [ {
   //   base: [ {
   //     vars: { mouse: { burglar: true } },
