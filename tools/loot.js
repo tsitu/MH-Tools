@@ -43,6 +43,14 @@ var setups = {
   'catacombs': require('./lootSetups/catacombs'),
   'forbidden-grove': require('./lootSetups/forbidden-grove'),
   'acolyte-realm': require('./lootSetups/acolyte-realm'),
+  // Tribal Isles
+  'cape-clawed': require('./lootSetups/cape-clawed'),
+  'elub-shore': require('./lootSetups/elub-shore'),
+  'nerg-plains': require('./lootSetups/nerg-plains'),
+  'derr-dunes': require('./lootSetups/derr-dunes'),
+  'jungle-of-dread': require('./lootSetups/jungle-of-dread'),
+  'dracano': require('./lootSetups/dracano'),
+  'balacks-cove': require('./lootSetups/balacks-cove'),
   // Hollow Heights
   'fungal-cavern': require('./lootSetups/fungal-cavern'),
   // gilded: [ {
