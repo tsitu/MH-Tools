@@ -39,6 +39,10 @@ var setups = {
   'dojo': require('./lootSetups/dojo'),
   'meditation-room': require('./lootSetups/meditation-room'),
   'pinnacle-chamber': require('./lootSetups/pinnacle-chamber'),
+  // Bristle Woods
+  'catacombs': require('./lootSetups/catacombs'),
+  'forbidden-grove': require('./lootSetups/forbidden-grove'),
+  'acolyte-realm': require('./lootSetups/acolyte-realm'),
   // Hollow Heights
   'fungal-cavern': require('./lootSetups/fungal-cavern'),
   // gilded: [ {
