@@ -20,11 +20,27 @@ var fields = [
 ]
 
 var setups = {
-  'laboratory': require('./lootSetups/laboratory'),
-  'fungal-cavern': require('./lootSetups/fungal-cavern'),
+  // Gnawnia
+  // Valour
+  'kings-arms': require('./lootSetups/kings-arms'),
+  'tournament-hall': require('./lootSetups/tournament-hall'),
+  'kings-gauntlet': require('./lootSetups/kings-gauntlet'),
+  // Whisker Woods
+  'calm-clearing': require('./lootSetups/calm-clearing'),
   'great-gnarled-tree': require('./lootSetups/great-gnarled-tree'),
   'lagoon': require('./lootSetups/lagoon'),
-  'calm-clearing': require('./lootSetups/calm-clearing')
+  // Burroughs
+  'laboratory': require('./lootSetups/laboratory'),
+  'town-of-digby': require('./lootSetups/town-of-digby'),
+  'mousoleum': require('./lootSetups/mousoleum'),
+  'bazaar': require('./lootSetups/bazaar'),
+  // Furoma
+  'training-grounds': require('./lootSetups/training-grounds'),
+  'dojo': require('./lootSetups/dojo'),
+  'meditation-room': require('./lootSetups/meditation-room'),
+  'pinnacle-chamber': require('./lootSetups/pinnacle-chamber'),
+  // Hollow Heights
+  'fungal-cavern': require('./lootSetups/fungal-cavern'),
   // gilded: [ {
   //   base: [ {
   //     vars: { mouse: { burglar: true } },
