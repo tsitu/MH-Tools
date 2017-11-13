@@ -62,6 +62,7 @@ var setups = {
   'zugzwangs-tower': require('./lootSetups/zugzwangs-tower'),
   'crystal-library': require('./lootSetups/crystal-library'),
   'iceberg': require('./lootSetups/iceberg'),
+  'sunken-city': require('./lootSetups/sunken-city'),
   // Hollow Heights
   'fungal-cavern': require('./lootSetups/fungal-cavern'),
   // gilded: [ {

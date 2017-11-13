@@ -40,7 +40,7 @@ function genBonusLootProcessor (config) {
         }
         if (!suitable) continue
         result.push(_.assign({}, loot, cfg.fields, {
-          qty: loot.qty & (cfg.qtyMply || 1) + loot.chance * (cfg.qty || 0) + (cfg.qty2 || 0)
+          qty: loot.qty * (cfg.qtyMply || 1) + loot.chance * (cfg.qty || 0) + (cfg.qty2 || 0)
         }))
       }
     })
