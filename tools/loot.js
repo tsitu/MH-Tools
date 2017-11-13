@@ -51,6 +51,17 @@ var setups = {
   'jungle-of-dread': require('./lootSetups/jungle-of-dread'),
   'dracano': require('./lootSetups/dracano'),
   'balacks-cove': require('./lootSetups/balacks-cove'),
+  // Varmint Valley
+  'claw-shot-city': require('./lootSetups/claw-shot-city'),
+  'gnawnian-express-station': require('./lootSetups/gnawnian-express-station'),
+  'fort-rox': require('./lootSetups/fort-rox'),
+  // Rodentia
+  'ss-huntington-iii': require('./lootSetups/ss-huntington-iii'),
+  'slushy-shoreline': require('./lootSetups/slushy-shoreline'),
+  'seasonal-garden': require('./lootSetups/seasonal-garden'),
+  'zugzwangs-tower': require('./lootSetups/zugzwangs-tower'),
+  'crystal-library': require('./lootSetups/crystal-library'),
+  'iceberg': require('./lootSetups/iceberg'),
   // Hollow Heights
   'fungal-cavern': require('./lootSetups/fungal-cavern'),
   // gilded: [ {
