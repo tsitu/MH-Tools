@@ -76,6 +76,7 @@ var setups = {
   'fungal-cavern': require('./lootSetups/fungal-cavern'),
   'labyrinth': require('./lootSetups/labyrinth'),
   'zokor': require('./lootSetups/zokor'),
+  'moussu-picchu': require('./lootSetups/moussu-picchu'),
   // gilded: [ {
   //   base: [ {
   //     vars: { mouse: { burglar: true } },
