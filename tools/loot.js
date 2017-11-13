@@ -74,6 +74,8 @@ var setups = {
   'sand-crypts': require('./lootSetups/sand-crypts'),
   // Hollow Heights
   'fungal-cavern': require('./lootSetups/fungal-cavern'),
+  'labyrinth': require('./lootSetups/labyrinth'),
+  'zokor': require('./lootSetups/zokor'),
   // gilded: [ {
   //   base: [ {
   //     vars: { mouse: { burglar: true } },
