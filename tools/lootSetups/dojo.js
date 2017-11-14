@@ -9,7 +9,7 @@ var genVarField = utils.genVarField
  */
 module.exports = [
   { // regular
-    base: genVarField('location', 'Training Grounds', {
+    base: genVarField('location', 'Dojo', {
       opts: {
         include_items: [
           'Ancient Relic',
@@ -22,7 +22,7 @@ module.exports = [
     mouse: genVarField('mouse', [ 'Assassin', 'Diamond', 'Gold', 'Worker' ])
   },
   {
-    base: genVarField('location', 'Training Grounds', {
+    base: genVarField('location', 'Dojo', {
       opts: {
         include_items: [
           'Token of the Cheese Belt',

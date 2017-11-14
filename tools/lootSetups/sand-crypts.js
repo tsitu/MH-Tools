@@ -2,11 +2,11 @@ var utils = require('./_utils')
 var genVarField = utils.genVarField
 
 /**
- * Twisted Garden
+ * Sand Crypts
  */
 module.exports = [
   {
-    location: genVarField('location', 'Twisted Garden'),
+    location: genVarField('location', 'Sand Crypts'),
     // phase: [
     //   { vars: { 'Cursed City Curse': { 0: true } }, fields: { phase: 'Curse Lifted' } },
     //   { vars: { 'Cursed City Curse': { 1: true } }, fields: { phase: 'Cursed' } }
