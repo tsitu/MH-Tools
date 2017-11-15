@@ -62,6 +62,7 @@
         "data/loot-burroughs-rift.csv",
         "data/loot-whisker-woods-rift.csv",
         "data/loot-furoma-rift.csv",
+        "data/loot-bristle-woods-rift.csv",
         // Other
         "data/loot-gilded.csv",
         "data/loot-specials.csv",
