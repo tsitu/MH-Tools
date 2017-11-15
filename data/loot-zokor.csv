@@ -1,66 +1,66 @@
 "Location","Phase","Trap","Base","Cheese","Charm","Mouse","Loot","Qty","Sample"
-"Zokor","-","-","-","-","-","Reanimated Carver","Lantern Oil",3.2481117824773413,2648
-"Zokor","-","-","-","-","-","Reanimated Carver","Divine Orb",0.03134441087613293,2648
-"Zokor","-","-","-","-","-","Mush Monster","Cavern Fungus",6.6468378209142145,1597
-"Zokor","-","-","-","-","-","Mushroom Harvester","Cavern Fungus",2.3043478260869565,69
-"Zokor","-","-","-","-","-","Nightshade Fungalmancer","Nightshade",2.8007181328545783,1114
-"Zokor","-","-","-","-","Nightshade Farming Charm","Nightshade Fungalmancer","Nightshade",3.734290843806104,1114
-"Zokor","-","-","-","-","Super Nightshade Farming Charm","Nightshade Fungalmancer","Nightshade",3.8007181328545783,1114
-"Zokor","-","-","-","-","-","Nightshade Fungalmancer","Cavern Fungus",5.121184919210054,1114
-"Zokor","-","-","-","-","-","Nightshade Nanny","Nightshade",2.7857142857142856,644
-"Zokor","-","-","-","-","Nightshade Farming Charm","Nightshade Nanny","Nightshade",3.7142857142857144,644
-"Zokor","-","-","-","-","Super Nightshade Farming Charm","Nightshade Nanny","Nightshade",3.7857142857142856,644
-"Zokor","-","-","-","-","-","Nightshade Nanny","Cavern Fungus",2.329192546583851,644
-"Zokor","-","-","-","-","-","Battle Cleric","Plate of Fealty",2.4026162790697674,2064
-"Zokor","-","-","-","-","-","Dark Templar","Plate of Fealty",2.884514435695538,381
-"Zokor","-","-","-","-","-","Drudge","Plate of Fealty",0.9262295081967213,122
-"Zokor","-","-","-","-","-","Masked Pikeman","Plate of Fealty",0.9150943396226415,106
-"Zokor","-","-","-","-","-","Mind Tearer","Plate of Fealty",3.918864097363083,493
-"Zokor","-","-","-","-","-","Paladin Weapon Master","Infused Plate",0.9827586206896551,116
-"Zokor","-","-","-","-","-","Paladin Weapon Master","Plate of Fealty",14.5,116
-"Zokor","-","-","-","-","-","Paladin Weapon Master","Ancient Relic",0.13793103448275862,116
-"Zokor","-","-","-","-","-","Sir Fleekio","Plate of Fealty",7.693142857142857,1750
-"Zokor","-","-","-","-","-","Sir Fleekio","Simple Orb",0.23885714285714285,1750
-"Zokor","-","-","-","-","-","Sir Fleekio","Flawed Orb",0.22114285714285714,1750
-"Zokor","-","-","-","-","-","Sir Fleekio","Flawless Orb",0.11828571428571429,1750
-"Zokor","-","-","-","-","-","Sir Fleekio","Divine Orb",0.018857142857142857,1750
-"Zokor","-","-","-","-","-","Solemn Soldier","Plate of Fealty",0.9743589743589743,273
-"Zokor","-","-","-","-","-","Ancient Scribe","Scholar Scroll",7.478048780487805,1640
-"Zokor","-","-","-","-","-","Ancient Scribe","Simple Orb",0.2573170731707317,1640
-"Zokor","-","-","-","-","-","Ancient Scribe","Flawed Orb",0.23414634146341465,1640
-"Zokor","-","-","-","-","-","Ancient Scribe","Flawless Orb",0.11463414634146342,1640
-"Zokor","-","-","-","-","-","Ancient Scribe","Divine Orb",0.03048780487804878,1640
-"Zokor","-","-","-","-","-","Ethereal Guardian","Scholar Scroll",2.363824289405685,1935
-"Zokor","-","-","-","-","-","Mystic Guardian","Scholar Scroll",0.9458333333333333,240
-"Zokor","-","-","-","-","-","Mystic Herald","Scholar Scroll",3.732038834951456,515
-"Zokor","-","-","-","-","-","Mystic Scholar","Scholar Scroll",2.82967032967033,364
-"Zokor","-","-","-","-","-","Sanguinarian","Scholar Scroll",0.9294117647058824,85
-"Zokor","-","-","-","-","-","Soul Binder","Scholar Scroll",14.78448275862069,116
-"Zokor","-","-","-","-","-","Soul Binder","Ancient Relic",0.09482758620689655,116
-"Zokor","-","-","-","-","-","Summoning Scholar","Scholar Scroll",0.9207920792079208,101
-"Zokor","-","-","-","-","-","Ash Golem","Tech Power Core",0.8372093023255814,86
-"Zokor","-","-","-","-","-","Automated Stone Sentry","Tech Power Core",3.803992740471869,551
-"Zokor","-","-","-","-","-","Exo-Tech","Tech Power Core",2.4179580674567003,2194
-"Zokor","-","-","-","-","-","Fungal Technomorph","Tech Power Core",2.3606965174129355,402
-"Zokor","-","-","-","-","-","Manaforge Smith","Tech Power Core",13.93006993006993,143
-"Zokor","-","-","-","-","-","Manaforge Smith","Ancient Relic",0.18181818181818182,143
-"Zokor","-","-","-","-","-","Matron of Machinery","Tech Power Core",7.742825607064018,1812
-"Zokor","-","-","-","-","-","Matron of Machinery","Simple Orb",0.25496688741721857,1812
-"Zokor","-","-","-","-","-","Matron of Machinery","Flawed Orb",0.22571743929359822,1812
-"Zokor","-","-","-","-","-","Matron of Machinery","Flawless Orb",0.12858719646799116,1812
-"Zokor","-","-","-","-","-","Matron of Machinery","Divine Orb",0.019867549668874173,1812
-"Zokor","-","-","-","-","-","RR-8","Tech Power Core",0.8907563025210085,119
-"Zokor","-","-","-","-","-","Tech Golem","Tech Power Core",0.9552238805970149,268
-"Zokor","-","-","-","-","-","Hired Eidolon","Scholar Scroll",1.728813559322034,236
-"Zokor","-","-","-","-","-","Hired Eidolon","Tech Power Core",1.728813559322034,236
-"Zokor","-","-","-","-","-","Hired Eidolon","Plate of Fealty",1.728813559322034,236
-"Zokor","-","-","-","-","-","Matron of Wealth","Scholar Scroll",3.699248120300752,133
-"Zokor","-","-","-","-","-","Matron of Wealth","Tech Power Core",3.556390977443609,133
-"Zokor","-","-","-","-","-","Matron of Wealth","Plate of Fealty",3.5413533834586466,133
-"Zokor","-","-","-","-","-","Mimic","Scholar Scroll",2.1017964071856285,167
-"Zokor","-","-","-","-","-","Mimic","Tech Power Core",2.197604790419162,167
-"Zokor","-","-","-","-","-","Mimic","Plate of Fealty",2.089820359281437,167
-"Zokor","-","-","-","-","-","Molten Midas","Unstable Crystal",0.9106628242074928,347
-"Zokor","-","-","-","-","-","Treasure Brawler","Scholar Scroll",1.9298245614035088,57
-"Zokor","-","-","-","-","-","Treasure Brawler","Tech Power Core",1.9298245614035088,57
-"Zokor","-","-","-","-","-","Treasure Brawler","Plate of Fealty",1.9298245614035088,57
+"Zokor","-","-","-","-","-","Reanimated Carver","Lantern Oil",3.4226024671707123,2513
+"Zokor","-","-","-","-","-","Reanimated Carver","Divine Orb",0.03302825308396339,2513
+"Zokor","-","-","-","-","-","Mush Monster","Cavern Fungus",7.011228533685601,1514
+"Zokor","-","-","-","-","-","Mushroom Harvester","Cavern Fungus",3.0576923076923075,52
+"Zokor","-","-","-","-","-","Nightshade Fungalmancer","Nightshade",3,1040
+"Zokor","-","-","-","-","Nightshade Farming Charm","Nightshade Fungalmancer","Nightshade",4,1040
+"Zokor","-","-","-","-","Super Nightshade Farming Charm","Nightshade Fungalmancer","Nightshade",4,1040
+"Zokor","-","-","-","-","-","Nightshade Fungalmancer","Cavern Fungus",5.485576923076923,1040
+"Zokor","-","-","-","-","-","Nightshade Nanny","Nightshade",3,598
+"Zokor","-","-","-","-","Nightshade Farming Charm","Nightshade Nanny","Nightshade",4,598
+"Zokor","-","-","-","-","Super Nightshade Farming Charm","Nightshade Nanny","Nightshade",4,598
+"Zokor","-","-","-","-","-","Nightshade Nanny","Cavern Fungus",2.508361204013378,598
+"Zokor","-","-","-","-","-","Battle Cleric","Plate of Fealty",2.503281171125694,1981
+"Zokor","-","-","-","-","-","Dark Templar","Plate of Fealty",2.9702702702702704,370
+"Zokor","-","-","-","-","-","Drudge","Plate of Fealty",1,113
+"Zokor","-","-","-","-","-","Masked Pikeman","Plate of Fealty",1,97
+"Zokor","-","-","-","-","-","Mind Tearer","Plate of Fealty",4.025,480
+"Zokor","-","-","-","-","-","Paladin Weapon Master","Infused Plate",1,114
+"Zokor","-","-","-","-","-","Paladin Weapon Master","Plate of Fealty",14.75438596491228,114
+"Zokor","-","-","-","-","-","Paladin Weapon Master","Ancient Relic",0.14035087719298245,114
+"Zokor","-","-","-","-","-","Sir Fleekio","Plate of Fealty",8.008923259964307,1681
+"Zokor","-","-","-","-","-","Sir Fleekio","Simple Orb",0.24866151100535397,1681
+"Zokor","-","-","-","-","-","Sir Fleekio","Flawed Orb",0.23022010707911958,1681
+"Zokor","-","-","-","-","-","Sir Fleekio","Flawless Orb",0.12314098750743604,1681
+"Zokor","-","-","-","-","-","Sir Fleekio","Divine Orb",0.019631171921475312,1681
+"Zokor","-","-","-","-","-","Solemn Soldier","Plate of Fealty",1,266
+"Zokor","-","-","-","-","-","Ancient Scribe","Scholar Scroll",7.979180221210149,1537
+"Zokor","-","-","-","-","-","Ancient Scribe","Simple Orb",0.2745608327911516,1537
+"Zokor","-","-","-","-","-","Ancient Scribe","Flawed Orb",0.2498373454782043,1537
+"Zokor","-","-","-","-","-","Ancient Scribe","Flawless Orb",0.12231620039037085,1537
+"Zokor","-","-","-","-","-","Ancient Scribe","Divine Orb",0.03253090435914118,1537
+"Zokor","-","-","-","-","-","Ethereal Guardian","Scholar Scroll",2.5076754385964914,1824
+"Zokor","-","-","-","-","-","Mystic Guardian","Scholar Scroll",1,227
+"Zokor","-","-","-","-","-","Mystic Herald","Scholar Scroll",3.9385245901639343,488
+"Zokor","-","-","-","-","-","Mystic Scholar","Scholar Scroll",2.9597701149425286,348
+"Zokor","-","-","-","-","-","Sanguinarian","Scholar Scroll",1,79
+"Zokor","-","-","-","-","-","Soul Binder","Scholar Scroll",15.3125,112
+"Zokor","-","-","-","-","-","Soul Binder","Ancient Relic",0.09821428571428571,112
+"Zokor","-","-","-","-","-","Summoning Scholar","Scholar Scroll",1,93
+"Zokor","-","-","-","-","-","Ash Golem","Tech Power Core",1,72
+"Zokor","-","-","-","-","-","Automated Stone Sentry","Tech Power Core",3.9547169811320755,530
+"Zokor","-","-","-","-","-","Exo-Tech","Tech Power Core",2.511837121212121,2112
+"Zokor","-","-","-","-","-","Fungal Technomorph","Tech Power Core",2.490813648293963,381
+"Zokor","-","-","-","-","-","Manaforge Smith","Tech Power Core",14.977443609022556,133
+"Zokor","-","-","-","-","-","Manaforge Smith","Ancient Relic",0.19548872180451127,133
+"Zokor","-","-","-","-","-","Matron of Machinery","Tech Power Core",8.00342270393611,1753
+"Zokor","-","-","-","-","-","Matron of Machinery","Simple Orb",0.26354820308043353,1753
+"Zokor","-","-","-","-","-","Matron of Machinery","Flawed Orb",0.23331431831146607,1753
+"Zokor","-","-","-","-","-","Matron of Machinery","Flawless Orb",0.13291500285225327,1753
+"Zokor","-","-","-","-","-","Matron of Machinery","Divine Orb",0.02053622361665716,1753
+"Zokor","-","-","-","-","-","RR-8","Tech Power Core",1,106
+"Zokor","-","-","-","-","-","Tech Golem","Tech Power Core",1,256
+"Zokor","-","-","-","-","-","Hired Eidolon","Scholar Scroll",2,204
+"Zokor","-","-","-","-","-","Hired Eidolon","Tech Power Core",2,204
+"Zokor","-","-","-","-","-","Hired Eidolon","Plate of Fealty",2,204
+"Zokor","-","-","-","-","-","Matron of Wealth","Scholar Scroll",4.1344537815126055,119
+"Zokor","-","-","-","-","-","Matron of Wealth","Tech Power Core",3.9747899159663866,119
+"Zokor","-","-","-","-","-","Matron of Wealth","Plate of Fealty",3.957983193277311,119
+"Zokor","-","-","-","-","-","Mimic","Scholar Scroll",2.471830985915493,142
+"Zokor","-","-","-","-","-","Mimic","Tech Power Core",2.584507042253521,142
+"Zokor","-","-","-","-","-","Mimic","Plate of Fealty",2.4577464788732395,142
+"Zokor","-","-","-","-","-","Molten Midas","Unstable Crystal",1,316
+"Zokor","-","-","-","-","-","Treasure Brawler","Scholar Scroll",2,55
+"Zokor","-","-","-","-","-","Treasure Brawler","Tech Power Core",2,55
+"Zokor","-","-","-","-","-","Treasure Brawler","Plate of Fealty",2,55

@@ -18,7 +18,7 @@
         "data/loot-training-grounds.csv",
         "data/loot-dojo.csv",
         "data/loot-meditation-room.csv",
-        "data/loot-pinacle-chamber.csv",
+        "data/loot-pinnacle-chamber.csv",
         // Bristle Woods
         "data/loot-catacombs.csv",
         "data/loot-forbidden-grove.csv",

@@ -60,7 +60,7 @@ module.exports = [
     loot: [ { opts: { include_items: 'Rift Circuitry', min_qty: 0.01 } } ],
     mouse: genVarField('mouse', [
       'Monstrous Abomination', 'Big Bad Behemoth Burroughs',
-      'Assassin Beast', 'Plutonium Tentacle', 'The Menace of the Rift'
+      'Assassin Beast', 'Plutonium Tentacle', 'Menace of the Rift'
     ])
   }
 ]
