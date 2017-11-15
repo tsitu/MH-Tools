@@ -59,6 +59,8 @@ module.exports = [
     mouse: genVarField('mouse', [ 'Frostlance Guard', 'Frostwing Commander', 'Icewing' ])
   },
   { // deep
-    base: genVarField('mouse', 'Deep', { opts: { include_items: [ 'Ancient Relic', ], min_qty: 0.01 } }),
+    location: [ { fields: { location: 'Iceberg' } } ],
+    mouse: genVarField('mouse', 'Deep'),
+    loot: [ { opts: { include_items: [ 'Ancient Relic', ], min_qty: 0.01 } } ]
   }
 ]

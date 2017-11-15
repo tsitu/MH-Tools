@@ -22,7 +22,7 @@ var mouseWisdom = {};
 
 /**
  * Mouse loot drops
- * @type {{mouse: {location: {phase: {cheese: {charm: {base: {trap: {loot: number}}}}}}}}}
+ * @type {{location: {phase: {mouse: {charm: {base: {trap: {cheese: {loot: number}}}}}}}}}
  */
 var mouseLoot = {};
 

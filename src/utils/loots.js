@@ -3,7 +3,7 @@
 /**
  * Extract the loot the specific mouse should drop in the given location, phase, weapon, base, cheese and charm.
  *
- * @param {{mouse: {location: {phase: {cheese: {charm: {base: {trap: {loot: number}}}}}}}}} mouseLoots
+ * @param {{location: {phase: {mouse: {charm: {base: {trap: {cheese: {loot: number}}}}}}}}} mouseLoots
  * @param {string} locationName
  * @param {string} phaseName
  * @param {string} weaponName
@@ -16,7 +16,7 @@
 function extractMouseLoot (mouseLoots, locationName, phaseName, weaponName, baseName, cheeseName, charmName, mouseName) {
   var WEIGHTS = [ 100, 100, 100, 1, 10, 10, 10 ]
   var lootSets = {}
-  var path = [ mouseName, locationName, phaseName, cheeseName, charmName, baseName, weaponName ]
+  var path = [ locationName, phaseName, mouseName, charmName, baseName, weaponName, cheeseName ]
   for (var i = 0, l = 1 << path.length; i < l; i++) {
     var p = [].concat(path)
     for (var j = 1, k = 0; j <= i; j = j << 1, k++) {

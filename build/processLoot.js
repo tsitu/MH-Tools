@@ -1,15 +1,70 @@
 (function () {
     const SAMPLE_SIZE_LABEL = "SampleSize";
     const INPUTS = [
-        "data/loot-gilded.csv",
-        "data/loot-mopi.csv",
-        "data/loot-laboratory.csv",
-        "data/loot-fungal-cavern.csv",
-        "data/loot-frift.csv",
-        "data/loot-specials.csv",
+        // Valour
+        "data/loot-kings-arms.csv",
+        "data/loot-tournament-hall.csv",
+        "data/loot-kings-gauntlet.csv",
+        // Whisker Woods
         "data/loot-calm-clearing.csv",
         "data/loot-great-gnarled-tree.csv",
         "data/loot-lagoon.csv",
+        // Burroughs
+        "data/loot-laboratory.csv",
+        "data/loot-town-of-digby.csv",
+        "data/loot-mousoleum.csv",
+        "data/loot-bazaar.csv",
+        // Furoma
+        "data/loot-training-grounds.csv",
+        "data/loot-dojo.csv",
+        "data/loot-meditation-room.csv",
+        "data/loot-pinacle-chamber.csv",
+        // Bristle Woods
+        "data/loot-catacombs.csv",
+        "data/loot-forbidden-grove.csv",
+        "data/loot-acolyte-realm.csv",
+        // Tribal Isles
+        "data/loot-cape-clawed.csv",
+        "data/loot-elub-shore.csv",
+        "data/loot-nerg-plains.csv",
+        "data/loot-derr-dunes.csv",
+        "data/loot-jungle-of-dread.csv",
+        "data/loot-dracano.csv",
+        "data/loot-balacks-cove.csv",
+        // Varmint Valley
+        "data/loot-claw-shot-city.csv",
+        "data/loot-gnawnian-express-station.csv",
+        "data/loot-fort-rox.csv",
+        // Rodentia
+        "data/loot-ss-huntington-iii.csv",
+        "data/loot-slushy-shoreline.csv",
+        "data/loot-seasonal-garden.csv",
+        "data/loot-zugzwangs-tower.csv",
+        "data/loot-crystal-library.csv",
+        "data/loot-iceberg.csv",
+        "data/loot-sunken-city.csv",
+        // Sandtail Desert
+        "data/loot-fiery-warpath.csv",
+        "data/loot-muridae-market.csv",
+        "data/loot-living-garden.csv",
+        "data/loot-lost-city.csv",
+        "data/loot-sand-dunes.csv",
+        "data/loot-twisted-garden.csv",
+        "data/loot-cursed-city.csv",
+        "data/loot-sand-crypts.csv",
+        // Hollow Heights
+        "data/loot-fungal-cavern.csv",
+        "data/loot-labyrinth.csv",
+        "data/loot-zokor.csv",
+        "data/loot-mopi.csv",
+        // Rift
+        "data/loot-gnawnia-rift.csv",
+        "data/loot-burroughs-rift.csv",
+        "data/loot-whisker-woods-rift.csv",
+        "data/loot-furoma-rift.csv",
+        // Other
+        "data/loot-gilded.csv",
+        "data/loot-specials.csv",
     ];
 
     const _ = require("lodash")
@@ -27,7 +82,7 @@
         }
     });
 
-    var inputStream = fileUtils.createCombinedStream(INPUTS);
+    var inputStream = fileUtils.createCombinedStream(INPUTS.filter(function (fn) { return fs.existsSync(fn) }));
     csvConverter
         .fromStream(inputStream)
         .on('json', function (jsonObj) {
@@ -80,9 +135,9 @@
         for (var cheeseIndex = 0; cheeseIndex < cheeses.length; cheeseIndex++) {
             var cheese = cheeses[cheeseIndex];
 
-            put(population, [row.mouse, row.location, row.phase, cheese, row.charm, row.base, row.trap, row.loot], row.qty);
+            put(population, [row.location, row.phase, row.mouse, row.charm, row.base, row.trap, cheese, row.loot], row.qty);
             if (includeSampleSize && row.sampleSize) {
-                put(population, [row.mouse, row.location, row.phase, cheese, row.charm, row.base, row.trap, SAMPLE_SIZE_LABEL], row.sampleSize);
+                put(population, [row.location, row.phase, row.mouse, row.charm, row.base, row.trap, cheese, SAMPLE_SIZE_LABEL], row.sampleSize);
             }
         }
     }

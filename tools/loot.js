@@ -3,19 +3,20 @@ var Promise = require('bluebird')
 var json2csv = require('json2csv')
 var Combinatorics = require('js-combinatorics')
 var ht = require('horntracker-client')
+var jt = require('jacksmhtools-client')
 
 var DEFAULT_ITEM = { opts: { retry: true } }
 
 var fields = [
   { label: 'Location', value: 'location' },
-  { label: 'Phase', value: 'phase', default: '-' },
-  { label: 'Trap', value: 'trap', default: '-' },
-  { label: 'Base', value: 'base', default: '-' },
-  { label: 'Cheese', value: 'cheese', default: '-' },
-  { label: 'Charm', value: 'charm', default: '-' },
+  { label: 'Phase', value: 'phase' },
+  { label: 'Trap', value: 'trap' },
+  { label: 'Base', value: 'base' },
+  { label: 'Cheese', value: 'cheese' },
+  { label: 'Charm', value: 'charm' },
   { label: 'Mouse', value: 'mouse' },
-  { label: 'Loot', value: 'loot' },
-  { label: 'Qty', value: 'qty' },
+  { label: 'Loot', value: 'loot', default: '' },
+  { label: 'Qty', value: 'qty', default: '' },
   { label: 'Sample', value: 'sample', default: '' }
 ]
 
@@ -81,63 +82,7 @@ var setups = {
   'gnawnia-rift': require('./lootSetups/gnawnia-rift'),
   'burroughs-rift': require('./lootSetups/burroughs-rift'),
   'whisker-woods-rift': require('./lootSetups/whisker-woods-rift'),
-  'furoma-rift': require('./lootSetups/furoma-rift'),
-  // gilded: [ {
-  //   base: [ {
-  //     vars: { mouse: { burglar: true } },
-  //     fields: { mouse: 'Burglar' },
-  //     items: { gilded: 'Gilded Cheese' }
-  //   } ],
-  //   location: [
-  //     { vars: { location: { bazaar: true } }, fields: { location: 'Bazaar' } },
-  //     { vars: { location: { harbour: true } }, fields: { location: 'Harbour' } },
-  //     { vars: { location: { 'king\'s arms': true } }, fields: { location: 'King\'s Arms' } },
-  //     { vars: { location: { 'tournament hall': true } }, fields: { location: 'Tournament Hall' } },
-  //   ]
-  // } ],
-  //
-  // special_nightshade: {
-  //   base: {
-  //     vars: {
-  //       charm: { 'super nightshade farming charm': true },
-  //       location: { 'fungal cavern': false, labyrinth: false, zokor: false }
-  //     },
-  //     fields: { charm: 'Super Nightshade Farming Charm' }
-  //   },
-  //   items: { nightshade: 'Nightshade' }
-  // },
-  // grift: {
-  //   base: {
-  //     vars: { location: { 'gnawnia rift': true }, charm: { 'rift vacuum': false, 'super rift vacuum': false } },
-  //     fields: { location: 'Gnawnia Rift' }
-  //   },
-  //   vectors: {
-  //     mouse: [
-  //       { vars: { mouse: { 'Agitated Gentle Giant': true } }, fields: { mouse: 'Agitated Gentle Giant' } },
-  //       { vars: { mouse: { 'Brawny': true } }, fields: { mouse: 'Brawny' } },
-  //       { vars: { mouse: { 'Cyborg': true } }, fields: { mouse: 'Cyborg' } },
-  //       { vars: { mouse: { 'Dream Drifter': true } }, fields: { mouse: 'Dream Drifter' } },
-  //       { vars: { mouse: { 'Excitable Electric': true } }, fields: { mouse: 'Excitable Electric' } },
-  //       { vars: { mouse: { 'Greyrun': true } }, fields: { mouse: 'Greyrun' } },
-  //       { vars: { mouse: { 'Micro': true } }, fields: { mouse: 'Micro' } },
-  //       { vars: { mouse: { 'Mighty Mole': true } }, fields: { mouse: 'Mighty Mole' } },
-  //       { vars: { mouse: { 'Raw Diamond': true } }, fields: { mouse: 'Raw Diamond' } },
-  //       { vars: { mouse: { 'Rift Guardian': true } }, fields: { mouse: 'Rift Guardian' } },
-  //       { vars: { mouse: { 'Riftweaver': true } }, fields: { mouse: 'Riftweaver' } },
-  //       { vars: { mouse: { 'Shard Centurion': true } }, fields: { mouse: 'Shard Centurion' } },
-  //       { vars: { mouse: { 'Spiritual Steel': true } }, fields: { mouse: 'Spiritual Steel' } },
-  //       { vars: { mouse: { 'Supernatural': true } }, fields: { mouse: 'Supernatural' } },
-  //       { vars: { mouse: { 'Wealth': true } }, fields: { mouse: 'Wealth' } },
-  //     ]
-  //   },
-  //   items: {
-  //     mist: 'Calcified Rift Mist',
-  //     potion: 'Riftiago Potion',
-  //     grass: 'Riftgrass',
-  //     dust: 'Riftdust',
-  //     seed: 'Magic seed'
-  //   }
-  // }
+  'furoma-rift': require('./lootSetups/furoma-rift')
 }
 
 function convertLoot (base, loot) {
@@ -156,7 +101,8 @@ function toCsv (rows) {
     .then(function (rows) {
       return json2csv({
         data: rows,
-        fields: fields
+        fields: fields,
+        defaultValue: '-'
       })
     })
 }
@@ -189,7 +135,7 @@ Promise
         }, _.cloneDeep(DEFAULT_ITEM))
 
         console.error('requesting', JSON.stringify(item.vars))
-        return ht
+        return jt
           .getLootFoundData(item.vars, item.opts)
           .then(function (loot) {
             if (item.pre_process)
