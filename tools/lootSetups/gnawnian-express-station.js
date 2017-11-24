@@ -11,6 +11,7 @@ module.exports = [
       opts: {
         include_items: [
           'Ancient Relic',
+          'Black Powder Charm',
           'Copper Bead',
           'Dusty Coal Charm',
           'Fool\'s Gold',
