@@ -86,6 +86,8 @@ utils
       var charmB = b.charm || '-'
       if (charmA < charmB) return -1
       if (charmA > charmB) return 1
+      if (parseFloat(a.attraction) > parseFloat(b.attraction)) return -1
+      if (parseFloat(a.attraction) < parseFloat(b.attraction)) return 1
       return 0
     })
   })
