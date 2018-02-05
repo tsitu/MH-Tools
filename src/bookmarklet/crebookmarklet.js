@@ -270,7 +270,11 @@
         return "Training Grounds";
       }
     } else if (userLocation === "Bristle Woods Rift") {
-      return userQuests["QuestRiftBristleWoods"]["chamber_name"];
+      var chamber = userQuests["QuestRiftBristleWoods"]["chamber_name"];
+      if (userQuests["QuestRiftBristleWoods"]["status_effects"]["ng"] === 'active') {
+        return chamber + " (Paladin's Bane)";
+      }
+      return chamber
     } else if (userLocation === "Zugzwang's Tower") {
       var mystic = userViewingAtts["zzt_mage_progress"];
       var tech = userViewingAtts["zzt_tech_progress"];
