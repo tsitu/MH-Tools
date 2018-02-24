@@ -5,7 +5,8 @@
     "data/pop-mopi.csv",
     "data/pop-bwrift.csv",
     "data/pop-iceberg.csv",
-    "data/pop-frift.csv"
+    "data/pop-frift.csv",
+    "data/pop-fg.csv"
   ];
 
   const fs = require("fs");
