@@ -4,6 +4,7 @@
   "description": "Assorted Mousehunt Tools",
   "scripts": {
     "puppeteer": "npm i -S puppeteer",
+    "py": "py -m SimpleHTTPServer",
     "bookmarklet:cre": "uglifyjs src/bookmarklet/crebookmarklet.js -cmo src/bookmarklet/crebookmarklet.min.js",
     "bookmarklet:setup": "uglifyjs src/bookmarklet/setupbookmarklet.js -cmo src/bookmarklet/setupbookmarklet.min.js",
     "bookmarklet:map": "uglifyjs src/bookmarklet/mapbookmarklet.js -cmo src/bookmarklet/mapbookmarklet.min.js",

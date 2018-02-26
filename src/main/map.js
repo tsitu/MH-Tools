@@ -64,6 +64,7 @@ function loadCookies() {
     $("#ampSlider").slider("option", "value", attractionBonus);
   }
 }
+
 function initTablesorter() {
   $.tablesorter.defaults.sortInitialOrder = "desc";
   $("#bestLocation").tablesorter({
@@ -147,7 +148,21 @@ function initTablesorter() {
       filter_selectSourceSeparator: "|"
     }
   });
+
+  $("button[data-filter-column]").click(function() {
+    var filters = [],
+      $t = $(this),
+      col = $t.data("filter-column"), // zero-based index
+      txt = $t.data("filter-text") || $t.text(); // text to add to filter
+
+    filters[col] = txt;
+    // using "table.hasFilters" here to make sure we aren't targeting a sticky header
+    $.tablesorter.setFilters($("#bestLocation"), filters, true); // new v2.9
+
+    return false;
+  });
 }
+
 window.onload = function() {
   startPopulationLoad(POPULATION_JSON_URL);
   loadBookmarkletFromJS(
@@ -247,6 +262,7 @@ var buildMouselist = function(mouseListText, sortedMLCLength, sortedMLC) {
   }
   return mouseListText;
 };
+
 function processMap(mapText) {
   //Save a cookie
   Cookies.set("savedMice", mapText, {

@@ -30,6 +30,7 @@ Feel free to post your questions, comments, or concerns there (or [here](https:/
   - [Thanks](#heart_decoration-thanks-to)
 
 ## Instructions
+
 ### :thought_balloon: General Tips
 
 Several tools make use of mottie's [tablesorter](https://mottie.github.io/tablesorter/docs/#Introduction) plugin, which includes useful additional features such as multi-column sorting with <kbd>Shift</kbd> or special characters for [filtering](https://mottie.github.io/tablesorter/docs/example-widget-filter.html).
@@ -116,18 +117,29 @@ Rank | Catch | Per hunt
 
 ---
 
-<!-- ### :earth_americas: Map Solver and Mouse Finder  ([Link](https://tsitu.github.io/MH-Tools/map.html)) -->
 ### :earth_americas: [Map Solver and Mouse Finder](https://tsitu.github.io/MH-Tools/map.html)
 
 > Calculates ideal specific locations to hunt for any given list of mice. Based on Chad's and <a href="http://olf.github.io/mhmapsolver/" target="_blank" rel="noopener">Olaf's</a> solvers.
 
 <p>Copy and paste mice from maps, or type names leaving a line break between each. Press <kbd>Enter</kbd> to autocomplete and <kbd>Tab</kbd> to cycle through autocomplete suggestions.</p>
 
+"Fused" cheeses (e.g. Gouda/Brie/Swiss) will often show up in results. This indicates that attraction proportions from the underlined cheese has been extrapolated due to low sample sizes.
+
 Type of Attraction Rate | Description
 -- | --
 Raw | Shown for individual mice
 Total | Sum for a specific location, sublocation, cheese, and charm
 Weighted | Same as Total AR, but with baseline cheese attraction rates factored in
+
+Filter Category | Cheeses
+-- | --
+Magic Essence | Magical Rancid Radioactive Blue, Magical String, Maki, Maki String, Moon, SB+, Toxic SB+
+Shoppe | Gouda, Brie, Marble, Cheddar, //
+Crafting | ayy lmao
+Potions | //
+Event | //
+Marketplace | //
+Special | //
 
 <div align="right"><a href="#book-table-of-contents">Top</a></div>
 

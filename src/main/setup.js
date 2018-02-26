@@ -2,25 +2,9 @@
 
 var POPULATION_JSON_URL = "data/populations-setup.json";
 
-var instructionString =
-  "Drag the blue 'Best Setup' link to your bookmarks bar if possible. If that doesn't work, try the manual steps below.\n\n" +
-  "Google Chrome:\n- Bookmark a random page and name it 'Best Setup Bookmarklet'" +
-  "\n- Copy the bookmarklet code by right-clicking the 'Best Setup' link and selecting 'Copy link address...'" +
-  "\n- Right click the newly created bookmark and select 'Edit...'" +
-  "\n- Paste into the 'URL' field\n\n" +
-  "Firefox:\n- Right click the 'Best Setup' link and select 'Bookmark This Link'\n\n" +
-  "Internet Explorer:\n- Right click the 'Best Setup' link and select 'Add to favorites...'\n\n" +
-  "Mobile/Other Browsers:\n- Same concept as above. Processes may vary";
-
 $(window).load(function() {
   var bonusLuckParameter, loaded;
-
   user = SETUP_USER;
-
-  //Instructions
-  $("#instructions").click(function() {
-    alert(instructionString);
-  });
 
   loadBookmarkletFromJS(
     BOOKMARKLET_LOADER_URL,
