@@ -559,7 +559,9 @@ function showPop() {
     $("#pleaseWaitMessage").show();
     var selectedCharm = $("#charm").val();
     var population = getPopulation(selectedCharm);
+    console.time("printCombinations");
     printCombinations(population, getHeader(population));
+    console.timeEnd("printCombinations");
   }
 
   /**
@@ -696,6 +698,14 @@ function printCombinations(micePopulation, headerHtml) {
 
   charmName = selectedCharm;
 
+  console.log(
+    `Checked weapons: ${$(weaponSelectors.checkbox + ":checked").length}`
+  );
+  console.log(
+    `Checked bases: ${$(baseSelectors.checkbox + ":checked").length}`
+  );
+  console.log(`Number of mice: ${Object.keys(micePopulation).length}`);
+  console.time("Weapon + Base Iteration");
   $(weaponSelectors.checkbox + ":checked").each(function(index, weaponElement) {
     weaponName = weaponElement.value;
     weaponChanged(weaponElement.value);
@@ -709,13 +719,17 @@ function printCombinations(micePopulation, headerHtml) {
       baseName = baseElement.value;
       baseChanged(baseElement.value);
 
+      // console.time("buildMiceCR");
       $("<tr>")
         .append(getLinkCell(selectedCharm, rowData))
-        .append(buildMiceCRCells(micePopulation))
+        // .append(buildMiceCRCells(micePopulation))
         .appendTo(tableHTML);
+      // console.timeEnd("buildMiceCR");
     });
   });
+  console.timeEnd("Weapon + Base Iteration");
 
+  console.time("tablesorter update trigger");
   var resort = true;
   var callback = function() {
     var header = $("#overallHeader");
@@ -727,6 +741,7 @@ function printCombinations(micePopulation, headerHtml) {
     }
   };
   $("#results").trigger("updateAll", [resort, callback]);
+  console.timeEnd("tablesorter update trigger");
 
   /**
    * Get <td> jQuery element for the CRE link
@@ -735,15 +750,16 @@ function printCombinations(micePopulation, headerHtml) {
    * @return {jQuery}
    */
   function getLinkCell(selectedCharm, eventData) {
-    var cell = $("<td/>").append(getCRELinkElement());
+    // var cell = $("<td/>").append(getCRELinkElement());
+    var cell = $("<td/>");
 
-    if (selectedCharm === EMPTY_SELECTION) {
-      $(
-        "<span style='float: right'><button class='best-charm'>Find best charm</button></span>"
-      )
-        .on("click", eventData, findBestCharm)
-        .appendTo(cell);
-    }
+    // if (selectedCharm === EMPTY_SELECTION) {
+    //   $(
+    //     "<span style='float: right'><button class='best-charm'>Find best charm</button></span>"
+    //   )
+    //     .on("click", eventData, findBestCharm)
+    //     .appendTo(cell);
+    // }
 
     return cell;
   }
