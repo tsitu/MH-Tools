@@ -4,7 +4,7 @@
   "description": "Assorted Mousehunt Tools",
   "scripts": {
     "puppeteer": "npm i -S puppeteer",
-    "py": "py -m SimpleHTTPServer",
+    "timestamp": "node build/processTimestamp.js",
     "bookmarklet:cre": "uglifyjs src/bookmarklet/crebookmarklet.js -cmo src/bookmarklet/crebookmarklet.min.js",
     "bookmarklet:setup": "uglifyjs src/bookmarklet/setupbookmarklet.js -cmo src/bookmarklet/setupbookmarklet.min.js",
     "bookmarklet:map": "uglifyjs src/bookmarklet/mapbookmarklet.js -cmo src/bookmarklet/mapbookmarklet.min.js",
@@ -17,8 +17,8 @@
     "update:population": "npm-run-all update:population:*",
     "population": "node build/processPopulation.js",
     "wisdom": "node build/processWisdom.js",
-    "timestamp": "node build/processTimestamp.js",
-    "build": "npm-run-all --parallel bookmarklet population wisdom"
+    "build": "npm-run-all --parallel bookmarklet population wisdom",
+    "serve": "node ./node_modules/http-server/bin/http-server -p 8000"
   },
   "repository": {
     "type": "git",
@@ -49,6 +49,7 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.6.0",
+    "http-server": "^0.11.1",
     "jacksmhtools-client": "0.0.1",
     "js-combinatorics": "^0.5.2",
     "json2csv": "^3.11.5",

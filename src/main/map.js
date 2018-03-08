@@ -179,8 +179,8 @@ function initTablesorter() {
         "Resonator",
         "Vanilla Stilton",
         "Vengeful Vanilla Stilton",
-        "White Cheddar"
-      ], // etc
+        "White Cheddar" // etc
+      ],
       magicEssence: ["SB+", "Moon", "Maki", "Maki String", "Magical String"],
       marketplace: [
         "Crescent",
@@ -192,23 +192,13 @@ function initTablesorter() {
         "SB+"
       ],
       shoppe: [
-        // "Brie",
-        // "Brie String",
-        // "Cheddar",
-        // "Crescent",
         "Dewthief Camembert",
         "Duskshade Camembert",
         "Fishy Fromage",
-        // "Gouda",
         "Graveblossom Camembert",
         "Grilled",
         "Lunaria Camembert",
-        // "Marble",
-        // "Marble String",
-        // "Moon", // RRB's
         "Sunrise"
-        // "Swiss",
-        // "Swiss String"
       ]
     };
     if (this.checked) {
