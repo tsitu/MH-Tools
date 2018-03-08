@@ -232,20 +232,23 @@
 
           <td></td>
 
-          <td style="text-align: center">
-            <p>Cheese Filters</p>
-            <button type="button" class="reset">Reset</button>
-            <!-- targeted by the "filter_reset" option -->
-            <br>
-            <button type="button" data-filter-column="0" data-filter-text="!SB+ && !Maki">Magic Essence</button>
-            <br>
-            <button type="button" data-filter-column="0" data-filter-text="!Gouda && !Brie && !Marble && !Cheddar">Shoppe</button>
-            <br>
-            <button type="button" data-filter-column="0" data-filter-text="!Resonator">Crafted</button>
-            <br>
-            <button type="button" data-filter-column="0" data-filter-text="!Gouda && !Brie">Common</button>
-            <br>
-            <button type="button" data-filter-column="0" data-filter-text="!Gouda && !Brie">Common</button>
+          <td>
+            <form>
+              <fieldset style="padding: 5px">
+                <legend style="text-align: center">Cheese Filters</legend>
+                <input type="checkbox" class="cheese-filter" name="magicEssence">&nbsp;Magic Essence</input><br>
+                <input type="checkbox" class="cheese-filter" name="common">&nbsp;Common</input><br>
+                <input type="checkbox" class="cheese-filter" name="crafted">&nbsp;Crafted</input><br>
+                <input type="checkbox" class="cheese-filter" name="marketplace">&nbsp;Marketplace</input><br>
+                <input type="checkbox" class="cheese-filter" name="shoppe">&nbsp;Shoppe</input><br><br>
+                <button type="button" id="applyFilter">Apply</button>
+                <button type="button" class="reset">Reset</button> <!-- "filter_reset" option -->
+                <button type="button" id="clearFilter">Clear</button><br><br>
+                <textarea id="combinedFilter" placeholder="Cheeses to filter out"
+                  cols="22" rows="5" style="resize: none; margin: 0 0 0 4px" readonly></textarea>
+                <br>
+              </fieldset>
+            </form>
           </td>
         </tr>
       </table>

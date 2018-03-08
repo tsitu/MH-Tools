@@ -12,6 +12,7 @@ var EMPTY_SELECTION = "-";
 var NULL_URL_PARAM = null;
 var user = MAP_USER;
 var POPULATION_JSON_URL = "data/populations-map.json";
+var FILTERED_CHEESES = [];
 
 var autoCompleteSettings = {
   delimiters: "\n",
@@ -161,6 +162,96 @@ function initTablesorter() {
 
     return false;
   });
+
+  $(".cheese-filter").change(function() {
+    var filterList = {
+      common: [
+        "Brie",
+        "Brie String",
+        "Cheddar",
+        "Gouda",
+        "Marble",
+        "Marble String",
+        "Swiss",
+        "Swiss String"
+      ],
+      crafted: [
+        "Resonator",
+        "Vanilla Stilton",
+        "Vengeful Vanilla Stilton",
+        "White Cheddar"
+      ], // etc
+      magicEssence: ["SB+", "Moon", "Maki", "Maki String", "Magical String"],
+      marketplace: [
+        "Crescent",
+        "Magical String",
+        "Maki",
+        "Maki String",
+        "Moon",
+        "Rancid Radioactive Blue",
+        "SB+"
+      ],
+      shoppe: [
+        // "Brie",
+        // "Brie String",
+        // "Cheddar",
+        // "Crescent",
+        "Dewthief Camembert",
+        "Duskshade Camembert",
+        "Fishy Fromage",
+        // "Gouda",
+        "Graveblossom Camembert",
+        "Grilled",
+        "Lunaria Camembert",
+        // "Marble",
+        // "Marble String",
+        // "Moon", // RRB's
+        "Sunrise"
+        // "Swiss",
+        // "Swiss String"
+      ]
+    };
+    if (this.checked) {
+      filterList[this.name].forEach(function(cheese) {
+        if (!FILTERED_CHEESES.includes(cheese)) {
+          FILTERED_CHEESES.push(cheese);
+        }
+      });
+    } else {
+      filterList[this.name].forEach(function(cheese) {
+        if (FILTERED_CHEESES.includes(cheese)) {
+          FILTERED_CHEESES.splice(FILTERED_CHEESES.indexOf(cheese), 1);
+        }
+      });
+    }
+    var displayString = "";
+    FILTERED_CHEESES.forEach(function(cheese) {
+      displayString += cheese + ", ";
+    });
+    displayString = displayString.slice(0, -2);
+    $("#combinedFilter").text(displayString);
+  });
+
+  $("#applyFilter").click(function() {
+    var filterString = "";
+    FILTERED_CHEESES.forEach(function(cheese) {
+      filterString += "!" + cheese + " && ";
+    });
+    if (filterString.length > 0) {
+      // Trim the last " && "
+      filterString = filterString.slice(0, -4);
+    }
+    var filters = [filterString];
+    $.tablesorter.setFilters($("#bestLocation"), filters, true);
+  });
+
+  $("#clearFilter").click(function() {
+    $(".cheese-filter:checked").each(function() {
+      $(this).prop("checked", false);
+    });
+    $("#combinedFilter").text("");
+    FILTERED_CHEESES = [];
+  });
 }
 
 window.onload = function() {
@@ -172,14 +263,14 @@ window.onload = function() {
   );
   loadBookmarkletFromJS(MAP_BOOKMARKLET_URL, "mapBookmarklet", "#bookmarklet");
 
-  //Initialize tablesorter, bind to table
+  // Initialize tablesorter, bind to table
   initTablesorter();
   loadCookies();
 
   $("#map").keyup(function(event) {
     // Checking for enter/return, backspace, and delete
     // Then finding newlines and only processing when that differs from previous value
-    //TODO: Check for paste too?
+    // TODO: Check for paste too?
     if (event.keyCode == 13 || event.keyCode == 8 || event.keyCode == 46) {
       clearTimeout(timeDelay);
       var mapText = document.getElementById("map").value;
@@ -264,7 +355,7 @@ var buildMouselist = function(mouseListText, sortedMLCLength, sortedMLC) {
 };
 
 function processMap(mapText) {
-  //Save a cookie
+  // Save a cookie
   Cookies.set("savedMice", mapText, {
     expires: 14
   });
@@ -297,7 +388,7 @@ function processMap(mapText) {
     }
 
     if (popArray[mouseName] == undefined) {
-      //Mouse name not recognised
+      // Mouse name not recognised
       interpretedAsText += mouseName + "<br>";
       notRecognized = true;
     } else {
@@ -316,7 +407,7 @@ function processMap(mapText) {
       remainingMice++;
 
       var mouseLocation = Object.keys(popArray[mouseName]);
-      var noLocations = Object.size(popArray[mouseName]); //console.log(noLocations);
+      var noLocations = Object.size(popArray[mouseName]); // console.log(noLocations);
 
       for (var j = 0; j < noLocations; j++) {
         var locationName = mouseLocation[j];
@@ -350,7 +441,7 @@ function processMap(mapText) {
               var locationPhaseCheeseCharm = "<b>" + locationName + "</b><br>";
 
               var URLString = "setup.html?";
-              //Replace apostrophes with %27
+              // Replace apostrophes with %27
               URLString += "location=" + locationName;
 
               if (phaseName != EMPTY_SELECTION) {
@@ -392,7 +483,7 @@ function processMap(mapText) {
                 ]
               );
 
-              //Populate mouse location array
+              // Populate mouse location array
               if (mouseLocationArray[locationPhaseCheeseCharm] == undefined) {
                 mouseLocationArray[locationPhaseCheeseCharm] = [];
               }
@@ -451,10 +542,10 @@ function processMap(mapText) {
         }
       }
 
-      var sortedMLC = sortBestLocation(mouseLocationCheese); //console.log(sortedMLC);
+      var sortedMLC = sortBestLocation(mouseLocationCheese); // console.log(sortedMLC);
       var sortedMLCLength = Object.size(sortedMLC);
 
-      //Mouse list column constraints
+      // Mouse list column constraints
       if (columnLimit != 0) {
         if (sortedMLCLength > columnLimit) {
           sortedMLCLength = columnLimit;
@@ -488,7 +579,7 @@ function processMap(mapText) {
 
   $("#remainValue").text(remainingMice);
 
-  //Sort mouseLocationArray
+  // Sort mouseLocationArray
   for (var lpcc in mouseLocationArray) {
     if (mouseLocationArray.hasOwnProperty(lpcc)) {
       mouseLocationArray[lpcc].sort(function(a, b) {
@@ -510,7 +601,7 @@ function sortBestLocation(bestLocationArray, weightedBLA) {
   if (typeof weightedBLA == "undefined") {
     for (var i = 0; i < bLALength; i++) {
       var locationCheese = bLAKeys[i];
-      //sortedLocation[bestLocationArray[locationCheese]] = locationCheese;
+      // sortedLocation[bestLocationArray[locationCheese]] = locationCheese;
       sortedLocation.push([locationCheese, bestLocationArray[locationCheese]]);
     }
 
@@ -520,7 +611,7 @@ function sortBestLocation(bestLocationArray, weightedBLA) {
   } else {
     for (var i = 0; i < bLALength; i++) {
       var locationCheese = bLAKeys[i];
-      //sortedLocation[bestLocationArray[locationCheese]] = locationCheese;
+      // sortedLocation[bestLocationArray[locationCheese]] = locationCheese;
       sortedLocation.push([
         locationCheese,
         bestLocationArray[locationCheese],
@@ -543,7 +634,7 @@ function printBestLocation(sortedLocation, mouseLocationArray) {
 
   var sortedLocationLength = Object.size(sortedLocation);
 
-  //Best location row constraints
+  // Best location row constraints
   if (rowLimit != 0) {
     if (sortedLocationLength > rowLimit) {
       sortedLocationLength = rowLimit;
@@ -551,7 +642,7 @@ function printBestLocation(sortedLocation, mouseLocationArray) {
   }
 
   for (var i = 0; i < sortedLocationLength; i++) {
-    //Checking mouse location
+    // Checking mouse location
     var mouseLocationHTML = "";
     var lpcc = sortedLocation[i][0];
     if (mouseLocationArray[lpcc]) {
