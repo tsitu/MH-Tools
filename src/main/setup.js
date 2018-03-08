@@ -875,6 +875,9 @@ function getMouseACR(
 
   var catchRate = calcCR(trapEffectiveness, trapPower, trapLuck, mousePower);
 
+  /**
+   * Final catch rate adjustments
+   */
   if (
     locationName === "Zugzwang's Tower" ||
     locationName === "Seasonal Garden"
@@ -889,20 +892,17 @@ function getMouseACR(
     ) {
       catchRate += (1 - catchRate) / 2;
     }
+    if (
+      (fortRox.cannonLevel >= 3 && mouseName === "Nightfire") ||
+      (fortRox.ballistaLevel >= 3 && mouseName === "Nightmancer")
+    ) {
+      catchRate = 1;
+    }
   }
 
-  if (
-    (fortRox.cannonLevel >= 3 && mouseName === "Nightfire") ||
-    (fortRox.ballistaLevel >= 3 && mouseName === "Nightmancer")
-  ) {
-    catchRate = 1;
+  if (weaponName.startsWith("Anniversary")) {
+    catchRate += (1 - catchRate) / 10;
   }
-
-  if (contains(mouseName, "Rook") && charmName === "Rook Crumble Charm") {
-    charmBonus -= 300;
-  }
-
-  calculateTrapSetup();
 
   return { attractions: attractions, catchRate: catchRate };
 }

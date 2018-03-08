@@ -1618,6 +1618,7 @@ var tourneysArray = {
 // Power, power bonus (%), attraction bonus (%), luck, cheese effect
 // prettier-ignore
 var basesArray = {
+  "10 Layer Birthday Cake Base" : [300, 10, 10, 10, "No Effect"],
   "2017 New Year's Base" : [200, 7, 0, 10, "Fresh"],
   "2018 New Year's Base" : [200, 7, 0, 10, "Fresh"],
   "Aqua Base": [230, 0, 0, 8, "No Effect"],
@@ -1707,6 +1708,11 @@ var weaponsArray = {
   "Ancient Box Trap": ["Forgotten", 4300, 10, 0, 4, "No Effect"],
   "Ancient Gauntlet": ["Physical", 1050, 4, 20, 4, "Extremely Fresh"],
   "Ancient Spear Gun": ["Hydro", 3600, 5, 10, 12, "Fresh"],
+  "Anniversary Ambush": ["Tactical", 3000, 5, 0, 25, "No Effect"],
+  "Anniversary Ancient Box Trap": ["Forgotten", 4300, 10, 0, 10, "No Effect"],
+  "Anniversary Arcane Capturing Rod Of Never Yielding Mystery": ["Arcane", 3800, 12, 0, 25, "Insanely Stale"],
+  "Anniversary DeathBot": ["Physical", 2400, 15, 10, 25, "Stale"],
+  "Anniversary Reaper's Perch": ["Shadow", 3300, 10, 5, 25, "Stale"],
   "Arcane Blast Trap": ["Arcane", 3400, 8, 0, 20, "Insanely Fresh"],
   "Arcane Capturing Rod Of Never Yielding Mystery": ["Arcane", 3800, 12, 0, 18, "Insanely Stale"],
   "Bandit Deflector": ["Law", 1500, 11, 0, 0, "No Effect"],
@@ -1946,6 +1952,7 @@ var charmsArray = {
   "Grubling Chow Charm": [0, 0, 0, 0, "No Effect"],
   "Haunted Ultimate Luck Charm": [0, 0, 0, 20, "No Effect"],
   "Horsepower Charm": [0, 0, 0, 0, "No Effect"],
+  "Hunter's Horn Rewind Charm": [0, 0, 0, 0, "No Effect"],
   "Hydro Charm": [0, 0, 0, 0, "No Effect"],
   "Lantern Oil Charm": [200, 2, 2, 1, "Fresh"],
   "Let It Snow Charm": [0, 0, 0, 5, "No Effect"],
@@ -1970,6 +1977,7 @@ var charmsArray = {
   "Prospector's Charm": [200, 1, 0, 0, "No Effect"],
   "Rainbow Luck Charm": [800, 0, 0, 12, "No Effect"],
   "Ramming Speed Charm": [0, 0, 0, 0, "No Effect"],
+  "Reality Restitch Charm": [0, 10, 10, 5, "Fresh"],
   "Realm Ripper Charm": [0, 0, 0, 0, "No Effect"],
   "Red Double Sponge Charm": [0, 0, 0, 0, "No Effect"],
   "Red Sponge Charm": [0, 0, 0, 0, "No Effect"],

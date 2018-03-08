@@ -540,6 +540,13 @@ function showPop(type) {
           }
         }
 
+        /**
+         * Increase CR by 10% for 10th Anniversary traps
+         */
+        if (weaponName.startsWith("Anniversary")) {
+          catchRate += (1 - catchRate) / 10;
+        }
+
         minLuckOverall = Math.max(minLuckValue, minLuckOverall);
 
         //Exceptions, modifications to catch rates
