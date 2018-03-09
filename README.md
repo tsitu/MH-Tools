@@ -23,7 +23,7 @@ Feel free to post your questions, comments, or concerns there (or [here](https:/
   - [Crown Solver](#crown-crown-solver)
   - [CRE Tabbed Demo](#bookmark_tabs-cre-tabbed-demo)
 - [Developers](#developers)
-  - [Build](#construction_worker-build-and-run)
+  - [Build and Run](#construction_worker-build-and-run)
   - [Coding Style](#barber-coding-style)
 - [Miscellaneous](#miscellaneous)
   - [Useful Links](#arrow_down-useful-links)
@@ -101,6 +101,8 @@ Loader | Generates a pop-up dialog that gives you access to the latest versions 
 
 > Calculates catch rate estimates along with points, gold, minimum luck and more.
 
+**Bookmarklet:** Execute the `CRE` bookmarklet from pretty much any page on the MH website.
+
 Descriptor | Per | Sum or Average (bottom row)
 :--: | :--: | :--:
 Attraction Rate | Mouse | Sum for this setup
@@ -121,6 +123,8 @@ Rank | Catch | Per hunt
 
 > Calculates ideal specific locations to hunt for any given list of mice. Based on Chad's and <a href="http://olf.github.io/mhmapsolver/" target="_blank" rel="noopener">Olaf's</a> solvers.
 
+**Bookmarklet:** Execute the `Map` bookmarklet from the "Active Map - Mice" section of the UI.
+
 <p>Copy and paste mice from maps, or type names leaving a line break between each. Press <kbd>Enter</kbd> to autocomplete and <kbd>Tab</kbd> to cycle through autocomplete suggestions.</p>
 
 "Fused" cheeses (e.g. Gouda/Brie/Swiss) will often show up in results. This indicates that attraction proportions from the underlined cheese has been extrapolated due to low sample sizes.
@@ -130,6 +134,10 @@ Type of Attraction Rate | Description
 Raw | Shown for individual mice
 Total | Sum for a specific location, sublocation, cheese, and charm
 Weighted | Same as Total AR, but with baseline cheese attraction rates factored in
+
+Cheese filters allow you to easily hide certain cheeses from the Best Locations table depending on your hunting situation. For example, frugal hunters may want to tick the `Magic Essence` checkbox to hide costly SB+ derived cheeses.
+
+You can `Apply` filters to the first column, `Reset` filters on the table, or `Clear` all of your ticks.
 
 Filter Category | Cheeses
 -- | --
@@ -149,9 +157,11 @@ Event _(not included)_ | Cupcake Colby, Dumpling, Extra Sweet Cupcake Colby, Mar
 
 > Calculates the best weapon and base setup to use for a particular location, sublocation, and cheese.
 
-*Hint:* Try the 'Slower' or 'Even Slower' bookmarklets if your items are not all loading in using the standard 'Best Setup'.
+**Bookmarklet:** Execute the default `Best Setup` bookmarklet on your Camp page. Try the `Slower` or `Even Slower` bookmarklets if your items are not all loading in.
 
-This tool will be receiving optimizations in the near future to reduce lengthy loading times and store owned items more efficiently.
+To check whether your items have properly loaded, you may want to open up the [JavaScript console](https://webmasters.stackexchange.com/a/77337) in your browser, both on your MH Camp page and on the Best Setup page (after it has finished processing). You will then want to compare `Number of bases/weapons/charms: __` values for the former with `Bases/Weapons/Charms loaded: __` for the latter.
+
+_Note:_ This tool will be receiving optimizations in the near future to reduce lengthy loading times and store owned items more effectively.
 
 <div align="right"><a href="#book-table-of-contents">Top</a></div>
 
@@ -160,6 +170,8 @@ This tool will be receiving optimizations in the near future to reduce lengthy l
 ### :chart_with_upwards_trend: [Marketplace Analyzer](https://tsitu.github.io/MH-Tools/analyzer.html)
 
 > Provides a record of every marketplace transaction as well as summary tables with useful aggregations.
+
+**Bookmarklet:** Execute the `Analyzer` bookmarklet from Marketplace -> My History, on the tab you would like data to start from (default is 1).
 
 Type | Description
 :--: | --
@@ -176,6 +188,8 @@ Tariffs | 10% calculated on total amount  = Amount ÷ 1.1 (slightly inaccurate)
 ### :crown: [Crown Solver](https://tsitu.github.io/MH-Tools/crown.html)
 
 > Calculates the best locations to hunt to progress towards achieving 100 catches of mouse breeds.
+
+**Bookmarklet:** Execute the `Crown` bookmarklet from Hunter's Profile -> King's Crowns to automatically populate the 30 mice closest to Silver Crown status. The rest of your bronze crown mice should be copied to the clipboard for pasting, but this behavior may not work on certain browsers.
 
 This spin-off of the Map Solver by vsong factors in the difference between 100 and the number of catches you currently have for a breed (e.g. all else being equal, a mouse at 99 catches is weighted more heavily than one at 80 catches).
 
