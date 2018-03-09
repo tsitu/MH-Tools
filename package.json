@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "Assorted Mousehunt Tools",
   "scripts": {
-    "puppeteer": "npm i -S puppeteer",
-    "timestamp": "node build/processTimestamp.js",
     "bookmarklet:cre": "uglifyjs src/bookmarklet/crebookmarklet.js -cmo src/bookmarklet/crebookmarklet.min.js",
     "bookmarklet:setup": "uglifyjs src/bookmarklet/setupbookmarklet.js -cmo src/bookmarklet/setupbookmarklet.min.js",
     "bookmarklet:map": "uglifyjs src/bookmarklet/mapbookmarklet.js -cmo src/bookmarklet/mapbookmarklet.min.js",
@@ -15,10 +13,16 @@
     "update:population:bwrift": "node tools/bwriftpop.js > data/pop-bwrift.csv",
     "update:population:iceberg": "node tools/icebergpop.js > data/pop-iceberg.csv",
     "update:population": "npm-run-all update:population:*",
+    "minify:bookmarklet": "uglifyjs-folder src/bookmarklet -eo src/bookmarklet/min -p **/*.js,!**/*min.js",
+    "minify:main": "uglifyjs-folder src/main -eo src/main/min -p **/*.js,!**/*min.js",
+    "minify:utils": "uglifyjs-folder src/utils -eo src/utils/min -p **/*.js,!**/*min.js",
+    "minify": "npm-run-all --parallel minify:*",
     "population": "node build/processPopulation.js",
+    "puppeteer": "npm i -S puppeteer",
+    "timestamp": "node build/processTimestamp.js",
     "wisdom": "node build/processWisdom.js",
-    "build": "npm-run-all --parallel bookmarklet population wisdom",
-    "serve": "node ./node_modules/http-server/bin/http-server -p 8000"
+    "serve": "http-server -p 8000",
+    "build": "npm-run-all --parallel bookmarklet population wisdom"
   },
   "repository": {
     "type": "git",
@@ -40,7 +44,8 @@
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.0.2",
     "request": "^2.83.0",
-    "uglify-js": "^3.0.25"
+    "uglify-js": "^3.0.25",
+    "uglifyjs-folder": "^1.5.0"
   },
   "devDependencies": {
     "bluebird": "^3.5.1",
