@@ -225,10 +225,15 @@ function initTablesorter() {
   $("#applyFilter").click(function() {
     var filterString = "";
     FILTERED_CHEESES.forEach(function(cheese) {
-      filterString += "!" + cheese + " && ";
+      if (cheese === "SB+") {
+        // negative lookahead <3
+        filterString += "/^(?!.*sb\\+).*$/i && ";
+      } else {
+        filterString += "!" + cheese + " && ";
+      }
     });
     if (filterString.length > 0) {
-      // Trim the last " && "
+      // Trim the last &&
       filterString = filterString.slice(0, -4);
     }
     var filters = [filterString];
