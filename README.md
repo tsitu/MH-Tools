@@ -43,7 +43,7 @@ Bookmarklets are pieces of JavaScript code that are saved as a bookmark in the u
 
 Using the Auto-Loader is recommended, as it automatically grabs the latest version of each bookmarklet without having to manually update.
 
-You **must** be on the official [mousehuntgame.com](https://www.mousehuntgame.com/) website for our bookmarklets to work. This is because the Facebook version loads MouseHunt in an `<iframe>` which (along with CORS restrictions) prevents access to DOM elements as well as the custom `user` JavaScript object.
+You **must** be on the official [mousehuntgame.com](https://www.mousehuntgame.com/) website for our bookmarklets to work. This is because the Facebook version loads MouseHunt in an `<iframe>` which (along with CORS restrictions) prevents access to DOM elements as well as the custom `user` JavaScript object. You must also be using the FreshCoat Layout.
 
 Bookmarklet | Functionality
 :--: | --
@@ -149,7 +149,9 @@ Event _(not included)_ | Cupcake Colby, Dumpling, Extra Sweet Cupcake Colby, Mar
 
 > Calculates the best weapon and base setup to use for a particular location, sublocation, and cheese.
 
-*Note:* This tool will be receiving optimizations in the near future to reduce lengthy loading times and store owned items more efficiently.
+*Hint:* Try the 'Slower' or 'Even Slower' bookmarklets if your items are not all loading in using the standard 'Best Setup'.
+
+This tool will be receiving optimizations in the near future to reduce lengthy loading times and store owned items more efficiently.
 
 <div align="right"><a href="#book-table-of-contents">Top</a></div>
 

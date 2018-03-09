@@ -120,6 +120,7 @@
                     }
                 }
             });
+            $(".ui-widget-header").css("background", "initial");
         });
 
         function getColor(colorVal) {
@@ -160,25 +161,15 @@
     <h1>Silver Crown Solver</h1>
 
     <div id="main">
+        <a href="https://github.com/tsitu/MH-Tools/blob/master/README.md#crown-crown-solver" target="_blank" 
+            rel="noopener">Instructions</a> |
+        <a id="bookmarkletloader" href="#">Auto-Loader</a> |
+        <a id="bookmarklet" href="#">Crown</a>
         <table>
         <tr>
         <td>
-
-        <div class="header">
-            <p>based on vsong's <a href="https://tsitu.github.io/MH-Tools/map.html" target="_blank" rel="noopener">Map Solver</a> tweaks<br>
-            <a href="https://www.mousehuntgame.com/forum/showthread.php?132397-MouseHunt-Tools-by-tsitu&goto=newpost" target="_blank" rel="noopener">Report bugs and suggest features</a></p><br>
-        	<p>Type a mouse name on one line and its number of catches on the next line. Press <b>Enter</b> to autocomplete and <b>Tab</b> to cycle through suggestions.</p><br>
-            <p>[Try the new <a id="bookmarkletloader" href="#">Auto-Loader</a> bookmarklet]<br>Bookmark <a id="bookmarklet" href="#">this link</a> and click it while on "King's Crowns" to automatically populate your top 30 mice.
-                For those hunters with many bronze crowns, the <b>rest of the list is copied to your clipboard</b>. Simply paste it into the text box below.</p><br>
-            <p><i>Raw CP</i>: Percentage of progress towards silver crown per hunt (Raw AR divided by 100 minus catches)<br><i>Total CP</i>: Summed silver crown progress for a specific location/phase/cheese/charm<br><i>Weighted CP</i>: Same as above, with cheese attraction factored in</p>
-        </div>
-
-        </td>
-        <td>
-
-        <div>
             <br><br>
-            Limit best location rows: <br>
+            Best Locations (rows) <br>
             <form action="">
                 <table>
                 <tr>
@@ -197,7 +188,7 @@
             </form>
             <br>
 
-            Limit mouse list columns: <br>
+            Mouse List (columns) <br>
             <form action="">
                 <table>
                 <tr>
@@ -214,8 +205,6 @@
                 </tr>
                 </table>
             </form>
-        </div>
-
         </td>
         </tr>
         </table>

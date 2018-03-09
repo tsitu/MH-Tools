@@ -9,7 +9,7 @@
     "bookmarklet:crown": "uglifyjs src/bookmarklet/crownbookmarklet.js -cmo src/bookmarklet/crownbookmarklet.min.js",
     "bookmarklet:analyzer": "uglifyjs src/bookmarklet/analyzerbookmarklet.js -cmo src/bookmarklet/analyzerbookmarklet.min.js",
     "bookmarklet:loader": "uglifyjs src/bookmarklet/bookmarkletloader.js -cmo src/bookmarklet/bookmarkletloader.min.js",
-    "bookmarklet": "npm-run-all bookmarklet:*",
+    "bookmarklet": "npm-run-all --parallel bookmarklet:*",
     "update:population:bwrift": "node tools/bwriftpop.js > data/pop-bwrift.csv",
     "update:population:iceberg": "node tools/icebergpop.js > data/pop-iceberg.csv",
     "update:population": "npm-run-all update:population:*",
