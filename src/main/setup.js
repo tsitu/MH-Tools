@@ -65,8 +65,8 @@ $(window).load(function() {
   $("#save_setup_button").click(saveSetupCookie);
 
   $("#show_pop_button").click(function() {
-    $("#pleaseWaitMessage").show();
-    setTimeout(showPop, 1);
+    $("#pleaseWaitMessage").css("display", "inline");
+    setTimeout(showPop, 0);
   });
   bindSelectorButtons();
 
@@ -125,7 +125,7 @@ function checkLoadState() {
     status.innerHTML = "<td>All set!</td>";
     setTimeout(function() {
       status.innerHTML = "<td><br></td>";
-    }, 3000);
+    }, 1420);
   }
 }
 
@@ -263,9 +263,9 @@ function checkCookies() {
     var ownedWeapons = storedData["weapons"];
     var ownedCharms = storedData["charms"];
 
-    console.log("Bases loaded: " + ownedBases.length);
-    console.log("Weapons loaded: " + ownedWeapons.length);
-    console.log("Charms loaded: " + ownedCharms.length);
+    // console.log("Bases loaded: " + ownedBases.length);
+    // console.log("Weapons loaded: " + ownedWeapons.length);
+    // console.log("Charms loaded: " + ownedCharms.length);
 
     if (ownedBases && ownedBases.length > 0) {
       processStorageArray(baseKeys, ownedBases, "base");
@@ -556,12 +556,11 @@ function showPop() {
     return;
   } else {
     charmChanged();
-    $("#pleaseWaitMessage").show();
     var selectedCharm = $("#charm").val();
     var population = getPopulation(selectedCharm);
-    console.time("printCombinations");
+    // console.time("printCombinations");
     printCombinations(population, getHeader(population));
-    console.timeEnd("printCombinations");
+    // console.timeEnd("printCombinations");
   }
 
   /**
@@ -692,44 +691,38 @@ function printCombinations(micePopulation, headerHtml) {
   var weaponSelectors = getSelectors("weapon");
   var baseSelectors = getSelectors("base");
   var selectedCharm = document.querySelector("#charm").value;
-
-  var results = $("#results").html(headerHtml);
-  var tableHTML = $("<tbody>").appendTo(results);
-
+  var tableHTML = headerHtml + "<tbody>";
   charmName = selectedCharm;
 
-  console.log(
-    `Checked weapons: ${$(weaponSelectors.checkbox + ":checked").length}`
-  );
-  console.log(
-    `Checked bases: ${$(baseSelectors.checkbox + ":checked").length}`
-  );
-  console.log(`Number of mice: ${Object.keys(micePopulation).length}`);
-  console.time("Weapon + Base Iteration");
+  // console.log(
+  // `Checked weapons: ${$(weaponSelectors.checkbox + ":checked").length}`
+  // );
+  // console.log(
+  // `Checked bases: ${$(baseSelectors.checkbox + ":checked").length}`
+  // );
+  // console.log(`Number of mice: ${Object.keys(micePopulation).length}`);
+  // console.time("Weapon + Base Iteration");
   $(weaponSelectors.checkbox + ":checked").each(function(index, weaponElement) {
     weaponName = weaponElement.value;
-    weaponChanged(weaponElement.value);
+    weaponChanged();
 
     $(baseSelectors.checkbox + ":checked").each(function(index, baseElement) {
-      var rowData = {
-        weapon: weaponElement.value,
-        base: baseElement.value
-      };
-
       baseName = baseElement.value;
-      baseChanged(baseElement.value);
+      baseChanged();
 
-      // console.time("buildMiceCR");
-      $("<tr>")
-        .append(getLinkCell(selectedCharm, rowData))
-        // .append(buildMiceCRCells(micePopulation))
-        .appendTo(tableHTML);
-      // console.timeEnd("buildMiceCR");
+      tableHTML +=
+        "<tr>" +
+        getLinkCell(selectedCharm, {
+          weapon: weaponElement.value,
+          base: baseElement.value
+        }) +
+        buildMiceCRCells(micePopulation);
     });
   });
-  console.timeEnd("Weapon + Base Iteration");
+  // console.timeEnd("Weapon + Base Iteration");
+  $("#results").html(tableHTML);
 
-  console.time("tablesorter update trigger");
+  // console.time("tablesorter update trigger");
   var resort = true;
   var callback = function() {
     var header = $("#overallHeader");
@@ -741,7 +734,7 @@ function printCombinations(micePopulation, headerHtml) {
     }
   };
   $("#results").trigger("updateAll", [resort, callback]);
-  console.timeEnd("tablesorter update trigger");
+  // console.timeEnd("tablesorter update trigger");
 
   /**
    * Get <td> jQuery element for the CRE link
@@ -750,16 +743,19 @@ function printCombinations(micePopulation, headerHtml) {
    * @return {jQuery}
    */
   function getLinkCell(selectedCharm, eventData) {
-    // var cell = $("<td/>").append(getCRELinkElement());
-    var cell = $("<td/>");
+    var cell = "</td><td>" + getCRELinkElement();
 
-    // if (selectedCharm === EMPTY_SELECTION) {
-    //   $(
-    //     "<span style='float: right'><button class='best-charm'>Find best charm</button></span>"
-    //   )
-    //     .on("click", eventData, findBestCharm)
-    //     .appendTo(cell);
-    // }
+    // String concatenation magic
+    // prettier-ignore
+    if (selectedCharm === EMPTY_SELECTION) {
+      cell += '<span style="float: right"><button onclick="weaponName=\''
+        + eventData.weapon.replace(/'/g, "\\'")
+        + '\';baseName=\''
+        + eventData.base.replace(/'/g, "\\'")
+        + '\';weaponChanged();baseChanged();printCharmCombinations(getPopulation(EMPTY_SELECTION), \''
+        + headerHtml.replace(/'/g, "\\'")
+        + '\')">Find best charm</button></span>';
+    }
 
     return cell;
   }
@@ -971,19 +967,18 @@ function getMouseCatches(
  * @param {string} headerHTML
  */
 function printCharmCombinations(micePopulation, headerHTML) {
-  var tableHTML = $("<tbody>");
-  var results = $("#results").html([headerHTML, tableHTML]);
   var charmSelectors = getSelectors("charm");
+  var tableHTML = headerHTML + "<tbody>";
 
   $(charmSelectors.checkbox + ":checked").each(function(index, element) {
     charmChanged(element.value);
-    tableHTML.append(
+    tableHTML +=
       "<tr><td>" +
-        getCRELinkElement() +
-        "</td>" +
-        buildMiceCRCells(micePopulation)
-    );
+      getCRELinkElement() +
+      "</td>" +
+      buildMiceCRCells(micePopulation);
   });
+  $("#results").html(tableHTML);
 
   var resort = true;
   var callback = function() {
