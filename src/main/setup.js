@@ -19,6 +19,9 @@ $(window).load(function() {
     loadAlternateBookmarklets
   );
 
+  /**
+   * Generate slower bookmarklets by replacing default setTimeout delay of 500ms
+   */
   function loadAlternateBookmarklets(data) {
     var slow = makeBookmarkletString(data.replace(/=500/g, "=2500"));
     $("#slowBookmarklet").attr("href", slow);
@@ -79,7 +82,7 @@ $(window).load(function() {
     });
 
   /**
-   * Toggle weapon/charm/base selector
+   * Toggle weapon/charm/base selectors
    */
   function bindSelectorButtons() {
     var weaponsTable = getSelectors("weapon").container;
@@ -147,7 +150,7 @@ function getSelectors(type) {
 }
 
 /**
- * Populates item checkboxes
+ * Populate item checkboxes
  * @param {string[]} itemKeys
  * @param {string} type @see {@link getSelectors}
  */
@@ -194,7 +197,7 @@ function loadItemSelection(itemKeys, type) {
 }
 
 /**
- * Check and load cookies and localstorage
+ * Check and process saved data
  */
 function checkCookies() {
   var storedData = JSON.parse(localStorage.getItem("setupData"));
@@ -263,9 +266,9 @@ function checkCookies() {
     var ownedWeapons = storedData["weapons"];
     var ownedCharms = storedData["charms"];
 
-    // console.log("Bases loaded: " + ownedBases.length);
-    // console.log("Weapons loaded: " + ownedWeapons.length);
-    // console.log("Charms loaded: " + ownedCharms.length);
+    console.log("Bases loaded: " + ownedBases.length);
+    console.log("Weapons loaded: " + ownedWeapons.length);
+    console.log("Charms loaded: " + ownedCharms.length);
 
     if (ownedBases && ownedBases.length > 0) {
       processStorageArray(baseKeys, ownedBases, "base");
@@ -529,7 +532,7 @@ function cheeseChanged() {
 }
 
 function baseChanged() {
-  //Bases with special effects when paired with particular charm
+  // Bases with special effects when paired with particular charm
   if (specialCharm[baseName]) {
     calcSpecialCharms(charmName);
   } else {
@@ -558,9 +561,10 @@ function showPop() {
     charmChanged();
     var selectedCharm = $("#charm").val();
     var population = getPopulation(selectedCharm);
-    // console.time("printCombinations");
+    console.time("printCombinations (total)");
     printCombinations(population, getHeader(population));
-    // console.timeEnd("printCombinations");
+    console.timeEnd("printCombinations (total)");
+    console.log("------------------------------");
   }
 
   /**
@@ -643,15 +647,73 @@ function buildPowersArray(micePopulation) {
   return power;
 }
 
+// sample: [{catches: [0.5, 0.4], rank: 0.001, link: "url", cr: 0.9}, {}, etc]
+var unsortedOverallCR = [];
+
 /**
- * Build mouse population <td> elements for a setup row
+ * Build an array of objects for faster sorting
+ * Used in printCombinations
+ * @param micePopulation
+ * @param powersArray Array of location's mouse power values
+ * @param {array} mpKeys micePopulation object keys
+ * @param {number} mpLen Length of mpKeys
+ * @param {string} selectedCharm Current charm for CRE link generation
+ * @param {string} headerHtml
+ */
+function buildOverallCR(
+  micePopulation,
+  powersArray,
+  mpKeys,
+  mpLen,
+  selectedCharm,
+  headerHtml
+) {
+  var overallAR = getCheeseAttraction();
+  var effArray = buildEffectivenessArray(micePopulation);
+  var overallCR = 0;
+  var overallProgress = 0;
+  var fullRow = {};
+  fullRow["catches"] = [];
+  var i = mpLen;
+  while (i--) {
+    var mouse = mpKeys[mpLen - i - 1];
+    var catches = getMouseCatches(
+      micePopulation,
+      mouse,
+      overallAR,
+      effArray,
+      powersArray
+    );
+    overallCR += catches;
+    fullRow["catches"].push(catches);
+    if (rank) {
+      // handle missing data
+      if (mouseWisdom[mouse]) {
+        overallProgress += mouseWisdom[mouse] / rankupDiff[rank] * catches;
+      }
+    }
+  }
+  fullRow["rank"] = overallProgress;
+  fullRow["link"] = getLinkCell(
+    selectedCharm,
+    weaponName,
+    baseName,
+    headerHtml
+  );
+  fullRow["cr"] = overallCR;
+  unsortedOverallCR.push(fullRow);
+}
+
+/**
+ * Build mouse population <td> elements for each row
+ * Used in printCharmCombinations
  * @param micePopulation
  * @return {string}
  */
 function buildMiceCRCells(micePopulation) {
   var overallCR = 0;
-  var overallAR = getCheeseAttraction();
   var overallProgress = 0;
+  var overallAR = getCheeseAttraction();
   var effectivenessArray = buildEffectivenessArray(micePopulation);
   var powersArray = buildPowersArray(micePopulation);
   var html = "";
@@ -694,14 +756,18 @@ function printCombinations(micePopulation, headerHtml) {
   var tableHTML = headerHtml + "<tbody>";
   charmName = selectedCharm;
 
-  // console.log(
-  // `Checked weapons: ${$(weaponSelectors.checkbox + ":checked").length}`
-  // );
-  // console.log(
-  // `Checked bases: ${$(baseSelectors.checkbox + ":checked").length}`
-  // );
-  // console.log(`Number of mice: ${Object.keys(micePopulation).length}`);
-  // console.time("Weapon + Base Iteration");
+  console.log(
+    `Weapons: ${$(weaponSelectors.checkbox + ":checked").length} / Bases: ${
+      $(baseSelectors.checkbox + ":checked").length
+    } / Mice: ${Object.keys(micePopulation).length}`
+  );
+
+  var powersArray = buildPowersArray(micePopulation);
+  var mousePopKeys = Object.keys(micePopulation);
+  var mousePopLength = mousePopKeys.length;
+  unsortedOverallCR = [];
+
+  console.time("weapon & base $.each() loop");
   $(weaponSelectors.checkbox + ":checked").each(function(index, weaponElement) {
     weaponName = weaponElement.value;
     weaponChanged();
@@ -710,19 +776,46 @@ function printCombinations(micePopulation, headerHtml) {
       baseName = baseElement.value;
       baseChanged();
 
-      tableHTML +=
-        "<tr>" +
-        getLinkCell(selectedCharm, {
-          weapon: weaponElement.value,
-          base: baseElement.value
-        }) +
-        buildMiceCRCells(micePopulation);
+      buildOverallCR(
+        micePopulation,
+        powersArray,
+        mousePopKeys,
+        mousePopLength,
+        selectedCharm,
+        headerHtml
+      );
     });
   });
-  // console.timeEnd("Weapon + Base Iteration");
+  console.timeEnd("weapon & base $.each() loop");
+
+  // Sort in place based on greater overall catch rate
+  unsortedOverallCR.sort(function(a, b) {
+    return b["cr"] - a["cr"];
+  });
+
+  // Grab user defined number of rows to pass into tablesorter
+  var rowIterations = $("input[name=rowLimit]:checked").val();
+  if (rowIterations === "All" || rowIterations > unsortedOverallCR.length) {
+    rowIterations = unsortedOverallCR.length;
+  }
+
+  // Concatenate into single HTML string
+  for (var i = 0; i < rowIterations; i++) {
+    var obj = unsortedOverallCR[i];
+    tableHTML += "<tr>" + obj["link"];
+    for (var j = 0; j < obj["catches"].length; j++) {
+      tableHTML +=
+        "<td align='right'>" + obj["catches"][j].toFixed(2) + "</td>";
+    }
+    tableHTML += "<td align='right'>" + obj["cr"].toFixed(2) + "</td>";
+    if (rank) {
+      // numbers are usually 0.00##% per hunt, but per 100 hunts is consistent with values shown
+      tableHTML += "<td>" + (obj["rank"] * 100).toFixed(2) + "%</td>";
+    }
+  }
   $("#results").html(tableHTML);
 
-  // console.time("tablesorter update trigger");
+  console.time("tablesorter update trigger");
   var resort = true;
   var callback = function() {
     var header = $("#overallHeader");
@@ -734,39 +827,31 @@ function printCombinations(micePopulation, headerHtml) {
     }
   };
   $("#results").trigger("updateAll", [resort, callback]);
-  // console.timeEnd("tablesorter update trigger");
+  console.timeEnd("tablesorter update trigger");
+}
 
-  /**
-   * Get <td> jQuery element for the CRE link
-   * @param {string} selectedCharm
-   * @param {object} eventData Data to pass to the 'Find best charm' event listener
-   * @return {jQuery}
-   */
-  function getLinkCell(selectedCharm, eventData) {
-    var cell = "</td><td>" + getCRELinkElement();
+/**
+ * String concatenation for CRE setup link and 'Find best charm' button handler
+ * @param {string} selectedCharm
+ * @param {string} weaponName
+ * @param {string} baseName
+ * @return {string}
+ */
+function getLinkCell(selectedCharm, weaponName, baseName, headerHtml) {
+  var cell = "</td><td>" + getCRELinkElement();
 
-    // String concatenation magic
-    // prettier-ignore
-    if (selectedCharm === EMPTY_SELECTION) {
+  // prettier-ignore
+  if (selectedCharm === EMPTY_SELECTION) {
       cell += '<span style="float: right"><button onclick="weaponName=\''
-        + eventData.weapon.replace(/'/g, "\\'")
+      + weaponName.replace(/'/g, "\\'")
         + '\';baseName=\''
-        + eventData.base.replace(/'/g, "\\'")
-        + '\';weaponChanged();baseChanged();printCharmCombinations(getPopulation(EMPTY_SELECTION), \''
+      + baseName.replace(/'/g, "\\'")
+      + '\';weaponChanged();baseChanged();printCharmCombinations(getPopulation(EMPTY_SELECTION), \''
         + headerHtml.replace(/'/g, "\\'")
         + '\')">Find best charm</button></span>';
     }
 
-    return cell;
-  }
-
-  function findBestCharm(event) {
-    weaponName = event.data.weapon;
-    baseName = event.data.base;
-    weaponChanged();
-    baseChanged();
-    printCharmCombinations(getPopulation(EMPTY_SELECTION), headerHtml);
-  }
+  return cell;
 }
 
 /**
@@ -884,38 +969,7 @@ function getMouseACR(
   }
 
   calculateTrapSetup();
-
   var catchRate = calcCR(trapEffectiveness, trapPower, trapLuck, mousePower);
-
-  /**
-   * Final catch rate adjustments
-   */
-  if (
-    locationName === "Zugzwang's Tower" ||
-    locationName === "Seasonal Garden"
-  ) {
-    if (ztAmp > 0 && weaponName === "Zugzwang's Ultimate Move") {
-      catchRate += (1 - catchRate) / 2;
-    }
-  } else if (locationName === "Fort Rox") {
-    if (
-      (contains(wereMice, mouseName) && fortRox.ballistaLevel >= 2) ||
-      (contains(cosmicCritters, mouseName) && fortRox.cannonLevel >= 2)
-    ) {
-      catchRate += (1 - catchRate) / 2;
-    }
-    if (
-      (fortRox.cannonLevel >= 3 && mouseName === "Nightfire") ||
-      (fortRox.ballistaLevel >= 3 && mouseName === "Nightmancer")
-    ) {
-      catchRate = 1;
-    }
-  }
-
-  if (weaponName.startsWith("Anniversary")) {
-    catchRate += (1 - catchRate) / 10;
-  }
-
   return { attractions: attractions, catchRate: catchRate };
 }
 
@@ -945,24 +999,54 @@ function getMouseCatches(
   var attractions = mouseACDetails.attractions;
   var catchRate = mouseACDetails.catchRate;
 
-  //Exceptions, final modifications to catch rates
-  if (charmName == "Ultimate Charm") catchRate = 1;
-  else if (
+  // Exceptions and final modifications to catch rates
+  if (charmName == "Ultimate Charm") {
+    catchRate = 1;
+  } else if (
     locationName == "Sunken City" &&
     charmName == "Ultimate Anchor Charm" &&
     phaseName != "Docked"
-  )
+  ) {
     catchRate = 1;
-  else if (mouse == "Bounty Hunter" && charmName == "Sheriff's Badge Charm")
+  } else if (mouse == "Bounty Hunter" && charmName == "Sheriff's Badge Charm") {
     catchRate = 1;
-  else if (mouse == "Zurreal the Eternal" && weaponName != "Zurreal's Folly")
+  } else if (
+    mouse == "Zurreal the Eternal" &&
+    weaponName != "Zurreal's Folly"
+  ) {
     catchRate = 0;
+  } else if (
+    locationName === "Zugzwang's Tower" ||
+    locationName === "Seasonal Garden"
+  ) {
+    if (ztAmp > 0 && weaponName === "Zugzwang's Ultimate Move") {
+      catchRate += (1 - catchRate) / 2;
+    }
+  } else if (locationName === "Fort Rox") {
+    if (
+      (contains(wereMice, mouseName) && fortRox.ballistaLevel >= 2) ||
+      (contains(cosmicCritters, mouseName) && fortRox.cannonLevel >= 2)
+    ) {
+      catchRate += (1 - catchRate) / 2;
+    }
+    if (
+      (fortRox.cannonLevel >= 3 && mouseName === "Nightfire") ||
+      (fortRox.ballistaLevel >= 3 && mouseName === "Nightmancer")
+    ) {
+      catchRate = 1;
+    }
+  }
+
+  if (weaponName.startsWith("Anniversary")) {
+    catchRate += (1 - catchRate) / 10;
+  }
 
   return attractions * catchRate;
 }
 
 /**
- * Print result of best charm. (Different charms with specific weapon, base)
+ * Print result of 'Find best charm'
+ * Compare different charms with a specific weapon and base setup
  * @param micePopulation
  * @param {string} headerHTML
  */

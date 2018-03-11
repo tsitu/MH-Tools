@@ -161,7 +161,9 @@ Event _(not included)_ | Cupcake Colby, Dumpling, Extra Sweet Cupcake Colby, Mar
 
 To check whether your items have properly loaded, you may want to open up the [JavaScript console](https://webmasters.stackexchange.com/a/77337) in your browser, both on your MH Camp page and on the Best Setup page (after it has finished processing). You will then want to compare `Number of bases/weapons/charms: __` values for the former with `Bases/Weapons/Charms loaded: __` for the latter.
 
-_Note:_ This tool will be receiving optimizations in the near future to reduce lengthy loading times and store owned items more effectively. It currently uses a high amount of CPU and memory, so be careful with calculations approaching the maximum number of weapons and bases.
+'Number of rows to display' is set at 50 by default, with options for 100, 500, 1000, or All rows. When running calculations with close to the maximum number of weapons and bases selected, keep the number of rows low to avoid excessive CPU/RAM usage.
+
+_Note:_ This tool will be receiving optimizations in the near future to store owned items more effectively.
 
 <div align="right"><a href="#book-table-of-contents">Top</a></div>
 
