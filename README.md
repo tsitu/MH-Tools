@@ -211,6 +211,10 @@ Weighted | Same as Total CP, but with baseline cheese attraction rates factored 
 
 **Bookmarklet:** Execute the `Crafting` bookmarklet from Inventory -> Crafting -> [Crafting Table](https://www.mousehuntgame.com/inventory.php?tab=crafting&subtab=crafting_table). A dialog should appear at the top of the page. Click `Select All`, then `Copy` (or manually copy the `<textarea>` contents to your clipboard) and paste the contents over to the Crafting Wizard tool. Click `Load Data`, then `Calculate` to populate the `Inventory` and `Recipes` tables, with the latter being sortable and filterable.
 
+<div align="right"><a href="#book-table-of-contents">Top</a></div>
+
+---
+
 ### :bookmark_tabs: [CRE Tabbed Demo](https://tsitu.github.io/MH-Tools/tabs.html)
 
 > Provides a convenient way to spin up multiple independent instances of the CRE tool. Each instance is located in its own `<iframe>` and setups are easily copy-pasted between tabs. Great for quickly comparing setups that are mostly identical.
