@@ -21,6 +21,7 @@ Feel free to post your questions, comments, or concerns there (or [here](https:/
   - [Best Setup](#trophy-best-setup)
   - [Marketplace Analyzer](#chart_with_upwards_trend-marketplace-analyzer)
   - [Crown Solver](#crown-crown-solver)
+  - [Crafting Wizard](#hammer-crafting-wizard)
   - [CRE Tabbed Demo](#bookmark_tabs-cre-tabbed-demo)
 - [Developers](#developers)
   - [Build and Run](#construction_worker-build-and-run)
@@ -204,6 +205,11 @@ Weighted | Same as Total CP, but with baseline cheese attraction rates factored 
 <div align="right"><a href="#book-table-of-contents">Top</a></div>
 
 ---
+
+### :hammer: [Crafting Wizard](https://tsitu.github.io/MH-Tools/crafting.html)
+> Calculates the total craftable quantity for recipes based on your inventory data, as well as missing materials for uncraftable recipes.
+
+**Bookmarklet:** Execute the `Crafting` bookmarklet from Inventory -> Crafting -> [Crafting Table](https://www.mousehuntgame.com/inventory.php?tab=crafting&subtab=crafting_table). A dialog should appear at the top of the page. Click `Select All`, then `Copy` (or manually copy the `<textarea>` contents to your clipboard) and paste the contents over to the Crafting Wizard tool. Click `Load Data`, then `Calculate` to populate the `Inventory` and `Recipes` tables, with the latter being sortable and filterable.
 
 ### :bookmark_tabs: [CRE Tabbed Demo](https://tsitu.github.io/MH-Tools/tabs.html)
 

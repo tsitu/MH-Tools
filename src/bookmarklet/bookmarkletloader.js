@@ -35,6 +35,7 @@
     var setupTimestamp = "Last updated: " + timestamps["setup"];
     var analyzerTimestamp = "Last updated: " + timestamps["analyzer"];
     var crownTimestamp = "Last updated: " + timestamps["crown"];
+    var craftingTimestamp = "Last updated: " + timestamps["crafting"];
 
     var closeButton = document.createElement("button", { id: "close-button" });
     closeButton.textContent = "x";
@@ -49,7 +50,7 @@
 
     var descriptionSpan = document.createElement("span");
     descriptionSpan.innerHTML =
-      "Version 1.1 / Using <a href='https://rawgit.com' target='blank'>RawGit</a>";
+      "Version 1.2 / Using <a href='https://rawgit.com' target='blank'>RawGit</a>";
     var loaderSpanTimestamp = document.createElement("span");
     loaderSpanTimestamp.style.fontSize = "10px";
     loaderSpanTimestamp.style.fontStyle = "italic";
@@ -107,6 +108,18 @@
     crownSpanTimestamp.style.fontStyle = "italic";
     crownSpanTimestamp.innerHTML = crownTimestamp;
 
+    var craftingButton = document.createElement("button", {
+      id: "crafting-button"
+    });
+    craftingButton.textContent = "Crafting Wizard";
+    craftingButton.onclick = function() {
+      loadBookmarklet("crafting");
+    };
+    var craftingSpanTimestamp = document.createElement("span");
+    craftingSpanTimestamp.style.fontSize = "10px";
+    craftingSpanTimestamp.style.fontStyle = "italic";
+    craftingSpanTimestamp.innerHTML = craftingTimestamp;
+
     mainDiv.appendChild(closeButton);
     mainDiv.appendChild(document.createElement("br"));
     mainDiv.appendChild(document.createElement("br"));
@@ -140,6 +153,11 @@
     mainDiv.appendChild(crownButton);
     mainDiv.appendChild(document.createElement("br"));
     mainDiv.appendChild(crownSpanTimestamp);
+    mainDiv.appendChild(document.createElement("br"));
+    mainDiv.appendChild(document.createElement("br"));
+    mainDiv.appendChild(craftingButton);
+    mainDiv.appendChild(document.createElement("br"));
+    mainDiv.appendChild(craftingSpanTimestamp);
     mainDiv.appendChild(document.createElement("br"));
     mainDiv.appendChild(document.createElement("br"));
     mainDiv.appendChild(document.createTextNode("(Drag me around on a PC)"));

@@ -3,6 +3,7 @@ var ANALYZER_BOOKMARKLET_URL = "src/bookmarklet/analyzerbookmarklet.min.js";
 var CRE_BOOKMARKLET_URL = "src/bookmarklet/crebookmarklet.min.js";
 var MAP_BOOKMARKLET_URL = "src/bookmarklet/mapbookmarklet.min.js";
 var CROWN_BOOKMARKLET_URL = "src/bookmarklet/crownbookmarklet.min.js";
+var CRAFTING_BOOKMARKLET_URL = "src/bookmarklet/craftingbookmarklet.min.js";
 var BOOKMARKLET_LOADER_URL = "src/bookmarklet/bookmarkletloader.min.js";
 
 /**
@@ -53,6 +54,9 @@ function loadBookmarkletFromJS(url, storageKey, linkSelector, callback) {
             break;
           case "crownBookmarklet":
             alertString = "The Silver Crown Solver ";
+            break;
+          case "craftingBookmarklet":
+            alertString = "The Crafting Wizard ";
             break;
         }
         alertString +=
