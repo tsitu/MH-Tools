@@ -150,19 +150,6 @@ function initTablesorter() {
     }
   });
 
-  $("button[data-filter-column]").click(function() {
-    var filters = [],
-      $t = $(this),
-      col = $t.data("filter-column"), // zero-based index
-      txt = $t.data("filter-text") || $t.text(); // text to add to filter
-
-    filters[col] = txt;
-    // using "table.hasFilters" here to make sure we aren't targeting a sticky header
-    $.tablesorter.setFilters($("#bestLocation"), filters, true); // new v2.9
-
-    return false;
-  });
-
   $(".cheese-filter").change(function() {
     var filterList = {
       common: [

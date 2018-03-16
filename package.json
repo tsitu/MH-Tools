@@ -3,17 +3,10 @@
   "version": "1.0.0",
   "description": "Assorted Mousehunt Tools",
   "scripts": {
-    "bookmarklet:cre": "uglifyjs src/bookmarklet/crebookmarklet.js -cmo src/bookmarklet/crebookmarklet.min.js",
-    "bookmarklet:setup": "uglifyjs src/bookmarklet/setupbookmarklet.js -cmo src/bookmarklet/setupbookmarklet.min.js",
-    "bookmarklet:map": "uglifyjs src/bookmarklet/mapbookmarklet.js -cmo src/bookmarklet/mapbookmarklet.min.js",
-    "bookmarklet:crown": "uglifyjs src/bookmarklet/crownbookmarklet.js -cmo src/bookmarklet/crownbookmarklet.min.js",
-    "bookmarklet:analyzer": "uglifyjs src/bookmarklet/analyzerbookmarklet.js -cmo src/bookmarklet/analyzerbookmarklet.min.js",
-    "bookmarklet:loader": "uglifyjs src/bookmarklet/bookmarkletloader.js -cmo src/bookmarklet/bookmarkletloader.min.js",
-    "bookmarklet": "npm-run-all --parallel bookmarklet:*",
     "update:population:bwrift": "node tools/bwriftpop.js > data/pop-bwrift.csv",
     "update:population:iceberg": "node tools/icebergpop.js > data/pop-iceberg.csv",
     "update:population": "npm-run-all update:population:*",
-    "minify:bookmarklet": "uglifyjs-folder src/bookmarklet -eo src/bookmarklet/min -p **/*.js,!**/*min.js",
+    "minify:bookmarklet": "uglifyjs-folder src/bookmarklet -eo src/bookmarklet -p **/*.js,!**/*min.js",
     "minify:main": "uglifyjs-folder src/main -eo src/main/min -p **/*.js,!**/*min.js",
     "minify:utils": "uglifyjs-folder src/utils -eo src/utils/min -p **/*.js,!**/*min.js",
     "minify": "npm-run-all --parallel minify:*",
@@ -22,7 +15,7 @@
     "timestamp": "node build/processTimestamp.js",
     "wisdom": "node build/processWisdom.js",
     "serve": "http-server -p 8000",
-    "build": "npm-run-all --parallel bookmarklet population wisdom"
+    "build": "npm-run-all --parallel minify:bookmarklet population wisdom"
   },
   "repository": {
     "type": "git",

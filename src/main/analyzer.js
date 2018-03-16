@@ -12,7 +12,7 @@ window.onload = function() {
     "#bookmarklet"
   );
 
-  //Initialize tablesorter, bind to table
+  // Initialize tablesorter, bind to table
   $.tablesorter.defaults.sortInitialOrder = "desc";
   $("#table")
     .tablesorter({
