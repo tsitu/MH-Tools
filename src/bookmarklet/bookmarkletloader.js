@@ -50,7 +50,7 @@
 
     var descriptionSpan = document.createElement("span");
     descriptionSpan.innerHTML =
-      "Version 1.2.1 / Using <a href='https://rawgit.com' target='blank'>RawGit</a>";
+      "Version 1.2.2 / Using <a href='https://rawgit.com' target='blank'>RawGit</a>";
     var loaderSpanTimestamp = document.createElement("span");
     loaderSpanTimestamp.style.fontSize = "10px";
     loaderSpanTimestamp.style.fontStyle = "italic";
@@ -165,7 +165,7 @@
     mainDiv.style.backgroundColor = "#F5F5F5";
     mainDiv.style.position = "fixed";
     mainDiv.style.zIndex = "9999";
-    // Customizable offset by others
+    // Allow customizable left position property
     mainDiv.style.left = (typeof window.tsitu_loader_offset != 'undefined') ? window.tsitu_loader_offset.concat("%") : "80%";
     mainDiv.style.top = "25px";
     mainDiv.style.border = "solid 3px #696969";
