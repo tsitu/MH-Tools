@@ -166,7 +166,7 @@
     mainDiv.style.position = "fixed";
     mainDiv.style.zIndex = "9999";
     // Customizable offset by others
-    mainDiv.style.left = (window.tsitu_loader_offset) ? window.tsitu_loader_offset.concat("%") : "80%";
+    mainDiv.style.left = (typeof window.tsitu_loader_offset != 'undefined') ? window.tsitu_loader_offset.concat("%") : "80%";
     mainDiv.style.top = "25px";
     mainDiv.style.border = "solid 3px #696969";
     mainDiv.style.borderRadius = "20px";
