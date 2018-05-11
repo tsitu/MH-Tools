@@ -2,11 +2,12 @@
   const SAMPLE_SIZE_LABEL = "SampleSize";
   const POPULATIONS = [
     "data/populations.csv",
-    "data/pop-mopi.csv",
     "data/pop-bwrift.csv",
     "data/pop-iceberg.csv",
+    "data/pop-fg.csv",
+    "data/pop-fort-rox.csv",
     "data/pop-frift.csv",
-    "data/pop-fg.csv"
+    "data/pop-mopi.csv"
   ];
 
   const fs = require("fs");
