@@ -7,7 +7,8 @@
     "data/pop-fg.csv",
     "data/pop-fort-rox.csv",
     "data/pop-frift.csv",
-    "data/pop-mopi.csv"
+    "data/pop-mopi.csv",
+    "data/pop-toxic-spill.csv"
   ];
 
   const fs = require("fs");
