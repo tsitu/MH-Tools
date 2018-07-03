@@ -328,7 +328,13 @@ var baselineAttArray = {
   "Vengeful Vanilla Stilton": 0.9891, // Sample: 678 (Medium)
   "White Cheddar": 0.5842, // Sample: 505 (Medium)
   "Wicked Gnarly": 0.9870, // Sample: 1116 (High)
-  "Windy": 0.9992 // Sample: 14793 (Very High)
+  "Windy": 0.9992, // Sample: 14793 (Very High)
+  "Bland Queso": 0.8967647356317608, // Sample: 6100 (High)
+  "Mild Queso": 0.9487478664222776, // Sample: 5819 (High)
+  "Medium Queso": 0.9761907913992343, // Sample: 3384 (High)
+  "Hot Queso": 0.9963449212719975, // Sample: 790 (Medium)
+  "Flamin' Queso": 1, // Sample: 294 (Low)
+  "Wildfire Queso": 1, // Sample: 22 (Low)
 };
 
 /* Its okay using strings as keys here, JS will convert it */
@@ -2967,6 +2973,32 @@ var powersArray = {
   "Craggy Ore": [1200, 100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
   "Slope Swimmer": [1200, 100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
   "Mountain": [1900, 100, 100, 100, 100, 0, 100, 100, 100, 100, 100],
+  // Queso Canyoneers
+  "Sleepy Merchant": [420, 0, 0, 0, 0, 0, 0, 0, 0, 100, 0],
+  "Tiny Saboteur": [1120, 0, 0, 0, 0, 0, 0, 0, 0, 100, 0],
+  "Pump Raider": [1915, 0, 0, 0, 0, 0, 0, 0, 0, 100, 0],
+  "Croquet Crusher": [2945, 0, 0, 0, 0, 0, 0, 0, 0, 100, 0],
+  "Queso Extractor": [4310, 0, 0, 0, 0, 0, 0, 0, 0, 100, 0],
+  "Queen Quesada": [8400*13, 0, 0, 0, 0, 0, 0, 0, 0, 1300, 0],
+  "Spice Seer": [1873, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "Old Spice Collector": [3800, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "Spice Farmer": [2455, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "Granny Spice": [4625, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "Spice Sovereign": [3080, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "Spice Finder": [5575, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "Spice Raider": [3810, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "Spice Reaper": [6700, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "Inferna, The Engulfed": [7065*13, 1300, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "Chip Chiseler": [1260, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+  "Tiny Toppler": [2815, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+  "Ore Chipper": [1720, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+  "Rubble Rummager": [3480, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+  "Nachore Golem": [2235, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+  "Rubble Rouser": [4225, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+  "Grampa Golem": [2815, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+  "Fiery Crusher": [5095, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0],
+  "Nachous, The Molten": [5335*13, 0, 0, 0, 0, 0, 0, 1300, 0, 0, 0],
+   // "Mouse name": [Power, Arcane, Draconic, Forgotten, Hydro, Parental, Physical, Shadow, Tactical, Law, Rift],
 };
 
 /* [Gold, Points] */
@@ -3847,6 +3879,32 @@ var miceArray = {
   "Craggy Ore": [1000, 1600],
   "Slope Swimmer": [1000, 1600],
   "Mountain": [1000, 3000],
+  // Queso Canyoneers
+  "Sleepy Merchant": [5000, 25000],
+  "Tiny Saboteur": [900, 8500],
+  "Pump Raider": [1000, 15000],
+  "Croquet Crusher": [2000, 12000],
+  "Queso Extractor": [4000, 8008],
+  "Queen Quesada": [70000, 300000],
+  "Spice Seer": [2000, 20000],
+  "Old Spice Collector": [2500, 22000],
+  "Spice Farmer": [3070, 30000],
+  "Granny Spice": [4500, 34000],
+  "Spice Sovereign": [5000, 40000],
+  "Spice Finder": [6000, 46000],
+  "Spice Raider": [8000, 50000],
+  "Spice Reaper": [9000, 62200],
+  "Inferna, The Engulfed": [18000, 150000],
+  "Chip Chiseler": [1000, 14670],
+  "Tiny Toppler": [2000, 16000],
+  "Ore Chipper": [3800, 10000],
+  "Rubble Rummager": [4500, 12000],
+  "Nachore Golem": [7000, 30000],
+  "Rubble Rouser": [8000, 35000],
+  "Grampa Golem": [10000, 54500],
+  "Fiery Crusher": [13200, 70000],
+  "Nachous, The Molten": [35000, 90000],
+  // "Mouse name": [Gold, Points],
 };
 
 var festiveTraps = [

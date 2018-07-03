@@ -7,7 +7,10 @@
     "data/pop-fg.csv",
     "data/pop-fort-rox.csv",
     "data/pop-frift.csv",
-    "data/pop-mopi.csv"
+    "data/pop-mopi.csv",
+    "data/pop-queso-river.csv",
+    "data/pop-prickly-plains.csv",
+    "data/pop-cantera-quarry.csv"
   ];
 
   const fs = require("fs");
