@@ -106,6 +106,7 @@ Charming Chimer,0
 Cherry,900
 Cherry Sprite,20000
 Chess Master,17940
+Chip Chiseler,2201
 Chipper,680
 Chitinous,4441
 Chocolate Gold Foil,1100
@@ -163,6 +164,7 @@ Crimson Commander,1600
 Crimson Ranger,3520
 Crimson Titan,3200
 Crimson Watch,3872
+Croquet Crusher,1800
 Crown Collector,100
 Crystal Behemoth,75000
 Crystal Cave Worm,15000
@@ -282,6 +284,7 @@ Fetid Swamp,2083
 Fiddler,409
 Field,40
 Fiend,7200
+Fiery Crusher,9330
 Finder,355
 Firebreather,2277
 Firefly,990
@@ -341,9 +344,11 @@ Goliath Field,18000
 Gorgon,140
 Gourd Ghoul,4000
 Gourdborg,3780
+Grampa Golem,7500
 Grand Master of the Dojo,42000
 Grandfather,864
 Granite,60
+Granny Spice,5100
 Grave Robber,300
 Great Winter Hunt Impostor,6000
 Greedy Al,375
@@ -395,6 +400,7 @@ Ignis,449
 Impersonator,18
 Incompetent Ice Climber,785
 Industrious Digger,351
+"Inferna, The Engulfed",0
 Inferno Mage,4240
 Infiltrator,2370
 Itty Bitty Rifty Burroughs,7100
@@ -529,6 +535,8 @@ Mystic Pawn,1200
 Mystic Queen,11040
 Mystic Rook,9900
 Mystic Scholar,12120
+Nachore Golem,6000
+"Nachous, The Molten",0
 Narrator,90
 Naturalist,20000
 Naughty Nougat,0
@@ -555,8 +563,10 @@ Nugget,688
 Nutcracker,3600
 Octomermaid,5472
 Old One,5840
+Old Spice Collector,3300
 Onion Chopper,750
 Ooze,550
+Ore Chipper,3150
 Ornament,3600
 Outbreak Assassin,19000
 Outlaw,1425
@@ -602,11 +612,14 @@ Prototype,6000
 Puddlemancer,1572
 Puffer,1856
 Pugilist,70
+Pump Raider,2250
 Pumpkin Head,338
 Pumpkin Hoarder,270
 Puppet Master,30
 Pygmy Wrangler,1300
 Pyrite,1000
+Queen Quesada,0
+Queso Extractor,1201
 Quesodillo,2400
 Quillback,6200
 Radioactive Ooze,8250
@@ -649,6 +662,8 @@ Rogue,70
 Romeno,0
 Romeo,100
 RR-8,4875
+Rubble Rouser,6900
+Rubble Rummager,5100
 Ruffian,750
 S.N.O.W. Golem,12000
 Saboteur,1020
@@ -706,6 +721,7 @@ Skeleton,240
 Slay Ride,6000
 Slayer,1046
 Sleepwalker,130
+Sleepy Merchant,3750
 Slimefist,22000
 Slope Swimmer,550
 Sludge,900
@@ -739,7 +755,13 @@ Spectral Swashbuckler,375
 Spectre,560
 Speedy,95
 Spellbinder,320
+Spice Farmer,4500
+Spice Finder,6900
 Spice Merchant,1650
+Spice Raider,0
+Spice Reaper,0
+Spice Seer,3000
+Spice Sovereign,6000
 Spider,520
 Spiked Burrower,4600
 Spiky Devil,2000
@@ -776,7 +798,7 @@ Stonework Warrior,2467
 Stoutgear,900
 Stowaway,950
 Strawberry Hotcakes,2200
-Stuck Snowball * (#c+2)/3,750
+Stuck Snowball,750
 Student of the Cheese Belt,625
 Student of the Cheese Claw,625
 Student of the Cheese Fang,625
@@ -837,6 +859,8 @@ Timeless Lich,25000
 Timelost Thaumaturge,9000
 Timeslither Pythoness,15000
 Tiny,35
+Tiny Saboteur,1350
+Tiny Toppler,2400
 Titanic Brain-Taker,5000
 Toboggan Technician,475
 Tomb Exhumer,6600
