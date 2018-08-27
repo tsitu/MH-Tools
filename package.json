@@ -12,6 +12,7 @@
     "minify": "npm-run-all --parallel minify:*",
     "population": "node build/processPopulation.js",
     "puppeteer": "npm i -S puppeteer",
+    "sample": "node build/processSampleSize.js",
     "timestamp": "node build/processTimestamp.js",
     "wisdom": "node build/processWisdom.js",
     "serve": "http-server -p 8000",

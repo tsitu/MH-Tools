@@ -18,6 +18,7 @@ script:
  - npm run puppeteer
  - npm run build
  - npm run timestamp
+ - npm run sample
 
 before_install:
  - chmod +x build/deploy.sh
