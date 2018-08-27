@@ -19,11 +19,11 @@ const puppeteer = require("puppeteer");
 
 // GitHub-served raw JSON file URLs from gh-pages branch
 const overallURL =
-  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/sample-summary-overall.json";
+  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/data/sample-summary-overall.json";
 const conciseURL =
-  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/sample-summary-concise.json";
+  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/data/sample-summary-concise.json";
 const detailedURL =
-  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/sample-summary-detailed.json";
+  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/data/sample-summary-detailed.json";
 
 /**
  * Returns ideal sample size for 10% relative uncertainty at 95% level
