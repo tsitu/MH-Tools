@@ -372,21 +372,21 @@ function processDetailed() {
  */
 async function calculateDiffs() {
   // Force update raw JSON files on GitHub using Puppeteer
-  // const browser = await puppeteer.launch({
-  //   args: ["--no-sandbox", "--disable-setuid-sandbox"],
-  //   executablePath: "google-chrome-beta"
-  // });
-  // const overallPage = await browser.newPage();
-  // const concisePage = await browser.newPage();
-  // const detailedPage = await browser.newPage();
-  // await overallPage.goto(overallURL);
-  // await concisePage.goto(conciseURL);
-  // await detailedPage.goto(detailedURL);
-  // await browser.close();
+  const browser = await puppeteer.launch({
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    executablePath: "google-chrome-beta"
+  });
+  const overallPage = await browser.newPage();
+  const concisePage = await browser.newPage();
+  const detailedPage = await browser.newPage();
+  await overallPage.goto(overallURL);
+  await concisePage.goto(conciseURL);
+  await detailedPage.goto(detailedURL);
+  await browser.close();
 
-  // await processOverall();
-  // await processLocation();
-  // await processDetailed();
+  await processOverall();
+  await processLocation();
+  await processDetailed();
 
   // Finally, output JSON to overwrite the 3 initial files
   outputJSON();
