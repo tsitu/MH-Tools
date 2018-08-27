@@ -10,7 +10,7 @@
     "data/pop-mopi.csv",
     "data/pop-queso-river.csv",
     "data/pop-prickly-plains.csv",
-    "data/pop-cantera-quarry.csv"
+    "data/pop-cantera-quarry.csv",
     "data/pop-toxic-spill.csv"
   ];
 
