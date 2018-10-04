@@ -1,7 +1,8 @@
-/**
- * Functions and variables used in both CRE and Best Setup tools
- */
+"use strict";
 
+/**
+ * Shared functions and variables for both CRE and Best Setup
+ */
 var user;
 var CRE_USER = "cre";
 var SETUP_USER = "setup";
@@ -30,14 +31,14 @@ var gsLuck = 7,
   bonusLuck = 0,
   pourBonus = 0,
   pourLuck = 0,
-  isEmpowered = "",
   batteryPower = 0,
+  isEmpowered = "",
   lanternStatus = "";
 var trapPower = 0,
   trapLuck = 0,
-  trapType = "",
   trapAtt = 0,
-  trapEff = 0;
+  trapEff = 0,
+  trapType = "";
 var baseName = "",
   charmName = "",
   locationName = "",
@@ -46,8 +47,9 @@ var baseName = "",
   weaponName = "",
   phaseName = "";
 var cheeseBonus = 0,
-  subtotalPowerBonus = 0,
-  sampleSize = 0;
+  cheeseCost = 0,
+  sampleSize = 0,
+  subtotalPowerBonus = 0;
 var riftStalkerCodex;
 var rank = "";
 
@@ -1023,4 +1025,74 @@ function checkPhase() {
   if (!phaseName) {
     phaseName = EMPTY_SELECTION;
   }
+}
+
+/**
+ * Final modifications to catch rate
+ * @param {number} catchRate
+ * @param {string} mouseName
+ * @return {number}
+ */
+function calcCRMods(catchRate, mouseName) {
+  if (
+    locationName === "Zugzwang's Tower" ||
+    locationName === "Seasonal Garden"
+  ) {
+    if (ztAmp > 0 && weaponName === "Zugzwang's Ultimate Move") {
+      // 50% increased CR for ZUM in ZT/SG
+      catchRate += (1 - catchRate) / 2;
+    }
+  } else if (locationName === "Fort Rox") {
+    if (
+      (contains(wereMice, mouseName) && fortRox.ballistaLevel >= 2) ||
+      (contains(cosmicCritters, mouseName) && fortRox.cannonLevel >= 2)
+    ) {
+      // 50% increased CR for Ballista/Cannon 2 in FR
+      catchRate += (1 - catchRate) / 2;
+    }
+
+    if (
+      (fortRox.cannonLevel >= 3 && mouseName === "Nightfire") ||
+      (fortRox.ballistaLevel >= 3 && mouseName === "Nightmancer")
+    ) {
+      catchRate = 1;
+      minLuckValue = 0;
+    }
+  }
+
+  // String.prototype.startsWith polyfill for IE
+  if (!String.prototype.startsWith) {
+    String.prototype.startsWith = function(searchString, position) {
+      position = position || 0;
+      return this.indexOf(searchString, position) === position;
+    };
+  }
+
+  if (weaponName.startsWith("Anniversary")) {
+    // 10% increased CR for 10th Anniversary traps
+    catchRate += (1 - catchRate) / 10;
+  }
+
+  // Miscellaneous modifications
+  if (charmName === "Ultimate Charm") {
+    catchRate = 1;
+  } else if (
+    locationName === "Sunken City" &&
+    charmName === "Ultimate Anchor Charm" &&
+    phaseName !== "Docked"
+  ) {
+    catchRate = 1;
+  } else if (
+    mouseName === "Bounty Hunter" &&
+    charmName === "Sheriff's Badge Charm"
+  ) {
+    catchRate = 1;
+  } else if (
+    mouseName === "Zurreal the Eternal" &&
+    weaponName !== "Zurreal's Folly"
+  ) {
+    catchRate = 0;
+  }
+
+  return catchRate;
 }

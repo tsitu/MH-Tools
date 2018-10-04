@@ -1,6 +1,5 @@
 "use strict";
 
-var MAP_USER = "map";
 var columnLimit = 0,
   rowLimit = 0,
   attractionBonus = 0,
@@ -8,14 +7,96 @@ var columnLimit = 0,
   timeDelay,
   remainingMice = 0;
 
+var user = "map";
 var EMPTY_SELECTION = "-";
 var NULL_URL_PARAM = null;
-var user = MAP_USER;
 var POPULATION_JSON_URL = "data/populations-map.json";
 
 var autoCompleteSettings = {
   delimiters: "\n",
   endingSymbols: "\n"
+};
+
+window.onload = function() {
+  startPopulationLoad(POPULATION_JSON_URL);
+  loadBookmarkletFromJS(
+    BOOKMARKLET_LOADER_URL,
+    "bookmarkletLoader",
+    "#bookmarkletloader"
+  );
+  loadBookmarkletFromJS(
+    CROWN_BOOKMARKLET_URL,
+    "crownBookmarklet",
+    "#bookmarklet"
+  );
+
+  // Initialize tablesorter, bind to table
+  initTablesorter();
+  loadCookies();
+
+  $("#map").keyup(function(event) {
+    // Checking for enter/return, backspace, and delete
+    // Then finding newlines and only processing when that differs from previous value
+    // TODO: Check for paste too?
+    if (event.keyCode == 13 || event.keyCode == 8 || event.keyCode == 46) {
+      clearTimeout(timeDelay);
+      var mapText = document.getElementById("map").value;
+      var b = (mapText.match(/\n/g) || []).length;
+      if (b !== numLineBreaks) {
+        numLineBreaks = b;
+        processMap(mapText);
+      } else {
+        clearTimeout(timeDelay);
+        var mapText = document.getElementById("map").value;
+        timeDelay = setTimeout(function() {
+          processMap(mapText);
+        }, 1000);
+      }
+    } else {
+      // 1-second delay after every keypress before processing map
+      // Implicitly handles pasting
+      clearTimeout(timeDelay);
+      var mapText = document.getElementById("map").value;
+      timeDelay = setTimeout(function() {
+        processMap(mapText);
+      }, 1000);
+    }
+  });
+
+  $("input[name='colLimit']").change(function() {
+    columnLimit = $(this).val();
+    Cookies.set("savedCols", columnLimit, {
+      expires: 30
+    });
+    var mapText = document.getElementById("map").value;
+    processMap(mapText);
+  });
+
+  $("input[name='rowLimit']").change(function() {
+    rowLimit = $(this).val();
+    Cookies.set("savedRows", rowLimit, {
+      expires: 30
+    });
+    var mapText = document.getElementById("map").value;
+    processMap(mapText);
+  });
+
+  // Check window.name for bookmarklet data
+  if (window.name) {
+    try {
+      var nameCatchesObj = JSON.parse(window.name);
+      var ncoKeys = Object.keys(nameCatchesObj);
+      var textareaInput = "";
+      for (var i = 0; i < 50; i++) {
+        textareaInput += ncoKeys[i] + "\n" + nameCatchesObj[ncoKeys[i]] + "\n";
+      }
+      document.getElementById("map").value = textareaInput;
+      processMap(textareaInput);
+    } catch (e) {
+      console.log(e);
+    }
+    window.name = ""; // Reset name after capturing data
+  }
 };
 
 function contains(collection, searchElement) {
@@ -162,88 +243,6 @@ function initTablesorter() {
     }
   });
 }
-
-window.onload = function() {
-  startPopulationLoad(POPULATION_JSON_URL);
-  loadBookmarkletFromJS(
-    BOOKMARKLET_LOADER_URL,
-    "bookmarkletLoader",
-    "#bookmarkletloader"
-  );
-  loadBookmarkletFromJS(
-    CROWN_BOOKMARKLET_URL,
-    "crownBookmarklet",
-    "#bookmarklet"
-  );
-
-  // Initialize tablesorter, bind to table
-  initTablesorter();
-  loadCookies();
-
-  $("#map").keyup(function(event) {
-    // Checking for enter/return, backspace, and delete
-    // Then finding newlines and only processing when that differs from previous value
-    // TODO: Check for paste too?
-    if (event.keyCode == 13 || event.keyCode == 8 || event.keyCode == 46) {
-      clearTimeout(timeDelay);
-      var mapText = document.getElementById("map").value;
-      var b = (mapText.match(/\n/g) || []).length;
-      if (b !== numLineBreaks) {
-        numLineBreaks = b;
-        processMap(mapText);
-      } else {
-        clearTimeout(timeDelay);
-        var mapText = document.getElementById("map").value;
-        timeDelay = setTimeout(function() {
-          processMap(mapText);
-        }, 1000);
-      }
-    } else {
-      // 1-second delay after every keypress before processing map
-      // Implicitly handles pasting
-      clearTimeout(timeDelay);
-      var mapText = document.getElementById("map").value;
-      timeDelay = setTimeout(function() {
-        processMap(mapText);
-      }, 1000);
-    }
-  });
-
-  $("input[name='colLimit']").change(function() {
-    columnLimit = $(this).val();
-    Cookies.set("savedCols", columnLimit, {
-      expires: 30
-    });
-    var mapText = document.getElementById("map").value;
-    processMap(mapText);
-  });
-
-  $("input[name='rowLimit']").change(function() {
-    rowLimit = $(this).val();
-    Cookies.set("savedRows", rowLimit, {
-      expires: 30
-    });
-    var mapText = document.getElementById("map").value;
-    processMap(mapText);
-  });
-
-  // Check window.name for bookmarklet data
-  if (window.name) {
-    try {
-      var nameCatchesObj = JSON.parse(window.name);
-      var ncoKeys = Object.keys(nameCatchesObj);
-      var textareaInput = "";
-      for (var i = 0; i < 50; i++) {
-        textareaInput += ncoKeys[i] + "\n" + nameCatchesObj[ncoKeys[i]] + "\n";
-      }
-      document.getElementById("map").value = textareaInput;
-      processMap(textareaInput);
-    } catch (e) {
-      console.log(e);
-    }
-    window.name = ""; // Reset name after capturing data
-  }
-};
 
 String.prototype.capitalise = function() {
   return this.replace(/(?:^|\s)\S/g, function(a) {

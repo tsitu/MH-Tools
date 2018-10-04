@@ -1,20 +1,5 @@
 "use strict";
 
-var POPULATION_JSON_URL = "data/populations-cre-setup.json";
-
-function loadCharmDropdown() {
-  loadDropdown("charm", charmKeys, charmChanged, "<option>-</option>");
-  var charmParameter = getURLParameter("charm");
-  var select = document.querySelector("#charm");
-  if (charmParameter != NULL_URL_PARAM) {
-    select.value = charmParameter;
-  }
-  if (select.selectedIndex == -1) {
-    select.selectedIndex = 0;
-  }
-  charmChanged();
-}
-
 $(window).load(function() {
   user = SETUP_USER;
 
@@ -40,7 +25,7 @@ $(window).load(function() {
   loadItemSelection(baseKeys, "base");
   loadItemSelection(charmKeys, "charm");
 
-  startPopulationLoad(POPULATION_JSON_URL);
+  startPopulationLoad("data/populations-cre-setup.json");
   loadCharmDropdown();
   $("#main").show();
   gsParamCheck();
@@ -153,6 +138,19 @@ $(window).load(function() {
     checkStorage();
   }
 });
+
+function loadCharmDropdown() {
+  loadDropdown("charm", charmKeys, charmChanged, "<option>-</option>");
+  var charmParameter = getURLParameter("charm");
+  var select = document.querySelector("#charm");
+  if (charmParameter != NULL_URL_PARAM) {
+    select.value = charmParameter;
+  }
+  if (select.selectedIndex == -1) {
+    select.selectedIndex = 0;
+  }
+  charmChanged();
+}
 
 function checkLoadState() {
   var batteryParameter;
@@ -963,48 +961,7 @@ function getMouseCatches(
   );
   var attractions = mouseACDetails.attractions;
   var catchRate = mouseACDetails.catchRate;
-
-  // Exceptions and final modifications to catch rates
-  if (charmName == "Ultimate Charm") {
-    catchRate = 1;
-  } else if (
-    locationName == "Sunken City" &&
-    charmName == "Ultimate Anchor Charm" &&
-    phaseName != "Docked"
-  ) {
-    catchRate = 1;
-  } else if (mouse == "Bounty Hunter" && charmName == "Sheriff's Badge Charm") {
-    catchRate = 1;
-  } else if (
-    mouse == "Zurreal the Eternal" &&
-    weaponName != "Zurreal's Folly"
-  ) {
-    catchRate = 0;
-  } else if (
-    locationName === "Zugzwang's Tower" ||
-    locationName === "Seasonal Garden"
-  ) {
-    if (ztAmp > 0 && weaponName === "Zugzwang's Ultimate Move") {
-      catchRate += (1 - catchRate) / 2;
-    }
-  } else if (locationName === "Fort Rox") {
-    if (
-      (contains(wereMice, mouse) && fortRox.ballistaLevel >= 2) ||
-      (contains(cosmicCritters, mouse) && fortRox.cannonLevel >= 2)
-    ) {
-      catchRate += (1 - catchRate) / 2;
-    }
-    if (
-      (fortRox.cannonLevel >= 3 && mouse === "Nightfire") ||
-      (fortRox.ballistaLevel >= 3 && mouse === "Nightmancer")
-    ) {
-      catchRate = 1;
-    }
-  }
-
-  if (weaponName.startsWith("Anniversary")) {
-    catchRate += (1 - catchRate) / 10;
-  }
+  catchRate = calcCRMods(catchRate, mouse);
 
   return attractions * catchRate;
 }

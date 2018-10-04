@@ -1,16 +1,5 @@
 "use strict";
 
-var POPULATION_JSON_URL = "data/populations-cre-setup.json";
-var cheeseCost = 0;
-
-function loadCharmDropdown() {
-  loadDropdown("charm", charmKeys, charmChanged, "<option>No Charm</option>");
-}
-
-function isCustom() {
-  return document.getElementById("toggleCustom").checked;
-}
-
 window.onload = function() {
   user = CRE_USER;
 
@@ -20,7 +9,7 @@ window.onload = function() {
     "#bookmarkletloader"
   );
   loadBookmarkletFromJS(CRE_BOOKMARKLET_URL, "creBookmarklet", "#bookmarklet");
-  startPopulationLoad(POPULATION_JSON_URL);
+  startPopulationLoad("data/populations-cre-setup.json");
 
   loadDropdown("weapon", weaponKeys, weaponChanged, "<option></option>");
   loadDropdown("base", baseKeys, baseChanged, "<option></option>");
@@ -34,25 +23,21 @@ window.onload = function() {
     if (toggle.checked) {
       $(".input-standard").hide();
       $(".input-custom").show(500);
-
       $("#trapPowerType").val(trapType);
       $("#trapPowerValue").val(trapPower);
       $("#trapLuckValue").val(trapLuck);
       $("#trapAttractionValue").val(trapAtt);
       $("#trapEffect").val(trapEff);
-
       $("#bonusPower").val("0");
       bonusPower = 0;
       $("#bonusLuck").val("0");
       bonusLuck = 0;
       batteryPower = 0;
       ztAmp = 100;
-
       updateCustomSetup();
     } else {
       $(".input-custom").hide();
       $(".input-standard").show(500);
-
       calculateTrapSetup();
     }
     showHideWidgets(toggle.checked);
@@ -91,6 +76,14 @@ window.onload = function() {
     ga("send", "event", "setup link", "click");
   };
 };
+
+function loadCharmDropdown() {
+  loadDropdown("charm", charmKeys, charmChanged, "<option>No Charm</option>");
+}
+
+function isCustom() {
+  return document.getElementById("toggleCustom").checked;
+}
 
 function updateCustomSetup() {
   var type = document.getElementById("trapPowerType").value;
@@ -156,11 +149,11 @@ function checkLoadState() {
 
     var powerBonus = getURLParameter("power_bonus");
     if (powerBonus) calculateTrapSetup();
-
     var bonusPowerParameter = 0;
     var locationIndex = document.getElementById("location").selectedIndex;
     var weaponIndex = document.getElementById("weapon").selectedIndex;
     var baseIndex = document.getElementById("base").selectedIndex;
+
     if (locationIndex && weaponIndex && baseIndex) {
       bonusPowerParameter =
         parseInt(getURLParameter("bonusPower")) ||
@@ -247,9 +240,11 @@ function showPop(type) {
   function getHeaderRow() {
     var headerHTML =
       "<tr align='left'><th align='left'>Mouse</th><th data-filter='false'>Attraction<br>Rate</th><th data-filter='false'>Catch<br>Rate</th><th data-filter='false'>Catches /<br>100 hunts</th><th data-filter='false'>Gold</th><th data-filter='false'>Points</th><th data-filter='false'>Tourney<br>Points</th><th data-filter='false'>Min.<br>Luck</th>";
+
     if (rank) {
       headerHTML += "<th data-filter='false'>Rank</th>";
     }
+
     if (locationName.indexOf("Seasonal Garden") >= 0) {
       headerHTML += "<th data-filter='false'>Amp %</th>";
     } else if (
@@ -281,6 +276,7 @@ function showPop(type) {
   } else {
     var popArrayLPC = popArray[locationName][phaseName][cheeseName];
     var popCharmName = /^(.*?)(?:\s+Charm)?$/i.exec(charmName)[1];
+
     if (popArrayLPC && popArrayLPC[popCharmName]) {
       var popArrayLC = popArrayLPC[popCharmName];
     } else {
@@ -289,31 +285,28 @@ function showPop(type) {
       }
     }
 
-    var deltaAmpOverall = 0;
-    var deltaDepthOverall = 0,
-      depthTest = 0;
-    var diveMPH = 0;
-    var avgLanternClues = 0;
+    var deltaAmpOverall = 0,
+      deltaDepthOverall = 0,
+      depthTest = 0,
+      diveMPH = 0,
+      avgLanternClues = 0,
+      overallCR = 0,
+      overallGold = 0,
+      overallPoints = 0,
+      overallTP = 0,
+      minLuckOverall = 0,
+      overallProgress = 0;
+
     var headerHTML = getHeaderRow();
-
-    var resultsHTML = "<thead>" + headerHTML + "</thead><tbody>";
-    var overallCR = 0;
     var overallAR = getCheeseAttraction();
-
-    var overallGold = 0;
-    var overallPoints = 0;
-    var overallTP = 0;
-    var minLuckOverall = 0;
-    var overallProgress = 0;
-
+    var resultsHTML = "<thead>" + headerHTML + "</thead><tbody>";
     var miceNames = Object.keys(popArrayLC || []);
-    var noMice = miceNames.length;
-    for (var i = 0; i < noMice; i++) {
+
+    for (var i = 0; i < miceNames.length; i++) {
       var mouseName = miceNames[i];
 
       if (mouseName !== SAMPLE_SIZE_LABEL) {
         var eff = findEff(mouseName);
-
         var mousePower = powersArray[mouseName][0];
 
         if (
@@ -504,99 +497,36 @@ function showPop(type) {
           }
         }
 
+        catchRate = calcCRMods(catchRate, mouseName);
         var minLuckValue = minLuck(eff, mousePower);
-
-        /**
-         * Increase CR by 50% for ZUM in ZT/SG and Ballista/Cannon 2 in FR
-         */
-        if (
-          locationName === "Zugzwang's Tower" ||
-          locationName === "Seasonal Garden"
-        ) {
-          if (ztAmp > 0 && weaponName === "Zugzwang's Ultimate Move") {
-            catchRate += (1 - catchRate) / 2;
-          }
-        } else if (locationName === "Fort Rox") {
-          if (
-            (contains(wereMice, mouseName) && fortRox.ballistaLevel >= 2) ||
-            (contains(cosmicCritters, mouseName) && fortRox.cannonLevel >= 2)
-          ) {
-            catchRate += (1 - catchRate) / 2;
-          }
-
-          if (
-            (fortRox.cannonLevel >= 3 && mouseName === "Nightfire") ||
-            (fortRox.ballistaLevel >= 3 && mouseName === "Nightmancer")
-          ) {
-            catchRate = 1;
-            minLuckValue = 0;
-          }
-        }
-
-        // String.prototype.startsWith polyfill for IE
-        if (!String.prototype.startsWith) {
-          String.prototype.startsWith = function(searchString, position) {
-            position = position || 0;
-            return this.indexOf(searchString, position) === position;
-          };
-        }
-
-        /**
-         * Increase CR by 10% for 10th Anniversary traps
-         */
-        if (weaponName.startsWith("Anniversary")) {
-          catchRate += (1 - catchRate) / 10;
-        }
-
         minLuckOverall = Math.max(minLuckValue, minLuckOverall);
-
-        // Exceptions and modifications to final catch rate
-        if (charmName === "Ultimate Charm") catchRate = 1;
-        else if (
-          locationName === "Sunken City" &&
-          charmName === "Ultimate Anchor Charm" &&
-          phaseName !== "Docked"
-        )
-          catchRate = 1;
-        else if (
-          mouseName === "Bounty Hunter" &&
-          charmName === "Sheriff's Badge Charm"
-        )
-          catchRate = 1;
-        else if (
-          mouseName === "Zurreal the Eternal" &&
-          weaponName !== "Zurreal's Folly"
-        )
-          catchRate = 0;
-
         var attractions = popArrayLC[mouseName] * overallAR;
-
         var catches = attractions * catchRate;
-
         var mouseRewards = miceArray[mouseName] || [0, 0];
         var mouseGold = mouseRewards[0];
         var mousePoints = mouseRewards[1];
 
-        if (charmName === "Wealth Charm" || charmName === "Rift Wealth Charm")
+        if (charmName === "Wealth Charm" || charmName === "Rift Wealth Charm") {
           mouseGold += Math.ceil(Math.min(mouseGold * 0.05, 1800));
-        else if (charmName === "Super Wealth Charm")
+        } else if (charmName === "Super Wealth Charm") {
           mouseGold += Math.ceil(Math.min(mouseGold * 0.1, 4500));
-        else if (charmName === "Extreme Wealth Charm")
+        } else if (charmName === "Extreme Wealth Charm") {
           mouseGold += Math.ceil(Math.min(mouseGold * 0.2, 15000));
-        else if (charmName === "Ultimate Wealth Charm")
+        } else if (charmName === "Ultimate Wealth Charm") {
           mouseGold += Math.ceil(Math.min(mouseGold * 0.4, 50000));
+        }
 
         var gold = catches * mouseGold / 100;
         var points = catches * mousePoints / 100;
-
         var tournamentMice = tourneysArray[tournamentName];
+
         if (tournamentMice) {
           var tourneyPoints = tournamentMice[mouseName] || 0;
         } else {
           tourneyPoints = 0;
         }
-        var TP = catches * tourneyPoints / 100;
 
+        var TP = catches * tourneyPoints / 100;
         overallCR += catches;
         overallTP += TP;
         overallGold += gold;
@@ -792,11 +722,13 @@ function showPop(type) {
       "</td><td>" +
       minLuckOverall +
       "</td>";
+
     if (rank) {
       resultsHTML += "<td>" + overallProgress.toFixed(4) + "%</td>";
     }
+
     if (locationName.indexOf("Seasonal Garden") >= 0) {
-      deltaAmpOverall += (100 - overallAR) / 100 * -3; //Accounting for FTAs (-3%)
+      deltaAmpOverall += (100 - overallAR) / 100 * -3; // Accounting for FTAs (-3%)
       resultsHTML += "<td>" + deltaAmpOverall.toFixed(2) + "%</td>";
     } else if (
       contains(locationName, "Iceberg") &&
@@ -835,9 +767,11 @@ function showPop(type) {
         )
       ) +
       "</td><td></td><td></td><td></td>";
+
     if (rank) {
       resultsHTML += "<td></td>";
     }
+
     if (
       locationName.indexOf("Seasonal Garden") >= 0 ||
       (locationName.indexOf("Sunken City") >= 0 && phaseName != "Docked")

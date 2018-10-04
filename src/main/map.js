@@ -1,6 +1,5 @@
 "use strict";
 
-var MAP_USER = "map";
 var columnLimit = 0,
   rowLimit = 0,
   attractionBonus = 0,
@@ -8,15 +7,91 @@ var columnLimit = 0,
   timeDelay,
   remainingMice = 0;
 
+var user = "map";
 var EMPTY_SELECTION = "-";
 var NULL_URL_PARAM = null;
-var user = MAP_USER;
 var POPULATION_JSON_URL = "data/populations-map.json";
 var FILTERED_CHEESES = [];
 
 var autoCompleteSettings = {
   delimiters: "\n",
   endingSymbols: "\n"
+};
+
+window.onload = function() {
+  startPopulationLoad(POPULATION_JSON_URL);
+  loadBookmarkletFromJS(
+    BOOKMARKLET_LOADER_URL,
+    "bookmarkletLoader",
+    "#bookmarkletloader"
+  );
+  loadBookmarkletFromJS(MAP_BOOKMARKLET_URL, "mapBookmarklet", "#bookmarklet");
+
+  // Initialize tablesorter, bind to table
+  initTablesorter();
+  loadCookies();
+
+  // Handle autocomplete preference
+  $("#toggleAutocomplete").change(function() {
+    if ($("#toggleAutocomplete").is(":checked")) {
+      localStorage.setItem("textarea-autocomplete", "off");
+    } else {
+      localStorage.setItem("textarea-autocomplete", "on");
+    }
+  });
+
+  $("#map").keyup(function(event) {
+    // Checking for enter/return, backspace, and delete
+    // Then finding newlines and only processing when that differs from previous value
+    // TODO: Check for paste too?
+    if (event.keyCode == 13 || event.keyCode == 8 || event.keyCode == 46) {
+      clearTimeout(timeDelay);
+      var mapText = document.getElementById("map").value;
+      var b = (mapText.match(/\n/g) || []).length;
+      if (b !== numLineBreaks) {
+        numLineBreaks = b;
+        processMap(mapText);
+      } else {
+        clearTimeout(timeDelay);
+        var mapText = document.getElementById("map").value;
+        timeDelay = setTimeout(function() {
+          processMap(mapText);
+        }, 1000);
+      }
+    } else {
+      // 1-second delay after every keypress before processing map
+      // Implicitly handles pasting
+      clearTimeout(timeDelay);
+      var mapText = document.getElementById("map").value;
+      timeDelay = setTimeout(function() {
+        processMap(mapText);
+      }, 1000);
+    }
+  });
+
+  $("input[name='colLimit']").change(function() {
+    columnLimit = $(this).val();
+    Cookies.set("savedCols", columnLimit, {
+      expires: 30
+    });
+    var mapText = document.getElementById("map").value;
+    processMap(mapText);
+  });
+
+  $("input[name='rowLimit']").change(function() {
+    rowLimit = $(this).val();
+    Cookies.set("savedRows", rowLimit, {
+      expires: 30
+    });
+    var mapText = document.getElementById("map").value;
+    processMap(mapText);
+  });
+
+  document.getElementById("resetMouseList").onclick = function() {
+    // Empty out the textarea
+    document.getElementById("map").value = "";
+    processMap("");
+  };
 };
 
 function contains(collection, searchElement) {
@@ -240,82 +315,6 @@ function initTablesorter() {
     FILTERED_CHEESES = [];
   });
 }
-
-window.onload = function() {
-  startPopulationLoad(POPULATION_JSON_URL);
-  loadBookmarkletFromJS(
-    BOOKMARKLET_LOADER_URL,
-    "bookmarkletLoader",
-    "#bookmarkletloader"
-  );
-  loadBookmarkletFromJS(MAP_BOOKMARKLET_URL, "mapBookmarklet", "#bookmarklet");
-
-  // Initialize tablesorter, bind to table
-  initTablesorter();
-  loadCookies();
-
-  // Handle autocomplete preference
-  $("#toggleAutocomplete").change(function() {
-    if ($("#toggleAutocomplete").is(":checked")) {
-      localStorage.setItem("textarea-autocomplete", "off");
-    } else {
-      localStorage.setItem("textarea-autocomplete", "on");
-    }
-  });
-
-  $("#map").keyup(function(event) {
-    // Checking for enter/return, backspace, and delete
-    // Then finding newlines and only processing when that differs from previous value
-    // TODO: Check for paste too?
-    if (event.keyCode == 13 || event.keyCode == 8 || event.keyCode == 46) {
-      clearTimeout(timeDelay);
-      var mapText = document.getElementById("map").value;
-      var b = (mapText.match(/\n/g) || []).length;
-      if (b !== numLineBreaks) {
-        numLineBreaks = b;
-        processMap(mapText);
-      } else {
-        clearTimeout(timeDelay);
-        var mapText = document.getElementById("map").value;
-        timeDelay = setTimeout(function() {
-          processMap(mapText);
-        }, 1000);
-      }
-    } else {
-      // 1-second delay after every keypress before processing map
-      // Implicitly handles pasting
-      clearTimeout(timeDelay);
-      var mapText = document.getElementById("map").value;
-      timeDelay = setTimeout(function() {
-        processMap(mapText);
-      }, 1000);
-    }
-  });
-
-  $("input[name='colLimit']").change(function() {
-    columnLimit = $(this).val();
-    Cookies.set("savedCols", columnLimit, {
-      expires: 30
-    });
-    var mapText = document.getElementById("map").value;
-    processMap(mapText);
-  });
-
-  $("input[name='rowLimit']").change(function() {
-    rowLimit = $(this).val();
-    Cookies.set("savedRows", rowLimit, {
-      expires: 30
-    });
-    var mapText = document.getElementById("map").value;
-    processMap(mapText);
-  });
-
-  document.getElementById("resetMouseList").onclick = function() {
-    // Empty out the textarea
-    document.getElementById("map").value = "";
-    processMap("");
-  };
-};
 
 String.prototype.capitalise = function() {
   return this.replace(/(?:^|\s)\S/g, function(a) {
