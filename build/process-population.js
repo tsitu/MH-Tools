@@ -1,5 +1,4 @@
 (function() {
-  const SAMPLE_SIZE_LABEL = "SampleSize";
   const POPULATIONS = [
     "data/populations.csv",
     "data/pop-bwrift.csv",
@@ -106,9 +105,7 @@
         row.attraction;
 
       if (includeSampleSize && row.sampleSize) {
-        population[row.location][row.phase][cheese][row.charm][
-          SAMPLE_SIZE_LABEL
-        ] =
+        population[row.location][row.phase][cheese][row.charm]["SampleSize"] =
           row.sampleSize;
       }
     }

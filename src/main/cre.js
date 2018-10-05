@@ -9,8 +9,8 @@ window.onload = function() {
     "#bookmarkletloader"
   );
   loadBookmarkletFromJS(CRE_BOOKMARKLET_URL, "creBookmarklet", "#bookmarklet");
-  startPopulationLoad("data/populations-cre-setup.json");
 
+  startPopulationLoad("data/populations-cre-setup.json", user);
   loadDropdown("weapon", weaponKeys, weaponChanged, "<option></option>");
   loadDropdown("base", baseKeys, baseChanged, "<option></option>");
   loadCharmDropdown();
@@ -115,119 +115,6 @@ function updateCustomSetup() {
   showPop(2);
 }
 
-function checkLoadState() {
-  var loadPercentage = (popLoaded + wisdomLoaded) / 2 * 100;
-  var status = document.getElementById("status");
-  status.innerHTML = "<td>Loaded " + loadPercentage + "%...</td>";
-
-  if (loadPercentage === 100) {
-    loadLocationDropdown();
-    loadTourneyDropdown();
-
-    updateInputFromParameter("battery", batteryChanged);
-    updateInputFromParameter("oil", oilChanged);
-
-    gsParamCheck();
-    riftstalkerParamCheck();
-    fortRoxParamCheck();
-    empoweredParamCheck();
-    rankParamCheck();
-
-    getSliderValue();
-    calculateBonusPower();
-    calculateBonusLuck();
-
-    status.innerHTML = "<td>All set!</td>";
-    setTimeout(function() {
-      status.innerHTML = "<td><br></td>";
-    }, 1776);
-  }
-
-  function calculateBonusPower() {
-    // Called by initial checkLoadState only
-    // Skip if location/weapon/base fails b/c invalid trapPower
-
-    var powerBonus = getURLParameter("power_bonus");
-    if (powerBonus) calculateTrapSetup();
-    var bonusPowerParameter = 0;
-    var locationIndex = document.getElementById("location").selectedIndex;
-    var weaponIndex = document.getElementById("weapon").selectedIndex;
-    var baseIndex = document.getElementById("base").selectedIndex;
-
-    if (locationIndex && weaponIndex && baseIndex) {
-      bonusPowerParameter =
-        parseInt(getURLParameter("bonusPower")) ||
-        parseInt(powerBonus) - subtotalPowerBonus;
-      if (bonusPowerParameter > 0) {
-        document.getElementById("bonusPower").value = bonusPowerParameter;
-        bonusPowerChanged();
-      }
-    }
-  }
-
-  function calculateBonusLuck() {
-    // Called by initial checkLoadState only
-    // Skip if location/weapon/base fails b/c invalid trapLuck
-
-    var totalLuck = getURLParameter("total_luck");
-    if (totalLuck) calculateTrapSetup();
-
-    var bonusLuckParameter = 0;
-    var locationIndex = document.getElementById("location").selectedIndex;
-    var weaponIndex = document.getElementById("weapon").selectedIndex;
-    var baseIndex = document.getElementById("base").selectedIndex;
-    if (locationIndex && weaponIndex && baseIndex) {
-      bonusLuckParameter =
-        parseInt(getURLParameter("bonusLuck")) ||
-        parseInt(totalLuck) - trapLuck;
-      if (bonusLuckParameter > 0) {
-        document.getElementById("bonusLuck").value = bonusLuckParameter;
-        bonusLuckChanged();
-      }
-    }
-  }
-}
-
-/**
- * Set sample size and description of it
- */
-function formatSampleSize(sampleSizeParam) {
-  var str = "";
-  var colored = "";
-  var sizeDescriptor = "";
-
-  sampleSizeParam = sampleSizeParam || sampleSize;
-  if (sampleSizeParam) {
-    if (sampleSizeParam > 27000) {
-      str = "excellent";
-      colored = str.fontcolor("orange");
-    } else if (sampleSizeParam > 10000) {
-      str = "good";
-      colored = str.fontcolor("green");
-    } else if (sampleSizeParam > 2400) {
-      str = "average";
-      colored = str.fontcolor("blue");
-    } else if (sampleSizeParam > 500) {
-      str = "poor";
-      colored = str.fontcolor("red");
-    } else {
-      str = "very bad";
-      colored = str.fontcolor("purple");
-    }
-  } else {
-    sizeDescriptor = "N/A";
-  }
-
-  if (sampleSizeParam) {
-    sizeDescriptor = sampleSizeParam + " (" + colored + ")";
-  }
-
-  var ss = document.getElementById("sampleSize");
-  if (ss) {
-    ss.innerHTML = sizeDescriptor;
-  }
-}
-
 // type = 2 means charms are not reset
 function showPop(type) {
   var results = document.getElementById("results");
@@ -305,7 +192,7 @@ function showPop(type) {
     for (var i = 0; i < miceNames.length; i++) {
       var mouseName = miceNames[i];
 
-      if (mouseName !== SAMPLE_SIZE_LABEL) {
+      if (mouseName !== "SampleSize") {
         var eff = findEff(mouseName);
         var mousePower = powersArray[mouseName][0];
 
@@ -455,75 +342,6 @@ function showPop(type) {
       }
     }
 
-    if (
-      popArray[locationName][phaseName][commonCheeseIndex] ||
-      popArray[locationName][phaseName][cheeseName]
-    ) {
-      if (charmName === "No Charm") {
-        if (commonCheeseIndex) {
-          if (
-            popArray[locationName][phaseName][commonCheeseIndex][
-              EMPTY_SELECTION
-            ]
-          ) {
-            sampleSize =
-              popArray[locationName][phaseName][commonCheeseIndex][
-                EMPTY_SELECTION
-              ][SAMPLE_SIZE_LABEL];
-          }
-        } else {
-          if (popArray[locationName][phaseName][cheeseName][EMPTY_SELECTION]) {
-            sampleSize =
-              popArray[locationName][phaseName][cheeseName][EMPTY_SELECTION][
-                SAMPLE_SIZE_LABEL
-              ];
-          }
-        }
-      } else {
-        var slice = "";
-        if (charmName.indexOf("*") >= 0) {
-          slice = charmName.slice(0, -7);
-        } else {
-          slice = charmName.slice(0, -6);
-        }
-        if (commonCheeseIndex) {
-          if (popArray[locationName][phaseName][commonCheeseIndex][slice]) {
-            sampleSize =
-              popArray[locationName][phaseName][commonCheeseIndex][slice][
-                SAMPLE_SIZE_LABEL
-              ];
-          } else {
-            if (
-              popArray[locationName][phaseName][commonCheeseIndex][
-                EMPTY_SELECTION
-              ]
-            ) {
-              sampleSize =
-                popArray[locationName][phaseName][commonCheeseIndex][
-                  EMPTY_SELECTION
-                ][SAMPLE_SIZE_LABEL];
-            }
-          }
-        } else {
-          if (popArray[locationName][phaseName][cheeseName][slice]) {
-            sampleSize =
-              popArray[locationName][phaseName][cheeseName][slice][
-                SAMPLE_SIZE_LABEL
-              ];
-          } else {
-            if (
-              popArray[locationName][phaseName][cheeseName][EMPTY_SELECTION]
-            ) {
-              sampleSize =
-                popArray[locationName][phaseName][cheeseName][EMPTY_SELECTION][
-                  SAMPLE_SIZE_LABEL
-                ];
-            }
-          }
-        }
-      }
-    }
-
     overallAR *= 100;
     var averageCR = overallCR / overallAR * 100;
 
@@ -642,6 +460,7 @@ function loadCheeseDropdown(locationName, phaseName) {
       select.selectedIndex = 0;
     }
   }
+
   selectCharm();
   cheeseChanged();
 }
@@ -699,14 +518,12 @@ function updateLink() {
 }
 
 function cheeseChanged() {
-  var select = document.getElementById("cheese");
-  cheeseName = select.value;
+  cheeseName = document.getElementById("cheese").value;
   updateLink();
 
   // Basic cheese costs
-  var costElement = document.getElementById("cheeseCost");
   cheeseCost = standardCheeseCost[cheeseName] || 0;
-  costElement.value = cheeseCost;
+  document.getElementById("cheeseCost").value = cheeseCost;
 
   // Empowered check
   checkEmpoweredWidget(document.getElementById("toggleCustom").checked);
@@ -829,6 +646,7 @@ function charmChanged() {
   charmName = select.value.trim().replace(/\*$/, "");
   charmChangeCommon();
   calculateTrapSetup();
+  formatSampleScore();
 }
 
 function tourneyChanged() {

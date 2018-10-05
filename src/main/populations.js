@@ -1,11 +1,11 @@
 "use strict";
 
-var WISDOM_URL = "data/mouse-wisdom.json";
-// var POPULATIONS_URL = "https://tsitu.github.io/MH-Tools/data/populations.csv";
-// Uncomment above during local testing to bypass Cross-Origin on Chrome
-
 var popLoaded = 0,
-  wisdomLoaded = 0;
+  wisdomLoaded = 0,
+  sampleLoaded = 0;
+var WISDOM_URL = "data/mouse-wisdom.json";
+var SAMPLE_URL =
+  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/data/sample-summary-detailed.json";
 
 /**
  * Population data parsed from CSV
@@ -15,34 +15,47 @@ var popArray = {};
 
 /**
  * Mouse wisdom parsed from JSON
- * @type {{mouse: String, wisdom: number}}
+ * @type {{mouse: string, wisdom: number}}
  */
 var mouseWisdom = {};
 
 /**
+ * Detailed sample size summary data fetched from GitHub
+ * @type {{location: string, phaseCheeseCharm: string, score: number, sample: number, count: number}}
+ */
+var sampleSummary = {};
+
+/**
  * Start population loading
  */
-function startPopulationLoad(populationJsonUrl) {
+function startPopulationLoad(populationJsonUrl, type) {
   $.getJSON(populationJsonUrl, setPopulation);
   $.getJSON(WISDOM_URL, setWisdom);
+  $.getJSON(SAMPLE_URL, setSample);
 
   function setPopulation(jsonData) {
     popArray = jsonData;
     popLoaded = true;
-    checkLoadState();
+    checkLoadState(type);
   }
 
   function setWisdom(jsonData) {
     mouseWisdom = jsonData;
     wisdomLoaded = true;
-    checkLoadState();
+    checkLoadState(type);
+  }
+
+  function setSample(jsonData) {
+    sampleSummary = jsonData;
+    sampleLoaded = true;
+    checkLoadState(type);
   }
 }
 
 /**
  * This will parse a delimited string into an array of arrays.
  * The default delimiter is the comma, but this can be overriden in the second argument.
- * @param {string} strData - Delimited String
+ * @param {string} strData - Delimited string
  * @param {string} [strDelimiter=","] - Delimiter for the string. Default is a comma
  * */
 function csvToArray(strData, strDelimiter) {

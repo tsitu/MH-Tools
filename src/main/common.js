@@ -7,7 +7,6 @@ var user;
 var CRE_USER = "cre";
 var SETUP_USER = "setup";
 var DEFAULT_STATS = [0, 0, 0, 0, "No Effect"];
-var SAMPLE_SIZE_LABEL = "SampleSize";
 var EMPTY_SELECTION = "-";
 var NULL_URL_PARAM = null;
 
@@ -48,7 +47,6 @@ var baseName = "",
   phaseName = "";
 var cheeseBonus = 0,
   cheeseCost = 0,
-  sampleSize = 0,
   subtotalPowerBonus = 0;
 var riftStalkerCodex;
 var rank = "";
@@ -244,7 +242,6 @@ function calculateTrapSetup(skipDisp) {
     if (user === CRE_USER && !skipDisp) {
       showPop(2);
       showTrapSetup();
-      formatSampleSize(); // showTrapSetup creates the necessary sampleSize <td>
     }
   } else {
     showTrapSetup(0);
@@ -701,8 +698,7 @@ function showTrapSetup(type) {
       "%</td></tr>" +
       "<tr><td>Cheese Effect</td><td>" +
       reverseParseFreshness[trapEff] +
-      "</td></tr>" +
-      '<tr><td>Sample Size</td><td id="sampleSize">N/A</td></tr>';
+      "</td></tr>";
   }
 }
 
@@ -745,16 +741,14 @@ function getIcebergBase() {
 }
 
 function phaseChanged() {
-  function setPhase() {
+  (function setPhase() {
     var select = document.getElementById("phase");
     phaseName = select.value;
 
     if (phaseName === "") {
       phaseName = EMPTY_SELECTION;
     }
-  }
-
-  setPhase();
+  })();
 
   if (!popArray[locationName][phaseName]) {
     var phases = Object.keys(popArray[locationName]);
@@ -775,6 +769,7 @@ function phaseChanged() {
     pourLuck = 0;
     calculateTrapSetup();
   }
+
   loadCheeseDropdown(locationName, phaseName);
   updateLink();
   checkSpecialCharms();
@@ -847,9 +842,7 @@ function showHideWidgets(custom) {
 function clearResults() {
   var results = document.getElementById("results");
   results.innerHTML = "";
-  if (user === CRE_USER) {
-    formatSampleSize();
-  }
+  document.getElementById("sampleScore").innerHTML = "N/A";
 }
 
 /**
@@ -860,27 +853,23 @@ function clearResults() {
  * - Clear results
  */
 function locationChanged() {
-  var select = document.getElementById("location");
-  locationName = select.value;
+  clearResults();
+  locationName = document.getElementById("location").value;
 
   var checked =
     user === CRE_USER && document.getElementById("toggleCustom").checked;
-
-  updateLink();
   showHideWidgets(checked);
 
+  updateLink();
   batteryPower = 0;
   ztAmp = 100;
-  sampleSize = 0;
 
-  //Populate sublocation dropdown and select first option
+  // Populate sublocation dropdown and select first option
   if (locationName && locationName !== "") {
     populateSublocationDropdown(locationName);
   } else {
     $("#phaseRow").hide();
   }
-
-  clearResults();
 
   function populateSublocationDropdown(locationName) {
     var category = "phase";
@@ -892,6 +881,7 @@ function locationChanged() {
       $("#phaseRow").hide();
     }
   }
+
   genericOnChange();
   checkSpecialCharms();
 }
@@ -1010,13 +1000,6 @@ function checkSpecialCharms() {
       highlightSpecialCharms(specialCharms);
     } else {
       loadCharmDropdown();
-    }
-
-    if (
-      specialCharmsList &&
-      specialCharmsList.indexOf(charmName.slice(0, -1)) >= 0
-    ) {
-      sampleSize = 0;
     }
   }
 }
@@ -1266,4 +1249,180 @@ function calcCRMods(catchRate, mouseName) {
   }
 
   return catchRate;
+}
+
+function checkLoadState(type) {
+  var loadPercentage = (
+    (popLoaded + wisdomLoaded + sampleLoaded) /
+    3 *
+    100
+  ).toFixed(0);
+  var status = document.getElementById("status");
+  status.innerHTML = "<td>Loaded " + loadPercentage + "%...</td>";
+
+  if (loadPercentage == 100) {
+    loadLocationDropdown();
+    empoweredParamCheck();
+    getSliderValue();
+    updateInputFromParameter("battery", batteryChanged);
+
+    if (type === CRE_USER) {
+      loadTourneyDropdown();
+      updateInputFromParameter("oil", oilChanged);
+    }
+
+    if (type === SETUP_USER) {
+      weaponName = getURLParameter("weapon");
+      weaponChanged();
+      baseName = getURLParameter("base");
+      baseChanged();
+    }
+
+    gsParamCheck();
+    riftstalkerParamCheck();
+    fortRoxParamCheck();
+    rankParamCheck();
+
+    // Calculate bonuses after param checks are done
+    calculateBonusPower();
+    calculateBonusLuck();
+
+    status.innerHTML = "<td>All set!</td>";
+    setTimeout(function() {
+      status.innerHTML = "<td><br></td>";
+    }, 1776);
+  }
+
+  function calculateBonusPower() {
+    // Called by initial checkLoadState only
+    // Skip if location/weapon/base fails b/c invalid trapPower
+
+    var powerBonus = getURLParameter("power_bonus");
+    if (powerBonus) calculateTrapSetup();
+
+    var bonusPowerParameter = 0;
+    var indexCheck = false;
+    var locationIndex = document.getElementById("location").selectedIndex;
+
+    if (type === CRE_USER) {
+      var weaponIndex = document.getElementById("weapon").selectedIndex;
+      var baseIndex = document.getElementById("base").selectedIndex;
+      indexCheck = locationIndex && weaponIndex && baseIndex;
+    }
+
+    if (type === SETUP_USER) {
+      indexCheck = locationIndex && weaponName && baseName;
+    }
+
+    if (indexCheck) {
+      bonusPowerParameter =
+        parseInt(getURLParameter("bonusPower")) ||
+        parseInt(powerBonus) - subtotalPowerBonus;
+      if (bonusPowerParameter > 0) {
+        document.getElementById("bonusPower").value = bonusPowerParameter;
+        bonusPowerChanged();
+      }
+    }
+  }
+
+  function calculateBonusLuck() {
+    // Called by initial checkLoadState only
+    // Skip if location/weapon/base fails b/c invalid trapLuck
+
+    var totalLuck = getURLParameter("total_luck");
+    if (totalLuck) calculateTrapSetup();
+
+    var bonusLuckParameter = 0;
+    var indexCheck = false;
+    var locationIndex = document.getElementById("location").selectedIndex;
+
+    if (type === CRE_USER) {
+      var weaponIndex = document.getElementById("weapon").selectedIndex;
+      var baseIndex = document.getElementById("base").selectedIndex;
+      indexCheck = locationIndex && weaponIndex && baseIndex;
+    }
+
+    if (type === SETUP_USER) {
+      indexCheck = locationIndex && weaponName && baseName;
+    }
+
+    if (indexCheck) {
+      bonusLuckParameter =
+        parseInt(getURLParameter("bonusLuck")) ||
+        parseInt(totalLuck) - trapLuck;
+      if (bonusLuckParameter > 0) {
+        document.getElementById("bonusLuck").value = bonusLuckParameter;
+        bonusLuckChanged();
+      }
+    }
+  }
+}
+
+/**
+ * Retrieves and displays sample scores
+ */
+function formatSampleScore() {
+  var str = "";
+  var colored = "";
+  var scoreDescriptor = "";
+
+  var phaseCheeseCharm = phaseName;
+  phaseCheeseCharm += ", " + cheeseName;
+  if (charmName === "No Charm") {
+    phaseCheeseCharm += ", " + "-";
+  } else {
+    phaseCheeseCharm += ", " + charmName.slice(0, -6);
+  }
+
+  var sampleScoreParam = null;
+  var sampleSize = null;
+  var sampleCount = null;
+  if (locationName) {
+    var sampleScore = sampleSummary[locationName][phaseCheeseCharm];
+    if (sampleScore) {
+      sampleScoreParam = sampleScore.score;
+      sampleSize = sampleScore.sample;
+      sampleCount = sampleScore.count;
+    }
+  }
+
+  if (sampleScoreParam) {
+    if (sampleScoreParam < 5) {
+      str = "very bad";
+      colored = str.fontcolor("purple");
+    } else if (sampleScoreParam < 10) {
+      str = "bad";
+      colored = str.fontcolor("red");
+    } else if (sampleScoreParam < 15) {
+      str = "not good";
+      colored = str.fontcolor("dark red");
+    } else if (sampleScoreParam < 25) {
+      str = "decent";
+      colored = str.fontcolor("blue");
+    } else if (sampleScoreParam < 50) {
+      str = "good";
+      colored = str.fontcolor("green");
+    } else if (sampleScoreParam < 75) {
+      str = "great";
+      colored = str.fontcolor("darkgreen");
+    } else if (sampleScoreParam >= 75) {
+      str = "excellent";
+      colored = str.fontcolor("orange");
+    }
+  } else if (sampleScoreParam === 0) {
+    colored = "n/a";
+  } else {
+    scoreDescriptor = "N/A";
+  }
+
+  if (sampleScoreParam !== null) {
+    scoreDescriptor = sampleScoreParam + "/100 (" + colored + ")";
+    scoreDescriptor +=
+      " [Sample Size: " + sampleSize + ", Mouse Count: " + sampleCount + "]";
+  }
+
+  var ss = document.getElementById("sampleScore");
+  if (ss) {
+    ss.innerHTML = scoreDescriptor;
+  }
 }

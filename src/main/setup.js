@@ -8,13 +8,11 @@ $(window).load(function() {
     "bookmarkletLoader",
     "#bookmarkletloader"
   );
-
   loadBookmarkletFromJS(
     SETUP_BOOKMARKLET_URL,
     "setupBookmarklet",
     "#setupBookmarklet"
   );
-
   loadBookmarkletFromJS(
     SETUP_FIELDS_BOOKMARKLET_URL,
     "setupFieldsBookmarklet",
@@ -25,13 +23,9 @@ $(window).load(function() {
   loadItemSelection(baseKeys, "base");
   loadItemSelection(charmKeys, "charm");
 
-  startPopulationLoad("data/populations-cre-setup.json");
+  startPopulationLoad("data/populations-cre-setup.json", user);
   loadCharmDropdown();
   $("#main").show();
-  gsParamCheck();
-  riftstalkerParamCheck();
-  fortRoxParamCheck();
-  rankParamCheck();
 
   var bonusPowerParameter = parseInt(getURLParameter("bonusPower"));
   if (bonusPowerParameter >= 0) {
@@ -150,78 +144,6 @@ function loadCharmDropdown() {
     select.selectedIndex = 0;
   }
   charmChanged();
-}
-
-function checkLoadState() {
-  var batteryParameter;
-  var loadPercentage = (popLoaded + wisdomLoaded) / 2 * 100;
-  var status = document.querySelector("#status");
-  status.innerHTML = "<td>Loaded " + loadPercentage + "%...</td>";
-
-  if (loadPercentage === 100) {
-    loadLocationDropdown();
-    empoweredParamCheck();
-    getSliderValue();
-
-    weaponName = getURLParameter("weapon");
-    weaponChanged();
-    baseName = getURLParameter("base");
-    baseChanged();
-
-    batteryParameter = getURLParameter("battery");
-    if (batteryParameter != NULL_URL_PARAM) {
-      document.querySelector("#battery").value = parseInt(batteryParameter);
-      batteryChanged();
-    }
-
-    calculateBonusPower();
-    calculateBonusLuck();
-
-    status.innerHTML = "<td>All set!</td>";
-    setTimeout(function() {
-      status.innerHTML = "<td><br></td>";
-    }, 1776);
-  }
-
-  function calculateBonusPower() {
-    // Called by initial checkLoadState only
-    // Skip if location/weapon/base fails b/c invalid trapPower
-
-    var powerBonus = getURLParameter("power_bonus");
-    if (powerBonus) calculateTrapSetup();
-
-    var bonusPowerParameter = 0;
-    var locationIndex = document.getElementById("location").selectedIndex;
-    if (locationIndex && weaponName && baseName) {
-      bonusPowerParameter =
-        parseInt(getURLParameter("bonusPower")) ||
-        parseInt(powerBonus) - subtotalPowerBonus;
-      if (bonusPowerParameter > 0) {
-        document.getElementById("bonusPower").value = bonusPowerParameter;
-        bonusPowerChanged();
-      }
-    }
-  }
-
-  function calculateBonusLuck() {
-    // Called by initial checkLoadState only
-    // Skip if location/weapon/base fails b/c invalid trapLuck
-
-    var totalLuck = getURLParameter("total_luck");
-    if (totalLuck) calculateTrapSetup();
-
-    var bonusLuckParameter = 0;
-    var locationIndex = document.getElementById("location").selectedIndex;
-    if (locationIndex && weaponName && baseName) {
-      bonusLuckParameter =
-        parseInt(getURLParameter("bonusLuck")) ||
-        parseInt(totalLuck) - trapLuck;
-      if (bonusLuckParameter > 0) {
-        document.getElementById("bonusLuck").value = bonusLuckParameter;
-        bonusLuckChanged();
-      }
-    }
-  }
 }
 
 /**
@@ -519,6 +441,7 @@ function charmChanged(customValue) {
     charmChangeCommon(select);
   }
   calculateTrapSetup();
+  formatSampleScore();
 }
 
 function showPop() {
