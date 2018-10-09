@@ -49,7 +49,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.6.0",
     "http-server": "^0.11.1",
-    "jacksmhtools-client": "0.0.1",
+    "jacksmhtools-client": "^0.1.2",
     "js-combinatorics": "^0.5.2",
     "json2csv": "^3.11.5",
     "lodash": "^4.17.4",
