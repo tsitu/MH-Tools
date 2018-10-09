@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Assorted Mousehunt Tools",
   "scripts": {
-    "update:population:bwrift": "node tools/bwriftpop.js > data/pop-bwrift.csv",
     "update:population:iceberg": "node tools/icebergpop.js > data/pop-iceberg.csv",
     "update:population": "npm-run-all update:population:*",
     "minify:bookmarklet": "uglifyjs-folder src/bookmarklet -eo src/bookmarklet -p **/*.js,!**/*min.js",
