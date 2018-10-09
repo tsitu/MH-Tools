@@ -1,15 +1,16 @@
 (function() {
   const POPULATIONS = [
     "data/populations.csv",
-    "data/pop-bwrift.csv",
-    "data/pop-iceberg.csv",
-    "data/pop-fg.csv",
-    "data/pop-fort-rox.csv",
-    "data/pop-frift.csv",
-    "data/pop-mopi.csv",
-    "data/pop-queso-river.csv",
-    "data/pop-prickly-plains.csv",
-    "data/pop-cantera-quarry.csv"
+    "data/location-pop/bristle-woods-rift.csv",
+    "data/location-pop/cantera-quarry.csv",
+    "data/location-pop/forbidden-grove.csv",
+    "data/location-pop/fort-rox.csv",
+    "data/location-pop/furoma-rift.csv",
+    "data/location-pop/iceberg.csv",
+    "data/location-pop/living-garden.csv",
+    "data/location-pop/moussu-picchu.csv",
+    "data/location-pop/prickly-plains.csv",
+    "data/location-pop/queso-river.csv"
   ];
 
   const fs = require("fs");
