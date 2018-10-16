@@ -38,4 +38,7 @@ Promise
     return res
   })
   .then(utils.toCsv.bind(utils, utils.POP_FIELDS))
-  .then(console.log.bind(console));
+  .then(console.log.bind(console))
+  .catch(function(error) {
+    console.log(error)
+  });

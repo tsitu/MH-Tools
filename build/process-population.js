@@ -10,7 +10,8 @@
     "data/location-pop/living-garden.csv",
     "data/location-pop/moussu-picchu.csv",
     "data/location-pop/prickly-plains.csv",
-    "data/location-pop/queso-river.csv"
+    "data/location-pop/queso-river.csv",
+    "data/location-pop/toxic-spill.csv"
   ];
 
   const fs = require("fs");
