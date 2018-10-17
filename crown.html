@@ -17,7 +17,7 @@
   <script type="text/javascript" src="src/utils/bookmarklets.js"></script>
   <script type="text/javascript" src="src/main/arrays.js"></script>
   <script type="text/javascript" src="src/main/populations.js"></script>
-  <script type="text/javascript" src="src/main/crown.js"></script>
+  <script type="text/javascript" src="src/main/shared-map-crown.js"></script>
   <link rel="stylesheet" href="resources/css/style.css" type="text/css" media="print, projection, screen" />
   <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css"
     media="print, projection, screen" />
@@ -45,11 +45,6 @@
       padding: 20px;
       position: absolute;
       width: auto;
-    }
-
-    .header {
-      font-size: 11px;
-      width: 250px;
     }
 
     .invalid {
@@ -90,10 +85,12 @@
 
   <!-- Google Analytics -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-61581935-1', 'auto');
     ga('send', 'pageview');
@@ -103,13 +100,13 @@
   <script>
     var sliderDelay;
 
-    $(function () {
+    $(function() {
       $("#ampSlider").slider({
         range: "min",
         min: 0,
         max: 100,
         step: 1,
-        slide: function (event, ui) {
+        slide: function(event, ui) {
           if (event.originalEvent) {
             refreshSlider(ui);
           }
@@ -120,7 +117,7 @@
             $("#ampText").text("Attraction Bonus: " + attractionBonus + "%");
           }
         },
-        change: function (event, ui) {
+        change: function(event, ui) {
           if (event.originalEvent) {
             refreshSlider(ui);
           }
@@ -161,28 +158,34 @@
       Cookies.set('savedAttraction', attractionBonus, {
         expires: 30
       });
-      sliderDelay = setTimeout(function () { processMap(mapText); }, 500);
+      sliderDelay = setTimeout(function() { processMap(mapText); }, 500);
     }
+  </script>
+
+  <!-- Main Script -->
+  <script>
+    window.onload = function() {
+      initPageLoad("crown");
+    };
   </script>
 </head>
 
 <body>
   <div class="container">
     <a href="index.html">
-      <- All Tools</a>
-        <br>
+      <- All Tools</a> <br>
         <br>
         <h1>Silver Crown Solver</h1>
 
         <div id="main">
-          <a href="https://github.com/tsitu/MH-Tools/blob/master/README.md#crown-crown-solver" target="_blank" rel="noopener">Instructions</a> |
+          <a href="https://github.com/tsitu/MH-Tools/blob/master/README.md#crown-crown-solver" target="_blank" rel="noopener">Instructions</a>
+          |
           <a id="bookmarkletloader" href="#">Auto-Loader</a> |
           <a id="bookmarklet" href="#">Crown</a>
           <table>
             <tr>
               <td>
-                <br>
-                <br> Best Locations (rows)
+                <br>Best Locations (rows)
                 <br>
                 <form action="">
                   <table>
@@ -231,12 +234,34 @@
                   </table>
                 </form>
               </td>
+
+              <td></td>
+
+              <td>
+                <form>
+                  <fieldset style="padding: 5px">
+                    <legend style="text-align: center">Cheese Filters</legend>
+                    <input type="checkbox" class="cheese-filter" name="magicEssence">&nbsp;Magic Essence</input><br>
+                    <input type="checkbox" class="cheese-filter" name="common">&nbsp;Common</input><br>
+                    <input type="checkbox" class="cheese-filter" name="crafted">&nbsp;Crafted</input><br>
+                    <input type="checkbox" class="cheese-filter" name="marketplace">&nbsp;Marketplace</input><br>
+                    <input type="checkbox" class="cheese-filter" name="shoppe">&nbsp;Shoppe</input><br><br>
+                    <button type="button" id="applyFilter">Apply</button>
+                    <button type="button" class="reset">Reset</button> <!-- "filter_reset" option -->
+                    <button type="button" id="clearFilter">Clear</button><br><br>
+                    <textarea id="combinedFilter" placeholder="Cheeses to filter out" cols="22" rows="5" style="resize: none; margin: 0 0 0 4px"
+                      readonly></textarea>
+                    <br>
+                  </fieldset>
+                </form>
+              </td>
             </tr>
           </table>
 
           <div>
             <em>Unique Mice Remaining</em>:
-            <span id="remainValue">0</span>
+            <span id="remainValue">0</span>&nbsp;&nbsp;
+            <button id="resetMouseList">Reset List</button>
           </div>
           <br>
 
@@ -250,6 +275,9 @@
           <table>
             <tr>
               <td>
+                <div style="text-align: center">
+                  Autocomplete Off (requires refresh)&nbsp;<input type="checkbox" id="toggleAutocomplete"></input><br>
+                </div>
                 <textarea id="map" rows="25" cols="40"></textarea>
               </td>
 

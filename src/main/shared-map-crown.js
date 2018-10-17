@@ -1,5 +1,8 @@
 "use strict";
 
+/**
+ * Shared functions and variables for both Map and Crown Solvers
+ */
 var columnLimit = 0,
   rowLimit = 0,
   attractionBonus = 0,
@@ -18,14 +21,27 @@ var autoCompleteSettings = {
   endingSymbols: "\n"
 };
 
-window.onload = function() {
-  startPopulationLoad(POPULATION_JSON_URL);
+function initPageLoad(toolType) {
+  startPopulationLoad(POPULATION_JSON_URL, toolType);
   loadBookmarkletFromJS(
     BOOKMARKLET_LOADER_URL,
     "bookmarkletLoader",
     "#bookmarkletloader"
   );
-  loadBookmarkletFromJS(MAP_BOOKMARKLET_URL, "mapBookmarklet", "#bookmarklet");
+
+  if (toolType === "map") {
+    loadBookmarkletFromJS(
+      MAP_BOOKMARKLET_URL,
+      "mapBookmarklet",
+      "#bookmarklet"
+    );
+  } else if (toolType === "crown") {
+    loadBookmarkletFromJS(
+      CROWN_BOOKMARKLET_URL,
+      "crownBookmarklet",
+      "#bookmarklet"
+    );
+  }
 
   // Initialize tablesorter, bind to table
   initTablesorter();
@@ -50,12 +66,12 @@ window.onload = function() {
       var b = (mapText.match(/\n/g) || []).length;
       if (b !== numLineBreaks) {
         numLineBreaks = b;
-        processMap(mapText);
+        processMap(mapText, toolType);
       } else {
         clearTimeout(timeDelay);
         var mapText = document.getElementById("map").value;
         timeDelay = setTimeout(function() {
-          processMap(mapText);
+          processMap(mapText, toolType);
         }, 1000);
       }
     } else {
@@ -64,7 +80,7 @@ window.onload = function() {
       clearTimeout(timeDelay);
       var mapText = document.getElementById("map").value;
       timeDelay = setTimeout(function() {
-        processMap(mapText);
+        processMap(mapText, toolType);
       }, 1000);
     }
   });
@@ -75,7 +91,7 @@ window.onload = function() {
       expires: 30
     });
     var mapText = document.getElementById("map").value;
-    processMap(mapText);
+    processMap(mapText, toolType);
   });
 
   $("input[name='rowLimit']").change(function() {
@@ -84,41 +100,44 @@ window.onload = function() {
       expires: 30
     });
     var mapText = document.getElementById("map").value;
-    processMap(mapText);
+    processMap(mapText, toolType);
   });
 
   document.getElementById("resetMouseList").onclick = function() {
     // Empty out the textarea
     document.getElementById("map").value = "";
-    processMap("");
+    processMap("", toolType);
   };
-};
+
+  // Check Crown Solver's window.name for bookmarklet data
+  if (toolType === "crown" && window.name) {
+    try {
+      var nameCatchesObj = JSON.parse(window.name);
+      var ncoKeys = Object.keys(nameCatchesObj);
+      var textareaInput = "";
+      for (var i = 0; i < 50; i++) {
+        textareaInput += ncoKeys[i] + "\n" + nameCatchesObj[ncoKeys[i]] + "\n";
+      }
+      document.getElementById("map").value = textareaInput;
+      processMap(textareaInput, toolType);
+    } catch (e) {
+      console.log(e);
+    }
+    window.name = ""; // Reset name after capturing data
+  }
+}
 
 function contains(collection, searchElement) {
   return collection.indexOf(searchElement) > -1;
 }
 
-function loadMiceFromUrlOrCookie() {
-  var mouseList = getMouseListFromURL(
-    window.location.search.match(/mice=([^&]*)/)
-  );
-  if (mouseList.length === 0) {
-    var cookie = Cookies.get("savedMice");
-    if (cookie !== undefined) {
-      findLoadedMice(cookie);
-    }
-  } else {
-    findLoadedMice(mouseList);
-  }
-
-  function findLoadedMice(mouseList) {
-    $("#map").val(mouseList);
-    var mapText = document.getElementById("map").value;
-    timeDelay = setTimeout(function() {
-      processMap(mapText);
-    }, 100);
-    $("#weightAR").click();
-  }
+function findLoadedMice(param, toolType) {
+  $("#map").val(param);
+  var mapText = document.getElementById("map").value;
+  timeDelay = setTimeout(function() {
+    processMap(mapText, toolType);
+  }, 100);
+  $("#weightAR").click();
 }
 
 function loadCookies() {
@@ -322,13 +341,58 @@ String.prototype.capitalise = function() {
   });
 };
 
-function checkLoadState() {
+function checkLoadState(toolType) {
   if (popLoaded) {
     var acToggle = localStorage.getItem("textarea-autocomplete");
     if (!acToggle || acToggle === "on") {
       loadMouseDropdown();
     }
-    loadMiceFromUrlOrCookie();
+    loadMiceFromUrlOrCookie(toolType);
+  }
+}
+
+function loadMiceFromUrlOrCookie(toolType) {
+  var mouseList;
+  var numCatchList; // Crown
+  if (toolType === "map") {
+    mouseList = getStringListFromURL(
+      window.location.search.match(/mice=([^&]*)/)
+    );
+  } else if (toolType === "crown") {
+    mouseList = getStringListFromURL(
+      window.location.search.match(/mice=([^&]*?)\?catches=/)
+    );
+    numCatchList = getStringListFromURL(
+      window.location.search.match(/catches=([^&]*)/)
+    );
+  }
+
+  if (mouseList.length === 0) {
+    var cookieName;
+    if (toolType === "map") {
+      cookieName = "savedMice";
+    } else if (toolType === "crown") {
+      cookieName = "crownSavedMice";
+    }
+    var cookie = Cookies.get(cookieName);
+    if (cookie !== undefined) {
+      findLoadedMice(cookie, toolType);
+    }
+  } else {
+    if (toolType === "map") {
+      findLoadedMice(mouseList, toolType);
+    } else if (toolType === "crown") {
+      var mapText = "";
+      var mouseArray = mouseList.split("\n");
+      var numCatchArray = numCatchList.split("\n");
+
+      for (var i = 0; i < mouseArray.length; i++) {
+        mapText += mouseArray[i] + "\n";
+        mapText += numCatchArray[i] + "\n";
+      }
+
+      findLoadedMice(mapText, toolType);
+    }
   }
 }
 
@@ -358,21 +422,43 @@ var buildMouselist = function(mouseListText, sortedMLCLength, sortedMLC) {
   return mouseListText;
 };
 
-function processMap(mapText) {
+function processMap(mapText, toolType) {
   // Save a cookie
-  Cookies.set("savedMice", mapText, {
+  var cookieName = "";
+  if (toolType === "map") {
+    cookieName = "savedMice";
+  } else if (toolType === "crown") {
+    cookieName = "crownSavedMice";
+  }
+  Cookies.set(cookieName, mapText, {
     expires: 14
   });
 
-  var mouseArray = mapText.split("\n");
-  var mouseArrayLength = Object.size(mouseArray);
+  var mouseArray;
+  var numCatchesArray; // Crown
+  if (toolType === "map") {
+    mouseArray = mapText.split("\n");
+  } else if (toolType === "crown") {
+    mouseArray = mapText.match(/^[A-Za-z].*/gm);
+    numCatchesArray = mapText.match(/^[0-9]{1,2}$/gm);
+    if (Object.size(mouseArray) !== Object.size(numCatchesArray)) {
+      return; // Number of mice != number of catches rows
+    }
+  }
 
   var interpretedAs = document.getElementById("interpretedAs");
   var mouseList = document.getElementById("mouseList");
 
   var interpretedAsText = "<b>Invalid:<br></b><span class='invalid'>";
-  var mouseListText =
-    "<thead><tr><th align='center'>Mouse</th><th align='center' id='locationAR'>Location (Raw AR)</th></tr></thead><tbody>";
+  var mouseListText;
+  if (toolType === "map") {
+    mouseListText =
+      "<thead><tr><th align='center'>Mouse</th><th align='center' id='locationAR'>Location (Raw AR)</th></tr></thead><tbody>";
+  } else if (toolType === "crown") {
+    mouseListText =
+      "<thead><tr><th align='center'>Mouse</th><th align='center' id='locationAR'>Location (Raw CP)</th></tr></thead><tbody>";
+  }
+
   var hyphenEdgeCases = {
     "Exo-tech": "Exo-Tech",
     "Itty-bitty Burroughs": "Itty-Bitty Burroughs",
@@ -381,7 +467,6 @@ function processMap(mapText) {
     "Rr-8": "RR-8",
     "Titanic Brain-taker": "Titanic Brain-Taker"
   };
-
   var bestLocationArray = [];
   var weightedBLA = [];
   var mouseLocationArray = [];
@@ -389,7 +474,11 @@ function processMap(mapText) {
   var notRecognized = false;
   remainingMice = 0;
 
-  for (var i = 0; i < mouseArrayLength; i++) {
+  for (var i = 0; i < Object.size(mouseArray); i++) {
+    var catchesFromSilver; // Crown
+    if (toolType === "crown") {
+      catchesFromSilver = 100 - numCatchesArray[i];
+    }
     var mouseName = mouseArray[i];
     if (mouseName.length == 0) continue;
     mouseName = mouseName.capitalise();
@@ -429,37 +518,34 @@ function processMap(mapText) {
       remainingMice++;
 
       var mouseLocation = Object.keys(popArray[mouseName]);
-      var noLocations = Object.size(popArray[mouseName]); // console.log(noLocations);
+      var numLocations = Object.size(popArray[mouseName]);
 
-      for (var j = 0; j < noLocations; j++) {
+      for (var j = 0; j < numLocations; j++) {
         var locationName = mouseLocation[j];
 
         var mousePhase = Object.keys(popArray[mouseName][locationName]);
-        var noPhases = Object.size(popArray[mouseName][locationName]);
+        var numPhases = Object.size(popArray[mouseName][locationName]);
 
-        for (var k = 0; k < noPhases; k++) {
+        for (var k = 0; k < numPhases; k++) {
           var phaseName = mousePhase[k];
-
           var mouseCheese = Object.keys(
             popArray[mouseName][locationName][phaseName]
           );
-          var noCheeses = Object.size(
+          var numCheeses = Object.size(
             popArray[mouseName][locationName][phaseName]
           );
 
-          for (var l = 0; l < noCheeses; l++) {
+          for (var l = 0; l < numCheeses; l++) {
             var cheeseName = mouseCheese[l];
-
             var mouseCharm = Object.keys(
               popArray[mouseName][locationName][phaseName][cheeseName]
             );
-            var noCharms = Object.size(
+            var numCharms = Object.size(
               popArray[mouseName][locationName][phaseName][cheeseName]
             );
 
-            for (var m = 0; m < noCharms; m++) {
+            for (var m = 0; m < numCharms; m++) {
               var charmName = mouseCharm[m];
-
               var locationPhaseCheeseCharm = "<b>" + locationName + "</b><br>";
 
               var URLString = "setup.html?";
@@ -499,11 +585,22 @@ function processMap(mapText) {
                 modURLString +
                 ' target="_blank" rel="noopener">Link to best setup</a>';
 
-              var attractionRate = parseFloat(
-                popArray[mouseName][locationName][phaseName][cheeseName][
-                  charmName
-                ]
-              );
+              var attractionRate;
+              if (toolType === "map") {
+                attractionRate = parseFloat(
+                  popArray[mouseName][locationName][phaseName][cheeseName][
+                    charmName
+                  ]
+                );
+              } else if (toolType === "crown") {
+                attractionRate = +(
+                  parseFloat(
+                    popArray[mouseName][locationName][phaseName][cheeseName][
+                      charmName
+                    ]
+                  ) / catchesFromSilver
+                ).toFixed(4);
+              }
 
               // Populate mouse location array
               if (mouseLocationArray[locationPhaseCheeseCharm] == undefined) {
@@ -564,7 +661,7 @@ function processMap(mapText) {
         }
       }
 
-      var sortedMLC = sortBestLocation(mouseLocationCheese); // console.log(sortedMLC);
+      var sortedMLC = sortBestLocation(mouseLocationCheese);
       var sortedMLCLength = Object.size(sortedMLC);
 
       // Mouse list column constraints
@@ -611,7 +708,7 @@ function processMap(mapText) {
   }
 
   var sortedLocation = sortBestLocation(bestLocationArray, weightedBLA);
-  printBestLocation(sortedLocation, mouseLocationArray);
+  printBestLocation(sortedLocation, mouseLocationArray, toolType);
 }
 
 function sortBestLocation(bestLocationArray, weightedBLA) {
@@ -649,10 +746,16 @@ function sortBestLocation(bestLocationArray, weightedBLA) {
   return sortedLocation;
 }
 
-function printBestLocation(sortedLocation, mouseLocationArray) {
+function printBestLocation(sortedLocation, mouseLocationArray, toolType) {
   var bestLocation = document.getElementById("bestLocation");
-  var bestLocationHTML =
-    "<thead><tr><th align='center'>Location Info</th><th align='center'>Mice (Raw AR)</th><th align='center' data-filter='false'>Total AR</th><th align='center' id='weightAR' data-filter='false'>Weighted AR</th></tr></thead><tbody>";
+  var bestLocationHTML = "";
+  if (toolType === "map") {
+    bestLocationHTML =
+      "<thead><tr><th align='center'>Location Info</th><th align='center'>Mice (Raw AR)</th><th align='center' data-filter='false'>Total AR</th><th align='center' id='weightAR' data-filter='false'>Weighted AR</th></tr></thead><tbody>";
+  } else if (toolType === "crown") {
+    bestLocationHTML =
+      "<thead><tr><th align='center'>Location Info</th><th align='center'>Mice (Raw CP)</th><th align='center' data-filter='false'>Total CP</th><th align='center' id='weightAR' data-filter='false'>Weighted CP</th></tr></thead><tbody>";
+  }
 
   var sortedLocationLength = Object.size(sortedLocation);
 
@@ -711,7 +814,7 @@ function findBaseline(cheese) {
   return baselineAttArray[cheese];
 }
 
-function getMouseListFromURL(parameters) {
+function getStringListFromURL(parameters) {
   if (parameters) {
     parameters = decodeURIComponent(parameters[1]);
 
