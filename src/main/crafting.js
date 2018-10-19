@@ -57,7 +57,7 @@ window.onload = function() {
   });
 
   // Populate global recipes object
-  $.getJSON("data/all-recipes.json", json => {
+  $.getJSON("data/json/all-recipes.json", json => {
     ALL_RECIPES = json;
 
     // Check window.name for valid inventory data from bookmarklet

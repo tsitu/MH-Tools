@@ -19,8 +19,7 @@
       mouseWisdom[jsonObj["mouse"]] = jsonObj["wisdom"];
     })
     .on("done", function(error) {
-      fileUtils.saveJsonFile("data/mouse-wisdom.json", mouseWisdom);
-      fileUtils.makeDirectory("data/pretty");
-      fileUtils.saveJsonFile("data/pretty/mouse-wisdom.json", mouseWisdom, 4);
+      fileUtils.makeDirectory("data/json");
+      fileUtils.saveJsonFile("data/json/mouse-wisdom.json", mouseWisdom);
     });
 })();

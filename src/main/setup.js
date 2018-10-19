@@ -23,7 +23,7 @@ $(window).load(function() {
   loadItemSelection(baseKeys, "base");
   loadItemSelection(charmKeys, "charm");
 
-  startPopulationLoad("data/populations-cre-setup.json", user);
+  startPopulationLoad("data/json/populations-cre-setup.json", user);
   loadCharmDropdown();
   $("#main").show();
 

@@ -57,23 +57,12 @@
   }
 
   function saveFiles() {
+    fileUtils.makeDirectory("data/json");
     fileUtils.saveJsonFile(
-      "data/populations-cre-setup.json",
+      "data/json/populations-cre-setup.json",
       creSetupPopulations
     );
-    fileUtils.saveJsonFile("data/populations-map.json", mapPopulations);
-
-    fileUtils.makeDirectory("data/pretty/");
-    fileUtils.saveJsonFile(
-      "data/pretty/populations-cre-setup.json",
-      creSetupPopulations,
-      4
-    );
-    fileUtils.saveJsonFile(
-      "data/pretty/populations-map.json",
-      mapPopulations,
-      4
-    );
+    fileUtils.saveJsonFile("data/json/populations-map.json", mapPopulations);
   }
 
   /**

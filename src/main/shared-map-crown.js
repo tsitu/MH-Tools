@@ -13,7 +13,7 @@ var columnLimit = 0,
 var user = "map";
 var EMPTY_SELECTION = "-";
 var NULL_URL_PARAM = null;
-var POPULATION_JSON_URL = "data/populations-map.json";
+var POPULATION_JSON_URL = "data/json/populations-map.json";
 var FILTERED_CHEESES = [];
 
 var autoCompleteSettings = {

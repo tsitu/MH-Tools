@@ -10,7 +10,7 @@ window.onload = function() {
   );
   loadBookmarkletFromJS(CRE_BOOKMARKLET_URL, "creBookmarklet", "#bookmarklet");
 
-  startPopulationLoad("data/populations-cre-setup.json", user);
+  startPopulationLoad("data/json/populations-cre-setup.json", user);
   loadDropdown("weapon", weaponKeys, weaponChanged, "<option></option>");
   loadDropdown("base", baseKeys, baseChanged, "<option></option>");
   loadCharmDropdown();

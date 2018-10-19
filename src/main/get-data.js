@@ -3,9 +3,9 @@
 var popLoaded = 0,
   wisdomLoaded = 0,
   sampleLoaded = 0;
-var WISDOM_URL = "data/mouse-wisdom.json";
+var WISDOM_URL = "data/json/mouse-wisdom.json";
 var SAMPLE_URL =
-  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/data/sample-summary-detailed.json";
+  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/data/json/sample-summary-detailed.json";
 
 /**
  * Population data parsed from CSV
