@@ -1294,8 +1294,8 @@ function calcCRMods(catchRate, mouseName) {
 
 function checkLoadState(type) {
   var loadPercentage = (
-    (popLoaded + wisdomLoaded + sampleLoaded) /
-    3 *
+    (popLoaded + wisdomLoaded + sampleLoaded + gpLoaded + peLoaded) /
+    5 *
     100
   ).toFixed(0);
   var status = document.getElementById("status");

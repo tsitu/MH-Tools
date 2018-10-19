@@ -2,10 +2,15 @@
 
 var popLoaded = 0,
   wisdomLoaded = 0,
-  sampleLoaded = 0;
+  sampleLoaded = 0,
+  gpLoaded = 0,
+  peLoaded = 0;
+
 var WISDOM_URL = "data/json/mouse-wisdom.json";
 var SAMPLE_URL =
   "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/data/json/sample-summary-detailed.json";
+var GP_URL = "data/json/mouse-gold-points.json";
+var PE_URL = "data/json/mouse-power-effs.json";
 
 /**
  * Population data parsed from CSV
@@ -26,12 +31,27 @@ var mouseWisdom = {};
 var sampleSummary = {};
 
 /**
+ * Mouse gold and points parsed from JSON
+ * @type {{mouse: string, gold: number, points: number}}
+ */
+var miceArray = {};
+
+/**
+ * Mouse power and trap type effs parsed from JSON
+ */
+var powersArray = {};
+
+/**
  * Start population loading
  */
 function startPopulationLoad(populationJsonUrl, type) {
   $.getJSON(populationJsonUrl, setPopulation);
-  $.getJSON(WISDOM_URL, setWisdom);
-  $.getJSON(SAMPLE_URL, setSample);
+  if (type === "cre" || type === "setup") {
+    $.getJSON(WISDOM_URL, setWisdom);
+    $.getJSON(SAMPLE_URL, setSample);
+    $.getJSON(GP_URL, setGoldPoints);
+    $.getJSON(PE_URL, setPowerEffs);
+  }
 
   function setPopulation(jsonData) {
     popArray = jsonData;
@@ -48,6 +68,18 @@ function startPopulationLoad(populationJsonUrl, type) {
   function setSample(jsonData) {
     sampleSummary = jsonData;
     sampleLoaded = true;
+    checkLoadState(type);
+  }
+
+  function setGoldPoints(jsonData) {
+    miceArray = jsonData;
+    gpLoaded = true;
+    checkLoadState(type);
+  }
+
+  function setPowerEffs(jsonData) {
+    powersArray = jsonData;
+    peLoaded = true;
     checkLoadState(type);
   }
 }

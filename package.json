@@ -13,9 +13,9 @@
     "puppeteer": "npm i -S puppeteer",
     "sample": "node build/process-sample-size.js",
     "timestamp": "node build/process-timestamp.js",
-    "wisdom": "node build/process-wisdom.js",
+    "mousedata": "node build/process-mouse-data.js",
     "serve": "http-server -p 8000",
-    "build": "npm-run-all --parallel minify:bookmarklet population wisdom"
+    "build": "npm-run-all --parallel minify:bookmarklet population mousedata"
   },
   "repository": {
     "type": "git",
