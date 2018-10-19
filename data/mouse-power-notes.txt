@@ -1,0 +1,39 @@
+[Event Mouse Placeholders]
+Black Diamond Racer
+Rainbow Racer
+Gentleman Caller
+
+-----
+
+[Power & Eff Confidence Levels]
+/Low/
+Portal Pursuer
+
+/Low-Medium/
+Harbinger of Death
+Absolute Acolyte
+Carrion Medium
+Timeless Lich
+Thunderlord
+Thundering Watcher
+Dragoon
+
+/Medium/
+Chronomaster
+Timelost Thaumaturge
+Shackled Servant
+Timeslither Pythoness
+Wind Watcher
+Charming Chimer
+Fluttering Flutist
+Cycloness
+Wind Warrior
+Rain Collector
+Rain Wallower
+Rain Summoner
+Monsoon Maker
+Rainmancer
+
+/Medium-High/
+Vigilant Ward
+Ful'Mina, The Mountain Queen
