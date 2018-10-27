@@ -210,8 +210,18 @@
 
         var outputObj = {}; // to be passed as window.name
         outputObj["mouse-data"] = {};
-        outputObj["trap-data"] = [[trapType, trapPower, Date.now()]];
-        console.log("Power: " + trapPower + " (" + trapType + ")");
+        const currentTime = Date.now();
+        outputObj["trap-data"] = [[trapType, trapPower, currentTime]];
+        console.group(
+          "Power: " +
+            trapPower +
+            " (" +
+            trapType +
+            ")" +
+            " [" +
+            new Date(currentTime) +
+            "]"
+        );
 
         // Target acquired
         for (var i = 0; i < target.subgroups.length; i++) {
@@ -219,7 +229,7 @@
           if (targetSubgroup === "All" || targetSubgroup === sub.name) {
             var groupName = target.name + " (" + sub.name + ")";
             outputObj["mouse-data"][groupName] = {};
-            console.log("Group: " + groupName);
+            console.group("Group: " + groupName);
             for (var j = 0; j < sub.mice.length; j++) {
               var mouse = sub.mice[j];
               var mouseName = mouse.name.trim();
@@ -329,10 +339,11 @@
 
               outputObj["mouse-data"][groupName][mouseName] = mouseObj;
             }
+            console.groupEnd();
           }
         }
 
-        console.log("/*--------------------------------------------------*/");
+        console.groupEnd();
         var newWindow = window.open("");
         // newWindow.location = "https://tsitu.github.io/MH-Tools/powers-worksheet.html";
         newWindow.location = "http://localhost:8000/powers-worksheet.html";
