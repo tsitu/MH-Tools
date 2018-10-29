@@ -21,6 +21,123 @@ const battery = {
   10: 300000
 };
 
+window.onload = function() {
+  // Load in Auto-Loader bookmarklet
+  loadBookmarkletFromJS(
+    BOOKMARKLET_LOADER_URL,
+    "bookmarkletLoader",
+    "#bookmarkletloader"
+  );
+
+  // Process best-setup-items
+  const setupItems = localStorage.getItem("best-setup-items");
+  if (setupItems) {
+    ownedItems = JSON.parse(setupItems)["owned-items"];
+  }
+
+  // Load saved preferences
+  loadPreferences();
+
+  // Initialize tablesorter
+  $.tablesorter.defaults.sortInitialOrder = "desc";
+  $("#trap-setups").tablesorter({
+    sortReset: true,
+    widthFixed: true,
+    ignoreCase: false,
+    widgets: ["filter"],
+    widgetOptions: {
+      filter_childRows: false,
+      filter_childByColumn: false,
+      filter_childWithSibs: true,
+      filter_columnFilters: true,
+      filter_columnAnyMatch: true,
+      filter_cellFilter: "",
+      filter_cssFilter: "", // or []
+      filter_defaultFilter: {},
+      filter_excludeFilter: {},
+      filter_external: "",
+      filter_filteredRow: "filtered",
+      filter_formatter: null,
+      filter_functions: null,
+      filter_hideEmpty: true,
+      filter_hideFilters: true,
+      filter_ignoreCase: true,
+      filter_liveSearch: true,
+      filter_matchType: { input: "exact", select: "exact" },
+      filter_onlyAvail: "filter-onlyAvail",
+      filter_placeholder: { search: "Filter...", select: "" },
+      filter_reset: "button.reset",
+      filter_resetOnEsc: true,
+      filter_saveFilters: false,
+      filter_searchDelay: 420,
+      filter_searchFiltered: true,
+      filter_selectSource: null,
+      filter_serversideFiltering: false,
+      filter_startsWith: false,
+      filter_useParsedData: false,
+      filter_defaultAttrib: "data-value",
+      filter_selectSourceSeparator: "|"
+    }
+  });
+
+  $("#calculate-button").click(function() {
+    console.group("Duration");
+    console.time("Main loop");
+    let resultsHTML = generateResults();
+    console.timeEnd("Main loop");
+
+    console.time("Tablesorter");
+    document.getElementById("trap-setups").innerHTML = resultsHTML;
+    const resort = true,
+      callback = function() {
+        const header = $("#precisePower");
+        if (header.hasClass("tablesorter-headerUnSorted")) {
+          header.click();
+          header.click();
+        }
+      };
+    $("#trap-setups").trigger("updateAll", [resort, callback]);
+    console.timeEnd("Tablesorter");
+    console.groupEnd();
+  });
+
+  $("#reset-button").click(function() {
+    // Not reset: Power type, Rift set, Items used
+    $("#desired-power-min").val(2000);
+    $("#desired-power-max").val(3000);
+    $("#power-bonus").val(0);
+    $("#battery").val(0);
+    $("#amp-bonus").val(100);
+    $("#empowered-cheese").prop("checked", false);
+    $("#tg-pour").prop("checked", false);
+    $("#per-power").val(1);
+    $("#max-results").val(100);
+  });
+
+  $("#save-button").click(function() {
+    const saveObj = {};
+    saveObj["power-type"] = $("#power-type")
+      .find(":selected")
+      .text();
+    saveObj["desired-power-min"] = parseFloat($("#desired-power-min").val());
+    saveObj["desired-power-max"] = parseFloat($("#desired-power-max").val());
+    saveObj["power-bonus"] = parseInt($("#power-bonus").val());
+    saveObj["rift-bonus"] = $("input[name=rift-bonus]:checked").attr("id");
+    saveObj["battery"] = parseInt($("#battery").val());
+    saveObj["amp-bonus"] = parseInt($("#amp-bonus").val());
+    saveObj["empowered-cheese"] = $("#empowered-cheese").is(":checked");
+    saveObj["tg-pour"] = $("#tg-pour").is(":checked");
+    saveObj["per-power"] = parseInt($("#per-power").val());
+    saveObj["max-results"] = parseInt($("#max-results").val());
+    saveObj["items-used"] = $("input[name=items-used]:checked").attr("id");
+    localStorage.setItem("powers-tool-prefs", JSON.stringify(saveObj));
+  });
+
+  $("#load-button").click(function() {
+    loadPreferences();
+  });
+};
+
 function loadPreferences() {
   const prefString = localStorage.getItem("powers-tool-prefs");
   if (prefString) {
@@ -241,6 +358,12 @@ function generateResults() {
       }
     });
 
+    // Filter out Mining Charm because of its 30% hidden bonus against DDD
+    const miningCharm = loopCharms.indexOf("Mining Charm");
+    if (miningCharm > -1) {
+      loopCharms.splice(miningCharm, 1);
+    }
+
     // Push in an empty charm and a RVC
     loopCharms.push("No Charm");
     loopCharms.push("Rift Vacuum Charm");
@@ -372,120 +495,3 @@ function generateResults() {
   resultsHTML += "</tbody>";
   return resultsHTML;
 }
-
-window.onload = function() {
-  // Load in Auto-Loader bookmarklet
-  loadBookmarkletFromJS(
-    BOOKMARKLET_LOADER_URL,
-    "bookmarkletLoader",
-    "#bookmarkletloader"
-  );
-
-  // Process best-setup-items
-  const setupItems = localStorage.getItem("best-setup-items");
-  if (setupItems) {
-    ownedItems = JSON.parse(setupItems)["owned-items"];
-  }
-
-  // Load saved preferences
-  loadPreferences();
-
-  // Initialize tablesorter
-  $.tablesorter.defaults.sortInitialOrder = "desc";
-  $("#trap-setups").tablesorter({
-    sortReset: true,
-    widthFixed: true,
-    ignoreCase: false,
-    widgets: ["filter"],
-    widgetOptions: {
-      filter_childRows: false,
-      filter_childByColumn: false,
-      filter_childWithSibs: true,
-      filter_columnFilters: true,
-      filter_columnAnyMatch: true,
-      filter_cellFilter: "",
-      filter_cssFilter: "", // or []
-      filter_defaultFilter: {},
-      filter_excludeFilter: {},
-      filter_external: "",
-      filter_filteredRow: "filtered",
-      filter_formatter: null,
-      filter_functions: null,
-      filter_hideEmpty: true,
-      filter_hideFilters: true,
-      filter_ignoreCase: true,
-      filter_liveSearch: true,
-      filter_matchType: { input: "exact", select: "exact" },
-      filter_onlyAvail: "filter-onlyAvail",
-      filter_placeholder: { search: "Filter...", select: "" },
-      filter_reset: "button.reset",
-      filter_resetOnEsc: true,
-      filter_saveFilters: false,
-      filter_searchDelay: 420,
-      filter_searchFiltered: true,
-      filter_selectSource: null,
-      filter_serversideFiltering: false,
-      filter_startsWith: false,
-      filter_useParsedData: false,
-      filter_defaultAttrib: "data-value",
-      filter_selectSourceSeparator: "|"
-    }
-  });
-
-  $("#calculate-button").click(function() {
-    console.group("Duration");
-    console.time("Main loop");
-    let resultsHTML = generateResults();
-    console.timeEnd("Main loop");
-
-    console.time("Tablesorter");
-    document.getElementById("trap-setups").innerHTML = resultsHTML;
-    const resort = true,
-      callback = function() {
-        const header = $("#precisePower");
-        if (header.hasClass("tablesorter-headerUnSorted")) {
-          header.click();
-          header.click();
-        }
-      };
-    $("#trap-setups").trigger("updateAll", [resort, callback]);
-    console.timeEnd("Tablesorter");
-    console.groupEnd();
-  });
-
-  $("#reset-button").click(function() {
-    // Not reset: Power type, Rift set, Items used
-    $("#desired-power-min").val(2000);
-    $("#desired-power-max").val(3000);
-    $("#power-bonus").val(0);
-    $("#battery").val(0);
-    $("#amp-bonus").val(100);
-    $("#empowered-cheese").prop("checked", false);
-    $("#tg-pour").prop("checked", false);
-    $("#per-power").val(1);
-    $("#max-results").val(100);
-  });
-
-  $("#save-button").click(function() {
-    const saveObj = {};
-    saveObj["power-type"] = $("#power-type")
-      .find(":selected")
-      .text();
-    saveObj["desired-power-min"] = parseFloat($("#desired-power-min").val());
-    saveObj["desired-power-max"] = parseFloat($("#desired-power-max").val());
-    saveObj["power-bonus"] = parseInt($("#power-bonus").val());
-    saveObj["rift-bonus"] = $("input[name=rift-bonus]:checked").attr("id");
-    saveObj["battery"] = parseInt($("#battery").val());
-    saveObj["amp-bonus"] = parseInt($("#amp-bonus").val());
-    saveObj["empowered-cheese"] = $("#empowered-cheese").is(":checked");
-    saveObj["tg-pour"] = $("#tg-pour").is(":checked");
-    saveObj["per-power"] = parseInt($("#per-power").val());
-    saveObj["max-results"] = parseInt($("#max-results").val());
-    saveObj["items-used"] = $("input[name=items-used]:checked").attr("id");
-    localStorage.setItem("powers-tool-prefs", JSON.stringify(saveObj));
-  });
-
-  $("#load-button").click(function() {
-    loadPreferences();
-  });
-};
