@@ -209,11 +209,58 @@
         }
 
         var outputObj = {}; // to be passed as window.name
-        outputObj["mouse-data"] = {};
-        const currentTime = Date.now();
-        outputObj["trap-data"] = [[trapType, trapPower, currentTime]];
+        // phase out trap-data with computed power type / total power?
+        outputObj["user-data"] = {};
+        outputObj["user-data"]["weapon"] = user.weapon_name;
+        outputObj["user-data"]["base"] = user.base_name;
+        outputObj["user-data"]["charm"] = user.trinket_name;
+        outputObj["user-data"]["power-bonus"] = user.trap_power_bonus;
+        outputObj["user-data"]["battery"] = 0;
+        outputObj["user-data"]["zt-amp"] = 100;
+        outputObj["user-data"]["tg-pour"] = false;
+
+        outputObj["user-data"]["empowered"] = false;
+        if (user.bait_name.indexOf("Empowered") > -1) {
+          outputObj["user-data"]["empowered"] = true;
+        }
+
+        var userLocation = user.location;
+        if (userLocation === "Furoma Rift") {
+          var chargeLevel =
+            userQuests["QuestRiftFuroma"]["droid"]["charge_level"];
+          if (chargeLevel !== "") {
+            var levels = {
+              charge_level_one: 1,
+              charge_level_two: 2,
+              charge_level_three: 3,
+              charge_level_four: 4,
+              charge_level_five: 5,
+              charge_level_six: 6,
+              charge_level_seven: 7,
+              charge_level_eight: 8,
+              charge_level_nine: 9,
+              charge_level_ten: 10
+            };
+            outputObj["user-data"]["battery"] = levels[chargeLevel];
+          }
+        } else if (userLocation === "Zugzwang's Tower") {
+          outputObj["user-data"]["zt-amp"] =
+            user["viewing_atts"]["zzt_amplifier"];
+        } else if (userLocation === "Twisted Garden") {
+          if (
+            userQuests["QuestLivingGarden"]["minigame"]["vials_state"] ===
+            "dumped"
+          ) {
+            outputObj["user-data"]["tg-pour"] = true;
+          }
+        }
+
+        var currentTime = Date.now();
+        outputObj["user-data"]["timestamp"] = currentTime;
+        outputObj["user-data"]["dom-trap-type"] = trapType;
+        outputObj["user-data"]["dom-trap-power"] = trapPower;
         console.group(
-          "Power: " +
+          "Displayed Power: " +
             trapPower +
             " (" +
             trapType +
@@ -222,6 +269,7 @@
             new Date(currentTime) +
             "]"
         );
+        outputObj["mouse-data"] = {};
 
         // Target acquired
         for (var i = 0; i < target.subgroups.length; i++) {
@@ -235,20 +283,21 @@
               var mouseName = mouse.name.trim();
               console.log(mouseName + " (" + mouse.difficulty + ")");
               var mouseObj = {};
-              mouseObj["ID"] = parseInt(mouse.mouse_id);
-              mouseObj["Gold"] = parseInt(mouse.gold.replace(/,/g, ""));
-              mouseObj["Points"] = parseInt(mouse.points.replace(/,/g, ""));
+              mouseObj["id"] = parseInt(mouse.mouse_id);
+              mouseObj["gold"] = parseInt(mouse.gold.replace(/,/g, ""));
+              mouseObj["points"] = parseInt(mouse.points.replace(/,/g, ""));
+              mouseObj["difficulty"] = mouse.difficulty;
               var effObj = {};
-              effObj["Arcane"] = [0];
-              effObj["Draconic"] = [0];
-              effObj["Forgotten"] = [0];
-              effObj["Hydro"] = [0];
-              effObj["Parental"] = [0];
-              effObj["Physical"] = [0];
-              effObj["Shadow"] = [0];
-              effObj["Tactical"] = [0];
-              effObj["Law"] = [0];
-              effObj["Rift"] = [0];
+              effObj["Arcane"] = 0;
+              effObj["Draconic"] = 0;
+              effObj["Forgotten"] = 0;
+              effObj["Hydro"] = 0;
+              effObj["Parental"] = 0;
+              effObj["Physical"] = 0;
+              effObj["Shadow"] = 0;
+              effObj["Tactical"] = 0;
+              effObj["Law"] = 0;
+              effObj["Rift"] = 0;
 
               var notEffArr = trapTypes;
               var effs = mouse.weaknesses;
@@ -258,7 +307,7 @@
                 if (isIterable(effs["effective"])) {
                   for (var k = 0; k < effs["effective"].length; k++) {
                     var e = effs["effective"][k];
-                    effObj[e.name][0] = 100;
+                    effObj[e.name] = 100;
                     notEffArr = notEffArr.filter(function(el) {
                       return el !== e.name;
                     });
@@ -267,7 +316,7 @@
                 if (isIterable(effs["veryEffective"])) {
                   for (var k = 0; k < effs["veryEffective"].length; k++) {
                     var e = effs["veryEffective"][k];
-                    effObj[e.name][0] = ">100";
+                    effObj[e.name] = ">100";
                     notEffArr = notEffArr.filter(function(el) {
                       return el !== e.name;
                     });
@@ -276,7 +325,7 @@
                 if (isIterable(effs["lessEffective"])) {
                   for (var k = 0; k < effs["lessEffective"].length; k++) {
                     var e = effs["lessEffective"][k];
-                    effObj[e.name][0] = "<100";
+                    effObj[e.name] = "<100";
                     notEffArr = notEffArr.filter(function(el) {
                       return el !== e.name;
                     });
@@ -284,58 +333,23 @@
                 }
                 if (isIterable(notEffArr)) {
                   for (var k = 0; k < notEffArr.length; k++) {
-                    effObj[notEffArr[k]][0] = 0;
+                    effObj[notEffArr[k]] = 0;
                   }
                 }
               }
 
-              // Power bounds calculations
-              let lowerBound = 0;
-              let upperBound = 9999999;
-              switch (mouse.difficulty) {
-                case "Effortless":
-                  upperBound = parseFloat((trapPower / 19).toFixed(2));
-                  break;
-                case "Easy":
-                  lowerBound = parseFloat((trapPower / 19).toFixed(2));
-                  upperBound = parseFloat((trapPower / 9).toFixed(2));
-                  break;
-                case "Moderate":
-                  lowerBound = parseFloat((trapPower / 9).toFixed(2));
-                  upperBound = parseFloat((trapPower * 7 / 13).toFixed(2));
-                  break;
-                case "Challenging":
-                  lowerBound = parseFloat((trapPower * 7 / 13).toFixed(2));
-                  upperBound = parseFloat(trapPower.toFixed(2));
-                  break;
-                case "Difficult":
-                  lowerBound = parseFloat(trapPower.toFixed(2));
-                  upperBound = parseFloat((trapPower * 13 / 7).toFixed(2));
-                  break;
-                case "Overpowering":
-                  lowerBound = parseFloat((trapPower * 13 / 7).toFixed(2));
-                  upperBound = parseFloat((trapPower * 9).toFixed(2));
-                  break;
-                case "Near Impossible":
-                  lowerBound = parseFloat((trapPower * 9).toFixed(2));
-                  upperBound = parseFloat((trapPower * 19).toFixed(2));
-                  break;
-              }
-              effObj[trapType].push(lowerBound);
-              effObj[trapType].push(upperBound);
-
               // Populate effs array
-              mouseObj["Effs"] = [];
-              mouseObj["Effs"].push(effObj["Arcane"]);
-              mouseObj["Effs"].push(effObj["Draconic"]);
-              mouseObj["Effs"].push(effObj["Forgotten"]);
-              mouseObj["Effs"].push(effObj["Hydro"]);
-              mouseObj["Effs"].push(effObj["Parental"]);
-              mouseObj["Effs"].push(effObj["Physical"]);
-              mouseObj["Effs"].push(effObj["Shadow"]);
-              mouseObj["Effs"].push(effObj["Tactical"]);
-              mouseObj["Effs"].push(effObj["Law"]);
-              mouseObj["Effs"].push(effObj["Rift"]);
+              mouseObj["effs"] = [];
+              mouseObj["effs"].push(effObj["Arcane"]);
+              mouseObj["effs"].push(effObj["Draconic"]);
+              mouseObj["effs"].push(effObj["Forgotten"]);
+              mouseObj["effs"].push(effObj["Hydro"]);
+              mouseObj["effs"].push(effObj["Parental"]);
+              mouseObj["effs"].push(effObj["Physical"]);
+              mouseObj["effs"].push(effObj["Shadow"]);
+              mouseObj["effs"].push(effObj["Tactical"]);
+              mouseObj["effs"].push(effObj["Law"]);
+              mouseObj["effs"].push(effObj["Rift"]);
 
               outputObj["mouse-data"][groupName][mouseName] = mouseObj;
             }
