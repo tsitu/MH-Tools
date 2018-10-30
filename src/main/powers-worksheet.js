@@ -148,10 +148,17 @@ window.onload = function() {
 
   $("#reset-button").click(function() {
     // Reset each or both tables
-    // localStorage empty string
+    const reset = confirm("Are you sure you want to reset worksheet data?");
+    if (reset) {
+      const storedData = localStorage.getItem("powers-tool-worksheet-data");
+      if (storedData) {
+        localStorage.removeItem("powers-tool-worksheet-data");
+      }
+      renderTables();
+    }
   });
 
-  // renderTables();
+  renderTables();
 };
 
 /**
@@ -163,7 +170,7 @@ function loadData(inputText) {
     if (validateJsonData(JSON.parse(inputText))) {
       // console.log(JSON.parse(inputText));
       processInput(inputText);
-      // window.name = ""; // Reset name after capturing data
+      window.name = ""; // Reset name after capturing data
     } else {
       throw new TypeError("JSON format invalid or corrupted");
     }
@@ -192,55 +199,58 @@ function validateJsonData(jsonObj) {
  * Calculate lower/upper bounds in-place
  * Returns mutated mouse-data object
  * @param {object} input Incoming mouse-data obj
- * @param {float} power Precise computed total power
+ * @param {float} trapPower Precise computed total power
+ * @param {string} trapType Power type parsed from DOM
  */
-function calculateBounds(input, power) {
-  // delete difficulty prop after using!
-  // need dom-trap-type lmao
+function calculateBounds(input, trapPower, trapType) {
+  const incMouseData = input;
 
-  for (let group in input) {
-    for (let mouse in input[group]) {
-      const difficulty = mouse.difficulty;
-      const effArr = mouse.effs;
-      // mutation magic
+  for (let group in incMouseData) {
+    for (let mouse in incMouseData[group]) {
+      let lowerBound = 0;
+      let upperBound = "∞";
+      switch (input[group][mouse]["difficulty"]) {
+        case "Effortless":
+          upperBound = parseFloat((trapPower / 19).toFixed(2));
+          break;
+        case "Easy":
+          lowerBound = parseFloat((trapPower / 19).toFixed(2));
+          upperBound = parseFloat((trapPower / 9).toFixed(2));
+          break;
+        case "Moderate":
+          lowerBound = parseFloat((trapPower / 9).toFixed(2));
+          upperBound = parseFloat((trapPower * 7 / 13).toFixed(2));
+          break;
+        case "Challenging":
+          lowerBound = parseFloat((trapPower * 7 / 13).toFixed(2));
+          upperBound = parseFloat(trapPower.toFixed(2));
+          break;
+        case "Difficult":
+          lowerBound = parseFloat(trapPower.toFixed(2));
+          upperBound = parseFloat((trapPower * 13 / 7).toFixed(2));
+          break;
+        case "Overpowering":
+          lowerBound = parseFloat((trapPower * 13 / 7).toFixed(2));
+          upperBound = parseFloat((trapPower * 9).toFixed(2));
+          break;
+        case "Near Impossible":
+          lowerBound = parseFloat((trapPower * 9).toFixed(2));
+          upperBound = parseFloat((trapPower * 19).toFixed(2));
+          break;
+      }
+
+      const ttIndex = trapTypes.indexOf(trapType);
+      const inArr = [];
+      inArr.push(incMouseData[group][mouse]["effs"][ttIndex]);
+      inArr.push(lowerBound);
+      inArr.push(upperBound);
+
+      incMouseData[group][mouse]["effs"][ttIndex] = inArr;
+      delete incMouseData[group][mouse]["difficulty"];
     }
   }
 
-  let lowerBound = 0;
-  let upperBound = "∞";
-  switch (mouse.difficulty) {
-    case "Effortless":
-      upperBound = parseFloat((trapPower / 19).toFixed(2));
-      break;
-    case "Easy":
-      lowerBound = parseFloat((trapPower / 19).toFixed(2));
-      upperBound = parseFloat((trapPower / 9).toFixed(2));
-      break;
-    case "Moderate":
-      lowerBound = parseFloat((trapPower / 9).toFixed(2));
-      upperBound = parseFloat((trapPower * 7 / 13).toFixed(2));
-      break;
-    case "Challenging":
-      lowerBound = parseFloat((trapPower * 7 / 13).toFixed(2));
-      upperBound = parseFloat(trapPower.toFixed(2));
-      break;
-    case "Difficult":
-      lowerBound = parseFloat(trapPower.toFixed(2));
-      upperBound = parseFloat((trapPower * 13 / 7).toFixed(2));
-      break;
-    case "Overpowering":
-      lowerBound = parseFloat((trapPower * 13 / 7).toFixed(2));
-      upperBound = parseFloat((trapPower * 9).toFixed(2));
-      break;
-    case "Near Impossible":
-      lowerBound = parseFloat((trapPower * 9).toFixed(2));
-      upperBound = parseFloat((trapPower * 19).toFixed(2));
-      break;
-  }
-  effObj[trapType].push(lowerBound);
-  effObj[trapType].push(upperBound);
-
-  return stored;
+  return incMouseData;
 }
 
 /**
@@ -259,16 +269,22 @@ function mouseDataDiff(input, stored) {
           stored[group][mouse] = input[group][mouse];
         } else {
           for (let field in input[group][mouse]) {
-            if (field === "Effs") {
+            if (field === "effs") {
               for (let i = 0; i < 10; i++) {
-                const inputArr = input[group][mouse]["Effs"][i];
-                let storedArr = stored[group][mouse]["Effs"][i];
-                if (inputArr.length === 3 && storedArr.length === 1) {
-                  // Input data is new
-                  storedArr = inputArr;
-                } else if (inputArr.length === 3 && storedArr.length === 3) {
+                const inputArr = input[group][mouse]["effs"][i];
+                let storedArr = stored[group][mouse]["effs"][i];
+                if (
+                  typeof inputArr === "object" &&
+                  inputArr.length === 3 &&
+                  typeof storedArr === "number"
+                ) {
+                  storedArr = inputArr; // Input data is new
+                } else if (
+                  typeof inputArr === "object" &&
+                  typeof storedArr === "object"
+                ) {
                   if (inputArr[0] !== storedArr[0]) {
-                    // If eff is different HG has tweaked it
+                    // If eff is different, HG has tweaked it
                     storedArr = inputArr;
                   } else if (inputArr[1] > storedArr[1]) {
                     // Replace with a bigger lower bound
@@ -278,7 +294,7 @@ function mouseDataDiff(input, stored) {
                     storedArr[2] = inputArr[2];
                   }
                 }
-                stored[group][mouse]["Effs"][i] = storedArr;
+                stored[group][mouse]["effs"][i] = storedArr;
               }
             } else {
               // Check for ID, Gold, Points updates
@@ -306,14 +322,14 @@ function processInput(inputText) {
 
   const user = inputObj["user-data"];
   const bonusObj = {};
-  bonusObj["battery"] = user["battery"];
-  bonusObj["power"] = user["power-bonus"];
-  bonusObj["amp"] = user["zt-amp"];
+  bonusObj["battery"] = battery[user["battery"]];
+  bonusObj["power"] = user["power-bonus"] * 100;
+  bonusObj["amp"] = user["zt-amp"] / 100;
   bonusObj["cheese"] = user["empowered"] ? 20 : 0;
   bonusObj["pour"] = user["tg-pour"] ? 5 : 0;
 
   bonusObj["rift"] = 0;
-  const riftMultiplier = user["rift"];
+  const riftMultiplier = user["rift-multiplier"];
   if (riftMultiplier >= 1) {
     // Rift Bonus count
     const riftCount =
@@ -325,7 +341,6 @@ function processInput(inputText) {
       bonusObj["rift"] = 10 * riftMultiplier;
     }
   }
-  // !!! MUST ADD Rift Set radio buttons to bookmarklet and pass multiplier via user-data !!!
 
   // Festive & Halloween bonus check
   bonusObj["event"] =
@@ -343,6 +358,13 @@ function processInput(inputText) {
       ? 1.25
       : 1;
 
+  // Subtract shownPowerBonus[es] to get true value
+  bonusObj["power"] -=
+    weaponsArray[user.weapon][2] +
+    basesArray[user.base][1] +
+    charmsArray[user.charm][1] +
+    bonusObj["rift"];
+
   const calculatedPower = calcPower(
     user.weapon,
     user.base,
@@ -350,16 +372,17 @@ function processInput(inputText) {
     bonusObj
   );
 
-  if (user["dom-trap-power"] - calculatedPower > 1) {
+  if (Math.abs(user["dom-trap-power"] - calculatedPower) > 1) {
     alert(
-      "One of the following went wrong when computing total trap power:\n[1] user.trap_power_bonus was not accurately passed in. Try refreshing your Camp page.\n[2] Unhandled special location/stage/charm effects. Please try again."
+      "One or more of the following went wrong when computing total power:\n\n[1] user.trap_power_bonus was not accurately passed in - try refreshing your Camp page\n[2] Unhandled special location/stage/charm effects - please try again"
     );
     return;
   }
 
   incomingObj["mouse-data"] = calculateBounds(
     incomingObj["mouse-data"],
-    calculatedPower
+    calculatedPower,
+    user["dom-trap-type"]
   );
 
   let storedObj = localStorage.getItem("powers-tool-worksheet-data");
@@ -374,7 +397,8 @@ function processInput(inputText) {
     storedObj["trap-history"].push([
       user["dom-trap-type"],
       calculatedPower,
-      user["timestamp"]
+      user["timestamp"],
+      user["dom-trap-power"]
     ]);
 
     // Update storage
@@ -389,7 +413,8 @@ function processInput(inputText) {
     incomingObj["trap-history"].push([
       user["dom-trap-type"],
       calculatedPower,
-      user["timestamp"]
+      user["timestamp"],
+      user["dom-trap-power"]
     ]);
 
     localStorage.setItem(
@@ -407,13 +432,10 @@ function renderTables() {
     // Mouse Details and Mouse Power Stuff
     const mouseData = storedData["mouse-data"];
     let detailsHTML =
-      "<caption>Mouse Details</caption><thead><tr><th id='group'>Group</th><th id='mouse'>Mouse</th><th id='gold'>Gold</th><th id='points'>Points</th><th id='mouseID'>ID</th></tr></thead><tbody>";
+      "<caption>Mouse Details</caption><thead><tr><th id='details-group'>Group</th><th id='details-mouse'>Mouse</th><th id='details-gold'>Gold</th><th id='details-points'>Points</th><th id='details-id'>ID</th></tr></thead><tbody>";
 
-    // const trapData = storedData["trap-data"];
-    // const trapType = trapData[trapData.length - 1][0];
-    // const ttIndex = trapTypes.indexOf(trapType);
     let powersHTML =
-      "<caption>Mouse Powers</caption><thead><tr><th id='group'>Group</th><th id='mouse'>Mouse</th><th colspan='3'>Arcane</th><th colspan='3'>Draconic</th><th colspan='3'>Forgotten</th><th colspan='3'>Hydro</th><th colspan='3'>Parental</th><th colspan='3'>Physical</th><th colspan='3'>Shadow</th><th colspan='3'>Tactical</th><th colspan='3'>Law</th><th colspan='3'>Rift</th></tr>";
+      "<caption>Mouse Powers</caption><thead><tr><th id='powers-group'>Group</th><th id='powers-mouse'>Mouse</th><th colspan='3'>Arcane</th><th colspan='3'>Draconic</th><th colspan='3'>Forgotten</th><th colspan='3'>Hydro</th><th colspan='3'>Parental</th><th colspan='3'>Physical</th><th colspan='3'>Shadow</th><th colspan='3'>Tactical</th><th colspan='3'>Law</th><th colspan='3'>Rift</th></tr>";
     powersHTML += "<tr><td>sort</td><td>sort</td>";
     for (let i = 0; i < 10; i++) {
       powersHTML += "<td>eff</td><td>min</td><td>max</td>";
@@ -424,46 +446,32 @@ function renderTables() {
       for (let mouse in mouseData[group]) {
         const data = mouseData[group][mouse];
         const url = `<a href='https://www.mousehuntgame.com/m.php?id=${
-          data["ID"]
+          data["id"]
         }' target='_blank' rel='noopener'>Link</a>`;
 
         detailsHTML += `<tr><td>${group}</td><td>${mouse}</td><td>${
-          data["Gold"]
-        }</td><td>${data["Points"]}</td><td>${url}</td></tr>`;
+          data["gold"]
+        }</td><td>${data["points"]}</td><td>${url}</td></tr>`;
 
         const gString = group.slice(0, group.indexOf("(") - 1);
         const sString = group.slice(group.indexOf("("), group.length);
         powersHTML += `<tr><td>${gString}<br>${sString}</td><td>${mouse}</td>`;
         for (let i = 0; i < 10; i++) {
-          const lowerBound = data["Effs"][i][1] ? data["Effs"][i][1] : 0;
-          const upperBound = data["Effs"][i][2] ? data["Effs"][i][2] : "∞";
-          powersHTML += `<td>${
-            data["Effs"][i][0]
-          }%</td><td>${lowerBound}</td><td>${upperBound}</td>`;
+          const eff = data["effs"][i][0] ? data["effs"][i][0] : data["effs"][i];
+          const lowerBound = data["effs"][i][1] ? data["effs"][i][1] : 0;
+          const upperBound = data["effs"][i][2] ? data["effs"][i][2] : "∞";
+          powersHTML += `<td>${eff}%</td><td>${lowerBound}</td><td>${upperBound}</td>`;
         }
         powersHTML += "</tr>";
       }
     }
-
-    detailsHTML += "</tbody>";
-    document.getElementById("mouse-details").innerHTML = detailsHTML;
-    $("#mouse-details").trigger("updateAll", [
-      true,
-      (callback = function() {
-        const header = $("#mouse");
-        if (header.hasClass("tablesorter-headerUnSorted")) {
-          header.click();
-          header.click();
-        }
-      })
-    ]);
 
     powersHTML += "</tbody>";
     document.getElementById("mouse-powers").innerHTML = powersHTML;
     $("#mouse-powers").trigger("updateAll", [
       true,
       (callback = function() {
-        const header = $("#mouse");
+        const header = $("#powers-group");
         if (header.hasClass("tablesorter-headerUnSorted")) {
           header.click();
           header.click();
@@ -471,25 +479,45 @@ function renderTables() {
       })
     ]);
 
-    // Trap Setup History
-    // trapHTML =
-    //   "<caption>Trap Setup History</caption><thead><tr><th id='date'>Date</th><th id='type'>Type</th><th id='power'>Power</th></tr></thead><tbody>";
-    // for (let setup of trapData) {
-    //   trapHTML += `<tr><td>${new Date(setup[2])}</td><td>${setup[0]}</td><td>${
-    //     setup[1]
-    //   }</td></tr>`;
-    // }
-    // trapHTML += "</tbody>";
-    // document.getElementById("trap-history").innerHTML = trapHTML;
-    // $("#trap-history").trigger("updateAll", [
-    //   true,
-    //   (callback = function() {
-    //     const header = $("#date");
-    //     if (header.hasClass("tablesorter-headerUnSorted")) {
-    //       header.click();
-    //       header.click();
-    //     }
-    //   })
-    // ]);
+    detailsHTML += "</tbody>";
+    document.getElementById("mouse-details").innerHTML = detailsHTML;
+    $("#mouse-details").trigger("updateAll", [
+      true,
+      (callback = function() {
+        const header = $("#details-group");
+        if (header.hasClass("tablesorter-headerUnSorted")) {
+          header.click();
+          header.click();
+        }
+      })
+    ]);
+
+    // Trap History
+    const trapHistory = storedData["trap-history"];
+
+    trapHTML =
+      "<caption>Trap History</caption><thead><tr><th id='history-date'>Date</th><th id='history-type'>Type</th><th id='history-precise-power'>Power<br>(Precise)</th><th id='history-displayed-power'>Power<br>(Displayed)</th></tr></thead><tbody>";
+    for (let setup of trapHistory) {
+      trapHTML += `<tr><td>${new Date(setup[2])}</td><td>${setup[0]}</td><td>${
+        setup[1]
+      }</td><td>${setup[3]}</td></tr>`;
+    }
+    trapHTML += "</tbody>";
+    document.getElementById("trap-history").innerHTML = trapHTML;
+    $("#trap-history").trigger("updateAll", [
+      true,
+      (callback = function() {
+        const header = $("#history-date");
+        if (header.hasClass("tablesorter-headerUnSorted")) {
+          // header.click();
+          header.click();
+        }
+      })
+    ]);
+  } else {
+    // Emptiness
+    document.getElementById("mouse-powers").innerHTML = "";
+    document.getElementById("mouse-details").innerHTML = "";
+    document.getElementById("trap-history").innerHTML = "";
   }
 }

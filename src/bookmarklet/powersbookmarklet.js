@@ -174,7 +174,7 @@
 
   buildUI();
 
-  function main(targetGroup, targetSubgroup) {
+  function main(targetGroup, targetSubgroup, riftMultiplier) {
     var payload = genPayload(targetGroup);
     $.post(
       "https://www.mousehuntgame.com/managers/ajax/pages/page.php",
@@ -213,11 +213,14 @@
         outputObj["user-data"] = {};
         outputObj["user-data"]["weapon"] = user.weapon_name;
         outputObj["user-data"]["base"] = user.base_name;
-        outputObj["user-data"]["charm"] = user.trinket_name;
+        outputObj["user-data"]["charm"] = user.trinket_name
+          ? user.trinket_name
+          : "Baitkeep Charm"; // Default 0/0 placeholder
         outputObj["user-data"]["power-bonus"] = user.trap_power_bonus;
         outputObj["user-data"]["battery"] = 0;
         outputObj["user-data"]["zt-amp"] = 100;
         outputObj["user-data"]["tg-pour"] = false;
+        outputObj["user-data"]["rift-multiplier"] = riftMultiplier;
 
         outputObj["user-data"]["empowered"] = false;
         if (user.bait_name.indexOf("Empowered") > -1) {
@@ -225,6 +228,7 @@
         }
 
         var userLocation = user.location;
+        var userQuests = user.quests;
         if (userLocation === "Furoma Rift") {
           var chargeLevel =
             userQuests["QuestRiftFuroma"]["droid"]["charge_level"];
@@ -447,12 +451,29 @@
       groupSelect.appendChild(new Option(group, group));
     }
 
+    var riftDescription = document.createElement("span");
+    riftDescription.innerHTML = "Rift Bonus<br>None / Walker / Stalker";
+    var noRiftBonus = document.createElement("input");
+    noRiftBonus.setAttribute("type", "radio");
+    noRiftBonus.setAttribute("name", "rift-bonus");
+    noRiftBonus.setAttribute("value", 0);
+    var walkerRiftBonus = document.createElement("input");
+    walkerRiftBonus.setAttribute("type", "radio");
+    walkerRiftBonus.setAttribute("name", "rift-bonus");
+    walkerRiftBonus.setAttribute("value", 1);
+    var stalkerRiftBonus = document.createElement("input");
+    stalkerRiftBonus.setAttribute("type", "radio");
+    stalkerRiftBonus.setAttribute("name", "rift-bonus");
+    stalkerRiftBonus.setAttribute("value", 2);
+    stalkerRiftBonus.setAttribute("checked", "checked");
+
     var goButton = document.createElement("button");
     goButton.textContent = "Go";
     goButton.onclick = function() {
       main(
         $("#mouse-group-select :selected").text(),
-        $("#mouse-subgroup-select :selected").text()
+        $("#mouse-subgroup-select :selected").text(),
+        parseInt($("input[name=rift-bonus]:checked").val())
       );
     };
 
@@ -469,13 +490,20 @@
     mainDiv.appendChild(subgroupSelect);
     mainDiv.appendChild(document.createElement("br"));
     mainDiv.appendChild(document.createElement("br"));
+    mainDiv.appendChild(riftDescription);
+    mainDiv.appendChild(document.createElement("br"));
+    mainDiv.appendChild(noRiftBonus);
+    mainDiv.appendChild(walkerRiftBonus);
+    mainDiv.appendChild(stalkerRiftBonus);
+    mainDiv.appendChild(document.createElement("br"));
+    mainDiv.appendChild(document.createElement("br"));
     mainDiv.appendChild(goButton);
 
     mainDiv.style.backgroundColor = "#F5F5F5";
     mainDiv.style.position = "fixed";
     mainDiv.style.zIndex = "9999";
     mainDiv.style.left = "20%";
-    mainDiv.style.top = "25px";
+    mainDiv.style.top = "88px";
     mainDiv.style.border = "solid 3px #696969";
     mainDiv.style.borderRadius = "20px";
     mainDiv.style.padding = "10px";

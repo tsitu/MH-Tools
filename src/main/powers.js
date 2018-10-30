@@ -208,7 +208,7 @@ function generateResults() {
   const powerType = $("#power-type").val();
   const riftMultiplier = parseInt($("input[name=rift-bonus]:checked").val());
   let resultsHTML =
-    "<caption>Results</caption><thead><tr><th id='precisePower'>Power<br>(Precise)</th><th id='base'>Base</th><th id='weapon'>Weapon</th><th id='charm'>Charm</th><th id='roundedPower'>Power<br>(Rounded)</th></tr></thead><tbody>";
+    "<caption>Results</caption><thead><tr><th id='precisePower'>Power<br>(Precise)</th><th id='base'>Base</th><th id='weapon'>Weapon</th><th id='charm'>Charm</th><th id='roundedPower'>Power<br>(Displayed)</th></tr></thead><tbody>";
 
   // Desired power bounds checks
   let powerMin = parseFloat($("#desired-power-min").val());

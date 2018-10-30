@@ -70,7 +70,7 @@
     td,
     th {
       border: 1px solid rgb(190, 190, 190);
-      padding: 5px 5px;
+      padding: 8px 12px;
     }
 
     th {
@@ -144,10 +144,13 @@
     <a id="bookmarkletloader" href="#">Auto-Loader</a>
     <br><br>
     <div>
-      <div>
-        <!-- Options/Preferences -->
-      </div>
+      <!-- Options/Preferences -->
+      <button id="reset-button">Reset Data</button>
+    </div>
+    <div>
       <table id="mouse-powers" class="tablesorter">
+        <br><a href="#mouse-details">Jump to 'Mouse Details'</a>&nbsp;
+        <a href="#trap-history">Jump to 'Trap History'</a><br>
         <thead></thead>
         <tbody></tbody>
       </table>
@@ -155,6 +158,8 @@
     <br><br>
     <div>
       <table id="mouse-details" class="tablesorter">
+        <br><a href="#mouse-powers">Jump to 'Mouse Powers'</a>&nbsp;
+        <a href="#trap-history">Jump to 'Trap History'</a><br>
         <thead></thead>
         <tbody></tbody>
       </table>
@@ -162,6 +167,8 @@
     <br><br>
     <div>
       <table id="trap-history" class="tablesorter">
+        <br><a href="#mouse-powers">Jump to 'Mouse Powers'</a>&nbsp;
+        <a href="#mouse-details">Jump to 'Mouse Details'</a><br>
         <thead></thead>
         <tbody></tbody>
       </table>
