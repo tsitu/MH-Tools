@@ -52,6 +52,10 @@
       padding-bottom: 10px;
     }
 
+    button {
+      padding: 3px;
+    }
+
     .container {
       margin: 0 auto;
       padding: 20px;
@@ -145,9 +149,44 @@
     <br><br>
     <div>
       <!-- Options/Preferences -->
-      <button id="reset-button">Reset Data</button>
+      <table id="tool-options">
+        <caption>Options</caption>
+        <tbody>
+          <tr>
+            <td>Shown Types</td>
+            <td>
+              <input type="checkbox" class="shown-type" checked="checked" value="Arcane" /> Arcane&nbsp;
+              <input type="checkbox" class="shown-type" checked="checked" value="Draconic" /> Draconic&nbsp;
+              <input type="checkbox" class="shown-type" checked="checked" value="Forgotten" /> Forgotten&nbsp;
+              <input type="checkbox" class="shown-type" checked="checked" value="Hydro" /> Hydro&nbsp;
+              <input type="checkbox" class="shown-type" checked="checked" value="Parental" /> Parental&nbsp;
+              <input type="checkbox" class="shown-type" checked="checked" value="Physical" /> Physical&nbsp;
+              <input type="checkbox" class="shown-type" checked="checked" value="Shadow" /> Shadow&nbsp;
+              <input type="checkbox" class="shown-type" checked="checked" value="Tactical" /> Tactical&nbsp;
+              <input type="checkbox" class="shown-type" checked="checked" value="Law" /> Law&nbsp;
+              <input type="checkbox" class="shown-type" checked="checked" value="Rift" /> Rift
+              <br><br><button id="type-select-all">Select / Deselect All</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Buttons</td>
+            <td>
+              Group: <select id="group-select">
+                <option>Yolodogs</option>
+              </select>&nbsp;
+              Subgroup: <select id="group-select">
+                  <option>Yolodogs</option>
+                </select><br><br>
+              <button id="reset-button">Reset Data</button>
+              <button id="reload-button" style="font-size: 18px"><b>Reload Table</b></button>
+              <button id="save-button">Save Preferences</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div>
+      <!-- Main working table -->
       <table id="mouse-powers" class="tablesorter">
         <br><a href="#mouse-details">Jump to 'Mouse Details'</a>&nbsp;
         <a href="#trap-history">Jump to 'Trap History'</a><br>
@@ -157,6 +196,7 @@
     </div>
     <br><br>
     <div>
+      <!-- Mouse gold/points/link -->
       <table id="mouse-details" class="tablesorter">
         <br><a href="#mouse-powers">Jump to 'Mouse Powers'</a>&nbsp;
         <a href="#trap-history">Jump to 'Trap History'</a><br>
@@ -166,6 +206,7 @@
     </div>
     <br><br>
     <div>
+      <!-- Trap history with powers and timestamps -->
       <table id="trap-history" class="tablesorter">
         <br><a href="#mouse-powers">Jump to 'Mouse Powers'</a>&nbsp;
         <a href="#mouse-details">Jump to 'Mouse Details'</a><br>

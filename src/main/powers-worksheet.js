@@ -11,6 +11,124 @@ const trapTypes = [
   "Rift"
 ];
 
+const subcategories = {
+  "Indigenous Mice": ["Misc.", "Rare Rodents"],
+  "Dock Dwellers": ["Misc."],
+  "Mountain Mice": ["Misc."],
+  "Forest Guild": ["Misc."],
+  "Lab Experiments": ["Misc."],
+  "Shadow Clan": ["Misc."],
+  "Digby Dirt Dwellers": ["Misc."],
+  "Followers of Furoma": ["Misc."],
+  "The Forgotten Mice": ["Misc."],
+  "Aquatic Order": ["Misc."],
+  "The Elub Tribe": ["Misc."],
+  "The Nerg Tribe": ["Misc."],
+  "The Derr Tribe": ["Misc."],
+  "The Dreaded Horde": ["Misc."],
+  "Draconic Brood": ["Misc."],
+  "Balack's Banished": ["Misc."],
+  "Gauntlet Gladiators": [
+    "Tier 1: Puppet",
+    "Tier 2: Thief",
+    "Tier 3: Melee",
+    "Tier 4: Bard",
+    "Tier 5: Magic",
+    "Tier 6: Noble",
+    "Tier 7: Dust",
+    "Tier 8: The Eclipse"
+  ],
+  "Seasonal Soldiers": ["Spring", "Summer", "Fall", "Winter"],
+  "Wizard's Pieces": ["Misc.", "Mystic", "Technic"],
+  "Zurreal's Breed": ["Misc."],
+  "Icewing's Invasion": [
+    "Misc.",
+    "Bergling",
+    "Tunnel Rat",
+    "Brute",
+    "Bomb Squad",
+    "Zealot",
+    "Icewing's Generals"
+  ],
+  "Wild Bunch": ["Misc.", "Crew", "Ringleader"],
+  "Train Robbers": [
+    "Passenger",
+    "Depot Worker",
+    "Automice",
+    "Raider",
+    "Fueler"
+  ],
+  "Meteorite Miners": [
+    "Misc.",
+    "Weremice",
+    "Cosmic Critter",
+    "Special",
+    "Dawn Destroyer"
+  ],
+  "The Marching Flame": [
+    "Archer",
+    "Artillery",
+    "Cavalry",
+    "Mage",
+    "Scout",
+    "Warrior",
+    "Support",
+    "Command"
+  ],
+  "Muridae Market Mice": ["Misc."],
+  "Living Garden Mice": ["Misc."],
+  "Lost City Mice": ["Misc."],
+  "Sand Dunes Mice": ["Misc."],
+  "Queso Canyoneers": ["River Riders", "Spice Mice", "Quarry Quarries"],
+  "Deep Sea Dwellers": [
+    "Sunken City Citizen",
+    "Finned Fiend",
+    "Coral Corral",
+    "Barnacled Bunch",
+    "Scale Society",
+    "Treasure Troop",
+    "Predator Pack"
+  ],
+  "Fungal Fiends": [
+    "Fungal Fodder",
+    "Gruyere Grazer",
+    "Mineral Muncher",
+    "Gemstone Gorger",
+    "Diamond Devourer"
+  ],
+  "Citizens of Zokor": [
+    "Hallway Wanderer",
+    "Fungal Farmer",
+    "Lost Scholar",
+    "Fealty Sworn Soldier",
+    "Tech Engineer",
+    "Treasure Miser",
+    "Hidden Remnant"
+  ],
+  "Moussu Picchu Inhabitants": [
+    "Fungal Feeder",
+    "Potion Brewer",
+    "Wind Wanderer",
+    "Rain Roamer",
+    "Storm Dragon"
+  ],
+  "Rift Walkers": ["Gnawnia Rift", "Burroughs Rift", "Whisker Woods Rift"],
+  "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift"],
+  "The Polluted": ["Misc."],
+  "Event Mice": [
+    "Great Winter Hunt",
+    "Halloween",
+    "Spring Egg Hunt",
+    "New Year",
+    "Misc.",
+    "Prize",
+    "Great Gnawnian Games",
+    "Birthday",
+    "Lunar New Year",
+    "Valentine's"
+  ]
+};
+
 window.onload = function() {
   // Load in Auto-Loader bookmarklet
   loadBookmarkletFromJS(
@@ -19,10 +137,14 @@ window.onload = function() {
     "#bookmarkletloader"
   );
 
+  // Load saved preferences
+
   // Process data from window.name
   if (window.name) {
     loadData(window.name);
   }
+
+  // Populate group dropdowns
 
   // Initialize tablesorter
   $.tablesorter.defaults.sortInitialOrder = "desc";
@@ -156,6 +278,22 @@ window.onload = function() {
       }
       renderTables();
     }
+  });
+
+  $("#type-select-all").click(function() {
+    if ($(".shown-type:checked").length === 10) {
+      $(".shown-type:checkbox").each(function() {
+        $(this).prop("checked", false);
+      });
+    } else {
+      $(".shown-type:checkbox").each(function() {
+        $(this).prop("checked", true);
+      });
+    }
+  });
+
+  $("#reload-button").click(function() {
+    renderTables();
   });
 
   renderTables();
@@ -374,7 +512,7 @@ function processInput(inputText) {
 
   if (Math.abs(user["dom-trap-power"] - calculatedPower) > 1) {
     alert(
-      "One or more of the following went wrong when computing total power:\n\n[1] user.trap_power_bonus was not accurately passed in - try refreshing your Camp page\n[2] Unhandled special location/stage/charm effects - please try again"
+      "One or more of the following went wrong when computing total power:\n\n[1] user.trap_power_bonus was not accurately passed in - if you're on the Camp page, try clicking 'Daily', 'Quests', or any of the 5 item togglers underneath your trap image\n[2] Unhandled special location/stage/weapon/base/charm effects - please try again"
     );
     return;
   }
@@ -424,23 +562,65 @@ function processInput(inputText) {
   }
 }
 
+function renderMousePowers(mouseData) {
+  // Array of power types to show
+  const powersArr = [];
+  $(".shown-type:checked").each(function() {
+    powersArr.push($(this).val());
+  });
+
+  let powersHTML =
+    "<caption>Mouse Powers</caption><thead><tr><th id='powers-group'>Group</th><th id='powers-mouse'>Mouse</th>";
+
+  for (let type of powersArr) {
+    powersHTML += `<th colspan='3'>${type}</th>`;
+  }
+  powersHTML += "</tr><tr><td>sort</td><td>sort</td>";
+  for (let i = 0; i < powersArr.length; i++) {
+    powersHTML += "<td>eff</td><td>min</td><td>max</td>";
+  }
+  powersHTML += "</tr></thead><tbody>";
+
+  for (let group in mouseData) {
+    for (let mouse in mouseData[group]) {
+      const data = mouseData[group][mouse];
+      const gString = group.slice(0, group.indexOf("(") - 1);
+      const sString = group.slice(group.indexOf("("), group.length);
+      powersHTML += `<tr><td>${gString}<br>${sString}</td><td>${mouse}</td>`;
+      for (let type of powersArr) {
+        const i = trapTypes.indexOf(type);
+        const eff = data["effs"][i][0] ? data["effs"][i][0] : data["effs"][i];
+        const lowerBound = data["effs"][i][1] ? data["effs"][i][1] : 0;
+        const upperBound = data["effs"][i][2] ? data["effs"][i][2] : "∞";
+        powersHTML += `<td>${eff}%</td><td>${lowerBound}</td><td>${upperBound}</td>`;
+      }
+      powersHTML += "</tr>";
+    }
+  }
+
+  powersHTML += "</tbody>";
+  document.getElementById("mouse-powers").innerHTML = powersHTML;
+  $("#mouse-powers").trigger("updateAll", [
+    true,
+    (callback = function() {
+      const header = $("#powers-group");
+      if (header.hasClass("tablesorter-headerUnSorted")) {
+        header.click();
+        header.click();
+      }
+    })
+  ]);
+}
+
 function renderTables() {
   let storedData = localStorage.getItem("powers-tool-worksheet-data");
   if (storedData) {
     storedData = JSON.parse(storedData);
-
-    // Mouse Details and Mouse Power Stuff
     const mouseData = storedData["mouse-data"];
+    renderMousePowers(mouseData);
+
     let detailsHTML =
       "<caption>Mouse Details</caption><thead><tr><th id='details-group'>Group</th><th id='details-mouse'>Mouse</th><th id='details-gold'>Gold</th><th id='details-points'>Points</th><th id='details-id'>ID</th></tr></thead><tbody>";
-
-    let powersHTML =
-      "<caption>Mouse Powers</caption><thead><tr><th id='powers-group'>Group</th><th id='powers-mouse'>Mouse</th><th colspan='3'>Arcane</th><th colspan='3'>Draconic</th><th colspan='3'>Forgotten</th><th colspan='3'>Hydro</th><th colspan='3'>Parental</th><th colspan='3'>Physical</th><th colspan='3'>Shadow</th><th colspan='3'>Tactical</th><th colspan='3'>Law</th><th colspan='3'>Rift</th></tr>";
-    powersHTML += "<tr><td>sort</td><td>sort</td>";
-    for (let i = 0; i < 10; i++) {
-      powersHTML += "<td>eff</td><td>min</td><td>max</td>";
-    }
-    powersHTML += "</tr></thead><tbody>";
 
     for (let group in mouseData) {
       for (let mouse in mouseData[group]) {
@@ -452,32 +632,8 @@ function renderTables() {
         detailsHTML += `<tr><td>${group}</td><td>${mouse}</td><td>${
           data["gold"]
         }</td><td>${data["points"]}</td><td>${url}</td></tr>`;
-
-        const gString = group.slice(0, group.indexOf("(") - 1);
-        const sString = group.slice(group.indexOf("("), group.length);
-        powersHTML += `<tr><td>${gString}<br>${sString}</td><td>${mouse}</td>`;
-        for (let i = 0; i < 10; i++) {
-          const eff = data["effs"][i][0] ? data["effs"][i][0] : data["effs"][i];
-          const lowerBound = data["effs"][i][1] ? data["effs"][i][1] : 0;
-          const upperBound = data["effs"][i][2] ? data["effs"][i][2] : "∞";
-          powersHTML += `<td>${eff}%</td><td>${lowerBound}</td><td>${upperBound}</td>`;
-        }
-        powersHTML += "</tr>";
       }
     }
-
-    powersHTML += "</tbody>";
-    document.getElementById("mouse-powers").innerHTML = powersHTML;
-    $("#mouse-powers").trigger("updateAll", [
-      true,
-      (callback = function() {
-        const header = $("#powers-group");
-        if (header.hasClass("tablesorter-headerUnSorted")) {
-          header.click();
-          header.click();
-        }
-      })
-    ]);
 
     detailsHTML += "</tbody>";
     document.getElementById("mouse-details").innerHTML = detailsHTML;
