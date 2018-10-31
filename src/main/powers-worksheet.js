@@ -138,6 +138,19 @@ window.onload = function() {
   );
 
   // Load saved preferences
+  const prefString = localStorage.getItem("powers-worksheet-prefs");
+  if (prefString) {
+    const prefs = JSON.parse(prefString);
+    $(".shown-type:checkbox").each(function() {
+      if (prefs["types"].indexOf($(this).val()) > -1) {
+        $(this).prop("checked", true);
+      } else {
+        $(this).prop("checked", false);
+      }
+    });
+    $("#group-select").val(prefs["group"]);
+    $("#subgroup-select").val(prefs["subgroup"]);
+  }
 
   // Process data from window.name
   if (window.name) {
@@ -294,6 +307,21 @@ window.onload = function() {
 
   $("#reload-button").click(function() {
     renderTables();
+  });
+
+  $("#save-button").click(function() {
+    const saveObj = {};
+    saveObj["types"] = [];
+    $(".shown-type:checked").each(function() {
+      saveObj["types"].push($(this).val());
+    });
+    saveObj["group"] = $("#group-select")
+      .find(":selected")
+      .text();
+    saveObj["subgroup"] = $("#subgroup-select")
+      .find(":selected")
+      .text();
+    localStorage.setItem("powers-worksheet-prefs", JSON.stringify(saveObj));
   });
 
   renderTables();

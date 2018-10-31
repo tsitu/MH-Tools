@@ -39,7 +39,7 @@ Several tools make use of mottie's [tablesorter](https://mottie.github.io/tables
 
 We recommend installing Jack's extension ([Chrome](https://chrome.google.com/webstore/detail/jacks-mousehunt-helper/ghfmjkamilolkalibpmokjigalmncfek), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/jacks-mousehunt-helper/)) if you have not already. It records valuable information from **active hunts** only. Most of the data in support of recent updates has been sourced from Jack's [publicly accessible database backups](https://keybase.pub/devjacksmith/mh_backups/). With your help, we will be able to implement new areas and features sooner with higher accuracy! :rocket:
 
-*Note:* Newer tools, such as Crafting Wizard and Trap Setup Powers, may be incompatible with outdated or feature-constrained browsers such as Internet Explorer, Opera Mini, and Blackberry Browser.
+*Note:* Newer tools like 'Crafting Wizard' and 'Trap Setup Powers' may be incompatible with outdated or feature-constrained browsers such as Internet Explorer, Opera Mini, Samsung Internet, and Blackberry Browser.
 
 ### :bookmark: Bookmarklets
 
