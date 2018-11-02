@@ -617,9 +617,21 @@ function renderMousePowers(mouseData) {
       powersHTML += `<tr><td>${gString}<br>${sString}</td><td>${mouse}</td>`;
       for (let type of powersArr) {
         const i = trapTypes.indexOf(type);
-        const eff = data["effs"][i][0] ? data["effs"][i][0] : data["effs"][i];
-        const lowerBound = data["effs"][i][1] ? data["effs"][i][1] : 0;
-        const upperBound = data["effs"][i][2] ? data["effs"][i][2] : "∞";
+        const eff =
+          typeof data["effs"][i] === "object" &&
+          data["effs"][i][0] !== undefined
+            ? data["effs"][i][0]
+            : data["effs"][i];
+        const lowerBound =
+          typeof data["effs"][i] === "object" &&
+          data["effs"][i][1] !== undefined
+            ? data["effs"][i][1]
+            : 0;
+        const upperBound =
+          typeof data["effs"][i] === "object" &&
+          data["effs"][i][2] !== undefined
+            ? data["effs"][i][2]
+            : "∞";
         powersHTML += `<td>${eff}%</td><td>${lowerBound}</td><td>${upperBound}</td>`;
       }
       powersHTML += "</tr>";

@@ -223,7 +223,7 @@
         outputObj["user-data"]["rift-multiplier"] = riftMultiplier;
 
         outputObj["user-data"]["empowered"] = false;
-        if (user.bait_name.indexOf("Empowered") > -1) {
+        if (user.bait_name && user.bait_name.indexOf("Empowered") > -1) {
           outputObj["user-data"]["empowered"] = true;
         }
 
@@ -362,7 +362,7 @@
         }
 
         console.groupEnd();
-        var newWindow = window.open("");
+        var newWindow = window.open("", "mhworksheet");
         // newWindow.location = "https://tsitu.github.io/MH-Tools/powers-worksheet.html";
         newWindow.location = "http://localhost:8000/powers-worksheet.html";
         // 200 IQ method to transfer stringified data across origins
