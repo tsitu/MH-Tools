@@ -153,7 +153,7 @@
         <caption>Options</caption>
         <tbody>
           <tr>
-            <td>Shown Types</td>
+            <td>Shown Types:</td>
             <td>
               <input type="checkbox" class="shown-type" checked="checked" value="Arcane" /> Arcane&nbsp;
               <input type="checkbox" class="shown-type" checked="checked" value="Draconic" /> Draconic&nbsp;
@@ -169,14 +169,20 @@
             </td>
           </tr>
           <tr>
-            <td>Buttons</td>
+            <td>Filters</td>
             <td>
               Group: <select id="group-select">
-                <option>Yolodogs</option>
+                <option value="All" selected="true">All</option>
               </select>&nbsp;
               Subgroup: <select id="subgroup-select">
-                  <option>Yolodogs</option>
-                </select><br><br>
+                <option value="All" selected="true">All</option>
+              </select><br><br>
+              Mouse Name: <input type="text" id="mouse-filter">
+            </td>
+          </tr>
+          <tr>
+            <td>Buttons</td>
+            <td>
               <button id="reset-button">Reset Data</button>
               <button id="reload-button" style="font-size: 18px"><b>Reload Table</b></button>
               <button id="save-button">Save Preferences</button>

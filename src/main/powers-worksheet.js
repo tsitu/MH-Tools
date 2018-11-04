@@ -137,6 +137,27 @@ window.onload = function() {
     "#bookmarkletloader"
   );
 
+  // Populate group dropdowns
+  for (cat in subcategories) {
+    $("#group-select").append($("<option>", { value: cat, text: cat }));
+  }
+
+  $("#group-select").change(function() {
+    var selectedGroup = $("#group-select :selected").text();
+    var subgroupz = subcategories[selectedGroup];
+    var subgroupSelect = document.getElementById("subgroup-select");
+    if (subgroupSelect) {
+      subgroupSelect.innerHTML = "";
+      subgroupSelect.appendChild(new Option("All", "All"));
+      if (subgroupz) {
+        for (var i = 0; i < subgroupz.length; i++) {
+          var group = subgroupz[i];
+          subgroupSelect.appendChild(new Option(group, group));
+        }
+      }
+    }
+  });
+
   // Load saved preferences
   const prefString = localStorage.getItem("powers-worksheet-prefs");
   if (prefString) {
@@ -149,15 +170,15 @@ window.onload = function() {
       }
     });
     $("#group-select").val(prefs["group"]);
+    $("#group-select").change();
     $("#subgroup-select").val(prefs["subgroup"]);
+    $("#mouse-filter").val(prefs["mouse"]);
   }
 
   // Process data from window.name
   if (window.name) {
     loadData(window.name);
   }
-
-  // Populate group dropdowns
 
   // Initialize tablesorter
   $.tablesorter.defaults.sortInitialOrder = "desc";
@@ -321,6 +342,7 @@ window.onload = function() {
     saveObj["subgroup"] = $("#subgroup-select")
       .find(":selected")
       .text();
+    saveObj["mouse"] = $("#mouse-filter").val();
     localStorage.setItem("powers-worksheet-prefs", JSON.stringify(saveObj));
   });
 
@@ -598,18 +620,35 @@ function renderMousePowers(mouseData) {
   });
 
   let powersHTML =
-    "<caption>Mouse Powers</caption><thead><tr><th id='powers-group'>Group</th><th id='powers-mouse'>Mouse</th>";
+    "<caption>Mouse Powers</caption><thead><tr><th>Group</th><th>Mouse</th>";
 
   for (let type of powersArr) {
     powersHTML += `<th colspan='3'>${type}</th>`;
   }
-  powersHTML += "</tr><tr><td>sort</td><td>sort</td>";
+  powersHTML +=
+    "</tr><tr><td id='powers-group'>sort</td><td id='powers-mouse'>sort</td>";
   for (let i = 0; i < powersArr.length; i++) {
     powersHTML += "<td>eff</td><td>min</td><td>max</td>";
   }
   powersHTML += "</tr></thead><tbody>";
 
+  // Preferred group/mouse logic
   for (let group in mouseData) {
+    const groupSelect = $("#group-select")
+      .find(":selected")
+      .text();
+    const subSelect = $("#subgroup-select")
+      .find(":selected")
+      .text();
+
+    // Skip group if criteria not met
+    if (groupSelect !== "All" && group.indexOf(groupSelect) < 0) {
+      continue;
+    }
+    if (subSelect !== "All" && group.indexOf(`(${subSelect})`) < 0) {
+      continue;
+    }
+
     for (let mouse in mouseData[group]) {
       const data = mouseData[group][mouse];
       const gString = group.slice(0, group.indexOf("(") - 1);
@@ -643,13 +682,24 @@ function renderMousePowers(mouseData) {
   $("#mouse-powers").trigger("updateAll", [
     true,
     (callback = function() {
-      const header = $("#powers-group");
-      if (header.hasClass("tablesorter-headerUnSorted")) {
+      const header = $("#powers-mouse");
+      if (header.hasClass("tablesorter-headerDesc")) {
+        header.click();
+      } else if (header.hasClass("tablesorter-headerUnSorted")) {
         header.click();
         header.click();
       }
     })
   ]);
+
+  $.tablesorter.setFilters(
+    $("#mouse-powers"),
+    ["", $("#mouse-filter").val()],
+    true
+  );
+
+  // Unsure why it doesn't filter without this
+  $("#mouse-powers").trigger("search", true);
 }
 
 function renderTables() {
@@ -681,7 +731,9 @@ function renderTables() {
       true,
       (callback = function() {
         const header = $("#details-group");
-        if (header.hasClass("tablesorter-headerUnSorted")) {
+        if (header.hasClass("tablesorter-headerDesc")) {
+          header.click();
+        } else if (header.hasClass("tablesorter-headerUnSorted")) {
           header.click();
           header.click();
         }
@@ -693,23 +745,14 @@ function renderTables() {
 
     trapHTML =
       "<caption>Trap History</caption><thead><tr><th id='history-date'>Date</th><th id='history-type'>Type</th><th id='history-precise-power'>Power<br>(Precise)</th><th id='history-displayed-power'>Power<br>(Displayed)</th></tr></thead><tbody>";
-    for (let setup of trapHistory) {
+    for (let setup of trapHistory.reverse()) {
       trapHTML += `<tr><td>${new Date(setup[2])}</td><td>${setup[0]}</td><td>${
         setup[1]
       }</td><td>${setup[3]}</td></tr>`;
     }
     trapHTML += "</tbody>";
     document.getElementById("trap-history").innerHTML = trapHTML;
-    $("#trap-history").trigger("updateAll", [
-      true,
-      (callback = function() {
-        const header = $("#history-date");
-        if (header.hasClass("tablesorter-headerUnSorted")) {
-          // header.click();
-          header.click();
-        }
-      })
-    ]);
+    $("#trap-history").trigger("updateAll");
   } else {
     // Emptiness
     document.getElementById("mouse-powers").innerHTML = "";
