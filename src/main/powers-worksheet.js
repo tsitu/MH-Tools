@@ -180,7 +180,7 @@ window.onload = function() {
   }
 
   // Process data from window.name
-  if (window.name) {
+  if (window.name && window.name !== "mhworksheet") {
     loadData(window.name);
   }
 
@@ -360,7 +360,6 @@ window.onload = function() {
 function loadData(inputText) {
   try {
     if (validateJsonData(JSON.parse(inputText))) {
-      // console.log(JSON.parse(inputText));
       processInput(inputText);
       window.name = "mhworksheet"; // Reset name after capturing data
     } else {
@@ -599,7 +598,6 @@ function processInput(inputText) {
       "powers-tool-worksheet-data",
       JSON.stringify(storedObj)
     );
-    renderTables();
   } else {
     // Initial insertion into storage
     incomingObj["trap-history"] = [];
@@ -700,10 +698,8 @@ function renderMousePowers(mouseData) {
   $.tablesorter.setFilters(
     $("#mouse-powers"),
     ["", $("#mouse-filter").val()],
-    false
+    true
   );
-
-  // Unsure why it doesn't filter without this
   $("#mouse-powers").trigger("search", true);
 }
 
