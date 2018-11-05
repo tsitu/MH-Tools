@@ -6,6 +6,7 @@ var CRE_BOOKMARKLET_URL = "src/bookmarklet/crebookmarklet.min.js";
 var MAP_BOOKMARKLET_URL = "src/bookmarklet/mapbookmarklet.min.js";
 var CROWN_BOOKMARKLET_URL = "src/bookmarklet/crownbookmarklet.min.js";
 var CRAFTING_BOOKMARKLET_URL = "src/bookmarklet/craftingbookmarklet.min.js";
+var POWERS_BOOKMARKLET_URL = "src/bookmarklet/powersbookmarklet.min.js";
 var BOOKMARKLET_LOADER_URL = "src/bookmarklet/bookmarkletloader.min.js";
 
 /**
@@ -58,6 +59,9 @@ function loadBookmarkletFromJS(url, storageKey, linkSelector) {
             break;
           case "craftingBookmarklet":
             alertString = "The Crafting Wizard ";
+            break;
+          case "powersBookmarklet":
+            alertString = "The Powers Worksheet ";
             break;
         }
         alertString +=

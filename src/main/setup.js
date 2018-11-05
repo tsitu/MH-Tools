@@ -120,10 +120,12 @@ $(window).load(function() {
         localStorage.setItem("best-setup-items", JSON.stringify(storageObj));
         window.name = ""; // Reset name after capturing data
       } else {
-        console.log("window.name not properly formatted for Best Setup usage");
+        console.error(
+          "window.name not properly formatted for Best Setup usage"
+        );
       }
     } catch (e) {
-      console.log("(Error in window.name) - " + e);
+      console.error("(Error in window.name) - " + e.stack);
     }
     // called after try...catch
     checkStorage();

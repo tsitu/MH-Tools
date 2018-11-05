@@ -130,11 +130,15 @@ const subcategories = {
 };
 
 window.onload = function() {
-  // Load in Auto-Loader bookmarklet
   loadBookmarkletFromJS(
     BOOKMARKLET_LOADER_URL,
     "bookmarkletLoader",
     "#bookmarkletloader"
+  );
+  loadBookmarkletFromJS(
+    POWERS_BOOKMARKLET_URL,
+    "powersBookmarklet",
+    "#bookmarklet"
   );
 
   // Populate group dropdowns
@@ -358,12 +362,12 @@ function loadData(inputText) {
     if (validateJsonData(JSON.parse(inputText))) {
       // console.log(JSON.parse(inputText));
       processInput(inputText);
-      window.name = ""; // Reset name after capturing data
+      window.name = "mhworksheet"; // Reset name after capturing data
     } else {
       throw new TypeError("JSON format invalid or corrupted");
     }
   } catch (e) {
-    console.log(`(Error in window.name) - ${e}`);
+    console.error(`(Error in window.name) - ${e.stack}`);
   }
 }
 
@@ -464,7 +468,8 @@ function mouseDataDiff(input, stored) {
                 if (
                   typeof inputArr === "object" &&
                   inputArr.length === 3 &&
-                  typeof storedArr === "number"
+                  (typeof storedArr === "number" ||
+                    typeof storedArr === "string")
                 ) {
                   storedArr = inputArr; // Input data is new
                 } else if (
@@ -695,7 +700,7 @@ function renderMousePowers(mouseData) {
   $.tablesorter.setFilters(
     $("#mouse-powers"),
     ["", $("#mouse-filter").val()],
-    true
+    false
   );
 
   // Unsure why it doesn't filter without this

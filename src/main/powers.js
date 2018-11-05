@@ -22,11 +22,15 @@ const battery = {
 };
 
 window.onload = function() {
-  // Load in Auto-Loader bookmarklet
   loadBookmarkletFromJS(
     BOOKMARKLET_LOADER_URL,
     "bookmarkletLoader",
     "#bookmarkletloader"
+  );
+  loadBookmarkletFromJS(
+    POWERS_BOOKMARKLET_URL,
+    "powersBookmarklet",
+    "#bookmarklet"
   );
 
   // Process best-setup-items

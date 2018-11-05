@@ -77,7 +77,7 @@ window.onload = function() {
           showInventory();
         }
       } catch (e) {
-        console.log("(Error in localStorage parsing) - " + e);
+        console.error(`(Error in localStorage parsing) - ${e.stack}`);
       }
     }
   });
@@ -117,7 +117,7 @@ function loadInventory(inputText) {
       throw new TypeError("JSON format invalid or corrupted");
     }
   } catch (e) {
-    console.log(`(Error in window.name) - ${e}`);
+    console.error(`(Error in window.name) - ${e.stack}`);
   }
 }
 

@@ -121,7 +121,7 @@ function initPageLoad(toolType) {
       document.getElementById("map").value = textareaInput;
       processMap(textareaInput, toolType);
     } catch (e) {
-      console.log(e);
+      console.error(e.stack);
     }
     window.name = ""; // Reset name after capturing data
   }
