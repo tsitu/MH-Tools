@@ -1,28 +1,46 @@
 {
   "name": "mh-tools",
   "version": "1.0.0",
-  "description": "Assorted Mousehunt Tools",
+  "description": "Assortment of MouseHunt utilities",
   "scripts": {
-    "update:population:iceberg": "node tools/icebergpop.js > data/pop-iceberg.csv",
-    "update:population": "npm-run-all update:population:*",
+    "\n-- POPULATION DATA --": "",
+    "old-pop:iceberg": "node data/tools/pop iceberg > data/pop-iceberg.csv",
+    "!pop:burroughs": "node data/tools/pop burroughs-rift > data/location-pop/burroughs-rift.csv",
+    "!pop:bristle": "node data/tools/pop bristle-woods-rift > data/location-pop/bristle-woods-rift.csv",
+    "pop:cantera": "node data/tools/pop cantera-quarry > data/location-pop/cantera-quarry.csv",
+    "pop:forbidden": "node data/tools/pop forbidden-grove > data/location-pop/forbidden-grove.csv",
+    "pop:fort": "node data/tools/pop fort-rox > data/location-pop/fort-rox.csv",
+    "pop:furoma": "node data/tools/pop furoma-rift > data/location-pop/furoma-rift.csv",
+    "!pop:ges": "node data/tools/pop ges > data/location-pop/ges.csv",
+    "!pop:labyrinth": "node data/tools/pop labyrinth > data/location-pop/labyrinth.csv",
+    "pop:living": "node data/tools/pop living-garden > data/location-pop/living-garden.csv",
+    "!pop:mopi": "node data/tools/pop moussu-picchu > data/location-pop/moussu-picchu.csv",
+    "pop:prickly": "node data/tools/pop prickly-plains > data/location-pop/prickly-plains.csv",
+    "pop:queso": "node data/tools/pop queso-river > data/location-pop/queso-river.csv",
+    "pop:toxic": "node data/tools/pop toxic-spill > data/location-pop/toxic-spill.csv",
+    "!pop:warpath": "node data/tools/pop warpath > data/location-pop/fiery-warpath.csv",
+    "pop": "npm-run-all --parallel pop:*",
+    "\n-- MINIFICATION --": "",
     "minify:bookmarklet": "uglifyjs-folder src/bookmarklet -eo src/bookmarklet -p **/*.js,!**/*min.js",
     "minify:main": "uglifyjs-folder src/main -eo src/main/min -p **/*.js,!**/*min.js",
     "minify:utils": "uglifyjs-folder src/utils -eo src/utils/min -p **/*.js,!**/*min.js",
     "minify": "npm-run-all --parallel minify:*",
-    "population": "node build/process-population.js",
+    "\n-- BUILD --": "",
     "puppeteer": "npm i -S puppeteer",
-    "sample": "node build/process-sample-size.js",
     "timestamp": "node build/process-timestamp.js",
-    "mousedata": "node build/process-mouse-data.js",
-    "serve": "http-server -p 8000",
-    "build": "npm-run-all --parallel minify:bookmarklet population mousedata"
+    "sample": "node build/process-sample-size.js",
+    "mouse-data": "node build/process-mouse-data.js",
+    "population": "node build/process-population.js",
+    "build": "npm-run-all --parallel minify:bookmarklet mouse-data population",
+    "\n-- MISC --": "",
+    "serve": "http-server -p 8000"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tsitu/MH-Tools.git"
   },
   "keywords": [
-    "Mouse Hunt"
+    "MouseHunt"
   ],
   "bugs": {
     "url": "https://github.com/tsitu/MH-Tools/issues"

@@ -2,6 +2,7 @@ mouse,wisdom
 Abominable Snow,1000
 Absolute Acolyte,90000
 Acolyte,3185
+Admiral Arrrgh,7000
 Aether,8400
 Aged,691
 Agitated Gentle Giant,5010
@@ -123,9 +124,11 @@ Cloud Collector,6300
 Clownfish,7176
 Clump,7300
 Clumsy Carrier,4496
-Coal Shoveler,900
+Clumsy Chemist,0
+Coal Shoveller,900
 Cobweb,75
 Coco Commander,1035
+Coffin Zombie,0
 Confused Courier,135
 Conjurer,688
 Conqueror,756
@@ -335,7 +338,7 @@ Glacia Ice Fist,1485
 Gladiator,837
 Glass Blower,2700
 Glitchpaw,120
-Gluttonous Zombie,350
+Gluttonous Zombie,225
 Goblin,350
 Gold,60
 Goldleaf,900
@@ -469,6 +472,7 @@ Matron of Machinery,18000
 Matron of Wealth,16400
 Mecha Tail,8000
 Medicine,5000
+Menace of the Rift,10000
 Mermouse,240
 Mermousette,5432
 Mershark,5760
@@ -522,6 +526,7 @@ Mutant Ninja,13200
 Mutated Behemoth,30000
 Mutated Brown,88
 Mutated Grey,50
+Mutated Mole,0
 Mutated Siblings,800
 Mutated White,38
 Mysterious Traveller,300
@@ -618,7 +623,7 @@ Pumpkin Hoarder,270
 Puppet Master,30
 Pygmy Wrangler,1300
 Pyrite,1000
-Queen Quesada,0
+Queen Quesada,90000
 Queso Extractor,1201
 Quesodillo,2400
 Quillback,6200
@@ -630,7 +635,7 @@ Rainbow Racer,4268
 Rainmancer,12000
 Rainwater Purifier,4800
 Rancid Bog Beast,10000
-Ravenous Zombie,540
+Ravenous Zombie,475
 Raw Diamond,12000
 Reality Restitch,1200
 Realm Ripper,450
@@ -725,6 +730,7 @@ Sleepy Merchant,3750
 Slimefist,22000
 Slope Swimmer,550
 Sludge,900
+Sludge Scientist,0
 Sludge Soaker,7000
 Sludge Swimmer,24000
 Snake Charmer,630
@@ -781,6 +787,7 @@ Spring Sprig,800
 Sprinkly Sweet Cupcake Cook,650
 Spud,50
 Squeaken,553
+Squeaker Bot,0
 Squeaker Claws,4268
 Stagecoach Driver,1650
 Stalagmite,12500
@@ -842,7 +849,6 @@ Terra,420
 Terrible Twos,80
 Terror Knight,840
 The Menace,25000
-Menace of the Rift,10000
 Theurgy Warden,15000
 Thirsty,150
 Thistle,1400
@@ -943,7 +949,7 @@ Wreath Thief,3800
 Yeti,1475
 Young Prodigy Racer,750
 Zephyr,590
-Zombie,270
+Zombie,310
 Zombot Unipire,263
 Zombot Unipire the Third,6500
 Zurreal the Eternal,11850

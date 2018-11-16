@@ -27,6 +27,7 @@ Feel free to post your questions, comments, or concerns there (or [here](https:/
   - [CRE Tabs](#bookmark_tabs-cre-tabs)
 - [Developers](#developers)
   - [Build and Run](#construction_worker-build-and-run)
+  - [Populations](#clipboard-populations)
   - [Coding Style](#barber-coding-style)
 - [Miscellaneous](#miscellaneous)
   - [Useful Links](#arrow_down-useful-links)
@@ -275,6 +276,10 @@ Keyboard Shortcut | Description
 1. Build required wisdom/population JSON and minified JS files locally using `npm run build`
 
 1. Serve the tools for local testing using `npm run serve`, which spins up an instance of [http-server](https://www.npmjs.com/package/http-server) on port 8000
+
+### :clipboard: Populations
+
+To update population data, download a copy of Jack's most recent database dump from [Keybase](https://keybase.pub/devjacksmith/mh_backups/nightly/) (refresh the page if it says 'Not found'). Then, import the data into your SQL client of choice (takes around an hour on MySQL Workbench 8.0 with MySQL Server 5.7.24 on Windows 10). Finally, use commands such as `npm run pop:queso` (full list in `package.json`) to write updated populations to CSV files in `data/location-pop`, or use `npm run pop` to fetch them all simultaneously.
 
 ### :barber: Coding Style
 
