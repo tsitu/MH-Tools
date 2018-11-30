@@ -8,6 +8,8 @@
     "data/location-pop/furoma-rift.csv",
     "data/location-pop/iceberg.csv",
     "data/location-pop/living-garden.csv",
+    "data/location-pop/laboratory.csv",
+    "data/location-pop/mousoleum.csv",
     "data/location-pop/moussu-picchu.csv",
     "data/location-pop/prickly-plains.csv",
     "data/location-pop/queso-river.csv",
