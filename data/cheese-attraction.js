@@ -22,6 +22,7 @@ var baselineAttArray = {
   "Combat": 0.9900, // Guesstimate | Calculated: 0.9835, Sample: 1483 (High)
   "Creamy Havarti": 0.9850, // Guesstimate | Calculated: 0.9817, Sample: 193 (Low)
   "Crescent": 0.8879, // Sample: 35835 (Excellent)
+  "Crimson": 0.8878, // Sample: 1518 (High) as of 11-29-18 dump
   "Crunchy": 0.9850, // Guesstimate | Calculated: 0.9879, Sample: 4200 (High)
   "Crunchy Havarti": 0.9850, // Guesstimate | Calculated: 0.9795, Sample: 233 (Low)
   "Dewthief Camembert": 0.9296, // Sample: 9458 (High)
