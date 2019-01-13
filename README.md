@@ -1,4 +1,5 @@
-# :mouse: [MH Tools](https://tsitu.github.io/MH-Tools/) &middot; [![Build Status](https://travis-ci.org/tsitu/MH-Tools.svg?branch=master)](https://travis-ci.org/tsitu/MH-Tools) [![](https://data.jsdelivr.com/v1/package/gh/tsitu/MH-Tools/badge)](https://www.jsdelivr.com/package/gh/tsitu/MH-Tools)
+# :mouse: [MH Tools](https://tsitu.github.io/MH-Tools/) &middot; [![Build Status](https://travis-ci.org/tsitu/MH-Tools.svg?branch=master)](https://travis-ci.org/tsitu/MH-Tools) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftsitu%2FMH-Tools.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftsitu%2FMH-Tools?ref=badge_shield)
+[![](https://data.jsdelivr.com/v1/package/gh/tsitu/MH-Tools/badge)](https://www.jsdelivr.com/package/gh/tsitu/MH-Tools)
 
 Suite of JavaScript tools for the browser game [MouseHunt](https://www.mousehuntgame.com/).
 
@@ -310,3 +311,7 @@ We use ESLint ([`config-airbnb-base`](https://www.npmjs.com/package/eslint-confi
 - [Start Bootstrap](https://github.com/davidtmiller) for the index.html theme
 
 <div align="right"><a href="#book-table-of-contents">Top</a></div>
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ftsitu%2FMH-Tools.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ftsitu%2FMH-Tools?ref=badge_large)
