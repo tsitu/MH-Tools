@@ -31,7 +31,7 @@
     el.onload = function() {
       el.remove();
     };
-  });
+  };
 
   function getLatestSHA() {
     // Fetch latest gh-pages commit SHA to use with jsDelivr CDN since it caches URLs permanently
