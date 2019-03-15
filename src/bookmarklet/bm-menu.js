@@ -1,28 +1,37 @@
 (function() {
   var sha = localStorage.getItem("tsitu-latest-sha");
-  if (sha && sha !== 0) {
-    var jsonTimestamp = new Promise(function(resolve, reject) {
+  var localDirUrl = localStorage.getItem("tsitu-local-dir-url");
+
+  var jsonTimestamp = new Promise(function(resolve, reject) {
+    if (sha && sha !== 0) {
       var cdn =
         "https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@" +
         sha +
-        "/data/json/bookmarklet-timestamps.json";
-      var xhr = new XMLHttpRequest();
-      xhr.open("GET", cdn);
-      xhr.onload = function() {
-        resolve(xhr.responseText);
-      };
-      xhr.onerror = function() {
-        reject(xhr.statusText);
-      };
-      xhr.send();
-    });
+        "/data/json/";
+    } else if (localDirUrl) {
+      var cdn = localDirUrl;
+    } else {
+      return;
+    }
+    
+    cdn += "bookmarklet-timestamps.json";
 
-    jsonTimestamp.then(function(response) {
-      // Use cached SHA to eliminate excessive requests in loadBookmarklet()
-      // Must reload/refresh to get individually updated bookmarklet versions
-      buildUI(JSON.parse(response), sha);
-    });
-  }
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", cdn);
+    xhr.onload = function() {
+      resolve(xhr.responseText);
+    };
+    xhr.onerror = function() {
+      reject(xhr.statusText);
+    };
+    xhr.send();
+  });
+
+  jsonTimestamp.then(function(response) {
+    // Use cached SHA to eliminate excessive requests in loadBookmarklet()
+    // Must reload/refresh to get individually updated bookmarklet versions
+    buildUI(JSON.parse(response), sha);
+  });
 
   function buildUI(timestamps, sha) {
     var mainDiv = document.createElement("div");
@@ -214,12 +223,19 @@
 
     function loadBookmarklet(type) {
       var el = document.createElement("script");
-      var cdn =
-        "https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@" +
-        sha +
-        "/src/bookmarklet/bm-" +
+      if (localDirUrl) {
+        cdn = localDirUrl;
+      } else {
+        var cdn =
+          "https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@" +
+          sha +
+          "/src/bookmarklet/";
+      }
+      cdn +=
+        "bm-" +
         type +
         ".min.js";
+
       el.src = cdn;
       document.body.appendChild(el);
       el.onload = function() {
