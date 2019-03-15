@@ -224,7 +224,7 @@
     function loadBookmarklet(type) {
       var el = document.createElement("script");
       if (localDirUrl) {
-        cdn = localDirUrl;
+        var cdn = localDirUrl;
       } else {
         var cdn =
           "https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@" +
