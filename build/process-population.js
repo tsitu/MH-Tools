@@ -7,6 +7,7 @@
     "data/pop-csv/fiery-warpath.csv",
     "data/pop-csv/forbidden-grove.csv",
     "data/pop-csv/fort-rox.csv",
+    "data/pop-csv/fungal-cavern.csv",
     "data/pop-csv/furoma-rift.csv",
     "data/pop-csv/iceberg.csv",
     "data/pop-csv/laboratory.csv",

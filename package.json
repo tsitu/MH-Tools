@@ -10,6 +10,7 @@
     "pop:cantera": "node data/pop cantera-quarry > data/pop-csv/cantera-quarry.csv",
     "pop:forbidden": "node data/pop forbidden-grove > data/pop-csv/forbidden-grove.csv",
     "pop:fort": "node data/pop fort-rox > data/pop-csv/fort-rox.csv",
+    "pop:fungal": "node data/pop fungal-cavern > data/pop-csv/fungal-cavern.csv",
     "pop:furoma": "node data/pop furoma-rift > data/pop-csv/furoma-rift.csv",
     "!pop:ges": "node data/pop ges > data/pop-csv/ges.csv",
     "pop:lab": "node data/pop laboratory > data/pop-csv/laboratory.csv",
@@ -41,9 +42,7 @@
     "type": "git",
     "url": "git+https://github.com/tsitu/MH-Tools.git"
   },
-  "keywords": [
-    "MouseHunt"
-  ],
+  "keywords": ["MouseHunt"],
   "bugs": {
     "url": "https://github.com/tsitu/MH-Tools/issues"
   },

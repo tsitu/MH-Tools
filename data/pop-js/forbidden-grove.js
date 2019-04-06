@@ -16,7 +16,18 @@ module.exports = {
   series: [
     {
       // stages
-      phase: utils.genVarField("stage", ["open", "closed"]),
+      phase: utils.genVarField("stage", "open"),
+      config: [
+        {
+          opts: {
+            exclude: ["Glitchpaw", "Realm Ripper"]
+          }
+        }
+      ]
+    },
+    {
+      // stages
+      phase: utils.genVarField("stage", "closed"),
       config: [
         {
           opts: {
