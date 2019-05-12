@@ -17,6 +17,7 @@ Feel free to post your questions, comments, or concerns there (or [here](https:/
     * [Edge / IE](#user-content-edge)
     * [Safari](#user-content-safari)
   * [Catch Rate Estimator](#straight_ruler-catch-rate-estimator)
+    * [Special Catch Rate Effects](#special-catch-rate-effects)
   * [Map Solver and Mouse Finder](#earth_americas-map-solver-and-mouse-finder)
   * [Best Setup](#trophy-best-setup)
   * [Marketplace Analyzer](#chart_with_upwards_trend-marketplace-analyzer)
@@ -129,6 +130,28 @@ _Apple Safari_
 Previously, the tool displayed a flat sample size number with a rating assigned to it, which looked like `Sample Size: 300 (bad)` or `Sample Size: 100000 (excellent)`. This format was misleading because it didn't encode important contextual information. The current scoring scheme takes into account factors such as number of mice in a particular setup, 95% confidence levels, and relative margins of error. It combines and normalizes these factors into a single number, capped at 100.
 
 _Note:_ Certain setups may have low scores or even no sample size data attached to them. This could be because: (1) the data was extracted from HornTracker before we decided to start keeping track of sample sizes, (2) there aren't enough recorded hunts for that setup in Jack's database, (3) our population fetching scripts need to be re-run.
+
+#### Special Catch Rate Effects
+
+The following special effects _are included in catch rate calculations_ for both CRE and Best Setup
+
+* Catch rate modifiers
+  * Zugzwang's Ultimate Move: 50% increased catch rate in Seasonal Garden & Zugzwang's Tower when amplifier > 0%
+  * Fort Rox: 50% increased catch rate when Ballista and/or Cannon are level 2 or higher; 100% catch rate on Nightmancer and Nightfire when corresponding upgrade is level 3
+  * Anniversary weapons: 10% instant catch
+  * Ultimate Charm: 100% catch rate
+  * Ultimate Anchor Charm: 100% catch rate while on a dive in Sunken City
+  * Bounty Hunter: 100% catch rate with Sheriff's Badge Charm equipped
+  * Zurreal the Eternal: 0% catch rate without Zurreal's Folly equipped
+* Special bonuses & effects
+  * Rook Crumble Charm: 300% power bonus on Rook mice in Zugzwang's Tower
+  * Pawn Pinchers: +10,920 power on corresponding Pawn mice, -60 power and -5 Luck on opposite Pawn
+  * Obvious Ambush / Blackstone Pass: +1,800 power on proper side, -2,400 power on opposite side
+  * Dragonbane Charms: +300/600/900% power bonus on Dragon-type mice
+  * Taunting Charm: Only applies Rift-set bonus on WWRift bosses
+  * Super Warpath Charms: +50 power on corresponding groups
+  * King Grub / Scarab: Salt level applies a logarithmic function to decrease mouse
+  * Golem Guardians: Charge level is set in CRE and carries over to Best Setup
 
 <div align="right"><a href="#book-table-of-contents">Top</a></div>
 
