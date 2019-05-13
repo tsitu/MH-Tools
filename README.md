@@ -142,21 +142,21 @@ The following special effects _are included in catch rate calculations_ for both
 
 * Final Catch Rate Modifiers
   * Zugzwang's Ultimate Move: 50% increased catch rate in Seasonal Garden & Zugzwang's Tower when amplifier > 0%
-  * Fort Rox: 50% increased catch rate when Ballista and/or Cannon are level 2 or higher; 100% catch rate on Nightmancer and Nightfire when corresponding upgrade is level 3
-  * Anniversary weapons: 10% instant catch
+  * Fort Rox: 50% increased catch rate when upgrades are level 2 or 3; 100% catch rate on Nightmancer and Nightfire when upgrades are level 3
+  * Anniversary weapons: Up to 10% increased catch rate
   * Ultimate Charm: 100% catch rate
   * Ultimate Anchor Charm: 100% catch rate while on a dive in Sunken City
   * Bounty Hunter: 100% catch rate with Sheriff's Badge Charm equipped
   * Zurreal the Eternal: 0% catch rate without Zurreal's Folly equipped
 * Special Bonuses & Effects
   * Rook Crumble Charm: 300% power bonus on Rook mice in Zugzwang's Tower
-  * Pawn Pinchers: +10,920 power on corresponding Pawn mice, -60 power and -5 Luck on opposite Pawn
-  * Obvious Ambush / Blackstone Pass: +1,800 power on proper side, -2,400 power on opposite side
+  * Pawn Pinchers: +10920 power on corresponding Pawn, -60 power and -5 Luck on opposite Pawn
+  * Obvious Ambush / Blackstone Pass: +1800 power on corresponding side, -2400 power on opposite side
   * Dragonbane Charms: +300/600/900% power bonus on Dragon-type mice
-  * Taunting Charm: Only applies Rift-set bonus on WWRift bosses
+  * Taunting Charm: Only applies Rift Set bonuses on WWRift bosses
   * Super Warpath Charms: +50 power on corresponding groups
-  * King Grub / Scarab: Salt level applies a logarithmic function to decrease mouse
-  * Golem Guardians: Charge level is set in CRE and carries over to Best Setup
+  * King Grub/Scarab: Salt level applies a logarithmic function to decrease mouse
+  * Golem Guardian skins: Charge levels are set in CRE and carry over to Best Setup
 
 <div align="right"><a href="#book-table-of-contents">Top</a></div>
 
