@@ -4,6 +4,7 @@
     "data/pop-csv/acolyte-realm.csv",
     "data/pop-csv/bristle-woods-rift.csv",
     "data/pop-csv/cantera-quarry.csv",
+    "data/pop-csv/catacombs.csv",
     "data/pop-csv/event.csv",
     "data/pop-csv/fiery-warpath.csv",
     "data/pop-csv/forbidden-grove.csv",
