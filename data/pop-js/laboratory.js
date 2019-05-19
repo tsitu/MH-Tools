@@ -1,18 +1,5 @@
 const utils = require("../_utils");
 
-const cheeses = [
-  "Radioactive Blue",
-  "Limelight",
-  "SB+",
-  "Gouda",
-  "Brie",
-  "Rancid Radioactive Blue",
-  "Magical Rancid Radioactive Blue",
-  "Swiss",
-  "Marble",
-  "Cheddar"
-];
-
 module.exports = {
   default: {
     location: utils.genVarField("location", "Laboratory"),
@@ -20,7 +7,30 @@ module.exports = {
   },
   series: [
     {
-      cheese: utils.genVarField("cheese", cheeses)
+      cheese: utils.genVarField("cheese", ["SB+", "Brie"])
+    },
+    {
+      cheese: utils.genVarField("cheese", [
+        "Gouda",
+        "Swiss",
+        "Marble",
+        "Cheddar"
+      ]),
+      config: [
+        {
+          opts: {
+            exclude: ["Burglar"]
+          }
+        }
+      ]
+    },
+    {
+      cheese: utils.genVarField("cheese", [
+        "Radioactive Blue",
+        "Rancid Radioactive Blue",
+        "Magical Rancid Radioactive Blue",
+        "Limelight"
+      ])
     }
   ]
 };
