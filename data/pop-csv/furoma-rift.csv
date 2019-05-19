@@ -1,88 +1,97 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Furoma Rift","Training Grounds","Maki String","-","25.70%","Shinobi",1428
-"Furoma Rift","Training Grounds","Maki String","-","22.06%","Armored Archer",1428
-"Furoma Rift","Training Grounds","Maki String","-","12.04%","Dumpling Delivery",1428
-"Furoma Rift","Training Grounds","Maki String","-","11.55%","Wealth",1428
-"Furoma Rift","Training Grounds","Maki String","-","10.92%","Enlightened Labourer",1428
-"Furoma Rift","Training Grounds","Maki String","-","9.94%","Raw Diamond",1428
-"Furoma Rift","Training Grounds","Maki String","-","3.15%","Shaolin Kung Fu",1428
-"Furoma Rift","Training Grounds","Maki String","-","2.31%","Militant Samurai",1428
-"Furoma Rift","Training Grounds","Maki String","-","2.31%","Wandering Monk",1428
-"Furoma Rift","Training Grounds","Magical String","-","23.87%","Dumpling Delivery",2844
-"Furoma Rift","Training Grounds","Magical String","-","21.87%","Armored Archer",2844
-"Furoma Rift","Training Grounds","Magical String","-","19.37%","Shinobi",2844
-"Furoma Rift","Training Grounds","Magical String","-","11.08%","Wealth",2844
-"Furoma Rift","Training Grounds","Magical String","-","9.88%","Raw Diamond",2844
-"Furoma Rift","Training Grounds","Magical String","-","5.06%","Enlightened Labourer",2844
-"Furoma Rift","Training Grounds","Magical String","-","3.62%","Shaolin Kung Fu",2844
-"Furoma Rift","Training Grounds","Magical String","-","3.23%","Wandering Monk",2844
-"Furoma Rift","Training Grounds","Magical String","-","2.00%","Militant Samurai",2844
-"Furoma Rift","Training Grounds","Brie String","-","24.87%","Armored Archer",43527
-"Furoma Rift","Training Grounds","Brie String","-","23.82%","Dumpling Delivery",43527
-"Furoma Rift","Training Grounds","Brie String","-","22.65%","Shinobi",43527
-"Furoma Rift","Training Grounds","Brie String","-","8.05%","Raw Diamond",43527
-"Furoma Rift","Training Grounds","Brie String","-","4.98%","Wealth",43527
-"Furoma Rift","Training Grounds","Brie String","-","4.81%","Rift Guardian",43527
-"Furoma Rift","Training Grounds","Brie String","-","4.01%","Shaolin Kung Fu",43527
-"Furoma Rift","Training Grounds","Brie String","-","2.88%","Wandering Monk",43527
-"Furoma Rift","Training Grounds","Brie String","-","1.99%","Militant Samurai",43527
-"Furoma Rift","Training Grounds","Brie String","-","1.94%","Enlightened Labourer",43527
-"Furoma Rift","Training Grounds","Swiss String","-","20.63%","Armored Archer",2772
-"Furoma Rift","Training Grounds","Swiss String","-","20.31%","Shinobi",2772
-"Furoma Rift","Training Grounds","Swiss String","-","15.15%","Dumpling Delivery",2772
-"Furoma Rift","Training Grounds","Swiss String","-","10.61%","Rift Guardian",2772
-"Furoma Rift","Training Grounds","Swiss String","-","9.49%","Brawny",2772
-"Furoma Rift","Training Grounds","Swiss String","-","9.05%","Wealth",2772
-"Furoma Rift","Training Grounds","Swiss String","-","5.12%","Raw Diamond",2772
-"Furoma Rift","Training Grounds","Swiss String","-","4.29%","Shaolin Kung Fu",2772
-"Furoma Rift","Training Grounds","Swiss String","-","3.50%","Wandering Monk",2772
-"Furoma Rift","Training Grounds","Swiss String","-","1.84%","Militant Samurai",2772
-"Furoma Rift","Pagoda","Maki String","-","19.96%","Student of the Chi Claw",42447
-"Furoma Rift","Pagoda","Maki String","-","19.88%","Student of the Chi Belt",42447
-"Furoma Rift","Pagoda","Maki String","-","19.58%","Student of the Chi Fang",42447
-"Furoma Rift","Pagoda","Maki String","-","11.95%","Shaolin Kung Fu",42447
-"Furoma Rift","Pagoda","Maki String","-","6.84%","Wandering Monk",42447
-"Furoma Rift","Pagoda","Maki String","-","5.94%","Dancing Assassin",42447
-"Furoma Rift","Pagoda","Maki String","-","5.89%","Shinobi",42447
-"Furoma Rift","Pagoda","Maki String","-","4.93%","Militant Samurai",42447
-"Furoma Rift","Pagoda","Maki String","-","2.94%","Wealth",42447
-"Furoma Rift","Pagoda","Maki String","-","2.08%","Raw Diamond",42447
-"Furoma Rift","Pagoda","Magical String","-","15.26%","Student of the Chi Fang",1782
-"Furoma Rift","Pagoda","Magical String","-","14.81%","Student of the Chi Belt",1782
-"Furoma Rift","Pagoda","Magical String","-","14.42%","Student of the Chi Claw",1782
-"Furoma Rift","Pagoda","Magical String","-","12.74%","Wandering Monk",1782
-"Furoma Rift","Pagoda","Magical String","-","11.28%","Shaolin Kung Fu",1782
-"Furoma Rift","Pagoda","Magical String","-","10.55%","Militant Samurai",1782
-"Furoma Rift","Pagoda","Magical String","-","8.36%","Shinobi",1782
-"Furoma Rift","Pagoda","Magical String","-","5.05%","Dancing Assassin",1782
-"Furoma Rift","Pagoda","Magical String","-","4.10%","Wealth",1782
-"Furoma Rift","Pagoda","Magical String","-","3.42%","Raw Diamond",1782
-"Furoma Rift","Pagoda","Brie String","-","14.88%","Student of the Chi Belt",65016
-"Furoma Rift","Pagoda","Brie String","-","14.87%","Student of the Chi Fang",65016
-"Furoma Rift","Pagoda","Brie String","-","14.84%","Student of the Chi Claw",65016
-"Furoma Rift","Pagoda","Brie String","-","12.11%","Militant Samurai",65016
-"Furoma Rift","Pagoda","Brie String","-","11.76%","Shaolin Kung Fu",65016
-"Furoma Rift","Pagoda","Brie String","-","11.61%","Wandering Monk",65016
-"Furoma Rift","Pagoda","Brie String","-","9.01%","Shinobi",65016
-"Furoma Rift","Pagoda","Brie String","-","3.97%","Wealth",65016
-"Furoma Rift","Pagoda","Brie String","-","3.92%","Dancing Assassin",65016
-"Furoma Rift","Pagoda","Brie String","-","3.02%","Raw Diamond",65016
-"Furoma Rift","Pagoda","Swiss String","-","18.74%","Militant Samurai",555
-"Furoma Rift","Pagoda","Swiss String","-","18.20%","Wandering Monk",555
-"Furoma Rift","Pagoda","Swiss String","-","12.79%","Shaolin Kung Fu",555
-"Furoma Rift","Pagoda","Swiss String","-","11.35%","Shinobi",555
-"Furoma Rift","Pagoda","Swiss String","-","9.37%","Student of the Chi Fang",555
-"Furoma Rift","Pagoda","Swiss String","-","9.19%","Student of the Chi Belt",555
-"Furoma Rift","Pagoda","Swiss String","-","6.85%","Student of the Chi Claw",555
-"Furoma Rift","Pagoda","Swiss String","-","6.31%","Wealth",555
-"Furoma Rift","Pagoda","Swiss String","-","4.32%","Dancing Assassin",555
-"Furoma Rift","Pagoda","Swiss String","-","2.88%","Raw Diamond",555
-"Furoma Rift","Pagoda","Master Fusion","-","34.21%","Master of the Chi Fang",30820
-"Furoma Rift","Pagoda","Master Fusion","-","32.94%","Master of the Chi Belt",30820
-"Furoma Rift","Pagoda","Master Fusion","-","32.85%","Master of the Chi Claw",30820
-"Furoma Rift","Pagoda","Rift Combat","-","100.00%","Master of the Chi Fang",7481
-"Furoma Rift","Pagoda","Rift Glutter","-","100.00%","Master of the Chi Belt",7367
-"Furoma Rift","Pagoda","Rift Susheese","-","100.00%","Master of the Chi Claw",7690
-"Furoma Rift","Pagoda","Rift Rumble","-","100.00%","Grand Master of the Dojo",31539
-"Furoma Rift","Pagoda","Null Onyx Gorgonzola","-","100.00%","Supreme Sensei",15890
-"Furoma Rift","Pagoda","Ascended","-","100.00%","Ascended Elder",5150
+"Furoma Rift","Training Grounds","Maki String","-","24.26%","Shinobi",2040
+"Furoma Rift","Training Grounds","Maki String","-","23.14%","Armored Archer",2040
+"Furoma Rift","Training Grounds","Maki String","-","11.76%","Dumpling Delivery",2040
+"Furoma Rift","Training Grounds","Maki String","-","11.23%","Wealth",2040
+"Furoma Rift","Training Grounds","Maki String","-","10.98%","Enlightened Labourer",2040
+"Furoma Rift","Training Grounds","Maki String","-","10.25%","Raw Diamond",2040
+"Furoma Rift","Training Grounds","Maki String","-","3.38%","Shaolin Kung Fu",2040
+"Furoma Rift","Training Grounds","Maki String","-","2.84%","Wandering Monk",2040
+"Furoma Rift","Training Grounds","Maki String","-","2.16%","Militant Samurai",2040
+"Furoma Rift","Training Grounds","Magical String","-","24.07%","Dumpling Delivery",4816
+"Furoma Rift","Training Grounds","Magical String","-","21.97%","Armored Archer",4816
+"Furoma Rift","Training Grounds","Magical String","-","19.71%","Shinobi",4816
+"Furoma Rift","Training Grounds","Magical String","-","10.57%","Wealth",4816
+"Furoma Rift","Training Grounds","Magical String","-","9.70%","Raw Diamond",4816
+"Furoma Rift","Training Grounds","Magical String","-","5.25%","Enlightened Labourer",4816
+"Furoma Rift","Training Grounds","Magical String","-","3.70%","Shaolin Kung Fu",4816
+"Furoma Rift","Training Grounds","Magical String","-","2.87%","Wandering Monk",4816
+"Furoma Rift","Training Grounds","Magical String","-","2.18%","Militant Samurai",4816
+"Furoma Rift","Training Grounds","Brie String","-","24.91%","Armored Archer",61252
+"Furoma Rift","Training Grounds","Brie String","-","23.85%","Dumpling Delivery",61252
+"Furoma Rift","Training Grounds","Brie String","-","22.69%","Shinobi",61252
+"Furoma Rift","Training Grounds","Brie String","-","7.89%","Raw Diamond",61252
+"Furoma Rift","Training Grounds","Brie String","-","4.95%","Wealth",61252
+"Furoma Rift","Training Grounds","Brie String","-","4.89%","Rift Guardian",61252
+"Furoma Rift","Training Grounds","Brie String","-","4.05%","Shaolin Kung Fu",61252
+"Furoma Rift","Training Grounds","Brie String","-","2.86%","Wandering Monk",61252
+"Furoma Rift","Training Grounds","Brie String","-","1.97%","Militant Samurai",61252
+"Furoma Rift","Training Grounds","Brie String","-","1.96%","Enlightened Labourer",61252
+"Furoma Rift","Training Grounds","Swiss String","-","20.71%","Shinobi",3360
+"Furoma Rift","Training Grounds","Swiss String","-","20.68%","Armored Archer",3360
+"Furoma Rift","Training Grounds","Swiss String","-","15.15%","Dumpling Delivery",3360
+"Furoma Rift","Training Grounds","Swiss String","-","10.51%","Rift Guardian",3360
+"Furoma Rift","Training Grounds","Swiss String","-","9.29%","Brawny",3360
+"Furoma Rift","Training Grounds","Swiss String","-","9.05%","Wealth",3360
+"Furoma Rift","Training Grounds","Swiss String","-","5.00%","Raw Diamond",3360
+"Furoma Rift","Training Grounds","Swiss String","-","4.38%","Shaolin Kung Fu",3360
+"Furoma Rift","Training Grounds","Swiss String","-","3.33%","Wandering Monk",3360
+"Furoma Rift","Training Grounds","Swiss String","-","1.90%","Militant Samurai",3360
+"Furoma Rift","Training Grounds","Marble String","-","21.11%","Armored Archer",180
+"Furoma Rift","Training Grounds","Marble String","-","18.33%","Dumpling Delivery",180
+"Furoma Rift","Training Grounds","Marble String","-","16.67%","Shinobi",180
+"Furoma Rift","Training Grounds","Marble String","-","13.33%","Rift Guardian",180
+"Furoma Rift","Training Grounds","Marble String","-","12.78%","Brawny",180
+"Furoma Rift","Training Grounds","Marble String","-","6.67%","Shaolin Kung Fu",180
+"Furoma Rift","Training Grounds","Marble String","-","6.11%","Raw Diamond",180
+"Furoma Rift","Training Grounds","Marble String","-","2.78%","Wealth",180
+"Furoma Rift","Training Grounds","Marble String","-","2.22%","Wandering Monk",180
+"Furoma Rift","Pagoda","Maki String","-","19.81%","Student of the Chi Claw",57212
+"Furoma Rift","Pagoda","Maki String","-","19.80%","Student of the Chi Belt",57212
+"Furoma Rift","Pagoda","Maki String","-","19.60%","Student of the Chi Fang",57212
+"Furoma Rift","Pagoda","Maki String","-","12.00%","Shaolin Kung Fu",57212
+"Furoma Rift","Pagoda","Maki String","-","6.95%","Wandering Monk",57212
+"Furoma Rift","Pagoda","Maki String","-","5.96%","Dancing Assassin",57212
+"Furoma Rift","Pagoda","Maki String","-","5.95%","Shinobi",57212
+"Furoma Rift","Pagoda","Maki String","-","4.87%","Militant Samurai",57212
+"Furoma Rift","Pagoda","Maki String","-","2.96%","Wealth",57212
+"Furoma Rift","Pagoda","Maki String","-","2.09%","Raw Diamond",57212
+"Furoma Rift","Pagoda","Magical String","-","15.23%","Student of the Chi Fang",2962
+"Furoma Rift","Pagoda","Magical String","-","14.58%","Student of the Chi Claw",2962
+"Furoma Rift","Pagoda","Magical String","-","14.01%","Student of the Chi Belt",2962
+"Furoma Rift","Pagoda","Magical String","-","12.63%","Wandering Monk",2962
+"Furoma Rift","Pagoda","Magical String","-","11.92%","Shaolin Kung Fu",2962
+"Furoma Rift","Pagoda","Magical String","-","11.51%","Militant Samurai",2962
+"Furoma Rift","Pagoda","Magical String","-","8.10%","Shinobi",2962
+"Furoma Rift","Pagoda","Magical String","-","5.00%","Dancing Assassin",2962
+"Furoma Rift","Pagoda","Magical String","-","3.92%","Wealth",2962
+"Furoma Rift","Pagoda","Magical String","-","3.11%","Raw Diamond",2962
+"Furoma Rift","Pagoda","Brie String","-","14.93%","Student of the Chi Belt",83469
+"Furoma Rift","Pagoda","Brie String","-","14.80%","Student of the Chi Claw",83469
+"Furoma Rift","Pagoda","Brie String","-","14.79%","Student of the Chi Fang",83469
+"Furoma Rift","Pagoda","Brie String","-","12.11%","Militant Samurai",83469
+"Furoma Rift","Pagoda","Brie String","-","11.86%","Shaolin Kung Fu",83469
+"Furoma Rift","Pagoda","Brie String","-","11.64%","Wandering Monk",83469
+"Furoma Rift","Pagoda","Brie String","-","9.01%","Shinobi",83469
+"Furoma Rift","Pagoda","Brie String","-","3.94%","Wealth",83469
+"Furoma Rift","Pagoda","Brie String","-","3.89%","Dancing Assassin",83469
+"Furoma Rift","Pagoda","Brie String","-","3.02%","Raw Diamond",83469
+"Furoma Rift","Pagoda","Swiss String","-","18.92%","Militant Samurai",761
+"Furoma Rift","Pagoda","Swiss String","-","18.13%","Wandering Monk",761
+"Furoma Rift","Pagoda","Swiss String","-","12.09%","Shaolin Kung Fu",761
+"Furoma Rift","Pagoda","Swiss String","-","10.64%","Shinobi",761
+"Furoma Rift","Pagoda","Swiss String","-","9.99%","Student of the Chi Belt",761
+"Furoma Rift","Pagoda","Swiss String","-","8.94%","Student of the Chi Fang",761
+"Furoma Rift","Pagoda","Swiss String","-","7.36%","Student of the Chi Claw",761
+"Furoma Rift","Pagoda","Swiss String","-","6.57%","Wealth",761
+"Furoma Rift","Pagoda","Swiss String","-","4.34%","Dancing Assassin",761
+"Furoma Rift","Pagoda","Swiss String","-","3.02%","Raw Diamond",761
+"Furoma Rift","Pagoda","Master Fusion","-","34.10%","Master of the Chi Fang",46269
+"Furoma Rift","Pagoda","Master Fusion","-","33.13%","Master of the Chi Belt",46269
+"Furoma Rift","Pagoda","Master Fusion","-","32.78%","Master of the Chi Claw",46269
+"Furoma Rift","Pagoda","Rift Combat","-","100.00%","Master of the Chi Fang",9996
+"Furoma Rift","Pagoda","Rift Glutter","-","100.00%","Master of the Chi Belt",10048
+"Furoma Rift","Pagoda","Rift Susheese","-","100.00%","Master of the Chi Claw",10650
+"Furoma Rift","Pagoda","Rift Rumble","-","100.00%","Grand Master of the Dojo",49823
+"Furoma Rift","Pagoda","Null Onyx Gorgonzola","-","100.00%","Supreme Sensei",23740
+"Furoma Rift","Pagoda","Ascended","-","100.00%","Ascended Elder",9032

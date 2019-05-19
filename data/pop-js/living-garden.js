@@ -19,7 +19,7 @@ module.exports = {
           },
           fields: { stage: "Not Poured" },
           opts: {
-            exclude: ["Thirsty", "Lucky"]
+            exclude: ["Thirsty", "Lucky", "Camofusion"]
           }
         }
       ]

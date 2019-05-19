@@ -31,7 +31,7 @@ module.exports = {
       config: [
         {
           opts: {
-            exclude: ["Glitchpaw"]
+            include: ["Realm Ripper"]
           }
         }
       ]

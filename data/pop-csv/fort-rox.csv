@@ -1,187 +1,200 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Fort Rox","Day","Gouda","-","29.82%","Meteorite Miner",43063
-"Fort Rox","Day","Gouda","-","29.69%","Mischievous Meteorite Miner",43063
-"Fort Rox","Day","Gouda","-","17.66%","Hardworking Hauler",43063
-"Fort Rox","Day","Gouda","-","11.95%","Meteorite Snacker",43063
-"Fort Rox","Day","Gouda","-","5.89%","Meteorite Mover",43063
-"Fort Rox","Day","Gouda","-","4.99%","Mining Materials Manager",43063
-"Fort Rox","Day","Brie","-","30.32%","Mischievous Meteorite Miner",5726
-"Fort Rox","Day","Brie","-","28.82%","Meteorite Miner",5726
-"Fort Rox","Day","Brie","-","18.37%","Hardworking Hauler",5726
-"Fort Rox","Day","Brie","-","12.02%","Meteorite Snacker",5726
-"Fort Rox","Day","Brie","-","5.43%","Meteorite Mover",5726
-"Fort Rox","Day","Brie","-","5.05%","Mining Materials Manager",5726
-"Fort Rox","Day","SB+","-","24.23%","Mischievous Meteorite Miner",2629
-"Fort Rox","Day","SB+","-","23.85%","Meteorite Miner",2629
-"Fort Rox","Day","SB+","-","17.84%","Hardworking Hauler",2629
-"Fort Rox","Day","SB+","-","16.09%","Mining Materials Manager",2629
-"Fort Rox","Day","SB+","-","15.37%","Meteorite Snacker",2629
-"Fort Rox","Day","SB+","-","2.62%","Meteorite Mover",2629
-"Fort Rox","Day","Crescent","-","25.03%","Meteorite Miner",927
-"Fort Rox","Day","Crescent","-","23.84%","Mischievous Meteorite Miner",927
-"Fort Rox","Day","Crescent","-","19.20%","Meteorite Snacker",927
-"Fort Rox","Day","Crescent","-","14.99%","Hardworking Hauler",927
-"Fort Rox","Day","Crescent","-","10.90%","Meteorite Mover",927
-"Fort Rox","Day","Crescent","-","6.04%","Mining Materials Manager",927
-"Fort Rox","Day","Moon","-","28.82%","Meteorite Snacker",465
-"Fort Rox","Day","Moon","-","24.52%","Meteorite Miner",465
-"Fort Rox","Day","Moon","-","24.52%","Mischievous Meteorite Miner",465
-"Fort Rox","Day","Moon","-","10.75%","Meteorite Mover",465
-"Fort Rox","Day","Moon","-","7.53%","Hardworking Hauler",465
-"Fort Rox","Day","Moon","-","3.87%","Mining Materials Manager",465
-"Fort Rox","Twilight","Gouda","-","27.53%","Battering Ram",661
-"Fort Rox","Twilight","Gouda","-","15.89%","Mischievous Wereminer",661
-"Fort Rox","Twilight","Gouda","-","15.73%","Werehauler",661
-"Fort Rox","Twilight","Gouda","-","12.56%","Reveling Lycanthrope",661
-"Fort Rox","Twilight","Gouda","-","12.56%","Nightmancer",661
-"Fort Rox","Twilight","Gouda","-","9.68%","Wereminer",661
-"Fort Rox","Twilight","Gouda","-","6.05%","Alpha Weremouse",661
-"Fort Rox","Twilight","SB+","-","21.23%","Battering Ram",146
-"Fort Rox","Twilight","SB+","-","18.49%","Werehauler",146
-"Fort Rox","Twilight","SB+","-","13.01%","Nightmancer",146
-"Fort Rox","Twilight","SB+","-","12.33%","Mischievous Wereminer",146
-"Fort Rox","Twilight","SB+","-","11.64%","Alpha Weremouse",146
-"Fort Rox","Twilight","SB+","-","10.27%","Reveling Lycanthrope",146
-"Fort Rox","Twilight","SB+","-","9.59%","Wereminer",146
-"Fort Rox","Twilight","SB+","-","3.42%","Night Shift Materials Manager",146
-"Fort Rox","Twilight","Crescent","-","23.00%","Werehauler",24321
-"Fort Rox","Twilight","Crescent","-","19.06%","Alpha Weremouse",24321
-"Fort Rox","Twilight","Crescent","-","15.46%","Reveling Lycanthrope",24321
-"Fort Rox","Twilight","Crescent","-","14.60%","Mischievous Wereminer",24321
-"Fort Rox","Twilight","Crescent","-","14.50%","Wereminer",24321
-"Fort Rox","Twilight","Crescent","-","7.90%","Night Shift Materials Manager",24321
-"Fort Rox","Twilight","Crescent","-","5.48%","Nightmancer",24321
-"Fort Rox","Twilight","Moon","-","20.59%","Mischievous Wereminer",6795
-"Fort Rox","Twilight","Moon","-","18.23%","Alpha Weremouse",6795
-"Fort Rox","Twilight","Moon","-","16.26%","Werehauler",6795
-"Fort Rox","Twilight","Moon","-","16.00%","Wereminer",6795
-"Fort Rox","Twilight","Moon","-","13.54%","Reveling Lycanthrope",6795
-"Fort Rox","Twilight","Moon","-","10.15%","Night Shift Materials Manager",6795
-"Fort Rox","Twilight","Moon","-","5.22%","Nightmancer",6795
-"Fort Rox","Midnight","Gouda","-","26.11%","Battering Ram",180
-"Fort Rox","Midnight","Gouda","-","20.56%","Werehauler",180
-"Fort Rox","Midnight","Gouda","-","16.11%","Nightmancer",180
-"Fort Rox","Midnight","Gouda","-","8.89%","Alpha Weremouse",180
-"Fort Rox","Midnight","Gouda","-","6.11%","Night Watcher",180
-"Fort Rox","Midnight","Gouda","-","5.56%","Mischievous Wereminer",180
-"Fort Rox","Midnight","Gouda","-","5.56%","Hypnotized Gunslinger",180
-"Fort Rox","Midnight","Gouda","-","3.89%","Wereminer",180
-"Fort Rox","Midnight","Gouda","-","2.78%","Meteorite Golem",180
-"Fort Rox","Midnight","Gouda","-","2.22%","Arcane Summoner",180
-"Fort Rox","Midnight","Gouda","-","1.11%","Wealthy Werewarrior",180
-"Fort Rox","Midnight","Gouda","-","1.11%","Reveling Lycanthrope",180
-"Fort Rox","Midnight","Crescent","-","14.04%","Alpha Weremouse",14779
-"Fort Rox","Midnight","Crescent","-","13.32%","Werehauler",14779
-"Fort Rox","Midnight","Crescent","-","11.56%","Nightmancer",14779
-"Fort Rox","Midnight","Crescent","-","10.18%","Mischievous Wereminer",14779
-"Fort Rox","Midnight","Crescent","-","9.74%","Wealthy Werewarrior",14779
-"Fort Rox","Midnight","Crescent","-","9.06%","Wereminer",14779
-"Fort Rox","Midnight","Crescent","-","7.93%","Night Shift Materials Manager",14779
-"Fort Rox","Midnight","Crescent","-","5.59%","Hypnotized Gunslinger",14779
-"Fort Rox","Midnight","Crescent","-","5.56%","Reveling Lycanthrope",14779
-"Fort Rox","Midnight","Crescent","-","4.68%","Night Watcher",14779
-"Fort Rox","Midnight","Crescent","-","4.57%","Arcane Summoner",14779
-"Fort Rox","Midnight","Crescent","-","3.78%","Meteorite Golem",14779
-"Fort Rox","Midnight","Moon","-","18.75%","Alpha Weremouse",4288
-"Fort Rox","Midnight","Moon","-","11.43%","Mischievous Wereminer",4288
-"Fort Rox","Midnight","Moon","-","10.17%","Nightmancer",4288
-"Fort Rox","Midnight","Moon","-","10.17%","Night Shift Materials Manager",4288
-"Fort Rox","Midnight","Moon","-","9.54%","Wereminer",4288
-"Fort Rox","Midnight","Moon","-","9.19%","Wealthy Werewarrior",4288
-"Fort Rox","Midnight","Moon","-","6.53%","Werehauler",4288
-"Fort Rox","Midnight","Moon","-","6.11%","Reveling Lycanthrope",4288
-"Fort Rox","Midnight","Moon","-","5.13%","Hypnotized Gunslinger",4288
-"Fort Rox","Midnight","Moon","-","4.50%","Meteorite Golem",4288
-"Fort Rox","Midnight","Moon","-","4.43%","Night Watcher",4288
-"Fort Rox","Midnight","Moon","-","4.06%","Arcane Summoner",4288
-"Fort Rox","Pitch","Crescent","-","13.05%","Hypnotized Gunslinger",4826
-"Fort Rox","Pitch","Crescent","-","10.15%","Wealthy Werewarrior",4826
-"Fort Rox","Pitch","Crescent","-","10.15%","Nightmancer",4826
-"Fort Rox","Pitch","Crescent","-","8.64%","Nightfire",4826
-"Fort Rox","Pitch","Crescent","-","7.75%","Night Shift Materials Manager",4826
-"Fort Rox","Pitch","Crescent","-","7.23%","Alpha Weremouse",4826
-"Fort Rox","Pitch","Crescent","-","6.28%","Werehauler",4826
-"Fort Rox","Pitch","Crescent","-","5.97%","Meteorite Golem",4826
-"Fort Rox","Pitch","Crescent","-","5.57%","Arcane Summoner",4826
-"Fort Rox","Pitch","Crescent","-","5.08%","Wereminer",4826
-"Fort Rox","Pitch","Crescent","-","4.66%","Night Watcher",4826
-"Fort Rox","Pitch","Crescent","-","4.39%","Reveling Lycanthrope",4826
-"Fort Rox","Pitch","Crescent","-","4.31%","Cursed Taskmaster",4826
-"Fort Rox","Pitch","Crescent","-","3.63%","Mischievous Wereminer",4826
-"Fort Rox","Pitch","Crescent","-","3.13%","Meteorite Mystic",4826
-"Fort Rox","Pitch","Moon","-","15.41%","Hypnotized Gunslinger",1823
-"Fort Rox","Pitch","Moon","-","10.53%","Night Shift Materials Manager",1823
-"Fort Rox","Pitch","Moon","-","9.60%","Wealthy Werewarrior",1823
-"Fort Rox","Pitch","Moon","-","8.12%","Nightmancer",1823
-"Fort Rox","Pitch","Moon","-","7.46%","Alpha Weremouse",1823
-"Fort Rox","Pitch","Moon","-","6.53%","Meteorite Golem",1823
-"Fort Rox","Pitch","Moon","-","6.20%","Wereminer",1823
-"Fort Rox","Pitch","Moon","-","5.87%","Night Watcher",1823
-"Fort Rox","Pitch","Moon","-","5.43%","Cursed Taskmaster",1823
-"Fort Rox","Pitch","Moon","-","4.94%","Nightfire",1823
-"Fort Rox","Pitch","Moon","-","4.94%","Arcane Summoner",1823
-"Fort Rox","Pitch","Moon","-","4.22%","Mischievous Wereminer",1823
-"Fort Rox","Pitch","Moon","-","3.89%","Meteorite Mystic",1823
-"Fort Rox","Pitch","Moon","-","3.51%","Werehauler",1823
-"Fort Rox","Pitch","Moon","-","3.35%","Reveling Lycanthrope",1823
-"Fort Rox","Utter Darkness","Crescent","-","15.39%","Hypnotized Gunslinger",9329
-"Fort Rox","Utter Darkness","Crescent","-","11.98%","Meteorite Golem",9329
-"Fort Rox","Utter Darkness","Crescent","-","11.80%","Cursed Taskmaster",9329
-"Fort Rox","Utter Darkness","Crescent","-","11.54%","Nightfire",9329
-"Fort Rox","Utter Darkness","Crescent","-","9.60%","Night Watcher",9329
-"Fort Rox","Utter Darkness","Crescent","-","7.73%","Meteorite Mystic",9329
-"Fort Rox","Utter Darkness","Crescent","-","6.82%","Alpha Weremouse",9329
-"Fort Rox","Utter Darkness","Crescent","-","5.51%","Arcane Summoner",9329
-"Fort Rox","Utter Darkness","Crescent","-","5.12%","Wealthy Werewarrior",9329
-"Fort Rox","Utter Darkness","Crescent","-","5.11%","Nightmancer",9329
-"Fort Rox","Utter Darkness","Crescent","-","2.94%","Wereminer",9329
-"Fort Rox","Utter Darkness","Crescent","-","2.87%","Werehauler",9329
-"Fort Rox","Utter Darkness","Crescent","-","1.97%","Mischievous Wereminer",9329
-"Fort Rox","Utter Darkness","Crescent","-","1.18%","Reveling Lycanthrope",9329
-"Fort Rox","Utter Darkness","Crescent","-","0.42%","Night Shift Materials Manager",9329
-"Fort Rox","Utter Darkness","Moon","-","14.38%","Night Watcher",3923
-"Fort Rox","Utter Darkness","Moon","-","11.96%","Cursed Taskmaster",3923
-"Fort Rox","Utter Darkness","Moon","-","11.85%","Meteorite Golem",3923
-"Fort Rox","Utter Darkness","Moon","-","11.52%","Hypnotized Gunslinger",3923
-"Fort Rox","Utter Darkness","Moon","-","8.97%","Meteorite Mystic",3923
-"Fort Rox","Utter Darkness","Moon","-","8.64%","Nightfire",3923
-"Fort Rox","Utter Darkness","Moon","-","6.65%","Alpha Weremouse",3923
-"Fort Rox","Utter Darkness","Moon","-","5.00%","Arcane Summoner",3923
-"Fort Rox","Utter Darkness","Moon","-","4.92%","Wealthy Werewarrior",3923
-"Fort Rox","Utter Darkness","Moon","-","4.89%","Nightmancer",3923
-"Fort Rox","Utter Darkness","Moon","-","4.64%","Wereminer",3923
-"Fort Rox","Utter Darkness","Moon","-","2.70%","Mischievous Wereminer",3923
-"Fort Rox","Utter Darkness","Moon","-","1.61%","Reveling Lycanthrope",3923
-"Fort Rox","Utter Darkness","Moon","-","1.27%","Night Shift Materials Manager",3923
-"Fort Rox","Utter Darkness","Moon","-","0.99%","Werehauler",3923
-"Fort Rox","First Light","Gouda","-","64.60%","Battering Ram",113
-"Fort Rox","First Light","Gouda","-","23.01%","Nightfire",113
-"Fort Rox","First Light","Gouda","-","3.54%","Night Watcher",113
-"Fort Rox","First Light","Gouda","-","3.54%","Cursed Taskmaster",113
-"Fort Rox","First Light","Gouda","-","2.65%","Meteorite Golem",113
-"Fort Rox","First Light","Gouda","-","2.65%","Meteorite Mystic",113
-"Fort Rox","First Light","Crescent","-","24.14%","Nightfire",9743
-"Fort Rox","First Light","Crescent","-","15.42%","Cursed Taskmaster",9743
-"Fort Rox","First Light","Crescent","-","15.10%","Meteorite Golem",9743
-"Fort Rox","First Light","Crescent","-","14.32%","Night Watcher",9743
-"Fort Rox","First Light","Crescent","-","12.03%","Hypnotized Gunslinger",9743
-"Fort Rox","First Light","Crescent","-","9.72%","Meteorite Mystic",9743
-"Fort Rox","First Light","Crescent","-","9.28%","Arcane Summoner",9743
-"Fort Rox","First Light","Moon","-","23.58%","Cursed Taskmaster",5105
-"Fort Rox","First Light","Moon","-","22.37%","Nightfire",5105
-"Fort Rox","First Light","Moon","-","13.24%","Night Watcher",5105
-"Fort Rox","First Light","Moon","-","11.69%","Arcane Summoner",5105
-"Fort Rox","First Light","Moon","-","10.01%","Meteorite Golem",5105
-"Fort Rox","First Light","Moon","-","9.62%","Hypnotized Gunslinger",5105
-"Fort Rox","First Light","Moon","-","9.48%","Meteorite Mystic",5105
-"Fort Rox","Dawn","Gouda","-","39.48%","Monster of the Meteor",499
-"Fort Rox","Dawn","Gouda","-","31.06%","Battering Ram",499
-"Fort Rox","Dawn","Gouda","-","29.46%","Dawn Guardian",499
-"Fort Rox","Dawn","SB+","-","45.25%","Dawn Guardian",316
-"Fort Rox","Dawn","SB+","-","36.08%","Monster of the Meteor",316
-"Fort Rox","Dawn","SB+","-","18.67%","Battering Ram",316
-"Fort Rox","Dawn","Crescent","-","51.28%","Dawn Guardian",8115
-"Fort Rox","Dawn","Crescent","-","48.72%","Monster of the Meteor",8115
-"Fort Rox","Dawn","Moon","-","50.48%","Dawn Guardian",8454
-"Fort Rox","Dawn","Moon","-","49.52%","Monster of the Meteor",8454
+"Fort Rox","Day","Gouda","-","29.84%","Meteorite Miner",59000
+"Fort Rox","Day","Gouda","-","29.77%","Mischievous Meteorite Miner",59000
+"Fort Rox","Day","Gouda","-","17.53%","Hardworking Hauler",59000
+"Fort Rox","Day","Gouda","-","11.94%","Meteorite Snacker",59000
+"Fort Rox","Day","Gouda","-","5.94%","Meteorite Mover",59000
+"Fort Rox","Day","Gouda","-","5.00%","Mining Materials Manager",59000
+"Fort Rox","Day","Brie","-","30.13%","Mischievous Meteorite Miner",6692
+"Fort Rox","Day","Brie","-","28.71%","Meteorite Miner",6692
+"Fort Rox","Day","Brie","-","18.37%","Hardworking Hauler",6692
+"Fort Rox","Day","Brie","-","12.00%","Meteorite Snacker",6692
+"Fort Rox","Day","Brie","-","5.69%","Meteorite Mover",6692
+"Fort Rox","Day","Brie","-","5.11%","Mining Materials Manager",6692
+"Fort Rox","Day","SB+","-","24.05%","Mischievous Meteorite Miner",3380
+"Fort Rox","Day","SB+","-","23.37%","Meteorite Miner",3380
+"Fort Rox","Day","SB+","-","17.37%","Hardworking Hauler",3380
+"Fort Rox","Day","SB+","-","17.07%","Mining Materials Manager",3380
+"Fort Rox","Day","SB+","-","15.65%","Meteorite Snacker",3380
+"Fort Rox","Day","SB+","-","2.49%","Meteorite Mover",3380
+"Fort Rox","Day","Crescent","-","24.43%","Meteorite Miner",1367
+"Fort Rox","Day","Crescent","-","24.36%","Mischievous Meteorite Miner",1367
+"Fort Rox","Day","Crescent","-","19.60%","Meteorite Snacker",1367
+"Fort Rox","Day","Crescent","-","16.24%","Hardworking Hauler",1367
+"Fort Rox","Day","Crescent","-","10.31%","Meteorite Mover",1367
+"Fort Rox","Day","Crescent","-","5.05%","Mining Materials Manager",1367
+"Fort Rox","Day","Moon","-","29.79%","Meteorite Snacker",678
+"Fort Rox","Day","Moon","-","23.45%","Meteorite Miner",678
+"Fort Rox","Day","Moon","-","23.16%","Mischievous Meteorite Miner",678
+"Fort Rox","Day","Moon","-","11.36%","Meteorite Mover",678
+"Fort Rox","Day","Moon","-","7.67%","Hardworking Hauler",678
+"Fort Rox","Day","Moon","-","4.57%","Mining Materials Manager",678
+"Fort Rox","Twilight","Gouda","-","27.83%","Battering Ram",1053
+"Fort Rox","Twilight","Gouda","-","16.52%","Werehauler",1053
+"Fort Rox","Twilight","Gouda","-","15.38%","Mischievous Wereminer",1053
+"Fort Rox","Twilight","Gouda","-","13.39%","Nightmancer",1053
+"Fort Rox","Twilight","Gouda","-","12.25%","Reveling Lycanthrope",1053
+"Fort Rox","Twilight","Gouda","-","8.74%","Wereminer",1053
+"Fort Rox","Twilight","Gouda","-","5.89%","Alpha Weremouse",1053
+"Fort Rox","Twilight","SB+","-","20.74%","Battering Ram",217
+"Fort Rox","Twilight","SB+","-","16.59%","Werehauler",217
+"Fort Rox","Twilight","SB+","-","14.29%","Mischievous Wereminer",217
+"Fort Rox","Twilight","SB+","-","12.44%","Alpha Weremouse",217
+"Fort Rox","Twilight","SB+","-","12.44%","Nightmancer",217
+"Fort Rox","Twilight","SB+","-","11.52%","Reveling Lycanthrope",217
+"Fort Rox","Twilight","SB+","-","9.22%","Wereminer",217
+"Fort Rox","Twilight","SB+","-","2.76%","Night Shift Materials Manager",217
+"Fort Rox","Twilight","Crescent","-","23.00%","Werehauler",32680
+"Fort Rox","Twilight","Crescent","-","18.97%","Alpha Weremouse",32680
+"Fort Rox","Twilight","Crescent","-","15.62%","Reveling Lycanthrope",32680
+"Fort Rox","Twilight","Crescent","-","14.62%","Wereminer",32680
+"Fort Rox","Twilight","Crescent","-","14.60%","Mischievous Wereminer",32680
+"Fort Rox","Twilight","Crescent","-","7.86%","Night Shift Materials Manager",32680
+"Fort Rox","Twilight","Crescent","-","5.32%","Nightmancer",32680
+"Fort Rox","Twilight","Moon","-","20.49%","Mischievous Wereminer",9495
+"Fort Rox","Twilight","Moon","-","18.41%","Alpha Weremouse",9495
+"Fort Rox","Twilight","Moon","-","16.33%","Wereminer",9495
+"Fort Rox","Twilight","Moon","-","16.13%","Werehauler",9495
+"Fort Rox","Twilight","Moon","-","13.66%","Reveling Lycanthrope",9495
+"Fort Rox","Twilight","Moon","-","9.92%","Night Shift Materials Manager",9495
+"Fort Rox","Twilight","Moon","-","5.04%","Nightmancer",9495
+"Fort Rox","Midnight","Gouda","-","27.07%","Battering Ram",229
+"Fort Rox","Midnight","Gouda","-","17.90%","Werehauler",229
+"Fort Rox","Midnight","Gouda","-","15.28%","Nightmancer",229
+"Fort Rox","Midnight","Gouda","-","10.04%","Alpha Weremouse",229
+"Fort Rox","Midnight","Gouda","-","6.55%","Hypnotized Gunslinger",229
+"Fort Rox","Midnight","Gouda","-","6.11%","Mischievous Wereminer",229
+"Fort Rox","Midnight","Gouda","-","5.68%","Night Watcher",229
+"Fort Rox","Midnight","Gouda","-","3.93%","Wereminer",229
+"Fort Rox","Midnight","Gouda","-","2.62%","Meteorite Golem",229
+"Fort Rox","Midnight","Gouda","-","2.18%","Arcane Summoner",229
+"Fort Rox","Midnight","Gouda","-","1.31%","Wealthy Werewarrior",229
+"Fort Rox","Midnight","Gouda","-","1.31%","Reveling Lycanthrope",229
+"Fort Rox","Midnight","Crescent","-","14.00%","Alpha Weremouse",19895
+"Fort Rox","Midnight","Crescent","-","13.24%","Werehauler",19895
+"Fort Rox","Midnight","Crescent","-","11.49%","Nightmancer",19895
+"Fort Rox","Midnight","Crescent","-","10.24%","Mischievous Wereminer",19895
+"Fort Rox","Midnight","Crescent","-","9.69%","Wealthy Werewarrior",19895
+"Fort Rox","Midnight","Crescent","-","9.04%","Wereminer",19895
+"Fort Rox","Midnight","Crescent","-","7.86%","Night Shift Materials Manager",19895
+"Fort Rox","Midnight","Crescent","-","5.63%","Hypnotized Gunslinger",19895
+"Fort Rox","Midnight","Crescent","-","5.59%","Reveling Lycanthrope",19895
+"Fort Rox","Midnight","Crescent","-","4.69%","Night Watcher",19895
+"Fort Rox","Midnight","Crescent","-","4.61%","Arcane Summoner",19895
+"Fort Rox","Midnight","Crescent","-","3.93%","Meteorite Golem",19895
+"Fort Rox","Midnight","Moon","-","18.39%","Alpha Weremouse",6067
+"Fort Rox","Midnight","Moon","-","11.39%","Mischievous Wereminer",6067
+"Fort Rox","Midnight","Moon","-","10.17%","Nightmancer",6067
+"Fort Rox","Midnight","Moon","-","10.04%","Wereminer",6067
+"Fort Rox","Midnight","Moon","-","10.04%","Night Shift Materials Manager",6067
+"Fort Rox","Midnight","Moon","-","9.18%","Wealthy Werewarrior",6067
+"Fort Rox","Midnight","Moon","-","6.56%","Werehauler",6067
+"Fort Rox","Midnight","Moon","-","5.74%","Reveling Lycanthrope",6067
+"Fort Rox","Midnight","Moon","-","5.14%","Hypnotized Gunslinger",6067
+"Fort Rox","Midnight","Moon","-","4.52%","Meteorite Golem",6067
+"Fort Rox","Midnight","Moon","-","4.47%","Night Watcher",6067
+"Fort Rox","Midnight","Moon","-","4.37%","Arcane Summoner",6067
+"Fort Rox","Pitch","Crescent","-","13.42%","Hypnotized Gunslinger",6481
+"Fort Rox","Pitch","Crescent","-","10.17%","Nightmancer",6481
+"Fort Rox","Pitch","Crescent","-","10.15%","Wealthy Werewarrior",6481
+"Fort Rox","Pitch","Crescent","-","8.66%","Nightfire",6481
+"Fort Rox","Pitch","Crescent","-","7.68%","Night Shift Materials Manager",6481
+"Fort Rox","Pitch","Crescent","-","7.01%","Alpha Weremouse",6481
+"Fort Rox","Pitch","Crescent","-","6.05%","Werehauler",6481
+"Fort Rox","Pitch","Crescent","-","5.85%","Meteorite Golem",6481
+"Fort Rox","Pitch","Crescent","-","5.28%","Arcane Summoner",6481
+"Fort Rox","Pitch","Crescent","-","5.22%","Wereminer",6481
+"Fort Rox","Pitch","Crescent","-","4.91%","Night Watcher",6481
+"Fort Rox","Pitch","Crescent","-","4.40%","Cursed Taskmaster",6481
+"Fort Rox","Pitch","Crescent","-","4.21%","Reveling Lycanthrope",6481
+"Fort Rox","Pitch","Crescent","-","3.73%","Mischievous Wereminer",6481
+"Fort Rox","Pitch","Crescent","-","3.27%","Meteorite Mystic",6481
+"Fort Rox","Pitch","Moon","-","15.52%","Hypnotized Gunslinger",2494
+"Fort Rox","Pitch","Moon","-","10.38%","Night Shift Materials Manager",2494
+"Fort Rox","Pitch","Moon","-","9.94%","Wealthy Werewarrior",2494
+"Fort Rox","Pitch","Moon","-","8.58%","Nightmancer",2494
+"Fort Rox","Pitch","Moon","-","7.10%","Alpha Weremouse",2494
+"Fort Rox","Pitch","Moon","-","6.90%","Meteorite Golem",2494
+"Fort Rox","Pitch","Moon","-","6.26%","Wereminer",2494
+"Fort Rox","Pitch","Moon","-","5.73%","Night Watcher",2494
+"Fort Rox","Pitch","Moon","-","5.17%","Cursed Taskmaster",2494
+"Fort Rox","Pitch","Moon","-","4.65%","Arcane Summoner",2494
+"Fort Rox","Pitch","Moon","-","4.57%","Nightfire",2494
+"Fort Rox","Pitch","Moon","-","4.49%","Meteorite Mystic",2494
+"Fort Rox","Pitch","Moon","-","3.93%","Mischievous Wereminer",2494
+"Fort Rox","Pitch","Moon","-","3.57%","Reveling Lycanthrope",2494
+"Fort Rox","Pitch","Moon","-","3.21%","Werehauler",2494
+"Fort Rox","Utter Darkness","Gouda","-","68.22%","Battering Ram",107
+"Fort Rox","Utter Darkness","Gouda","-","4.67%","Nightfire",107
+"Fort Rox","Utter Darkness","Gouda","-","4.67%","Nightmancer",107
+"Fort Rox","Utter Darkness","Gouda","-","3.74%","Meteorite Golem",107
+"Fort Rox","Utter Darkness","Gouda","-","2.80%","Alpha Weremouse",107
+"Fort Rox","Utter Darkness","Gouda","-","2.80%","Night Watcher",107
+"Fort Rox","Utter Darkness","Gouda","-","2.80%","Wereminer",107
+"Fort Rox","Utter Darkness","Gouda","-","2.80%","Cursed Taskmaster",107
+"Fort Rox","Utter Darkness","Gouda","-","1.87%","Meteorite Mystic",107
+"Fort Rox","Utter Darkness","Gouda","-","1.87%","Hypnotized Gunslinger",107
+"Fort Rox","Utter Darkness","Gouda","-","1.87%","Reveling Lycanthrope",107
+"Fort Rox","Utter Darkness","Gouda","-","0.93%","Arcane Summoner",107
+"Fort Rox","Utter Darkness","Gouda","-","0.93%","Wealthy Werewarrior",107
+"Fort Rox","Utter Darkness","Crescent","-","15.39%","Hypnotized Gunslinger",12636
+"Fort Rox","Utter Darkness","Crescent","-","12.09%","Meteorite Golem",12636
+"Fort Rox","Utter Darkness","Crescent","-","11.72%","Cursed Taskmaster",12636
+"Fort Rox","Utter Darkness","Crescent","-","11.63%","Nightfire",12636
+"Fort Rox","Utter Darkness","Crescent","-","9.39%","Night Watcher",12636
+"Fort Rox","Utter Darkness","Crescent","-","7.85%","Meteorite Mystic",12636
+"Fort Rox","Utter Darkness","Crescent","-","6.73%","Alpha Weremouse",12636
+"Fort Rox","Utter Darkness","Crescent","-","5.77%","Arcane Summoner",12636
+"Fort Rox","Utter Darkness","Crescent","-","5.07%","Wealthy Werewarrior",12636
+"Fort Rox","Utter Darkness","Crescent","-","5.05%","Nightmancer",12636
+"Fort Rox","Utter Darkness","Crescent","-","3.05%","Werehauler",12636
+"Fort Rox","Utter Darkness","Crescent","-","2.86%","Wereminer",12636
+"Fort Rox","Utter Darkness","Crescent","-","1.92%","Mischievous Wereminer",12636
+"Fort Rox","Utter Darkness","Crescent","-","1.08%","Reveling Lycanthrope",12636
+"Fort Rox","Utter Darkness","Crescent","-","0.39%","Night Shift Materials Manager",12636
+"Fort Rox","Utter Darkness","Moon","-","13.88%","Night Watcher",5433
+"Fort Rox","Utter Darkness","Moon","-","12.07%","Meteorite Golem",5433
+"Fort Rox","Utter Darkness","Moon","-","11.82%","Cursed Taskmaster",5433
+"Fort Rox","Utter Darkness","Moon","-","11.34%","Hypnotized Gunslinger",5433
+"Fort Rox","Utter Darkness","Moon","-","9.13%","Nightfire",5433
+"Fort Rox","Utter Darkness","Moon","-","8.60%","Meteorite Mystic",5433
+"Fort Rox","Utter Darkness","Moon","-","6.53%","Alpha Weremouse",5433
+"Fort Rox","Utter Darkness","Moon","-","5.43%","Arcane Summoner",5433
+"Fort Rox","Utter Darkness","Moon","-","5.26%","Wealthy Werewarrior",5433
+"Fort Rox","Utter Darkness","Moon","-","4.97%","Nightmancer",5433
+"Fort Rox","Utter Darkness","Moon","-","4.77%","Wereminer",5433
+"Fort Rox","Utter Darkness","Moon","-","2.61%","Mischievous Wereminer",5433
+"Fort Rox","Utter Darkness","Moon","-","1.42%","Reveling Lycanthrope",5433
+"Fort Rox","Utter Darkness","Moon","-","1.14%","Night Shift Materials Manager",5433
+"Fort Rox","Utter Darkness","Moon","-","1.03%","Werehauler",5433
+"Fort Rox","First Light","Gouda","-","62.96%","Battering Ram",135
+"Fort Rox","First Light","Gouda","-","23.70%","Nightfire",135
+"Fort Rox","First Light","Gouda","-","3.70%","Night Watcher",135
+"Fort Rox","First Light","Gouda","-","3.70%","Meteorite Golem",135
+"Fort Rox","First Light","Gouda","-","2.96%","Cursed Taskmaster",135
+"Fort Rox","First Light","Gouda","-","2.96%","Meteorite Mystic",135
+"Fort Rox","First Light","Crescent","-","23.98%","Nightfire",13457
+"Fort Rox","First Light","Crescent","-","15.44%","Cursed Taskmaster",13457
+"Fort Rox","First Light","Crescent","-","14.99%","Meteorite Golem",13457
+"Fort Rox","First Light","Crescent","-","14.33%","Night Watcher",13457
+"Fort Rox","First Light","Crescent","-","12.19%","Hypnotized Gunslinger",13457
+"Fort Rox","First Light","Crescent","-","9.76%","Meteorite Mystic",13457
+"Fort Rox","First Light","Crescent","-","9.31%","Arcane Summoner",13457
+"Fort Rox","First Light","Moon","-","23.93%","Cursed Taskmaster",7078
+"Fort Rox","First Light","Moon","-","21.98%","Nightfire",7078
+"Fort Rox","First Light","Moon","-","13.39%","Night Watcher",7078
+"Fort Rox","First Light","Moon","-","11.88%","Arcane Summoner",7078
+"Fort Rox","First Light","Moon","-","9.69%","Meteorite Mystic",7078
+"Fort Rox","First Light","Moon","-","9.61%","Hypnotized Gunslinger",7078
+"Fort Rox","First Light","Moon","-","9.51%","Meteorite Golem",7078
+"Fort Rox","Dawn","Gouda","-","38.37%","Monster of the Meteor",649
+"Fort Rox","Dawn","Gouda","-","30.97%","Battering Ram",649
+"Fort Rox","Dawn","Gouda","-","30.66%","Dawn Guardian",649
+"Fort Rox","Dawn","SB+","-","43.02%","Dawn Guardian",351
+"Fort Rox","Dawn","SB+","-","37.61%","Monster of the Meteor",351
+"Fort Rox","Dawn","SB+","-","19.37%","Battering Ram",351
+"Fort Rox","Dawn","Crescent","-","51.28%","Dawn Guardian",11329
+"Fort Rox","Dawn","Crescent","-","48.72%","Monster of the Meteor",11329
+"Fort Rox","Dawn","Moon","-","50.87%","Dawn Guardian",11697
+"Fort Rox","Dawn","Moon","-","49.13%","Monster of the Meteor",11697
 "Fort Rox","Portal","Sunrise","-","100.00%","Heart of the Meteor",

@@ -82,7 +82,7 @@ module.exports = {
           },
           fields: { stage: "Rain max", cheese: "Rainy" },
           opts: {
-            exclude: ["Monsoon Maker"]
+            exclude: ["Monsoon Maker", "Rain Summoner"]
           }
         }
       ]

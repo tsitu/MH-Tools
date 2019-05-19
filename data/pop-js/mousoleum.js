@@ -75,7 +75,14 @@ module.exports = {
     },
     {
       cheese: utils.genVarField("cheese", rbCheeses),
-      stage: utils.genVarField("stage", "Has Wall")
+      stage: utils.genVarField("stage", "Has Wall"),
+      config: [
+        {
+          opts: {
+            exclude: ["Glitchpaw", "Zombie"]
+          }
+        }
+      ]
     },
     {
       cheese: utils.genVarField("cheese", emCheeses),
