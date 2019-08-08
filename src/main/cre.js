@@ -267,6 +267,7 @@ function showPop(type) {
 
     var headerHTML = getHeaderRow();
     var overallAR = getCheeseAttraction();
+    var wwriftCompNormalizedAR = overallAR; // This will be corrected if some of the uncounted mice are in the list
     var resultsHTML = "<thead>" + headerHTML + "</thead><tbody>";
     var miceNames = Object.keys(popArrayLC || []);
 
@@ -407,12 +408,19 @@ function showPop(type) {
           mouseRow += "<td>" + dAmp + "%</td>";
           deltaAmpOverall += (dAmp * catches) / 100;
         } else if (locationName.indexOf("Whisker Woods Rift") >= 0) {
-          var compScore = compScoreTable[mouseName][wwriftFaction];
-
-          mouseRow +=
-            "<td>" + compScore + "</td>";
-
-          compScoreOverall += (((catchRate / 100) * compScore) * attractions) / 100;
+          if ((mouseName != "Gilded Leaf") &&
+              (mouseName != "Grizzled Silth") &&
+              (mouseName != "Cherry Sprite") &&
+              (mouseName != "Naturalist") &&
+              (mouseName != "Monstrous Black Widow"))
+           {
+            var compScore = compScoreTable[mouseName][wwriftFaction];
+            mouseRow += "<td>" + compScore + "</td>";
+            compScoreOverall += (compScore * attractions) / 100;
+          } else {
+            mouseRow += "<td>Not counted</td>";
+            wwriftCompNormalizedAR -= (attractions / 100.0);
+          }
         }
         else if (
           contains(locationName, "Iceberg") &&
@@ -526,7 +534,8 @@ function showPop(type) {
       deltaAmpOverall += ((100 - overallAR) / 100) * -3; // Accounting for FTAs (-3%)
       resultsHTML += "<td>" + deltaAmpOverall.toFixed(2) + "%</td>";
     } else if (locationName.indexOf("Whisker Woods Rift") >= 0) {
-      resultsHTML += "<td>" + compScoreOverall.toFixed(2) + "</td>";
+      var normalizedScore = compScoreOverall / wwriftCompNormalizedAR;
+      resultsHTML += "<td>" + normalizedScore.toFixed(2) + "</td>";
     } else if (
       contains(locationName, "Iceberg") &&
       phaseName.indexOf("Lair") < 0
