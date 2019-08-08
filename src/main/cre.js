@@ -202,7 +202,9 @@ function showPop(type) {
 
     if (locationName.indexOf("Seasonal Garden") >= 0) {
       headerHTML += "<th data-filter='false'>Amp %</th>";
-    } else if (
+    } else if (locationName.indexOf("Whisker Woods Rift") >= 0) {
+      headerHTML += "<th data-filter='false'>Comp score</th>";
+    }else if (
       contains(locationName, "Iceberg") &&
       phaseName.indexOf("Lair") < 0
     ) {
@@ -248,6 +250,7 @@ function showPop(type) {
 
     var deltaAmpOverall = 0,
       deltaDepthOverall = 0,
+      compScoreOverall = 0,
       depthTest = 0,
       diveMPH = 0,
       avgLanternClues = 0,
@@ -401,7 +404,15 @@ function showPop(type) {
 
           mouseRow += "<td>" + dAmp + "%</td>";
           deltaAmpOverall += (dAmp * catches) / 100;
-        } else if (
+        } else if (locationName.indexOf("Whisker Woods Rift") >= 0) {
+          var compScore = compScoreTable[mouseName];
+
+          mouseRow +=
+            "<td>" + compScore + "</td>";
+
+          compScoreOverall += (((catchRate / 100) * compScore) * attractions) / 100;
+        }
+        else if (
           contains(locationName, "Iceberg") &&
           phaseName.indexOf("Lair") < 0
         ) {
@@ -512,6 +523,8 @@ function showPop(type) {
     if (locationName.indexOf("Seasonal Garden") >= 0) {
       deltaAmpOverall += ((100 - overallAR) / 100) * -3; // Accounting for FTAs (-3%)
       resultsHTML += "<td>" + deltaAmpOverall.toFixed(2) + "%</td>";
+    } else if (locationName.indexOf("Whisker Woods Rift") >= 0) {
+      resultsHTML += "<td>" + compScoreOverall.toFixed(2) + "</td>";
     } else if (
       contains(locationName, "Iceberg") &&
       phaseName.indexOf("Lair") < 0
@@ -580,7 +593,8 @@ function showPop(type) {
 
     if (
       locationName.indexOf("Seasonal Garden") >= 0 ||
-      (locationName.indexOf("Sunken City") >= 0 && phaseName != "Docked")
+      locationName.indexOf("Whisker Woods Rift") >= 0 ||
+      (locationName.indexOf("Sunken City") >= 0 && phaseName != "Docked") 
     ) {
       resultsHTML += "<td></td>";
     } else if (

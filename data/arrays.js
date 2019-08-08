@@ -158,6 +158,46 @@ var berglings = [
   "Snowblind"
 ];
 
+var compScoreTable = {
+  // CC low
+  "Bloomed Sylvan": 0,
+  "Cranky Caterpillar": 0,
+  "Mossy Moosker": 0,
+  // CC mid
+  "Treant Queen": 0, 
+  "Spirit Fox": 0,
+  "Red-Eyed Watcher Owl": 0,
+  // CC high
+  "Cyclops Barbarian": 0,
+    
+  // GG low
+  "Spirit of Balance": 3,
+  "Fungal Frog": 3,
+  "Karmachameleon": 3,
+  // GG mid
+  "Red Coat Bear": 2,
+  "Rift Tiger": 2,
+  "Nomadic Warrior": 2,
+  // GG high
+  "Centaur Ranger": 1,  
+
+  // DL low
+  "Twisted Treant": 3,
+  "Water Sprite": 3,
+  "Crazed Goblin": 3,
+  // DL mid
+  "Medicine": 2,
+  "Tree Troll": 2,
+  "Winged Harpy": 2,
+  // DL high
+  "Tri-dra": 1,
+
+  "Grizzled Silth": 0,  
+  "Cherry Sprite": 0,
+  "Naturalist": 0,
+  "Gilded Leaf": 0,
+}
+
 var catchDepth = {
   "Chipper": 16,
   "Frostlance Guard": 15,
