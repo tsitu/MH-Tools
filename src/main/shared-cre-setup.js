@@ -76,6 +76,9 @@ var fortRox = {
 // Initialize Sand Crypts salt level
 var saltLevel = 0;
 
+// Initialize WWRift faction
+var wwriftFaction = "Crazies"
+
 /**
  * Returns the size of an object based on its length or number of keys
  * @param {object} obj
@@ -633,6 +636,10 @@ function sandCryptsParamCheck() {
   updateInputFromParameter("saltLevel", saltChanged);
 }
 
+function wwriftParamCheck() {
+  updateInputFromParameter("wwriftFaction", wwriftChange);
+}
+
 function getRankKey() {
   return "rank-" + user;
 }
@@ -864,6 +871,11 @@ function gsChanged() {
 
 function saltChanged() {
   saltLevel = document.getElementById("saltLevel").value;
+  genericOnChange();
+}
+
+function wwriftChange() {
+  wwriftFaction = document.getElementById("wwriftFaction").value;
   genericOnChange();
 }
 
@@ -1451,6 +1463,7 @@ function checkLoadState(type) {
     riftstalkerParamCheck();
     fortRoxParamCheck();
     sandCryptsParamCheck();
+    wwriftParamCheck();
     rankParamCheck();
     golemParamCheck();
 

@@ -62,6 +62,8 @@ window.onload = function() {
   document.getElementById("saltLevel").onchange = saltChanged;
   document.getElementById("riftstalker").onchange = riftstalkerChange;
   document.getElementById("rank").onchange = rankChange;
+  document.getElementById("wwriftFaction").onchange = wwriftChange;
+
 
   document.getElementById("cheeseCost").onchange = function() {
     cheeseCost = parseInt(document.getElementById("cheeseCost").value);
@@ -405,7 +407,7 @@ function showPop(type) {
           mouseRow += "<td>" + dAmp + "%</td>";
           deltaAmpOverall += (dAmp * catches) / 100;
         } else if (locationName.indexOf("Whisker Woods Rift") >= 0) {
-          var compScore = compScoreTable[mouseName];
+          var compScore = compScoreTable[mouseName][wwriftFaction];
 
           mouseRow +=
             "<td>" + compScore + "</td>";
@@ -696,7 +698,8 @@ function updateLink() {
     cannonLevel: fortRox.cannonLevel,
     saltLevel: saltLevel,
     rank: rank,
-    amplifier: ztAmp
+    amplifier: ztAmp,
+    wwriftFaction: wwriftFaction
   };
   var URLString = buildURL("cre.html", urlParams);
   document.getElementById("link").href = URLString;

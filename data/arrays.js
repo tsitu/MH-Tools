@@ -160,42 +160,42 @@ var berglings = [
 
 var compScoreTable = {
   // CC low
-  "Bloomed Sylvan": 0,
-  "Cranky Caterpillar": 0,
-  "Mossy Moosker": 0,
+  "Bloomed Sylvan":       {"Crazies": 0 , "Gnarlies": 3, "Deepies": 3}, 
+  "Cranky Caterpillar":   {"Crazies": 0 , "Gnarlies": 3, "Deepies": 3},
+  "Mossy Moosker":        {"Crazies": 0 , "Gnarlies": 3, "Deepies": 3},
   // CC mid
-  "Treant Queen": 0, 
-  "Spirit Fox": 0,
-  "Red-Eyed Watcher Owl": 0,
+  "Treant Queen":         {"Crazies": 0 , "Gnarlies": 2, "Deepies": 2}, 
+  "Spirit Fox":           {"Crazies": 0 , "Gnarlies": 2, "Deepies": 2},
+  "Red-Eyed Watcher Owl": {"Crazies": 0 , "Gnarlies": 2, "Deepies": 2},
   // CC high
-  "Cyclops Barbarian": 0,
+  "Cyclops Barbarian":    {"Crazies": 0 , "Gnarlies": 1, "Deepies": 1},
     
   // GG low
-  "Spirit of Balance": 3,
-  "Fungal Frog": 3,
-  "Karmachameleon": 3,
+  "Spirit of Balance":    {"Crazies": 3 , "Gnarlies": 0, "Deepies": 3},
+  "Fungal Frog":          {"Crazies": 3 , "Gnarlies": 0, "Deepies": 3},
+  "Karmachameleon":       {"Crazies": 3 , "Gnarlies": 0, "Deepies": 3},
   // GG mid
-  "Red Coat Bear": 2,
-  "Rift Tiger": 2,
-  "Nomadic Warrior": 2,
+  "Red Coat Bear":        {"Crazies": 2 , "Gnarlies": 0, "Deepies": 2},
+  "Rift Tiger":           {"Crazies": 2 , "Gnarlies": 0, "Deepies": 2},
+  "Nomadic Warrior":      {"Crazies": 2 , "Gnarlies": 0, "Deepies": 2},
   // GG high
-  "Centaur Ranger": 1,  
+  "Centaur Ranger":       {"Crazies": 1 , "Gnarlies": 0, "Deepies": 1},
 
   // DL low
-  "Twisted Treant": 3,
-  "Water Sprite": 3,
-  "Crazed Goblin": 3,
+  "Twisted Treant":       {"Crazies": 3 , "Gnarlies": 3, "Deepies": 0},
+  "Water Sprite":         {"Crazies": 3 , "Gnarlies": 3, "Deepies": 0},
+  "Crazed Goblin":        {"Crazies": 3 , "Gnarlies": 3, "Deepies": 0},
   // DL mid
-  "Medicine": 2,
-  "Tree Troll": 2,
-  "Winged Harpy": 2,
+  "Medicine":             {"Crazies": 2 , "Gnarlies": 2, "Deepies": 0},
+  "Tree Troll":           {"Crazies": 2 , "Gnarlies": 2, "Deepies": 0},
+  "Winged Harpy":         {"Crazies": 2 , "Gnarlies": 2, "Deepies": 0},
   // DL high
-  "Tri-dra": 1,
+  "Tri-dra":              {"Crazies": 1 , "Gnarlies": 1, "Deepies": 0},
 
-  "Grizzled Silth": 0,  
-  "Cherry Sprite": 0,
-  "Naturalist": 0,
-  "Gilded Leaf": 0,
+  "Grizzled Silth":       {"Crazies": 0 , "Gnarlies": 0, "Deepies": 0},
+  "Cherry Sprite":        {"Crazies": 0 , "Gnarlies": 0, "Deepies": 0},
+  "Naturalist":           {"Crazies": 0 , "Gnarlies": 0, "Deepies": 0},
+  "Gilded Leaf":          {"Crazies": 0 , "Gnarlies": 0, "Deepies": 0},
 }
 
 var catchDepth = {

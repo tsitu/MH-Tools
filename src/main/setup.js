@@ -55,6 +55,7 @@ $(window).load(function() {
   document.getElementById("saltLevel").onchange = saltChanged;
   document.getElementById("riftstalker").onchange = riftstalkerChange;
   document.getElementById("rank").onchange = rankChange;
+  document.getElementById("wwriftFaction").onchange = wwriftChange;
 
   $("#save_setup_button").click(saveSetupStorage);
 
@@ -417,7 +418,8 @@ function updateLink() {
     cannonLevel: fortRox.cannonLevel,
     saltLevel: saltLevel,
     rank: rank,
-    amplifier: ztAmp
+    amplifier: ztAmp,
+    wwriftFaction: wwriftFaction
   };
 
   var urlString = buildURL("setup.html", urlParams);
@@ -791,7 +793,8 @@ function getCRELinkElement() {
       cannonLevel: fortRox.cannonLevel,
       saltLevel: saltLevel,
       rank: rank,
-      amplifier: ztAmp
+      amplifier: ztAmp,
+      wwriftFaction: wwriftFaction
     };
     var urlString = buildURL("cre.html", urlParams);
     urlString = urlString.replace(/'/g, "%27"); //TODO: Verify necessity
