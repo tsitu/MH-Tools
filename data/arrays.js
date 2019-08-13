@@ -146,6 +146,49 @@ var tauntings = [
   "Tri-dra"
 ];
 
+var rage_increase_table = {
+  // CC low
+  "Bloomed Sylvan":       {"Crazed": 1 , "Gnarled": 0, "Deep": 0}, 
+  "Cranky Caterpillar":   {"Crazed": 1 , "Gnarled": 0, "Deep": 0}, 
+  "Mossy Moosker":        {"Crazed": 1 , "Gnarled": 0, "Deep": 0}, 
+  // CC mid
+  "Treant Queen":         {"Crazed": 2 , "Gnarled": 0, "Deep": 0}, 
+  "Spirit Fox":           {"Crazed": 2 , "Gnarled": 0, "Deep": 0}, 
+  "Red-Eyed Watcher Owl": {"Crazed": 2 , "Gnarled": 0, "Deep": 0}, 
+  // CC high
+  "Cyclops Barbarian":    {"Crazed": 0 , "Gnarled": 0, "Deep": 0},
+  // CC funnel-only
+  "Cherry Sprite":        {"Crazed": 6 , "Gnarled": 0, "Deep": 0},
+    
+  // GG low
+  "Spirit of Balance":    {"Crazed": 0 , "Gnarled": 1, "Deep": 0}, 
+  "Fungal Frog":          {"Crazed": 0 , "Gnarled": 1, "Deep": 0}, 
+  "Karmachameleon":       {"Crazed": 0 , "Gnarled": 1, "Deep": 0}, 
+  // GG mid
+  "Red Coat Bear":        {"Crazed": 0 , "Gnarled": 2, "Deep": 0},
+  "Rift Tiger":           {"Crazed": 0 , "Gnarled": 2, "Deep": 0},
+  "Nomadic Warrior":      {"Crazed": 0 , "Gnarled": 2, "Deep": 0},
+  // GG high
+  "Centaur Ranger":       {"Crazed": 0 , "Gnarled": 0, "Deep": 0},
+  // GG funnel-only
+  "Naturalist":           {"Crazed": 0 , "Gnarled": 6, "Deep": 0},
+
+  // DL low
+  "Twisted Treant":       {"Crazed": 0 , "Gnarled": 0, "Deep": 1},
+  "Water Sprite":         {"Crazed": 0 , "Gnarled": 0, "Deep": 1},
+  "Crazed Goblin":        {"Crazed": 0 , "Gnarled": 0, "Deep": 1},
+  // DL mid
+  "Medicine":             {"Crazed": 0 , "Gnarled": 0, "Deep": 2},
+  "Tree Troll":           {"Crazed": 0 , "Gnarled": 0, "Deep": 2},
+  "Winged Harpy":         {"Crazed": 0 , "Gnarled": 0, "Deep": 2},
+  // DL high
+  "Tri-dra":              {"Crazed": 0 , "Gnarled": 0, "Deep": 0},
+  // DL funnel-only
+  "Grizzled Silth":       {"Crazed": 0 , "Gnarled": 0, "Deep": 6},
+    
+  "Gilded Leaf":          {"Crazed": 2 , "Gnarled": 2, "Deep": 2},
+}
+
 var brutes = ["Snow Bowler", "Yeti", "Mammoth"];
 var bombSquad = ["Saboteur", "Stickybomber", "Heavy Blaster"];
 var berglings = [
