@@ -213,10 +213,10 @@ function showPop(type) {
     if (locationName.indexOf("Seasonal Garden") >= 0) {
       headerHTML += "<th data-filter='false'>Amp %</th>";
     } else if (locationName.indexOf("Whisker Woods Rift") >= 0) {
-      headerHTML += "<th data-filter='false'>Crazed rage</th>";
-      headerHTML += "<th data-filter='false'>Gnarled rage</th>";
-      headerHTML += "<th data-filter='false'>Deep rage</th>";
-    }else if (
+      headerHTML += "<th data-filter='false'>Crazed Rage</th>";
+      headerHTML += "<th data-filter='false'>Gnarled Rage</th>";
+      headerHTML += "<th data-filter='false'>Deep Rage</th>";
+    } else if (
       contains(locationName, "Iceberg") &&
       phaseName.indexOf("Lair") < 0
     ) {
@@ -273,7 +273,7 @@ function showPop(type) {
       overallProgress = 0,
       crazedRageIncreaseOverall = 0,
       gnarledRageIncreaseOverall = 0,
-      deepRageIncreaseOverall =0,
+      deepRageIncreaseOverall = 0,
       pressureOverall = 0,
       pressureOverallTonic = 0;
 
@@ -423,26 +423,31 @@ function showPop(type) {
           var gnarledRageIncrease = rage_increase_table[mouseName]["Gnarled"];
           var deepRageIncrease = rage_increase_table[mouseName]["Deep"];
           if (charmName == "Cherry Charm") {
-            crazedRageIncrease = crazedRageIncrease + gnarledRageIncrease + deepRageIncrease;
+            crazedRageIncrease =
+              crazedRageIncrease + gnarledRageIncrease + deepRageIncrease;
             gnarledRageIncrease = 0;
             deepRageIncrease = 0;
           } else if (charmName == "Gnarled Charm") {
-            gnarledRageIncrease = crazedRageIncrease + gnarledRageIncrease + deepRageIncrease;
+            gnarledRageIncrease =
+              crazedRageIncrease + gnarledRageIncrease + deepRageIncrease;
             crazedRageIncrease = 0;
             deepRageIncrease = 0;
           } else if (charmName == "Stagnant Charm") {
-            deepRageIncrease = crazedRageIncrease + gnarledRageIncrease + deepRageIncrease;
+            deepRageIncrease =
+              crazedRageIncrease + gnarledRageIncrease + deepRageIncrease;
             crazedRageIncrease = 0;
             gnarledRageIncrease = 0;
           }
           mouseRow += "<td>" + crazedRageIncrease + "</td>";
           mouseRow += "<td>" + gnarledRageIncrease + "</td>";
           mouseRow += "<td>" + deepRageIncrease + "</td>";
-          crazedRageIncreaseOverall += (((catchRate / 100) * crazedRageIncrease) * attractions) / 100.0;
-          gnarledRageIncreaseOverall += (((catchRate / 100) * gnarledRageIncrease) * attractions) / 100.0;
-          deepRageIncreaseOverall += (((catchRate / 100) * deepRageIncrease) * attractions) / 100.0;          
-        }
-        else if (
+          crazedRageIncreaseOverall +=
+            ((catchRate / 100) * crazedRageIncrease * attractions) / 100.0;
+          gnarledRageIncreaseOverall +=
+            ((catchRate / 100) * gnarledRageIncrease * attractions) / 100.0;
+          deepRageIncreaseOverall +=
+            ((catchRate / 100) * deepRageIncrease * attractions) / 100.0;
+        } else if (
           contains(locationName, "Iceberg") &&
           phaseName.indexOf("Lair") < 0
         ) {
@@ -626,7 +631,7 @@ function showPop(type) {
     if (
       locationName.indexOf("Seasonal Garden") >= 0 ||
       locationName.indexOf("Whisker Woods Rift") >= 0 ||
-      (locationName.indexOf("Sunken City") >= 0 && phaseName != "Docked") 
+      (locationName.indexOf("Sunken City") >= 0 && phaseName != "Docked")
     ) {
       resultsHTML += "<td></td>";
     } else if (
