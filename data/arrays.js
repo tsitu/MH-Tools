@@ -187,6 +187,7 @@ var rage_increase_table = {
   "Grizzled Silth":       {"Crazed": 0 , "Gnarled": 0, "Deep": 6},
     
   "Gilded Leaf":          {"Crazed": 2 , "Gnarled": 2, "Deep": 2},
+  "Monstrous Black Widow":{"Crazed": 0 , "Gnarled": 0, "Deep": 0},
 }
 
 var brutes = ["Snow Bowler", "Yeti", "Mammoth"];
