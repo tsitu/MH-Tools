@@ -42,6 +42,7 @@
     "pop:toxic": "node data/pop toxic-spill > data/pop-csv/toxic-spill.csv",
     "pop:vrift": "node data/pop valour-rift > data/pop-csv/valour-rift.csv",
     "pop:warpath": "node data/pop warpath > data/pop-csv/fiery-warpath.csv",
+    "pop:wwrift": "node data/pop whisker-woods-rift > data/pop-csv/whisker-woods-rift.csv",
     "pop:zokor": "node data/pop zokor > data/pop-csv/zokor.csv",
     "pop:windmill": "node data/pop windmill > data/pop-csv/windmill.csv",
     "pop:zt": "node data/pop zugzwangs-tower > data/pop-csv/zugzwangs-tower.csv",
