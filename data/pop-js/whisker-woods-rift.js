@@ -35,6 +35,9 @@ var mid_low_low_config = [ {
             "Winged Harpy", // DL med mice
             "Tree Troll", // DL med mice
             "Medicine", // DL med mice
+            "Cranky Caterpillar", // CC low-only mice
+            "Bloomed Sylvan", // CC low-only mice
+            "Mossy Moosker", // CC low-only mice
             ]
           }
       } ]
@@ -53,6 +56,9 @@ var low_mid_low_config = [ {
             "Winged Harpy", // DL med mice
             "Tree Troll", // DL med mice
             "Medicine", // DL med mice
+            "Fungal Frog", // GGT low-only mice
+            "Spirit of Balance", // GGT low-only mice
+            "Karmachameleon", // GGT low-only mice
             ]
           }
       } ]
@@ -71,6 +77,9 @@ var low_low_mid_config = [ {
             "Red Coat Bear", // GGT med mice
             "Rift Tiger", // GGT med mice
             "Nomadic Warrior", // GGT med mice
+            "Twisted Treant", // DL low-only mice
+            "Crazed Goblin", // DL low-only mice
+            "Water Sprite", // DL low-only mice
             ]
           }
       } ]
@@ -86,6 +95,12 @@ var low_mid_mid_config = [ {
             "Red-Eyed Watcher Owl", // CC med mice
             "Treant Queen", // CC med mice
             "Spirit Fox", // CC med mice
+            "Fungal Frog", // GGT low-only mice
+            "Spirit of Balance", // GGT low-only mice
+            "Karmachameleon", // GGT low-only mice
+            "Twisted Treant", // DL low-only mice
+            "Crazed Goblin", // DL low-only mice
+            "Water Sprite", // DL low-only mice
             ]
           }
       } ]
@@ -101,6 +116,12 @@ var mid_mid_low_config = [ {
             "Winged Harpy", // DL med mice
             "Tree Troll", // DL med mice
             "Medicine", // DL med mice
+            "Cranky Caterpillar", // CC low-only mice
+            "Bloomed Sylvan", // CC low-only mice
+            "Mossy Moosker", // CC low-only mice
+            "Fungal Frog", // GGT low-only mice
+            "Spirit of Balance", // GGT low-only mice
+            "Karmachameleon", // GGT low-only mice
             ]
           }
       } ]
@@ -116,6 +137,12 @@ var mid_low_mid_config = [ {
             "Red Coat Bear", // GGT med mice
             "Rift Tiger", // GGT med mice
             "Nomadic Warrior", // GGT med mice
+            "Cranky Caterpillar", // CC low-only mice
+            "Bloomed Sylvan", // CC low-only mice
+            "Mossy Moosker", // CC low-only mice
+            "Twisted Treant", // DL low-only mice
+            "Crazed Goblin", // DL low-only mice
+            "Water Sprite", // DL low-only mice
             ]
           }
       } ]
@@ -129,6 +156,15 @@ var mid_mid_mid_config = [ {
             "Cyclops Barbarian", // CC boss
             "Centaur Ranger", // GGT boss
             "Tri-dra", // DL boss
+            "Cranky Caterpillar", // CC low-only mice
+            "Bloomed Sylvan", // CC low-only mice
+            "Mossy Moosker", // CC low-only mice
+            "Fungal Frog", // GGT low-only mice
+            "Spirit of Balance", // GGT low-only mice
+            "Karmachameleon", // GGT low-only mice
+            "Twisted Treant", // DL low-only mice
+            "Crazed Goblin", // DL low-only mice
+            "Water Sprite", // DL low-only mice
             ]
           }
       } ]
@@ -146,6 +182,9 @@ var high_low_low_config = [ {
             "Winged Harpy", // DL med mice
             "Tree Troll", // DL med mice
             "Medicine", // DL med mice
+            "Cranky Caterpillar", // CC low-only mice
+            "Bloomed Sylvan", // CC low-only mice
+            "Mossy Moosker", // CC low-only mice
             ]
           }
       } ]
@@ -163,6 +202,9 @@ var low_high_low_config = [ {
             "Winged Harpy", // DL med mice
             "Tree Troll", // DL med mice
             "Medicine", // DL med mice
+            "Fungal Frog", // GGT low-only mice
+            "Spirit of Balance", // GGT low-only mice
+            "Karmachameleon", // GGT low-only mice
             ]
           }
       } ]
@@ -180,6 +222,9 @@ var low_low_high_config = [ {
             "Red Coat Bear", // GGT med mice
             "Rift Tiger", // GGT med mice
             "Nomadic Warrior", // GGT med mice
+            "Twisted Treant", // DL low-only mice
+            "Crazed Goblin", // DL low-only mice
+            "Water Sprite", // DL low-only mice
             ]
           }
       } ]
