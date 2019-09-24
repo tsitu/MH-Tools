@@ -1,6 +1,7 @@
 (function() {
   const POPULATIONS = [
     "data/populations.csv",
+    "data/pop-csv/whisker-woods-rift.csv",
     "data/pop-csv/acolyte-realm.csv",
     "data/pop-csv/balacks-cove.csv",
     "data/pop-csv/bristle-woods-rift.csv",
