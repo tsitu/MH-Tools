@@ -1,4 +1,12 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
+"Whisker Woods Rift","High/High/High","Magical String","Taunting","34.09%","Centaur Ranger",6375
+"Whisker Woods Rift","High/High/High","Magical String","Taunting","34.07%","Tri-dra",6375
+"Whisker Woods Rift","High/High/High","Magical String","Taunting","31.84%","Cyclops Barbarian",6375
+"Whisker Woods Rift","High/High/High","Brie String","Taunting","33.75%","Centaur Ranger",1979
+"Whisker Woods Rift","High/High/High","Brie String","Taunting","33.40%","Cyclops Barbarian",1979
+"Whisker Woods Rift","High/High/High","Brie String","Taunting","32.84%","Tri-dra",1979
+"Whisker Woods Rift","High/High/High","Lactrodectus Lancashire","Taunting","100.00%","Monstrous Black Widow",18307
+"Whisker Woods Rift","High/High/High","Lactrodectus Lancashire","-","100.00%","Monstrous Black Widow",277
 "Whisker Woods Rift","Low/Low/Low","Magical String","Gnarled","12.57%","Spirit of Balance",3922
 "Whisker Woods Rift","Low/Low/Low","Magical String","Gnarled","12.44%","Fungal Frog",3922
 "Whisker Woods Rift","Low/Low/Low","Magical String","Gnarled","12.21%","Karmachameleon",3922
@@ -21,14 +29,14 @@
 "Whisker Woods Rift","Low/Low/Low","Brie String","Gnarled","7.57%","Crazed Goblin",5772
 "Whisker Woods Rift","Low/Low/Low","Brie String","Gnarled","7.14%","Bloomed Sylvan",5772
 "Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","12.07%","Naturalist",116
-"Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","11.21%","Spirit of Balance",116
 "Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","11.21%","Cranky Caterpillar",116
-"Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","10.34%","Water Sprite",116
+"Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","11.21%","Spirit of Balance",116
 "Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","10.34%","Crazed Goblin",116
 "Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","10.34%","Karmachameleon",116
-"Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","9.48%","Twisted Treant",116
+"Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","10.34%","Water Sprite",116
 "Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","9.48%","Mossy Moosker",116
 "Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","9.48%","Fungal Frog",116
+"Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","9.48%","Twisted Treant",116
 "Whisker Woods Rift","Low/Low/Low","Swiss String","Gnarled","6.03%","Bloomed Sylvan",116
 "Whisker Woods Rift","Low/Low/Low","Magical String","Cherry","12.57%","Cherry Sprite",4185
 "Whisker Woods Rift","Low/Low/Low","Magical String","Cherry","12.16%","Bloomed Sylvan",4185
@@ -76,8 +84,8 @@
 "Whisker Woods Rift","Low/Low/Low","Magical String","-","10.72%","Bloomed Sylvan",3600
 "Whisker Woods Rift","Low/Low/Low","Magical String","-","10.69%","Twisted Treant",3600
 "Whisker Woods Rift","Low/Low/Low","Magical String","-","10.44%","Fungal Frog",3600
-"Whisker Woods Rift","Low/Low/Low","Magical String","-","10.36%","Water Sprite",3600
 "Whisker Woods Rift","Low/Low/Low","Magical String","-","10.36%","Karmachameleon",3600
+"Whisker Woods Rift","Low/Low/Low","Magical String","-","10.36%","Water Sprite",3600
 "Whisker Woods Rift","Low/Low/Low","Magical String","-","10.33%","Spirit of Balance",3600
 "Whisker Woods Rift","Low/Low/Low","Magical String","-","9.75%","Crazed Goblin",3600
 "Whisker Woods Rift","Low/Low/Low","Magical String","-","9.44%","Mossy Moosker",3600
@@ -100,13 +108,331 @@
 "Whisker Woods Rift","Low/Low/Low","Swiss String","-","10.30%","Water Sprite",1485
 "Whisker Woods Rift","Low/Low/Low","Swiss String","-","10.10%","Twisted Treant",1485
 "Whisker Woods Rift","Low/Low/Low","Swiss String","-","10.03%","Crazed Goblin",1485
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","22.37%","Medicine",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","21.85%","Winged Harpy",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","15.42%","Tree Troll",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","6.17%","Karmachameleon",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","5.14%","Gilded Leaf",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","5.14%","Fungal Frog",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.88%","Cranky Caterpillar",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.88%","Naturalist",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.88%","Spirit of Balance",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.63%","Mossy Moosker",389
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.63%","Bloomed Sylvan",389
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","22.80%","Winged Harpy",614
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","19.87%","Medicine",614
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","19.38%","Tree Troll",614
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","9.45%","Naturalist",614
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","6.68%","Mossy Moosker",614
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","5.05%","Cranky Caterpillar",614
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","4.89%","Bloomed Sylvan",614
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","4.56%","Fungal Frog",614
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","3.75%","Karmachameleon",614
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","3.58%","Spirit of Balance",614
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","20.05%","Medicine",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","19.00%","Tree Troll",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","17.94%","Winged Harpy",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","8.44%","Spirit of Balance",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","7.65%","Cherry Sprite",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","5.54%","Fungal Frog",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","4.75%","Karmachameleon",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","4.75%","Mossy Moosker",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","4.49%","Gilded Leaf",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","3.69%","Bloomed Sylvan",379
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","3.69%","Cranky Caterpillar",379
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","21.87%","Winged Harpy",654
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","20.03%","Medicine",654
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","18.96%","Tree Troll",654
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","8.26%","Cherry Sprite",654
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","7.03%","Mossy Moosker",654
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","5.20%","Cranky Caterpillar",654
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","5.20%","Bloomed Sylvan",654
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","4.89%","Spirit of Balance",654
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","4.43%","Fungal Frog",654
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","4.13%","Karmachameleon",654
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","18.32%","Medicine",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","17.76%","Tree Troll",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","16.95%","Winged Harpy",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","11.21%","Grizzled Silth",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.94%","Gilded Leaf",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.53%","Karmachameleon",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.23%","Fungal Frog",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.12%","Spirit of Balance",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.02%","Mossy Moosker",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","4.52%","Bloomed Sylvan",1971
+"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","4.41%","Cranky Caterpillar",1971
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","18.95%","Medicine",2549
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","17.77%","Winged Harpy",2549
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","17.77%","Tree Troll",2549
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","13.61%","Grizzled Silth",2549
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.77%","Bloomed Sylvan",2549
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.77%","Cranky Caterpillar",2549
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.37%","Mossy Moosker",2549
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.18%","Spirit of Balance",2549
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.02%","Fungal Frog",2549
+"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","4.79%","Karmachameleon",2549
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","22.06%","Medicine",399
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","20.30%","Winged Harpy",399
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","19.55%","Tree Troll",399
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","7.52%","Gilded Leaf",399
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","7.27%","Bloomed Sylvan",399
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","6.27%","Mossy Moosker",399
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","4.51%","Fungal Frog",399
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","4.26%","Spirit of Balance",399
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","4.26%","Cranky Caterpillar",399
+"Whisker Woods Rift","Low/Low/Medium","Magical String","-","4.01%","Karmachameleon",399
+"Whisker Woods Rift","Low/Low/Medium","Brie String","-","22.81%","Winged Harpy",4516
+"Whisker Woods Rift","Low/Low/Medium","Brie String","-","20.93%","Medicine",4516
+"Whisker Woods Rift","Low/Low/Medium","Brie String","-","20.42%","Tree Troll",4516
+"Whisker Woods Rift","Low/Low/Medium","Brie String","-","6.84%","Fungal Frog",4516
+"Whisker Woods Rift","Low/Low/Medium","Brie String","-","6.29%","Spirit of Balance",4516
+"Whisker Woods Rift","Low/Low/Medium","Brie String","-","5.85%","Bloomed Sylvan",4516
+"Whisker Woods Rift","Low/Low/Medium","Brie String","-","5.85%","Karmachameleon",4516
+"Whisker Woods Rift","Low/Low/Medium","Brie String","-","5.78%","Cranky Caterpillar",4516
+"Whisker Woods Rift","Low/Low/Medium","Brie String","-","5.25%","Mossy Moosker",4516
+"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","29.71%","Tree Troll",138
+"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","20.29%","Winged Harpy",138
+"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","15.94%","Medicine",138
+"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","9.42%","Fungal Frog",138
+"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","7.25%","Cranky Caterpillar",138
+"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","6.52%","Bloomed Sylvan",138
+"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","4.35%","Mossy Moosker",138
+"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","4.35%","Spirit of Balance",138
+"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","2.17%","Karmachameleon",138
+"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","33.04%","Tri-dra",342
+"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","18.42%","Grizzled Silth",342
+"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","10.53%","Gilded Leaf",342
+"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","9.36%","Mossy Moosker",342
+"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","7.60%","Karmachameleon",342
+"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","5.85%","Bloomed Sylvan",342
+"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","5.85%","Fungal Frog",342
+"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","4.97%","Cranky Caterpillar",342
+"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","4.39%","Spirit of Balance",342
+"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","42.48%","Tri-dra",306
+"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","24.84%","Grizzled Silth",306
+"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","6.54%","Mossy Moosker",306
+"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","6.21%","Spirit of Balance",306
+"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","6.21%","Karmachameleon",306
+"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","5.23%","Cranky Caterpillar",306
+"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","4.90%","Bloomed Sylvan",306
+"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","3.59%","Fungal Frog",306
+"Whisker Woods Rift","Low/Low/High","Magical String","-","58.05%","Tri-dra",348
+"Whisker Woods Rift","Low/Low/High","Magical String","-","7.76%","Bloomed Sylvan",348
+"Whisker Woods Rift","Low/Low/High","Magical String","-","7.76%","Cranky Caterpillar",348
+"Whisker Woods Rift","Low/Low/High","Magical String","-","6.61%","Gilded Leaf",348
+"Whisker Woods Rift","Low/Low/High","Magical String","-","6.32%","Fungal Frog",348
+"Whisker Woods Rift","Low/Low/High","Magical String","-","6.32%","Spirit of Balance",348
+"Whisker Woods Rift","Low/Low/High","Magical String","-","4.60%","Mossy Moosker",348
+"Whisker Woods Rift","Low/Low/High","Magical String","-","2.59%","Karmachameleon",348
+"Whisker Woods Rift","Low/Low/High","Brie String","-","57.79%","Tri-dra",1149
+"Whisker Woods Rift","Low/Low/High","Brie String","-","8.44%","Spirit of Balance",1149
+"Whisker Woods Rift","Low/Low/High","Brie String","-","7.75%","Mossy Moosker",1149
+"Whisker Woods Rift","Low/Low/High","Brie String","-","7.31%","Karmachameleon",1149
+"Whisker Woods Rift","Low/Low/High","Brie String","-","7.22%","Bloomed Sylvan",1149
+"Whisker Woods Rift","Low/Low/High","Brie String","-","6.53%","Cranky Caterpillar",1149
+"Whisker Woods Rift","Low/Low/High","Brie String","-","4.96%","Fungal Frog",1149
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","18.99%","Nomadic Warrior",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","17.78%","Red Coat Bear",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","16.68%","Rift Tiger",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","12.52%","Naturalist",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","6.42%","Gilded Leaf",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.89%","Twisted Treant",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.79%","Bloomed Sylvan",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.68%","Crazed Goblin",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.52%","Mossy Moosker",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.37%","Water Sprite",1901
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.37%","Cranky Caterpillar",1901
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","19.48%","Red Coat Bear",2449
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","18.54%","Rift Tiger",2449
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","17.19%","Nomadic Warrior",2449
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","14.66%","Naturalist",2449
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","5.59%","Crazed Goblin",2449
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","5.31%","Mossy Moosker",2449
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","5.10%","Water Sprite",2449
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","4.90%","Twisted Treant",2449
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","4.65%","Cranky Caterpillar",2449
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","4.57%","Bloomed Sylvan",2449
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","19.95%","Red Coat Bear",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","19.48%","Rift Tiger",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","18.54%","Nomadic Warrior",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","7.75%","Water Sprite",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","6.34%","Crazed Goblin",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","6.10%","Mossy Moosker",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","5.40%","Twisted Treant",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","5.40%","Cherry Sprite",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","4.23%","Bloomed Sylvan",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","3.99%","Gilded Leaf",426
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","2.82%","Cranky Caterpillar",426
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","21.09%","Red Coat Bear",640
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","19.84%","Rift Tiger",640
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","19.06%","Nomadic Warrior",640
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","9.22%","Cherry Sprite",640
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","5.94%","Cranky Caterpillar",640
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","5.16%","Twisted Treant",640
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","5.16%","Crazed Goblin",640
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","5.00%","Mossy Moosker",640
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","4.84%","Water Sprite",640
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","4.69%","Bloomed Sylvan",640
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","21.70%","Rift Tiger",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","18.96%","Nomadic Warrior",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","17.58%","Red Coat Bear",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","6.59%","Crazed Goblin",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","5.77%","Bloomed Sylvan",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","5.49%","Gilded Leaf",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","5.22%","Water Sprite",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","5.22%","Grizzled Silth",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","4.95%","Twisted Treant",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","4.67%","Cranky Caterpillar",364
+"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","3.85%","Mossy Moosker",364
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","21.07%","Rift Tiger",579
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","20.03%","Nomadic Warrior",579
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","17.62%","Red Coat Bear",579
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","8.46%","Grizzled Silth",579
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","6.22%","Cranky Caterpillar",579
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","6.04%","Water Sprite",579
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","5.53%","Crazed Goblin",579
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","5.53%","Twisted Treant",579
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","4.84%","Bloomed Sylvan",579
+"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","4.66%","Mossy Moosker",579
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","22.03%","Rift Tiger",286
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","21.33%","Red Coat Bear",286
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","18.18%","Nomadic Warrior",286
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","6.64%","Bloomed Sylvan",286
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","6.64%","Gilded Leaf",286
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","6.29%","Mossy Moosker",286
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","5.59%","Water Sprite",286
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","4.90%","Cranky Caterpillar",286
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","4.20%","Crazed Goblin",286
+"Whisker Woods Rift","Low/Medium/Low","Magical String","-","4.20%","Twisted Treant",286
+"Whisker Woods Rift","Low/Medium/Low","Brie String","-","22.46%","Rift Tiger",4505
+"Whisker Woods Rift","Low/Medium/Low","Brie String","-","22.06%","Nomadic Warrior",4505
+"Whisker Woods Rift","Low/Medium/Low","Brie String","-","21.29%","Red Coat Bear",4505
+"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.99%","Cranky Caterpillar",4505
+"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.97%","Water Sprite",4505
+"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.90%","Bloomed Sylvan",4505
+"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.59%","Mossy Moosker",4505
+"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.53%","Crazed Goblin",4505
+"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.19%","Twisted Treant",4505
+"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","23.47%","Red Coat Bear",196
+"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","22.45%","Rift Tiger",196
+"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","21.43%","Nomadic Warrior",196
+"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","7.65%","Crazed Goblin",196
+"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","6.63%","Cranky Caterpillar",196
+"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","6.12%","Water Sprite",196
+"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","5.10%","Mossy Moosker",196
+"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","4.59%","Bloomed Sylvan",196
+"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","2.55%","Twisted Treant",196
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","13.95%","Rift Tiger",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","13.95%","Naturalist",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","13.37%","Medicine",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","12.79%","Winged Harpy",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","11.05%","Tree Troll",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","11.05%","Nomadic Warrior",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","8.14%","Red Coat Bear",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","4.65%","Gilded Leaf",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","4.07%","Bloomed Sylvan",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","3.49%","Cranky Caterpillar",172
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","3.49%","Mossy Moosker",172
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","17.38%","Winged Harpy",305
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","13.44%","Naturalist",305
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","13.11%","Medicine",305
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","13.11%","Tree Troll",305
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","11.80%","Red Coat Bear",305
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","9.51%","Nomadic Warrior",305
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","7.87%","Rift Tiger",305
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","6.56%","Cranky Caterpillar",305
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","4.26%","Mossy Moosker",305
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","2.95%","Bloomed Sylvan",305
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","14.05%","Red Coat Bear",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","13.82%","Tree Troll",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","12.88%","Medicine",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","12.65%","Nomadic Warrior",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","11.48%","Winged Harpy",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","10.54%","Rift Tiger",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","6.32%","Cherry Sprite",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","5.39%","Cranky Caterpillar",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","4.68%","Gilded Leaf",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","4.45%","Bloomed Sylvan",427
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","3.75%","Mossy Moosker",427
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","15.38%","Nomadic Warrior",637
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","14.91%","Winged Harpy",637
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","13.50%","Rift Tiger",637
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","13.03%","Tree Troll",637
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","12.87%","Red Coat Bear",637
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","10.20%","Medicine",637
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","6.91%","Cherry Sprite",637
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","5.34%","Bloomed Sylvan",637
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","4.24%","Mossy Moosker",637
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","3.61%","Cranky Caterpillar",637
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","21.54%","Rift Tiger",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","13.85%","Red Coat Bear",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","13.85%","Nomadic Warrior",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","12.31%","Grizzled Silth",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","10.77%","Winged Harpy",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","7.69%","Tree Troll",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","6.15%","Medicine",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","4.62%","Bloomed Sylvan",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","3.08%","Cranky Caterpillar",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","3.08%","Gilded Leaf",130
+"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","3.08%","Mossy Moosker",130
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","16.77%","Red Coat Bear",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","13.61%","Rift Tiger",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","13.29%","Nomadic Warrior",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","11.71%","Medicine",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","11.08%","Grizzled Silth",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","10.44%","Tree Troll",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","8.23%","Winged Harpy",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","6.65%","Cranky Caterpillar",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","4.43%","Mossy Moosker",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","3.80%","Bloomed Sylvan",316
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","18.42%","Nomadic Warrior",228
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","15.35%","Winged Harpy",228
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","14.91%","Rift Tiger",228
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","14.47%","Red Coat Bear",228
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","12.72%","Medicine",228
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","11.40%","Tree Troll",228
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","4.82%","Cranky Caterpillar",228
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","4.82%","Mossy Moosker",228
+"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","3.07%","Bloomed Sylvan",228
+"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","41.69%","Centaur Ranger",343
+"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","17.49%","Naturalist",343
+"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","9.62%","Gilded Leaf",343
+"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","6.12%","Twisted Treant",343
+"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","5.54%","Cranky Caterpillar",343
+"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","5.25%","Mossy Moosker",343
+"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","5.25%","Crazed Goblin",343
+"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","4.66%","Bloomed Sylvan",343
+"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","4.37%","Water Sprite",343
+"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","39.68%","Centaur Ranger",310
+"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","24.52%","Naturalist",310
+"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","6.77%","Crazed Goblin",310
+"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","6.45%","Twisted Treant",310
+"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","6.45%","Water Sprite",310
+"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","6.45%","Cranky Caterpillar",310
+"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","5.48%","Bloomed Sylvan",310
+"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","4.19%","Mossy Moosker",310
+"Whisker Woods Rift","Low/High/Low","Magical String","-","57.48%","Centaur Ranger",301
+"Whisker Woods Rift","Low/High/Low","Magical String","-","7.64%","Crazed Goblin",301
+"Whisker Woods Rift","Low/High/Low","Magical String","-","7.31%","Cranky Caterpillar",301
+"Whisker Woods Rift","Low/High/Low","Magical String","-","6.98%","Bloomed Sylvan",301
+"Whisker Woods Rift","Low/High/Low","Magical String","-","6.64%","Twisted Treant",301
+"Whisker Woods Rift","Low/High/Low","Magical String","-","5.32%","Mossy Moosker",301
+"Whisker Woods Rift","Low/High/Low","Magical String","-","4.32%","Water Sprite",301
+"Whisker Woods Rift","Low/High/Low","Magical String","-","4.32%","Gilded Leaf",301
+"Whisker Woods Rift","Low/High/Low","Brie String","-","58.34%","Centaur Ranger",1181
+"Whisker Woods Rift","Low/High/Low","Brie String","-","7.79%","Crazed Goblin",1181
+"Whisker Woods Rift","Low/High/Low","Brie String","-","7.20%","Bloomed Sylvan",1181
+"Whisker Woods Rift","Low/High/Low","Brie String","-","7.11%","Water Sprite",1181
+"Whisker Woods Rift","Low/High/Low","Brie String","-","6.60%","Cranky Caterpillar",1181
+"Whisker Woods Rift","Low/High/Low","Brie String","-","6.60%","Mossy Moosker",1181
+"Whisker Woods Rift","Low/High/Low","Brie String","-","6.35%","Twisted Treant",1181
 "Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","19.61%","Red-Eyed Watcher Owl",566
 "Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","18.90%","Treant Queen",566
 "Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","18.02%","Spirit Fox",566
 "Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","8.83%","Naturalist",566
 "Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","6.01%","Fungal Frog",566
-"Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","5.83%","Spirit of Balance",566
 "Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","5.83%","Crazed Goblin",566
+"Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","5.83%","Spirit of Balance",566
 "Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","4.95%","Twisted Treant",566
 "Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","4.77%","Gilded Leaf",566
 "Whisker Woods Rift","Medium/Low/Low","Magical String","Gnarled","4.24%","Water Sprite",566
@@ -185,266 +511,12 @@
 "Whisker Woods Rift","Medium/Low/Low","Swiss String","-","26.94%","Spirit Fox",245
 "Whisker Woods Rift","Medium/Low/Low","Swiss String","-","23.27%","Red-Eyed Watcher Owl",245
 "Whisker Woods Rift","Medium/Low/Low","Swiss String","-","13.88%","Treant Queen",245
-"Whisker Woods Rift","Medium/Low/Low","Swiss String","-","7.35%","Crazed Goblin",245
 "Whisker Woods Rift","Medium/Low/Low","Swiss String","-","7.35%","Karmachameleon",245
+"Whisker Woods Rift","Medium/Low/Low","Swiss String","-","7.35%","Crazed Goblin",245
 "Whisker Woods Rift","Medium/Low/Low","Swiss String","-","6.94%","Fungal Frog",245
 "Whisker Woods Rift","Medium/Low/Low","Swiss String","-","6.53%","Spirit of Balance",245
 "Whisker Woods Rift","Medium/Low/Low","Swiss String","-","4.49%","Water Sprite",245
 "Whisker Woods Rift","Medium/Low/Low","Swiss String","-","3.27%","Twisted Treant",245
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","18.99%","Nomadic Warrior",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","17.78%","Red Coat Bear",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","16.68%","Rift Tiger",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","12.52%","Naturalist",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","6.42%","Gilded Leaf",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.89%","Twisted Treant",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.79%","Bloomed Sylvan",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.68%","Crazed Goblin",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.52%","Mossy Moosker",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.37%","Water Sprite",1901
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Gnarled","4.37%","Cranky Caterpillar",1901
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","19.48%","Red Coat Bear",2449
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","18.54%","Rift Tiger",2449
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","17.19%","Nomadic Warrior",2449
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","14.66%","Naturalist",2449
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","5.59%","Crazed Goblin",2449
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","5.31%","Mossy Moosker",2449
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","5.10%","Water Sprite",2449
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","4.90%","Twisted Treant",2449
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","4.65%","Cranky Caterpillar",2449
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Gnarled","4.57%","Bloomed Sylvan",2449
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","19.95%","Red Coat Bear",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","19.48%","Rift Tiger",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","18.54%","Nomadic Warrior",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","7.75%","Water Sprite",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","6.34%","Crazed Goblin",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","6.10%","Mossy Moosker",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","5.40%","Twisted Treant",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","5.40%","Cherry Sprite",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","4.23%","Bloomed Sylvan",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","3.99%","Gilded Leaf",426
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Cherry","2.82%","Cranky Caterpillar",426
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","21.09%","Red Coat Bear",640
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","19.84%","Rift Tiger",640
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","19.06%","Nomadic Warrior",640
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","9.22%","Cherry Sprite",640
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","5.94%","Cranky Caterpillar",640
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","5.16%","Crazed Goblin",640
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","5.16%","Twisted Treant",640
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","5.00%","Mossy Moosker",640
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","4.84%","Water Sprite",640
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Cherry","4.69%","Bloomed Sylvan",640
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","21.70%","Rift Tiger",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","18.96%","Nomadic Warrior",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","17.58%","Red Coat Bear",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","6.59%","Crazed Goblin",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","5.77%","Bloomed Sylvan",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","5.49%","Gilded Leaf",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","5.22%","Grizzled Silth",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","5.22%","Water Sprite",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","4.95%","Twisted Treant",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","4.67%","Cranky Caterpillar",364
-"Whisker Woods Rift","Low/Medium/Low","Magical String","Stagnant","3.85%","Mossy Moosker",364
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","21.07%","Rift Tiger",579
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","20.03%","Nomadic Warrior",579
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","17.62%","Red Coat Bear",579
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","8.46%","Grizzled Silth",579
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","6.22%","Cranky Caterpillar",579
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","6.04%","Water Sprite",579
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","5.53%","Twisted Treant",579
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","5.53%","Crazed Goblin",579
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","4.84%","Bloomed Sylvan",579
-"Whisker Woods Rift","Low/Medium/Low","Brie String","Stagnant","4.66%","Mossy Moosker",579
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","22.03%","Rift Tiger",286
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","21.33%","Red Coat Bear",286
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","18.18%","Nomadic Warrior",286
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","6.64%","Bloomed Sylvan",286
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","6.64%","Gilded Leaf",286
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","6.29%","Mossy Moosker",286
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","5.59%","Water Sprite",286
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","4.90%","Cranky Caterpillar",286
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","4.20%","Crazed Goblin",286
-"Whisker Woods Rift","Low/Medium/Low","Magical String","-","4.20%","Twisted Treant",286
-"Whisker Woods Rift","Low/Medium/Low","Brie String","-","22.46%","Rift Tiger",4505
-"Whisker Woods Rift","Low/Medium/Low","Brie String","-","22.06%","Nomadic Warrior",4505
-"Whisker Woods Rift","Low/Medium/Low","Brie String","-","21.29%","Red Coat Bear",4505
-"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.99%","Cranky Caterpillar",4505
-"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.97%","Water Sprite",4505
-"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.90%","Bloomed Sylvan",4505
-"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.59%","Mossy Moosker",4505
-"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.53%","Crazed Goblin",4505
-"Whisker Woods Rift","Low/Medium/Low","Brie String","-","5.19%","Twisted Treant",4505
-"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","23.47%","Red Coat Bear",196
-"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","22.45%","Rift Tiger",196
-"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","21.43%","Nomadic Warrior",196
-"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","7.65%","Crazed Goblin",196
-"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","6.63%","Cranky Caterpillar",196
-"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","6.12%","Water Sprite",196
-"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","5.10%","Mossy Moosker",196
-"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","4.59%","Bloomed Sylvan",196
-"Whisker Woods Rift","Low/Medium/Low","Swiss String","-","2.55%","Twisted Treant",196
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","22.37%","Medicine",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","21.85%","Winged Harpy",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","15.42%","Tree Troll",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","6.17%","Karmachameleon",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","5.14%","Fungal Frog",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","5.14%","Gilded Leaf",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.88%","Naturalist",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.88%","Spirit of Balance",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.88%","Cranky Caterpillar",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.63%","Mossy Moosker",389
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Gnarled","4.63%","Bloomed Sylvan",389
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","22.80%","Winged Harpy",614
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","19.87%","Medicine",614
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","19.38%","Tree Troll",614
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","9.45%","Naturalist",614
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","6.68%","Mossy Moosker",614
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","5.05%","Cranky Caterpillar",614
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","4.89%","Bloomed Sylvan",614
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","4.56%","Fungal Frog",614
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","3.75%","Karmachameleon",614
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Gnarled","3.58%","Spirit of Balance",614
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","20.05%","Medicine",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","19.00%","Tree Troll",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","17.94%","Winged Harpy",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","8.44%","Spirit of Balance",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","7.65%","Cherry Sprite",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","5.54%","Fungal Frog",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","4.75%","Mossy Moosker",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","4.75%","Karmachameleon",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","4.49%","Gilded Leaf",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","3.69%","Bloomed Sylvan",379
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Cherry","3.69%","Cranky Caterpillar",379
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","21.87%","Winged Harpy",654
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","20.03%","Medicine",654
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","18.96%","Tree Troll",654
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","8.26%","Cherry Sprite",654
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","7.03%","Mossy Moosker",654
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","5.20%","Bloomed Sylvan",654
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","5.20%","Cranky Caterpillar",654
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","4.89%","Spirit of Balance",654
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","4.43%","Fungal Frog",654
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Cherry","4.13%","Karmachameleon",654
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","18.32%","Medicine",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","17.76%","Tree Troll",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","16.95%","Winged Harpy",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","11.21%","Grizzled Silth",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.94%","Gilded Leaf",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.53%","Karmachameleon",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.23%","Fungal Frog",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.12%","Spirit of Balance",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","5.02%","Mossy Moosker",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","4.52%","Bloomed Sylvan",1971
-"Whisker Woods Rift","Low/Low/Medium","Magical String","Stagnant","4.41%","Cranky Caterpillar",1971
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","18.95%","Medicine",2549
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","17.77%","Winged Harpy",2549
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","17.77%","Tree Troll",2549
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","13.61%","Grizzled Silth",2549
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.77%","Cranky Caterpillar",2549
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.77%","Bloomed Sylvan",2549
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.37%","Mossy Moosker",2549
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.18%","Spirit of Balance",2549
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","5.02%","Fungal Frog",2549
-"Whisker Woods Rift","Low/Low/Medium","Brie String","Stagnant","4.79%","Karmachameleon",2549
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","22.06%","Medicine",399
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","20.30%","Winged Harpy",399
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","19.55%","Tree Troll",399
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","7.52%","Gilded Leaf",399
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","7.27%","Bloomed Sylvan",399
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","6.27%","Mossy Moosker",399
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","4.51%","Fungal Frog",399
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","4.26%","Spirit of Balance",399
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","4.26%","Cranky Caterpillar",399
-"Whisker Woods Rift","Low/Low/Medium","Magical String","-","4.01%","Karmachameleon",399
-"Whisker Woods Rift","Low/Low/Medium","Brie String","-","22.81%","Winged Harpy",4516
-"Whisker Woods Rift","Low/Low/Medium","Brie String","-","20.93%","Medicine",4516
-"Whisker Woods Rift","Low/Low/Medium","Brie String","-","20.42%","Tree Troll",4516
-"Whisker Woods Rift","Low/Low/Medium","Brie String","-","6.84%","Fungal Frog",4516
-"Whisker Woods Rift","Low/Low/Medium","Brie String","-","6.29%","Spirit of Balance",4516
-"Whisker Woods Rift","Low/Low/Medium","Brie String","-","5.85%","Karmachameleon",4516
-"Whisker Woods Rift","Low/Low/Medium","Brie String","-","5.85%","Bloomed Sylvan",4516
-"Whisker Woods Rift","Low/Low/Medium","Brie String","-","5.78%","Cranky Caterpillar",4516
-"Whisker Woods Rift","Low/Low/Medium","Brie String","-","5.25%","Mossy Moosker",4516
-"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","29.71%","Tree Troll",138
-"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","20.29%","Winged Harpy",138
-"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","15.94%","Medicine",138
-"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","9.42%","Fungal Frog",138
-"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","7.25%","Cranky Caterpillar",138
-"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","6.52%","Bloomed Sylvan",138
-"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","4.35%","Mossy Moosker",138
-"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","4.35%","Spirit of Balance",138
-"Whisker Woods Rift","Low/Low/Medium","Swiss String","-","2.17%","Karmachameleon",138
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","13.95%","Naturalist",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","13.95%","Rift Tiger",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","13.37%","Medicine",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","12.79%","Winged Harpy",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","11.05%","Tree Troll",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","11.05%","Nomadic Warrior",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","8.14%","Red Coat Bear",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","4.65%","Gilded Leaf",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","4.07%","Bloomed Sylvan",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","3.49%","Cranky Caterpillar",172
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Gnarled","3.49%","Mossy Moosker",172
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","17.38%","Winged Harpy",305
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","13.44%","Naturalist",305
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","13.11%","Tree Troll",305
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","13.11%","Medicine",305
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","11.80%","Red Coat Bear",305
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","9.51%","Nomadic Warrior",305
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","7.87%","Rift Tiger",305
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","6.56%","Cranky Caterpillar",305
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","4.26%","Mossy Moosker",305
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Gnarled","2.95%","Bloomed Sylvan",305
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","14.05%","Red Coat Bear",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","13.82%","Tree Troll",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","12.88%","Medicine",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","12.65%","Nomadic Warrior",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","11.48%","Winged Harpy",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","10.54%","Rift Tiger",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","6.32%","Cherry Sprite",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","5.39%","Cranky Caterpillar",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","4.68%","Gilded Leaf",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","4.45%","Bloomed Sylvan",427
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Cherry","3.75%","Mossy Moosker",427
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","15.38%","Nomadic Warrior",637
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","14.91%","Winged Harpy",637
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","13.50%","Rift Tiger",637
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","13.03%","Tree Troll",637
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","12.87%","Red Coat Bear",637
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","10.20%","Medicine",637
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","6.91%","Cherry Sprite",637
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","5.34%","Bloomed Sylvan",637
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","4.24%","Mossy Moosker",637
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Cherry","3.61%","Cranky Caterpillar",637
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","21.54%","Rift Tiger",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","13.85%","Nomadic Warrior",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","13.85%","Red Coat Bear",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","12.31%","Grizzled Silth",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","10.77%","Winged Harpy",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","7.69%","Tree Troll",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","6.15%","Medicine",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","4.62%","Bloomed Sylvan",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","3.08%","Cranky Caterpillar",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","3.08%","Gilded Leaf",130
-"Whisker Woods Rift","Low/Medium/Medium","Magical String","Stagnant","3.08%","Mossy Moosker",130
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","16.77%","Red Coat Bear",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","13.61%","Rift Tiger",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","13.29%","Nomadic Warrior",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","11.71%","Medicine",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","11.08%","Grizzled Silth",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","10.44%","Tree Troll",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","8.23%","Winged Harpy",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","6.65%","Cranky Caterpillar",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","4.43%","Mossy Moosker",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","Stagnant","3.80%","Bloomed Sylvan",316
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","18.42%","Nomadic Warrior",228
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","15.35%","Winged Harpy",228
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","14.91%","Rift Tiger",228
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","14.47%","Red Coat Bear",228
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","12.72%","Medicine",228
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","11.40%","Tree Troll",228
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","4.82%","Cranky Caterpillar",228
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","4.82%","Mossy Moosker",228
-"Whisker Woods Rift","Low/Medium/Medium","Brie String","-","3.07%","Bloomed Sylvan",228
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Gnarled","15.09%","Tree Troll",318
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Gnarled","14.47%","Medicine",318
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Gnarled","13.21%","Red-Eyed Watcher Owl",318
@@ -466,13 +538,13 @@
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Gnarled","5.28%","Fungal Frog",644
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Gnarled","5.12%","Spirit of Balance",644
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Gnarled","2.80%","Karmachameleon",644
-"Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","16.98%","Medicine",159
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","16.98%","Tree Troll",159
+"Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","16.98%","Medicine",159
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","12.58%","Winged Harpy",159
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","10.06%","Red-Eyed Watcher Owl",159
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","9.43%","Cherry Sprite",159
-"Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","7.55%","Treant Queen",159
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","7.55%","Spirit Fox",159
+"Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","7.55%","Treant Queen",159
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","6.29%","Gilded Leaf",159
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","5.66%","Fungal Frog",159
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Cherry","3.77%","Spirit of Balance",159
@@ -498,9 +570,9 @@
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Stagnant","3.29%","Karmachameleon",152
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Stagnant","2.63%","Fungal Frog",152
 "Whisker Woods Rift","Medium/Low/Medium","Magical String","Stagnant","2.63%","Spirit of Balance",152
-"Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","15.24%","Treant Queen",210
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","15.24%","Winged Harpy",210
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","15.24%","Spirit Fox",210
+"Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","15.24%","Treant Queen",210
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","12.86%","Grizzled Silth",210
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","12.38%","Red-Eyed Watcher Owl",210
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","10.00%","Medicine",210
@@ -508,8 +580,8 @@
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","4.29%","Spirit of Balance",210
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","3.81%","Fungal Frog",210
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","Stagnant","2.86%","Karmachameleon",210
-"Whisker Woods Rift","Medium/Low/Medium","Brie String","-","17.18%","Winged Harpy",163
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","-","17.18%","Tree Troll",163
+"Whisker Woods Rift","Medium/Low/Medium","Brie String","-","17.18%","Winged Harpy",163
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","-","15.34%","Treant Queen",163
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","-","13.50%","Medicine",163
 "Whisker Woods Rift","Medium/Low/Medium","Brie String","-","12.27%","Spirit Fox",163
@@ -554,8 +626,8 @@
 "Whisker Woods Rift","Medium/Medium/Low","Brie String","Cherry","14.56%","Rift Tiger",316
 "Whisker Woods Rift","Medium/Medium/Low","Brie String","Cherry","13.92%","Nomadic Warrior",316
 "Whisker Woods Rift","Medium/Medium/Low","Brie String","Cherry","11.39%","Red-Eyed Watcher Owl",316
-"Whisker Woods Rift","Medium/Medium/Low","Brie String","Cherry","8.54%","Spirit Fox",316
 "Whisker Woods Rift","Medium/Medium/Low","Brie String","Cherry","8.54%","Treant Queen",316
+"Whisker Woods Rift","Medium/Medium/Low","Brie String","Cherry","8.54%","Spirit Fox",316
 "Whisker Woods Rift","Medium/Medium/Low","Brie String","Cherry","4.43%","Water Sprite",316
 "Whisker Woods Rift","Medium/Medium/Low","Brie String","Cherry","3.48%","Twisted Treant",316
 "Whisker Woods Rift","Medium/Medium/Low","Brie String","Cherry","3.16%","Crazed Goblin",316
@@ -671,142 +743,91 @@
 "Whisker Woods Rift","Medium/Medium/Medium","Brie String","-","10.43%","Rift Tiger",1764
 "Whisker Woods Rift","Medium/Medium/Medium","Brie String","-","10.37%","Tree Troll",1764
 "Whisker Woods Rift","Medium/Medium/Medium","Brie String","-","9.98%","Nomadic Warrior",1764
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","30.82%","Cyclops Barbarian",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","16.41%","Cherry Sprite",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","11.31%","Gilded Leaf",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","6.65%","Spirit of Balance",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","5.76%","Treant Queen",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","5.10%","Spirit Fox",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","4.88%","Red-Eyed Watcher Owl",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","3.99%","Karmachameleon",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","3.99%","Fungal Frog",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","3.77%","Water Sprite",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","3.77%","Twisted Treant",451
-"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","3.55%","Crazed Goblin",451
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","31.81%","Cyclops Barbarian",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","20.87%","Cherry Sprite",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","6.76%","Red-Eyed Watcher Owl",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","6.16%","Treant Queen",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","6.16%","Twisted Treant",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","5.57%","Karmachameleon",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","4.77%","Fungal Frog",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","4.77%","Spirit Fox",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","4.57%","Crazed Goblin",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","4.57%","Spirit of Balance",503
-"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","3.98%","Water Sprite",503
-"Whisker Woods Rift","High/Low/Low","Magical String","-","50.51%","Cyclops Barbarian",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","9.56%","Water Sprite",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","7.51%","Fungal Frog",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","7.17%","Gilded Leaf",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","6.48%","Spirit of Balance",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","5.80%","Crazed Goblin",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","4.10%","Twisted Treant",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","4.10%","Karmachameleon",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","2.05%","Spirit Fox",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","2.05%","Red-Eyed Watcher Owl",293
-"Whisker Woods Rift","High/Low/Low","Magical String","-","0.68%","Treant Queen",293
-"Whisker Woods Rift","High/Low/Low","Brie String","-","47.73%","Cyclops Barbarian",1364
-"Whisker Woods Rift","High/Low/Low","Brie String","-","6.89%","Spirit of Balance",1364
-"Whisker Woods Rift","High/Low/Low","Brie String","-","6.67%","Fungal Frog",1364
-"Whisker Woods Rift","High/Low/Low","Brie String","-","6.60%","Karmachameleon",1364
-"Whisker Woods Rift","High/Low/Low","Brie String","-","6.30%","Crazed Goblin",1364
-"Whisker Woods Rift","High/Low/Low","Brie String","-","6.23%","Water Sprite",1364
-"Whisker Woods Rift","High/Low/Low","Brie String","-","5.43%","Twisted Treant",1364
-"Whisker Woods Rift","High/Low/Low","Brie String","-","5.13%","Treant Queen",1364
-"Whisker Woods Rift","High/Low/Low","Brie String","-","4.84%","Spirit Fox",1364
-"Whisker Woods Rift","High/Low/Low","Brie String","-","4.18%","Red-Eyed Watcher Owl",1364
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","34.62%","Centaur Ranger",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","14.53%","Naturalist",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","7.99%","Gilded Leaf",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","6.05%","Red Coat Bear",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","5.81%","Rift Tiger",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","5.08%","Twisted Treant",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","5.08%","Nomadic Warrior",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","4.60%","Cranky Caterpillar",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","4.36%","Crazed Goblin",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","4.36%","Mossy Moosker",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","3.87%","Bloomed Sylvan",413
-"Whisker Woods Rift","Low/High/Low","Magical String","Gnarled","3.63%","Water Sprite",413
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","31.70%","Centaur Ranger",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","19.59%","Naturalist",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","7.73%","Rift Tiger",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","6.44%","Red Coat Bear",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","5.93%","Nomadic Warrior",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","5.41%","Crazed Goblin",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","5.15%","Cranky Caterpillar",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","5.15%","Twisted Treant",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","5.15%","Water Sprite",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","4.38%","Bloomed Sylvan",388
-"Whisker Woods Rift","Low/High/Low","Brie String","Gnarled","3.35%","Mossy Moosker",388
-"Whisker Woods Rift","Low/High/Low","Magical String","-","55.81%","Centaur Ranger",310
-"Whisker Woods Rift","Low/High/Low","Magical String","-","7.42%","Crazed Goblin",310
-"Whisker Woods Rift","Low/High/Low","Magical String","-","7.10%","Cranky Caterpillar",310
-"Whisker Woods Rift","Low/High/Low","Magical String","-","6.77%","Bloomed Sylvan",310
-"Whisker Woods Rift","Low/High/Low","Magical String","-","6.45%","Twisted Treant",310
-"Whisker Woods Rift","Low/High/Low","Magical String","-","5.16%","Mossy Moosker",310
-"Whisker Woods Rift","Low/High/Low","Magical String","-","4.19%","Gilded Leaf",310
-"Whisker Woods Rift","Low/High/Low","Magical String","-","4.19%","Water Sprite",310
-"Whisker Woods Rift","Low/High/Low","Magical String","-","1.61%","Red Coat Bear",310
-"Whisker Woods Rift","Low/High/Low","Magical String","-","1.29%","Nomadic Warrior",310
-"Whisker Woods Rift","Low/High/Low","Brie String","-","50.15%","Centaur Ranger",1374
-"Whisker Woods Rift","Low/High/Low","Brie String","-","6.70%","Crazed Goblin",1374
-"Whisker Woods Rift","Low/High/Low","Brie String","-","6.19%","Bloomed Sylvan",1374
-"Whisker Woods Rift","Low/High/Low","Brie String","-","6.11%","Water Sprite",1374
-"Whisker Woods Rift","Low/High/Low","Brie String","-","5.68%","Cranky Caterpillar",1374
-"Whisker Woods Rift","Low/High/Low","Brie String","-","5.68%","Mossy Moosker",1374
-"Whisker Woods Rift","Low/High/Low","Brie String","-","5.46%","Twisted Treant",1374
-"Whisker Woods Rift","Low/High/Low","Brie String","-","4.88%","Rift Tiger",1374
-"Whisker Woods Rift","Low/High/Low","Brie String","-","4.66%","Nomadic Warrior",1374
-"Whisker Woods Rift","Low/High/Low","Brie String","-","4.51%","Red Coat Bear",1374
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","28.04%","Tri-dra",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","15.63%","Grizzled Silth",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","8.93%","Gilded Leaf",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","7.94%","Mossy Moosker",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","7.94%","Tree Troll",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","6.45%","Karmachameleon",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","4.96%","Bloomed Sylvan",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","4.96%","Fungal Frog",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","4.22%","Cranky Caterpillar",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","4.22%","Winged Harpy",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","3.72%","Spirit of Balance",403
-"Whisker Woods Rift","Low/Low/High","Magical String","Stagnant","2.98%","Medicine",403
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","33.33%","Tri-dra",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","19.49%","Grizzled Silth",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","7.95%","Tree Troll",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","7.18%","Medicine",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","6.41%","Winged Harpy",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","5.13%","Mossy Moosker",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","4.87%","Spirit of Balance",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","4.87%","Karmachameleon",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","4.10%","Cranky Caterpillar",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","3.85%","Bloomed Sylvan",390
-"Whisker Woods Rift","Low/Low/High","Brie String","Stagnant","2.82%","Fungal Frog",390
-"Whisker Woods Rift","Low/Low/High","Magical String","-","56.11%","Tri-dra",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","7.50%","Cranky Caterpillar",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","7.50%","Bloomed Sylvan",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","6.39%","Gilded Leaf",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","6.11%","Fungal Frog",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","6.11%","Spirit of Balance",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","4.44%","Mossy Moosker",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","2.50%","Karmachameleon",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","1.39%","Tree Troll",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","1.11%","Medicine",360
-"Whisker Woods Rift","Low/Low/High","Magical String","-","0.83%","Winged Harpy",360
-"Whisker Woods Rift","Low/Low/High","Brie String","-","50.38%","Tri-dra",1318
-"Whisker Woods Rift","Low/Low/High","Brie String","-","7.36%","Spirit of Balance",1318
-"Whisker Woods Rift","Low/Low/High","Brie String","-","6.75%","Mossy Moosker",1318
-"Whisker Woods Rift","Low/Low/High","Brie String","-","6.37%","Karmachameleon",1318
-"Whisker Woods Rift","Low/Low/High","Brie String","-","6.30%","Bloomed Sylvan",1318
-"Whisker Woods Rift","Low/Low/High","Brie String","-","5.69%","Cranky Caterpillar",1318
-"Whisker Woods Rift","Low/Low/High","Brie String","-","4.55%","Winged Harpy",1318
-"Whisker Woods Rift","Low/Low/High","Brie String","-","4.32%","Fungal Frog",1318
-"Whisker Woods Rift","Low/Low/High","Brie String","-","4.17%","Medicine",1318
-"Whisker Woods Rift","Low/Low/High","Brie String","-","4.10%","Tree Troll",1318
-"Whisker Woods Rift","High/High/High","Magical String","Taunting","34.09%","Centaur Ranger",6375
-"Whisker Woods Rift","High/High/High","Magical String","Taunting","34.07%","Tri-dra",6375
-"Whisker Woods Rift","High/High/High","Magical String","Taunting","31.84%","Cyclops Barbarian",6375
-"Whisker Woods Rift","High/High/High","Brie String","Taunting","33.75%","Centaur Ranger",1979
-"Whisker Woods Rift","High/High/High","Brie String","Taunting","33.40%","Cyclops Barbarian",1979
-"Whisker Woods Rift","High/High/High","Brie String","Taunting","32.84%","Tri-dra",1979
-"Whisker Woods Rift","High/High/High","Lactrodectus Lancashire","Taunting","100.00%","Monstrous Black Widow",18307
-"Whisker Woods Rift","High/High/High","Lactrodectus Lancashire","-","100.00%","Monstrous Black Widow",277
+"Whisker Woods Rift","Medium/Medium/High","Magical String","-","43.97%","Tri-dra",232
+"Whisker Woods Rift","Medium/Medium/High","Magical String","-","10.78%","Spirit Fox",232
+"Whisker Woods Rift","Medium/Medium/High","Magical String","-","10.34%","Rift Tiger",232
+"Whisker Woods Rift","Medium/Medium/High","Magical String","-","9.48%","Nomadic Warrior",232
+"Whisker Woods Rift","Medium/Medium/High","Magical String","-","8.19%","Red Coat Bear",232
+"Whisker Woods Rift","Medium/Medium/High","Magical String","-","7.33%","Treant Queen",232
+"Whisker Woods Rift","Medium/Medium/High","Magical String","-","6.90%","Red-Eyed Watcher Owl",232
+"Whisker Woods Rift","Medium/Medium/High","Magical String","-","3.02%","Gilded Leaf",232
+"Whisker Woods Rift","Medium/Medium/High","Brie String","-","39.68%","Tri-dra",126
+"Whisker Woods Rift","Medium/Medium/High","Brie String","-","18.25%","Nomadic Warrior",126
+"Whisker Woods Rift","Medium/Medium/High","Brie String","-","12.70%","Rift Tiger",126
+"Whisker Woods Rift","Medium/Medium/High","Brie String","-","8.73%","Spirit Fox",126
+"Whisker Woods Rift","Medium/Medium/High","Brie String","-","8.73%","Treant Queen",126
+"Whisker Woods Rift","Medium/Medium/High","Brie String","-","7.14%","Red-Eyed Watcher Owl",126
+"Whisker Woods Rift","Medium/Medium/High","Brie String","-","4.76%","Red Coat Bear",126
+"Whisker Woods Rift","Medium/High/Medium","Magical String","-","50.85%","Centaur Ranger",177
+"Whisker Woods Rift","Medium/High/Medium","Magical String","-","10.73%","Treant Queen",177
+"Whisker Woods Rift","Medium/High/Medium","Magical String","-","10.73%","Winged Harpy",177
+"Whisker Woods Rift","Medium/High/Medium","Magical String","-","10.17%","Red-Eyed Watcher Owl",177
+"Whisker Woods Rift","Medium/High/Medium","Magical String","-","7.91%","Tree Troll",177
+"Whisker Woods Rift","Medium/High/Medium","Magical String","-","7.34%","Spirit Fox",177
+"Whisker Woods Rift","Medium/High/Medium","Magical String","-","2.26%","Gilded Leaf",177
+"Whisker Woods Rift","Medium/High/High","Magical String","-","40.57%","Tri-dra",212
+"Whisker Woods Rift","Medium/High/High","Magical String","-","39.15%","Centaur Ranger",212
+"Whisker Woods Rift","Medium/High/High","Magical String","-","6.13%","Spirit Fox",212
+"Whisker Woods Rift","Medium/High/High","Magical String","-","5.19%","Red-Eyed Watcher Owl",212
+"Whisker Woods Rift","Medium/High/High","Magical String","-","5.19%","Treant Queen",212
+"Whisker Woods Rift","Medium/High/High","Magical String","-","3.77%","Gilded Leaf",212
+"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","36.58%","Cyclops Barbarian",380
+"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","19.47%","Cherry Sprite",380
+"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","13.42%","Gilded Leaf",380
+"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","7.89%","Spirit of Balance",380
+"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","4.74%","Fungal Frog",380
+"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","4.74%","Karmachameleon",380
+"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","4.47%","Water Sprite",380
+"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","4.47%","Twisted Treant",380
+"Whisker Woods Rift","High/Low/Low","Magical String","Cherry","4.21%","Crazed Goblin",380
+"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","38.65%","Cyclops Barbarian",414
+"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","25.36%","Cherry Sprite",414
+"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","7.49%","Twisted Treant",414
+"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","6.76%","Karmachameleon",414
+"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","5.80%","Fungal Frog",414
+"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","5.56%","Crazed Goblin",414
+"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","5.56%","Spirit of Balance",414
+"Whisker Woods Rift","High/Low/Low","Brie String","Cherry","4.83%","Water Sprite",414
+"Whisker Woods Rift","High/Low/Low","Magical String","-","53.05%","Cyclops Barbarian",279
+"Whisker Woods Rift","High/Low/Low","Magical String","-","10.04%","Water Sprite",279
+"Whisker Woods Rift","High/Low/Low","Magical String","-","7.89%","Fungal Frog",279
+"Whisker Woods Rift","High/Low/Low","Magical String","-","7.53%","Gilded Leaf",279
+"Whisker Woods Rift","High/Low/Low","Magical String","-","6.81%","Spirit of Balance",279
+"Whisker Woods Rift","High/Low/Low","Magical String","-","6.09%","Crazed Goblin",279
+"Whisker Woods Rift","High/Low/Low","Magical String","-","4.30%","Twisted Treant",279
+"Whisker Woods Rift","High/Low/Low","Magical String","-","4.30%","Karmachameleon",279
+"Whisker Woods Rift","High/Low/Low","Brie String","-","55.59%","Cyclops Barbarian",1171
+"Whisker Woods Rift","High/Low/Low","Brie String","-","8.03%","Spirit of Balance",1171
+"Whisker Woods Rift","High/Low/Low","Brie String","-","7.77%","Fungal Frog",1171
+"Whisker Woods Rift","High/Low/Low","Brie String","-","7.69%","Karmachameleon",1171
+"Whisker Woods Rift","High/Low/Low","Brie String","-","7.34%","Crazed Goblin",1171
+"Whisker Woods Rift","High/Low/Low","Brie String","-","7.26%","Water Sprite",1171
+"Whisker Woods Rift","High/Low/Low","Brie String","-","6.32%","Twisted Treant",1171
+"Whisker Woods Rift","High/Medium/Medium","Magical String","-","42.58%","Cyclops Barbarian",209
+"Whisker Woods Rift","High/Medium/Medium","Magical String","-","11.48%","Medicine",209
+"Whisker Woods Rift","High/Medium/Medium","Magical String","-","10.53%","Rift Tiger",209
+"Whisker Woods Rift","High/Medium/Medium","Magical String","-","10.05%","Winged Harpy",209
+"Whisker Woods Rift","High/Medium/Medium","Magical String","-","8.61%","Nomadic Warrior",209
+"Whisker Woods Rift","High/Medium/Medium","Magical String","-","6.70%","Red Coat Bear",209
+"Whisker Woods Rift","High/Medium/Medium","Magical String","-","5.26%","Tree Troll",209
+"Whisker Woods Rift","High/Medium/Medium","Magical String","-","4.78%","Gilded Leaf",209
+"Whisker Woods Rift","High/Medium/High","Magical String","-","41.18%","Cyclops Barbarian",306
+"Whisker Woods Rift","High/Medium/High","Magical String","-","37.91%","Tri-dra",306
+"Whisker Woods Rift","High/Medium/High","Magical String","-","7.84%","Nomadic Warrior",306
+"Whisker Woods Rift","High/Medium/High","Magical String","-","5.88%","Rift Tiger",306
+"Whisker Woods Rift","High/Medium/High","Magical String","-","3.92%","Red Coat Bear",306
+"Whisker Woods Rift","High/Medium/High","Magical String","-","3.27%","Gilded Leaf",306
+"Whisker Woods Rift","High/Medium/High","Brie String","-","41.09%","Tri-dra",129
+"Whisker Woods Rift","High/Medium/High","Brie String","-","40.31%","Cyclops Barbarian",129
+"Whisker Woods Rift","High/Medium/High","Brie String","-","9.30%","Rift Tiger",129
+"Whisker Woods Rift","High/Medium/High","Brie String","-","4.65%","Red Coat Bear",129
+"Whisker Woods Rift","High/Medium/High","Brie String","-","4.65%","Nomadic Warrior",129
+"Whisker Woods Rift","High/High/Medium","Magical String","-","43.32%","Cyclops Barbarian",217
+"Whisker Woods Rift","High/High/Medium","Magical String","-","42.40%","Centaur Ranger",217
+"Whisker Woods Rift","High/High/Medium","Magical String","-","7.83%","Winged Harpy",217
+"Whisker Woods Rift","High/High/Medium","Magical String","-","4.15%","Tree Troll",217
+"Whisker Woods Rift","High/High/Medium","Magical String","-","2.30%","Gilded Leaf",217
+"Whisker Woods Rift","High/High/Medium","Brie String","-","50.00%","Cyclops Barbarian",112
+"Whisker Woods Rift","High/High/Medium","Brie String","-","30.36%","Centaur Ranger",112
+"Whisker Woods Rift","High/High/Medium","Brie String","-","9.82%","Winged Harpy",112
+"Whisker Woods Rift","High/High/Medium","Brie String","-","9.82%","Tree Troll",112
