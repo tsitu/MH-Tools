@@ -22,6 +22,7 @@
     "data/pop-csv/queso-geyser.csv",
     "data/pop-csv/queso-river.csv",
     "data/pop-csv/ronza.csv",
+    "data/pop-csv/ss-huntington.csv",
     "data/pop-csv/toxic-spill.csv"
   ];
 
