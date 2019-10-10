@@ -20,6 +20,7 @@ Angler,2800,35355
 Angry Train Staff,2500,3500
 Aquos,1000,6750
 Arcane Summoner,7000,45000
+Arch Champion Necromancer,6000,100000
 Archer,750,4500
 Armored Archer,800,35000
 Artillery Commander,500000,250000
@@ -45,6 +46,7 @@ Bear,575,310
 Bearded Elder,5000,45000
 Beast Tamer,3125,5000
 Berserker,210,425
+Berzerker,1500,40000
 Betta,2535,28000
 Big Bad Behemoth Burroughs,21000,250000
 Big Bad Burroughs,24500,22700
@@ -78,6 +80,7 @@ Bruticle,5040,16560
 Buccaneer,2750,4290
 Buckethead,1300,900
 Builder,900,12000
+Bulwark of Ascent,12000,80000
 Burglar,1250,1420
 Burly Bruiser,4500,15000
 Cabin Boy,100,270
@@ -106,6 +109,8 @@ Centaur Ranger,22500,150000
 Chamber Cleaver,10000,60000
 Chameleon,550,250
 Champion,3360,13800
+Champion Danseuse,6000,100000
+Champion Thief,6000,100000
 Charming Chimer,4500,42000
 Cheesy Party,1111,1111
 Cherry,3000,6000
@@ -194,12 +199,14 @@ Cupcake Runner,2000,1200
 Cupid,900,875
 Curious Chemist,400,2400
 Cursed,1250,6500
+Cursed Crusader,3000,70000
 Cursed Enchanter,2600,18500
 Cursed Engineer,1900,20500
 Cursed Librarian,3500,19500
 Cursed Taskmaster,8000,40000
 Cursed Thief,2350,22500
 Cute Crate Carrier,6000,4000
+Cutpurse,1250,50000
 Cuttle,1250,11600
 Cyber Miner,4900,39000
 Cybernetic Specialist,4500,27500
@@ -266,6 +273,7 @@ El Flamenco,3000,5000
 Elder,645,11405
 Elf,8090,9920
 Elite Guardian,4205,25500
+Elixir Maker,4250,56000
 Elub Chieftain,7520,16560
 Elub Lich,8272,52992
 Elven Princess,400,2700
@@ -290,6 +298,7 @@ Extreme Everysports,5000,5000
 Factory Technician,2500,2500
 Fairy,930,5775
 Fall Familiar,830,9940
+Fallen Champion Footman,6000,100000
 Falling Carpet,1600,9800
 Farmhand,1400,1000
 Farrier,7000,5000
@@ -458,6 +467,7 @@ Lovely Sports,450,1850
 Lucky,777,777
 Lumahead,1200,32000
 Lumberjack,3000,15500
+Lumi-lancer,1000,30000
 Lunar Red Candle Maker,2222,2888
 Lycan,5500,9250
 Lycanoid,6500,50000
@@ -465,6 +475,7 @@ M400,24400,600000
 Mad Elf,3000,19000
 Mage Weaver,900,29000
 Magic,1250,2000
+Magic Champion,6000,100000
 Magma Carrier,7180,49335
 Magmarage,1000,30000
 Magmatic Crystal Thief,11000,13000
@@ -475,6 +486,7 @@ Manaforge Smith,100000,350000
 Manatee,1250,11600
 Market Guard,8000,22000
 Market Thief,9000,25000
+Martial,1500,58000
 Masked Pikeman,5000,45950
 Master Burglar,2500,4260
 Master Exploder,12000,65000
@@ -528,6 +540,7 @@ Mossy Moosker,8220,55000
 Mouldy Mole,600,20000
 Mountain,1000,3000
 Mousataur Priestess,3250,35000
+Mouse of Elements,2500,65000
 Mouse of Winter Future,5000,10000
 Mouse of Winter Past,5000,10000
 Mouse of Winter Present,5000,10000
@@ -587,6 +600,7 @@ Nutcracker,2000,18000
 Octomermaid,2700,34200
 Old One,2825,36500
 Old Spice Collector,2500,22000
+One-Mouse Band,2000,62000
 Onion Chopper,5000,5000
 Ooze,5400,5500
 Ore Chipper,3800,10000
@@ -626,7 +640,10 @@ Portable Generator,8500,26500
 Portal Paladin,3000,32000
 Portal Plunderer,9000,50000
 Portal Pursuer,2500,28000
+Possessed Armaments,5000,110000
+Praetorian Champion,6000,100000
 Present,900,900
+Prestigious Adventurer,5000,125000
 Primal,5800,16450
 Princess Fist,3550,23125
 Prospector,2000,5500
@@ -638,7 +655,9 @@ Pugilist,600,700
 Pump Raider,1000,15000
 Pumpkin Head,960,4500
 Pumpkin Hoarder,1000,1800
+Puppet Champion,6000,100000
 Puppet Master,210,200
+Puppetto,1000,46550
 Pygmy Wrangler,1250,6500
 Pyrehyde,10000,80000
 Pyrite,5000,20000
@@ -723,6 +742,7 @@ Sentinel,3300,21300
 Serpent Monster,5550,70000
 Serpentine,1650,25250
 Shackled Servant,8000,55000
+Shade of the Eclipse,25000,500000
 Shadow Stalker,700,70000
 Shaman,1300,600
 Shaolin Kung Fu,4000,52000
@@ -773,6 +793,7 @@ Snowblower,200,6775
 Snowflake,3000,5000
 Snowglobe,2000,12600
 Sock Puppet Ghost,210,225
+Soldier of the Shade,8000,150000
 Solemn Soldier,7700,40000
 Soothsayer,3600,9075
 Sorcerer,350,6200
@@ -871,8 +892,10 @@ Telekinetic Mutant,2000,79000
 Tentacle,6000,79000
 Terra,1000,4200
 Terrible Twos,1100,800
+Terrified Adventurer,4795,70000
 Terror Knight,200,8400
 The Menace,10500,125000
+The Total Eclipse,100000,1000000
 Theurgy Warden,3000,81000
 Thirsty,1000,1000
 Thistle,1150,9050
@@ -888,6 +911,7 @@ Time Thief,10000,10000
 Timeless Lich,18000,130000
 Timelost Thaumaturge,7500,70000
 Timeslither Pythoness,20000,100000
+Timid Explorer,1982,25180
 Tiny,450,200
 Tiny Saboteur,900,8500
 Tiny Toppler,2000,16000
@@ -931,6 +955,7 @@ Twisted Hotcakes,3250,15400
 Twisted Lilly,1650,9500
 Twisted Treant,4300,41750
 Undertaker,9000,12000
+Unwavering Adventurer,2000,55000
 Upper Class Lady,8000,4500
 Urchin King,2850,37000
 Vampire,900,1400
@@ -968,6 +993,7 @@ Windy Farmer,2500,42000
 Winged Harpy,11350,72000
 Winter Games,900,3000
 Winter Mage,9400,18065
+Withered Remains,4000,75000
 Wolfskie,1100,8250
 Wordsmith,800,720
 Worker,2200,300

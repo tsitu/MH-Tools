@@ -372,6 +372,12 @@
       } else {
         return "No Bounty";
       }
+    } else if (userLocation === "Valour Rift") {
+      if (userQuests["QuestRiftValour"]["state"] === "farming") {
+        return "Outside";
+      } else if (userQuests["QuestRiftValour"]["state"] === "tower") {
+        return "Floor " + userQuests["QuestRiftValour"]["floor_type"];
+      }
     }
     return "N/A";
   }
@@ -452,7 +458,10 @@
     if (userCheese.indexOf("SUPER|brie+") >= 0) {
       userCheese = "SB+";
     } else if (userCheese.indexOf(" Cheese") >= 0) {
-      if (contains(userCheese, "Gauntlet")) {
+      if (
+        contains(userCheese, "Gauntlet") &&
+        userCheese !== "Gauntlet String Cheese"
+      ) {
         userCheese = userCheese.slice(16, userCheese.length);
         userSublocation = userCheese;
       } else {
@@ -466,11 +475,6 @@
 
   if (userSublocation !== "N/A") {
     urlParams["phase"] = userSublocation;
-  }
-
-  // Weapon edge cases
-  if (urlParams["weapon"] === "Timesplit Dissonance Trap") {
-    urlParams["weapon"] = "Timesplit Dissonance Weapon";
   }
 
   // Denture Base toothlet check

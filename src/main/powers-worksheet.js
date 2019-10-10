@@ -120,7 +120,7 @@ const subcategories = {
     "Storm Dragon"
   ],
   "Rift Walkers": ["Gnawnia Rift", "Burroughs Rift", "Whisker Woods Rift"],
-  "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift"],
+  "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift", "Valour Rift"],
   "The Polluted": ["Misc."],
   "Event Mice": [
     "Great Winter Hunt",
@@ -417,18 +417,18 @@ function calculateBounds(input, trapPower, trapType) {
           break;
         case "Moderate":
           lowerBound = parseFloat((trapPower / 9).toFixed(2));
-          upperBound = parseFloat((trapPower * 7 / 13).toFixed(2));
+          upperBound = parseFloat(((trapPower * 7) / 13).toFixed(2));
           break;
         case "Challenging":
-          lowerBound = parseFloat((trapPower * 7 / 13).toFixed(2));
+          lowerBound = parseFloat(((trapPower * 7) / 13).toFixed(2));
           upperBound = parseFloat(trapPower.toFixed(2));
           break;
         case "Difficult":
           lowerBound = parseFloat(trapPower.toFixed(2));
-          upperBound = parseFloat((trapPower * 13 / 7).toFixed(2));
+          upperBound = parseFloat(((trapPower * 13) / 7).toFixed(2));
           break;
         case "Overpowering":
-          lowerBound = parseFloat((trapPower * 13 / 7).toFixed(2));
+          lowerBound = parseFloat(((trapPower * 13) / 7).toFixed(2));
           upperBound = parseFloat((trapPower * 19).toFixed(2));
           break;
         case "Near Impossible":

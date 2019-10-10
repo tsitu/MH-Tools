@@ -54,7 +54,7 @@ var riftWeapons = [
   "Focused Crystal Laser",
   "Multi-Crystal Laser",
   "Mysteriously unYielding Null-Onyx Rampart of Cascading Amperes",
-  "Timesplit Dissonance Weapon",
+  "Timesplit Dissonance Trap",
   "Wacky Inflatable Party People Trap"
 ];
 
@@ -148,57 +148,57 @@ var tauntings = [
 
 var rage_increase_table = {
   // CC Low
-  "Bloomed Sylvan":        {"Crazed": 1, "Gnarled": 0, "Deep": 0},
-  "Cranky Caterpillar":    {"Crazed": 1, "Gnarled": 0, "Deep": 0},
-  "Mossy Moosker":         {"Crazed": 1, "Gnarled": 0, "Deep": 0},
+  "Bloomed Sylvan": { Crazed: 1, Gnarled: 0, Deep: 0 },
+  "Cranky Caterpillar": { Crazed: 1, Gnarled: 0, Deep: 0 },
+  "Mossy Moosker": { Crazed: 1, Gnarled: 0, Deep: 0 },
 
   // CC Mid
-  "Treant Queen":          {"Crazed": 2, "Gnarled": 0, "Deep": 0},
-  "Spirit Fox":            {"Crazed": 2, "Gnarled": 0, "Deep": 0},
-  "Red-Eyed Watcher Owl":  {"Crazed": 2, "Gnarled": 0, "Deep": 0},
+  "Treant Queen": { Crazed: 2, Gnarled: 0, Deep: 0 },
+  "Spirit Fox": { Crazed: 2, Gnarled: 0, Deep: 0 },
+  "Red-Eyed Watcher Owl": { Crazed: 2, Gnarled: 0, Deep: 0 },
 
   // CC High
-  "Cyclops Barbarian":     {"Crazed": 0, "Gnarled": 0, "Deep": 0},
+  "Cyclops Barbarian": { Crazed: 0, Gnarled: 0, Deep: 0 },
 
   // CC Funnel-only
-  "Cherry Sprite":         {"Crazed": 6, "Gnarled": 0, "Deep": 0},
-    
+  "Cherry Sprite": { Crazed: 6, Gnarled: 0, Deep: 0 },
+
   // GG Low
-  "Spirit of Balance":     {"Crazed": 0, "Gnarled": 1, "Deep": 0},
-  "Fungal Frog":           {"Crazed": 0, "Gnarled": 1, "Deep": 0},
-  "Karmachameleon":        {"Crazed": 0, "Gnarled": 1, "Deep": 0},
+  "Spirit of Balance": { Crazed: 0, Gnarled: 1, Deep: 0 },
+  "Fungal Frog": { Crazed: 0, Gnarled: 1, Deep: 0 },
+  "Karmachameleon": { Crazed: 0, Gnarled: 1, Deep: 0 },
 
   // GG Mid
-  "Red Coat Bear":         {"Crazed": 0, "Gnarled": 2, "Deep": 0},
-  "Rift Tiger":            {"Crazed": 0, "Gnarled": 2, "Deep": 0},
-  "Nomadic Warrior":       {"Crazed": 0, "Gnarled": 2, "Deep": 0},
+  "Red Coat Bear": { Crazed: 0, Gnarled: 2, Deep: 0 },
+  "Rift Tiger": { Crazed: 0, Gnarled: 2, Deep: 0 },
+  "Nomadic Warrior": { Crazed: 0, Gnarled: 2, Deep: 0 },
 
   // GG High
-  "Centaur Ranger":        {"Crazed": 0, "Gnarled": 0, "Deep": 0},
+  "Centaur Ranger": { Crazed: 0, Gnarled: 0, Deep: 0 },
 
   // GG Funnel-only
-  "Naturalist":            {"Crazed": 0, "Gnarled": 6, "Deep": 0},
+  "Naturalist": { Crazed: 0, Gnarled: 6, Deep: 0 },
 
   // DL Low
-  "Twisted Treant":        {"Crazed": 0, "Gnarled": 0, "Deep": 1},
-  "Water Sprite":          {"Crazed": 0, "Gnarled": 0, "Deep": 1},
-  "Crazed Goblin":         {"Crazed": 0, "Gnarled": 0, "Deep": 1},
+  "Twisted Treant": { Crazed: 0, Gnarled: 0, Deep: 1 },
+  "Water Sprite": { Crazed: 0, Gnarled: 0, Deep: 1 },
+  "Crazed Goblin": { Crazed: 0, Gnarled: 0, Deep: 1 },
 
   // DL Mid
-  "Medicine":              {"Crazed": 0, "Gnarled": 0, "Deep": 2},
-  "Tree Troll":            {"Crazed": 0, "Gnarled": 0, "Deep": 2},
-  "Winged Harpy":          {"Crazed": 0, "Gnarled": 0, "Deep": 2},
+  "Medicine": { Crazed: 0, Gnarled: 0, Deep: 2 },
+  "Tree Troll": { Crazed: 0, Gnarled: 0, Deep: 2 },
+  "Winged Harpy": { Crazed: 0, Gnarled: 0, Deep: 2 },
 
   // DL High
-  "Tri-dra":               {"Crazed": 0, "Gnarled": 0, "Deep": 0},
+  "Tri-dra": { Crazed: 0, Gnarled: 0, Deep: 0 },
 
   // DL Funnel-only
-  "Grizzled Silth":        {"Crazed": 0, "Gnarled": 0, "Deep": 6},
- 
+  "Grizzled Silth": { Crazed: 0, Gnarled: 0, Deep: 6 },
+
   // Misc
-  "Gilded Leaf":           {"Crazed": 2, "Gnarled": 2, "Deep": 2},
-  "Monstrous Black Widow": {"Crazed": 0, "Gnarled": 0, "Deep": 0},
-}
+  "Gilded Leaf": { Crazed: 2, Gnarled: 2, Deep: 2 },
+  "Monstrous Black Widow": { Crazed: 0, Gnarled: 0, Deep: 0 }
+};
 
 var brutes = ["Snow Bowler", "Yeti", "Mammoth"];
 var bombSquad = ["Saboteur", "Stickybomber", "Heavy Blaster"];
@@ -434,6 +434,7 @@ var basesArray = {
   "Pig Jade Base": [375, 12, 10, 10, "Stale"],
   "Polar Base": [200, 10, 0, 4, "Insanely Fresh"],
   "Polluted Base": [500, 10, 0, 5, "Stale"],
+  "Prestige Base": [490, 20, 0, 5, "No Effect"],
   "Refined Pollutinum Base": [500, 12, 5, 10, "No Effect"],
   "Remote Detonator Base": [300, 10, 10, 4, "Stale"],
   "Rift Base": [250, 12, 0, 11, "Fresh"],
@@ -491,6 +492,7 @@ var weaponsArray = {
   "Bubbles: The Party Crasher Trap": ["Hydro", 5800, 18, 8, 8, "Very Stale"],
   "Cackle Lantern Trap": ["Shadow", 2200, 5, 10, 12, "Extremely Stale"],
   "Candy Crusher Trap": ["Shadow", 2000, 3, 15, 15, "No Effect"],
+  "Celestial Dissonance Trap": ["Rift", 3500, 12, 10, 10, "Fresh"],
   "Chesla's Revenge": ["Tactical", 5000, 2, 10, 16, "Extremely Fresh"],
   "Christmas Cactus Trap": ["Law", 1800, 5, 15, 4, "Fresh"],
   "Christmas Cracker Trap": ["Physical", 3000, 15, 5, 24, "Very Fresh"],
@@ -641,7 +643,7 @@ var weaponsArray = {
   "The Forgotten Art of Dance": ["Forgotten", 5000, 12, 6, 6, "No Effect"],
   "The Law Draw": ["Law", 1100, 5, 20, 5, "Fresh"],
   "Thorned Venus Mouse Trap": ["Tactical", 3400, 5, 2, 14, "Very Fresh"],
-  "Timesplit Dissonance Weapon": ["Rift", 3000, 10, 10, 7, "No Effect"],
+  "Timesplit Dissonance Trap": ["Rift", 3000, 10, 10, 7, "No Effect"],
   "Ultra MegaMouser MechaBot Trap": ["Physical", 2250, 5, 15, 8, "No Effect"],
   "Veiled Vine Trap": ["Tactical", 3500, 12, 0, 20, "Very Stale"],
   "Venus Mouse Trap": ["Tactical", 1900, 0, 5, 5, "Extremely Fresh"],
@@ -777,9 +779,11 @@ var charmsArray = {
   "Rift Antiskele Charm": [0, 0, 0, 0, "No Effect"],
   "Rift Charm": [100, 1, 0, 0, "Stale"],
   "Rift Extreme Luck Charm": [0, 0, 0, 5, "No Effect"],
+  "Rift Extreme Power Charm": [1200, 12, 0, 0, "No Effect"],
   "Rift Luck Charm": [0, 0, 0, 1, "No Effect"],
   "Rift Power Charm": [500, 5, 0, 0, "No Effect"],
   "Rift Super Luck Charm": [0, 0, 0, 3, "No Effect"],
+  "Rift Super Power Charm": [750, 8, 0, 0, "No Effect"],
   "Rift Ultimate Luck Charm": [0, 0, 0, 20, "No Effect"],
   "Rift Ultimate Lucky Power Charm": [2400, 20, 0, 20, "No Effect"],
   "Rift Ultimate Power Charm": [2400, 20, 0, 0, "No Effect"],

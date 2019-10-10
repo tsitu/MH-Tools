@@ -33,10 +33,6 @@
           return el.classification === "weapon" && el.quantity > 0;
         })
         .map(function(el) {
-          // Weapon edge cases
-          if (el.name === "Timesplit Dissonance Trap") {
-            return "Timesplit Dissonance Weapon";
-          }
           return el.name;
         });
 
