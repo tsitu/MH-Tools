@@ -464,7 +464,7 @@ function calculateTrapSetup(skipDisp) {
         cheeseBonus +
         bonusPower) /
         100;
-    var totalPourBonus = 1 + pourBonus / 100 * (1 + setupPowerBonus / 100);
+    var totalPourBonus = 1 + (pourBonus / 100) * (1 + setupPowerBonus / 100);
     subtotalPowerBonus = setupPowerBonus + shownPowerBonus + cheeseBonus; // Bonus Power %
 
     return Math.ceil(
@@ -591,7 +591,7 @@ function findBaselineAttraction(cheese) {
 
 function getCheeseAttraction() {
   var baselineAtt = findBaselineAttraction(cheeseName);
-  return baselineAtt + trapAtt / 100 - trapAtt / 100 * baselineAtt;
+  return baselineAtt + trapAtt / 100 - (trapAtt / 100) * baselineAtt;
 }
 
 function gsParamCheck() {
@@ -815,7 +815,16 @@ function loadDropdown(category, array, callback, initialHtml) {
   if (category === "charm" && recentCharm) {
     inputElement.value = recentCharm;
   } else {
-    inputElement.value = getURLParameter(category);
+    var paramVal = getURLParameter(category);
+
+    if (category === "weapon") {
+      // Weapon edge cases
+      if (paramVal === "Ambush Trap") {
+        inputElement.value = "Ambush";
+      }
+    } else {
+      inputElement.value = paramVal;
+    }
   }
 
   if (inputElement.selectedIndex === -1) {
@@ -1412,8 +1421,7 @@ function calcCRMods(catchRate, mouseName) {
 
 function checkLoadState(type) {
   var loadPercentage = (
-    (popLoaded + wisdomLoaded + sampleLoaded + gpLoaded + peLoaded) /
-    5 *
+    ((popLoaded + wisdomLoaded + sampleLoaded + gpLoaded + peLoaded) / 5) *
     100
   ).toFixed(0);
   var status = document.getElementById("status");
