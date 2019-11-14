@@ -34,6 +34,7 @@ var charmPower = 0,
 
 // Misc bonuses
 var gsLuck = 7,
+  ztAmp = 100,
   bonusPower = 0,
   bonusLuck = 0,
   pourBonus = 0,
@@ -42,7 +43,9 @@ var gsLuck = 7,
   cheeseBonus = 0,
   cheeseCost = 0,
   subtotalPowerBonus = 0,
-  tauntBonus = 0;
+  tauntBonus = 0,
+  saltLevel = 0,
+  umbraFloor = 0;
 
 // Total trap stats
 var trapPower = 0,
@@ -65,16 +68,11 @@ var baseName = "",
   recentCharm = "",
   recentCheese = "";
 
-/**
- * Initialize Fort Rox ballista and cannon levels
- */
+// Initialize Fort Rox Ballista and Cannon levels
 var fortRox = {
   ballistaLevel: 0,
   cannonLevel: 0
 };
-
-// Initialize Sand Crypts salt level
-var saltLevel = 0;
 
 /**
  * Returns the size of an object based on its length or number of keys
@@ -242,6 +240,8 @@ function calculateTrapSetup(skipDisp) {
       golemCharge = parseFloat((golemCharge / 100).toFixed(3));
       calcGolemStats(golemCharge);
     }
+
+    if (baseName === "Prestige Base") calcPrestigeStats();
 
     // Handle special bonuses that are based on location
     locationSpecificEffects();
@@ -464,7 +464,7 @@ function calculateTrapSetup(skipDisp) {
         cheeseBonus +
         bonusPower) /
         100;
-    var totalPourBonus = 1 + pourBonus / 100 * (1 + setupPowerBonus / 100);
+    var totalPourBonus = 1 + (pourBonus / 100) * (1 + setupPowerBonus / 100);
     subtotalPowerBonus = setupPowerBonus + shownPowerBonus + cheeseBonus; // Bonus Power %
 
     return Math.ceil(
@@ -591,7 +591,7 @@ function findBaselineAttraction(cheese) {
 
 function getCheeseAttraction() {
   var baselineAtt = findBaselineAttraction(cheeseName);
-  return baselineAtt + trapAtt / 100 - trapAtt / 100 * baselineAtt;
+  return baselineAtt + trapAtt / 100 - (trapAtt / 100) * baselineAtt;
 }
 
 function gsParamCheck() {
@@ -631,6 +631,10 @@ function fortRoxParamCheck() {
 
 function sandCryptsParamCheck() {
   updateInputFromParameter("saltLevel", saltChanged);
+}
+
+function valourRiftParamCheck() {
+  updateInputFromParameter("umbraFloor", umbraChanged);
 }
 
 function getRankKey() {
@@ -815,7 +819,15 @@ function loadDropdown(category, array, callback, initialHtml) {
   if (category === "charm" && recentCharm) {
     inputElement.value = recentCharm;
   } else {
-    inputElement.value = getURLParameter(category);
+    var paramVal = getURLParameter(category);
+    inputElement.value = paramVal;
+
+    if (category === "weapon") {
+      // Weapon edge cases
+      if (paramVal === "Ambush Trap") {
+        inputElement.value = "Ambush";
+      }
+    }
   }
 
   if (inputElement.selectedIndex === -1) {
@@ -864,6 +876,11 @@ function gsChanged() {
 
 function saltChanged() {
   saltLevel = document.getElementById("saltLevel").value;
+  genericOnChange();
+}
+
+function umbraChanged() {
+  umbraFloor = document.getElementById("umbraFloor").value;
   genericOnChange();
 }
 
@@ -1412,8 +1429,7 @@ function calcCRMods(catchRate, mouseName) {
 
 function checkLoadState(type) {
   var loadPercentage = (
-    (popLoaded + wisdomLoaded + sampleLoaded + gpLoaded + peLoaded) /
-    5 *
+    ((popLoaded + wisdomLoaded + sampleLoaded + gpLoaded + peLoaded) / 5) *
     100
   ).toFixed(0);
   var status = document.getElementById("status");
@@ -1451,6 +1467,7 @@ function checkLoadState(type) {
     riftstalkerParamCheck();
     fortRoxParamCheck();
     sandCryptsParamCheck();
+    valourRiftParamCheck();
     rankParamCheck();
     golemParamCheck();
 
@@ -1636,4 +1653,16 @@ function calcSaltedPower(type, mousePower) {
   }
 
   return saltedPower;
+}
+
+/**
+ * Calculate Prestige Base bonus stats
+ * @param {number} umbraFloor Highest Umbra Floor reached (0-200)
+ */
+function calcPrestigeStats() {
+  // Initial: 490 Power, 20% Power Bonus, 0% Attraction Bonus, 5 Luck, No Effect
+  if (umbraFloor > 0 && umbraFloor <= 200) {
+    basePower = 490 + umbraFloor * 10;
+    baseLuck = 5 + Math.floor((umbraFloor - 1) / 8);
+  }
 }

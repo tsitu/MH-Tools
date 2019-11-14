@@ -5,6 +5,7 @@
  * 2018-11-29: Manually added Crimson
  * 2019-06-26: Manually added Rockforth
  * 2019-09-01: Updated all cheeses via 19 Jul data (should be 112/115 total)
+ * 2019-10-08: Manually added Gauntlet String guesstimate
  */
 
 // prettier-ignore
@@ -41,6 +42,7 @@ var baselineAttArray = {
   "Flamin' Queso": 0.9992, // Sample: 97765 (Excellent)
   "Fusion Fondue": 0.9722, // Sample: 616 (Medium)
   "Galleon Gouda": 0.9423, // Sample: 5797 (High)
+  "Gauntlet String": 0.9900, // Manual guesstimate as of 2019-10-08
   "Tier 2": 0.9636, // Sample: 8193 (High)
   "Tier 3": 0.9696, // Sample: 14278 (Very High)
   "Tier 4": 0.9811, // Sample: 7166 (High)

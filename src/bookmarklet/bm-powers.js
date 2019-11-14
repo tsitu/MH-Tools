@@ -150,7 +150,7 @@
       "Storm Dragon"
     ],
     "Rift Walkers": ["Gnawnia Rift", "Burroughs Rift", "Whisker Woods Rift"],
-    "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift"],
+    "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift", "Valour Rift"],
     "The Polluted": ["Misc."],
     "Event Mice": [
       "Great Winter Hunt",

@@ -1,6 +1,6 @@
 (function() {
   if (!window.jQuery) {
-    alert("jQuery does not seem to be enabled on this page");
+    alert("jQuery is not enabled on this page");
     return;
   }
 
@@ -11,28 +11,40 @@
     last_read_journal_entry_id: lastReadJournalEntryId
   };
 
-  // Extract map mice from a map
-  function getMapMice(data, uncaught_only) {
-    var mice = [];
-    $.each(data.treasure_map.groups, function(key, group) {
-      if (uncaught_only && group.name.indexOf("Uncaught mice ") === -1) {
-        return;
-      }
-
-      $.each(group.goals, function(key, mouse) {
-        // Thunderlord lightning emoji edge case
-        if (mouse.name.indexOf("Thunderlord") !== -1) {
-          mice.push("Thunderlord");
-        } else {
-          mice.push(mouse.name);
+  function getUncaughtMapMice(map) {
+    // Gather IDs of caught mice
+    var caughtMice = {};
+    if (map.hunters.length > 0) {
+      map.hunters.forEach(function(el) {
+        var hunterMice = el.completed_goal_ids.mouse;
+        if (hunterMice.length > 0) {
+          hunterMice.forEach(function(mouseID) {
+            caughtMice[mouseID] = 0;
+          });
         }
       });
-    });
-    return mice;
+    }
+
+    // Check for existence in caughtMice before pushing
+    var uncaughtMice = [];
+    if (map.goals.mouse.length > 0) {
+      map.goals.mouse.forEach(function(el) {
+        if (caughtMice[el.unique_id] === undefined) {
+          // Thunderlord lightning emoji edge case
+          if (el.name.indexOf("Thunderlord") !== -1) {
+            uncaughtMice.push("Thunderlord");
+          } else {
+            uncaughtMice.push(el.name);
+          }
+        }
+      });
+    }
+
+    return uncaughtMice;
   }
 
   $.post(
-    "https://www.mousehuntgame.com/managers/ajax/users/relichunter.php",
+    "https://www.mousehuntgame.com/managers/ajax/users/treasuremap.php",
     payload,
     null,
     "json"
@@ -45,7 +57,7 @@
         return;
       }
 
-      var mice = getMapMice(data, true);
+      var mice = getUncaughtMapMice(data.treasure_map);
       var url = "https://tsitu.github.io/MH-Tools/map.html";
       url += "?mice=" + encodeURIComponent(mice.join("/"));
       var newWindow = window.open("", "mhmapsolver");

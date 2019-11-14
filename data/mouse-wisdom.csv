@@ -20,6 +20,7 @@ Angler,5657
 Angry Train Staff,850
 Aquos,675
 Arcane Summoner,9000
+Arch Champion Necromancer,15000
 Archer,450
 Armored Archer,4500
 Artillery Commander,50000
@@ -45,6 +46,7 @@ Bear,60
 Bearded Elder,6750
 Beast Tamer,500
 Berserker,43
+Berzerker,6000
 Betta,4480
 Big Bad Behemoth Burroughs,30000
 Big Bad Burroughs,2270
@@ -78,6 +80,7 @@ Bruticle,2484
 Buccaneer,429
 Buckethead,90
 Builder,750
+Bulwark of Ascent,12000
 Burglar,142
 Burly Bruiser,2250
 Cabin Boy,25
@@ -106,6 +109,8 @@ Centaur Ranger,50000
 Chamber Cleaver,10000
 Chameleon,60
 Champion,1380
+Champion Danseuse,15000
+Champion Thief,15000
 Charming Chimer,6300
 Cheesy Party,150
 Cherry,900
@@ -194,12 +199,14 @@ Cupcake Runner,300
 Cupid,88
 Curious Chemist,240
 Cursed,1000
+Cursed Crusader,10500
 Cursed Enchanter,2800
 Cursed Engineer,3100
 Cursed Librarian,4000
 Cursed Taskmaster,6000
 Cursed Thief,3400
 Cute Crate Carrier,800
+Cutpurse,7500
 Cuttle,1856
 Cyber Miner,7400
 Cybernetic Specialist,5800
@@ -266,6 +273,7 @@ El Flamenco,750
 Elder,1141
 Elf,1985
 Elite Guardian,4080
+Elixir Maker,7500
 Elub Chieftain,1656
 Elub Lich,5300
 Elven Princess,270
@@ -290,6 +298,7 @@ Extreme Everysports,500
 Factory Technician,500
 Fairy,578
 Fall Familiar,1491
+Fallen Champion Footman,15000
 Falling Carpet,1470
 Farmhand,100
 Farrier,750
@@ -458,6 +467,7 @@ Lovely Sports,300
 Lucky,78
 Lumahead,6400
 Lumberjack,2325
+Lumi-lancer,4500
 Lunar Red Candle Maker,300
 Lycan,925
 Lycanoid,6600
@@ -465,6 +475,7 @@ M400,120000
 Mad Elf,3800
 Mage Weaver,4500
 Magic,200
+Magic Champion,15000
 Magma Carrier,4934
 Magmarage,4800
 Magmatic Crystal Thief,1750
@@ -475,6 +486,7 @@ Manaforge Smith,70000
 Manatee,1856
 Market Guard,2200
 Market Thief,3750
+Martial,8700
 Masked Pikeman,6893
 Master Burglar,426
 Master Exploder,7600
@@ -528,6 +540,7 @@ Mossy Moosker,7500
 Mouldy Mole,4000
 Mountain,600
 Mousataur Priestess,5500
+Mouse of Elements,9750
 Mouse of Winter Future,1500
 Mouse of Winter Past,1500
 Mouse of Winter Present,1500
@@ -587,6 +600,7 @@ Nutcracker,3600
 Octomermaid,5472
 Old One,5840
 Old Spice Collector,3300
+One-Mouse Band,9300
 Onion Chopper,750
 Ooze,550
 Ore Chipper,3150
@@ -626,7 +640,10 @@ Portable Generator,5000
 Portal Paladin,4000
 Portal Plunderer,7000
 Portal Pursuer,4000
+Possessed Armaments,16635
+Praetorian Champion,15000
 Present,135
+Prestigious Adventurer,33230
 Primal,1645
 Princess Fist,3450
 Prospector,900
@@ -638,7 +655,9 @@ Pugilist,70
 Pump Raider,2250
 Pumpkin Head,338
 Pumpkin Hoarder,270
+Puppet Champion,15000
 Puppet Master,30
+Puppetto,6983
 Pygmy Wrangler,1300
 Pyrehyde,12000
 Pyrite,1000
@@ -723,6 +742,7 @@ Sentinel,3408
 Serpent Monster,15200
 Serpentine,3800
 Shackled Servant,7000
+Shade of the Eclipse,75000
 Shadow Stalker,10500
 Shaman,60
 Shaolin Kung Fu,10000
@@ -773,6 +793,7 @@ Snowblower,1355
 Snowflake,1000
 Snowglobe,1890
 Sock Puppet Ghost,23
+Soldier of the Shade,55328
 Solemn Soldier,6000
 Soothsayer,908
 Sorcerer,620
@@ -871,8 +892,10 @@ Telekinetic Mutant,15800
 Tentacle,15800
 Terra,420
 Terrible Twos,80
+Terrified Adventurer,10500
 Terror Knight,840
 The Menace,25000
+The Total Eclipse,150000
 Theurgy Warden,15000
 Thirsty,150
 Thistle,1400
@@ -888,6 +911,7 @@ Time Thief,10000
 Timeless Lich,25000
 Timelost Thaumaturge,9000
 Timeslither Pythoness,15000
+Timid Explorer,3777
 Tiny,35
 Tiny Saboteur,1350
 Tiny Toppler,2400
@@ -931,6 +955,7 @@ Twisted Hotcakes,2400
 Twisted Lilly,1700
 Twisted Treant,6000
 Undertaker,1800
+Unwavering Adventurer,8250
 Upper Class Lady,675
 Urchin King,5920
 Vampire,270
@@ -968,6 +993,7 @@ Windy Farmer,6300
 Winged Harpy,12000
 Winter Games,300
 Winter Mage,2710
+Withered Remains,11250
 Wolfskie,1235
 Wordsmith,72
 Worker,35

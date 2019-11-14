@@ -53,6 +53,7 @@ $(window).load(function() {
   document.getElementById("ballistaLevel").onchange = genericOnChange;
   document.getElementById("cannonLevel").onchange = genericOnChange;
   document.getElementById("saltLevel").onchange = saltChanged;
+  document.getElementById("umbraFloor").onchange = umbraChanged;
   document.getElementById("riftstalker").onchange = riftstalkerChange;
   document.getElementById("rank").onchange = rankChange;
 
@@ -416,6 +417,7 @@ function updateLink() {
     ballistaLevel: fortRox.ballistaLevel,
     cannonLevel: fortRox.cannonLevel,
     saltLevel: saltLevel,
+    umbraFloor: umbraFloor,
     rank: rank,
     amplifier: ztAmp
   };
@@ -582,7 +584,7 @@ function buildOverallCR(
     if (rank) {
       // handle missing data
       if (mouseWisdom[mouse]) {
-        overallProgress += mouseWisdom[mouse] / rankupDiff[rank] * catches;
+        overallProgress += (mouseWisdom[mouse] / rankupDiff[rank]) * catches;
       }
     }
   }
@@ -623,7 +625,7 @@ function buildMiceCRCells(micePopulation) {
     if (rank) {
       // handle missing data
       if (mouseWisdom[mouse]) {
-        overallProgress += mouseWisdom[mouse] / rankupDiff[rank] * catches;
+        overallProgress += (mouseWisdom[mouse] / rankupDiff[rank]) * catches;
       }
     }
     html += "<td align='center'>" + catches.toFixed(2) + "</td>";
@@ -632,7 +634,8 @@ function buildMiceCRCells(micePopulation) {
   html += "<td align='center'>" + overallCR.toFixed(2) + "</td>";
   if (rank) {
     // numbers are usually 0.00##% per hunt, but per 100 hunts is consistent with values shown
-    html += "<td align='center'>" + (overallProgress * 100).toFixed(2) + "%</td>";
+    html +=
+      "<td align='center'>" + (overallProgress * 100).toFixed(2) + "%</td>";
   }
   return html;
 }
@@ -706,7 +709,8 @@ function printCombinations(micePopulation, headerHtml) {
     tableHTML += "<td align='center'>" + obj["cr"].toFixed(2) + "</td>";
     if (rank) {
       // numbers are usually 0.00##% per hunt, but per 100 hunts is consistent with values shown
-      tableHTML += "<td align='center'>" + (obj["rank"] * 100).toFixed(2) + "%</td>";
+      tableHTML +=
+        "<td align='center'>" + (obj["rank"] * 100).toFixed(2) + "%</td>";
     }
   }
   $("#results").html(tableHTML);
@@ -790,6 +794,7 @@ function getCRELinkElement() {
       ballistaLevel: fortRox.ballistaLevel,
       cannonLevel: fortRox.cannonLevel,
       saltLevel: saltLevel,
+      umbraFloor: umbraFloor,
       rank: rank,
       amplifier: ztAmp
     };

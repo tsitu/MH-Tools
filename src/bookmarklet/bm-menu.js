@@ -50,7 +50,7 @@
 
     var descriptionSpan = document.createElement("span");
     descriptionSpan.innerHTML =
-      "Version 1.5.2 / Using <a href='https://www.jsdelivr.com/?docs=gh' target='blank'>jsDelivr</a>";
+      "Version 1.6.0 / Using <a href='https://www.jsdelivr.com/?docs=gh' target='blank'>jsDelivr</a>";
     var loaderSpanTimestamp = document.createElement("span");
     loaderSpanTimestamp.style.fontSize = "10px";
     loaderSpanTimestamp.style.fontStyle = "italic";
@@ -211,23 +211,56 @@
     mainDiv.style.textAlign = "center";
     document.body.appendChild(mainDiv);
     dragElement(document.getElementById("mht-bookmarklet-loader"));
+    locationQuickWiki();
+  }
 
-    function loadBookmarklet(type) {
-      var el = document.createElement("script");
-      var cdn =
-        "https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@" +
-        sha +
-        "/src/bookmarklet/bm-" +
-        type +
-        ".min.js";
-      el.src = cdn;
-      document.body.appendChild(el);
-      el.onload = function() {
-        el.remove();
+  /**
+   * Adds a click handler to HUD location name that opens corresponding MHWiki link
+   */
+  function locationQuickWiki() {
+    const locationEl = document.querySelector(".mousehuntHud-environmentName");
+    if (locationEl && !locationEl.onclick) {
+      locationEl.onclick = function() {
+        const locationName = user.location;
+        var newWindow = window.open("");
+        newWindow.location = `https://mhwiki.hitgrab.com/wiki/index.php/${locationName.replace(
+          " ",
+          "_"
+        )}`;
       };
+      locationEl.style.cursor = "pointer";
+
+      // innerHTML is more elegant but impractical since the game updates it on location changes
+      // locationEl.innerHTML = `<a href='https://mhwiki.hitgrab.com/wiki/index.php/${locationName.replace(
+      //   " ",
+      //   "_"
+      // )}' target='_blank'>${locationEl.innerHTML}</a>`;
     }
   }
 
+  /**
+   * Fetches & executes specified bookmarklet variant
+   * @param {string} type
+   */
+  function loadBookmarklet(type) {
+    var el = document.createElement("script");
+    var cdn =
+      "https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@" +
+      sha +
+      "/src/bookmarklet/bm-" +
+      type +
+      ".min.js";
+    el.src = cdn;
+    document.body.appendChild(el);
+    el.onload = function() {
+      el.remove();
+    };
+  }
+
+  /**
+   * Element dragging functionality
+   * @param {HTMLElement} el
+   */
   function dragElement(el) {
     var pos1 = 0,
       pos2 = 0,

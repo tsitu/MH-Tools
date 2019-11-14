@@ -60,6 +60,7 @@ window.onload = function() {
   document.getElementById("ballistaLevel").onchange = genericOnChange;
   document.getElementById("cannonLevel").onchange = genericOnChange;
   document.getElementById("saltLevel").onchange = saltChanged;
+  document.getElementById("umbraFloor").onchange = umbraChanged;
   document.getElementById("riftstalker").onchange = riftstalkerChange;
   document.getElementById("rank").onchange = rankChange;
 
@@ -721,6 +722,7 @@ function updateLink() {
     ballistaLevel: fortRox.ballistaLevel,
     cannonLevel: fortRox.cannonLevel,
     saltLevel: saltLevel,
+    umbraFloor: umbraFloor,
     rank: rank,
     amplifier: ztAmp
   };
