@@ -430,7 +430,7 @@
   /**
    * Controls the names and values placed in URL
    */
-  var userLocation = user["location"];
+  var userLocation = user["environment_name"];
   var userBase = user["base_name"];
 
   var urlParams = {};
