@@ -1698,8 +1698,8 @@ function calcSaltedPower(type, mousePower) {
 function calcPrestigeStats() {
   // Initial: 490 Power, 20% Power Bonus, 0% Attraction Bonus, 5 Luck, No Effect
   if (umbraFloor > 0 && umbraFloor <= 200) {
-    basePower = 490 + umbraFloor * 10;
-    baseLuck = 5 + Math.floor((umbraFloor - 1) / 8);
+    basePower = 490 + umbraFloor * 20;
+    baseLuck = 5 + Math.floor((umbraFloor - 1) / 8) * 2;
   }
 }
 
