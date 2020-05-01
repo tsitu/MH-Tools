@@ -505,9 +505,9 @@ function calculateTrapSetup(skipDisp) {
     if (tauntBonus === 1) riftCount += 1;
 
     if (riftCount === 2) {
-      shownPowerBonus += 10 * multiplier;
+      shownPowerBonus += 20 * multiplier;
     } else if (riftCount === 3) {
-      shownPowerBonus += 10 * multiplier;
+      shownPowerBonus += 20 * multiplier;
       specialLuck += 5 * multiplier;
     }
   }
