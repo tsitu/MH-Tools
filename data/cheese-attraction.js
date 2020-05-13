@@ -104,6 +104,7 @@ var baselineAttArray = {
   "Rumble": 0.9900, // Guesstimate | Calculated: 0.9885, Sample: 17161 (Very High)
   "Runic": 0.9644, // Sample: 41123 (Excellent)
   "Runic String": 0.9996, // Sample: 333103 (Excellent)
+  "Runny": 0.9900, // Sample: 4929 (High)
   "SB+": 0.9986, // Sample: 577274 (Excellent)
   "Seasoned Gouda": 0.8482, // Sample: 4275 (High)
   "Shell": 0.9850, // Guesstimate | Calculated: 0.9855, Sample: 11346 (Very High)
