@@ -550,9 +550,9 @@
     document
       .querySelectorAll(".campPage-trap-trapStat-mathRow-name")
       .forEach(el => {
-        if (el.textContent.indexOf("(Highest Umbra Floor") >= 0)
+        if (el.textContent.indexOf("(Floor") >= 0)
           urlParams["umbraFloor"] = +el.textContent
-            .split("(Highest Umbra Floor: ")[1]
+            .split("(Floor")[1]
             .split(")")[0];
       });
   }
