@@ -1,7 +1,7 @@
 (function main() {
   if (
     location.href.indexOf(
-      "https://www.mousehuntgame.com/inventory.php?tab=crafting&subtab=crafting_table"
+      "https://www.mousehuntgame.com/inventory.php?tab=crafting&sub_tab=crafting_table"
     ) < 0
   ) {
     alert("Please navigate to Inventory -> Crafting -> Crafting Table");
