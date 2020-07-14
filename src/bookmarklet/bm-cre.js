@@ -75,6 +75,7 @@
         : tierMapping[tier];
     } else if (userLocation === "Fiery Warpath") {
       var wave = userViewingAtts["desert_warpath"]["wave"];
+      if (wave === "portal") return "Portal";
       return "Wave " + wave;
     } else if (userLocation === "Fort Rox") {
       var fortRoxQuest = userQuests["QuestFortRox"];
