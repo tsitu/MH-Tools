@@ -94,6 +94,8 @@
           stage_five: "First Light"
         };
         return stages[stage];
+      } else if (tmpPhase === "lair") {
+        return "Portal";
       } else {
         return tmpPhase;
       }
