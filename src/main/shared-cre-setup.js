@@ -1487,16 +1487,6 @@ function checkLoadState(type) {
       weaponChanged();
       baseName = getURLParameter("base");
       baseChanged();
-
-      // Remove 'Event' from location dropdown
-      var locDropdown = document.querySelector("#location");
-      if (locDropdown) {
-        for (var i = 0; i < locDropdown.length; i++) {
-          if (locDropdown[i].textContent === "Event") {
-            locDropdown[i].remove();
-          }
-        }
-      }
     }
 
     gsParamCheck();

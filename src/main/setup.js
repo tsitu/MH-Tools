@@ -522,6 +522,14 @@ function getPopulation(selectedCharm) {
     returnObj[dynMouse] = charmObj[mouse];
   });
 
+  // Generate placeholder Event ARs (simply 100% / number of mice)
+  if (locationName === "Event") {
+    var evenAR = 100 / Object.keys(returnObj).length;
+    Object.keys(returnObj).forEach(function(mouse) {
+      returnObj[mouse] = evenAR;
+    });
+  }
+
   return returnObj;
 }
 
