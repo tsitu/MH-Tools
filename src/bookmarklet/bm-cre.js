@@ -536,14 +536,14 @@
   }
 
   // Denture Base toothlet check
-  if (urlParams["base"] === "Denture Base") {
+  if (urlParams["base"].indexOf("Denture Base") >= -1) {
     if (
       document
         .querySelector(".mousehuntHud-userStat.trap.base > .icon")
         .getAttribute("style")
         .indexOf("vteeth") >= 0
     ) {
-      urlParams["base"] = "Denture Base (Toothlet Charged)";
+      urlParams["base"] += " (Empowered)";
     }
   }
 

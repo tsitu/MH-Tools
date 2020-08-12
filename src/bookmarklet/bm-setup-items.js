@@ -23,9 +23,12 @@
           return el.name;
         });
 
-      // Auto-add Denture Base (Toothlet Charged)
+      // Auto-add Denture Base variants
       if (bases.indexOf("Denture Base") >= 0) {
-        bases.push("Denture Base (Toothlet Charged)");
+        bases.push("Denture Base (Empowered)");
+      }
+      if (bases.indexOf("Signature Series Denture Base") >= 0) {
+        bases.push("Signature Series Denture Base (Empowered)");
       }
 
       var weapons = arr
