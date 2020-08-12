@@ -48,6 +48,7 @@ var standardCheeseCost = {
 var riftWeapons = [
   "Biomolecular Re-atomizer Trap",
   "Celestial Dissonance Trap",
+  "Chrome Celestial Dissonance Trap",
   "Christmas Crystalabra Trap",
   "Crystal Tower",
   "Focused Crystal Laser",
