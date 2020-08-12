@@ -535,15 +535,15 @@
     urlParams["phase"] = userSublocation;
   }
 
-  // Denture Base toothlet check
+  // Denture Base empowered check
   if (urlParams["base"].indexOf("Denture Base") >= -1) {
-    if (
-      document
-        .querySelector(".mousehuntHud-userStat.trap.base > .icon")
-        .getAttribute("style")
-        .indexOf("vteeth") >= 0
-    ) {
-      urlParams["base"] += " (Empowered)";
+    var baseIcon = document.querySelector(
+      ".mousehuntHud-userStat.trap.base > .icon"
+    );
+    if (baseIcon) {
+      if (baseIcon.getAttribute("style").indexOf("vteeth") >= 0) {
+        urlParams["base"] += " (Empowered)";
+      }
     }
   }
 
