@@ -524,7 +524,7 @@
   }
 
   // Denture Base empowered check
-  if (urlParams["base"].indexOf("Denture Base") >= -1) {
+  if (urlParams["base"].indexOf("Denture Base") > -1) {
     var baseIcon = document.querySelector(
       ".mousehuntHud-userStat.trap.base > .icon"
     );
