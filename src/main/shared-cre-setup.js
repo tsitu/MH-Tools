@@ -552,8 +552,8 @@ function calculateTrapSetup(skipDisp) {
 function calcCR(effectiveness, trapPower, trapLuck, mousePower) {
   var catchRate =
     (effectiveness * trapPower +
-      (3 - Math.min(effectiveness, 2)) *
-        Math.pow(Math.min(effectiveness, 2) * trapLuck, 2)) /
+      (2 *
+        Math.pow(Math.min(effectiveness, 1.4) * trapLuck, 2)) /
     (effectiveness * trapPower + mousePower);
   return Math.min(catchRate, 1);
 }
@@ -567,9 +567,7 @@ function calcCR(effectiveness, trapPower, trapLuck, mousePower) {
  */
 function minLuck(effectiveness, mousePower) {
   var finalEffectiveness = Math.min(effectiveness, 2);
-  var minLuckSquared =
-    mousePower / (3 - finalEffectiveness) / Math.pow(finalEffectiveness, 2);
-  return Math.ceil(Math.sqrt(minLuckSquared));
+  return Math.ceil(Math.ceil(Math.sqrt(finalEffectiveness/2)) / Math.min(1.4, effectiveness));
 }
 
 /**
