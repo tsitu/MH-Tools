@@ -531,6 +531,11 @@
     urlParams["cheese"] = userCheese;
   }
 
+  // Weapon edge cases
+  if (urlParams["weapon"] === "School of Sharks Trap") {
+    urlParams["weapon"] = "School of Sharks";
+  }
+
   if (userSublocation !== "N/A") {
     urlParams["phase"] = userSublocation;
   }

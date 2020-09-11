@@ -634,7 +634,7 @@ var weaponsArray = {
   "Sandstorm MonstroBot": ["Physical", 8000, 20, 5, 27, "No Effect"],
   "Sandtail Sentinel": ["Physical", 6800, 17, 10, 25, "No Effect"],
   "Scarlet Ember Root Trap": ["Forgotten", 6000, 3, 10, 7, "Very Stale"],
-  "School of Sharks Trap": ["Hydro", 9850, 15, 20, 30, "Extremely Fresh"],
+  "School of Sharks": ["Hydro", 9850, 15, 20, 30, "Extremely Fresh"],
   "Scum Scrubber": ["Hydro", 3000, 15, 0, 13, "Stale"],
   "Shrink Ray Trap": ["Physical", 1000, 5, 2, 8, "Fresh"],
   "Sinister Portal": ["Shadow", 1025, 5, 0, 0, "Stale"],
