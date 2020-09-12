@@ -180,6 +180,16 @@
         </tr>
 
         <tr>
+          <td>ATTENTION:</td>
+          <td>
+            <span>
+              Catch Rate and Minimum Luck formulas have been updated<br>
+              Please refer to the <a href="https://github.com/tsitu/MH-Tools#-new-formula" target="_blank" rel="noopener">README</a> for more information (Sep 2020)
+            </span>
+          </td>
+        </tr>
+
+        <tr>
           <td>Location:</td>
           <td>
             <select id="location">
@@ -353,6 +363,13 @@
         </tr>
 
         <tr>
+          <td>Denture Filter:</td>
+          <td>
+            <input type="checkbox" id="denture-filter">
+          </td>
+        </tr>
+
+        <tr>
           <td>Sample Size Score: </td>
           <td>
             <div id="sampleScore">N/A</div>
@@ -370,14 +387,15 @@
     </table>
 
     <div>
-      <p>Number of rows to display (fewer = faster):</p>
       <div>
+        <p>Number of rows to display (fewer = faster):</p>
         <input id="row50" type="radio" name="rowLimit" value="50" checked> 50
         <input id="row100" type="radio" name="rowLimit" value="100"> 100
         <input id="row500" type="radio" name="rowLimit" value="500"> 500
         <input id="row1000" type="radio" name="rowLimit" value="1000"> 1000
         <input id="rowAll" type="radio" name="rowLimit" value="All"> All
       </div>
+
       <ul class="inline">
         <li>
           <button id="show_weapons_button">&nbsp;Weapons&nbsp;</button>

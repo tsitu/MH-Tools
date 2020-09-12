@@ -542,7 +542,11 @@ function calculateTrapSetup(skipDisp) {
 
 /**
  * Master catch rate formula
- * Source: https://mhanalysis.wordpress.com/2011/01/05/mousehunt-catch-rates-3-0/
+ * Source (deprecated 3-eff): https://mhanalysis.wordpress.com/2011/01/05/mousehunt-catch-rates-3-0/
+ * Source (mmalks): https://discordapp.com/channels/275500976662773761/355474934601875457/683355234558673028
+ * Pastebin (mmalks): https://pastebin.com/FBgKj0BQ
+ * Dave confirmed 140% luck cap during 1 May 2020's FBF (https://www.youtube.com/watch?v=kKVgMk4prqI&t=65m29s)
+ * Multiply by 10 to guard against floating point imprecision
  * @param {number} effectiveness Trap power effectiveness
  * @param {number} trapPower Trap power
  * @param {number} trapLuck Trap luck
@@ -550,11 +554,28 @@ function calculateTrapSetup(skipDisp) {
  * @return {number} Catch Rate Estimate: Number between 0 and 1
  */
 function calcCR(effectiveness, trapPower, trapLuck, mousePower) {
+  // Classic 3-eff formula (deprecated)
+  // var catchRate =
+  //   (effectiveness * trapPower +
+  //     (3 - Math.min(effectiveness, 2)) *
+  //       Math.pow(Math.min(effectiveness, 2) * trapLuck, 2)) /
+  //   (effectiveness * trapPower + mousePower);
+
+  /**
+   * [Under Consideration]
+   * Initial ML check using exponent of 2
+   * Catch rate computation using exponent of 1.975 to smooth out close-to-ML rates
+   */
+
   var catchRate =
     (effectiveness * trapPower +
-      (3 - Math.min(effectiveness, 2)) *
-        Math.pow(Math.min(effectiveness, 2) * trapLuck, 2)) /
+      2 *
+        Math.pow(
+          Math.floor((Math.min(effectiveness * 10, 14) * trapLuck) / 10),
+          2
+        )) /
     (effectiveness * trapPower + mousePower);
+
   return Math.min(catchRate, 1);
 }
 
@@ -566,10 +587,16 @@ function calcCR(effectiveness, trapPower, trapLuck, mousePower) {
  * @return {number}
  */
 function minLuck(effectiveness, mousePower) {
-  var finalEffectiveness = Math.min(effectiveness, 2);
-  var minLuckSquared =
-    mousePower / (3 - finalEffectiveness) / Math.pow(finalEffectiveness, 2);
-  return Math.ceil(Math.sqrt(minLuckSquared));
+  // Classic 3-eff derivation (deprecated)
+  // var finalEffectiveness = Math.min(effectiveness, 2);
+  // var minLuckSquared =
+  //   mousePower / (3 - finalEffectiveness) / Math.pow(finalEffectiveness, 2);
+  // return Math.ceil(Math.sqrt(minLuckSquared));
+
+  return Math.ceil(
+    (Math.ceil(Math.sqrt(mousePower / 2)) / Math.min(effectiveness * 10, 14)) *
+      10
+  );
 }
 
 /**
@@ -883,17 +910,17 @@ function loadLocationDropdown() {
 
 function showTrapSetup() {
   document.getElementById("trapSetup").innerHTML =
-    "<tr><td>Type</td><td>" +
+    "<tr><td>Type:</td><td>" +
     trapType +
-    "<tr><td>Power</td><td>" +
+    "<tr><td>Power:</td><td>" +
     commafy(trapPower) +
     "</td></tr>" +
-    "<tr><td>Luck</td><td>" +
+    "<tr><td>Luck:</td><td>" +
     trapLuck +
-    "</td></tr><tr><td>Attraction Bonus</td><td>" +
+    "</td></tr><tr><td>Attraction Bonus:</td><td>" +
     parseFloat(trapAtt.toFixed(2)) +
     "%</td></tr>" +
-    "<tr><td>Cheese Effect</td><td>" +
+    "<tr><td>Cheese Effect:</td><td>" +
     reverseParseFreshness[trapEff] +
     "</td></tr>";
 }

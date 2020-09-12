@@ -2,9 +2,7 @@
 
 Suite of JavaScript tools for the browser game [MouseHunt](https://www.mousehuntgame.com/).
 
-Ongoing forum discussion thread [here](https://www.mousehuntgame.com/forum/showthread.php?132397-MouseHunt-Tools-by-tsitu&goto=newpost).
-
-Feel free to post your questions, comments, or concerns there (or [here](https://github.com/tsitu/MH-Tools/issues) on GitHub).
+Feel free to post your questions, comments, or concerns on the [forum thread](https://www.mousehuntgame.com/forum/showthread.php?132397-MouseHunt-Tools-by-tsitu&goto=newpost), or right here on [GitHub](https://github.com/tsitu/MH-Tools/issues). Alternatively, [join the discussion](https://discordapp.com/invite/Ya9zEdk) on Discord's `#community-tools` channel for faster responses.
 
 ## :book: Table of Contents
 
@@ -17,6 +15,7 @@ Feel free to post your questions, comments, or concerns there (or [here](https:/
     - [Edge / IE](#user-content-edge)
     - [Safari](#user-content-safari)
   - [Catch Rate Estimator](#straight_ruler-catch-rate-estimator)
+    - [New Formula](#-new-formula)
     - [Sample Size Score](#-sample-size-score)
     - [Special Catch Rate Effects](#-special-catch-rate-effects)
   - [Map Solver and Mouse Finder](#earth_americas-map-solver-and-mouse-finder)
@@ -43,7 +42,7 @@ Feel free to post your questions, comments, or concerns there (or [here](https:/
 
 Several tools make use of mottie's [tablesorter](https://mottie.github.io/tablesorter/docs/#Introduction) plugin, which includes useful additional features such as multi-column sorting with <kbd>Shift</kbd> or special characters for [filtering](https://mottie.github.io/tablesorter/docs/example-widget-filter.html).
 
-We recommend installing [Jack's extension](https://github.com/DevJackSmith/mh-helper-extension#mousehunt-helper-extension) if you have not already. It records valuable information from **active hunts** only. Most of the data supporting recent updates has been sourced from Jack's publicly accessible [database backups](https://keybase.pub/devjacksmith/mh_backups/).
+We recommend installing the [MHCT extension](https://github.com/DevJackSmith/mh-helper-extension#mousehunt-helper-extension) if you have not already. It records valuable information from **active hunts** only. Virtually all data for recent updates has been sourced from MHCT's publicly accessible database backups.
 
 _Disclaimer:_ Newer tools like 'Crafting Wizard' and 'Trap Setup Powers' may be incompatible with outdated or feature-constrained browsers such as Internet Explorer, Opera Mini, Samsung Internet, and Blackberry Browser. Older tools may also become incompatible with these browsers at any point.
 
@@ -128,13 +127,39 @@ _Apple Safari_
 
 <br>
 
+#### &sect; New Formula
+
+<!-- https://tex-image-link-generator.herokuapp.com/ -->
+
+In September of 2020, a new catch rate formula was implemented into MH Tools. For years, the classic [3-eff formula](https://mhanalysis.wordpress.com/2011/01/05/mousehunt-catch-rates-3-0/) served as our closest approximation of MouseHunt's true catch rate mechanics. This formula was regularly challenged, thanks to community reports of misses using setups exceeding predicted "minimum luck" values (ML) that purported to guarantee a mouse's catch. One especially significant challenge came recently, when HitGrab stated in a [Feedback Friday episode](https://www.youtube.com/watch?v=kKVgMk4prqI&t=59m31s) that weapon type effectiveness is [capped at 140%](https://www.youtube.com/watch?v=kKVgMk4prqI&t=65m29s), instead of the assumed 200%.
+
+In light of these discrepancies, Discord user mmalks ran a regression analysis on open-source data from MHCT and posted his [results](https://discordapp.com/channels/275500976662773761/355474934601875457/683355234558673028), which appeared to correct many of the "off-by-1" MLs that the classic formula generated. <!-- One interesting quirk of this new formula is that an initial ML check with an exponent of 2 on the luck term is done prior to the main catch calculation, which itself uses a less aggressive exponent of 1.975. mmalks uses this seemingly unintuitive distinction to account for and smooth out catch rates that appear to be overestimated for setups approaching ML. -->
+
+After observing the increased accuracy of mmalks' new catch rate and ML formulas over an extended period of time, we have decided to incorporate them into the tools. Further research is being conducted to improve on them, and catch rate estimates are liable to change as we inch closer to a fully complete model of MH's catch logic. With that said, please continue to report misses at or above displayed minimum luck values.
+
+Classic catch rate formula: <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+CR+%3D+%5Cfrac%7BE+%2A+T+%2B+%5C+%283+-+min%282%2C+E%29%29+%2A+%28min%282%2C+E%29+%2A+L%29%5E%7B2%7D%7D%7BE+%2A+T+%2B+%5C+M%7D" alt="CR = \frac{E * T + \ (3 - min(2, E)) * (min(2, E) * L)^{2}}{E * T + \ M}"><br><br>
+
+New catch rate formula: <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+CR+%3D+%5Cfrac%7BE+%2A+T+%2B+%5C+2+%2A+%28floor%28min%281.4%2C+E%29+%2A+L%29%29%5E%7B2%7D%7D%7BE+%2A+T+%2B+%5C+M%7D" alt="CR = \frac{E * T + \ 2 * (floor(min(1.4, E) * L))^{2}}{E * T + \ M}"><br><br>
+
+<!-- New catch rate formula: <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+CR+%3D+%5Cfrac%7BE+%2A+T+%2B+%5C+2+%2A+%28floor%28min%281.4%2C+E%29+%2A+L%29%29%5E%7B1.975%7D%7D%7BE+%2A+T+%2B+%5C+M%7D" alt="CR = \frac{E * T + \ 2 * (floor(min(1.4, E) * L))^{1.975}}{E * T + \ M}"><br><br> -->
+
+Classic minimum luck formula: <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+ML+%3D+%5Cceil%28%5Cfrac%7B%5Csqrt%7B%5Cfrac%7BM%7D%7B3+-+min%282%2C+E%29%7D%7D%7D%7Bmin%282%2C+E%29%7D%29" alt="ML = \ceil(\frac{\sqrt{\frac{M}{3 - min(2, E)}}}{min(2, E)})"><br><br>
+
+
+New minimum luck formula: <img src="https://render.githubusercontent.com/render/math?math=\huge ML = \ceil({\frac{\ceil({\sqrt{\frac{M}{2}})}}{min(1.4, E)}})"><br><br>
+
+- E = Weapon Type Effectiveness %
+- T = Trap Power
+- L = Trap Luck
+- M = Mouse Power
+
 #### &sect; Sample Size Score
 
 An indicator of the quality and accuracy of a specific setup's data based on its sample size and the number of mice in its attraction pool. Setups are separated by locations, sublocations, cheeses and occasionally charms (if they have attraction-altering effects i.e. Warpath Warrior Charm in Waves 1-3 of Fiery Warpath). If you have a charm selected that doesn't affect a setup's mouse population pool, its corresponding "No Charm" data is displayed, since they are equivalent.
 
 Previously, the tool displayed a flat sample size number with a rating assigned to it, which looked like `Sample Size: 300 (bad)` or `Sample Size: 100000 (excellent)`. This format was misleading because it didn't encode important contextual information. The current scoring scheme takes into account factors such as number of mice in a particular setup, 95% confidence levels, and relative margins of error. It combines and normalizes these factors into a single number, capped at 100.
 
-_Note:_ Certain setups may have low scores or even no sample size data attached to them. This could be because: (1) the data was extracted from HornTracker before we decided to start keeping track of sample sizes, (2) there aren't enough recorded hunts for that setup in Jack's database, (3) our population fetching scripts need to be re-run.
+_Note:_ Certain setups may have low scores or even no sample size data attached to them. This could be because: (1) the data was extracted from HornTracker before we decided to start keeping track of sample sizes, (2) there aren't enough recorded hunts for that setup in MHCT, (3) our population fetching scripts need to be re-run.
 
 #### &sect; Special Catch Rate Effects
 
@@ -178,7 +203,7 @@ The following special effects _are included in catch rate calculations_ for both
   | Iceberg & Slushy Shoreline | &middot; Steam Laser Mk. I gives +1750 Power and +3 Luck<br>&middot; Steam Laser Mk. II gives +1250 Power and +2 Luck<br>&middot; Steam Laser Mk. III gives +1500 Power and +2 Luck<br>&middot; Deep Freeze Base and Ultimate Iceberg Base give +665 Power and +9 Luck in Icewing's Lair, Hidden Depths, and The Deep Lair |
   |      Jungle of Dread       |                                                                                                              &middot; Dreaded Totem Trap gives +8500 Power<br>&middot; Dreaded Charm gives +300% Power Bonus                                                                                                               |
   |        Sand Crypts         |                                                                                                               Salt level applies a logarithmic function to decrease mouse power for King Grub & King Scarab                                                                                                                |
-  |      Seasonal Garden       |         &middot; Seasonal Base gives +18% Power Bonus<br>&middot; Soul Harvester and Terrifying Spider Trap give +10 Luck during Fall<br>&middot; Chesla's Revenge has a 12.5% chance to proc an additional charge<br>&middot; TODO: Sandcastle Shard's effect is not implemented due to current/max amp requirement         |
+  |      Seasonal Garden       |        &middot; Seasonal Base gives +18% Power Bonus<br>&middot; Soul Harvester and Terrifying Spider Trap give +10 Luck during Fall<br>&middot; Chesla's Revenge has a 12.5% chance to proc an additional charge<br>&middot; TODO: Sandcastle Shard's effect is not implemented due to current/max amp requirement        |
   |        Sunken City         |                                                                                                                                    Depth Charge Base gives +1000 Power while on a dive                                                                                                                                     |
   |       Town of Digby        |                                                                               &middot; +30% Power Bonus if Limelight cheese and Mining Charm are equipped<br>&middot; TODO: Only against Digby Dirt Dwellers plus increased BBB/I-BB chance?                                                                               |
   |        Toxic Spill         |                                                                        &middot; Washboard Base gives +5% Power Bonus and +5 Luck<br>&middot; Soap Charm gives +5000 Power and +10 Luck<br>&middot; Super Soap Charm gives +8000 Power and +12 Luck                                                                         |
@@ -209,8 +234,6 @@ The following special effects _are included in catch rate calculations_ for both
 #### &sect; Cheese Filters
 
 Cheese filters allow you to easily hide certain cheeses from the Best Locations table depending on your hunting situation. For example, frugal hunters may want to tick the `Magic Essence` checkbox to hide costly SB+ derived cheeses.
-
-You can `Apply` filters to the first column, `Reset` filters on the table, or `Clear` all of your ticks.
 
 | Filter Category        | Cheeses                                                                                                                        |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -337,7 +360,7 @@ The recommended way to use this tool is to focus on a couple groups of mice and 
 
 ### :clipboard: Populations
 
-To update population data, download a copy of Jack's most recent database dump from [Keybase](https://keybase.pub/devjacksmith/mh_backups/nightly/) (refresh the page if it says 'Not found'). Then, import the data into your SQL client of choice (takes around an hour on MySQL Workbench 8.0 with MySQL Server 5.7.24 on Windows 10). Finally, use commands such as `npm run pop:queso` (full list in [package.json](https://github.com/tsitu/MH-Tools/blob/master/package.json)) to write updated populations to CSV files in `data/pop-csv`, or use `npm run pop` to fetch them all simultaneously.
+To update population data, download a copy of the most recent MHCT database dump from [Keybase](https://keybase.pub/devjacksmith/mh_backups/nightly/) (refresh the page if it says 'Not found'). Then, import the data into your SQL client of choice (takes around an hour on MySQL Workbench 8.0 with MySQL Server 5.7.24 on Windows 10). Alternatively, consider downloading and running the [Docker](https://hub.docker.com/r/tsitu/mhct-db-docker) images. Finally, use commands such as `npm run pop:queso` (full list in [package.json](https://github.com/tsitu/MH-Tools/blob/master/package.json)) to write updated populations to CSV files in `data/pop-csv`, or use `npm run pop` to fetch them all simultaneously.
 
 If you would like to merge new data into the master branch, feel free to open a pull request - Travis CI will build it automatically and run the `build/process-sample-size.js` script, which generates sample size score deltas ([example](https://travis-ci.com/tsitu/MH-Tools/builds/91738912#L528)). We use this to verify that data is trending towards improvement.
 
@@ -357,7 +380,7 @@ _This is still a work in progress, along with converting the codebase to align w
 - Mouse Wisdom Values ([spreadsheet](https://docs.google.com/spreadsheets/d/1nzD6iiHauMMwD2eHBuAyRziYJtCVnNwSYzCKbBnrRgc/edit?usp=sharing))
 - New Area Mouse Powers + Effectiveness Values ([spreadsheet](https://docs.google.com/spreadsheets/d/1pnS4UVFMUndjX2H2s6hfyf5flMcppZyhZrn8EUH23S8/edit?usp=sharing))
 - Marketplace Analyzer ([forum thread](https://www.mousehuntgame.com/forum/showthread.php?126255-Marketplace-Analyzer&goto=newpost))
-- Useful Userscripts ([Reddit thread](https://www.reddit.com/r/mousehunt/comments/avazpr/resource_useful_userscripts/))
+- Useful Userscripts ([Reddit wiki page](https://www.reddit.com/r/mousehunt/wiki/user-scripts))
 - Discord (join the [community server](https://discordapp.com/invite/Ya9zEdk))
 
 ### :heart_decoration: Thanks to...
