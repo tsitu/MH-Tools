@@ -6,6 +6,7 @@
  * 2019-06-26: Manually added Rockforth
  * 2019-09-01: Updated all cheeses via 19 Jul data (should be 112/115 total)
  * 2019-10-08: Manually added Gauntlet String guesstimate
+ * 2020-09-13: Manually added Cloud Cheesecake and Pirate Swiss guesstimates
  */
 
 // prettier-ignore
@@ -23,6 +24,7 @@ var baselineAttArray = {
   "Chedd-Ore": 0.9986, // Sample: 17318 (Very High)
   "Cheddar": 0.5000, // Guesstimate | Calculated: 0.4642, Sample: 2937 (High)
   "Cherry": 0.8721, // Sample: 4033 (High)
+  "Cloud Cheesecake": 0.9990, // Manual guesstimate as of 2020-09-13
   "Coggy Colby": 0.9996, // Sample: 160893 (Excellent)
   "Combat": 0.9850, // Guesstimate | Calculated: 0.9851, Sample: 3415 (High)
   "Creamy Havarti": 0.9850, // Guesstimate | Calculated: 0.9883, Sample: 807 (Medium)
@@ -42,7 +44,7 @@ var baselineAttArray = {
   "Flamin' Queso": 0.9992, // Sample: 97765 (Excellent)
   "Fusion Fondue": 0.9722, // Sample: 616 (Medium)
   "Galleon Gouda": 0.9423, // Sample: 5797 (High)
-  "Gauntlet String": 0.9900, // Manual guesstimate as of 2019-10-08
+  "Gauntlet String": 0.9997, // Sample: 890580 (Excellent)
   "Tier 2": 0.9636, // Sample: 8193 (High)
   "Tier 3": 0.9696, // Sample: 14278 (Very High)
   "Tier 4": 0.9811, // Sample: 7166 (High)
@@ -108,6 +110,7 @@ var baselineAttArray = {
   "SB+": 0.9986, // Sample: 577274 (Excellent)
   "Seasoned Gouda": 0.8482, // Sample: 4275 (High)
   "Shell": 0.9850, // Guesstimate | Calculated: 0.9855, Sample: 11346 (Very High)
+  "Sky Pirate Swiss": 0.9990, // Manual guesstimate as of 2020-09-13
   "Snowball Bocconcini": 0.8583, // Sample: 4723 (High)
   "Spicy Havarti": 0.9850, // Guesstimate | Calculated: 0.9802, Sample: 1714 (High)
   "Sunrise": 0.9990, // Guesstimate | Calculated: 1.0000, Sample: 313 (Medium)

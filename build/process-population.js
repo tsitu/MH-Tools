@@ -8,6 +8,7 @@
     "data/pop-csv/catacombs.csv",
     "data/pop-csv/event.csv",
     "data/pop-csv/fiery-warpath.csv",
+    "data/pop-csv/floating-islands.csv",
     "data/pop-csv/forbidden-grove.csv",
     "data/pop-csv/fort-rox.csv",
     "data/pop-csv/fungal-cavern.csv",

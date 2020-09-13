@@ -3,8 +3,10 @@ Abominable Snow,5000,5000
 Absolute Acolyte,300000,1000000
 Acolyte,36309,31850
 Admiral Arrrgh,7000,45000
+Admiral Cloudbeard,60000,388500
 Aether,18000,56000
 Aged,4000,6910
+Agent M,31500,210000
 Agitated Gentle Giant,2510,26700
 Alchemist,125,1310
 Alnilam,3200,6190
@@ -28,6 +30,7 @@ Ascended Elder,80000,400000
 Ash Golem,5000,45950
 Assassin,3400,5000
 Assassin Beast,50000,285000
+Astrological Astronomer,26000,80000
 Automated Sentry,4500,30500
 Automated Stone Sentry,10000,60000
 Automorat,8000,6000
@@ -94,6 +97,7 @@ Candy Goblin,2500,800
 Cannonball,7500,5000
 Captain,5000,6500
 Captain Cannonball,6250,45000
+Captain Cloudkicker,30000,200000
 Captain Croissant,1000,1000
 Caravan Guard,900,900
 Cardshark,15000,9000
@@ -131,6 +135,7 @@ City Worker,700,19000
 Clockwork Samurai,210,150
 Clockwork Timespinner,7000,38000
 Cloud Collector,2500,42000
+Cloud Miner,3200,78000
 Clownfish,3440,35880
 Clump,4800,37000
 Clumsy Carrier,5000,28100
@@ -193,6 +198,7 @@ Crystal Observer,21000,75000
 Crystal Queen,24000,100000
 Crystalback,4000,61000
 Crystalline Slasher,3000,50000
+Cumulost,10250,102000
 Cupcake Camo,2000,5500
 Cupcake Candle Thief,3000,3000
 Cupcake Cutie,2000,5000
@@ -206,8 +212,11 @@ Cursed Engineer,1900,20500
 Cursed Librarian,3500,19500
 Cursed Taskmaster,8000,40000
 Cursed Thief,2350,22500
+Cute Cloud Conjurer,10000,100000
 Cute Crate Carrier,6000,4000
 Cutpurse,1250,50000
+Cutthroat Cannoneer,10000,125000
+Cutthroat Pirate,15355,100000
 Cuttle,1250,11600
 Cyber Miner,4900,39000
 Cybernetic Specialist,4500,27500
@@ -224,6 +233,7 @@ Dark Templar,12750,80800
 Dashing Buccaneer,250,375
 Davy Jones,2000,9000
 Dawn Guardian,10000,50000
+Daydreamer,900,16800
 Decrepit Tentacle Terror,31300,100000
 Deep,24525,142550
 Deep Sea Diver,2750,36000
@@ -241,6 +251,7 @@ Desert Nomad,4000,40000
 Desert Soldier,2400,11500
 Desperado,9000,9500
 Destructoy,2000,12600
+Devious Gentleman,26000,82000
 Diamond,600,1200
 Diamondhide,75000,290000
 Dinosuit,1000,1420
@@ -251,6 +262,7 @@ Doktor,3750,35000
 Double Black Diamond Racer,3000,19000
 Draconic Warden,1245,12895
 Dragon,39940,74200
+Dragonbreather,10250,105000
 Dragoon,20000,100000
 Dread Knight,10000,60000
 Dread Pirate Mousert,2500,33950
@@ -383,12 +395,14 @@ Grey,125,90
 Grey Recluse,550,1100
 Greyrun,2050,19900
 Grizzled Silth,20250,86250
+Ground Gavaleer,25000,78000
 Grubling,2400,14500
 Grubling Herder,825,15675
 Grunt,3075,910
 Guardian,7500,7600
 Guppy,2250,24300
 Guqin Player,800,5000
+Gyrologer,12150,90000
 Hapless,70,50
 Hapless Marionette,100,90
 Harbinger of Death,50000,200000
@@ -402,6 +416,7 @@ Hazmat,5000,25000
 Healer,975,855
 Heart of the Meteor,1000000,500000
 Heavy Blaster,1150,7200
+Herc,10000,100000
 High Roller,10,10
 Hired Eidolon,10000,44220
 Hoarder,3000,2500
@@ -445,6 +460,7 @@ Keeper,3900,3950
 Keeper's Assistant,1920,3170
 King Grub,8500,35000
 King Scarab,22500,175000
+Kite Flyer,980,25000
 Knight,700,900
 Koimaid,1990,31700
 Kung Fu,800,4750
@@ -452,7 +468,10 @@ Lab Technician,3000,10500
 Lady Coldsnap,3745,27580
 Lambent,10000,60000
 Lambent Crystal,3000,9000
+Lancer Guard,12500,95000
 Lasso Cowgirl,2000,5500
+Launchpad Labourer,2000,65000
+Lawbender,10500,105000
 Leprechaun,10,10
 Leviathan,2880,6910
 Lich,8700,12200
@@ -486,6 +505,7 @@ Maize Harvester,1000,18000
 Mammoth,2020,10250
 Manaforge Smith,100000,350000
 Manatee,1250,11600
+Mairitime Pirate,30000,200000
 Market Guard,8000,22000
 Market Thief,9000,25000
 Martial,1500,58000
@@ -525,6 +545,7 @@ Mischievous Meteorite Miner,1500,16000
 Mischievous Wereminer,2000,25000
 Miser,5000,3000
 Missile Toe,7000,30000
+Mist Maker,30000,200000
 Mlounder Flounder,6300,18000
 Mobster,10,10
 Mole,500,550
@@ -593,6 +614,7 @@ Nightshade Fungalmancer,9000,80000
 Nightshade Maiden,2000,30000
 Nightshade Masquerade,8000,45000
 Nightshade Nanny,7200,56800
+Nimbomancer,25000,78000
 Ninja,350,2750
 Nitro Racer,7000,30000
 Nomad,5000,3400
@@ -610,6 +632,7 @@ Ornament,2000,18000
 Outbreak Assassin,10000,95000
 Outlaw,10000,9500
 Over-Prepared,500,4000
+Overcaster,12500,92000
 Oxygen Baron,7800,45000
 Pack,908,6000
 Page,210,325
@@ -617,6 +640,14 @@ Paladin,2500,25200
 Paladin Weapon Master,100000,350000
 Pan Slammer,1000,7200
 Para Para Dancer,3000,5000
+Paragon of Arcane,100000,2000000
+Paragon of Dragons,100000,2000000
+Paragon of Forgotten,100000,2000000
+Paragon of Shadow,100000,2000000
+Paragon of Strength,100000,2000000
+Paragon of Tactics,100000,2000000
+Paragon of the Lawless,100000,2000000
+Paragon of Water,100000,2000000
 Parlour Player,4500,5500
 Party Head,2000,9000
 Passenger,6000,4000
@@ -687,6 +718,7 @@ Record Keeper's Assistant,3000,27000
 Red Coat Bear,7500,47500
 Red Envelope,221,888
 Red-Eyed Watcher Owl,11500,71500
+Regal Spearman,21000,210000
 Reinbo,1000,15000
 Relic Hunter,935,650
 Renegade,7350,550
@@ -694,6 +726,7 @@ Retired Minotaur,1000000,1000000
 Reveling Lycanthrope,1500,18000
 Revenant,8000,55000
 Ribbon,900,5000
+Richard the Rich,50415,183340
 Ridiculous Sweater,5000,17500
 Rift Bio Engineer,3300,27750
 Rift Guardian,4000,34000
@@ -729,6 +762,7 @@ Sanguinarian,5000,45950
 Sarcophamouse,2550,17000
 Scarab,3500,16500
 Scarecrow,1200,5000
+Scarlet Revenger,26050,189835
 Scavenger,5200,3375
 School of Mish,1900,19100
 Scorned Pirate,5750,10000
@@ -738,6 +772,7 @@ Scribe,9000,14000
 Scrooge,2840,470
 Scruffy,400,250
 Seadragon,2250,24300
+Seasoned Islandographer,10000,100000
 Seer,6120,5000
 Sentient Slime,6000,30000
 Sentinel,3300,21300
@@ -745,6 +780,7 @@ Serpent Monster,5550,70000
 Serpentine,1650,25250
 Shackled Servant,8000,55000
 Shade of the Eclipse,25000,500000
+Shadow Sage,21000,205000
 Shadow Stalker,700,70000
 Shaman,1300,600
 Shaolin Kung Fu,4000,52000
@@ -756,8 +792,8 @@ Shelder,300,2600
 Shinobi,1200,48000
 Shipwrecked,90,2100
 Shopkeeper,4500,4500
-Shorts-All-Year,9000,30000
 Shortcut,3100,5500
+Shorts-All-Year,9000,30000
 Shroom,2650,12500
 Silth,15200,25450
 Silvertail,1200,1200
@@ -767,6 +803,15 @@ Siren,600,5200
 Sizzle Pup,3000,35000
 Skeletal Champion,1000,20000
 Skeleton,960,2392
+Sky Dancer,10250,102000
+Sky Glass Glazier,12500,92000
+Sky Glass Sorcerer,26000,80000
+Sky Greaser,3000,50000
+Sky Highborne,21000,205000
+Sky Squire,30000,200000
+Sky Surfer,12150,90000
+Sky Swordsman,12150,90000
+Skydiver,1500,37600
 Slay Ride,7000,30000
 Slayer,4200,10455
 Sleepwalker,2000,1700
@@ -807,6 +852,7 @@ Spectral Swashbuckler,1300,2500
 Spectre,5600,5600
 Speedy,900,950
 Spellbinder,5400,3200
+Spheric Diviner,21000,205000
 Spice Farmer,3070,30000
 Spice Finder,6000,46000
 Spice Merchant,2400,11000
@@ -831,10 +877,13 @@ Spotted,175,175
 Spring Familiar,760,9072
 Spring Sprig,2350,3300
 Sprinkly Sweet Cupcake Cook,5000,8000
+Spry Sky Explorer,26000,80000
+Spry Sky Seer,12500,92000
 Spud,500,300
 Squeaken,3456,5528
 Squeaker Bot,650,400
 Squeaker Claws,4745,21340
+Stack of Thieves,12500,95000
 Stagecoach Driver,8000,11000
 Stalagmite,3000,62500
 Stealth,295,500
@@ -852,6 +901,7 @@ Stonework Warrior,4510,24670
 "Stormsurge, the Vile Tempest",20000,200000
 Stoutgear,8500,7000
 Stowaway,2000,4000
+Stratocaster,10250,102000
 Strawberry Hotcakes,1950,14500
 Stuck Snowball,650,2000
 Student of the Cheese Belt,450,6250
@@ -861,6 +911,7 @@ Student of the Chi Belt,9000,90000
 Student of the Chi Claw,9000,90000
 Student of the Chi Fang,9000,90000
 Stuffy Banker,11500,8000
+Suave Pirate,21000,87510
 Subterranean,5800,11000
 Sugar Rush,2000,2600
 Summer Mage,7520,16560
@@ -916,6 +967,7 @@ Timelost Thaumaturge,7500,70000
 Timeslither Pythoness,20000,100000
 Timid Explorer,1982,25180
 Tiny,450,200
+Tiny Dragonfly,26000,85000
 Tiny Saboteur,900,8500
 Tiny Toppler,2000,16000
 Titanic Brain-Taker,2750,32500
@@ -971,6 +1023,10 @@ Vinetail,6580,13172
 Violet Stormchild,10000,70000
 Walker,3000,17000
 Wandering Monk,4200,68000
+Warden of Fog,30000,200000
+Warden of Frost,30000,200000
+Warden of Rain,30000,200000
+Warden of Wind,30000,200000
 Warehouse Manager,14000,7500
 Warming Wyvern,4500,28000
 Warmonger,27000,198000
@@ -1000,6 +1056,7 @@ Withered Remains,4000,75000
 Wolfskie,1100,8250
 Wordsmith,800,720
 Worker,2200,300
+Worried Wayfinder,25000,78000
 Wound Up White,100,70
 Wreath Thief,3000,19000
 Yeti,1245,12350

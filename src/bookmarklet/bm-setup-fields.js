@@ -41,8 +41,8 @@
 
   function findSublocation(userLocation, userBase) {
     var userQuests = user["quests"];
-
     var userViewingAtts = user["viewing_atts"];
+
     if (userLocation === "Balack's Cove") {
       var tide = userViewingAtts["tide"];
       if (tide === "low") {
@@ -396,7 +396,12 @@
 
         return floorStr;
       }
+    } else if (userLocation === "Floating Islands") {
+      return userQuests["QuestFloatingIslands"]["hunting_site_atts"][
+        "island_name"
+      ];
     }
+
     return "N/A";
   }
 
