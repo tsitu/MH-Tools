@@ -136,7 +136,11 @@ var dragons = [
   "Mild Spicekin",
   "Sizzle Pup",
   "Smoldersnap",
-  "Stormsurge, the Vile Tempest"
+  "Stormsurge, the Vile Tempest",
+  "Tiny Dragonfly",
+  "Lancer Guard",
+  "Dragonbreather",
+  "Regal Spearman"
 ];
 
 var tauntings = [
