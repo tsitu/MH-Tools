@@ -36,7 +36,12 @@
           return el.classification === "weapon" && el.quantity > 0;
         })
         .map(function(el) {
-          if (el.name === "Ambush Trap") return "Ambush"; // Edge case
+          // Weapon edge cases
+          if (el.name === "Ambush Trap") {
+            return "Ambush";
+          } else if (el.name === "School of Sharks Trap") {
+            return "School of Sharks";
+          }
           return el.name;
         });
 
