@@ -397,9 +397,22 @@
         return floorStr;
       }
     } else if (userLocation === "Floating Islands") {
-      return userQuests["QuestFloatingIslands"]["hunting_site_atts"][
-        "island_name"
-      ];
+      var fi = userQuests["QuestFloatingIslands"]["hunting_site_atts"];
+
+      if (
+        fi["enemy"]["name"].indexOf("Warden") >= 0 ||
+        fi["enemy"]["name"].indexOf("Paragon") >= 0
+      ) {
+        if (fi["is_enemy_encounter"]) {
+          if (fi["is_high_altitude"]) {
+            return "Sky Paragons";
+          } else {
+            return "Sky Wardens";
+          }
+        }
+      }
+
+      return fi["island_name"];
     }
 
     return "N/A";
