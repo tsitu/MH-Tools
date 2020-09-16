@@ -1036,7 +1036,7 @@ Spheric Diviner,0
 Spry Sky Explorer,16000
 Spry Sky Seer,18500
 Cute Cloud Conjurer,10000
-Mist Maker,0
+Mist Maker,30000
 Nimbomancer,15600
 Sky Surfer,18000
 Dragonbreather,10300
@@ -1048,11 +1048,11 @@ Devious Gentleman,16250
 Lawbender,10500
 Stack of Thieves,18500
 Admiral Cloudbeard,0
-Cutthroat Cannoneer,0
-Cutthroat Pirate,0
+Cutthroat Cannoneer,18750
+Cutthroat Pirate,15000
 Mairitime Pirate,0
 Scarlet Revenger,0
-Suave Pirate,0
+Suave Pirate,13127
 Warden of Fog,30000
 Warden of Frost,30000
 Warden of Rain,30000
@@ -1064,5 +1064,5 @@ Paragon of Water,0
 Paragon of the Lawless,400000
 Paragon of Strength,400000
 Paragon of Shadow,400000
-Paragon of Tactics,0
+Paragon of Tactics,400000
 Richard the Rich,0

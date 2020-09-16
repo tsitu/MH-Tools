@@ -140,7 +140,8 @@ var dragons = [
   "Tiny Dragonfly",
   "Lancer Guard",
   "Dragonbreather",
-  "Regal Spearman"
+  "Regal Spearman",
+  "Paragon of Dragons"
 ];
 
 var tauntings = [
