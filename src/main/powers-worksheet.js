@@ -119,6 +119,22 @@ const subcategories = {
     "Rain Roamer",
     "Storm Dragon"
   ],
+  "Floating Islanders": [
+    "Launch Pad",
+    "Cloud Commoners",
+    "Physical Pummelers",
+    "Shadow Overcasters",
+    "Tactical Dog Fighters",
+    "Atmospheric Arcane",
+    "Floating Forgotten",
+    "Hovering Hydro",
+    "Dashing Dragons",
+    "Lofty Lawbreakers",
+    "Sky Pirates",
+    "Sky Wardens",
+    "Sky Paragons",
+    "The Richest"
+  ],
   "Rift Walkers": ["Gnawnia Rift", "Burroughs Rift", "Whisker Woods Rift"],
   "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift", "Valour Rift"],
   "The Polluted": ["Misc."],
