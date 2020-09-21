@@ -638,8 +638,8 @@ function processInput(inputText) {
   bonusObj["brace"] =
     weaponsArray[user.weapon][0] === "Physical" &&
     user.base === "Physical Brace Base"
-      ? 1.25
-      : 1;
+      ? 25
+      : 0;
 
   // Subtract shownPowerBonus[es] to get true value
   bonusObj["power"] -=

@@ -200,7 +200,8 @@ function calcPower(weapon, base, charm, bonusObj) {
     (rawPowerBonus +
       bonusObj["power"] +
       bonusObj["rift"] +
-      bonusObj["cheese"]) /
+      bonusObj["cheese"] +
+      bonusObj["brace"]) /
       100;
 
   return parseFloat(
@@ -208,8 +209,7 @@ function calcPower(weapon, base, charm, bonusObj) {
       rawPower *
       totalPowerBonus *
       pourBonus *
-      bonusObj["amp"] *
-      bonusObj["brace"]
+      bonusObj["amp"]
     ).toFixed(8)
   );
 }
@@ -404,8 +404,8 @@ function generateResults() {
           // Physical Brace Base check
           bonusObj["brace"] =
             powerType === "Physical" && base === "Physical Brace Base"
-              ? 1.25
-              : 1;
+              ? 25
+              : 0;
           for (let charm of loopCharms) {
             // Break out if max total results is exceeded
             if (countMax >= maxResults) break;
