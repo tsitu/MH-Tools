@@ -418,7 +418,7 @@ function generateResults() {
                 +(riftCharms.indexOf(charm) > -1 || charm.indexOf("Rift") > -1);
               if (riftCount >= 2) {
                 // 2 or 3 triggers the power bonus of Rift set
-                bonusObj["rift"] = 10 * riftMultiplier;
+                bonusObj["rift"] = 20 * riftMultiplier;
               }
             }
 
@@ -496,7 +496,7 @@ function generateResults() {
                   );
                 if (riftCount >= 2) {
                   // 2 or 3 triggers the power bonus of Rift set
-                  bonusObj["rift"] = 10 * riftMultiplier;
+                  bonusObj["rift"] = 20 * riftMultiplier;
                 }
               }
 
