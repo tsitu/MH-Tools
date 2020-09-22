@@ -222,8 +222,7 @@ function calculateTrapSetup(skipDisp) {
   var specialPower = 0, // bonus flat power
     specialLuck = 0, // bonus flat luck
     shownPowerBonus = 0, // able to be parsed from user.trap_power_bonus
-    hiddenPowerBonus = 0, // implicit, unable to be parsed
-    braceBonus = false;
+    hiddenPowerBonus = 0; // implicit, unable to be parsed
 
   if (locationName && phaseName && cheeseName && weaponName && baseName) {
     // Golem Guardian logic
@@ -266,7 +265,7 @@ function calculateTrapSetup(skipDisp) {
       weaponsArray[weaponName][0] === "Physical" &&
       baseName === "Physical Brace Base"
     ) {
-      braceBonus = true;
+      shownPowerBonus += 25;
     } else if (
       (baseName === "Polluted Base" ||
         baseName === "Refined Pollutinum Base") &&
@@ -484,13 +483,8 @@ function calculateTrapSetup(skipDisp) {
     subtotalPowerBonus = setupPowerBonus + shownPowerBonus + cheeseBonus; // Bonus Power %
 
     return Math.ceil(
-      totalPower * totalBonus * totalPourBonus * getAmpBonus() * getBraceBonus()
+      totalPower * totalBonus * totalPourBonus * getAmpBonus()
     );
-  }
-
-  function getBraceBonus() {
-    if (braceBonus) return 1.25;
-    else return 1;
   }
 
   function getAmpBonus() {
