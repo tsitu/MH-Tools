@@ -1,84 +1,116 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Floating Islands","Launch Pad","SB+","-","39.27%","Launchpad Labourer",960
-"Floating Islands","Launch Pad","SB+","-","34.48%","Cloud Miner",960
-"Floating Islands","Launch Pad","SB+","-","14.58%","Sky Greaser",960
-"Floating Islands","Launch Pad","SB+","-","11.67%","Skydiver",960
-"Floating Islands","Launch Pad","Gouda","-","46.01%","Launchpad Labourer",1941
-"Floating Islands","Launch Pad","Gouda","-","35.14%","Sky Greaser",1941
-"Floating Islands","Launch Pad","Gouda","-","18.86%","Skydiver",1941
-"Floating Islands","Physical Island","Cloud Cheesecake","-","28.09%","Sky Swordsman",1392
-"Floating Islands","Physical Island","Cloud Cheesecake","-","21.70%","Herc",1392
-"Floating Islands","Physical Island","Cloud Cheesecake","-","19.83%","Ground Gavaleer",1392
-"Floating Islands","Physical Island","Cloud Cheesecake","-","18.39%","Kite Flyer",1392
-"Floating Islands","Physical Island","Cloud Cheesecake","-","12.00%","Daydreamer",1392
-"Floating Islands","Physical Palisade","Cloud Cheesecake","-","37.76%","Sky Squire",474
-"Floating Islands","Physical Palisade","Cloud Cheesecake","-","23.63%","Sky Swordsman",474
-"Floating Islands","Physical Palisade","Cloud Cheesecake","-","19.83%","Herc",474
-"Floating Islands","Physical Palisade","Cloud Cheesecake","-","18.78%","Ground Gavaleer",474
-"Floating Islands","Shadow Island","Cloud Cheesecake","-","28.27%","Overcaster",1277
-"Floating Islands","Shadow Island","Cloud Cheesecake","-","23.10%","Stratocaster",1277
-"Floating Islands","Shadow Island","Cloud Cheesecake","-","20.20%","Kite Flyer",1277
-"Floating Islands","Shadow Island","Cloud Cheesecake","-","17.78%","Astrological Astronomer",1277
-"Floating Islands","Shadow Island","Cloud Cheesecake","-","10.65%","Daydreamer",1277
-"Floating Islands","Shadow Stronghold","Cloud Cheesecake","-","32.67%","Shadow Sage",658
-"Floating Islands","Shadow Stronghold","Cloud Cheesecake","-","24.77%","Overcaster",658
-"Floating Islands","Shadow Stronghold","Cloud Cheesecake","-","22.34%","Astrological Astronomer",658
-"Floating Islands","Shadow Stronghold","Cloud Cheesecake","-","20.21%","Stratocaster",658
-"Floating Islands","Tactical Island","Cloud Cheesecake","-","31.06%","Gyrologer",1980
-"Floating Islands","Tactical Island","Cloud Cheesecake","-","20.15%","Worried Wayfinder",1980
-"Floating Islands","Tactical Island","Cloud Cheesecake","-","20.05%","Seasoned Islandographer",1980
-"Floating Islands","Tactical Island","Cloud Cheesecake","-","17.22%","Kite Flyer",1980
-"Floating Islands","Tactical Island","Cloud Cheesecake","-","11.52%","Daydreamer",1980
-"Floating Islands","Tactical Castle","Cloud Cheesecake","-","33.90%","Captain Cloudkicker",593
-"Floating Islands","Tactical Castle","Cloud Cheesecake","-","24.28%","Worried Wayfinder",593
-"Floating Islands","Tactical Castle","Cloud Cheesecake","-","21.75%","Gyrologer",593
-"Floating Islands","Tactical Castle","Cloud Cheesecake","-","19.90%","Seasoned Islandographer",593
-"Floating Islands","Tactical Castle","Cloud Cheesecake","-","0.17%","Daydreamer",593
-"Floating Islands","Arcane Island","Cloud Cheesecake","-","29.11%","Sky Glass Glazier",1364
-"Floating Islands","Arcane Island","Cloud Cheesecake","-","22.36%","Sky Dancer",1364
-"Floating Islands","Arcane Island","Cloud Cheesecake","-","19.21%","Kite Flyer",1364
-"Floating Islands","Arcane Island","Cloud Cheesecake","-","18.26%","Sky Glass Sorcerer",1364
-"Floating Islands","Arcane Island","Cloud Cheesecake","-","11.07%","Daydreamer",1364
-"Floating Islands","Arcane Keep","Cloud Cheesecake","-","35.53%","Sky Highborne",470
-"Floating Islands","Arcane Keep","Cloud Cheesecake","-","23.19%","Sky Glass Glazier",470
-"Floating Islands","Arcane Keep","Cloud Cheesecake","-","21.49%","Sky Dancer",470
-"Floating Islands","Arcane Keep","Cloud Cheesecake","-","19.79%","Sky Glass Sorcerer",470
-"Floating Islands","Forgotten Island","Cloud Cheesecake","-","28.13%","Spry Sky Seer",1372
-"Floating Islands","Forgotten Island","Cloud Cheesecake","-","21.79%","Cumulost",1372
-"Floating Islands","Forgotten Island","Cloud Cheesecake","-","19.83%","Spry Sky Explorer",1372
-"Floating Islands","Forgotten Island","Cloud Cheesecake","-","19.53%","Kite Flyer",1372
-"Floating Islands","Forgotten Island","Cloud Cheesecake","-","10.71%","Daydreamer",1372
-"Floating Islands","Forgotten Fortress","Cloud Cheesecake","-","35.81%","Spheric Diviner",310
-"Floating Islands","Forgotten Fortress","Cloud Cheesecake","-","21.61%","Spry Sky Explorer",310
-"Floating Islands","Forgotten Fortress","Cloud Cheesecake","-","21.61%","Spry Sky Seer",310
-"Floating Islands","Forgotten Fortress","Cloud Cheesecake","-","20.97%","Cumulost",310
-"Floating Islands","Hydro Island","Cloud Cheesecake","-","30.26%","Sky Surfer",1540
-"Floating Islands","Hydro Island","Cloud Cheesecake","-","21.04%","Cute Cloud Conjurer",1540
-"Floating Islands","Hydro Island","Cloud Cheesecake","-","20.45%","Nimbomancer",1540
-"Floating Islands","Hydro Island","Cloud Cheesecake","-","18.44%","Kite Flyer",1540
-"Floating Islands","Hydro Island","Cloud Cheesecake","-","9.81%","Daydreamer",1540
-"Floating Islands","Hydro Hideaway","Cloud Cheesecake","-","35.68%","Mist Maker",482
-"Floating Islands","Hydro Hideaway","Cloud Cheesecake","-","22.61%","Sky Surfer",482
-"Floating Islands","Hydro Hideaway","Cloud Cheesecake","-","21.37%","Nimbomancer",482
-"Floating Islands","Hydro Hideaway","Cloud Cheesecake","-","20.33%","Cute Cloud Conjurer",482
-"Floating Islands","Draconic Island","Cloud Cheesecake","-","30.06%","Lancer Guard",875
-"Floating Islands","Draconic Island","Cloud Cheesecake","-","19.66%","Tiny Dragonfly",875
-"Floating Islands","Draconic Island","Cloud Cheesecake","-","19.54%","Kite Flyer",875
-"Floating Islands","Draconic Island","Cloud Cheesecake","-","18.97%","Dragonbreather",875
-"Floating Islands","Draconic Island","Cloud Cheesecake","-","11.77%","Daydreamer",875
-"Floating Islands","Draconic Sanctuary","Cloud Cheesecake","-","31.64%","Regal Spearman",373
-"Floating Islands","Draconic Sanctuary","Cloud Cheesecake","-","24.66%","Tiny Dragonfly",373
-"Floating Islands","Draconic Sanctuary","Cloud Cheesecake","-","22.52%","Lancer Guard",373
-"Floating Islands","Draconic Sanctuary","Cloud Cheesecake","-","21.18%","Dragonbreather",373
-"Floating Islands","Law Island","Cloud Cheesecake","-","27.38%","Stack of Thieves",968
-"Floating Islands","Law Island","Cloud Cheesecake","-","20.87%","Kite Flyer",968
-"Floating Islands","Law Island","Cloud Cheesecake","-","20.66%","Lawbender",968
-"Floating Islands","Law Island","Cloud Cheesecake","-","19.11%","Devious Gentleman",968
-"Floating Islands","Law Island","Cloud Cheesecake","-","11.98%","Daydreamer",968
-"Floating Islands","Law Garrison","Cloud Cheesecake","-","31.16%","Agent M",199
-"Floating Islands","Law Garrison","Cloud Cheesecake","-","27.64%","Stack of Thieves",199
-"Floating Islands","Law Garrison","Cloud Cheesecake","-","23.62%","Devious Gentleman",199
-"Floating Islands","Law Garrison","Cloud Cheesecake","-","17.59%","Lawbender",199
+"Floating Islands","Launch Pad","SB+","-","38.36%","Launchpad Labourer",3553
+"Floating Islands","Launch Pad","SB+","-","34.96%","Cloud Miner",3553
+"Floating Islands","Launch Pad","SB+","-","14.27%","Sky Greaser",3553
+"Floating Islands","Launch Pad","SB+","-","12.41%","Skydiver",3553
+"Floating Islands","Launch Pad","Gouda","-","46.07%","Launchpad Labourer",6636
+"Floating Islands","Launch Pad","Gouda","-","36.03%","Sky Greaser",6636
+"Floating Islands","Launch Pad","Gouda","-","17.90%","Skydiver",6636
+"Floating Islands","Physical Island","Cloud Cheesecake","-","29.85%","Sky Swordsman",9448
+"Floating Islands","Physical Island","Cloud Cheesecake","-","20.76%","Herc",9448
+"Floating Islands","Physical Island","Cloud Cheesecake","-","19.41%","Ground Gavaleer",9448
+"Floating Islands","Physical Island","Cloud Cheesecake","-","18.84%","Kite Flyer",9448
+"Floating Islands","Physical Island","Cloud Cheesecake","-","11.15%","Daydreamer",9448
+"Floating Islands","Physical Island","Gouda","-","49.69%","Daydreamer",159
+"Floating Islands","Physical Island","Gouda","-","41.51%","Kite Flyer",159
+"Floating Islands","Physical Island","Gouda","-","5.66%","Ground Gavaleer",159
+"Floating Islands","Physical Island","Gouda","-","3.14%","Sky Swordsman",159
+"Floating Islands","Physical Palisade","Cloud Cheesecake","-","35.06%","Sky Squire",4461
+"Floating Islands","Physical Palisade","Cloud Cheesecake","-","23.40%","Sky Swordsman",4461
+"Floating Islands","Physical Palisade","Cloud Cheesecake","-","22.06%","Ground Gavaleer",4461
+"Floating Islands","Physical Palisade","Cloud Cheesecake","-","19.48%","Herc",4461
+"Floating Islands","Shadow Island","Cloud Cheesecake","-","29.36%","Overcaster",9121
+"Floating Islands","Shadow Island","Cloud Cheesecake","-","20.90%","Stratocaster",9121
+"Floating Islands","Shadow Island","Cloud Cheesecake","-","19.29%","Astrological Astronomer",9121
+"Floating Islands","Shadow Island","Cloud Cheesecake","-","19.15%","Kite Flyer",9121
+"Floating Islands","Shadow Island","Cloud Cheesecake","-","11.30%","Daydreamer",9121
+"Floating Islands","Shadow Island","Gouda","-","46.72%","Daydreamer",137
+"Floating Islands","Shadow Island","Gouda","-","39.42%","Kite Flyer",137
+"Floating Islands","Shadow Island","Gouda","-","7.30%","Overcaster",137
+"Floating Islands","Shadow Island","Gouda","-","6.57%","Astrological Astronomer",137
+"Floating Islands","Shadow Stronghold","Cloud Cheesecake","-","33.74%","Shadow Sage",4585
+"Floating Islands","Shadow Stronghold","Cloud Cheesecake","-","22.94%","Astrological Astronomer",4585
+"Floating Islands","Shadow Stronghold","Cloud Cheesecake","-","22.84%","Overcaster",4585
+"Floating Islands","Shadow Stronghold","Cloud Cheesecake","-","20.48%","Stratocaster",4585
+"Floating Islands","Tactical Island","Cloud Cheesecake","-","30.37%","Gyrologer",10877
+"Floating Islands","Tactical Island","Cloud Cheesecake","-","20.27%","Seasoned Islandographer",10877
+"Floating Islands","Tactical Island","Cloud Cheesecake","-","19.66%","Worried Wayfinder",10877
+"Floating Islands","Tactical Island","Cloud Cheesecake","-","18.28%","Kite Flyer",10877
+"Floating Islands","Tactical Island","Cloud Cheesecake","-","11.43%","Daydreamer",10877
+"Floating Islands","Tactical Island","Gouda","-","47.43%","Daydreamer",175
+"Floating Islands","Tactical Island","Gouda","-","42.29%","Kite Flyer",175
+"Floating Islands","Tactical Island","Gouda","-","6.29%","Gyrologer",175
+"Floating Islands","Tactical Island","Gouda","-","4.00%","Worried Wayfinder",175
+"Floating Islands","Tactical Castle","Cloud Cheesecake","-","33.87%","Captain Cloudkicker",4822
+"Floating Islands","Tactical Castle","Cloud Cheesecake","-","22.69%","Worried Wayfinder",4822
+"Floating Islands","Tactical Castle","Cloud Cheesecake","-","22.07%","Gyrologer",4822
+"Floating Islands","Tactical Castle","Cloud Cheesecake","-","21.36%","Seasoned Islandographer",4822
+"Floating Islands","Tactical Castle","Cloud Cheesecake","-","0.02%","Daydreamer",4822
+"Floating Islands","Arcane Island","Cloud Cheesecake","-","29.56%","Sky Glass Glazier",10955
+"Floating Islands","Arcane Island","Cloud Cheesecake","-","20.94%","Sky Dancer",10955
+"Floating Islands","Arcane Island","Cloud Cheesecake","-","20.35%","Sky Glass Sorcerer",10955
+"Floating Islands","Arcane Island","Cloud Cheesecake","-","17.90%","Kite Flyer",10955
+"Floating Islands","Arcane Island","Cloud Cheesecake","-","11.26%","Daydreamer",10955
+"Floating Islands","Arcane Island","SB+","-","49.07%","Kite Flyer",108
+"Floating Islands","Arcane Island","SB+","-","39.81%","Daydreamer",108
+"Floating Islands","Arcane Island","SB+","-","6.48%","Sky Glass Sorcerer",108
+"Floating Islands","Arcane Island","SB+","-","4.63%","Sky Glass Glazier",108
+"Floating Islands","Arcane Island","Gouda","-","53.69%","Daydreamer",149
+"Floating Islands","Arcane Island","Gouda","-","38.26%","Kite Flyer",149
+"Floating Islands","Arcane Island","Gouda","-","7.38%","Sky Glass Glazier",149
+"Floating Islands","Arcane Island","Gouda","-","0.67%","Sky Glass Sorcerer",149
+"Floating Islands","Arcane Keep","Cloud Cheesecake","-","35.22%","Sky Highborne",4958
+"Floating Islands","Arcane Keep","Cloud Cheesecake","-","22.69%","Sky Glass Glazier",4958
+"Floating Islands","Arcane Keep","Cloud Cheesecake","-","22.07%","Sky Glass Sorcerer",4958
+"Floating Islands","Arcane Keep","Cloud Cheesecake","-","20.03%","Sky Dancer",4958
+"Floating Islands","Forgotten Island","Cloud Cheesecake","-","29.57%","Spry Sky Seer",10426
+"Floating Islands","Forgotten Island","Cloud Cheesecake","-","20.79%","Cumulost",10426
+"Floating Islands","Forgotten Island","Cloud Cheesecake","-","20.13%","Spry Sky Explorer",10426
+"Floating Islands","Forgotten Island","Cloud Cheesecake","-","18.20%","Kite Flyer",10426
+"Floating Islands","Forgotten Island","Cloud Cheesecake","-","11.30%","Daydreamer",10426
+"Floating Islands","Forgotten Island","Gouda","-","53.55%","Daydreamer",211
+"Floating Islands","Forgotten Island","Gouda","-","36.02%","Kite Flyer",211
+"Floating Islands","Forgotten Island","Gouda","-","6.16%","Spry Sky Explorer",211
+"Floating Islands","Forgotten Island","Gouda","-","4.27%","Spry Sky Seer",211
+"Floating Islands","Forgotten Fortress","Cloud Cheesecake","-","35.61%","Spheric Diviner",4114
+"Floating Islands","Forgotten Fortress","Cloud Cheesecake","-","22.82%","Spry Sky Seer",4114
+"Floating Islands","Forgotten Fortress","Cloud Cheesecake","-","22.22%","Spry Sky Explorer",4114
+"Floating Islands","Forgotten Fortress","Cloud Cheesecake","-","19.35%","Cumulost",4114
+"Floating Islands","Hydro Island","Cloud Cheesecake","-","29.84%","Sky Surfer",10799
+"Floating Islands","Hydro Island","Cloud Cheesecake","-","20.71%","Cute Cloud Conjurer",10799
+"Floating Islands","Hydro Island","Cloud Cheesecake","-","19.92%","Nimbomancer",10799
+"Floating Islands","Hydro Island","Cloud Cheesecake","-","18.87%","Kite Flyer",10799
+"Floating Islands","Hydro Island","Cloud Cheesecake","-","10.66%","Daydreamer",10799
+"Floating Islands","Hydro Island","SB+","-","44.12%","Daydreamer",136
+"Floating Islands","Hydro Island","SB+","-","42.65%","Kite Flyer",136
+"Floating Islands","Hydro Island","SB+","-","7.35%","Nimbomancer",136
+"Floating Islands","Hydro Island","SB+","-","5.88%","Sky Surfer",136
+"Floating Islands","Hydro Island","Gouda","-","51.85%","Daydreamer",216
+"Floating Islands","Hydro Island","Gouda","-","41.20%","Kite Flyer",216
+"Floating Islands","Hydro Island","Gouda","-","4.17%","Sky Surfer",216
+"Floating Islands","Hydro Island","Gouda","-","2.78%","Nimbomancer",216
+"Floating Islands","Hydro Hideaway","Cloud Cheesecake","-","34.07%","Mist Maker",5274
+"Floating Islands","Hydro Hideaway","Cloud Cheesecake","-","24.23%","Sky Surfer",5274
+"Floating Islands","Hydro Hideaway","Cloud Cheesecake","-","21.69%","Nimbomancer",5274
+"Floating Islands","Hydro Hideaway","Cloud Cheesecake","-","20.00%","Cute Cloud Conjurer",5274
+"Floating Islands","Draconic Island","Cloud Cheesecake","-","29.72%","Lancer Guard",5512
+"Floating Islands","Draconic Island","Cloud Cheesecake","-","20.45%","Dragonbreather",5512
+"Floating Islands","Draconic Island","Cloud Cheesecake","-","19.97%","Tiny Dragonfly",5512
+"Floating Islands","Draconic Island","Cloud Cheesecake","-","18.74%","Kite Flyer",5512
+"Floating Islands","Draconic Island","Cloud Cheesecake","-","11.12%","Daydreamer",5512
+"Floating Islands","Draconic Sanctuary","Cloud Cheesecake","-","32.34%","Regal Spearman",2409
+"Floating Islands","Draconic Sanctuary","Cloud Cheesecake","-","24.03%","Tiny Dragonfly",2409
+"Floating Islands","Draconic Sanctuary","Cloud Cheesecake","-","23.33%","Lancer Guard",2409
+"Floating Islands","Draconic Sanctuary","Cloud Cheesecake","-","20.30%","Dragonbreather",2409
+"Floating Islands","Law Island","Cloud Cheesecake","-","28.64%","Stack of Thieves",8082
+"Floating Islands","Law Island","Cloud Cheesecake","-","20.90%","Lawbender",8082
+"Floating Islands","Law Island","Cloud Cheesecake","-","19.67%","Devious Gentleman",8082
+"Floating Islands","Law Island","Cloud Cheesecake","-","19.48%","Kite Flyer",8082
+"Floating Islands","Law Island","Cloud Cheesecake","-","11.31%","Daydreamer",8082
+"Floating Islands","Law Garrison","Cloud Cheesecake","-","33.64%","Agent M",3035
+"Floating Islands","Law Garrison","Cloud Cheesecake","-","24.28%","Stack of Thieves",3035
+"Floating Islands","Law Garrison","Cloud Cheesecake","-","22.64%","Devious Gentleman",3035
+"Floating Islands","Law Garrison","Cloud Cheesecake","-","19.44%","Lawbender",3035
 "Floating Islands","Sky Pirates","Sky Pirate Swiss","-","16.66%","Suave Pirate",6
 "Floating Islands","Sky Pirates","Sky Pirate Swiss","-","16.66%","Cutthroat Pirate",6
 "Floating Islands","Sky Pirates","Sky Pirate Swiss","-","16.66%","Cutthroat Cannoneer",6
