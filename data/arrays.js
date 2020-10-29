@@ -800,7 +800,7 @@ var charmsArray = {
   "Power Charm": [120, 1, 0, 0, "No Effect"],
   "Prospector's Charm": [200, 1, 0, 0, "No Effect"],
   "Queso Pump Charm": [50, 5, 5, 0, "Fresh"],
-  "Rainbow Luck Charm": [800, 0, 0, 12, "No Effect"],
+  "Rainbow Charm": [1000, 10, 10, 12, "Insanely Fresh"],
   "Ramming Speed Charm": [0, 0, 0, 0, "No Effect"],
   "Reality Restitch Charm": [0, 10, 10, 5, "Fresh"],
   "Realm Ripper Charm": [0, 0, 0, 0, "No Effect"],
