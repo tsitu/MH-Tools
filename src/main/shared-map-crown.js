@@ -917,10 +917,11 @@ function printBestLocation(sortedLocation, mouseLocationArray, toolType) {
 
 function getMinLuckArray(mouse) {
   function minLuck(effectiveness, mousePower) {
-    var finalEffectiveness = Math.min(effectiveness, 2);
-    var minLuckSquared =
-      mousePower / (3 - finalEffectiveness) / Math.pow(finalEffectiveness, 2);
-    return Math.ceil(Math.sqrt(minLuckSquared));
+    return Math.ceil(
+      (Math.ceil(Math.sqrt(mousePower / 2)) /
+        Math.min(effectiveness * 10, 14)) *
+        10
+    );
   }
 
   var retArr = [
