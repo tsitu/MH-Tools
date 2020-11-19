@@ -560,14 +560,14 @@
     urlParams["phase"] = userSublocation;
   }
 
-  // Denture Base empowered check
+  // Denture Base un-charged check
   if (urlParams["base"].indexOf("Denture Base") > -1) {
     var baseIcon = document.querySelector(
       ".mousehuntHud-userStat.trap.base > .icon"
     );
     if (baseIcon) {
-      if (baseIcon.getAttribute("style").indexOf("vteeth") >= 0) {
-        urlParams["base"] += " (Empowered)";
+      if (baseIcon.getAttribute("style").indexOf("vteeth") <= 0) {
+        urlParams["base"] += " (Toothless)";
       }
     }
   }

@@ -25,10 +25,10 @@
 
       // Auto-add Denture Base variants
       if (bases.indexOf("Denture Base") >= 0) {
-        bases.push("Denture Base (Empowered)");
+        bases.push("Denture Base (Toothless)");
       }
       if (bases.indexOf("Signature Series Denture Base") >= 0) {
-        bases.push("Signature Series Denture Base (Empowered)");
+        bases.push("Signature Series Denture Base (Toothless)");
       }
 
       var weapons = arr
