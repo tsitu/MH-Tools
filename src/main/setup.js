@@ -56,6 +56,7 @@ $(window).load(function() {
   document.getElementById("vrFloorType").onchange = genericOnChange;
   document.getElementById("umbraFloor").onchange = umbraChanged;
   document.getElementById("riftstalker").onchange = riftstalkerChange;
+  document.getElementById("dentureFilter").onchange = dentureFilterChange;
   document.getElementById("rank").onchange = rankChange;
 
   $("#save_setup_button").click(saveSetupStorage);
@@ -690,8 +691,14 @@ function printCombinations(micePopulation, headerHtml) {
 
     $(baseSelectors.checkbox + ":checked").each(function(index, baseElement) {
       baseName = baseElement.value;
-      baseChanged();
 
+      // Skip Denture Base variants if filter is checked
+      var isDentureFiltered = localStorage.getItem("best-setup-denture-filter");
+      if (isDentureFiltered === "true" && baseName.indexOf("Denture") >= 0) {
+        return true;
+      }
+
+      baseChanged();
       buildOverallCR(
         micePopulation,
         powersArray,

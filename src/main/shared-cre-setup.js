@@ -482,9 +482,7 @@ function calculateTrapSetup(skipDisp) {
     var totalPourBonus = 1 + (pourBonus / 100) * (1 + setupPowerBonus / 100);
     subtotalPowerBonus = setupPowerBonus + shownPowerBonus + cheeseBonus; // Bonus Power %
 
-    return Math.ceil(
-      totalPower * totalBonus * totalPourBonus * getAmpBonus()
-    );
+    return Math.ceil(totalPower * totalBonus * totalPourBonus * getAmpBonus());
   }
 
   function getAmpBonus() {
@@ -668,6 +666,23 @@ function riftstalkerChange() {
   var key = getRiftstalkerKey();
   riftStalkerCodex = $("#riftstalker").prop("checked");
   localStorage.setItem(key, riftStalkerCodex);
+  genericOnChange();
+}
+
+function dentureFilterParamCheck() {
+  var dentureFilterParam = getURLParameter("dentureFilter") !== NULL_URL_PARAM;
+  var dentureFilterChecked =
+    dentureFilterParam ||
+    localStorage.getItem("best-setup-denture-filter") === "true";
+  $("#dentureFilter").prop("checked", dentureFilterChecked);
+  dentureFilterChange();
+}
+
+function dentureFilterChange() {
+  localStorage.setItem(
+    "best-setup-denture-filter",
+    $("#dentureFilter").prop("checked")
+  );
   genericOnChange();
 }
 
@@ -1508,6 +1523,7 @@ function checkLoadState(type) {
       weaponChanged();
       baseName = getURLParameter("base");
       baseChanged();
+      dentureFilterParamCheck();
     }
 
     gsParamCheck();
