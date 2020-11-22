@@ -309,6 +309,15 @@ var pressureMice = {
   "Emberstone Scaled": 1500
 };
 
+var pirateSealMice = {
+  "Suave Pirate": 1,
+  "Cutthroat Pirate": 1,
+  "Cutthroat Cannoneer": 1,
+  "Scarlet Revenger": 2,
+  "Mairitime Pirate": 2.5,
+  "Admiral Cloudbeard": 5
+};
+
 var freshness2stale = {
   "-6": 1,
   "-5": 0.9,
