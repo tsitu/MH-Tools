@@ -235,6 +235,11 @@ function showPop(type) {
     ) {
       headerHTML +=
         "<th data-filter='false'>kPa</th><th data-filter='false'>kPa Tonic</th>";
+    } else if (
+      locationName === "Floating Islands" &&
+      phaseName.indexOf("Pirates") >= 0
+    ) {
+      headerHTML += "<th data-filter='false'>Seals</th>";
     }
     headerHTML += "</tr>";
     return headerHTML;
@@ -274,7 +279,8 @@ function showPop(type) {
       gnarledRageIncreaseOverall = 0,
       deepRageIncreaseOverall = 0,
       pressureOverall = 0,
-      pressureOverallTonic = 0;
+      pressureOverallTonic = 0,
+      pirateSeals = 0;
 
     var headerHTML = getHeaderRow();
     var overallAR = getCheeseAttraction();
@@ -513,6 +519,13 @@ function showPop(type) {
           pressureOverall += (kPaGain * catches) / 100;
           pressureOverallTonic += (kPaGain * 2 * catches) / 100;
           mouseRow += "<td>" + kPaGain + "</td><td>" + kPaGain * 2 + "</td>";
+        } else if (
+          locationName === "Floating Islands" &&
+          phaseName.indexOf("Pirates") >= 0
+        ) {
+          var sealsLooted = pirateSealMice[mouseName];
+          pirateSeals += (sealsLooted * catches) / 100;
+          mouseRow += "<td>" + sealsLooted + "</td>";
         }
 
         if (locationName === "Event") {
@@ -600,6 +613,11 @@ function showPop(type) {
         "</td><td>" +
         pressureOverallTonic.toFixed(2) +
         "</td>";
+    } else if (
+      locationName === "Floating Islands" &&
+      phaseName.indexOf("Pirates") >= 0
+    ) {
+      resultsHTML += "<td>" + pirateSeals.toFixed(2) + "</td>";
     }
 
     var cheeseEatenPerHunt = overallAR / 100;
@@ -629,7 +647,8 @@ function showPop(type) {
 
     if (
       locationName === "Seasonal Garden" ||
-      (locationName === "Sunken City" && phaseName != "Docked")
+      (locationName === "Sunken City" && phaseName != "Docked") ||
+      (locationName === "Floating Islands" && phaseName.indexOf("Pirates") >= 0)
     ) {
       resultsHTML += "<td></td>";
     } else if (
