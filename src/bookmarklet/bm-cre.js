@@ -574,7 +574,6 @@
 
   // Prestige Base highest floor check
   if (urlParams["base"] === "Prestige Base") {
-    urlParams["umbraFloor"] = 0;
     document
       .querySelectorAll(".campPage-trap-trapStat-mathRow-name")
       .forEach(el => {
