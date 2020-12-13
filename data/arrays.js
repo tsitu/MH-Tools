@@ -62,6 +62,7 @@ var riftWeapons = [
 var riftBases = [
   "Attuned Enerchi Induction Base",
   "Clockwork Base",
+  "Elixir Exchanger Base",
   "Enerchi Induction Base",
   "Fissure Base",
   "Fracture Base",
@@ -318,6 +319,33 @@ var pirateSealMice = {
   "Admiral Cloudbeard": 5
 };
 
+// 12/11/20 FBF @ timestamp 10:11
+var scoundrelPirateMice = [
+  // Sky Pirates
+  "Suave Pirate",
+  "Cutthroat Pirate",
+  "Cutthroat Cannoneer",
+  "Scarlet Revenger",
+  "Mairitime Pirate",
+  "Admiral Cloudbeard",
+  // Dock Dwellers
+  "Cabin Boy",
+  "Dashing Buccaneer",
+  "Bilged Boatswain",
+  "Barmy Gunner",
+  "Pirate",
+  "Corrupt Commodore",
+  // Misc
+  "Buccaneer",
+  "Pirate Anchor",
+  "Dread Pirate Mousert",
+  "Deranged Deckhand",
+  "Scorned Pirate",
+  "Ghost Pirate Queen",
+  "Captain Cannonball",
+  "Admiral Arrrgh"
+];
+
 var freshness2stale = {
   "-6": 1,
   "-5": 0.9,
@@ -387,6 +415,7 @@ var basesArray = {
   "2018 New Year's Base": [200, 7, 0, 10, "Fresh"],
   "2019 New Year's Base": [200, 7, 0, 10, "Fresh"],
   "2020 New Year's Base": [220, 7, 0, 10, "Fresh"],
+  "2021 New Year's Base": [221, 7, 0, 10, "Fresh"],
   "Adorned Empyrean Refractor Base": [1500, 20, 15, 20, "Fresh"],
   "Aqua Base": [230, 0, 0, 8, "No Effect"],
   "Attuned Enerchi Induction Base": [500, 10, 10, 10, "Stale"],
@@ -419,6 +448,7 @@ var basesArray = {
   "Dog Jade Base": [375, 12, 10, 10, "Stale"],
   "Dragon Jade Base": [300, 10, 0, 10, "No Effect"],
   "Electromagnetic Meteorite Base": [350, 12, 15, 8, "Very Stale"],
+  "Elixir Exchanger Base": [200, 10, 20, 10, "No Effect"],
   "Enerchi Induction Base": [100, 10, 0, 10, "Stale"],
   "Explosive Base": [300, 5, 5, 0, "Stale"],
   "Extra Sweet Cupcake Birthday Base": [300, 8, 8, 8, "Extremely Fresh"],
@@ -431,6 +461,7 @@ var basesArray = {
   "Forecaster Base": [400, 12, 10, 10, "Very Fresh"],
   "Fracture Base": [200, 10, 0, 10, "Fresh"],
   "Furoma Base": [100, 10, 10, 10, "No Effect"],
+  "Gift of the Day Base": [100, 0, 15, 10, "No Effect"],
   "Gingerbread Base": [225, 8, 0, 4, "Insanely Fresh"],
   "Golden Tournament Base": [500, 15, 10, 8, "Extremely Fresh"],
   "Glowing Golem Guardian Base": [500, 20, 5, 10, "Fresh"],
@@ -644,6 +675,7 @@ var weaponsArray = {
   "S.A.M. F.E.D. DN-5": ["Tactical", 2750, 5, 20, 15, "Fresh"],
   "S.L.A.C.": ["Law", 300, 5, 10, 0, "No Effect"],
   "S.L.A.C. II": ["Law", 1500, 6, 15, 0, "No Effect"],
+  "S.S. Scoundrel Sleigher Trap": ["Hydro", 4500, 12, 10, 18, "Fresh"],
   "S.T.I.N.G. Trap": ["Law", 3500, 15, 10, 10, "Stale"],
   "S.T.I.N.G.E.R. Trap": ["Law", 6075, 25, 15, 20, "Extremely Stale"],
   "S.U.P.E.R. Scum Scrubber": ["Hydro", 4000, 15, 15, 15, "Stale"],
@@ -710,6 +742,7 @@ var charmsArray = {
   "2018 Charm": [2018, 0, 0, 0, "No Effect"],
   "2019 Charm": [2019, 0, 0, 0, "No Effect"],
   "2020 Charm": [2020, 0, 0, 0, "No Effect"],
+  "2021 Charm": [2021, 0, 0, 0, "No Effect"],
   "Airship Charm": [800, 0, 0, 5, "No Effect"],
   "Amplifier Charm": [0, 0, 0, 0, "No Effect"],
   "Ancient Charm": [600, 5, 5, 5, "Extremely Fresh"],
@@ -819,6 +852,7 @@ var charmsArray = {
   "Red Sponge Charm": [0, 0, 0, 0, "No Effect"],
   "Regal Charm": [1000, 0, 20, 6, "No Effect"],
   "Rift 2020 Charm": [2020, 0, 0, 0, "No Effect"],
+  "Rift 2021 Charm": [2021, 0, 0, 0, "No Effect"],
   "Rift Airship Charm": [500, 0, 0, 5, "No Effect"],
   "Rift Antiskele Charm": [0, 0, 0, 0, "No Effect"],
   "Rift Charm": [100, 1, 0, 0, "Stale"],

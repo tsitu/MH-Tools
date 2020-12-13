@@ -1437,16 +1437,16 @@ function calcCRMods(catchRate, mouseName) {
     locationName === "Seasonal Garden"
   ) {
     if (ztAmp > 0 && weaponName === "Zugzwang's Ultimate Move") {
-      // 50% increased CR for ZUM in ZT/SG
-      catchRate += (1 - catchRate) / 2;
+      // 50% instant catch for ZUM in ZT/SG
+      catchRate += (1 - catchRate) * 0.5;
     }
   } else if (locationName === "Fort Rox") {
     if (
       (contains(wereMice, mouseName) && fortRox.ballistaLevel >= 2) ||
       (contains(cosmicCritters, mouseName) && fortRox.cannonLevel >= 2)
     ) {
-      // 50% increased CR for Ballista/Cannon 2 in FR
-      catchRate += (1 - catchRate) / 2;
+      // 50% instant catch for Ballista/Cannon 2 in FR
+      catchRate += (1 - catchRate) * 0.5;
     }
 
     if (
@@ -1466,8 +1466,15 @@ function calcCRMods(catchRate, mouseName) {
   }
 
   if (weaponName.startsWith("Anniversary")) {
-    // 10% increased CR for 10th Anniversary traps
-    catchRate += (1 - catchRate) / 10;
+    // 10% instant catch for 10th Anniversary traps
+    catchRate += (1 - catchRate) * 0.1;
+  }
+
+  if (weaponName === "S.S. Scoundrel Sleigher Trap") {
+    if (contains(scoundrelPirateMice, mouseName)) {
+      // Guesstimate: 33% instant catch against pirate mice
+      catchRate += (1 - catchRate) * 0.33;
+    }
   }
 
   // Miscellaneous modifications
