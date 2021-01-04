@@ -1002,6 +1002,7 @@ var festiveTraps = [
   "Infinite Winter Horizon Trap",
   "Nutcracker Nuisance Trap",
   "Rift Glacier Gatler",
+  "S.S. Scoundrel Sleigher Trap",
   "Snow Barrage",
   "Snowglobe Trap",
   "Wrapped Gift Trap"
