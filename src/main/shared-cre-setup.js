@@ -164,6 +164,16 @@ function getURLParameter(name) {
 
   if (value === null) {
     return null;
+  } else if (name === "weapon") {
+    let weaponCheck = decodeURIComponent(value);
+    switch (weaponCheck){
+      case "Ambush Trap":
+        return "Ambush";
+      case "School Of Sharks Trap":
+        return "School of Sharks";
+      default:
+        return weaponCheck;
+    }
   } else {
     return decodeURIComponent(value);
   }
@@ -892,13 +902,6 @@ function loadDropdown(category, array, callback, initialHtml) {
   } else {
     var paramVal = getURLParameter(category);
     inputElement.value = paramVal;
-
-    if (category === "weapon") {
-      // Weapon edge cases
-      if (paramVal === "Ambush Trap") {
-        inputElement.value = "Ambush";
-      }
-    }
   }
 
   if (inputElement.selectedIndex === -1) {
@@ -1526,8 +1529,8 @@ function checkLoadState(type) {
     }
 
     if (type === SETUP_USER) {
-      weaponCheck = getURLParameter("weapon");
-      weaponName = (weaponCheck == "Ambush Trap") ? "Ambush" : weaponCheck;
+      //check for weapon edge cases in Setup
+      weaponName = getURLParameter("weapon");
       weaponChanged();
       baseName = getURLParameter("base");
       baseChanged();
