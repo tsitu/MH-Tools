@@ -1529,7 +1529,6 @@ function checkLoadState(type) {
     }
 
     if (type === SETUP_USER) {
-      //check for weapon edge cases in Setup
       weaponName = getURLParameter("weapon");
       weaponChanged();
       baseName = getURLParameter("base");
