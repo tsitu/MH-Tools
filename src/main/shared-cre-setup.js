@@ -1526,7 +1526,8 @@ function checkLoadState(type) {
     }
 
     if (type === SETUP_USER) {
-      weaponName = getURLParameter("weapon");
+      weaponCheck = getURLParameter("weapon");
+      weaponName = (weaponCheck == "Ambush Trap") ? "Ambush" : weaponCheck;
       weaponChanged();
       baseName = getURLParameter("base");
       baseChanged();
