@@ -540,13 +540,13 @@
   }
 
   // Weapon edge cases
-  switch(urlParams["weapon"]){
+  switch (urlParams["weapon"]) {
     case "School of Sharks Trap":
       urlParams["weapon"] = "School of Sharks";
       break;
     case "Ambush Trap":
       urlParams["weapon"] = "Ambush";
-      break
+      break;
   }
 
   if (userSublocation !== "N/A") {

@@ -166,7 +166,7 @@ function getURLParameter(name) {
     return null;
   } else if (name === "weapon") {
     let weaponCheck = decodeURIComponent(value);
-    switch (weaponCheck){
+    switch (weaponCheck) {
       case "Ambush Trap":
         return "Ambush";
       case "School Of Sharks Trap":
