@@ -480,6 +480,7 @@ var basesArray = {
   "Monkey Jade Base": [350, 12, 10, 10, "Stale"],
   "Monolith Base": [300, 12, 0, 0, "No Effect"],
   "Overgrown Ember Stone Base": [450, 10, 18, 12, "Ultimately Stale"],
+  "Ox Jade Base": [375, 12, 10, 10, "Stale"],
   "Papyrus Base": [400, 0, 0, 10, "Fresh"],
   "Physical Brace Base": [300, 0, 5, 8, "No Effect"],
   "Pig Jade Base": [375, 12, 10, 10, "Stale"],
