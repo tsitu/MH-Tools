@@ -427,6 +427,7 @@ var basesArray = {
   "Birthday Cake Base": [175, 11, 5, 0, "No Effect"],
   "Birthday Confetti Cake Base": [300, 12, 12, 10, "Extremely Fresh"],
   "Birthday Drag\xE9e Cake Base": [175, 5, 15, 6, "Very Fresh"],
+  "Birthday Ube Cake Base": [300, 13, 13, 10, "Extremely Fresh"],
   "Black Widow Base": [100, 10, 10, 10, "No Effect"],
   "Bronze Tournament Base": [300, 5, 3, 5, "Fresh"],
   "Candy Cane Base": [300, 0, 0, 8, "Fresh"],
