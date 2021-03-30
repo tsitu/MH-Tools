@@ -77,7 +77,8 @@ var riftCharms = [
   "Stagnant Charm",
   "Enerchi Charm",
   "Super Enerchi Charm",
-  "Timesplit Charm"
+  "Timesplit Charm",
+  "Eggstra Charge Charm"
 ];
 
 var labyrinthMiceClues = {
@@ -777,7 +778,7 @@ var charmsArray = {
   "Dusty Coal Charm": [0, 3, 0, 5, "Fresh"],
   "Eggscavator Charge Charm": [0, 0, 0, 0, "No Effect"],
   "Eggstra Charm": [0, 0, 0, 0, "No Effect"],
-  "Eggstra Charge Charm": [0, 0, 0, 0, "No Effect"],
+  "Eggstra Charge Charm": [250, 5, 5, 2, "No Effect"],
   "Elub Power Charm": [0, 0, 0, 0, "No Effect"],
   "Ember Charm": [0, 500, 0, 0, "No Effect"],
   "EMP400 Charm": [0, 0, 0, 0, "Stale"],
