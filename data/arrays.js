@@ -433,6 +433,7 @@ var basesArray = {
   "Candy Cane Base": [300, 0, 0, 8, "Fresh"],
   "Carrot Birthday Cake Base": [175, 5, 5, 3, "Fresh"],
   "Cheesecake Base": [175, 3, 20, 0, "No Effect"],
+  "Chocolate Bar Base": [350, 10, 10, 5, "Very Fresh"],
   "Chocolate Birthday Cake Base": [175, 8, 5, 1, "No Effect"],
   "Claw Shot Base": [250, 10, 5, 4, "Very Fresh"],
   "Clockwork Base": [800, 20, 5, 13, "No Effect"],
