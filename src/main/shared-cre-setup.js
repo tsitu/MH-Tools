@@ -295,6 +295,11 @@ function calculateTrapSetup(skipDisp) {
       weaponName.indexOf("Golem Guardian") >= 0
     ) {
       specialLuck += 6;
+    } else if (
+      baseName === "Chocolate Bar Base" &&
+      charmName === "Dark Chocolate Charm"
+    ) {
+      shownPowerBonus += 20;
     }
 
     determineRiftBonus(riftStalkerCodex);

@@ -445,6 +445,12 @@ function showPop(type) {
             crazedRageIncrease = 0;
             gnarledRageIncrease = 0;
           }
+          if (weaponName === "Darkest Chocolate Bunny Trap") {
+            // Doubles rage increase (proc rate assumed to be 33% for now)
+            crazedRageIncrease *= 1.33;
+            gnarledRageIncrease *= 1.33;
+            deepRageIncrease *= 1.33;
+          }
           mouseRow += "<td>" + crazedRageIncrease + "</td>";
           mouseRow += "<td>" + gnarledRageIncrease + "</td>";
           mouseRow += "<td>" + deepRageIncrease + "</td>";
