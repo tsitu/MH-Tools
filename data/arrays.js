@@ -51,6 +51,7 @@ var riftWeapons = [
   "Chrome Celestial Dissonance Trap",
   "Christmas Crystalabra Trap",
   "Crystal Tower",
+  "Darkest Chocolate Bunny Trap",
   "Focused Crystal Laser",
   "Multi-Crystal Laser",
   "Mysteriously unYielding Null-Onyx Rampart of Cascading Amperes",
@@ -77,7 +78,8 @@ var riftCharms = [
   "Stagnant Charm",
   "Enerchi Charm",
   "Super Enerchi Charm",
-  "Timesplit Charm"
+  "Timesplit Charm",
+  "Eggstra Charge Charm"
 ];
 
 var labyrinthMiceClues = {
@@ -433,6 +435,7 @@ var basesArray = {
   "Candy Cane Base": [300, 0, 0, 8, "Fresh"],
   "Carrot Birthday Cake Base": [175, 5, 5, 3, "Fresh"],
   "Cheesecake Base": [175, 3, 20, 0, "No Effect"],
+  "Chocolate Bar Base": [350, 10, 5, 10, "Very Fresh"],
   "Chocolate Birthday Cake Base": [175, 8, 5, 1, "No Effect"],
   "Claw Shot Base": [250, 10, 5, 4, "Very Fresh"],
   "Clockwork Base": [800, 20, 5, 13, "No Effect"],
@@ -582,6 +585,7 @@ var weaponsArray = {
   "Crystal Crucible Trap": ["Forgotten", 7800, 10, 2, 8, "Very Fresh"],
   "Crystal Mineral Crusher Trap": ["Forgotten", 8000, 10, 5, 5, "Fresh"],
   "Crystal Tower": ["Rift", 900, 0, 0, 0, "No Effect"],
+  "Darkest Chocolate Bunny Trap": ["Rift", 1400, 10, 5, 2, "Very Stale"],
   "Digby DrillBot": ["Physical", 3200, 18, 0, 5, "No Effect"],
   "Dimensional Chest Trap": ["Tactical", 5200, 8, 10, 21, "Extremely Fresh"],
   "Double Diamond Adventure": ["Hydro", 3500, 0, 5, 18, "Insanely Fresh"],
@@ -777,7 +781,7 @@ var charmsArray = {
   "Dusty Coal Charm": [0, 3, 0, 5, "Fresh"],
   "Eggscavator Charge Charm": [0, 0, 0, 0, "No Effect"],
   "Eggstra Charm": [0, 0, 0, 0, "No Effect"],
-  "Eggstra Charge Charm": [0, 0, 0, 0, "No Effect"],
+  "Eggstra Charge Charm": [250, 5, 5, 2, "No Effect"],
   "Elub Power Charm": [0, 0, 0, 0, "No Effect"],
   "Ember Charm": [0, 500, 0, 0, "No Effect"],
   "EMP400 Charm": [0, 0, 0, 0, "Stale"],
