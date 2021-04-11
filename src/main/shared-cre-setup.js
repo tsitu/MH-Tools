@@ -359,9 +359,8 @@ function calculateTrapSetup(skipDisp) {
         specialLuck += 10;
       }
     } else if (
-      (contains(locationName, "Iceberg") ||
-        locationName === "Slushy Shoreline") &&
-      weaponName.indexOf("Steam Laser Mk.") >= 0
+      locationName === "Iceberg" ||
+      locationName === "Slushy Shoreline"
     ) {
       if (weaponName === "Steam Laser Mk. I") {
         specialPower += 1750;
@@ -373,14 +372,18 @@ function calculateTrapSetup(skipDisp) {
         specialPower += 1500;
         specialLuck += 2;
       }
-    } else if (
-      (phaseName.indexOf("Icewing's Lair") >= 0 ||
-        phaseName.indexOf("Hidden Depths") >= 0 ||
-        phaseName.indexOf("The Deep Lair") >= 0) &&
-      (baseName === "Deep Freeze Base" || baseName === "Ultimate Iceberg Base")
-    ) {
-      specialPower += 665;
-      specialLuck += 9;
+
+      // Deep Freeze / UIB bonuses before hunt 250
+      if (
+        (phaseName.indexOf("Icewing's Lair") >= 0 ||
+          phaseName.indexOf("Hidden Depths") >= 0 ||
+          phaseName.indexOf("The Deep Lair") >= 0) &&
+        (baseName === "Deep Freeze Base" ||
+          baseName === "Ultimate Iceberg Base")
+      ) {
+        specialPower += 665;
+        specialLuck += 9;
+      }
     } else if (locationName === "Gnawnian Express Station") {
       if (
         weaponName === "Bandit Deflector" &&
