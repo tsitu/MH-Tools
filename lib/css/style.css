@@ -1,0 +1,277 @@
+/* tables */
+table.tablesorter {
+    background-color: white;
+    margin: 10px 0pt 15px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #e6EEEE;
+    border: 2px solid #e7e7e7;
+    padding: 4px;
+}
+
+table.tablesorter thead tr .tablesorter-header {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+table.tablesorter tbody td {
+    color: #3D3D3D;
+    padding: 4px;
+    background-color: #FFF;
+    vertical-align: top;
+    border: 2px solid #e7e7e7;
+}
+
+table.tablesorter tbody tr.odd td {
+    background-color: #F0F0F6;
+}
+
+table.tablesorter thead tr .tablesorter-headerDesc {
+    background-image: url(../img/asc.png);
+}
+
+table.tablesorter thead tr .tablesorter-headerAsc {
+    background-image: url(../img/desc.png);
+}
+
+table.tablesorter thead tr .tablesorter-headerAsc, table.tablesorter thead tr .tablesorter-headerDesc {
+    background-color: #8dbdd8;
+}
+
+/* rows hidden by filtering (needed for child rows) */
+.tablesorter .filtered {
+    display: none;
+}
+
+/* ajax error row */
+.tablesorter .tablesorter-errorRow td {
+    text-align: center;
+    cursor: pointer;
+    background-color: #e6bf99;
+}
+
+/* pager wrapper, div */
+.tablesorter-pager {
+    padding: 5px;
+}
+
+/* pager wrapper, in thead/tfoot */
+td.tablesorter-pager {
+    background-color: #e6eeee;
+    margin: 0; /* needed for bootstrap .pager gets a 18px bottom margin */
+}
+
+/* pager navigation arrows */
+.tablesorter-pager img {
+    vertical-align: middle;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+/* pager output text */
+.tablesorter-pager .pagedisplay {
+    padding: 0 5px 0 5px;
+    width: 50px;
+    text-align: center;
+}
+
+/* pager element reset (needed for bootstrap) */
+.tablesorter-pager select {
+    margin: 0;
+    padding: 0;
+}
+
+/*** css used when "updateArrows" option is true ***/
+/* the pager itself gets a disabled class when the number of rows is less than the size */
+.tablesorter-pager.disabled {
+    display: none;
+}
+
+/* hide or fade out pager arrows when the first or last row is visible */
+.tablesorter-pager .disabled {
+    /* visibility: hidden */
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    cursor: default;
+}
+
+.tablesorter .tablesorter-filter {
+    width: auto;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tablesorter .tablesorter-filter-row.tablesorter-ignoreRow {
+    background-color: white;
+}
+
+.tablesorter .tablesorter-filter-row.tablesorter-ignoreRow.hideme {
+    background-color: white;
+}
+
+.tablesorter .tablesorter-filter-row.tablesorter-ignoreRow td {
+    background-color: white;
+    border-left: 2px solid #e7e7e7;
+}
+
+.tablesorter .tablesorter-filter-row.tablesorter-ignoreRow td:last-child {
+    background-color: white;
+    border-left: 2px solid #e7e7e7;
+    border-right: 2px solid #e7e7e7;
+}
+
+/* filter row */
+.tablesorter-filter-row td {
+    line-height: normal;
+    text-align: center; /* center the input */
+    -webkit-transition: line-height 0.1s ease;
+    -moz-transition: line-height 0.1s ease;
+    -o-transition: line-height 0.1s ease;
+    transition: line-height 0.1s ease;
+}
+
+.tablesorter thead .disabled {
+    display: none
+}
+
+/* tabs */
+body {
+    background: #FFF;
+}
+
+/*a,*/
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.main-desc {
+    font-size: 16px;
+    margin: 0 0 50px 0;
+}
+
+.tab {
+    float: left;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+    background: #F9F9F9;
+    color: #777;
+}
+
+.tab.active, .tab:hover {
+    background: #DDD;
+    color: #222;
+}
+
+.content {
+    display: none;
+    clear: both;
+    background: #FFF;
+    padding: 20px;
+}
+
+.content.active {
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+td {
+    margin: 4px;
+    padding: 4px 6px;
+}
+
+th {
+    margin: 4px;
+    padding: 4px 6px;
+}
+
+select {
+    padding: 4px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.center button {
+    padding: 4px 8px;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#status {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+#ssid {
+    padding-right: 25px;
+}
+
+.locationComment {
+    font-weight: bold;
+}
+
+.hidden, .display-location {
+    display: none;
+}
+
+table {
+    margin-bottom: 1em;
+    border-collapse: collapse;
+}
+
+table.form tbody {
+    border-top: 15px solid transparent;
+}
+
+ul.inline li {
+    display: inline-block;
+    padding: 0.05em;
+}
