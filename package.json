@@ -9,6 +9,7 @@
     "pop:balack": "node data/pop balacks-cove > data/pop-csv/balacks-cove.csv",
     "!pop:burroughs": "node data/pop burroughs-rift > data/pop-csv/burroughs-rift.csv",
     "!pop:bristle": "node data/pop bristle-woods-rift > data/pop-csv/bristle-woods-rift.csv",
+    "pop:wwrift": "node data/pop whisker-woods-rift > data/pop-csv/whisker-woods-rift.csv",
     "pop:cantera": "node data/pop cantera-quarry > data/pop-csv/cantera-quarry.csv",
     "pop:catacombs": "node data/pop catacombs > data/pop-csv/catacombs.csv",
     "pop:forbidden": "node data/pop forbidden-grove > data/pop-csv/forbidden-grove.csv",
