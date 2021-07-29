@@ -481,14 +481,16 @@ function showPop(type) {
             deltaDepthFTC = 0;
           } else if (
             (baseName === "Spiked Base" ||
-              baseName === "Ultimate Iceberg Base") &&
+              baseName === "Ultimate Iceberg Base" ||
+              baseName === "Iceberg Boiler Base") &&
             contains(brutes, mouseName)
           ) {
             deltaDepthCatch = 0;
             deltaDepthFTC = 0;
           } else if (
             (baseName === "Remote Detonator Base" ||
-              baseName === "Ultimate Iceberg Base") &&
+              baseName === "Ultimate Iceberg Base" ||
+              baseName === "Iceberg Boiler Base") &&
             contains(bombSquad, mouseName)
           ) {
             deltaDepthCatch = 20;
@@ -829,7 +831,7 @@ function icebergPhase() {
     autoPhase = "Bombing Run (Remote Detonator)";
   else if (
     !!~phaseName.indexOf("Bombing Run") &&
-    baseName === "Ultimate Iceberg Base"
+    (baseName === "Ultimate Iceberg Base" || baseName === "Iceberg Boiler Base")
   )
     autoPhase = "Bombing Run (Ultimate Iceberg)";
   else if (
@@ -839,7 +841,7 @@ function icebergPhase() {
     autoPhase = "Bombing Run";
   else if (
     phaseName === "Bombing Run (Ultimate Iceberg)" &&
-    baseName !== "Ultimate Iceberg Base"
+    (baseName !== "Ultimate Iceberg Base" || baseName !== "Iceberg Boiler Base")
   )
     autoPhase = "Bombing Run";
   else if (
@@ -849,7 +851,7 @@ function icebergPhase() {
     autoPhase = "Treacherous Tunnels (Magnet)";
   else if (
     !!~phaseName.indexOf("Treacherous Tunnels") &&
-    baseName === "Ultimate Iceberg Base"
+    (baseName === "Ultimate Iceberg Base" || baseName === "Iceberg Boiler Base")
   )
     autoPhase = "Treacherous Tunnels (Ultimate Iceberg)";
   else if (
@@ -859,7 +861,7 @@ function icebergPhase() {
     autoPhase = "Treacherous Tunnels";
   else if (
     phaseName === "Treacherous Tunnels (Ultimate Iceberg)" &&
-    baseName !== "Ultimate Iceberg"
+    (baseName !== "Ultimate Iceberg Base" || baseName !== "Iceberg Boiler Base")
   )
     autoPhase = "Treacherous Tunnels";
   else if (
@@ -871,7 +873,7 @@ function icebergPhase() {
     autoPhase = "The Mad Depths (Magnet)";
   else if (
     !!~phaseName.indexOf("The Mad Depths") &&
-    baseName === "Ultimate Iceberg Base"
+    (baseName === "Ultimate Iceberg Base" || baseName === "Iceberg Boiler Base")
   )
     autoPhase = "The Mad Depths (Ultimate Iceberg)";
   else if (
@@ -886,7 +888,7 @@ function icebergPhase() {
     autoPhase = "The Mad Depths";
   else if (
     phaseName === "The Mad Depths (Ultimate Iceberg)" &&
-    baseName !== "Ultimate Iceberg"
+    (baseName !== "Ultimate Iceberg Base" || baseName !== "Iceberg Boiler Base")
   )
     autoPhase = "The Mad Depths";
 
