@@ -540,14 +540,14 @@
   }
 
   // Weapon edge cases
-  switch (urlParams["weapon"]) {
-    case "School of Sharks Trap":
-      urlParams["weapon"] = "School of Sharks";
-      break;
-    case "Ambush Trap":
-      urlParams["weapon"] = "Ambush";
-      break;
-  }
+  // switch (urlParams["weapon"]) {
+    // case "School of Sharks Trap":
+    //   urlParams["weapon"] = "School of Sharks";
+    //   break;
+    // case "Ambush Trap":
+      // urlParams["weapon"] = "Ambush";
+      // break;
+  // }
 
   if (userSublocation !== "N/A") {
     urlParams["phase"] = userSublocation;
