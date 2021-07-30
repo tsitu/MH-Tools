@@ -573,7 +573,7 @@ var weaponsArray = {
   "Chrome Onyx Mallet": ["Physical", 5000, 30, 0, 20, "Very Stale"],
   "Chrome Phantasmic Oasis Trap": ["Hydro", 6200, 20, 15, 28, "Very Fresh"],
   "Chrome RhinoBot": ["Physical", 6000, 10, 0, 27, "Ultimately Stale"],
-  "Chrome School of Sharks": ["Hydro", 12500, 25, 20, 32, "Extremely Fresh"],
+  "Chrome School of Sharks Trap": ["Hydro", 12500, 25, 20, 32, "Extremely Fresh"],
   "Chrome Sphynx Wrath": ["Tactical", 6500, 15, 10, 28, "Very Fresh"],
   "Chrome Storm Wrought Ballista Trap": ["Draconic", 6200, 18, 15, 20, "Stale"],
   "Chrome Tacky Glue Trap": ["Physical", 70, 0, 30, 20, "Stale"],
