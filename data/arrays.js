@@ -144,7 +144,8 @@ var dragons = [
   "Lancer Guard",
   "Dragonbreather",
   "Regal Spearman",
-  "Paragon of Dragons"
+  "Paragon of Dragons",
+  "Empyrean Javelineer"
 ];
 
 var tauntings = [
@@ -318,7 +319,8 @@ var pirateSealMice = {
   "Cutthroat Cannoneer": 1,
   "Scarlet Revenger": 2,
   "Mairitime Pirate": 2.5,
-  "Admiral Cloudbeard": 5
+  "Admiral Cloudbeard": 5,
+  "Peggy the Plunderer": 10
 };
 
 // 12/11/20 FBF @ timestamp 10:11
