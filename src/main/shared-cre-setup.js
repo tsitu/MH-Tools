@@ -164,19 +164,20 @@ function getURLParameter(name) {
 
   if (value === null) {
     return null;
-  } else if (name === "weapon") {
-    let weaponCheck = decodeURIComponent(value);
-    switch (weaponCheck) {
-      case "Ambush Trap":
-        return "Ambush";
-      case "School Of Sharks Trap":
-        return "School of Sharks";
-      default:
-        return weaponCheck;
-    }
   } else {
     return decodeURIComponent(value);
   }
+  // else if (name === "weapon") {
+    // let weaponCheck = decodeURIComponent(value);
+    // switch (weaponCheck) {
+      // case "Ambush Trap":
+        // return "Ambush";
+      // case "School Of Sharks Trap":
+        // return "School of Sharks";
+      // default:
+        // return weaponCheck;
+    // }
+  // }
 }
 
 /**
