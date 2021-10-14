@@ -1364,6 +1364,15 @@ function calcCREffects(catchRate, mouseName, eff, mousePower) {
     catchRate = calcCR(eff, trapPower, trapLuck, mousePower);
     charmBonus -= 900;
     calculateTrapSetup(true);
+  } else if (
+    charmName === "Ultimate Dragonbane Charm" &&
+    contains(dragons, mouseName)
+  ) {
+    charmBonus += 1200;
+    calculateTrapSetup(true);
+    catchRate = calcCR(eff, trapPower, trapLuck, mousePower);
+    charmBonus -= 1200;
+    calculateTrapSetup(true);
   } else if (charmName === "Taunting Charm" && contains(tauntings, mouseName)) {
     var riftCount = getRiftCount(weaponName, baseName, charmName);
     if (riftCount >= 1) tauntBonus = 1;
