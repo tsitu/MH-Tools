@@ -98,7 +98,7 @@ Cannonball,7500,5000
 Captain,5000,6500
 Captain Cannonball,6250,45000
 Captain Cloudkicker,30000,200000
-Captain Croissant,1000,1000
+Captain Croissant,2000,1000
 Caravan Guard,900,900
 Cardshark,15000,9000
 Carefree Cook,1200,2200
@@ -183,7 +183,7 @@ Craggy Ore,1000,1600
 Cranky Caterpillar,4250,41250
 Crate Camo,7000,5000
 Crazed Goblin,5250,57150
-Creepy Marionette,3000,16000
+Creepy Marionette,5000,16000
 Crimson Commander,1000,10000
 Crimson Ranger,3000,22000
 Crimson Titan,3300,20000
@@ -253,10 +253,10 @@ Desert Soldier,2400,11500
 Desperado,9000,9500
 Destructoy,2000,12600
 Devious Gentleman,26000,82000
-Diamond,600,1200
+Diamond,800,1200
 Diamondhide,75000,290000
 Dinosuit,1000,1420
-Dire Lycan,1200,5000
+Dire Lycan,3000,5000
 Dirt Thing,3000,49500
 Dojo Sensei,34500,28665
 Doktor,3750,35000
@@ -332,7 +332,7 @@ Flame Warrior,3000,18000
 Floating Spore,1500,39000
 Flutterby,1000,12000
 Fluttering Flutist,4800,48000
-Flying,450,450
+Flying,750,450
 Fog,800,800
 Force Fighter Blue,3000,2500
 Force Fighter Green,5000,6000
@@ -366,7 +366,7 @@ Gemstone Worshipper,10000,68000
 General Drheller,7595,36545
 Gentleman Caller,1000,850
 Ghost,3500,3250
-Ghost Pirate Queen,32000,115000
+Ghost Pirate Queen,10000,15000
 Giant Snail,550,5750
 Gilded Leaf,9000,48750
 Gingerbread,750,1250
@@ -377,7 +377,7 @@ Glazy,5000,18000
 Glitchpaw,1200,1200
 Gluttonous Zombie,2500,1500
 Goblin,3500,3500
-Gold,1200,600
+Gold,1500,600
 Goldleaf,2450,5500
 Golem,4500,7920
 Goliath Field,15000,119000
@@ -422,9 +422,9 @@ Herc,10000,100000
 High Roller,10,10
 Hired Eidolon,10000,44220
 Hoarder,3000,2500
-Hollowed,3500,41250
-Hollowed Minion,30000,100000
-Hollowhead,900,875
+Hollowed,7500,41250
+Hollowed Minion,10000,10000
+Hollowhead,2000,875
 Homeopathic Apothecary,3000,45000
 Hookshot,9000,8000
 Hope,1000,1000
@@ -497,7 +497,7 @@ Lycanoid,6500,50000
 M400,24400,600000
 Mad Elf,3000,19000
 Mage Weaver,900,29000
-Magic,1250,2000
+Magic,2250,2000
 Magic Champion,6000,100000
 Magma Carrier,7180,49335
 Magmarage,1000,30000
@@ -564,7 +564,7 @@ Moosker,125,80
 Mossy Moosker,8220,55000
 Mouldy Mole,600,20000
 Mountain,1000,3000
-Mousataur Priestess,3250,35000
+Mousataur Priestess,8000,35000
 Mouse of Elements,2500,65000
 Mouse of Winter Future,5000,10000
 Mouse of Winter Past,5000,10000
@@ -605,7 +605,7 @@ Necromancer,4000,17000
 Nerg Chieftain,9400,12545
 Nerg Lich,10340,40144
 New Year's,200,9200
-Nibbler,899,1100
+Nibbler,1400,1100
 Nice Knitting,6000,6000
 Night Shift Materials Manager,2000,25000
 Night Watcher,3000,30000
@@ -758,7 +758,7 @@ Sand Colossus,1500,20500
 Sand Dollar Diver,7790,25000
 Sand Dollar Queen,19000,30000
 Sand Pilgrim,1150,13250
-Sandmouse,5000,30000
+Sandmouse,6000,30000
 Sandwing Cavalry,6000,26400
 Sanguinarian,5000,45950
 Sarcophamouse,2550,17000
@@ -798,7 +798,7 @@ Shortcut,3100,5500
 Shorts-All-Year,9000,30000
 Shroom,2650,12500
 Silth,15200,25450
-Silvertail,1200,1200
+Silvertail,1800,1200
 Sinister Egg Painter,1200,5000
 Sir Fleekio,27000,90000
 Siren,600,5200
@@ -851,9 +851,9 @@ Soul Binder,100000,350000
 Space Party-Time Plumber,750,3500
 Spear Fisher,4200,39000
 Spectral Butler,4800,20000
-Spectral Swashbuckler,1300,2500
+Spectral Swashbuckler,5000,2500
 Spectre,5600,5600
-Speedy,900,950
+Speedy,1200,950
 Spellbinder,5400,3200
 Spheric Diviner,21000,205000
 Spice Farmer,3070,30000
@@ -929,7 +929,7 @@ Supreme Sensei,60000,325000
 Surgeon Bot,2500,32500
 Swabbie,50,70
 Swamp Runner,500,3250
-Swamp Thang,2750,32500
+Swamp Thang,5500,32500
 Swarm of Pygmy Mice,840,5800
 Swashblade,2800,35355
 Sylvan,425,275
@@ -969,11 +969,11 @@ Timeless Lich,18000,130000
 Timelost Thaumaturge,7500,70000
 Timeslither Pythoness,20000,100000
 Timid Explorer,1982,25180
-Tiny,450,200
+Tiny,900,200
 Tiny Dragonfly,26000,85000
 Tiny Saboteur,900,8500
 Tiny Toppler,2000,16000
-Titanic Brain-Taker,2750,32500
+Titanic Brain-Taker,6000,32500
 Toboggan Technician,700,3165
 Tomb Exhumer,6500,50000
 Tome Sprite,1800,14000
@@ -996,10 +996,10 @@ Treasure Brawler,37250,72000
 Treasure Hoarder,20000,40200
 Treasure Keeper,23000,41000
 Treasurer,10,10
-Treat,8400,8100
+Treat,4200,8100
 Tree Troll,9225,65750
 Tri-dra,28500,175000
-Trick,8100,8400
+Trick,4000,8400
 Tricky Witch,1000,4250
 Triple Lutz,750,600
 Tritus,96100,300000
