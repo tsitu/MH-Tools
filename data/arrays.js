@@ -68,7 +68,8 @@ var riftBases = [
   "Fissure Base",
   "Fracture Base",
   "Prestige Base",
-  "Rift Base"
+  "Rift Base",
+  "Rift Mist Diffuser Base"
 ];
 
 // Rift charms with names that do not contain the word "Rift"
@@ -422,6 +423,7 @@ var basesArray = {
   "2021 New Year's Base": [221, 7, 0, 10, "Fresh"],
   "Adorned Empyrean Refractor Base": [1500, 20, 15, 20, "Fresh"],
   "Alchemist's Cookbook Base": [350, 10, 10, 10, "No Effect"],
+  "All Season Express Track Base": [200, 10, 5, 10, "Insanely Fresh"],
   "Aqua Base": [230, 0, 0, 8, "No Effect"],
   "Attuned Enerchi Induction Base": [500, 10, 10, 10, "Stale"],
   "Ancient Booster Base": [300, 0, 10, 10, "Fresh"],
@@ -499,9 +501,11 @@ var basesArray = {
   "Refined Pollutinum Base": [500, 12, 5, 10, "No Effect"],
   "Remote Detonator Base": [300, 10, 10, 4, "Stale"],
   "Rift Base": [250, 12, 0, 11, "Fresh"],
+  "Rift Mist Diffuser Base": [250, 15, 0, 5, "No Effect"],
   "Rooster Jade Base": [350, 12, 10, 10, "Stale"],
   "Runic Base": [200, 12, 10, 5, "No Effect"],
   "Seasonal Base": [300, 0, 8, 6, "No Effect"],
+  "Seasonal Gift of the Day Base": [100, 0, 15, 10, "No Effect"],
   "Sheep Jade Base": [325, 12, 10, 10, "Stale"],
   "Signature Series Denture Base (Toothless)": [225, 10, 0, 0, "No Effect"],
   "Signature Series Denture Base": [3750, 25, 25, 50, "No Effect"],
@@ -725,6 +729,7 @@ var weaponsArray = {
   "Terrifying Spider Trap": ["Shadow", 2400, 5, 5, 13, "No Effect"],
   "The Forgotten Art of Dance": ["Forgotten", 5000, 12, 6, 6, "No Effect"],
   "The Haunted Manor Trap": ["Shadow", 3500, 10, 10, 15, "Stale"],
+  "The Holiday Express Trap": ["Law", 2100, 10, 20, 8, "Uber Fresh"],
   "The Law Draw": ["Law", 1100, 5, 20, 5, "Fresh"],
   "Thorned Venus Mouse Trap": ["Tactical", 3400, 5, 2, 14, "Very Fresh"],
   "Thought Manipulator Trap": ["Forgotten", 12112, 15, 15, 12, "Fresh"],
@@ -1021,12 +1026,14 @@ var festiveTraps = [
   "S.S. Scoundrel Sleigher Trap",
   "Snow Barrage",
   "Snowglobe Trap",
+  "The Holiday Express Trap",
   "Wrapped Gift Trap"
 ];
 
 // Weapons that interact with Spooky Charms to give 20% power bonus
 var halloweenTraps = [
   "Admiral's Galleon Trap",
+  "Boiling Cauldron Trap",
   "Brain Extractor",
   "Cackle Lantern Trap",
   "Candy Crusher Trap",
@@ -1037,7 +1044,8 @@ var halloweenTraps = [
   "Sandcastle Shard Trap",
   "Soul Catcher",
   "Soul Harvester",
-  "Terrifying Spider Trap"
+  "Terrifying Spider Trap",
+  "The Haunted Manor Trap"
 ];
 
 // Weapons that interact with Party Charms to give 20% power bonus
