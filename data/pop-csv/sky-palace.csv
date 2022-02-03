@@ -1,113 +1,113 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Sky Palace","Special (buff + Empress)","SB+","-","1","Empyrean Empress",1
-"Sky Palace","Special (buff + Empress)","Cloud Cheesecake","-","0.5","Empyrean Empress",2
-"Sky Palace","Special (buff + Empress)","Cloud Cheesecake","-","0.5","Richard the Rich",2
-"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","0.1667","Richard The Rich",6
-"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","0.1667","Fortuitous Fool",6
-"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","0.1666","Empyrean Appraiser",6
-"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","0.1666","Consumed Charm Tinkerer",6
-"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","0.1666","Empyrean Geologist",6
-"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","0.1666","Empyrean Empress",6
-"Sky Palace","Physical","SB+","-","0.25","Kite Flyer",4
-"Sky Palace","Physical","SB+","-","0.25","Daydreamer",4
-"Sky Palace","Physical","SB+","-","0.25","Ground Gavaleer",4
-"Sky Palace","Physical","SB+","-","0.25","Sky Swordsman",4
-"Sky Palace","Physical","Cloud Cheesecake","-","0.25","Kite Flyer",4
-"Sky Palace","Physical","Cloud Cheesecake","-","0.25","Daydreamer",4
-"Sky Palace","Physical","Cloud Cheesecake","-","0.25","Ground Gavaleer",4
-"Sky Palace","Physical","Cloud Cheesecake","-","0.25","Sky Swordsman",4
-"Sky Palace","Physical","Extra Rich Cloud Cheesecake","-","0.25","Ground Gavaleer",4
-"Sky Palace","Physical","Extra Rich Cloud Cheesecake","-","0.25","Sky Swordsman",4
-"Sky Palace","Physical","Extra Rich Cloud Cheesecake","-","0.25","Herc",4
-"Sky Palace","Physical","Extra Rich Cloud Cheesecake","-","0.25","Glamorous Gladiator",4
-"Sky Palace","Shadow","SB+","-","0.25","Kite Flyer",4
-"Sky Palace","Shadow","SB+","-","0.25","Daydreamer",4
-"Sky Palace","Shadow","SB+","-","0.25","Astrological Astronomer",4
-"Sky Palace","Shadow","SB+","-","0.25","Overcaster",4
-"Sky Palace","Shadow","Cloud Cheesecake","-","0.25","Kite Flyer",4
-"Sky Palace","Shadow","Cloud Cheesecake","-","0.25","Daydreamer",4
-"Sky Palace","Shadow","Cloud Cheesecake","-","0.25","Astrological Astronomer",4
-"Sky Palace","Shadow","Cloud Cheesecake","-","0.25","Overcaster",4
-"Sky Palace","Shadow","Extra Rich Cloud Cheesecake","-","0.25","Astrological Astronomer",4
-"Sky Palace","Shadow","Extra Rich Cloud Cheesecake","-","0.25","Overcaster",4
-"Sky Palace","Shadow","Extra Rich Cloud Cheesecake","-","0.25","Stratocaster",4
-"Sky Palace","Shadow","Extra Rich Cloud Cheesecake","-","0.25","Zealous Academic",4
-"Sky Palace","Tactical","SB+","-","0.25","Kite Flyer",4
-"Sky Palace","Tactical","SB+","-","0.25","Daydreamer",4
-"Sky Palace","Tactical","SB+","-","0.25","Worried Wayfinder",4
-"Sky Palace","Tactical","SB+","-","0.25","Gyrologer",4
-"Sky Palace","Tactical","Cloud Cheesecake","-","0.25","Kite Flyer",4
-"Sky Palace","Tactical","Cloud Cheesecake","-","0.25","Daydreamer",4
-"Sky Palace","Tactical","Cloud Cheesecake","-","0.25","Worried Wayfinder",4
-"Sky Palace","Tactical","Cloud Cheesecake","-","0.25","Gyrologer",4
-"Sky Palace","Tactical","Extra Rich Cloud Cheesecake","-","0.25","Worried Wayfinder",4
-"Sky Palace","Tactical","Extra Rich Cloud Cheesecake","-","0.25","Gyrologer",4
-"Sky Palace","Tactical","Extra Rich Cloud Cheesecake","-","0.25","Seasoned Islandographer",4
-"Sky Palace","Tactical","Extra Rich Cloud Cheesecake","-","0.25","Rocketeer",4
-"Sky Palace","Arcane","SB+","-","0.25","Kite Flyer",4
-"Sky Palace","Arcane","SB+","-","0.25","Daydreamer",4
-"Sky Palace","Arcane","SB+","-","0.25","Sky Glass Sorcerer",4
-"Sky Palace","Arcane","SB+","-","0.25","Sky Glass Glazier",4
-"Sky Palace","Arcane","Cloud Cheesecake","-","0.25","Kite Flyer",4
-"Sky Palace","Arcane","Cloud Cheesecake","-","0.25","Daydreamer",4
-"Sky Palace","Arcane","Cloud Cheesecake","-","0.25","Sky Glass Sorcerer",4
-"Sky Palace","Arcane","Cloud Cheesecake","-","0.25","Sky Glass Glazier",4
-"Sky Palace","Arcane","Extra Rich Cloud Cheesecake","-","0.25","Sky Glass Sorcerer",4
-"Sky Palace","Arcane","Extra Rich Cloud Cheesecake","-","0.25","Sky Glass Glazier",4
-"Sky Palace","Arcane","Extra Rich Cloud Cheesecake","-","0.25","Sky Dancer",4
-"Sky Palace","Arcane","Extra Rich Cloud Cheesecake","-","0.25","Sky Glider",4
-"Sky Palace","Forgotten","SB+","-","0.25","Kite Flyer",4
-"Sky Palace","Forgotten","SB+","-","0.25","Daydreamer",4
-"Sky Palace","Forgotten","SB+","-","0.25","Spry Sky Explorer",4
-"Sky Palace","Forgotten","SB+","-","0.25","Spry Sky Seer",4
-"Sky Palace","Forgotten","Cloud Cheesecake","-","0.25","Kite Flyer",4
-"Sky Palace","Forgotten","Cloud Cheesecake","-","0.25","Daydreamer",4
-"Sky Palace","Forgotten","Cloud Cheesecake","-","0.25","Spry Sky Explorer",4
-"Sky Palace","Forgotten","Cloud Cheesecake","-","0.25","Spry Sky Seer",4
-"Sky Palace","Forgotten","Extra Rich Cloud Cheesecake","-","0.25","Spry Sky Explorer",4
-"Sky Palace","Forgotten","Extra Rich Cloud Cheesecake","-","0.25","Spry Sky Seer",4
-"Sky Palace","Forgotten","Extra Rich Cloud Cheesecake","-","0.25","Cumulost",4
-"Sky Palace","Forgotten","Extra Rich Cloud Cheesecake","-","0.25","Forgotten Elder",4
-"Sky Palace","Hydro","SB+","-","0.25","Kite Flyer",4
-"Sky Palace","Hydro","SB+","-","0.25","Daydreamer",4
-"Sky Palace","Hydro","SB+","-","0.25","Nimbomancer",4
-"Sky Palace","Hydro","SB+","-","0.25","Sky Surfer",4
-"Sky Palace","Hydro","Cloud Cheesecake","-","0.25","Kite Flyer",4
-"Sky Palace","Hydro","Cloud Cheesecake","-","0.25","Daydreamer",4
-"Sky Palace","Hydro","Cloud Cheesecake","-","0.25","Nimbomancer",4
-"Sky Palace","Hydro","Cloud Cheesecake","-","0.25","Sky Surfer",4
-"Sky Palace","Hydro","Extra Rich Cloud Cheesecake","-","0.25","Nimbomancer",4
-"Sky Palace","Hydro","Extra Rich Cloud Cheesecake","-","0.25","Sky Surfer",4
-"Sky Palace","Hydro","Extra Rich Cloud Cheesecake","-","0.25","Cute Cloud Conjurer",4
-"Sky Palace","Hydro","Extra Rich Cloud Cheesecake","-","0.25","Cloud Strider",4
-"Sky Palace","Draconic","SB+","-","0.25","Kite Flyer",4
-"Sky Palace","Draconic","SB+","-","0.25","Daydreamer",4
-"Sky Palace","Draconic","SB+","-","0.25","Tiny Dragonfly",4
-"Sky Palace","Draconic","SB+","-","0.25","Lancer Guard",4
-"Sky Palace","Draconic","Cloud Cheesecake","-","0.25","Kite Flyer",4
-"Sky Palace","Draconic","Cloud Cheesecake","-","0.25","Daydreamer",4
-"Sky Palace","Draconic","Cloud Cheesecake","-","0.25","Tiny Dragonfly",4
-"Sky Palace","Draconic","Cloud Cheesecake","-","0.25","Lancer Guard",4
-"Sky Palace","Draconic","Extra Rich Cloud Cheesecake","-","0.25","Tiny Dragonfly",4
-"Sky Palace","Draconic","Extra Rich Cloud Cheesecake","-","0.25","Lancer Guard",4
-"Sky Palace","Draconic","Extra Rich Cloud Cheesecake","-","0.25","Dragonbreather",4
-"Sky Palace","Draconic","Extra Rich Cloud Cheesecake","-","0.25","Empyrean Javelineer",4
-"Sky Palace","Law","SB+","-","0.25","Kite Flyer",4
-"Sky Palace","Law","SB+","-","0.25","Daydreamer",4
-"Sky Palace","Law","SB+","-","0.25","Devious Gentleman",4
-"Sky Palace","Law","SB+","-","0.25","Stack of Thieves",4
-"Sky Palace","Law","Cloud Cheesecake","-","0.25","Kite Flyer",4
-"Sky Palace","Law","Cloud Cheesecake","-","0.25","Daydreamer",4
-"Sky Palace","Law","Cloud Cheesecake","-","0.25","Devious Gentleman",4
-"Sky Palace","Law","Cloud Cheesecake","-","0.25","Stack of Thieves",4
-"Sky Palace","Law","Extra Rich Cloud Cheesecake","-","0.25","Devious Gentleman",4
-"Sky Palace","Law","Extra Rich Cloud Cheesecake","-","0.25","Stack of Thieves",4
-"Sky Palace","Law","Extra Rich Cloud Cheesecake","-","0.25","Lawbender",4
-"Sky Palace","Law","Extra Rich Cloud Cheesecake","-","0.25","Aristo-Cat Burglar",4
-"Sky Palace","Pirates","Sky Pirate Swiss","-","0.1429","Suave Pirate",7
-"Sky Palace","Pirates","Sky Pirate Swiss","-","0.1429","Cutthroat Pirate",7
-"Sky Palace","Pirates","Sky Pirate Swiss","-","0.1429","Cutthroat Cannoneer",7
-"Sky Palace","Pirates","Sky Pirate Swiss","-","0.1429","Scarlet Revenger",7
-"Sky Palace","Pirates","Sky Pirate Swiss","-","0.1428","Mairitime Pirate",7
-"Sky Palace","Pirates","Sky Pirate Swiss","-","0.1428","Admiral Cloudbeard",7
-"Sky Palace","Pirates","Sky Pirate Swiss","-","0.1428","Peggy the Plunderer",7
+"Sky Palace","Special (buff + Empress)","SB+","-","100.00%","Empyrean Empress",1
+"Sky Palace","Special (buff + Empress)","Cloud Cheesecake","-","50.00%","Empyrean Empress",2
+"Sky Palace","Special (buff + Empress)","Cloud Cheesecake","-","50.00%","Richard the Rich",2
+"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","16.67%","Richard The Rich",6
+"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","16.67%","Fortuitous Fool",6
+"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","16.66%","Empyrean Appraiser",6
+"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","16.66%","Consumed Charm Tinkerer",6
+"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","16.66%","Empyrean Geologist",6
+"Sky Palace","Special (buff + Empress)","Extra Rich Cloud Cheesecake","-","16.66%","Empyrean Empress",6
+"Sky Palace","Physical","SB+","-","25.00%","Kite Flyer",4
+"Sky Palace","Physical","SB+","-","25.00%","Daydreamer",4
+"Sky Palace","Physical","SB+","-","25.00%","Ground Gavaleer",4
+"Sky Palace","Physical","SB+","-","25.00%","Sky Swordsman",4
+"Sky Palace","Physical","Cloud Cheesecake","-","25.00%","Kite Flyer",4
+"Sky Palace","Physical","Cloud Cheesecake","-","25.00%","Daydreamer",4
+"Sky Palace","Physical","Cloud Cheesecake","-","25.00%","Ground Gavaleer",4
+"Sky Palace","Physical","Cloud Cheesecake","-","25.00%","Sky Swordsman",4
+"Sky Palace","Physical","Extra Rich Cloud Cheesecake","-","25.00%","Ground Gavaleer",4
+"Sky Palace","Physical","Extra Rich Cloud Cheesecake","-","25.00%","Sky Swordsman",4
+"Sky Palace","Physical","Extra Rich Cloud Cheesecake","-","25.00%","Herc",4
+"Sky Palace","Physical","Extra Rich Cloud Cheesecake","-","25.00%","Glamorous Gladiator",4
+"Sky Palace","Shadow","SB+","-","25.00%","Kite Flyer",4
+"Sky Palace","Shadow","SB+","-","25.00%","Daydreamer",4
+"Sky Palace","Shadow","SB+","-","25.00%","Astrological Astronomer",4
+"Sky Palace","Shadow","SB+","-","25.00%","Overcaster",4
+"Sky Palace","Shadow","Cloud Cheesecake","-","25.00%","Kite Flyer",4
+"Sky Palace","Shadow","Cloud Cheesecake","-","25.00%","Daydreamer",4
+"Sky Palace","Shadow","Cloud Cheesecake","-","25.00%","Astrological Astronomer",4
+"Sky Palace","Shadow","Cloud Cheesecake","-","25.00%","Overcaster",4
+"Sky Palace","Shadow","Extra Rich Cloud Cheesecake","-","25.00%","Astrological Astronomer",4
+"Sky Palace","Shadow","Extra Rich Cloud Cheesecake","-","25.00%","Overcaster",4
+"Sky Palace","Shadow","Extra Rich Cloud Cheesecake","-","25.00%","Stratocaster",4
+"Sky Palace","Shadow","Extra Rich Cloud Cheesecake","-","25.00%","Zealous Academic",4
+"Sky Palace","Tactical","SB+","-","25.00%","Kite Flyer",4
+"Sky Palace","Tactical","SB+","-","25.00%","Daydreamer",4
+"Sky Palace","Tactical","SB+","-","25.00%","Worried Wayfinder",4
+"Sky Palace","Tactical","SB+","-","25.00%","Gyrologer",4
+"Sky Palace","Tactical","Cloud Cheesecake","-","25.00%","Kite Flyer",4
+"Sky Palace","Tactical","Cloud Cheesecake","-","25.00%","Daydreamer",4
+"Sky Palace","Tactical","Cloud Cheesecake","-","25.00%","Worried Wayfinder",4
+"Sky Palace","Tactical","Cloud Cheesecake","-","25.00%","Gyrologer",4
+"Sky Palace","Tactical","Extra Rich Cloud Cheesecake","-","25.00%","Worried Wayfinder",4
+"Sky Palace","Tactical","Extra Rich Cloud Cheesecake","-","25.00%","Gyrologer",4
+"Sky Palace","Tactical","Extra Rich Cloud Cheesecake","-","25.00%","Seasoned Islandographer",4
+"Sky Palace","Tactical","Extra Rich Cloud Cheesecake","-","25.00%","Rocketeer",4
+"Sky Palace","Arcane","SB+","-","25.00%","Kite Flyer",4
+"Sky Palace","Arcane","SB+","-","25.00%","Daydreamer",4
+"Sky Palace","Arcane","SB+","-","25.00%","Sky Glass Sorcerer",4
+"Sky Palace","Arcane","SB+","-","25.00%","Sky Glass Glazier",4
+"Sky Palace","Arcane","Cloud Cheesecake","-","25.00%","Kite Flyer",4
+"Sky Palace","Arcane","Cloud Cheesecake","-","25.00%","Daydreamer",4
+"Sky Palace","Arcane","Cloud Cheesecake","-","25.00%","Sky Glass Sorcerer",4
+"Sky Palace","Arcane","Cloud Cheesecake","-","25.00%","Sky Glass Glazier",4
+"Sky Palace","Arcane","Extra Rich Cloud Cheesecake","-","25.00%","Sky Glass Sorcerer",4
+"Sky Palace","Arcane","Extra Rich Cloud Cheesecake","-","25.00%","Sky Glass Glazier",4
+"Sky Palace","Arcane","Extra Rich Cloud Cheesecake","-","25.00%","Sky Dancer",4
+"Sky Palace","Arcane","Extra Rich Cloud Cheesecake","-","25.00%","Sky Glider",4
+"Sky Palace","Forgotten","SB+","-","25.00%","Kite Flyer",4
+"Sky Palace","Forgotten","SB+","-","25.00%","Daydreamer",4
+"Sky Palace","Forgotten","SB+","-","25.00%","Spry Sky Explorer",4
+"Sky Palace","Forgotten","SB+","-","25.00%","Spry Sky Seer",4
+"Sky Palace","Forgotten","Cloud Cheesecake","-","25.00%","Kite Flyer",4
+"Sky Palace","Forgotten","Cloud Cheesecake","-","25.00%","Daydreamer",4
+"Sky Palace","Forgotten","Cloud Cheesecake","-","25.00%","Spry Sky Explorer",4
+"Sky Palace","Forgotten","Cloud Cheesecake","-","25.00%","Spry Sky Seer",4
+"Sky Palace","Forgotten","Extra Rich Cloud Cheesecake","-","25.00%","Spry Sky Explorer",4
+"Sky Palace","Forgotten","Extra Rich Cloud Cheesecake","-","25.00%","Spry Sky Seer",4
+"Sky Palace","Forgotten","Extra Rich Cloud Cheesecake","-","25.00%","Cumulost",4
+"Sky Palace","Forgotten","Extra Rich Cloud Cheesecake","-","25.00%","Forgotten Elder",4
+"Sky Palace","Hydro","SB+","-","25.00%","Kite Flyer",4
+"Sky Palace","Hydro","SB+","-","25.00%","Daydreamer",4
+"Sky Palace","Hydro","SB+","-","25.00%","Nimbomancer",4
+"Sky Palace","Hydro","SB+","-","25.00%","Sky Surfer",4
+"Sky Palace","Hydro","Cloud Cheesecake","-","25.00%","Kite Flyer",4
+"Sky Palace","Hydro","Cloud Cheesecake","-","25.00%","Daydreamer",4
+"Sky Palace","Hydro","Cloud Cheesecake","-","25.00%","Nimbomancer",4
+"Sky Palace","Hydro","Cloud Cheesecake","-","25.00%","Sky Surfer",4
+"Sky Palace","Hydro","Extra Rich Cloud Cheesecake","-","25.00%","Nimbomancer",4
+"Sky Palace","Hydro","Extra Rich Cloud Cheesecake","-","25.00%","Sky Surfer",4
+"Sky Palace","Hydro","Extra Rich Cloud Cheesecake","-","25.00%","Cute Cloud Conjurer",4
+"Sky Palace","Hydro","Extra Rich Cloud Cheesecake","-","25.00%","Cloud Strider",4
+"Sky Palace","Draconic","SB+","-","25.00%","Kite Flyer",4
+"Sky Palace","Draconic","SB+","-","25.00%","Daydreamer",4
+"Sky Palace","Draconic","SB+","-","25.00%","Tiny Dragonfly",4
+"Sky Palace","Draconic","SB+","-","25.00%","Lancer Guard",4
+"Sky Palace","Draconic","Cloud Cheesecake","-","25.00%","Kite Flyer",4
+"Sky Palace","Draconic","Cloud Cheesecake","-","25.00%","Daydreamer",4
+"Sky Palace","Draconic","Cloud Cheesecake","-","25.00%","Tiny Dragonfly",4
+"Sky Palace","Draconic","Cloud Cheesecake","-","25.00%","Lancer Guard",4
+"Sky Palace","Draconic","Extra Rich Cloud Cheesecake","-","25.00%","Tiny Dragonfly",4
+"Sky Palace","Draconic","Extra Rich Cloud Cheesecake","-","25.00%","Lancer Guard",4
+"Sky Palace","Draconic","Extra Rich Cloud Cheesecake","-","25.00%","Dragonbreather",4
+"Sky Palace","Draconic","Extra Rich Cloud Cheesecake","-","25.00%","Empyrean Javelineer",4
+"Sky Palace","Law","SB+","-","25.00%","Kite Flyer",4
+"Sky Palace","Law","SB+","-","25.00%","Daydreamer",4
+"Sky Palace","Law","SB+","-","25.00%","Devious Gentleman",4
+"Sky Palace","Law","SB+","-","25.00%","Stack of Thieves",4
+"Sky Palace","Law","Cloud Cheesecake","-","25.00%","Kite Flyer",4
+"Sky Palace","Law","Cloud Cheesecake","-","25.00%","Daydreamer",4
+"Sky Palace","Law","Cloud Cheesecake","-","25.00%","Devious Gentleman",4
+"Sky Palace","Law","Cloud Cheesecake","-","25.00%","Stack of Thieves",4
+"Sky Palace","Law","Extra Rich Cloud Cheesecake","-","25.00%","Devious Gentleman",4
+"Sky Palace","Law","Extra Rich Cloud Cheesecake","-","25.00%","Stack of Thieves",4
+"Sky Palace","Law","Extra Rich Cloud Cheesecake","-","25.00%","Lawbender",4
+"Sky Palace","Law","Extra Rich Cloud Cheesecake","-","25.00%","Aristo-Cat Burglar",4
+"Sky Palace","Pirates","Sky Pirate Swiss","-","14.29%","Suave Pirate",7
+"Sky Palace","Pirates","Sky Pirate Swiss","-","14.29%","Cutthroat Pirate",7
+"Sky Palace","Pirates","Sky Pirate Swiss","-","14.29%","Cutthroat Cannoneer",7
+"Sky Palace","Pirates","Sky Pirate Swiss","-","14.29%","Scarlet Revenger",7
+"Sky Palace","Pirates","Sky Pirate Swiss","-","14.28%","Mairitime Pirate",7
+"Sky Palace","Pirates","Sky Pirate Swiss","-","14.28%","Admiral Cloudbeard",7
+"Sky Palace","Pirates","Sky Pirate Swiss","-","14.28%","Peggy the Plunderer",7
