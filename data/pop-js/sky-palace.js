@@ -48,6 +48,8 @@ module.exports = {
         {
           opts: {
             include: [
+              "Daydreamer",
+              "Kite Flyer",
               "Astrological Astronomer",
               "Overcaster",
               "Stratocaster",
@@ -64,6 +66,8 @@ module.exports = {
         {
           opts: {
             include: [
+              "Daydreamer",
+              "Kite Flyer",
               "Worried Wayfinder",
               "Gyrologer",
               "Seasoned Islandographer",
@@ -80,6 +84,8 @@ module.exports = {
         {
           opts: {
             include: [
+              "Daydreamer",
+              "Kite Flyer",
               "Sky Glass Sorcerer",
               "Sky Glass Glazier",
               "Sky Dancer",
@@ -96,6 +102,8 @@ module.exports = {
         {
           opts: {
             include: [
+              "Daydreamer",
+              "Kite Flyer",
               "Spry Sky Explorer",
               "Spry Sky Seer",
               "Cumulost",
@@ -112,6 +120,8 @@ module.exports = {
         {
           opts: {
             include: [
+              "Daydreamer",
+              "Kite Flyer",
               "Nimbomancer",
               "Sky Surfer",
               "Cute Cloud Conjurer",
@@ -128,6 +138,8 @@ module.exports = {
         {
           opts: {
             include: [
+              "Daydreamer",
+              "Kite Flyer",
               "Tiny Dragonfly",
               "Lancer Guard",
               "Dragonbreather",
@@ -144,6 +156,8 @@ module.exports = {
         {
           opts: {
             include: [
+              "Daydreamer",
+              "Kite Flyer",
               "Devious Gentleman",
               "Stack of Thieves",
               "Lawbender",
