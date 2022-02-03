@@ -43,6 +43,7 @@ var baselineAttArray = {
   "Duskshade Camembert": 1.0000, // Gamplay update 10/05
   "Empowered Brie": 0.8000, // Guesstimate | Calculated: 0.7964, Sample: 10151 (Very High)
   "Empowered SUPER|brie+": 1.0000, // Gamplay update 10/05
+  "Extra Rich Cloud Cheesecake": 1.0000, // Added with SP + Gameplay update 10/05
   "Festive Feta": 0.8379, // Sample: 4959 (High)
   "Fishy Fromage": 1.0000, // Gamplay update 10/05
   "Flamin' Queso": 1.0000, // Gamplay update 10/05
