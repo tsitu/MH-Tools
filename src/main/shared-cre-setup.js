@@ -32,11 +32,6 @@ var charmPower = 0,
   charmLuck = 0,
   charmEff = 0;
 
-//Cheese stats
-var cheesePower = 0,
-  cheeseBonus = 0,
-  cheeseLuck = 0;
-
 // Misc bonuses
 var gsLuck = 7,
   ztAmp = 100,
@@ -502,7 +497,7 @@ function calculateTrapSetup(skipDisp) {
 
   function getTotalTrapPower() {
     var totalPower = weaponPower + basePower + charmPower + specialPower;
-    var setupPowerBonus = weaponBonus + baseBonus + charmBonus + specialPowerBonus;
+    var setupPowerBonus = weaponBonus + baseBonus + charmBonus;
     var totalBonus =
       1 +
       (setupPowerBonus +
