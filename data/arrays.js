@@ -520,6 +520,7 @@ var basesArray = {
   "Stone Base": [150, 10, 0, 0, "Fresh"],
   "Thief Base": [500, 15, 5, 10, "No Effect"],
   "Tidal Base": [800, 8, 10, 10, "Fresh"],
+  "Tiger Jade Base": [375, 15, 0, 10, "Stale"],
   "Tiki Base": [200, 18, 5, 0, "Very Fresh"],
   "Treasure Seeker Base": [150, 20, 10, 10, "Fresh"],
   "Tribal Base": [175, 18, 2, 0, "Fresh"],
