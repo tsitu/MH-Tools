@@ -479,6 +479,7 @@ var basesArray = {
   "Hearthstone Base": [200, 0, 10, 2, "Very Fresh"],
   "Horse Jade Base": [325, 10, 10, 10, "Stale"],
   "Hothouse Base": [250, 3, 5, 6, "Very Fresh"],
+  "Ice Cream Cake Base": [300, 14, 14, 10, "Extremely Fresh"],
   "Iceberg Boiler Base": [300, 12, 10, 6, "Very Fresh"],
   "Jade Base": [300, 10, 0, 4, "Extremely Fresh"],
   "Labyrinth Base": [100, 12, 0, 10, "Very Stale"],
