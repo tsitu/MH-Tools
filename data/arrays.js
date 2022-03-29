@@ -664,7 +664,7 @@ var weaponsArray = {
   "Mouse Trebuchet": ["Physical", 600, 2, 4, 1, "Very Fresh"],
   "Multi-Crystal Laser": ["Rift", 1000, 0, 0, 3, "No Effect"],
   "Mutated Venus Mouse Trap": ["Tactical", 2300, 15, 0, 8, "Insanely Stale"],
-  "Mysteriously unYielding Null-Rampart of Cascading Amperes": ["Rift", 1835, 2, 5, 5, "No Effect"],
+  "Mysteriously unYielding Null-Onyx Rampart of Cascading Amperes": ["Rift", 1835, 2, 5, 5, "No Effect"],
   "Mystic Pawn Pincher": ["Tactical", 60, 5, 20, 0, "Fresh"],
   "Nannybot": ["Parental", 525, 5, 0, 5, "No Effect"],
   "Net Cannon": ["Hydro", 3000, 0, 3, 5, "Stale"],
