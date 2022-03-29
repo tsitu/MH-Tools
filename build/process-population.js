@@ -23,6 +23,7 @@
     "data/pop-csv/queso-geyser.csv",
     "data/pop-csv/queso-river.csv",
     "data/pop-csv/ronza.csv",
+    "data/pop-csv/sky-palace.csv",
     "data/pop-csv/toxic-spill.csv",
     "data/pop-csv/valour-rift.csv"
   ];
