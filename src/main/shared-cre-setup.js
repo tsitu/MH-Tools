@@ -403,7 +403,7 @@ function calculateTrapSetup(skipDisp) {
         specialPower += 1500;
       }
     } else if (isTribalArea(locationName) || locationName === "Cape Clawed") {
-      if (baseName === "Tiki Base" || basename === "Tribal Base") {
+      if (baseName === "Tiki Base" || baseName === "Tribal Base") {
         specialLuck += 6;
       }
 
