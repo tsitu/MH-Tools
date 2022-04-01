@@ -740,6 +740,7 @@ var weaponsArray = {
   "Thought Manipulator Trap": ["Forgotten", 12112, 15, 15, 12, "Fresh"],
   "Thought Obliterator Trap": ["Forgotten", 14000, 25, 15, 18, "Extremely Fresh"],
   "Timesplit Dissonance Trap": ["Rift", 3000, 10, 10, 7, "No Effect"],
+  "Tulip Turret": ["Draconic", 6000, 15, 10, 10, "Extremely Stale"],
   "Ultra MegaMouser MechaBot Trap": ["Physical", 2250, 5, 15, 8, "No Effect"],
   "Veiled Vine Trap": ["Tactical", 3500, 12, 0, 20, "Very Stale"],
   "Venus Mouse Trap": ["Tactical", 1900, 0, 5, 5, "Extremely Fresh"],
