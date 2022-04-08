@@ -27,13 +27,13 @@ var baselineAttArray = {
   "Checkmate": 1.0000, // Gamplay update 10/05
   "Chedd-Ore": 1.0000, // Gamplay update 10/05
   "Cheddar": 0.7000, // Gamplay update 10/05
-  "Cherry": 0.8721, // Sample: 4033 (High)
+  "Cherry": 0.8800, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
   "Cloud Cheesecake": 1.0000, // Gamplay update 10/05
   "Coggy Colby": 1.0000, // Gamplay update 10/05
   "Combat": 1.0000, // Gamplay update 10/05
   "Creamy Havarti": 1.0000, // Gamplay update 10/05
-  "Crescent": 0.8900, // Guesstimate | Calculated: 0.8891, Sample: 109398 (Excellent)
-  "Crimson": 0.9000, // Guesstimate | Calculated: 0.8971, Sample: 4085 (High)
+  "Crescent": 0.8900, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
+  "Crimson": 0.9000, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
   "Crunchy": 1.0000, // Gamplay update 10/05
   "Crunchy Havarti": 1.0000, // Gamplay update 10/05
   "Dewthief Camembert": 1.0000, // Gamplay update 10/05 | Sample: 7402
@@ -59,7 +59,7 @@ var baselineAttArray = {
   "Gemstone": 1.0000, // Gamplay update 10/05
   "Ghastly Galleon Gouda": 1.0000, // Gamplay update 10/05
   "Ghoulgonzola": 0.8957, // Sample: 3123 (High)
-  "Gilded": 0.8500, // Guesstimate | Calculated: 0.8491, Sample: 9874 (High)
+  "Gilded": 0.8500, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
   "Gingerbread": 0.7000, // Gamplay update 10/05
   "Glazed Pecan Pecorino": 1.0000, // Gamplay update 10/05
   "Glowing Gruyere": 1.0000, // Gamplay update 10/05
@@ -125,7 +125,7 @@ var baselineAttArray = {
   "Terre Ricotta": 1.0000, // Gamplay update 10/05
   "Undead Emmental": 1.0000, // Gamplay update 10/05
   "Undead String Emmental": 1.0000, // Gamplay update 10/05
-  "Vanilla Stilton": 0.9400, // Guesstimate | Calculated: 0.9414, Sample: 14470 (Very High)
+  "Vanilla Stilton": 1.0000, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
   "Vengeful Vanilla Stilton": 1.0000, // Gamplay update 10/05
   "White Cheddar": 0.7000, // Gamplay update 10/05
   "Wicked Gnarly": 1.0000, // Gamplay update 10/05
