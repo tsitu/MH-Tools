@@ -22,26 +22,26 @@ var baselineAttArray = {
   "Ascended": 1.0000, // Gamplay update 10/05
   "Bland Queso": 0.9000, // Guesstimate | Calculated: 0.8970, Sample: 163254 (Excellent)
   "Brie": 0.8500, // Gamplay update 10/05
-  "Brie String": 0.8000, // Sample: 648462 (Excellent)
+  "Brie String": 0.8500, // Gamplay update 10/05
   "Candy Corn": 0.9000, // Guesstimate | Calculated: 0.9019, Sample: 3601 (High)
   "Checkmate": 1.0000, // Gamplay update 10/05
   "Chedd-Ore": 1.0000, // Gamplay update 10/05
   "Cheddar": 0.7000, // Gamplay update 10/05
-  "Cherry": 0.8721, // Sample: 4033 (High)
+  "Cherry": 0.8800, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
   "Cloud Cheesecake": 1.0000, // Gamplay update 10/05
   "Coggy Colby": 1.0000, // Gamplay update 10/05
   "Combat": 1.0000, // Gamplay update 10/05
   "Creamy Havarti": 1.0000, // Gamplay update 10/05
-  "Crescent": 0.8900, // Guesstimate | Calculated: 0.8891, Sample: 109398 (Excellent)
-  "Crimson": 0.9000, // Guesstimate | Calculated: 0.8971, Sample: 4085 (High)
+  "Crescent": 0.8900, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
+  "Crimson": 0.9000, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
   "Crunchy": 1.0000, // Gamplay update 10/05
   "Crunchy Havarti": 1.0000, // Gamplay update 10/05
-  "Dewthief Camembert": 0.9300, // Sample: 28624 (Excellent)
+  "Dewthief Camembert": 1.0000, // Gamplay update 10/05 | Sample: 7402
   "Diamond": 1.0000, // Gamplay update 10/05
   "Dragonvine": 1.0000, // Gamplay update 10/05
-  "Dumpling": 0.9442, // Sample: 82625 (Excellent)
+  "Dumpling": 1.0000, // Gamplay update 10/05 | Sample: 93373
   "Duskshade Camembert": 1.0000, // Gamplay update 10/05
-  "Empowered Brie": 0.8000, // Guesstimate | Calculated: 0.7964, Sample: 10151 (Very High)
+  "Empowered Brie": 0.8500, // Gamplay update 10/05
   "Empowered SUPER|brie+": 1.0000, // Gamplay update 10/05
   "Festive Feta": 0.8379, // Sample: 4959 (High)
   "Fishy Fromage": 1.0000, // Gamplay update 10/05
@@ -59,12 +59,12 @@ var baselineAttArray = {
   "Gemstone": 1.0000, // Gamplay update 10/05
   "Ghastly Galleon Gouda": 1.0000, // Gamplay update 10/05
   "Ghoulgonzola": 0.8957, // Sample: 3123 (High)
-  "Gilded": 0.8500, // Guesstimate | Calculated: 0.8491, Sample: 9874 (High)
+  "Gilded": 0.8500, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
   "Gingerbread": 0.7000, // Gamplay update 10/05
   "Glazed Pecan Pecorino": 1.0000, // Gamplay update 10/05
   "Glowing Gruyere": 1.0000, // Gamplay update 10/05
   "Glutter": 1.0000, // Gamplay update 10/05
-  "Gnarled": 0.9461, // Sample: 18502 (Very High)
+  "Gnarled": 1.0000, // Gamplay update 10/05 | Sample: 9458
   "Gouda": 0.9000, // Gamplay update 10/05
   "Graveblossom Camembert": 1.0000, // Gamplay update 10/05
   "Grilled": 1.0000, // Gamplay update 10/05
@@ -81,7 +81,7 @@ var baselineAttArray = {
   "Maki": 1.0000, // Gamplay update 10/05
   "Maki String": 1.0000, // Gamplay update 10/05
   "Marble": 0.7500, // Gamplay update 10/05
-  "Marble String": 0.7000, // Gamplay update 10/05
+  "Marble String": 0.7500, // Gamplay update 10/05
   "Marshmallow Monterey": 1.0000, // Gamplay update 10/05
   "Master Fusion": 1.0000, // Gamplay update 10/05
   "Medium Queso": 1.0000, // Gamplay update 10/05
@@ -96,7 +96,7 @@ var baselineAttArray = {
   "Pecan Pecorino": 1.0000, // Gamplay update 10/05
   "Polluted Parmesan": 1.0000, // Gamplay update 10/05
   "Pungent Havarti": 1.0000, // Gamplay update 10/05
-  "Radioactive Blue": 0.9400, // Guesstimate | Calculated: 0.9385, Sample: 41323 (Excellent)
+  "Radioactive Blue": 1.0000, // Gamplay update 10/05 | Sample: 28100
   "Rainy": 1.0000, // Gamplay update 10/05
   "Rancid Radioactive Blue": 1.0000, // Gamplay update 10/05
   "Resonator": 1.0000, // Gamplay update 10/05
@@ -121,11 +121,11 @@ var baselineAttArray = {
   "Susheese": 1.0000, // Gamplay update 10/05
   "Sweet Havarti": 1.0000, // Gamplay update 10/05
   "Swiss": 0.8000, // Gamplay update 10/05
-  "Swiss String": 0.7620, // Sample: 20167 (Very High)
+  "Swiss String": 0.8000, // Gamplay update 10/05
   "Terre Ricotta": 1.0000, // Gamplay update 10/05
   "Undead Emmental": 1.0000, // Gamplay update 10/05
   "Undead String Emmental": 1.0000, // Gamplay update 10/05
-  "Vanilla Stilton": 0.9400, // Guesstimate | Calculated: 0.9414, Sample: 14470 (Very High)
+  "Vanilla Stilton": 1.0000, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
   "Vengeful Vanilla Stilton": 1.0000, // Gamplay update 10/05
   "White Cheddar": 0.7000, // Gamplay update 10/05
   "Wicked Gnarly": 1.0000, // Gamplay update 10/05
