@@ -682,7 +682,7 @@ var weaponsArray = {
   "Obvious Ambush Trap": ["Tactical", 3000, 15, 0, 12, "Very Stale"],
   "Onyx Mallet": ["Physical", 4200, 12, 0, 12, "Stale"],
   "Paradise Falls Trap": ["Hydro", 4000, 25, 25, 22, "Very Stale"],
-  "PartyBot": ["Physical", 2850, 15, 15, 25, "Stale"],
+  "PartyBot": ["Physical", 3500, 15, 15, 25, "Stale"],
   "Phantasmic Oasis Trap": ["Hydro", 5850, 15, 20, 26, "No Effect"],
   "Pneumatic Tube Trap": ["Physical", 2300, 20, 5, 18, "No Effect"],
   "Pumpkin Pummeler": ["Shadow", 1150, 5, 10, 5, "Fresh"],
