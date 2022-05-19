@@ -677,7 +677,7 @@ var weaponsArray = {
   "Nutcracker Nuisance Trap": ["Arcane", 3000, 18, 15, 16, "Insanely Fresh"],
   "NVMRC Forcefield Trap": ["Physical", 2350, 12, 10, 12, "No Effect"],
   "Oasis Water Node Trap": ["Hydro", 5200, 12, 10, 20, "No Effect"],
-  "Obelisk of Incineration Trap": ["Arcane", 2150, 10, 0, 1, "Insanely Stale"],
+  "Obelisk of Incineration Trap": ["Arcane", 2900, 10, 0, 6, "Insanely Stale"],
   "Obelisk of Slumber Trap": ["Arcane", 2100, 0, 10, 0, "Extremely Fresh"],
   "Obvious Ambush Trap": ["Tactical", 3000, 15, 0, 12, "Very Stale"],
   "Onyx Mallet": ["Physical", 4200, 12, 0, 12, "Stale"],
