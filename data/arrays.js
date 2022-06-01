@@ -623,7 +623,7 @@ var weaponsArray = {
   "Father Winter's Timepiece Trap": ["Forgotten", 5000, 15, 10, 8, "Fresh"],
   "Festive Forgotten Fir Trap": ["Forgotten", 7000, 20, 5, 10, "Fresh"],
   "Festive Gauntlet Crusher": ["Physical", 1200, 5, 25, 5, "Extremely Fresh"],
-  "Fluffy DeathBot": ["Physical", 2400, 15, 10, 2, "Stale"],
+  "Fluffy DeathBot": ["Physical", 3000, 15, 10, 4, "Stale"],
   "Focused Crystal Laser": ["Rift", 1750, 0, 0, 0, "No Effect"],
   "Forgotten Pressure Plate Trap": ["Forgotten", 3500, 10, 10, 2, "Fresh"],
   "Giant Speaker": ["Tactical", 2850, 5, 5, 22, "No Effect"],
