@@ -600,7 +600,7 @@
 
         var urlArr = [0, 0, 0, 0, 0];
         for (var el of arr) {
-          switch (el["power_type_name"]) {
+          switch (el["power_type"]) {
             case "Arcane":
               urlArr[0] = el["golem_guardian_charge_percentage"] || 0;
               break;
