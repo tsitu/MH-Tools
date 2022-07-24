@@ -135,6 +135,20 @@ const subcategories = {
     "Sky Paragons",
     "The Richest"
   ],
+  "Foreword Farmers": [
+    "Seed Stowers",
+    "Petulant Pests"
+  ],
+  "Prologue Pond Prowlers": [
+    "Grub Gatherers",
+    "Shallow Swimmers",
+    "Deep Divers"
+  ],
+  "Storytellers": [
+    "Folklore Authors",
+    "Folklore Characters",
+    "Folklore Masterminds"
+  ],
   "Rift Walkers": ["Gnawnia Rift", "Burroughs Rift", "Whisker Woods Rift"],
   "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift", "Valour Rift"],
   "The Polluted": ["Misc."],

@@ -36,6 +36,9 @@
     "Citizens of Zokor": "ancient_city",
     "Moussu Picchu Inhabitants": "moussu_picchu",
     "Floating Islanders": "floating_island",
+    "Foreword Farmers": "foreword_farm",
+    "Prologue Pond Prowlers": "prologue_pond",
+    "Storytellers": "table_of_contents",
     "Rift Walkers": "rift_walkers",
     "Rift Stalkers": "rift_stalkers",
     "The Polluted": "polluted",
@@ -165,6 +168,20 @@
       "Sky Wardens",
       "Sky Paragons",
       "The Richest"
+    ],
+    "Foreword Farmers": [
+      "Seed Stowers",
+      "Petulant Pests"
+    ],
+    "Prologue Pond Prowlers": [
+      "Grub Gatherers",
+      "Shallow Swimmers",
+      "Deep Divers"
+    ],
+    "Storytellers": [
+      "Folklore Authors",
+      "Folklore Characters",
+      "Folklore Masterminds"
     ],
     "Rift Walkers": ["Gnawnia Rift", "Burroughs Rift", "Whisker Woods Rift"],
     "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift", "Valour Rift"],
