@@ -28,6 +28,7 @@ var baselineAttArray = {
   "Chedd-Ore": 1.0000, // Gamplay update 10/05
   "Cheddar": 0.7000, // Gamplay update 10/05
   "Cherry": 0.8800, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
+  "Clamembert": 1.0000, // Added with FF release
   "Cloud Cheesecake": 1.0000, // Gamplay update 10/05
   "Coggy Colby": 1.0000, // Gamplay update 10/05
   "Combat": 1.0000, // Gamplay update 10/05
@@ -44,11 +45,14 @@ var baselineAttArray = {
   "Empowered Brie": 0.8500, // Gamplay update 10/05
   "Empowered SUPER|brie+": 1.0000, // Gamplay update 10/05
   "Festive Feta": 0.8379, // Sample: 4959 (High)
+  "Final Draft Derby": 1.0000, // Added with FF release
   "Fishy Fromage": 1.0000, // Gamplay update 10/05
+  "First Draft Derby": 1.0000, // Added with FF release
   "Flamin' Queso": 1.0000, // Gamplay update 10/05
   "Fusion Fondue": 1.0000, // Gamplay update 10/05
   "Galleon Gouda": 1.0000, // Gamplay update 10/05 (Confirmed by Michele in #community-tools on discord on 10/5 12:04PM GMT-5)
   "Gauntlet String": 1.0000, // Gamplay update 10/05
+  "Grubbeen": 1.0000, // Added with FF release
   "Tier 2": 1.0000, // Gamplay update 10/05
   "Tier 3": 1.0000, // Gamplay update 10/05
   "Tier 4": 1.0000, // Gamplay update 10/05
@@ -113,10 +117,12 @@ var baselineAttArray = {
   "Runny": 1.0000, // Gamplay update 10/05
   "SB+": 1.0000, // Gamplay update 10/05
   "Seasoned Gouda": 0.8482, // Sample: 4275 (High)
+  "Second Draft Derby": 1.0000, // Added with FF release
   "Shell": 1.0000, // Gamplay update 10/05
   "Sky Pirate Swiss": 1.0000, // Gamplay update 10/05
   "Snowball Bocconcini": 0.8583, // Sample: 4723 (High)
   "Spicy Havarti": 1.0000, // Gamplay update 10/05
+  "Stormy Clamembert": 1.0000, // Added with FF release
   "Sunrise": 1.0000, // Gamplay update 10/05
   "Susheese": 1.0000, // Gamplay update 10/05
   "Sweet Havarti": 1.0000, // Gamplay update 10/05

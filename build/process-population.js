@@ -9,6 +9,7 @@
     "data/pop-csv/event.csv",
     "data/pop-csv/fiery-warpath.csv",
     "data/pop-csv/floating-islands.csv",
+    "data/pop-csv/foreword-farm.csv",
     "data/pop-csv/forbidden-grove.csv",
     "data/pop-csv/fort-rox.csv",
     "data/pop-csv/fungal-cavern.csv",
@@ -20,9 +21,11 @@
     "data/pop-csv/mousoleum.csv",
     "data/pop-csv/moussu-picchu.csv",
     "data/pop-csv/prickly-plains.csv",
+    "data/pop-csv/prologue-pond.csv",
     "data/pop-csv/queso-geyser.csv",
     "data/pop-csv/queso-river.csv",
     "data/pop-csv/ronza.csv",
+    "data/pop-csv/table-of-contents.csv",
     "data/pop-csv/toxic-spill.csv",
     "data/pop-csv/valour-rift.csv"
   ];
