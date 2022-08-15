@@ -606,7 +606,6 @@ var weaponsArray = {
   "Crystal Crucible Trap": ["Forgotten", 7800, 10, 2, 8, "Very Fresh"],
   "Crystal Mineral Crusher Trap": ["Forgotten", 8000, 10, 5, 5, "Fresh"],
   "Crystal Tower": ["Rift", 900, 0, 0, 0, "No Effect"],
-  "Dark Magic Mirrors Trap": ["Shadow", 8000, 30, 10, 35, "Very Stale"],
   "Darkest Chocolate Bunny Trap": ["Rift", 1400, 10, 5, 2, "Very Stale"],
   "Dark Magic Mirrors Trap": ["Shadow", 8000, 30, 10, 35, "Very Stale"],
   "Digby DrillBot": ["Physical", 3600, 18, 0, 5, "No Effect"],
