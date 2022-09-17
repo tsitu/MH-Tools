@@ -143,7 +143,8 @@
         (sublocation === "Treacherous Tunnels" ||
           sublocation === "Bombing Run" ||
           sublocation === "The Mad Depths") &&
-        userBase === "Ultimate Iceberg Base"
+        (userBase === "Ultimate Iceberg Base" ||
+          userBase === "Iceberg Boiler Base")
       ) {
         return sublocation + " (Ultimate Iceberg)";
       }
