@@ -374,13 +374,14 @@ function calculateTrapSetup(skipDisp) {
         specialLuck += 2;
       }
 
-      // Deep Freeze / UIB bonuses before hunt 250
+      // Deep Freeze / UIB / IBB bonuses before hunt 250
       if (
         (phaseName.indexOf("Icewing's Lair") >= 0 ||
           phaseName.indexOf("Hidden Depths") >= 0 ||
           phaseName.indexOf("The Deep Lair") >= 0) &&
         (baseName === "Deep Freeze Base" ||
-          baseName === "Ultimate Iceberg Base")
+          baseName === "Ultimate Iceberg Base" ||
+          baseName === "Iceberg Boiler Base")
       ) {
         specialPower += 665;
         specialLuck += 9;
