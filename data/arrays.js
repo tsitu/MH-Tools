@@ -880,6 +880,7 @@ var charmsArray = {
   "Prospector's Charm": [200, 1, 0, 0, "No Effect"],
   "Queso Pump Charm": [50, 5, 5, 0, "Fresh"],
   "Rainbow Charm": [1000, 10, 10, 12, "Insanely Fresh"],
+  "Rainbow Spore Charm": [3000, 25, 25, 25, "No Effect"],
   "Ramming Speed Charm": [0, 0, 0, 0, "No Effect"],
   "Reality Restitch Charm": [0, 10, 10, 5, "Fresh"],
   "Realm Ripper Charm": [0, 0, 0, 0, "No Effect"],
