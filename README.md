@@ -153,6 +153,8 @@ New minimum luck formula: <img src="https://render.githubusercontent.com/render/
 - L = Trap Luck
 - M = Mouse Power
 
+For minimum luck, there's an extra wrinkle due to floating point arithmetic errors in MouseHunt. To match MouseHunt in detail, all of the above formulas must be computed using 64-bit floating point arithmetic. Then, check if the minimum luck is actually enough to guarantee 100% catch rate (i.e. if `2 * floor(min(1.4, E) * L)^2 >= M`); if not, increment the minluck by 1. This is described further by [beeejk's post](https://mh.beeejk.net/minluck).
+
 #### &sect; Sample Size Score
 
 An indicator of the quality and accuracy of a specific setup's data based on its sample size and the number of mice in its attraction pool. Setups are separated by locations, sublocations, cheeses and occasionally charms (if they have attraction-altering effects i.e. Warpath Warrior Charm in Waves 1-3 of Fiery Warpath). If you have a charm selected that doesn't affect a setup's mouse population pool, its corresponding "No Charm" data is displayed, since they are equivalent.

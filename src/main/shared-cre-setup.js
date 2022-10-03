@@ -581,11 +581,7 @@ function calcCR(effectiveness, trapPower, trapLuck, mousePower) {
 
   var catchRate =
     (effectiveness * trapPower +
-      2 *
-        Math.pow(
-          Math.floor((Math.min(effectiveness * 10, 14) * trapLuck) / 10),
-          2
-        )) /
+      2 * Math.pow(Math.floor(Math.min(effectiveness, 1.4) * trapLuck), 2)) /
     (effectiveness * trapPower + mousePower);
 
   return Math.min(catchRate, 1);
@@ -605,10 +601,16 @@ function minLuck(effectiveness, mousePower) {
   //   mousePower / (3 - finalEffectiveness) / Math.pow(finalEffectiveness, 2);
   // return Math.ceil(Math.sqrt(minLuckSquared));
 
-  return Math.ceil(
-    (Math.ceil(Math.sqrt(mousePower / 2)) / Math.min(effectiveness * 10, 14)) *
-      10
+  var candidateMinluck = Math.ceil(
+    Math.ceil(Math.sqrt(mousePower / 2)) / Math.min(effectiveness, 1.4)
   );
+
+  // If, due to floating-point errors, the candidate minluck is not
+  // actually enough, add one. (This is described further in the README.)
+  if calcCR(effectiveness, 0, candidateMinluck, mousePower) < 1 {
+    return candidateMinluck + 1
+  }
+  return candidateMinluck
 }
 
 /**
