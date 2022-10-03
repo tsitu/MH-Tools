@@ -1,42 +1,40 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Foreword Farm","No Plants","Gouda","-","26.44%","Grit Grifter",1320
-"Foreword Farm","No Plants","Gouda","-","36.2%","Land Loafer",1320
-"Foreword Farm","No Plants","Gouda","-","39.98%","Root Rummager",1320
-"Foreword Farm","No Plants","SB+","-","27.04%","Grit Grifter",577
-"Foreword Farm","No Plants","SB+","-","24.96%","Land Loafer",577
-"Foreword Farm","No Plants","SB+","-","29.12%","Root Rummager",577
-"Foreword Farm","No Plants","SB+","-","18.89%","Crazed Cultivator",577
-"Foreword Farm","One Plant","Gouda","-","23.83%","Angry Aphid",1636
-"Foreword Farm","One Plant","Gouda","-","36%","Grit Grifter",1636
-"Foreword Farm","One Plant","Gouda","-","41.83%","Root Rummager",1636
-"Foreword Farm","One Plant","SB+","-","19.8%","Angry Aphid",1025
-"Foreword Farm","One Plant","SB+","-","24%","Grit Grifter",1025
-"Foreword Farm","One Plant","SB+","-","36.88%","Root Rummager",1025
-"Foreword Farm","One Plant","SB+","-","19.22%","Crazed Cultivator",1025
-"Foreword Farm","Two Plants","Gouda","-","34.94%","Angry Aphid",6305
-"Foreword Farm","Two Plants","Gouda","-","36.14%","Grit Grifter",6305
-"Foreword Farm","Two Plants","Gouda","-","31.31%","Wily Weevil",6305
-"Foreword Farm","Two Plants","SB+","-","30.41%","Angry Aphid",4939
-"Foreword Farm","Two Plants","SB+","-","29.78%","Grit Grifter",4939
-"Foreword Farm","Two Plants","SB+","-","20.21%","Wily Weevil",4939
-"Foreword Farm","Two Plants","SB+","-","19.52%","Crazed Cultivator",4939
-"Foreword Farm","Three Plants","Gouda","-","36.99%","Angry Aphid",4812
-"Foreword Farm","Three Plants","Gouda","-","29.34%","Mighty Mite",4812
-"Foreword Farm","Three Plants","Gouda","-","35.7%","Wily Weevil",4812
-"Foreword Farm","Three Plants","SB+","-","30.41%","Angry Aphid",5961
-"Foreword Farm","Three Plants","SB+","-","23.96%","Mighty Mite",5961
-"Foreword Farm","Three Plants","SB+","-","30.65%","Wily Weevil",5961
-"Foreword Farm","Three Plants","SB+","-","19.53%","Crazed Cultivator",5961
-"Foreword Farm","Boss","Gouda","-","20.21%","Angry Aphid",3177
-"Foreword Farm","Boss","Gouda","-","41.17%","Loathsome Locust",3177
-"Foreword Farm","Boss","Gouda","-","20.63%","Mighty Mite",3177
-"Foreword Farm","Boss","Gouda","-","20.57%","Wily Weevil",3177
-"Foreword Farm","Boss","Magical String","-","22.24%","Angry Aphid",989
-"Foreword Farm","Boss","Magical String","-","38.52%","Loathsome Locust",989
-"Foreword Farm","Boss","Magical String","-","20.22%","Mighty Mite",989
-"Foreword Farm","Boss","Magical String","-","18.91%","Wily Weevil",989
-"Foreword Farm","Boss","SB+","-","10.47%","Angry Aphid",2904
-"Foreword Farm","Boss","SB+","-","39.33%","Loathsome Locust",2904
-"Foreword Farm","Boss","SB+","-","14.43%","Mighty Mite",2904
-"Foreword Farm","Boss","SB+","-","15.08%","Wily Weevil",2904
-"Foreword Farm","Boss","SB+","-","20.7%","Crazed Cultivator",2904
+"Foreword Farm","No Plants","Gouda","-","26.1%","Grit Grifter",6573
+"Foreword Farm","No Plants","Gouda","-","35.92%","Land Loafer",6573
+"Foreword Farm","No Plants","Gouda","-","40.4%","Root Rummager",6573
+"Foreword Farm","No Plants","SB+","-","25.29%","Grit Grifter",2226
+"Foreword Farm","No Plants","SB+","-","24.96%","Land Loafer",2226
+"Foreword Farm","No Plants","SB+","-","29.2%","Root Rummager",2226
+"Foreword Farm","No Plants","SB+","-","20.58%","Crazed Cultivator",2226
+"Foreword Farm","One Plant","Gouda","-","24.963%","Angry Aphid",3413
+"Foreword Farm","One Plant","Gouda","-","36.06%","Grit Grifter",3413
+"Foreword Farm","One Plant","Gouda","-","40.85%","Root Rummager",3413
+"Foreword Farm","One Plant","SB+","-","19.43%","Angry Aphid",1256
+"Foreword Farm","One Plant","SB+","-","24.76%","Grit Grifter",1256
+"Foreword Farm","One Plant","SB+","-","36.94%","Root Rummager",1256
+"Foreword Farm","One Plant","SB+","-","18.71%","Crazed Cultivator",1256
+"Foreword Farm","Two Plants","Gouda","-","35.5%","Angry Aphid",11509
+"Foreword Farm","Two Plants","Gouda","-","35.75%","Grit Grifter",11509
+"Foreword Farm","Two Plants","Gouda","-","31%","Wily Weevil",11509
+"Foreword Farm","Two Plants","SB+","-","30.34%","Angry Aphid",5652
+"Foreword Farm","Two Plants","SB+","-","29.94%","Grit Grifter",5652
+"Foreword Farm","Two Plants","SB+","-","19.94%","Wily Weevil",5652
+"Foreword Farm","Two Plants","SB+","-","19.59%","Crazed Cultivator",5652
+"Foreword Farm","Three Plants","Gouda","-","36.11%","Angry Aphid",33720
+"Foreword Farm","Three Plants","Gouda","-","30.59%","Mighty Mite",33720
+"Foreword Farm","Three Plants","Gouda","-","35.25%","Wily Weevil",33720
+"Foreword Farm","Three Plants","SB+","-","25.66%","Angry Aphid",18618
+"Foreword Farm","Three Plants","SB+","-","24.9%","Mighty Mite",18618
+"Foreword Farm","Three Plants","SB+","-","29.45%","Wily Weevil",18618
+"Foreword Farm","Three Plants","SB+","-","19.53%","Crazed Cultivator",18618
+"Foreword Farm","Three Papyrus","Gouda","-","21.51%","Angry Aphid",34174
+"Foreword Farm","Three Papyrus","Gouda","-","40.25%","Loathsome Locust",34174
+"Foreword Farm","Three Papyrus","Gouda","-","20.26%","Mighty Mite",34174
+"Foreword Farm","Three Papyrus","Gouda","-","20.14%","Wily Weevil",34174
+"Foreword Farm","Three Papyrus","SB+","-","11.24%","Angry Aphid",20874
+"Foreword Farm","Three Papyrus","SB+","-","39.24%","Loathsome Locust",20874
+"Foreword Farm","Three Papyrus","SB+","-","14.87%","Mighty Mite",20874
+"Foreword Farm","Three Papyrus","SB+","-","14.63%","Wily Weevil",20874
+"Foreword Farm","Three Papyrus","SB+","-","19.92%%","Crazed Cultivator",20874
+"Foreword Farm","Boss","Gouda","-","100%","Monstrous Midge",1081
+"Foreword Farm","Boss","SB+","-","100%","Monstrous Midge",982
