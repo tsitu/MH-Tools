@@ -167,17 +167,6 @@ function getURLParameter(name) {
   } else {
     return decodeURIComponent(value);
   }
-  // else if (name === "weapon") {
-    // let weaponCheck = decodeURIComponent(value);
-    // switch (weaponCheck) {
-      // case "Ambush Trap":
-        // return "Ambush";
-      // case "School Of Sharks Trap":
-        // return "School of Sharks";
-      // default:
-        // return weaponCheck;
-    // }
-  // }
 }
 
 /**
@@ -662,11 +651,8 @@ function getCheeseAttraction() {
  */
 function gsParamCheck() {
   var gsParameter = getURLParameter("gs");
-  if (gsParameter !== NULL_URL_PARAM) {
-    var select = document.getElementById("gs");
-    select.value = "N";
-    gsChanged();
-  }
+  document.getElementById("gs").checked = gsParameter === "true";
+  gsChanged();
 }
 
 function getRiftstalkerKey() {
@@ -948,14 +934,9 @@ function showTrapSetup() {
 }
 
 function gsChanged() {
-  var select = document.getElementById("gs");
-
-  if (select.value === "Y") gsLuck = 7;
-  else gsLuck = 0;
-
+  gsLuck = document.getElementById("gs").checked ? 7 : 0;
   updateLink();
   calculateTrapSetup();
-  //showPop();
 }
 
 function saltChanged() {
