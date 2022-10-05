@@ -1,7 +1,6 @@
 const utils = require("../_utils")
 
 const standardCheese = ['Gouda', 'SB+'];
-const magical = ['Gouda', 'SB+', 'Magical String'];
 
 module.exports = {
   default: {
@@ -66,7 +65,7 @@ module.exports = {
     },
     { 
       cheese: utils.genVarField("cheese", standardCheese),
-      stage: utils.genVarField("stage", "Boss"),
+      stage: utils.genVarField("stage", "Three Papyrus"),
       config: [ {
         opts: {
           include: [
@@ -75,6 +74,17 @@ module.exports = {
             'Wily Weevil',
             'Crazed Cultivator',
             'Loathsome Locust'
+          ]
+        }
+      } ]
+    },
+    { 
+      cheese: utils.genVarField("cheese", standardCheese),
+      stage: utils.genVarField("stage", "Boss"),
+      config: [ {
+        opts: {
+          include: [
+            'Monstrous Midge'
           ]
         }
       } ]
