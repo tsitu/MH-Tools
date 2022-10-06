@@ -15,7 +15,7 @@
     "pop:fort": "node data/pop fort-rox > data/pop-csv/fort-rox.csv",
     "pop:fungal": "node data/pop fungal-cavern > data/pop-csv/fungal-cavern.csv",
     "pop:furoma": "node data/pop furoma-rift > data/pop-csv/furoma-rift.csv",
-    "!pop:ges": "node data/pop ges > data/pop-csv/ges.csv",
+    "!pop:ges": "node data/pop gnawnian-express > data/pop-csv/gnawnian-express.csv",
     "pop:geyser": "node data/pop queso-geyser > data/pop-csv/queso-geyser.csv",
     "pop:harbour": "node data/pop harbour > data/pop-csv/harbour.csv",
     "pop:lab": "node data/pop laboratory > data/pop-csv/laboratory.csv",
