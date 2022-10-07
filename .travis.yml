@@ -6,7 +6,7 @@ dist: trusty
 language: node_js
 
 node_js:
-  - "16.17.1"
+  - "16"
 
 script:
   - npm run puppeteer
