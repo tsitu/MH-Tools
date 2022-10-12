@@ -467,7 +467,15 @@ function calculateTrapSetup(skipDisp) {
           shownPowerBonus += 15;
         }
       }
-    }
+    } else if (
+      locationName === "Event" &&
+      phaseName === "Halloween" &&
+      weaponName === "Boiling Cauldron Trap"){
+        basePower += 1000;
+        weaponBonus += 10;
+        trapLuck += 5;
+        trapAtt += 15;
+       }
 
     if (
       cheeseName.indexOf("Fusion Fondue") >= 0 &&
