@@ -651,7 +651,7 @@ function getCheeseAttraction() {
  */
 function gsParamCheck() {
   var gsParameter = getURLParameter("gs");
-  document.getElementById("gs").checked = gsParameter === "true";
+  document.getElementById("gs").checked = ('No' === gsParameter ) ? false : true;
   gsChanged();
 }
 
