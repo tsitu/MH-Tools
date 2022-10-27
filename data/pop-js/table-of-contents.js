@@ -6,7 +6,7 @@ const encylopedia = ['Final Draft Derby']
 
 module.exports = {
   default: {
-    location: utils.genVarField('location', 'Foreword Farm'),
+    location: utils.genVarField('location', 'Table of Contents'),
   },
   series: [
     { 
@@ -26,7 +26,7 @@ module.exports = {
     },    
     { 
       cheese: utils.genVarField("cheese", writing),
-      stage: utils.genVarField("stage", "Writing"),
+      stage: utils.genVarField("stage", "Pre-Encyclopedia"),
       config: [ {
         opts: {
           include: [
@@ -47,7 +47,7 @@ module.exports = {
     },  
     { 
       cheese: utils.genVarField("cheese", encylopedia),
-      stage: utils.genVarField("stage", "Encylopedia"),
+      stage: utils.genVarField("stage", "Encyclopedia"),
       config: [ {
         opts: {
           include: [

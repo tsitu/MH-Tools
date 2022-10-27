@@ -8,9 +8,18 @@ module.exports = {
         'SB+',
         'Grubbeen',
         'Clamembert',
-        'Stormy Clamembert Cheese',
+        'Stormy Clamembert',
       ]),
       location: utils.genVarField('location', 'Prologue Pond'),
+      config: [
+        {
+          opts: {
+            exclude: [
+              "Glitchpaw"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
