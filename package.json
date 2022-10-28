@@ -39,7 +39,7 @@
     "minify:utils": "uglifyjs-folder src/utils -eo src/utils/min -p **/*.js,!**/*min.js",
     "minify": "npm-run-all --parallel minify:*",
     "\n-- BUILD --": "",
-    "puppeteer": "npm i -S puppeteer",
+    "puppeteer": "npm i puppeteer@18",
     "timestamp": "node build/process-timestamp.js",
     "sample": "node build/process-sample-size.js",
     "mouse-data": "node build/process-mouse-data.js",
