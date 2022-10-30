@@ -155,7 +155,7 @@ module.exports = {
           opts: {
             include: [
               "Thunder Strike",
-              "Violent Stormchild"
+              "Violet Stormchild"
             ]
           }
         }
