@@ -22,6 +22,7 @@
     "pop:lab": "node data/pop laboratory > data/pop-csv/laboratory.csv",
     "!pop:laby": "node data/pop labyrinth > data/pop-csv/labyrinth.csv",
     "pop:living": "node data/pop living-garden > data/pop-csv/living-garden.csv",
+    "pop:lost": "node data/pop lost-city > data/pop-csv/lost-city.csv",
     "pop:mopi": "node data/pop moussu-picchu > data/pop-csv/moussu-picchu.csv",
     "pop:moz": "node data/pop mousoleum > data/pop-csv/mousoleum.csv",
     "pop:pond": "node data/pop prologue-pond > data/pop-csv/prologue-pond.csv",
