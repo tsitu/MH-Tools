@@ -7,7 +7,7 @@
     "ht-pop:iceberg": "node data/pop-iceberg-ht > data/pop-csv/iceberg.csv",
     "pop:acolyte": "node data/pop acolyte-realm > data/pop-csv/acolyte-realm.csv",
     "pop:balack": "node data/pop balacks-cove > data/pop-csv/balacks-cove.csv",
-    "!pop:burroughs": "node data/pop burroughs-rift > data/pop-csv/burroughs-rift.csv",
+    "pop:burroughs": "node data/pop burroughs-rift > data/pop-csv/burroughs-rift.csv",
     "!pop:bristle": "node data/pop bristle-woods-rift > data/pop-csv/bristle-woods-rift.csv",
     "pop:cantera": "node data/pop cantera-quarry > data/pop-csv/cantera-quarry.csv",
     "pop:catacombs": "node data/pop catacombs > data/pop-csv/catacombs.csv",
