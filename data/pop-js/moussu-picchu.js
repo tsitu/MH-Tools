@@ -147,20 +147,83 @@ module.exports = {
       config: [
         {
           vars: {
+            stage:  { "Wind low": true},
+            stage1: { "Rain low": true },
             cheese: { Dragonvine: true }
           },
           fields: { stage: "Storm low", cheese: "Dragonvine" },
           opts: {
-            exclude: [
-              "⚡Thunderlord⚡",
-              "Thunderlord",
+            include: [
+              "Thunder Strike",
+              "Violet Stormchild"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      config: [
+        {
+          vars: {
+            stage:  { "Wind medium": true},
+            stage1: { "Rain medium": true },
+            cheese: { Dragonvine: true }
+          },
+          fields: { stage: "Storm medium", cheese: "Dragonvine" },
+          opts: {
+            include: [
               "Thundering Watcher",
+              "⚡Thunderlord⚡"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      config: [
+        {
+          vars: {
+            stage:  { "Wind high": true},
+            stage1: { "Rain high": true },
+            cheese: { Dragonvine: true }
+          },
+          fields: { stage: "Storm high", cheese: "Dragonvine" },
+          opts: {
+            include: [
               "Dragoon",
-              "Ful'Mina, The Mountain Queen"
+              "Ful'Mina, The Mountain Queen",
+              "Thundering Watcher"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      config: [
+        {
+          vars: {
+            stage:  { "Wind max": true},
+            stage1: { "Rain max": true },
+            cheese: { Dragonvine: true }
+          },
+          fields: { stage: "Storm max", cheese: "Dragonvine" },
+          opts: {
+            include: [
+              "Ful'Mina, The Mountain Queen",
             ]
           }
         }
       ]
     }
-  ]
+  ],
+  postProcess: function(data) {
+    return data.map(function(item) {
+      // Rename to Thunderlord
+      var mouse =
+        item.mouse === "⚡Thunderlord⚡"
+          ? "Thunderlord"
+          : item.mouse;
+      return Object.assign(item, { mouse: mouse });
+    });
+  }
 };

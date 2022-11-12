@@ -167,17 +167,6 @@ function getURLParameter(name) {
   } else {
     return decodeURIComponent(value);
   }
-  // else if (name === "weapon") {
-    // let weaponCheck = decodeURIComponent(value);
-    // switch (weaponCheck) {
-      // case "Ambush Trap":
-        // return "Ambush";
-      // case "School Of Sharks Trap":
-        // return "School of Sharks";
-      // default:
-        // return weaponCheck;
-    // }
-  // }
 }
 
 /**
@@ -374,13 +363,14 @@ function calculateTrapSetup(skipDisp) {
         specialLuck += 2;
       }
 
-      // Deep Freeze / UIB bonuses before hunt 250
+      // Deep Freeze / UIB / IBB bonuses before hunt 250
       if (
         (phaseName.indexOf("Icewing's Lair") >= 0 ||
           phaseName.indexOf("Hidden Depths") >= 0 ||
           phaseName.indexOf("The Deep Lair") >= 0) &&
         (baseName === "Deep Freeze Base" ||
-          baseName === "Ultimate Iceberg Base")
+          baseName === "Ultimate Iceberg Base" ||
+          baseName === "Iceberg Boiler Base")
       ) {
         specialPower += 665;
         specialLuck += 9;
@@ -403,7 +393,7 @@ function calculateTrapSetup(skipDisp) {
         specialPower += 1500;
       }
     } else if (isTribalArea(locationName) || locationName === "Cape Clawed") {
-      if (baseName === "Tiki Base") {
+      if (baseName === "Tiki Base" || baseName === "Tribal Base") {
         specialLuck += 6;
       }
 
@@ -484,7 +474,15 @@ function calculateTrapSetup(skipDisp) {
         shownPowerBonus += 20;
         specialLuck += 5;
       }
-    }
+    } else if (
+      locationName === "Event" &&
+      phaseName === "Halloween" &&
+      weaponName === "Boiling Cauldron Trap"){
+        basePower += 1000;
+        weaponBonus += 10;
+        trapLuck += 5;
+        trapAtt += 15;
+       }
 
     if (
       cheeseName.indexOf("Fusion Fondue") >= 0 &&
@@ -668,11 +666,8 @@ function getCheeseAttraction() {
  */
 function gsParamCheck() {
   var gsParameter = getURLParameter("gs");
-  if (gsParameter !== NULL_URL_PARAM) {
-    var select = document.getElementById("gs");
-    select.value = "N";
-    gsChanged();
-  }
+  document.getElementById("gs").checked = ('No' === gsParameter ) ? false : true;
+  gsChanged();
 }
 
 function getRiftstalkerKey() {
@@ -954,14 +949,9 @@ function showTrapSetup() {
 }
 
 function gsChanged() {
-  var select = document.getElementById("gs");
-
-  if (select.value === "Y") gsLuck = 7;
-  else gsLuck = 0;
-
+  gsLuck = document.getElementById("gs").checked ? 7 : 0;
   updateLink();
   calculateTrapSetup();
-  //showPop();
 }
 
 function saltChanged() {

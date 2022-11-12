@@ -19,11 +19,13 @@ Ancient of the Deep,6050,80000
 Ancient Scribe,27000,90000
 Angelfish,2535,28000
 Angler,2800,35355
+Angry Aphid,7500,55000
 Angry Train Staff,2500,3500
 Aquos,1000,6750
 Arcane Summoner,7000,45000
 Arch Champion Necromancer,6000,100000
 Archer,750,4500
+Architeuthulhu of the Abyss,30000,100000
 Armored Archer,800,35000
 Artillery Commander,500000,250000
 Ascended Elder,80000,400000
@@ -46,6 +48,7 @@ Bartender,5000,4750
 Bat,3000,3000
 Battering Ram,100,900
 Battle Cleric,8760,50000
+Beachcomber,3500,35000
 Bear,575,310
 Bearded Elder,5000,45000
 Beast Tamer,3125,5000
@@ -58,6 +61,7 @@ Bilged Boatswain,250,350
 Biohazard,6300,64000
 Bionic,550,550
 Birthday,810,900
+Bitter Grammarian,35000,250000
 Bitter Root,2000,25000
 Black Diamond Racer,2000,18000
 Black Mage,3500,4440
@@ -78,6 +82,7 @@ Breakdancer,1920,3160
 Breeze Borrower,2250,32000
 Briegull,440,360
 Brimstone,2300,11200
+Brothers Grimmaus,2750,7750
 Brown,150,115
 Bruticle,5040,16560
 "Bruticus, the Blazing",15000,90000
@@ -90,6 +95,7 @@ Burly Bruiser,4500,15000
 Cabin Boy,100,270
 Calalilly,2050,15250
 Calligraphy,888,2888
+Careless Catfish,9000,45000
 Camoflower,1250,11000
 Camofusion,2850,19500
 Candy Cane,700,3165
@@ -176,6 +182,7 @@ Costumed Sheep,6888,2888
 Costumed Snake,6888,2888
 Costumed Tiger,6888,2888
 Count Vampire,4600,35000
+Covetous Coastguard,5000,40000
 Cowardly,300,190
 Cowbell,800,700
 Crabolia,2250,24300
@@ -183,6 +190,7 @@ Crag Elder,3150,48000
 Craggy Ore,1000,1600
 Cranky Caterpillar,4250,41250
 Crate Camo,7000,5000
+Crazed Cultivator,5000,50000
 Crazed Goblin,5250,57150
 Creepy Marionette,5000,16000
 Crimson Commander,1000,10000
@@ -320,6 +328,7 @@ Farrier,7000,5000
 Fencer,210,300
 Fete Fromager,4000,7000
 Fetid Swamp,5155,20830
+Fibbocchio,7800,25000
 Fiddler,800,4090
 Field,200,200
 Fiend,50000,72000
@@ -327,6 +336,7 @@ Fiery Crusher,13200,70000
 Finder,1935,3550
 Firebreather,4620,15180
 Firefly,2125,6600
+Flamboyant Flautist,13000,67500
 Flame Archer,2700,19900
 Flame Ordnance,1600,33000
 Flame Warrior,3000,18000
@@ -394,9 +404,11 @@ Grave Robber,1200,2000
 Great Giftnapper,9000,30000
 Great Winter Hunt Impostor,10000,50000
 Greedy Al,750,2500
+Greenbeard,11500,65000
 Grey,125,90
 Grey Recluse,550,1100
 Greyrun,2050,19900
+Grit Grifter,9000,58000
 Grizzled Silth,20250,86250
 Ground Gavaleer,25000,78000
 Grubling,2400,14500
@@ -405,6 +417,7 @@ Grunt,3075,910
 Guardian,7500,7600
 Guppy,2250,24300
 Guqin Player,800,5000
+Hans Cheesetian Squeakersen,2400,7250
 Gyrologer,12150,90000
 Hapless,70,50
 Hapless Marionette,100,90
@@ -431,6 +444,7 @@ Hookshot,9000,8000
 Hope,1000,1000
 Horned Cork Hoarder,6000,35000
 Hot Head,550,2250
+Humphrey Dumphrey,4250,8000
 Huntereater,40000,190000
 Hurdle,500,500
 Hydra,5760,9640
@@ -443,6 +457,7 @@ Iceblock,1265,7425
 Icebreaker,1320,5850
 Icewing,11295,51250
 Icicle,3840,11980
+Ice Regent,15500,70000
 Ignatia,8000,50000
 Ignis,1000,4490
 Impersonator,180,120
@@ -469,6 +484,7 @@ Koimaid,1990,31700
 Kung Fu,800,4750
 Lab Technician,3000,10500
 Lady Coldsnap,3745,27580
+Land Loafer,7000,50000
 Lambent,10000,60000
 Lambent Crystal,3000,9000
 Lancer Guard,12500,95000
@@ -480,8 +496,11 @@ Leviathan,2880,6910
 Lich,8700,12200
 Lightning Rod,100,175
 Limestone Miner,5200,14000
+Little Bo Squeak,5000,9000
+Little Miss Fluffet,3000,7000
 Living Ice,3250,1850
 Living Salt,550,1525
+Loathsome Locust,20000,65000
 Lockpick,180,150
 Longtail,900,1000
 Lord Splodington,3295,21450
@@ -497,6 +516,7 @@ Lycan,5500,9250
 Lycanoid,6500,50000
 M400,24400,600000
 Mad Elf,3000,19000
+"Madame d'Ormouse",2750,75000
 Mage Weaver,900,29000
 Magic,2250,2000
 Magic Champion,6000,100000
@@ -522,10 +542,12 @@ Master of the Chi Belt,20000,150000
 Master of the Chi Claw,20000,150000
 Master of the Chi Fang,20000,150000
 Master of the Dojo,27300,15925
+Matriarch Gander,2750,9000
 Matron of Machinery,27000,90000
 Matron of Wealth,20000,82000
 Mecha Tail,1000,45000
 Medicine,3550,33150
+Melodramatic Minnow,10000,50000
 Menace of the Rift,150000,350000
 Mermouse,600,2400
 Mermousette,2500,33950
@@ -536,6 +558,7 @@ Meteorite Mover,500,10000
 Meteorite Mystic,4500,35000
 Meteorite Snacker,2500,25000
 Micro,3400,28000
+Mighty Mite,10000,60000
 Mighty Mole,5000,35000
 Mild Spicekin,3000,30000
 Militant Samurai,5000,80000
@@ -561,6 +584,7 @@ Monster of the Meteor,28000,90000
 Monster Tail,2500,13500
 Monstrous Abomination,15000,150000
 Monstrous Black Widow,60000,360000
+Monstrous Midge,30000,100000
 Moosker,125,80
 Mossy Moosker,8220,55000
 Mouldy Mole,600,20000
@@ -597,12 +621,14 @@ Mystic Pawn,890,8800
 Mystic Queen,13970,80960
 Mystic Rook,2277,72600
 Mystic Scholar,12750,80800
+Mythweaver,70000,1000000
 Nachore Golem,7000,30000
 "Nachous, The Molten",35000,90000
 Narrator,600,900
 Naturalist,21000,85000
 Naughty Nougat,10000,30000
 Necromancer,4000,17000
+Nefarious Nautilus,13000,62000
 Nerg Chieftain,9400,12545
 Nerg Lich,10340,40144
 New Year's,200,9200
@@ -665,6 +691,7 @@ Phase Zombie,4400,34000
 Photographer,7000,5000
 Pie Thief,900,8250
 Pinchy,400,325
+Pinkielina,7250,22500
 Pintail,2000,1700
 Pirate,2750,350
 Pirate Anchor,2700,34200
@@ -673,6 +700,7 @@ Plutonium Tentacle,50000,260000
 Pneumatic Dirt Displacement,4500,35000
 Pocketwatch,900,6400
 Polar Bear,900,4225
+Pompous Perch,8000,42000
 Portable Generator,8500,26500
 Portal Paladin,3000,32000
 Portal Plunderer,9000,50000
@@ -682,6 +710,7 @@ Praetorian Champion,6000,100000
 Present,1000,860
 Prestigious Adventurer,5000,125000
 Primal,5800,16450
+Princess and the Olive,6800,20000
 Princess Fist,3550,23125
 Prospector,2000,5500
 Protector,3360,12545
@@ -744,6 +773,7 @@ Rockstar,3400,1000
 Rogue,295,700
 Romeno,300,0
 Romeo,1200,1000
+Root Rummager,7500,55000
 RR-8,4988,32500
 Rubble Rouser,8000,35000
 Rubble Rummager,4500,12000
@@ -760,6 +790,7 @@ Sand Colossus,1500,20500
 Sand Dollar Diver,7790,25000
 Sand Dollar Queen,19000,30000
 Sand Pilgrim,1150,13250
+Sand Sifter,5000,38000
 Sandmouse,6000,30000
 Sandwing Cavalry,6000,26400
 Sanguinarian,5000,45950
@@ -802,6 +833,7 @@ Shroom,2650,12500
 Silth,15200,25450
 Silvertail,1800,1200
 Sinister Egg Painter,1200,5000
+Sinister Squid,12000,58000
 Sir Fleekio,27000,90000
 Siren,600,5200
 Sizzle Pup,3000,35000
@@ -935,6 +967,7 @@ Swamp Thang,5500,32500
 Swarm of Pygmy Mice,840,5800
 Swashblade,2800,35355
 Sylvan,425,275
+Tackle Tracker,6000,40000
 Tadpole,2500,26000
 Taleweaver,99,1090
 Tanglefoot,3280,7875
@@ -1022,6 +1055,7 @@ Vampire,900,1400
 Vanguard,2600,14000
 Vanquisher,2560,9980
 Vaporior,7000,40000
+Vicious Vampire Squid,15000,64000
 Vigilant Ward,5000,42275
 "Vincent, The Magnificent",10000,10000
 Vinetail,6580,13172
@@ -1050,6 +1084,7 @@ White Mage,9000,20400
 Wicked Witch of Whisker Woods,2700,400
 Wiggler,150,100
 Wight,900,8750
+Wily Weevil,8500,58000
 Wild Chainsaw,1150,2200
 Wind Warrior,7500,80000
 Wind Watcher,3500,40000

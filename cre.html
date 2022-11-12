@@ -47,138 +47,6 @@
 
     <table class="form">
       <tbody class="input-all">
-        <tr class="display-location display-whisker-woods-rift">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Rage states: Low = 1-24, Medium = 25-49, High = 50
-            <br>Many rage states and charm populations still <a href="https://github.com/tsitu/MH-Tools/issues/79" target="_blank">missing</a>
-            <br>Darkest Chocolate Bunny proc rate currently set to 33%
-          </td>
-        </tr>
-
-        <tr class="display-location display-bristle-woods-rift">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Please report inaccurate minimum luck values
-            <a href="https://www.mousehuntgame.com/forum/showthread.php?132397-MouseHunt-Tools-by-tsitu&p=1385609&viewfull=1#post1385609"
-              target="_blank" rel="noopener">here</a>
-          </td>
-        </tr>
-
-        <tr class="display-location display-labyrinth">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Labyrinth/Minotaur/Treasure Seeker Base & Compass Magnet Charm proc rates currently set to 50%
-          </td>
-        </tr>
-
-        <tr class="display-location display-zugzwangs-tower">
-          <td>Comments:</td>
-          <td class="locationComment">Assumptions that were made when narrowing down populations can be found
-            <a href="https://www.mousehuntgame.com/forum/showthread.php?95543-Catch-Rate-Calculator&p=1328110&viewfull=1#post1328110"
-              target="_blank" rel="noopener">here</a>
-          </td>
-        </tr>
-
-        <tr class="display-location display-moussu-picchu">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Please report inaccurate minimum luck values (particularly for Storm Dragons)
-            <a href="https://www.mousehuntgame.com/forum/showthread.php?132397-MouseHunt-Tools-by-tsitu&p=1385673&viewfull=1#post1385673"
-              target="_blank" rel="noopener">here</a>
-          </td>
-        </tr>
-
-        <tr class="display-location display-claw-shot-city">
-          <td>Comments:</td>
-          <td class="locationComment">
-            'Crew' and 'Ringleaders' sublocations use placeholder attraction data (since each Wanted Poster is different)
-          </td>
-        </tr>
-
-        <tr class="display-location display-sand-crypts">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Salt level is believed to be logarithmically related to Grub & Scarab power values
-            <br>The current formulas are approximations based on data from
-            <a href="https://sites.google.com/site/tehhowch/data-spreadsheets/king_grub_salt_charms/kg_mouse_power"
-            target="_blank" rel="noopener">tehhowch</a>
-          </td>
-        </tr>
-
-        <tr class="display-location display-event">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Many power and eff values are still missing or speculative
-            <br>Event mouse data is liable to change on a yearly basis
-            <br>Refer to this <a href="https://docs.google.com/spreadsheets/d/1l6P9Cp2HceKSXgJKzcOy26lK_5BEAsAO9HhoiSYviTY/edit?usp=sharing"
-            target="_blank" rel="noopener">spreadsheet</a> for the latest research
-          </td>
-        </tr>
-
-        <tr class="display-location display-queso-geyser">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Eff values for Stormsurge, Bruticus, Corkataur, and Emberstone are currently set to 600% (Kalor at 900%)
-            <br>Please report incorrect minimum luck values or drastically inaccurate catch rates
-          </td>
-        </tr>
-
-        <tr class="display-location display-seasonal-garden">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Chesla's Revenge proc rate currently set to 12.5%
-            <br>Sandcastle Shard Trap not implemented since its Amp% effect depends on current & max levels
-          </td>
-        </tr>
-
-        <tr class="display-location display-harbour">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Pirate Crew attraction rates will vary depending on your current manifest
-          </td>
-        </tr>
-
-        <tr class="display-location display-valour-rift">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Eff values for Soldier of the Shade & Bulwark of Ascent are still speculative
-          </td>
-        </tr>
-
-        <tr class="display-location display-floating-islands">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Speculative Effs: Cloud Miner, Scarlet Revenger, & Wardens
-            <br>Placeholder ARs: Wardens, Paragons, & Richard
-          </td>
-        </tr>
-        
-        <tr class="display-location display-sky-palace">
-          <td>Comments:</td>
-          <td class="locationComment">
-            Speculative Effs: Peggy the Plunderer, Empyrean Empress
-            <br>ALL ARs ARE PLACEHOLDERS, for INDIVIDUAL CR purposes ONLY.
-          </td>
-        </tr>
-
-        <tr>
-          <td>ATTENTION:</td>
-          <td>
-            <span>
-              Catch Rate and Minimum Luck formulas have been updated<br>
-              Please refer to the <a href="https://github.com/tsitu/MH-Tools#-new-formula" target="_blank" rel="noopener">README</a> for more information (Sep 2020)
-            </span>
-          </td>
-        </tr>
-
-        <tr>
-          <td>Custom values:</td>
-          <td>
-            <input type="checkbox" id="toggleCustom">
-          </td>
-        </tr>
-
         <tr>
           <td>Location:</td>
           <td>
@@ -353,12 +221,9 @@
         </tr>
 
         <tr>
-          <td>Golden Shield:</td>
+          <td>Lucky Golden Shield:</td>
           <td>
-            <select id="gs">
-              <option value='Y'>Yes</option>
-              <option value='N'>No</option>
-            </select>
+            <input type="checkbox" id="gs" checked>
           </td>
         </tr>
 
@@ -446,6 +311,14 @@
         </tr>
       </tbody>
 
+      <tbody>
+        <tr>
+          <td>Use Custom values:</td>
+          <td>
+            <input type="checkbox" id="toggleCustom">
+          </td>
+        </tr>
+      </tbody>
       <tbody class="input-all">
         <tr>
           <td>Tourney:</td>
@@ -490,6 +363,121 @@
           </td>
         </tr>
 
+        <tr class="display-location display-whisker-woods-rift">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Rage states: Low = 1-24, Medium = 25-49, High = 50
+            <br>Many rage states and charm populations still <a href="https://github.com/tsitu/MH-Tools/issues/79" target="_blank">missing</a>
+            <br>Darkest Chocolate Bunny proc rate currently set to 33%
+          </td>
+        </tr>
+
+        <tr class="display-location display-bristle-woods-rift">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Please report inaccurate minimum luck values
+            <a href="https://www.mousehuntgame.com/forum/showthread.php?132397-MouseHunt-Tools-by-tsitu&p=1385609&viewfull=1#post1385609"
+              target="_blank" rel="noopener">here</a>
+          </td>
+        </tr>
+
+        <tr class="display-location display-labyrinth">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Labyrinth/Minotaur/Treasure Seeker Base & Compass Magnet Charm proc rates currently set to 50%
+          </td>
+        </tr>
+
+        <tr class="display-location display-zugzwangs-tower">
+          <td>Comments:</td>
+          <td class="locationComment">Assumptions that were made when narrowing down populations can be found
+            <a href="https://www.mousehuntgame.com/forum/showthread.php?95543-Catch-Rate-Calculator&p=1328110&viewfull=1#post1328110"
+              target="_blank" rel="noopener">here</a>
+          </td>
+        </tr>
+
+        <tr class="display-location display-moussu-picchu">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Please report inaccurate minimum luck values (particularly for Storm Dragons)
+            <a href="https://www.mousehuntgame.com/forum/showthread.php?132397-MouseHunt-Tools-by-tsitu&p=1385673&viewfull=1#post1385673"
+              target="_blank" rel="noopener">here</a>
+          </td>
+        </tr>
+
+        <tr class="display-location display-claw-shot-city">
+          <td>Comments:</td>
+          <td class="locationComment">
+            'Crew' and 'Ringleaders' sublocations use placeholder attraction data (since each Wanted Poster is different)
+          </td>
+        </tr>
+
+        <tr class="display-location display-sand-crypts">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Salt level is believed to be logarithmically related to Grub & Scarab power values
+            <br>The current formulas are approximations based on data from
+            <a href="https://sites.google.com/site/tehhowch/data-spreadsheets/king_grub_salt_charms/kg_mouse_power"
+            target="_blank" rel="noopener">tehhowch</a>
+          </td>
+        </tr>
+
+        <tr class="display-location display-event">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Many power and eff values are still missing or speculative
+            <br>Event mouse data is liable to change on a yearly basis
+            <br>Refer to this <a href="https://docs.google.com/spreadsheets/d/1l6P9Cp2HceKSXgJKzcOy26lK_5BEAsAO9HhoiSYviTY/edit?usp=sharing"
+            target="_blank" rel="noopener">spreadsheet</a> for the latest research
+          </td>
+        </tr>
+
+        <tr class="display-location display-queso-geyser">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Eff values for Stormsurge, Bruticus, Corkataur, and Emberstone are currently set to 600% (Kalor at 900%)
+            <br>Please report incorrect minimum luck values or drastically inaccurate catch rates
+          </td>
+        </tr>
+
+        <tr class="display-location display-seasonal-garden">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Chesla's Revenge proc rate currently set to 12.5%
+            <br>Sandcastle Shard Trap not implemented since its Amp% effect depends on current & max levels
+          </td>
+        </tr>
+
+        <tr class="display-location display-harbour">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Pirate Crew attraction rates will vary depending on your current manifest
+          </td>
+        </tr>
+
+        <tr class="display-location display-valour-rift">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Eff values for Soldier of the Shade & Bulwark of Ascent are still speculative
+          </td>
+        </tr>
+
+        <tr class="display-location display-floating-islands">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Speculative Effs: Cloud Miner, Scarlet Revenger, & Wardens
+            <br>Placeholder ARs: Wardens, Paragons, & Richard
+          </td>
+        </tr>
+        
+        <tr class="display-location display-sky-palace">
+          <td>Comments:</td>
+          <td class="locationComment">
+            Speculative Effs: Peggy the Plunderer, Empyrean Empress
+            <br>ALL ARs ARE PLACEHOLDERS, for INDIVIDUAL CR purposes ONLY.
+          </td>
+        </tr>
+
         <tr>
           <td>Sample Size Score: </td>
           <td><div id="sampleScore">N/A</div></td>
@@ -515,17 +503,6 @@
       <thead></thead>
       <tbody></tbody>
     </table>
-    <br>
-
-    <div>Thanks to Adriel, Chad, Nick, Ben, Paul, YiKai, Kat, Sophie, Renette, Geno, Jack and many others
-      <br>
-      <a href="https://www.mousehuntgame.com/forum/showthread.php?132397-MouseHunt-Tools-by-tsitu&goto=newpost" target="_blank"
-        rel="noopener">Report bugs and suggest features</a>
-      <br>
-      <a href="https://github.com/tsitu/MH-Tools/" target="_blank" rel="noopener">Contribute</a>
-      <br>
-      <br>
-    </div>
   </div>
 </body>
 
