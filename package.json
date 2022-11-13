@@ -11,6 +11,7 @@
     "!pop:bristle": "node data/pop bristle-woods-rift > data/pop-csv/bristle-woods-rift.csv",
     "pop:cantera": "node data/pop cantera-quarry > data/pop-csv/cantera-quarry.csv",
     "pop:catacombs": "node data/pop catacombs > data/pop-csv/catacombs.csv",
+    "pop:digby": "node data/pop town-of-digby > data/pop-csv/town-of-digby.csv",
     "pop:forbidden": "node data/pop forbidden-grove > data/pop-csv/forbidden-grove.csv",
     "pop:farm": "node data/pop foreword-farm > data/pop-csv/foreword-farm.csv",
     "pop:fort": "node data/pop fort-rox > data/pop-csv/fort-rox.csv",
