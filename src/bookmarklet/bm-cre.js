@@ -49,7 +49,7 @@
     }
   }
 
-  function findSublocation(userLocation, userBase) {
+  function findSublocation(userLocation, userBase, userCheese) {
     var userQuests = user["quests"];
     var userViewingAtts = user["viewing_atts"];
 
@@ -410,23 +410,45 @@
       }
     } else if (userLocation === "Floating Islands") {
       var fi = userQuests["QuestFloatingIslands"]["hunting_site_atts"];
+      var fiStage = fi["island_name"];
 
       if (fi["enemy"]) {
         if (
           fi["enemy"]["name"].indexOf("Warden") >= 0 ||
-          fi["enemy"]["name"].indexOf("Paragon") >= 0
+          fi["enemy"]["name"].indexOf("Paragon") >= 0 ||
+          fi["enemy"]["name"].indexOf("Empress") >= 0
         ) {
           if (fi["is_enemy_encounter"]) {
-            if (fi["is_high_altitude"]) {
-              return "Sky Paragons";
-            } else {
+            if (fi["is_low_tier_island"]) {
               return "Sky Wardens";
+            } else if (fi["is_high_tier_island"]) {
+              return "Sky Paragons";
+            } else if (fi["is_vault_island"]) {
+              return "Empress";
             }
           }
         }
+      } else if (userCheese === "Sky Pirate Swiss Cheese") {
+        const piratesNum = fi["activated_island_mod_types"].filter(t => t === "sky_pirates").length;
+        return (fi["is_vault_island"] ? "Vault " : "Island ") + piratesNum === 0 ? "No Pirates" : "Pirates x" + piratesNum;
+      } else if ((userCheese === "Cloud Cheesecake" || userCheese === "Extra Rich Cloud Cheesecake") &&
+                  fi["activated_island_mod_types"].filter(i => i === "loot_cache").length >= 2) {
+        fiStage += ` - Loot x${fi["activated_island_mod_types"].filter(i => i === "loot_cache").length}`
+      } else if (fi["is_vault_island"] && Array.isArray(fi["activated_island_mod_types"])) {
+        const panels = {};
+        fi["activated_island_mod_types"].forEach(t => t in panels ? panels[t]++ : panels[t] = 1);
+        let counter = 0;
+        let mod_type = '';
+        for (const [type, num] of Object.entries(panels)) {
+            if (num >= 3) {
+                counter = num;
+                mod_type = fi["island_mod_panels"].filter(p => p.type === type)[0].name;
+            }
+        }
+        if (counter && mod_type)
+            message.stage += ` ${counter}x ${mod_type}`;
       }
-
-      return fi["island_name"];
+      return fiStage
     }
 
     return "N/A";
@@ -524,7 +546,7 @@
       : user["trap_luck"];
 
   var userCheese = user["bait_name"];
-  var userSublocation = findSublocation(userLocation, userBase);
+  var userSublocation = findSublocation(userLocation, userBase, userCheese);
   setLocationSpecificUrlParams(userLocation, urlParams, userSublocation);
 
   // Cheese edge cases
