@@ -33,7 +33,7 @@ var baselineAttArray = {
   "Coggy Colby": 1.0000, // Gamplay update 10/05
   "Combat": 1.0000, // Gamplay update 10/05
   "Creamy Havarti": 1.0000, // Gamplay update 10/05
-  "Crescent": 0.8900, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
+  "Crescent": 1.0000, // Fort Rox update 15 Nov 22
   "Crimson": 0.9000, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
   "Crunchy": 1.0000, // Gamplay update 10/05
   "Crunchy Havarti": 1.0000, // Gamplay update 10/05
