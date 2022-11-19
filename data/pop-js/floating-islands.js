@@ -38,7 +38,7 @@ Whenever a palace run gets 3x of a the same modifier it gets put into a specific
 
 Special stage cases
 Loot cache are handled slightly different, both for low, high, and palace runs but only with CC and ERCC equipped
-"<stage> - Loot x<mod_count>" (mod count up to 2x for low/high and up to 4x for palace)
+"<stage> - Loot x<mod_count>" (mod 2x for low/high and 2x to 4x for palace)
 Pirates are the final special case. Equipping Sky Pirate Swiss will change the stage.
 "No Pirates"
 "<Island|Vault> Pirates x<mod_count>" Choose Island (even for high alt) or Vault, then up to 2x for low/high and up to 4x for palace
@@ -289,13 +289,11 @@ function generatePalaceStages(stage) {
  */
 function generateLootCacheStages(islandStages) {
   var stages = []
-  for (stage of [islandStages.Low, islandStages.High]) {
-    for (let i = 1; i <= 2; i++) {
-      stages.push(`${stage} - Loot x${i}`)
-    }
+  for (let stage of [islandStages.Low, islandStages.High]) {
+    stages.push(`${stage} - Loot x2`)
   }
 
-  for (let i = 1; i <= 4; i++) {
+  for (let i = 2; i <= 4; i++) {
     stages.push(`${islandStages.Palace} - Loot x${i}`)
   }
   return stages;
@@ -309,7 +307,7 @@ function generateConfig() {
     var stages = [value.Stages.Low, value.Stages.High, ...generatePalaceStages(value.Stages.Palace)];
     for (cheese of allCheese) {
       const seriesMiceInclude = cheese.match(/Cheesecake/) ? value.Cloud : [];
-      for (stage of stages) {
+      for (let stage of stages) {
         const series = {
           cheese: utils.genVarField("cheese", cheese),
           stage: utils.genVarField("stage", stage),
