@@ -415,6 +415,30 @@
       }
 
       return fi["island_name"];
+    } else if (userLocation === "Table of Contents") {
+      var toc = userQuests["QuestTableOfContents"];
+      if (toc["is_writing"]) {
+        if (toc["progress"]["type"] === "encyclopedia") {
+          return "Encyclopedia";
+        } else {
+          return "Pre-Encyclopedia";
+        }
+      }
+    } else if (userLocation === "Foreword Farm") {
+      var farmState = userQuests["QuestForewordFarm"]["mice_state"];
+      if (farmState === "no_plants") {
+        return "No Plants";
+      } else if (farmState === "one_plant") {
+        return "One Plant";
+      } else if (farmState === "two_plants") {
+        return "Two Plants";
+      } else if (farmState === "three_plants") {
+        return "Three Plants";
+      } else if (farmState === "three_papyrus") {
+        return "Three Papyrus";
+      } else if (farmState === "boss") {
+        return "Boss";
+      }
     }
 
     return "N/A";
@@ -541,12 +565,12 @@
 
   // Weapon edge cases
   // switch (urlParams["weapon"]) {
-    // case "School of Sharks Trap":
-    //   urlParams["weapon"] = "School of Sharks";
-    //   break;
-    // case "Ambush Trap":
-      // urlParams["weapon"] = "Ambush";
-      // break;
+  // case "School of Sharks Trap":
+  //   urlParams["weapon"] = "School of Sharks";
+  //   break;
+  // case "Ambush Trap":
+  // urlParams["weapon"] = "Ambush";
+  // break;
   // }
 
   if (userSublocation !== "N/A") {
