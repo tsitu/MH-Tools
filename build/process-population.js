@@ -19,6 +19,7 @@
     "data/pop-csv/iceberg.csv",
     "data/pop-csv/laboratory.csv",
     "data/pop-csv/living-garden.csv",
+    "data/pop-csv/lost-city.csv",
     "data/pop-csv/mousoleum.csv",
     "data/pop-csv/moussu-picchu.csv",
     "data/pop-csv/prickly-plains.csv",
