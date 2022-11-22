@@ -273,7 +273,7 @@ var config = {
  * @returns {string[]} An array of generated stages plus the original stage from the argument
  */
 function generatePalaceStages(stage) {
-  var stages = [];
+  var stages = [stage];
   for (modType of palace_stage_mods) {
     for (modCount of [3, 4]) {
       stages.push(`${stage} ${modCount}x ${modType}`);
