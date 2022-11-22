@@ -468,6 +468,13 @@ function calculateTrapSetup(skipDisp) {
         }
       }
     } else if (
+      locationName === "Floating Islands" ||
+      locationName === "Sky Palace") {
+      if (cheeseName === "Extra Rich Cloud Cheesecake") {
+        shownPowerBonus += 20;
+        specialLuck += 5;
+      }
+    } else if (
       locationName === "Event" &&
       phaseName === "Halloween" &&
       weaponName === "Boiling Cauldron Trap"){

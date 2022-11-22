@@ -15,6 +15,7 @@
     "pop:cursed": "node data/pop cursed-city > data/pop-csv/cursed-city.csv",
     "pop:forbidden": "node data/pop forbidden-grove > data/pop-csv/forbidden-grove.csv",
     "pop:farm": "node data/pop foreword-farm > data/pop-csv/foreword-farm.csv",
+    "pop:fi": "node data/pop floating-islands > data/pop-csv/floating-islands.csv",
     "pop:fort": "node data/pop fort-rox > data/pop-csv/fort-rox.csv",
     "pop:fungal": "node data/pop fungal-cavern > data/pop-csv/fungal-cavern.csv",
     "pop:furoma": "node data/pop furoma-rift > data/pop-csv/furoma-rift.csv",

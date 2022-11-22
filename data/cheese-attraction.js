@@ -44,6 +44,7 @@ var baselineAttArray = {
   "Duskshade Camembert": 1.0000, // Gamplay update 10/05
   "Empowered Brie": 0.8500, // Gamplay update 10/05
   "Empowered SUPER|brie+": 1.0000, // Gamplay update 10/05
+  "Extra Rich Cloud Cheesecake": 1.0000, // Added with SP + Gameplay update 10/05
   "Festive Feta": 0.8379, // Sample: 4959 (High)
   "Final Draft Derby": 1.0000, // Added with FF release
   "Fishy Fromage": 1.0000, // Gamplay update 10/05
