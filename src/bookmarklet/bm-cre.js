@@ -445,10 +445,11 @@
                 mod_type = fi["island_mod_panels"].filter(p => p.type === type)[0].name;
             }
         }
-        if (counter && mod_type)
-            message.stage += ` ${counter}x ${mod_type}`;
+        if (counter && mod_type) {
+          fiStage += ` ${counter}x ${mod_type}`;
+        }
       }
-      return fi["island_name"];
+      return fiStage
     } else if (userLocation === "Table of Contents") {
       var toc = userQuests["QuestTableOfContents"];
       if (toc["is_writing"]) {
