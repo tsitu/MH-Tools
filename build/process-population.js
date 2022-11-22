@@ -29,6 +29,7 @@
     "data/pop-csv/queso-river.csv",
     "data/pop-csv/ronza.csv",
     "data/pop-csv/table-of-contents.csv",
+    "data/pop-csv/town-of-digby.csv",
     "data/pop-csv/toxic-spill.csv",
     "data/pop-csv/valour-rift.csv"
   ];
