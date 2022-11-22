@@ -26,7 +26,16 @@ module.exports = {
       config: [
         {
           opts: {
-            exclude: ["Glitchpaw"]
+            include: [
+              "Breeze Borrower",
+              "Cloud Collector",
+              "Homeopathic Apothecary",
+              "Nightshade Flower Girl",
+              "Nightshade Maiden",
+              "Rainwater Purifier",
+              "Spore Salesman",
+              "Windy Farmer"
+            ]
           }
         }
       ]
@@ -40,7 +49,7 @@ module.exports = {
           },
           fields: { stage: "Rain low", cheese: "Rainy" },
           opts: {
-            exclude: ["Monsoon Maker", "Rain Summoner"]
+            include: ["Rain Collector", "Rain Wallower"]
           }
         }
       ]
@@ -54,7 +63,7 @@ module.exports = {
           },
           fields: { stage: "Rain medium", cheese: "Rainy" },
           opts: {
-            exclude: ["Rainmancer", "Rain Wallower", "Rain Collector"]
+            include: ["Monsoon Maker", "Rain Summoner"]
           }
         }
       ]
@@ -68,7 +77,7 @@ module.exports = {
           },
           fields: { stage: "Rain high", cheese: "Rainy" },
           opts: {
-            exclude: ["Rain Summoner"]
+            include: ["Monsoon Maker", "Rainmancer"]
           }
         }
       ]
@@ -82,7 +91,7 @@ module.exports = {
           },
           fields: { stage: "Rain max", cheese: "Rainy" },
           opts: {
-            exclude: ["Monsoon Maker", "Rain Summoner"]
+            include: ["Rainmancer"]
           }
         }
       ]
@@ -96,7 +105,7 @@ module.exports = {
           },
           fields: { stage: "Wind low", cheese: "Windy" },
           opts: {
-            exclude: ["Cycloness", "Fluttering Flutist"]
+            include: ["Charming Chimer", "Wind Watcher"]
           }
         }
       ]
@@ -110,7 +119,7 @@ module.exports = {
           },
           fields: { stage: "Wind medium", cheese: "Windy" },
           opts: {
-            exclude: ["Wind Warrior", "Wind Watcher", "Charming Chimer"]
+            include: ["Cycloness", "Fluttering Flutist"]
           }
         }
       ]
@@ -124,7 +133,7 @@ module.exports = {
           },
           fields: { stage: "Wind high", cheese: "Windy" },
           opts: {
-            exclude: ["Fluttering Flutist"]
+            include: ["Cycloness", "Wind Warrior"]
           }
         }
       ]
@@ -138,7 +147,7 @@ module.exports = {
           },
           fields: { stage: "Wind max", cheese: "Windy" },
           opts: {
-            exclude: ["Cycloness"]
+            include: ["Wind Warrior"]
           }
         }
       ]

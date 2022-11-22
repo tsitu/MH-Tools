@@ -4,8 +4,10 @@
     "data/pop-csv/acolyte-realm.csv",
     "data/pop-csv/balacks-cove.csv",
     "data/pop-csv/bristle-woods-rift.csv",
+    "data/pop-csv/burroughs-rift.csv",
     "data/pop-csv/cantera-quarry.csv",
     "data/pop-csv/catacombs.csv",
+    "data/pop-csv/cursed-city.csv",
     "data/pop-csv/event.csv",
     "data/pop-csv/fiery-warpath.csv",
     "data/pop-csv/floating-islands.csv",
@@ -18,6 +20,7 @@
     "data/pop-csv/iceberg.csv",
     "data/pop-csv/laboratory.csv",
     "data/pop-csv/living-garden.csv",
+    "data/pop-csv/lost-city.csv",
     "data/pop-csv/mousoleum.csv",
     "data/pop-csv/moussu-picchu.csv",
     "data/pop-csv/prickly-plains.csv",
@@ -26,6 +29,7 @@
     "data/pop-csv/queso-river.csv",
     "data/pop-csv/ronza.csv",
     "data/pop-csv/table-of-contents.csv",
+    "data/pop-csv/town-of-digby.csv",
     "data/pop-csv/toxic-spill.csv",
     "data/pop-csv/valour-rift.csv"
   ];

@@ -1,105 +1,191 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Harbour","No Bounty","SB+","-","24.34%","Pirate",715
-"Harbour","No Bounty","SB+","-","9.51%","Burglar",715
-"Harbour","No Bounty","SB+","-","8.25%","Spotted",715
-"Harbour","No Bounty","SB+","-","7.13%","White",715
-"Harbour","No Bounty","SB+","-","6.01%","Grey",715
-"Harbour","No Bounty","SB+","-","5.87%","Magic",715
-"Harbour","No Bounty","SB+","-","5.45%","Brown",715
-"Harbour","No Bounty","SB+","-","4.76%","Pugilist",715
-"Harbour","No Bounty","SB+","-","3.78%","Bionic",715
-"Harbour","No Bounty","SB+","-","3.64%","Steel",715
-"Harbour","No Bounty","SB+","-","3.64%","Scruffy",715
-"Harbour","No Bounty","SB+","-","3.50%","Fog",715
-"Harbour","No Bounty","SB+","-","3.36%","Silvertail",715
-"Harbour","No Bounty","SB+","-","2.80%","Granite",715
-"Harbour","No Bounty","SB+","-","2.66%","Dwarf",715
-"Harbour","No Bounty","SB+","-","2.10%","Gold",715
-"Harbour","No Bounty","SB+","-","1.96%","Diamond",715
-"Harbour","No Bounty","SB+","-","1.26%","Black Widow",715
-"Harbour","No Bounty","Gouda","-","25.11%","Pirate",653
-"Harbour","No Bounty","Gouda","-","8.73%","Dwarf",653
-"Harbour","No Bounty","Gouda","-","8.58%","Scruffy",653
-"Harbour","No Bounty","Gouda","-","7.66%","White",653
-"Harbour","No Bounty","Gouda","-","7.04%","Pugilist",653
-"Harbour","No Bounty","Gouda","-","7.04%","Spotted",653
-"Harbour","No Bounty","Gouda","-","6.58%","Steel",653
-"Harbour","No Bounty","Gouda","-","5.97%","Granite",653
-"Harbour","No Bounty","Gouda","-","5.51%","Bionic",653
-"Harbour","No Bounty","Gouda","-","5.36%","Grey",653
-"Harbour","No Bounty","Gouda","-","4.44%","Diamond",653
-"Harbour","No Bounty","Gouda","-","4.29%","Brown",653
-"Harbour","No Bounty","Gouda","-","3.68%","Gold",653
-"Harbour","No Bounty","Brie","-","24.04%","Pirate",549
-"Harbour","No Bounty","Brie","-","10.38%","Scruffy",549
-"Harbour","No Bounty","Brie","-","9.47%","Dwarf",549
-"Harbour","No Bounty","Brie","-","8.74%","Spotted",549
-"Harbour","No Bounty","Brie","-","6.56%","Burglar",549
-"Harbour","No Bounty","Brie","-","5.46%","White",549
-"Harbour","No Bounty","Brie","-","5.10%","Diamond",549
-"Harbour","No Bounty","Brie","-","4.74%","Brown",549
-"Harbour","No Bounty","Brie","-","4.74%","Pugilist",549
-"Harbour","No Bounty","Brie","-","4.55%","Steel",549
-"Harbour","No Bounty","Brie","-","4.37%","Grey",549
-"Harbour","No Bounty","Brie","-","4.01%","Granite",549
-"Harbour","No Bounty","Brie","-","4.01%","Gold",549
-"Harbour","No Bounty","Brie","-","3.83%","Bionic",549
-"Harbour","On Bounty","SB+","-","14.68%","Dashing Buccaneer",538
-"Harbour","On Bounty","SB+","-","13.20%","Corrupt Commodore",538
-"Harbour","On Bounty","SB+","-","10.78%","Bilged Boatswain",538
-"Harbour","On Bounty","SB+","-","10.59%","Cabin Boy",538
-"Harbour","On Bounty","SB+","-","10.22%","Barmy Gunner",538
-"Harbour","On Bounty","SB+","-","9.48%","Pirate",538
-"Harbour","On Bounty","SB+","-","4.28%","Burglar",538
-"Harbour","On Bounty","SB+","-","3.35%","White",538
-"Harbour","On Bounty","SB+","-","3.16%","Spotted",538
-"Harbour","On Bounty","SB+","-","2.79%","Pugilist",538
-"Harbour","On Bounty","SB+","-","2.42%","Brown",538
-"Harbour","On Bounty","SB+","-","2.42%","Magic",538
-"Harbour","On Bounty","SB+","-","2.23%","Scruffy",538
-"Harbour","On Bounty","SB+","-","1.67%","Grey",538
-"Harbour","On Bounty","SB+","-","1.67%","Steel",538
-"Harbour","On Bounty","SB+","-","1.49%","Silvertail",538
-"Harbour","On Bounty","SB+","-","1.12%","Gold",538
-"Harbour","On Bounty","SB+","-","1.12%","Fog",538
-"Harbour","On Bounty","SB+","-","1.12%","Bionic",538
-"Harbour","On Bounty","SB+","-","0.93%","Dwarf",538
-"Harbour","On Bounty","SB+","-","0.93%","Granite",538
-"Harbour","On Bounty","SB+","-","0.37%","Diamond",538
-"Harbour","On Bounty","Gouda","-","12.22%","Corrupt Commodore",679
-"Harbour","On Bounty","Gouda","-","11.49%","Cabin Boy",679
-"Harbour","On Bounty","Gouda","-","11.34%","Bilged Boatswain",679
-"Harbour","On Bounty","Gouda","-","11.19%","Pirate",679
-"Harbour","On Bounty","Gouda","-","10.46%","Barmy Gunner",679
-"Harbour","On Bounty","Gouda","-","8.98%","Dashing Buccaneer",679
-"Harbour","On Bounty","Gouda","-","3.68%","Spotted",679
-"Harbour","On Bounty","Gouda","-","3.68%","Granite",679
-"Harbour","On Bounty","Gouda","-","3.68%","Brown",679
-"Harbour","On Bounty","Gouda","-","3.68%","Dwarf",679
-"Harbour","On Bounty","Gouda","-","3.39%","White",679
-"Harbour","On Bounty","Gouda","-","3.24%","Scruffy",679
-"Harbour","On Bounty","Gouda","-","3.09%","Pugilist",679
-"Harbour","On Bounty","Gouda","-","2.65%","Steel",679
-"Harbour","On Bounty","Gouda","-","2.06%","Grey",679
-"Harbour","On Bounty","Gouda","-","1.77%","Gold",679
-"Harbour","On Bounty","Gouda","-","1.77%","Diamond",679
-"Harbour","On Bounty","Gouda","-","1.62%","Bionic",679
-"Harbour","On Bounty","Brie","-","13.01%","Dashing Buccaneer",584
-"Harbour","On Bounty","Brie","-","12.33%","Bilged Boatswain",584
-"Harbour","On Bounty","Brie","-","10.96%","Barmy Gunner",584
-"Harbour","On Bounty","Brie","-","9.76%","Cabin Boy",584
-"Harbour","On Bounty","Brie","-","9.25%","Corrupt Commodore",584
-"Harbour","On Bounty","Brie","-","8.90%","Pirate",584
-"Harbour","On Bounty","Brie","-","5.65%","Spotted",584
-"Harbour","On Bounty","Brie","-","4.45%","Scruffy",584
-"Harbour","On Bounty","Brie","-","4.28%","Burglar",584
-"Harbour","On Bounty","Brie","-","3.77%","Dwarf",584
-"Harbour","On Bounty","Brie","-","3.42%","White",584
-"Harbour","On Bounty","Brie","-","3.42%","Brown",584
-"Harbour","On Bounty","Brie","-","3.25%","Grey",584
-"Harbour","On Bounty","Brie","-","1.54%","Pugilist",584
-"Harbour","On Bounty","Brie","-","1.37%","Bionic",584
-"Harbour","On Bounty","Brie","-","1.37%","Diamond",584
-"Harbour","On Bounty","Brie","-","1.20%","Steel",584
-"Harbour","On Bounty","Brie","-","1.20%","Granite",584
-"Harbour","On Bounty","Brie","-","0.86%","Gold",584
+"Harbour","No Bounty","SB+","-","22.57%","Pirate",11626
+"Harbour","No Bounty","SB+","-","9.05%","Burglar",11626
+"Harbour","No Bounty","SB+","-","8.01%","Spotted",11626
+"Harbour","No Bounty","SB+","-","6.29%","White",11626
+"Harbour","No Bounty","SB+","-","6.19%","Brown",11626
+"Harbour","No Bounty","SB+","-","5.73%","Grey",11626
+"Harbour","No Bounty","SB+","-","4.35%","Steel",11626
+"Harbour","No Bounty","SB+","-","4.27%","Magic",11626
+"Harbour","No Bounty","SB+","-","4.25%","Granite",11626
+"Harbour","No Bounty","SB+","-","4.20%","Bionic",11626
+"Harbour","No Bounty","SB+","-","4.11%","Scruffy",11626
+"Harbour","No Bounty","SB+","-","4.03%","Pugilist",11626
+"Harbour","No Bounty","SB+","-","3.92%","Fog",11626
+"Harbour","No Bounty","SB+","-","3.87%","Dwarf",11626
+"Harbour","No Bounty","SB+","-","3.42%","Silvertail",11626
+"Harbour","No Bounty","SB+","-","2.52%","Diamond",11626
+"Harbour","No Bounty","SB+","-","2.49%","Gold",11626
+"Harbour","No Bounty","SB+","-","0.72%","Black Widow",11626
+"Harbour","No Bounty","Gouda","-","22.18%","Pirate",5888
+"Harbour","No Bounty","Gouda","-","8.64%","Scruffy",5888
+"Harbour","No Bounty","Gouda","-","8.59%","Dwarf",5888
+"Harbour","No Bounty","Gouda","-","7.51%","Spotted",5888
+"Harbour","No Bounty","Gouda","-","7.05%","Pugilist",5888
+"Harbour","No Bounty","Gouda","-","6.86%","Granite",5888
+"Harbour","No Bounty","Gouda","-","6.44%","Bionic",5888
+"Harbour","No Bounty","Gouda","-","6.35%","White",5888
+"Harbour","No Bounty","Gouda","-","6.25%","Steel",5888
+"Harbour","No Bounty","Gouda","-","6.05%","Grey",5888
+"Harbour","No Bounty","Gouda","-","5.57%","Brown",5888
+"Harbour","No Bounty","Gouda","-","4.76%","Diamond",5888
+"Harbour","No Bounty","Gouda","-","3.75%","Gold",5888
+"Harbour","No Bounty","Brie","-","22.66%","Pirate",6257
+"Harbour","No Bounty","Brie","-","9.38%","Scruffy",6257
+"Harbour","No Bounty","Brie","-","8.60%","Dwarf",6257
+"Harbour","No Bounty","Brie","-","7.82%","Burglar",6257
+"Harbour","No Bounty","Brie","-","7.61%","Spotted",6257
+"Harbour","No Bounty","Brie","-","6.54%","White",6257
+"Harbour","No Bounty","Brie","-","6.26%","Grey",6257
+"Harbour","No Bounty","Brie","-","5.45%","Brown",6257
+"Harbour","No Bounty","Brie","-","4.52%","Diamond",6257
+"Harbour","No Bounty","Brie","-","4.47%","Gold",6257
+"Harbour","No Bounty","Brie","-","4.38%","Pugilist",6257
+"Harbour","No Bounty","Brie","-","4.25%","Granite",6257
+"Harbour","No Bounty","Brie","-","4.12%","Bionic",6257
+"Harbour","No Bounty","Brie","-","3.93%","Steel",6257
+"Harbour","No Bounty","Swiss","-","25.54%","Pirate",928
+"Harbour","No Bounty","Swiss","-","8.51%","Scruffy",928
+"Harbour","No Bounty","Swiss","-","8.19%","Spotted",928
+"Harbour","No Bounty","Swiss","-","7.54%","Pugilist",928
+"Harbour","No Bounty","Swiss","-","7.44%","White",928
+"Harbour","No Bounty","Swiss","-","7.33%","Dwarf",928
+"Harbour","No Bounty","Swiss","-","6.90%","Granite",928
+"Harbour","No Bounty","Swiss","-","6.47%","Brown",928
+"Harbour","No Bounty","Swiss","-","6.03%","Grey",928
+"Harbour","No Bounty","Swiss","-","5.17%","Bionic",928
+"Harbour","No Bounty","Swiss","-","4.42%","Steel",928
+"Harbour","No Bounty","Swiss","-","4.09%","Gold",928
+"Harbour","No Bounty","Swiss","-","2.37%","Diamond",928
+"Harbour","No Bounty","Marble","-","31.33%","Pirate",166
+"Harbour","No Bounty","Marble","-","9.04%","Dwarf",166
+"Harbour","No Bounty","Marble","-","9.04%","Spotted",166
+"Harbour","No Bounty","Marble","-","7.83%","Diamond",166
+"Harbour","No Bounty","Marble","-","7.23%","Bionic",166
+"Harbour","No Bounty","Marble","-","7.23%","Scruffy",166
+"Harbour","No Bounty","Marble","-","6.63%","Grey",166
+"Harbour","No Bounty","Marble","-","4.82%","White",166
+"Harbour","No Bounty","Marble","-","4.22%","Granite",166
+"Harbour","No Bounty","Marble","-","3.61%","Pugilist",166
+"Harbour","No Bounty","Marble","-","3.01%","Steel",166
+"Harbour","No Bounty","Marble","-","3.01%","Brown",166
+"Harbour","No Bounty","Marble","-","3.01%","Gold",166
+"Harbour","No Bounty","White Cheddar","-","30.32%","Pirate",729
+"Harbour","No Bounty","White Cheddar","-","12.48%","Dwarf",729
+"Harbour","No Bounty","White Cheddar","-","12.48%","Scruffy",729
+"Harbour","No Bounty","White Cheddar","-","9.88%","Granite",729
+"Harbour","No Bounty","White Cheddar","-","9.19%","Pugilist",729
+"Harbour","No Bounty","White Cheddar","-","8.23%","Steel",729
+"Harbour","No Bounty","White Cheddar","-","7.00%","Bionic",729
+"Harbour","No Bounty","White Cheddar","-","5.49%","Gold",729
+"Harbour","No Bounty","White Cheddar","-","4.94%","Diamond",729
+"Harbour","On Bounty","SB+","-","11.82%","Dashing Buccaneer",4626
+"Harbour","On Bounty","SB+","-","11.31%","Cabin Boy",4626
+"Harbour","On Bounty","SB+","-","11.28%","Corrupt Commodore",4626
+"Harbour","On Bounty","SB+","-","11.02%","Barmy Gunner",4626
+"Harbour","On Bounty","SB+","-","10.33%","Bilged Boatswain",4626
+"Harbour","On Bounty","SB+","-","9.08%","Pirate",4626
+"Harbour","On Bounty","SB+","-","3.85%","Burglar",4626
+"Harbour","On Bounty","SB+","-","3.70%","Spotted",4626
+"Harbour","On Bounty","SB+","-","3.26%","White",4626
+"Harbour","On Bounty","SB+","-","2.83%","Grey",4626
+"Harbour","On Bounty","SB+","-","2.55%","Brown",4626
+"Harbour","On Bounty","SB+","-","2.20%","Magic",4626
+"Harbour","On Bounty","SB+","-","1.90%","Scruffy",4626
+"Harbour","On Bounty","SB+","-","1.90%","Pugilist",4626
+"Harbour","On Bounty","SB+","-","1.79%","Steel",4626
+"Harbour","On Bounty","SB+","-","1.75%","Granite",4626
+"Harbour","On Bounty","SB+","-","1.75%","Fog",4626
+"Harbour","On Bounty","SB+","-","1.75%","Dwarf",4626
+"Harbour","On Bounty","SB+","-","1.66%","Bionic",4626
+"Harbour","On Bounty","SB+","-","1.45%","Silvertail",4626
+"Harbour","On Bounty","SB+","-","1.34%","Gold",4626
+"Harbour","On Bounty","SB+","-","1.17%","Diamond",4626
+"Harbour","On Bounty","SB+","-","0.28%","Black Widow",4626
+"Harbour","On Bounty","Gouda","-","11.45%","Cabin Boy",3204
+"Harbour","On Bounty","Gouda","-","11.30%","Bilged Boatswain",3204
+"Harbour","On Bounty","Gouda","-","11.05%","Corrupt Commodore",3204
+"Harbour","On Bounty","Gouda","-","10.52%","Dashing Buccaneer",3204
+"Harbour","On Bounty","Gouda","-","10.33%","Barmy Gunner",3204
+"Harbour","On Bounty","Gouda","-","9.55%","Pirate",3204
+"Harbour","On Bounty","Gouda","-","4.34%","Scruffy",3204
+"Harbour","On Bounty","Gouda","-","3.96%","Dwarf",3204
+"Harbour","On Bounty","Gouda","-","3.62%","Granite",3204
+"Harbour","On Bounty","Gouda","-","3.40%","Spotted",3204
+"Harbour","On Bounty","Gouda","-","3.03%","Brown",3204
+"Harbour","On Bounty","Gouda","-","2.84%","Pugilist",3204
+"Harbour","On Bounty","Gouda","-","2.81%","Steel",3204
+"Harbour","On Bounty","Gouda","-","2.72%","White",3204
+"Harbour","On Bounty","Gouda","-","2.47%","Bionic",3204
+"Harbour","On Bounty","Gouda","-","2.31%","Grey",3204
+"Harbour","On Bounty","Gouda","-","2.28%","Diamond",3204
+"Harbour","On Bounty","Gouda","-","2.03%","Gold",3204
+"Harbour","On Bounty","Brie","-","11.57%","Bilged Boatswain",4773
+"Harbour","On Bounty","Brie","-","11.19%","Corrupt Commodore",4773
+"Harbour","On Bounty","Brie","-","11.10%","Dashing Buccaneer",4773
+"Harbour","On Bounty","Brie","-","10.50%","Barmy Gunner",4773
+"Harbour","On Bounty","Brie","-","10.43%","Cabin Boy",4773
+"Harbour","On Bounty","Brie","-","8.74%","Pirate",4773
+"Harbour","On Bounty","Brie","-","4.34%","Burglar",4773
+"Harbour","On Bounty","Brie","-","4.13%","Dwarf",4773
+"Harbour","On Bounty","Brie","-","3.88%","Scruffy",4773
+"Harbour","On Bounty","Brie","-","3.67%","Spotted",4773
+"Harbour","On Bounty","Brie","-","3.50%","White",4773
+"Harbour","On Bounty","Brie","-","2.79%","Brown",4773
+"Harbour","On Bounty","Brie","-","2.77%","Grey",4773
+"Harbour","On Bounty","Brie","-","2.07%","Diamond",4773
+"Harbour","On Bounty","Brie","-","2.01%","Pugilist",4773
+"Harbour","On Bounty","Brie","-","1.97%","Steel",4773
+"Harbour","On Bounty","Brie","-","1.91%","Granite",4773
+"Harbour","On Bounty","Brie","-","1.80%","Bionic",4773
+"Harbour","On Bounty","Brie","-","1.66%","Gold",4773
+"Harbour","On Bounty","Swiss","-","12.35%","Dashing Buccaneer",737
+"Harbour","On Bounty","Swiss","-","11.53%","Bilged Boatswain",737
+"Harbour","On Bounty","Swiss","-","11.26%","Barmy Gunner",737
+"Harbour","On Bounty","Swiss","-","10.85%","Corrupt Commodore",737
+"Harbour","On Bounty","Swiss","-","10.45%","Cabin Boy",737
+"Harbour","On Bounty","Swiss","-","10.18%","Pirate",737
+"Harbour","On Bounty","Swiss","-","4.21%","Scruffy",737
+"Harbour","On Bounty","Swiss","-","3.39%","Dwarf",737
+"Harbour","On Bounty","Swiss","-","2.99%","Spotted",737
+"Harbour","On Bounty","Swiss","-","2.99%","Pugilist",737
+"Harbour","On Bounty","Swiss","-","2.85%","Granite",737
+"Harbour","On Bounty","Swiss","-","2.85%","Bionic",737
+"Harbour","On Bounty","Swiss","-","2.71%","Steel",737
+"Harbour","On Bounty","Swiss","-","2.58%","White",737
+"Harbour","On Bounty","Swiss","-","2.44%","Brown",737
+"Harbour","On Bounty","Swiss","-","2.31%","Diamond",737
+"Harbour","On Bounty","Swiss","-","2.04%","Gold",737
+"Harbour","On Bounty","Swiss","-","2.04%","Grey",737
+"Harbour","On Bounty","Marble","-","13.70%","Dashing Buccaneer",146
+"Harbour","On Bounty","Marble","-","13.01%","Barmy Gunner",146
+"Harbour","On Bounty","Marble","-","10.27%","Bilged Boatswain",146
+"Harbour","On Bounty","Marble","-","8.90%","Corrupt Commodore",146
+"Harbour","On Bounty","Marble","-","8.90%","Cabin Boy",146
+"Harbour","On Bounty","Marble","-","7.53%","Pirate",146
+"Harbour","On Bounty","Marble","-","5.48%","Spotted",146
+"Harbour","On Bounty","Marble","-","4.79%","Scruffy",146
+"Harbour","On Bounty","Marble","-","4.11%","Bionic",146
+"Harbour","On Bounty","Marble","-","3.42%","White",146
+"Harbour","On Bounty","Marble","-","3.42%","Granite",146
+"Harbour","On Bounty","Marble","-","3.42%","Brown",146
+"Harbour","On Bounty","Marble","-","3.42%","Grey",146
+"Harbour","On Bounty","Marble","-","3.42%","Diamond",146
+"Harbour","On Bounty","Marble","-","2.05%","Gold",146
+"Harbour","On Bounty","Marble","-","2.05%","Pugilist",146
+"Harbour","On Bounty","Marble","-","1.37%","Steel",146
+"Harbour","On Bounty","Marble","-","0.68%","Dwarf",146
+"Harbour","On Bounty","White Cheddar","-","12.45%","Pirate",771
+"Harbour","On Bounty","White Cheddar","-","12.32%","Corrupt Commodore",771
+"Harbour","On Bounty","White Cheddar","-","11.93%","Dashing Buccaneer",771
+"Harbour","On Bounty","White Cheddar","-","11.28%","Bilged Boatswain",771
+"Harbour","On Bounty","White Cheddar","-","11.02%","Barmy Gunner",771
+"Harbour","On Bounty","White Cheddar","-","10.51%","Cabin Boy",771
+"Harbour","On Bounty","White Cheddar","-","5.71%","Scruffy",771
+"Harbour","On Bounty","White Cheddar","-","5.19%","Dwarf",771
+"Harbour","On Bounty","White Cheddar","-","4.67%","Bionic",771
+"Harbour","On Bounty","White Cheddar","-","4.28%","Granite",771
+"Harbour","On Bounty","White Cheddar","-","3.37%","Steel",771
+"Harbour","On Bounty","White Cheddar","-","2.46%","Pugilist",771
+"Harbour","On Bounty","White Cheddar","-","2.46%","Diamond",771
+"Harbour","On Bounty","White Cheddar","-","2.33%","Gold",771
