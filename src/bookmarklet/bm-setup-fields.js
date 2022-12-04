@@ -84,8 +84,8 @@
           stage_five: "First Light"
         };
         return stages[stage];
-      } else if (tmpPhase === "lair") {
-        return "Portal";
+    } else if (fortRoxQuest["is_lair"]) {
+        return "Heart of the Meteor";
       } else {
         return tmpPhase;
       }
