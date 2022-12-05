@@ -15,9 +15,8 @@ module.exports = {
   },
   series: [
     { // day
+      stage: utils.genVarField('stage', 'Day'),
       config: [ {
-        vars: { stage: { Day: true } },
-        fields: { stage: 'Day' },
         opts: {
           include: [
             'Hardworking Hauler',
@@ -31,9 +30,8 @@ module.exports = {
       } ]
     },
     { // twilight
+      stage: utils.genVarField('stage', 'Twilight'),
       config: [ {
-        vars: { stage: { Twilight: true } },
-        fields: { stage: 'Twilight' },
         opts: {
           include: [
             'Alpha Weremouse',
@@ -49,9 +47,8 @@ module.exports = {
       } ]
     },
     { // Midnight
+      stage: utils.genVarField('stage', 'Midnight'),
       config: [ {
-        vars: { stage: { Midnight: true } },
-        fields: { stage: 'Midnight' },
         opts: {
           include: [
             'Alpha Weremouse',
@@ -72,9 +69,8 @@ module.exports = {
       } ]
     },
     { // Pitch
+      stage: utils.genVarField('stage', 'Pitch'),
       config: [ {
-        vars: { stage: { Pitch: true } },
-        fields: { stage: 'Pitch' },
         opts: {
           include: [
             'Alpha Weremouse',
@@ -98,9 +94,8 @@ module.exports = {
       } ]
     },
     { // Utter Darkness
+      stage: utils.genVarField('stage', 'Utter Darkness'),
       config: [ {
-        vars: { stage: { 'Utter Darkness': true } },
-        fields: { stage: 'Utter Darkness' },
         opts: {
           include: [
             'Alpha Weremouse',
@@ -124,9 +119,8 @@ module.exports = {
       } ]
     },
     { // First Light
+      stage: utils.genVarField('stage', 'First Light'),
       config: [ {
-        vars: { stage: { 'First Light': true } },
-        fields: { stage: 'First Light' },
         opts: {
           include: [
             'Arcane Summoner',
@@ -142,14 +136,24 @@ module.exports = {
       } ]
     },
     { // Dawn
+      stage: utils.genVarField('stage', 'Dawn'),
       config: [ {
-        vars: { stage: { 'Dawn': true } },
-        fields: { stage: 'Dawn' },
         opts: {
           include: [
             'Battering Ram',
             'Dawn Guardian',
             'Monster of the Meteor'
+          ]
+        }
+      } ]
+    },
+    { // Heart of the Meteor
+      stage: utils.genVarField('stage', 'Heart of the Meteor'),
+      cheese: utils.genVarField('cheese', 'Sunrise'),
+      config: [ {
+        opts: {
+          include: [
+            'Heart of the Meteor'
           ]
         }
       } ]
