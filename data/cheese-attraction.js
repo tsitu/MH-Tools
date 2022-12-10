@@ -18,7 +18,7 @@ var baselineAttArray = {
   "Abominable Asiago": 1.0000, // Gamplay update 10/05
   "Ancient": 1.0000, // Gamplay update 10/05
   "Ancient String": 1.0000, // Gamplay update 10/05
-  "Arctic Asiago": 0.8500, // Guesstimate | Calculated: 0.8513, Sample: 10204 (Very High)
+  "Arctic Asiago": 0.9000, // Guesstimate | Calculated: 0.8513, Sample: 10204 (Very High)
   "Ascended": 1.0000, // Gamplay update 10/05
   "Bland Queso": 0.9000, // Guesstimate | Calculated: 0.8970, Sample: 163254 (Excellent)
   "Brie": 0.8500, // Gamplay update 10/05
@@ -45,7 +45,7 @@ var baselineAttArray = {
   "Empowered Brie": 0.8500, // Gamplay update 10/05
   "Empowered SUPER|brie+": 1.0000, // Gamplay update 10/05
   "Extra Rich Cloud Cheesecake": 1.0000, // Added with SP + Gameplay update 10/05
-  "Festive Feta": 0.8379, // Sample: 4959 (High)
+  "Festive Feta": 0.9000, // Sample: 4959 (High)
   "Final Draft Derby": 1.0000, // Added with FF release
   "Fishy Fromage": 1.0000, // Gamplay update 10/05
   "First Draft Derby": 1.0000, // Added with FF release
@@ -65,7 +65,7 @@ var baselineAttArray = {
   "Ghastly Galleon Gouda": 1.0000, // Gamplay update 10/05
   "Ghoulgonzola": 0.8957, // Sample: 3123 (High)
   "Gilded": 0.8500, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
-  "Gingerbread": 0.7000, // Gamplay update 10/05
+  "Gingerbread": 0.9000, // Gamplay update 10/05
   "Glazed Pecan Pecorino": 1.0000, // Gamplay update 10/05
   "Glowing Gruyere": 1.0000, // Gamplay update 10/05
   "Glutter": 1.0000, // Gamplay update 10/05
@@ -96,7 +96,7 @@ var baselineAttArray = {
   "Mozzarella": 0.7000, // Gamplay update 10/05
   "Nian Gao'da": 1.0000, // Gamplay update 10/05
   "Null Onyx Gorgonzola": 1.0000, // Gamplay update 10/05
-  "Nutmeg": 1.0000, // Gamplay update 10/05
+  "Nutmeg": 0.9000, // Gamplay update 10/05
   "Onyx Gorgonzola": 1.0000, // Gamplay update 10/05
   "Pecan Pecorino": 1.0000, // Gamplay update 10/05
   "Polluted Parmesan": 1.0000, // Gamplay update 10/05
@@ -117,11 +117,11 @@ var baselineAttArray = {
   "Runic String": 1.0000, // Gamplay update 10/05
   "Runny": 1.0000, // Gamplay update 10/05
   "SB+": 1.0000, // Gamplay update 10/05
-  "Seasoned Gouda": 0.8482, // Sample: 4275 (High)
+  "Seasoned Gouda": 0.9000, // Sample: 4275 (High)
   "Second Draft Derby": 1.0000, // Added with FF release
   "Shell": 1.0000, // Gamplay update 10/05
   "Sky Pirate Swiss": 1.0000, // Gamplay update 10/05
-  "Snowball Bocconcini": 0.8583, // Sample: 4723 (High)
+  "Snowball Bocconcini": 0.9000, // Sample: 4723 (High)
   "Spicy Havarti": 1.0000, // Gamplay update 10/05
   "Stormy Clamembert": 1.0000, // Added with FF release
   "Sunrise": 1.0000, // Gamplay update 10/05
