@@ -63,7 +63,7 @@ Bionic,550,550
 Birthday,810,900
 Bitter Grammarian,35000,250000
 Bitter Root,2000,25000
-Black Diamond Racer,2000,18000
+Black Diamond Racer,3000,20000
 Black Mage,3500,4440
 Black Powder Thief,8000,9000
 Black Widow,10,480
@@ -72,7 +72,7 @@ Bloomed Sylvan,7180,44400
 Bog Beast,4700,11500
 Bonbon Gummy Globlin,5000,40000
 Bookborn,950,11900
-Borean Commander,8000,15000
+Borean Commander,2900,19000
 Bottled,660,3360
 Bottom Feeder,1900,19100
 Boulder Biter,14000,70000
@@ -88,7 +88,7 @@ Bruticle,5040,16560
 "Bruticus, the Blazing",15000,90000
 Buccaneer,2750,4290
 Buckethead,2000,1700
-Builder,900,12000
+Builder,900,990
 Bulwark of Ascent,12000,80000
 Burglar,1250,1420
 Burly Bruiser,4500,15000
@@ -98,7 +98,7 @@ Calligraphy,888,2888
 Careless Catfish,9000,45000
 Camoflower,1250,11000
 Camofusion,2850,19500
-Candy Cane,700,3165
+Candy Cane,1435,2500
 Candy Cat,1000,4250
 Candy Goblin,2500,800
 Cannonball,7500,5000
@@ -132,7 +132,7 @@ Chipper,1235,4525
 Chitinous,5845,44405
 Chocolate Gold Foil,2500,7000
 Chocolate Overload,350,1200
-Christmas Tree,5000,17500
+Christmas Tree,1900,20000
 Chrono,12250,19750
 Chronomaster,20000,170000
 Cinderstorm,8000,60000
@@ -151,7 +151,7 @@ Coal Shoveller,3500,6000
 Cobweb,700,500
 Coco Commander,500,6900
 Coffin Zombie,3000,2200
-Confused Courier,400,900
+Confused Courier,1500,6000
 Conjurer,4500,6875
 Conqueror,3200,7560
 Cook,90,4090
@@ -260,7 +260,7 @@ Desert Architect,2400,10000
 Desert Nomad,4000,40000
 Desert Soldier,2400,11500
 Desperado,9000,9500
-Destructoy,2000,12600
+Destructoy,3000,20000
 Devious Gentleman,26000,82000
 Diamond,800,1200
 Diamondhide,75000,290000
@@ -269,7 +269,7 @@ Dire Lycan,3000,5000
 Dirt Thing,3000,49500
 Dojo Sensei,34500,28665
 Doktor,3750,35000
-Double Black Diamond Racer,3000,19000
+Double Black Diamond Racer,5000,28000
 Draconic Warden,1245,12895
 Dragon,39940,74200
 Dragonbreather,10250,105000
@@ -294,7 +294,7 @@ Eggsplosive Scientist,800,6200
 Eggsquisite Entertainer,1350,2500
 El Flamenco,5000,9000
 Elder,645,11405
-Elf,8090,9920
+Elf,3000,26800
 Elite Guardian,4205,25500
 Elixir Maker,4250,56000
 Elub Chieftain,7520,16560
@@ -352,10 +352,11 @@ Force Fighter Red,2700,4000
 Force Fighter Yellow,3000,5000
 Forever Alone,600,1200
 Foxy,1500,1650
-Free Skiing,5000,17500
+Free Skiing,5000,15000
 Frightened Flying Fireworks,2017,12000
-Frigid Foreman,1750,3460
+Frigid Foreman,1200,2000
 Frog,400,325
+Frost King,50000,120000
 Frostbite,5040,11400
 Frostlance Guard,935,7435
 Frostwing Commander,7525,22550
@@ -380,11 +381,11 @@ Ghost,3500,3250
 Ghost Pirate Queen,10000,15000
 Giant Snail,550,5750
 Gilded Leaf,9000,48750
-Gingerbread,750,1250
-Glacia Ice Fist,2000,9900
+Gingerbread,495,900
+Glacia Ice Fist,3000,10150
 Gladiator,8250,8365
 Glass Blower,6000,18000
-Glazy,5000,18000
+Glazy,10000,50000
 Glitchpaw,1200,1200
 Gluttonous Zombie,2500,1500
 Goblin,3500,3500
@@ -401,9 +402,9 @@ Grandfather,720,8640
 Granite,525,285
 Granny Spice,4500,34000
 Grave Robber,1200,2000
-Great Giftnapper,9000,30000
-Great Winter Hunt Impostor,10000,50000
-Greedy Al,750,2500
+Great Giftnapper,8880,20000
+Great Winter Hunt Impostor,5000,30000
+Greedy Al,5000,10000
 Greenbeard,11500,65000
 Grey,125,90
 Grey Recluse,550,1100
@@ -435,7 +436,7 @@ Heavy Blaster,1150,7200
 Herc,10000,100000
 High Roller,10,10
 Hired Eidolon,10000,44220
-Hoarder,3000,2500
+Hoarder,4000,10000
 Hollowed,7500,41250
 Hollowed Minion,10000,10000
 Hollowhead,2000,875
@@ -451,7 +452,7 @@ Hydra,5760,9640
 Hydrologist,3500,25000
 Hydrophobe,500,2000
 Hypnotized Gunslinger,9000,55000
-Iceberg Sculptor,10000,32017
+Iceberg Sculptor,3000,21000
 Iceblade,3850,14560
 Iceblock,1265,7425
 Icebreaker,1320,5850
@@ -469,7 +470,7 @@ Infiltrator,1900,15800
 Itty Bitty Rifty Burroughs,4600,36000
 Itty-Bitty Burroughs,4000,10000
 Jellyfish,1990,31700
-Joy,8090,9920
+Joy,12000,40000
 Juliyes,999,999
 Jurassic,6490,39470
 Kalor'ignis of the Geyser,75000,325000
@@ -515,7 +516,7 @@ Lunar Red Candle Maker,2222,2888
 Lycan,5500,9250
 Lycanoid,6500,50000
 M400,24400,600000
-Mad Elf,3000,19000
+Mad Elf,10000,32000
 "Madame d'Ormouse",2750,75000
 Mage Weaver,900,29000
 Magic,2250,2000
@@ -569,8 +570,8 @@ Mining Materials Manager,3000,30000
 Mintaka,5100,4500
 Mischievous Meteorite Miner,1500,16000
 Mischievous Wereminer,2000,25000
-Miser,5000,3000
-Missile Toe,7000,30000
+Miser,5000,10000
+Missile Toe,2000,4600
 Mist Maker,30000,200000
 Mlounder Flounder,6300,18000
 Mobster,10,10
@@ -591,9 +592,9 @@ Mouldy Mole,600,20000
 Mountain,1500,3000
 Mousataur Priestess,8000,35000
 Mouse of Elements,2500,65000
-Mouse of Winter Future,5000,10000
-Mouse of Winter Past,5000,10000
-Mouse of Winter Present,5000,10000
+Mouse of Winter Future,1250,5500
+Mouse of Winter Past,2250,3500
+Mouse of Winter Present,1750,4500
 Mouse With No Name,11500,8500
 Mousevina von Vermin,9000,5000
 Moussile,900,3000
@@ -626,14 +627,14 @@ Nachore Golem,7000,30000
 "Nachous, The Molten",35000,90000
 Narrator,600,900
 Naturalist,21000,85000
-Naughty Nougat,10000,30000
+Naughty Nougat,4000,20000
 Necromancer,4000,17000
 Nefarious Nautilus,13000,62000
 Nerg Chieftain,9400,12545
 Nerg Lich,10340,40144
 New Year's,200,9200
 Nibbler,1400,1100
-Nice Knitting,6000,6000
+Nice Knitting,1000,2100
 Night Shift Materials Manager,2000,25000
 Night Watcher,3000,30000
 Nightfire,900,12000
@@ -645,20 +646,20 @@ Nightshade Masquerade,8000,45000
 Nightshade Nanny,7200,56800
 Nimbomancer,25000,78000
 Ninja,2750,2750
-Nitro Racer,7000,30000
+Nitro Racer,5000,16000
 Nomad,5000,3400
 Nomadic Warrior,11250,73000
 Nugget,550,6875
-Nutcracker,2000,18000
+Nutcracker,3000,15000
 Octomermaid,2700,34200
 Old One,2825,36500
 Old Spice Collector,2500,22000
-Ol' King Coal,20000,50000
+"Ol' King Coal",20000,50000
 One-Mouse Band,2000,62000
 Onion Chopper,5000,5000
 Ooze,5400,5500
 Ore Chipper,3800,10000
-Ornament,2000,18000
+Ornament,12000,20000
 Outbreak Assassin,10000,95000
 Outlaw,10000,9500
 Over-Prepared,500,4000
@@ -735,7 +736,7 @@ Radioactive Ooze,1100,47000
 Rain Collector,2500,42000
 Rain Summoner,5000,48000
 Rain Wallower,3500,40000
-Rainbow Racer,4745,21340
+Rainbow Racer,8000,30000
 Rainmancer,7500,80000
 Rainwater Purifier,2250,32000
 Rambunctious Rain Rumbler,9000,60000
@@ -752,15 +753,15 @@ Red Coat Bear,7500,47500
 Red Envelope,888,888
 Red-Eyed Watcher Owl,11500,71500
 Regal Spearman,21000,210000
-Reinbo,1000,15000
+Reinbo,1165,11000
 Relic Hunter,935,650
 Renegade,7350,550
 Retired Minotaur,1000000,1000000
 Reveling Lycanthrope,1500,18000
 Revenant,8000,55000
-Ribbon,900,5000
+Ribbon,750,990
 Richard the Rich,50415,183340
-Ridiculous Sweater,5000,17500
+Ridiculous Sweater,1200,8000
 Rift Bio Engineer,3300,27750
 Rift Guardian,4000,34000
 Rift Tiger,9200,66250
@@ -778,7 +779,7 @@ RR-8,4988,32500
 Rubble Rouser,8000,35000
 Rubble Rummager,4500,12000
 Ruffian,1250,7500
-S.N.O.W. Golem,18000,60000
+S.N.O.W. Golem,5000,25000
 Saboteur,850,12225
 Sacred Shrine,9000,19500
 Saloon Gal,1200,3750
@@ -804,7 +805,7 @@ Scorned Pirate,5750,10000
 Scout,110,1190
 Scrap Metal Monster,4200,36000
 Scribe,9000,14000
-Scrooge,2840,470
+Scrooge,2700,6840
 Scruffy,400,250
 Seadragon,2250,24300
 Seasoned Islandographer,10000,100000
@@ -828,7 +829,7 @@ Shinobi,1200,48000
 Shipwrecked,90,2100
 Shopkeeper,4500,4500
 Shortcut,3100,5500
-Shorts-All-Year,9000,30000
+Shorts-All-Year,5000,10000
 Shroom,2650,12500
 Silth,15200,25450
 Silvertail,1800,1200
@@ -848,7 +849,7 @@ Sky Squire,30000,200000
 Sky Surfer,12150,90000
 Sky Swordsman,12150,90000
 Skydiver,1500,37600
-Slay Ride,7000,30000
+Slay Ride,1500,14000
 Slayer,4200,10455
 Sleepwalker,2000,1700
 Sleepy Merchant,5000,25000
@@ -861,21 +862,21 @@ Sludge Swimmer,10000,120000
 Smoldersnap,5000,40000
 Snake Charmer,600,4200
 Snooty,10,10
-Snow Boulder,900,7000
+Snow Boulder,1000,10000
 Snow Bowler,3845,11650
-Snow Fort,2800,24000
-Snow Golem Architect,5000,20000
-Snow Golem Jockey,3000,10000
-Snow Scavenger,1200,4500
+Snow Fort,1000,5000
+Snow Golem Architect,5000,18000
+Snow Golem Jockey,2500,10000
+Snow Scavenger,2000,6000
 Snow Slinger,2450,7825
 Snow Sniper,550,9255
 Snow Soldier,1200,3995
-Snow Sorceress,3000,16000
-Snowball Hoarder,500,9500
+Snow Sorceress,2000,12000
+Snowball Hoarder,1200,12000
 Snowblind,850,8835
-Snowblower,200,6775
-Snowflake,3000,5000
-Snowglobe,2000,12600
+Snowblower,150,1200
+Snowflake,5000,30000
+Snowglobe,900,900
 Sock Puppet Ghost,210,225
 Soldier of the Shade,8000,150000
 Solemn Soldier,7700,40000
@@ -909,7 +910,7 @@ Spore,1500,12000
 Spore Muncher,575,18000
 Spore Salesman,900,18000
 Sporeticus,500,12000
-Sporty Ski Instructor,2000,12600
+Sporty Ski Instructor,2000,16000
 Spotted,175,175
 Spring Familiar,760,9072
 Spring Sprig,2350,3300
@@ -919,7 +920,7 @@ Spry Sky Seer,12500,92000
 Spud,500,300
 Squeaken,3456,5528
 Squeaker Bot,650,400
-Squeaker Claws,4745,21340
+Squeaker Claws,9000,22000
 Stack of Thieves,12500,95000
 Stagecoach Driver,8000,11000
 Stalagmite,3000,62500
@@ -931,7 +932,7 @@ Steel Horse Rider,12000,9000
 Stickybomber,725,6850
 Stinger,4620,13800
 Stingray,1990,31700
-Stocking,4745,21340
+Stocking,9000,28000
 Stone Cutter,1800,4360
 Stone Maiden,5000,45000
 Stonework Warrior,4510,24670
@@ -940,7 +941,7 @@ Stoutgear,8500,7000
 Stowaway,2000,4000
 Stratocaster,10250,102000
 Strawberry Hotcakes,1950,14500
-Stuck Snowball,650,2000
+Stuck Snowball,1000,1500
 Student of the Cheese Belt,450,6250
 Student of the Cheese Claw,450,6250
 Student of the Cheese Fang,450,6250
@@ -1009,7 +1010,7 @@ Tiny Dragonfly,26000,85000
 Tiny Saboteur,900,8500
 Tiny Toppler,2000,16000
 Titanic Brain-Taker,6000,32500
-Toboggan Technician,700,3165
+Toboggan Technician,3000,8000
 Tomb Exhumer,6500,50000
 Tome Sprite,1800,14000
 Tonic Salesman,8750,3000
@@ -1017,9 +1018,9 @@ Totally Not Bitter,450,1850
 Toxic Avenger,1850,48000
 Toxic Warrior,7000,90000
 Toxikinetic,900,47500
-Toy,700,3165
+Toy,1000,4990
 Toy Sylvan,100,115
-Toy Tinkerer,900,5000
+Toy Tinkerer,1830,5000
 Trailblazer,880,790
 Train Conductor,3500,6000
 Train Engineer,4500,8000
@@ -1036,11 +1037,11 @@ Tree Troll,9225,65750
 Tri-dra,28500,175000
 Trick,4000,8400
 Tricky Witch,1000,4250
-Triple Lutz,750,600
+Triple Lutz,750,990
 Tritus,96100,300000
 Troll,8190,8190
 Tumbleweed,900,3250
-Tundra Huntress,5780,32000
+Tundra Huntress,15000,32000
 Turret Guard,2825,36500
 Twisted Carmine,6525,85250
 Twisted Fiend,1100,10500
@@ -1098,9 +1099,9 @@ Wordsmith,800,720
 Worker,2200,300
 Worried Wayfinder,25000,78000
 Wound Up White,100,70
-Wreath Thief,3000,19000
+Wreath Thief,1000,8750
 Yeti,1245,12350
-Young Prodigy Racer,900,5000
+Young Prodigy Racer,900,3000
 Zephyr,1000,5900
 Zombie,1900,2000
 Zombot Unipire,750,1750
