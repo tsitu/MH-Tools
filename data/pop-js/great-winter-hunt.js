@@ -170,6 +170,7 @@ module.exports = {
     data.push({
       stage: "Boss",
       location: "Ice Fortress",
+      cheese: "SB+",
       mouse: "Frost King",
       attraction: "100.00%",
       sample: 1
