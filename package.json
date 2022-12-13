@@ -21,6 +21,7 @@
     "pop:furoma": "node data/pop furoma-rift > data/pop-csv/furoma-rift.csv",
     "!pop:ges": "node data/pop ges > data/pop-csv/ges.csv",
     "pop:geyser": "node data/pop queso-geyser > data/pop-csv/queso-geyser.csv",
+    "pop:gwh": "node data/pop great-winter-hunt > data/pop-csv/great-winter-hunt.csv",
     "pop:harbour": "node data/pop harbour > data/pop-csv/harbour.csv",
     "pop:lab": "node data/pop laboratory > data/pop-csv/laboratory.csv",
     "!pop:laby": "node data/pop labyrinth > data/pop-csv/labyrinth.csv",
