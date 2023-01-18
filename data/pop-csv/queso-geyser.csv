@@ -1,0 +1,84 @@
+"Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
+"Queso Geyser","Cork Collecting","Bland Queso","-","100.00%","Fuzzy Drake",11226
+"Queso Geyser","Cork Collecting","Mild Queso","-","75.12%","Cork Defender",38790
+"Queso Geyser","Cork Collecting","Mild Queso","-","24.88%","Fuzzy Drake",38790
+"Queso Geyser","Cork Collecting","Medium Queso","-","72.31%","Burly Bruiser",31631
+"Queso Geyser","Cork Collecting","Medium Queso","-","23.19%","Cork Defender",31631
+"Queso Geyser","Cork Collecting","Medium Queso","-","3.72%","Fuzzy Drake",31631
+"Queso Geyser","Cork Collecting","Medium Queso","-","0.78%","Corky, the Collector",31631
+"Queso Geyser","Cork Collecting","Hot Queso","-","75.24%","Horned Cork Hoarder",25922
+"Queso Geyser","Cork Collecting","Hot Queso","-","16.00%","Burly Bruiser",25922
+"Queso Geyser","Cork Collecting","Hot Queso","-","4.85%","Cork Defender",25922
+"Queso Geyser","Cork Collecting","Hot Queso","-","2.87%","Corky, the Collector",25922
+"Queso Geyser","Cork Collecting","Hot Queso","-","1.05%","Fuzzy Drake",25922
+"Queso Geyser","Cork Collecting","Flamin' Queso","-","75.02%","Rambunctious Rain Rumbler",49078
+"Queso Geyser","Cork Collecting","Flamin' Queso","-","15.00%","Horned Cork Hoarder",49078
+"Queso Geyser","Cork Collecting","Flamin' Queso","-","7.00%","Corky, the Collector",49078
+"Queso Geyser","Cork Collecting","Flamin' Queso","-","1.93%","Burly Bruiser",49078
+"Queso Geyser","Cork Collecting","Flamin' Queso","-","1.05%","Cork Defender",49078
+"Queso Geyser","Cork Collecting","Wildfire Queso","-","100.00%","Corkataur",6812
+"Queso Geyser","Pressure Building","Mild Queso","-","100.00%","Steam Sailor",19700
+"Queso Geyser","Pressure Building","Medium Queso","-","84.99%","Warming Wyvern",47289
+"Queso Geyser","Pressure Building","Medium Queso","-","15.01%","Steam Sailor",47289
+"Queso Geyser","Pressure Building","Hot Queso","-","85.17%","Vaporior",68356
+"Queso Geyser","Pressure Building","Hot Queso","-","9.80%","Warming Wyvern",68356
+"Queso Geyser","Pressure Building","Hot Queso","-","5.03%","Steam Sailor",68356
+"Queso Geyser","Pressure Building","Flamin' Queso","-","90.23%","Pyrehyde",36261
+"Queso Geyser","Pressure Building","Flamin' Queso","-","4.94%","Vaporior",36261
+"Queso Geyser","Pressure Building","Flamin' Queso","-","2.92%","Warming Wyvern",36261
+"Queso Geyser","Pressure Building","Flamin' Queso","-","1.91%","Steam Sailor",36261
+"Queso Geyser","Pressure Building","Wildfire Queso","-","100.00%","Emberstone Scaled",12060
+"Queso Geyser","Tiny Eruption","Mild Queso","-","100.00%","Mild Spicekin",361
+"Queso Geyser","Small Eruption","Mild Queso","-","50.62%","Mild Spicekin",27965
+"Queso Geyser","Small Eruption","Mild Queso","-","49.38%","Sizzle Pup",27965
+"Queso Geyser","Small Eruption","Medium Queso","-","54.12%","Sizzle Pup",19027
+"Queso Geyser","Small Eruption","Medium Queso","-","25.89%","Smoldersnap",19027
+"Queso Geyser","Small Eruption","Medium Queso","-","19.99%","Mild Spicekin",19027
+"Queso Geyser","Small Eruption","Hot Queso","-","59.46%","Sizzle Pup",10711
+"Queso Geyser","Small Eruption","Hot Queso","-","25.52%","Ignatia",10711
+"Queso Geyser","Small Eruption","Hot Queso","-","9.98%","Smoldersnap",10711
+"Queso Geyser","Small Eruption","Hot Queso","-","5.04%","Mild Spicekin",10711
+"Queso Geyser","Small Eruption","Flamin' Queso","-","68.59%","Sizzle Pup",2977
+"Queso Geyser","Small Eruption","Flamin' Queso","-","26.74%","Bruticus, the Blazing",2977
+"Queso Geyser","Small Eruption","Flamin' Queso","-","2.82%","Ignatia",2977
+"Queso Geyser","Small Eruption","Flamin' Queso","-","1.85%","Smoldersnap",2977
+"Queso Geyser","Medium Eruption","Mild Queso","-","84.94%","Mild Spicekin",4038
+"Queso Geyser","Medium Eruption","Mild Queso","-","15.06%","Bearded Elder",4038
+"Queso Geyser","Medium Eruption","Medium Queso","-","49.76%","Bearded Elder",69715
+"Queso Geyser","Medium Eruption","Medium Queso","-","35.45%","Smoldersnap",69715
+"Queso Geyser","Medium Eruption","Medium Queso","-","14.79%","Mild Spicekin",69715
+"Queso Geyser","Medium Eruption","Hot Queso","-","49.35%","Bearded Elder",70509
+"Queso Geyser","Medium Eruption","Hot Queso","-","35.86%","Ignatia",70509
+"Queso Geyser","Medium Eruption","Hot Queso","-","9.79%","Smoldersnap",70509
+"Queso Geyser","Medium Eruption","Hot Queso","-","5.01%","Mild Spicekin",70509
+"Queso Geyser","Medium Eruption","Flamin' Queso","-","69.05%","Bearded Elder",14695
+"Queso Geyser","Medium Eruption","Flamin' Queso","-","25.86%","Bruticus, the Blazing",14695
+"Queso Geyser","Medium Eruption","Flamin' Queso","-","3.10%","Ignatia",14695
+"Queso Geyser","Medium Eruption","Flamin' Queso","-","1.99%","Smoldersnap",14695
+"Queso Geyser","Large Eruption","Mild Queso","-","95.03%","Mild Spicekin",1288
+"Queso Geyser","Large Eruption","Mild Queso","-","4.97%","Cinderstorm",1288
+"Queso Geyser","Large Eruption","Medium Queso","-","49.91%","Smoldersnap",5163
+"Queso Geyser","Large Eruption","Medium Queso","-","39.88%","Mild Spicekin",5163
+"Queso Geyser","Large Eruption","Medium Queso","-","10.21%","Cinderstorm",5163
+"Queso Geyser","Large Eruption","Hot Queso","-","49.35%","Cinderstorm",92201
+"Queso Geyser","Large Eruption","Hot Queso","-","35.80%","Ignatia",92201
+"Queso Geyser","Large Eruption","Hot Queso","-","9.99%","Smoldersnap",92201
+"Queso Geyser","Large Eruption","Hot Queso","-","4.86%","Mild Spicekin",92201
+"Queso Geyser","Large Eruption","Flamin' Queso","-","69.64%","Cinderstorm",99393
+"Queso Geyser","Large Eruption","Flamin' Queso","-","25.37%","Bruticus, the Blazing",99393
+"Queso Geyser","Large Eruption","Flamin' Queso","-","3.02%","Ignatia",99393
+"Queso Geyser","Large Eruption","Flamin' Queso","-","1.98%","Smoldersnap",99393
+"Queso Geyser","Epic Eruption","Mild Queso","-","98.25%","Mild Spicekin",399
+"Queso Geyser","Epic Eruption","Mild Queso","-","1.75%","Stormsurge, the Vile Tempest",399
+"Queso Geyser","Epic Eruption","Medium Queso","-","52.30%","Smoldersnap",1172
+"Queso Geyser","Epic Eruption","Medium Queso","-","42.58%","Mild Spicekin",1172
+"Queso Geyser","Epic Eruption","Medium Queso","-","5.12%","Stormsurge, the Vile Tempest",1172
+"Queso Geyser","Epic Eruption","Hot Queso","-","65.30%","Ignatia",4692
+"Queso Geyser","Epic Eruption","Hot Queso","-","20.67%","Stormsurge, the Vile Tempest",4692
+"Queso Geyser","Epic Eruption","Hot Queso","-","9.55%","Smoldersnap",4692
+"Queso Geyser","Epic Eruption","Hot Queso","-","4.48%","Mild Spicekin",4692
+"Queso Geyser","Epic Eruption","Flamin' Queso","-","74.65%","Stormsurge, the Vile Tempest",55333
+"Queso Geyser","Epic Eruption","Flamin' Queso","-","22.51%","Bruticus, the Blazing",55333
+"Queso Geyser","Epic Eruption","Flamin' Queso","-","1.92%","Ignatia",55333
+"Queso Geyser","Epic Eruption","Flamin' Queso","-","0.92%","Smoldersnap",55333
+"Queso Geyser","Epic Eruption","Wildfire Queso","-","100.00%","Kalor'ignis of the Geyser",189403

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Crown Solver</title>
+  <meta property="og:site_name" content="MH Tools by tsitu">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://tsitu.github.io/MH-Tools/crown.html">
+  <meta property="og:title" content="Crown Solver">
+  <meta property="og:description" content="Calculates the best locations to achieve crowns of given mouse breeds based on number of catches">
+  <meta property="og:image" content="https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@30fb31004ae976aaf29652c435629dcca926d169/lib/img/cheese.jpg">
+  <meta property="og:image:secure_url" content="https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@30fb31004ae976aaf29652c435629dcca926d169/lib/img/cheese.jpg">  
+  <meta content="utf-8" http-equiv="encoding">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/js/jquery.a-tools.js"></script>
+  <script type="text/javascript" src="lib/js/jquery.asuggest.js"></script>
+  <script type="text/javascript" src="lib/js/js-cookie.js"></script>
+  <script type="text/javascript" src="lib/js/jquery.tablesorter.combined.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="lib/js/jquery-ui.touch-punch.min.js"></script>
+  <script type="text/javascript" src="data/arrays.js"></script>
+  <script type="text/javascript" src="data/cheese-attraction.js"></script>
+  <script type="text/javascript" src="src/utils/bookmarklets.js"></script>
+  <script type="text/javascript" src="src/main/get-data.js"></script>
+  <script type="text/javascript" src="src/main/shared-map-crown.js"></script>
+  <link rel="stylesheet" href="lib/css/style.css" type="text/css" media="print, projection, screen" />
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" type="text/css"
+    media="print, projection, screen" />
+  <link rel="icon" type="image/x-icon" href="lib/img/favicon.ico">
+
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Verdana;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    h1 {
+      font-size: 24px;
+      padding-bottom: 10px;
+    }
+
+    .container {
+      margin: 0 auto;
+      padding: 20px;
+      position: absolute;
+      width: auto;
+    }
+
+    .invalid {
+      color: red;
+    }
+
+    .ml-tip .title {
+      top: 10px;
+      background: azure;
+    }
+
+    #interpretedAs {
+      width: 150px;
+      max-height: 382px;
+      font-size: 14px;
+      word-wrap: break-word;
+      overflow: auto;
+    }
+
+    #map {
+      resize: none;
+    }
+
+    #ampSlider {
+      width: 300px;
+    }
+
+    #main {
+      float: left;
+      width: 500px;
+    }
+
+    #location {
+      float: left;
+      width: 500px;
+    }
+
+    #mouselistcontainer {
+      clear: both;
+      padding-top: 2ex;
+    }
+  </style>
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-61581935-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Attraction slider -->
+  <script>
+    var sliderDelay;
+
+    $(function() {
+      $("#ampSlider").slider({
+        range: "min",
+        min: 0,
+        max: 100,
+        step: 1,
+        slide: function(event, ui) {
+          if (event.originalEvent) {
+            refreshSlider(ui);
+          }
+          else {
+            var myColor = getColor(attractionBonus);
+            $("#ampSlider .ui-slider-range").css("background-color", myColor);
+            $("#ampSlider .ui-state-default, .ui-widget-content .ui-state-default").css("background-color", myColor);
+            $("#ampText").text("Attraction Bonus: " + attractionBonus + "%");
+          }
+        },
+        change: function(event, ui) {
+          if (event.originalEvent) {
+            refreshSlider(ui);
+          }
+          else {
+            var myColor = getColor(attractionBonus);
+            $("#ampSlider .ui-slider-range").css("background-color", myColor);
+            $("#ampSlider .ui-state-default, .ui-widget-content .ui-state-default").css("background-color", myColor);
+            $("#ampText").text("Attraction Bonus: " + attractionBonus + "%");
+          }
+        }
+      });
+      $(".ui-widget-header").css("background", "initial");
+    });
+
+    function getColor(colorVal) {
+      var theColor = "";
+      if (colorVal < 50) {
+        myRed = 255;
+        myGreen = parseInt(((colorVal * 2) * 255) / 100);
+      }
+      else {
+        myRed = parseInt(((100 - colorVal) * 2) * 255 / 100);
+        myGreen = 255;
+      }
+      theColor = "rgb(" + myRed + "," + myGreen + ",0)";
+      return (theColor);
+    }
+
+    function refreshSlider(ui) {
+      clearTimeout(sliderDelay);
+      var ampSlider = ui.value;
+      var myColor = getColor(ampSlider);
+      $("#ampSlider .ui-slider-range").css("background-color", myColor);
+      $("#ampSlider .ui-state-default, .ui-widget-content .ui-state-default").css("background-color", myColor);
+      $("#ampText").text("Attraction Bonus: " + ampSlider + "%");
+      attractionBonus = parseInt(ampSlider);
+      var mapText = document.getElementById("map").value;
+      Cookies.set('savedAttraction', attractionBonus, {
+        expires: 30
+      });
+      sliderDelay = setTimeout(function() { processMap(mapText); }, 500);
+    }
+  </script>
+
+  <!-- Main Script -->
+  <script>
+    window.onload = function() {
+      initPageLoad("crown");
+    };
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <a href="index.html">
+      <- All Tools</a> <br>
+        <br>
+        <h1>Crown Solver</h1>
+
+        <div id="main">
+          <a href="https://github.com/tsitu/MH-Tools/blob/master/README.md#crown-crown-solver" target="_blank" rel="noopener">Instructions</a>
+          |
+          <a id="bookmarkletloader" href="#">Auto-Loader</a> <span id="bookmarkletloaderCopy" style="cursor: pointer">📋</span> |
+          <a id="bookmarklet" href="#">Crown</a> <span id="bookmarkletCopy" style="cursor: pointer">📋</span>
+          <table>
+            <tr>
+              <td>
+                <br>Best Locations (rows)
+                <br>
+                <form action="">
+                  <table>
+                    <tr>
+                      <td>
+                        <input id="row0" type="radio" name="rowLimit" value="0" checked> &infin;
+                        <br>
+                        <input id="row5" type="radio" name="rowLimit" value="5"> 5
+                        <br>
+                        <input id="row10" type="radio" name="rowLimit" value="10"> 10
+                        <br>
+                      </td>
+                      <td>
+                        <input id="row25" type="radio" name="rowLimit" value="25"> 25
+                        <br>
+                        <input id="row50" type="radio" name="rowLimit" value="50"> 50
+                        <br>
+                        <input id="row100" type="radio" name="rowLimit" value="100"> 100
+                        <br>
+                      </td>
+                    </tr>
+                  </table>
+                </form>
+                <br> Mouse List (columns)
+                <br>
+                <form action="">
+                  <table>
+                    <tr>
+                      <td>
+                        <input id="col0" type="radio" name="colLimit" value="0" checked> &infin;
+                        <br>
+                        <input id="col5" type="radio" name="colLimit" value="5"> 5
+                        <br>
+                        <input id="col10" type="radio" name="colLimit" value="10"> 10
+                        <br>
+                      </td>
+                      <td>
+                        <input id="col25" type="radio" name="colLimit" value="25"> 25
+                        <br>
+                        <input id="col50" type="radio" name="colLimit" value="50"> 50
+                        <br>
+                        <input id="col100" type="radio" name="colLimit" value="100"> 100
+                        <br>
+                      </td>
+                    </tr>
+                  </table>
+                </form>
+              </td>
+
+              <td></td>
+
+              <td>
+                <form>
+                  <fieldset style="padding: 5px">
+                    <legend style="text-align: center">Cheese Filters</legend>
+                    <input type="checkbox" class="cheese-filter" name="magicEssence">&nbsp;Magic Essence</input><br>
+                    <input type="checkbox" class="cheese-filter" name="common">&nbsp;Common</input><br>
+                    <input type="checkbox" class="cheese-filter" name="crafted">&nbsp;Crafted</input><br>
+                    <input type="checkbox" class="cheese-filter" name="marketplace">&nbsp;Marketplace</input><br>
+                    <input type="checkbox" class="cheese-filter" name="shoppe">&nbsp;Shoppe</input><br>
+                    <input type="checkbox" class="cheese-filter" name="eventLoc">&nbsp;Event Locations</input><br><br>
+                    <button type="button" id="clearFilter">Reset</button><br><br>
+                    <textarea id="combinedFilter" placeholder="Terms to filter out" cols="20" rows="4" style="resize: none; margin: 0 0 0 4px"
+                      readonly></textarea>
+                    <br>
+                  </fieldset>
+                </form>
+              </td>
+            </tr>
+          </table>
+
+          <div>
+            <em>Unique Mice Remaining</em>:
+            <span id="remainValue">0</span>&nbsp;&nbsp;
+            <button id="resetMouseList">Reset List</button>
+          </div>
+          <br>
+
+          <div id="ampText">
+            Attraction Bonus: 0%
+          </div>
+
+          <div id="ampSlider"></div>
+          <br>
+
+          <table>
+            <tr>
+              <td>
+                <div style="text-align: center">
+                  Autocomplete Off (requires refresh)&nbsp;<input type="checkbox" id="toggleAutocomplete"></input><br>
+                </div>
+                <textarea id="map" rows="25" cols="40" style="padding: 3px 0 0 5px"></textarea>
+              </td>
+
+              <td style="vertical-align: top">
+                <div id="interpretedAs" style="display: none">
+                  <b>Invalid:</b>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div id="location">
+          <h2>Best Locations</h2>
+          <br>
+          <p>
+            <a href="#mouselistcontainer">Mouse List</a>
+          </p>
+          <table id='bestLocation' class='tablesorter'>
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+          <br>
+        </div>
+
+        <div id="mouselistcontainer">
+          <h2>Mouse List</h2>
+          <br>
+          <p>
+            <a href="#location">Best Locations</a>
+          </p>
+          <table id='mouseList' cellpadding='5' class='tablesorter'>
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+  </div>
+</body>
+
+</html>
