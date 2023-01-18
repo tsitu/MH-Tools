@@ -505,6 +505,7 @@ var basesArray = {
   "Polluted Base": [500, 10, 0, 5, "Stale"],
   "Prestige Base": [490, 20, 0, 5, "No Effect"],
   "Queso Cannonstorm Base": [1000, 25, 0, 8, "Very Stale"],
+  "Rabbit Jade Base": [350, 10, 20, 10, "Fresh"],
   "Rat Jade Base": [375, 12, 10, 10, "Stale"],
   "Refined Pollutinum Base": [500, 12, 5, 10, "No Effect"],
   "Remote Detonator Base": [300, 10, 10, 4, "Stale"],
