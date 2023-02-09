@@ -611,7 +611,7 @@ function minLuck(effectiveness, mousePower) {
 
   // If, due to floating-point errors, the candidate minluck is not
   // actually enough, add one. (This is described further in the README.)
-  if calcCR(effectiveness, 0, candidateMinluck, mousePower) < 1 {
+  if (calcCR(effectiveness, 0, candidateMinluck, mousePower) < 1) {
     return candidateMinluck + 1
   }
   return candidateMinluck
