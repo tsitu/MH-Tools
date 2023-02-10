@@ -303,6 +303,14 @@ function showPop(type) {
           mousePower /= 2;
         }
 
+        if (
+          ((mouseName === "Nightmancer" && fortRox.ballistaLevel >= 3) ||
+           (mouseName === "Nightfire" && fortRox.cannonLevel >= 3)
+          ) &&
+          (eff > 0)) {
+          mousePower = 0;
+        }
+
         var catchRate = calcCR(eff, trapPower, trapLuck, mousePower);
         catchRate = calcCREffects(catchRate, mouseName, eff, mousePower);
         catchRate = calcCRMods(catchRate, mouseName);
