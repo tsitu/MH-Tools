@@ -903,6 +903,7 @@ var charmsArray = {
   "Rift Extreme Snowball Charm": [400, 4, 4, 8, "No Effect"],
   "Rift Luck Charm": [0, 0, 0, 1, "No Effect"],
   "Rift Power Charm": [500, 5, 0, 0, "No Effect"],
+  "Rift Rainbow Spore Charm": [3000, 25, 25, 25, "No Effect"],
   "Rift Snowball Charm": [100, 1, 1, 2, "No Effect"],
   "Rift Spooky Charm": [500, 5, 0, 2, "No Effect"],
   "Rift Super Luck Charm": [0, 0, 0, 3, "No Effect"],
