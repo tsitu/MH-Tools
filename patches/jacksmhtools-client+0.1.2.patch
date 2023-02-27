@@ -1,0 +1,12 @@
+diff --git a/node_modules/jacksmhtools-client/src/request.js b/node_modules/jacksmhtools-client/src/request.js
+index 98150c1..6d3fe95 100644
+--- a/node_modules/jacksmhtools-client/src/request.js
++++ b/node_modules/jacksmhtools-client/src/request.js
+@@ -1,6 +1,6 @@
+ var _ = require('lodash')
+ var debug = require('debug')('jm:request')
+-var mysql = require('mysql')
++var mysql = require('mysql2')
+ var Promise = require('bluebird')
+ 
+ var DEFAULTS = {
