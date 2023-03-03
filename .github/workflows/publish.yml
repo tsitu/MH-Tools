@@ -1,0 +1,76 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  pull_request_target:
+  workflow_dispatch:
+  workflow_call:
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+
+    - name: Checkout PR
+      if: ${{ github.event_name == 'pull_request_target' }}
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ github.event.pull_request.head.ref }}
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+    - name: Checkout
+      if: ${{ github.event_name != 'pull_request_target' }}
+      uses: actions/checkout@v3
+      with:
+        ref: master
+    
+    - name: Setup Pages
+      uses: actions/configure-pages@v1
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: npm
+    - name: Update npm to latest
+      run: npm i --prefer-online --no-fund --no-audit -g npm@latest
+    - run: npm -v
+    - run: npm i --ignore-scripts --no-audit --no-fund --package-lock
+
+    - run: npm run puppeteer
+    - run: npm run build
+    - run: npm run timestamp
+    - run: npm run sample
+    - run: ./build/deploy.sh
+  
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: './out' 
+   
+  deploy:
+    if: ${{ github.event_name != 'pull_request_target' && contains(fromJSON('["refs/heads/master", "refs/heads/main"]'), github.ref) }}
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    outputs:
+      deployment_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+        # internal-only alpha, not available yet: https://github.com/actions/deploy-pages/pull/61
+        # with:
+        #   preview: ${{ github.event_name == 'pull_request_target' }}
