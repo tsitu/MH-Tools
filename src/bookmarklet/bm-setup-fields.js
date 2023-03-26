@@ -84,7 +84,7 @@
           stage_five: "First Light"
         };
         return stages[stage];
-    } else if (fortRoxQuest["is_lair"]) {
+      } else if (fortRoxQuest["is_lair"]) {
         return "Heart of the Meteor";
       } else {
         return tmpPhase;
@@ -168,21 +168,21 @@
       // TODO: storm.level for 100/99 - medium or high? (likely former)
       // TODO: storm.level for wind & rain both low (< 35%)
       switch (stormLevel) {
-        case "high":
-          stormLevel = "max";
-          break;
-        case "medium":
-          stormLevel = "high";
-          break;
-        case "low":
-          if (
-            elements[RAIN_KEY]["percent"] >= 35 &&
+      case "high":
+        stormLevel = "max";
+        break;
+      case "medium":
+        stormLevel = "high";
+        break;
+      case "low":
+        if (
+          elements[RAIN_KEY]["percent"] >= 35 &&
             elements[WIND_KEY]["percent"] >= 35
-          ) {
-            stormLevel = "medium";
-          }
-          break;
-        default:
+        ) {
+          stormLevel = "medium";
+        }
+        break;
+      default:
       }
 
       if (stormLevel !== "none") {
@@ -421,23 +421,23 @@
         return (fi["is_vault_island"] ? "Vault " : "Island ") + piratesNum === 0 ? "No Pirates" : "Pirates x" + piratesNum;
       } else if ((userCheese === "Cloud Cheesecake" || userCheese === "Extra Rich Cloud Cheesecake") &&
                   fi["activated_island_mod_types"].filter(i => i === "loot_cache").length >= 2) {
-        fiStage += ` - Loot x${fi["activated_island_mod_types"].filter(i => i === "loot_cache").length}`
+        fiStage += ` - Loot x${fi["activated_island_mod_types"].filter(i => i === "loot_cache").length}`;
       } else if (fi["is_vault_island"] && Array.isArray(fi["activated_island_mod_types"])) {
         const panels = {};
         fi["activated_island_mod_types"].forEach(t => t in panels ? panels[t]++ : panels[t] = 1);
         let counter = 0;
-        let mod_type = '';
+        let mod_type = "";
         for (const [type, num] of Object.entries(panels)) {
-            if (num >= 3) {
-                counter = num;
-                mod_type = fi["island_mod_panels"].filter(p => p.type === type)[0].name;
-            }
+          if (num >= 3) {
+            counter = num;
+            mod_type = fi["island_mod_panels"].filter(p => p.type === type)[0].name;
+          }
         }
         if (counter && mod_type) {
           fiStage += ` ${counter}x ${mod_type}`;
         }
       }
-      return fiStage
+      return fiStage;
     } else if (userLocation === "Table of Contents") {
       var toc = userQuests["QuestTableOfContents"];
       if (toc["is_writing"]) {
@@ -648,27 +648,27 @@
         var urlArr = [0, 0, 0, 0, 0];
         for (var el of arr) {
           switch (el["power_type"]) {
-            case "Arcane":
-            case "arcn":
-              urlArr[0] = el["golem_guardian_charge_percentage"] || 0;
-              break;
-            case "Forgotten":
-            case "frgttn":
-              urlArr[1] = el["golem_guardian_charge_percentage"] || 0;
-              break;
-            case "Hydro":
-            case "hdr":
-              urlArr[2] = el["golem_guardian_charge_percentage"] || 0;
-              break;
-            case "Physical":
-            case "phscl":
-              urlArr[3] = el["golem_guardian_charge_percentage"] || 0;
-              break;
-            case "Tactical":
-            case "tctcl":
-              urlArr[4] = el["golem_guardian_charge_percentage"] || 0;
-              break;
-            default:
+          case "Arcane":
+          case "arcn":
+            urlArr[0] = el["golem_guardian_charge_percentage"] || 0;
+            break;
+          case "Forgotten":
+          case "frgttn":
+            urlArr[1] = el["golem_guardian_charge_percentage"] || 0;
+            break;
+          case "Hydro":
+          case "hdr":
+            urlArr[2] = el["golem_guardian_charge_percentage"] || 0;
+            break;
+          case "Physical":
+          case "phscl":
+            urlArr[3] = el["golem_guardian_charge_percentage"] || 0;
+            break;
+          case "Tactical":
+          case "tctcl":
+            urlArr[4] = el["golem_guardian_charge_percentage"] || 0;
+            break;
+          default:
           }
         }
 

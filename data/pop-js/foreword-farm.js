@@ -1,10 +1,10 @@
-const utils = require("../_utils")
+const utils = require("../_utils");
 
-const standardCheese = ['Gouda', 'SB+'];
+const standardCheese = ["Gouda", "SB+"];
 
 module.exports = {
   default: {
-    location: utils.genVarField('location', 'Foreword Farm'),
+    location: utils.genVarField("location", "Foreword Farm"),
   },
   series: [
     { 
@@ -13,10 +13,10 @@ module.exports = {
       config: [ {
         opts: {
           include: [
-            'Grit Grifter',
-            'Land Loafer',
-            'Root Rummager',
-            'Crazed Cultivator'
+            "Grit Grifter",
+            "Land Loafer",
+            "Root Rummager",
+            "Crazed Cultivator"
           ]
         }
       } ]
@@ -27,10 +27,10 @@ module.exports = {
       config: [ {
         opts: {
           include: [
-            'Angry Aphid',
-            'Grit Grifter',
-            'Root Rummager',
-            'Crazed Cultivator'
+            "Angry Aphid",
+            "Grit Grifter",
+            "Root Rummager",
+            "Crazed Cultivator"
           ]
         }
       } ]
@@ -41,10 +41,10 @@ module.exports = {
       config: [ {
         opts: {
           include: [
-            'Angry Aphid',
-            'Grit Grifter',
-            'Wily Weevil',
-            'Crazed Cultivator'
+            "Angry Aphid",
+            "Grit Grifter",
+            "Wily Weevil",
+            "Crazed Cultivator"
           ]
         }
       } ]
@@ -55,10 +55,10 @@ module.exports = {
       config: [ {
         opts: {
           include: [
-            'Angry Aphid',
-            'Mighty Mite',
-            'Wily Weevil',
-            'Crazed Cultivator'
+            "Angry Aphid",
+            "Mighty Mite",
+            "Wily Weevil",
+            "Crazed Cultivator"
           ]
         }
       } ]
@@ -69,11 +69,11 @@ module.exports = {
       config: [ {
         opts: {
           include: [
-            'Angry Aphid',
-            'Mighty Mite',
-            'Wily Weevil',
-            'Crazed Cultivator',
-            'Loathsome Locust'
+            "Angry Aphid",
+            "Mighty Mite",
+            "Wily Weevil",
+            "Crazed Cultivator",
+            "Loathsome Locust"
           ]
         }
       } ]
@@ -84,10 +84,10 @@ module.exports = {
       config: [ {
         opts: {
           include: [
-            'Monstrous Midge'
+            "Monstrous Midge"
           ]
         }
       } ]
     },
   ]
-}
+};

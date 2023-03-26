@@ -5,7 +5,7 @@ const string_cheeses = [
   "Swiss String",
   "Brie String",
   "Magical String"
-]
+];
 
 module.exports = {
   default: {

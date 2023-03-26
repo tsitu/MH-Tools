@@ -4,11 +4,11 @@ module.exports = {
   default: {
     location: utils.genVarField("location", "Town of Digby"),
     config: [
-        {
-            opts: {
-                exclude: ["Lucky", "Glitchpaw"]
-            }
+      {
+        opts: {
+          exclude: ["Lucky", "Glitchpaw"]
         }
+      }
     ]
   },
   series: [

@@ -766,13 +766,13 @@ function getLinkCell(selectedCharm, weaponName, baseName, headerHtml) {
 
   // prettier-ignore
   if (selectedCharm === "No Charm") {
-    cell += '<span style="float: right"><button onclick="weaponName=\''
+    cell += "<span style=\"float: right\"><button onclick=\"weaponName='"
     + weaponName.replace(/'/g, "\\'")
-    + '\';baseName=\''
+    + "';baseName='"
     + baseName.replace(/'/g, "\\'")
-    + '\';weaponChanged();baseChanged();printCharmCombinations(getPopulation(EMPTY_SELECTION), \''
+    + "';weaponChanged();baseChanged();printCharmCombinations(getPopulation(EMPTY_SELECTION), '"
     + headerHtml.replace(/'/g, "\\'")
-    + '\')">Find best charm</button></span>';
+    + "')\">Find best charm</button></span>";
   }
 
   return cell;

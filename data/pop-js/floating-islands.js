@@ -87,7 +87,7 @@ const palace_stage_mods = [
   "Empyrean Seal Stowage",
   "Ore and Glass Deposit",
   "Sky Pirate Den",
-]
+];
 
 const island_configurations = {
   Arcane: {
@@ -162,7 +162,7 @@ const island_configurations = {
       Palace: "Tactical Maze"
     },
   },
-}
+};
 
 var config = {
   default: {
@@ -288,13 +288,13 @@ function generatePalaceStages(stage) {
  * @returns {string[]}
  */
 function generateLootCacheStages(islandStages) {
-  var stages = []
+  var stages = [];
   for (let stage of [islandStages.Low, islandStages.High]) {
-    stages.push(`${stage} - Loot x2`)
+    stages.push(`${stage} - Loot x2`);
   }
 
   for (let i = 2; i <= 4; i++) {
-    stages.push(`${islandStages.Palace} - Loot x${i}`)
+    stages.push(`${islandStages.Palace} - Loot x${i}`);
   }
   return stages;
 }
@@ -323,7 +323,7 @@ function generateConfig() {
               },
             },
           ],
-        }
+        };
         config.series.push(series);
       }
     }
@@ -346,7 +346,7 @@ function generateConfig() {
           },
         },
       ],
-    }
+    };
     config.series.push(series);
   }
 

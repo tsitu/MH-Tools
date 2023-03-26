@@ -437,32 +437,32 @@ function calculateBounds(input, trapPower, trapType) {
       let lowerBound = 0;
       let upperBound = "∞";
       switch (input[group][mouse]["difficulty"]) {
-        case "Effortless":
-          upperBound = parseFloat((trapPower / 19).toFixed(2));
-          break;
-        case "Easy":
-          lowerBound = parseFloat((trapPower / 19).toFixed(2));
-          upperBound = parseFloat((trapPower / 9).toFixed(2));
-          break;
-        case "Moderate":
-          lowerBound = parseFloat((trapPower / 9).toFixed(2));
-          upperBound = parseFloat(((trapPower * 7) / 13).toFixed(2));
-          break;
-        case "Challenging":
-          lowerBound = parseFloat(((trapPower * 7) / 13).toFixed(2));
-          upperBound = parseFloat(trapPower.toFixed(2));
-          break;
-        case "Difficult":
-          lowerBound = parseFloat(trapPower.toFixed(2));
-          upperBound = parseFloat(((trapPower * 13) / 7).toFixed(2));
-          break;
-        case "Overpowering":
-          lowerBound = parseFloat(((trapPower * 13) / 7).toFixed(2));
-          upperBound = parseFloat((trapPower * 19).toFixed(2));
-          break;
-        case "Near Impossible":
-          lowerBound = parseFloat((trapPower * 19).toFixed(2));
-          break;
+      case "Effortless":
+        upperBound = parseFloat((trapPower / 19).toFixed(2));
+        break;
+      case "Easy":
+        lowerBound = parseFloat((trapPower / 19).toFixed(2));
+        upperBound = parseFloat((trapPower / 9).toFixed(2));
+        break;
+      case "Moderate":
+        lowerBound = parseFloat((trapPower / 9).toFixed(2));
+        upperBound = parseFloat(((trapPower * 7) / 13).toFixed(2));
+        break;
+      case "Challenging":
+        lowerBound = parseFloat(((trapPower * 7) / 13).toFixed(2));
+        upperBound = parseFloat(trapPower.toFixed(2));
+        break;
+      case "Difficult":
+        lowerBound = parseFloat(trapPower.toFixed(2));
+        upperBound = parseFloat(((trapPower * 13) / 7).toFixed(2));
+        break;
+      case "Overpowering":
+        lowerBound = parseFloat(((trapPower * 13) / 7).toFixed(2));
+        upperBound = parseFloat((trapPower * 19).toFixed(2));
+        break;
+      case "Near Impossible":
+        lowerBound = parseFloat((trapPower * 19).toFixed(2));
+        break;
       }
 
       const ttIndex = trapTypes.indexOf(trapType);
