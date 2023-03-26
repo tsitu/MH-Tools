@@ -81,8 +81,6 @@
  "devDependencies": {
   "bluebird": "^3.5.1",
   "eslint": "^8.36.0",
-  "eslint-config-airbnb-base": "^12.1.0",
-  "eslint-config-google": "^0.14.0",
   "eslint-config-prettier": "^2.9.0",
   "eslint-config-standard": "^17.0.0",
   "eslint-plugin-import": "^2.27.5",
