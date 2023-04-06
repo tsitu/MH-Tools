@@ -665,6 +665,7 @@ var weaponsArray = {
   "Isle Idol Trap": ["Physical", 5050, 0, 0, 7, "Stale"],
   "Isle Idol Hydroplane Skin": ["Hydro", 3500, 5, 15, 10, "Stale"],
   "Isle Idol Stakeshooter Skin": ["Tactical", 3750, 12, 5, 14, "Stale"],
+  "Jacked Rabbot™ Trap": ["Physical", 6600, 15, 20, 25, "Fresh"],
   "Judge Droid Trap": ["Law", 2400, 10, 0, 6, "Very Fresh"],
   "Kraken Chaos": ["Hydro", 3400, 0, 0, 18, "Very Stale"],
   "Law Laser Trap": ["Law", 1750, 20, 10, 3, "Fresh"],
