@@ -402,8 +402,8 @@ function calculateTrapSetup(skipDisp) {
         (locationName === "Nerg Plains" && charmName === "Nerg Power Charm") ||
         (locationName === "Elub Shore" && charmName === "Elub Power Charm")
       ) {
-        specialPower += 600;
-        shownPowerBonus += 5;
+        specialPower += 1000;
+        shownPowerBonus += 10;
       }
     } else if (locationName === "Fiery Warpath") {
       if (charmName === "Flamebane Charm") {
