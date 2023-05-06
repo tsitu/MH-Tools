@@ -829,7 +829,7 @@ var charmsArray = {
   "Extreme Luck Charm": [0, 0, 0, 8, "No Effect"],
   "Extreme Lucky Power Charm": [1250, 12, 0, 8, "No Effect"],
   "Extreme Polluted Charm": [0, 0, 0, 0, "No Effect"],
-  "Extreme Power Charm": [1200, 12, 0, 0, "No Effect"],
+  "Extreme Power Charm": [1250, 12, 0, 0, "No Effect"],
   "Extreme Queso Pump Charm": [100, 10, 10, 8, "Very Fresh"],
   "Extreme Party Charm": [0, 12, 0, 12, "No Effect"],
   "Extreme Regal Charm": [2000, 0, 75, 8, "No Effect"],
