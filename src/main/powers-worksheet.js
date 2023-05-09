@@ -149,6 +149,12 @@ const subcategories = {
     "Folklore Characters",
     "Folklore Masterminds"
   ],
+  "Beanstalkers": [
+    "Budding Baddies",
+    "Dungeon Dwellers",
+    "Ballroom Blitzers",
+    "Ruthless Royals"
+  ],
   "Rift Walkers": ["Gnawnia Rift", "Burroughs Rift", "Whisker Woods Rift"],
   "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift", "Valour Rift"],
   "The Polluted": ["Misc."],
