@@ -39,6 +39,7 @@
     "Foreword Farmers": "foreword_farm",
     "Prologue Pond Prowlers": "prologue_pond",
     "Storytellers": "table_of_contents",
+    "Beanstalkers": "bountiful_beanstalk",
     "Rift Walkers": "rift_walkers",
     "Rift Stalkers": "rift_stalkers",
     "The Polluted": "polluted",
@@ -182,6 +183,12 @@
       "Folklore Authors",
       "Folklore Characters",
       "Folklore Masterminds"
+    ],
+    "Beanstalkers": [
+      "Budding Baddies",
+      "Dungeon Dwellers",
+      "Ballroom Blitzers",
+      "Ruthless Royals"
     ],
     "Rift Walkers": ["Gnawnia Rift", "Burroughs Rift", "Whisker Woods Rift"],
     "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift", "Valour Rift"],
