@@ -646,7 +646,7 @@ var weaponsArray = {
   "Gorgon Trap": ["Shadow", 2000, 5, 5, 7, "Very Stale"],
   "Gouging Geyserite Trap": ["Tactical", 9000, 20, 10, 23, "Fresh"],
   "Grand Arcanum Trap": ["Arcane", 4800, 12, 5, 22, "No Effect"],
-  "Grungy Deathbot": ["Physical", 2400, 15, 10, 2, "Stale"],
+  "Grungy Deathbot": ["Physical", 3000, 15, 10, 4, "Stale"],
   "Harpoon Gun": ["Hydro", 3200, 12, 0, 0, "Stale"],
   "Harrowing Holiday Harpoon Harp": ["Draconic", 5000, 12, 5, 13, "Very Fresh"],
   "Haunted Shipwreck Trap": ["Hydro", 5000, 20, 10, 10, "Very Stale"],
