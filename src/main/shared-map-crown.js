@@ -647,7 +647,7 @@ function processMap(mapText, toolType) {
                 locationPhaseCheeseCharm +=
                   "<a href=" +
                   modURLString +
-                  ' target="_blank" rel="noopener">Link to Best Setup</a>';
+                  " target=\"_blank\" rel=\"noopener\">Link to Best Setup</a>";
               } else {
                 locationPhaseCheeseCharm += "<i>{ 0% Placeholder AR }</i>";
               }

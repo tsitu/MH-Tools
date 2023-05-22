@@ -133,15 +133,15 @@ window.onload = function() {
     ) {
       let p = c.pager, // NEW with the widget... it returns config, instead of config.pager
         msg =
-          '"</span> event triggered, ' +
+          "\"</span> event triggered, " +
           (e.type === "pagerChange" ? "going to" : "now on") +
-          ' page <span class="typ">' +
+          " page <span class=\"typ\">" +
           (p.page + 1) +
           "/" +
           p.totalPages +
           "</span>";
       $("#display")
-        .append('<li><span class="str">"' + e.type + msg + "</li>")
+        .append("<li><span class=\"str\">\"" + e.type + msg + "</li>")
         .find("li:first")
         .remove();
     });
@@ -228,15 +228,15 @@ window.onload = function() {
     ) {
       let p = c.pager, // NEW with the widget... it returns config, instead of config.pager
         msg =
-          '"</span> event triggered, ' +
+          "\"</span> event triggered, " +
           (e.type === "pagerChange" ? "going to" : "now on") +
-          ' page <span class="typ">' +
+          " page <span class=\"typ\">" +
           (p.page + 1) +
           "/" +
           p.totalPages +
           "</span>";
       $("#display")
-        .append('<li><span class="str">"' + e.type + msg + "</li>")
+        .append("<li><span class=\"str\">\"" + e.type + msg + "</li>")
         .find("li:first")
         .remove();
     });

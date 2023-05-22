@@ -229,27 +229,27 @@ function calculateTrapSetup(skipDisp) {
     if (weaponName.indexOf("Golem Guardian") >= 0) {
       var golemCharge = 0;
       switch (weaponName.split(" ")[2]) {
-        case "Arcane":
-          golemCharge =
+      case "Arcane":
+        golemCharge =
             parseFloat(localStorage.getItem("golem-charge-arcane")) || 0;
-          break;
-        case "Forgotten":
-          golemCharge =
+        break;
+      case "Forgotten":
+        golemCharge =
             parseFloat(localStorage.getItem("golem-charge-forgotten")) || 0;
-          break;
-        case "Hydro":
-          golemCharge =
+        break;
+      case "Hydro":
+        golemCharge =
             parseFloat(localStorage.getItem("golem-charge-hydro")) || 0;
-          break;
-        case "Physical":
-          golemCharge =
+        break;
+      case "Physical":
+        golemCharge =
             parseFloat(localStorage.getItem("golem-charge-physical")) || 0;
-          break;
-        case "Tactical":
-          golemCharge =
+        break;
+      case "Tactical":
+        golemCharge =
             parseFloat(localStorage.getItem("golem-charge-tactical")) || 0;
-          break;
-        default:
+        break;
+      default:
       }
 
       golemCharge = parseFloat((golemCharge / 100).toFixed(3));
@@ -478,11 +478,11 @@ function calculateTrapSetup(skipDisp) {
       locationName === "Event" &&
       phaseName === "Halloween" &&
       weaponName === "Boiling Cauldron Trap"){
-        basePower += 1000;
-        weaponBonus += 10;
-        trapLuck += 5;
-        trapAtt += 15;
-       }
+      basePower += 1000;
+      weaponBonus += 10;
+      trapLuck += 5;
+      trapAtt += 15;
+    }
 
     if (
       cheeseName.indexOf("Fusion Fondue") >= 0 &&
@@ -612,9 +612,9 @@ function minLuck(effectiveness, mousePower) {
   // If, due to floating-point errors, the candidate minluck is not
   // actually enough, add one. (This is described further in the README.)
   if (calcCR(effectiveness, 0, candidateMinluck, mousePower) < 1) {
-    return candidateMinluck + 1
+    return candidateMinluck + 1;
   }
-  return candidateMinluck
+  return candidateMinluck;
 }
 
 /**
@@ -668,7 +668,7 @@ function getCheeseAttraction() {
  */
 function gsParamCheck() {
   var gsParameter = getURLParameter("gs");
-  document.getElementById("gs").checked = ('No' === gsParameter ) ? false : true;
+  document.getElementById("gs").checked = ("No" === gsParameter ) ? false : true;
   gsChanged();
 }
 
@@ -780,22 +780,22 @@ function golemChargeChange(type, value) {
 
   if (isValid(value)) {
     switch (type) {
-      case "arcane":
-        localStorage.setItem("golem-charge-arcane", value);
-        break;
-      case "forgotten":
-        localStorage.setItem("golem-charge-forgotten", value);
-        break;
-      case "hydro":
-        localStorage.setItem("golem-charge-hydro", value);
-        break;
-      case "physical":
-        localStorage.setItem("golem-charge-physical", value);
-        break;
-      case "tactical":
-        localStorage.setItem("golem-charge-tactical", value);
-        break;
-      default:
+    case "arcane":
+      localStorage.setItem("golem-charge-arcane", value);
+      break;
+    case "forgotten":
+      localStorage.setItem("golem-charge-forgotten", value);
+      break;
+    case "hydro":
+      localStorage.setItem("golem-charge-hydro", value);
+      break;
+    case "physical":
+      localStorage.setItem("golem-charge-physical", value);
+      break;
+    case "tactical":
+      localStorage.setItem("golem-charge-tactical", value);
+      break;
+    default:
     }
     calculateTrapSetup();
   }
@@ -1290,13 +1290,13 @@ function calcCREffects(catchRate, mouseName, eff, mousePower) {
         weaponBonusDelta -= 5;
       }
     } else if (contains(mouseName, "Mystic")) {
-        if (weaponName === "Obvious Ambush Trap") {
+      if (weaponName === "Obvious Ambush Trap") {
         weaponPowerDelta -= 2400;
       } else if (weaponName === "Blackstone Pass Trap") {
         weaponPowerDelta += 1800;
       }
     } else if (contains(mouseName, "Technic")) {
-        if (weaponName === "Obvious Ambush Trap") {
+      if (weaponName === "Obvious Ambush Trap") {
         weaponPowerDelta += 1800;
       } else if (weaponName === "Blackstone Pass Trap") {
         weaponPowerDelta -= 2400;

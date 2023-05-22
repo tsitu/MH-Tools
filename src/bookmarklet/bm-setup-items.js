@@ -38,9 +38,9 @@
         .map(function(el) {
           // Weapon edge cases
           // if (el.name === "Ambush Trap") {
-            // return "Ambush";
+          // return "Ambush";
           // } else if (el.name === "School of Sharks Trap") {
-            // return "School of Sharks";
+          // return "School of Sharks";
           // }
           return el.name;
         });

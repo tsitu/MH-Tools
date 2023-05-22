@@ -131,9 +131,9 @@ function csvToArray(strData, strDelimiter) {
       strDelimiter +
       "|\\r?\\n|\\r|^)" +
       // Quoted fields.
-      '(?:"([^"]*(?:""[^"]*)*)"|' +
+      "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
       // Standard fields.
-      '([^"\\' +
+      "([^\"\\" +
       strDelimiter +
       "\\r\\n]*))",
     "gi"
@@ -169,7 +169,7 @@ function csvToArray(strData, strDelimiter) {
     if (arrMatches[2]) {
       // We found a quoted value. When we capture
       // this value, unescape any double quotes.
-      var strMatchedValue = arrMatches[2].replace(new RegExp('""', "g"), '"');
+      var strMatchedValue = arrMatches[2].replace(new RegExp("\"\"", "g"), "\"");
     } else {
       // We found a non-quoted value.
       var strMatchedValue = arrMatches[3];

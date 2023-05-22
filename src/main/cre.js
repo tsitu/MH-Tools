@@ -810,22 +810,22 @@ function weaponChanged() {
 
   if (weaponName.indexOf("Golem Guardian") >= 0) {
     switch (weaponName.split(" ")[2]) {
-      case "Arcane":
-        $(".golem-guardian-charge#arcane").show(500);
-        break;
-      case "Forgotten":
-        $(".golem-guardian-charge#forgotten").show(500);
-        break;
-      case "Hydro":
-        $(".golem-guardian-charge#hydro").show(500);
-        break;
-      case "Physical":
-        $(".golem-guardian-charge#physical").show(500);
-        break;
-      case "Tactical":
-        $(".golem-guardian-charge#tactical").show(500);
-        break;
-      default:
+    case "Arcane":
+      $(".golem-guardian-charge#arcane").show(500);
+      break;
+    case "Forgotten":
+      $(".golem-guardian-charge#forgotten").show(500);
+      break;
+    case "Hydro":
+      $(".golem-guardian-charge#hydro").show(500);
+      break;
+    case "Physical":
+      $(".golem-guardian-charge#physical").show(500);
+      break;
+    case "Tactical":
+      $(".golem-guardian-charge#tactical").show(500);
+      break;
+    default:
     }
   }
 }

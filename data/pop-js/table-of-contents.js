@@ -1,12 +1,12 @@
-const utils = require("../_utils")
+const utils = require("../_utils");
 
-const standardCheese = ['Gouda', 'SB+'];
-const writing = ['First Draft Derby', 'Second Draft Derby', 'Final Draft Derby', 'SB+'];
-const encylopedia = ['Final Draft Derby']
+const standardCheese = ["Gouda", "SB+"];
+const writing = ["First Draft Derby", "Second Draft Derby", "Final Draft Derby", "SB+"];
+const encylopedia = ["Final Draft Derby"];
 
 module.exports = {
   default: {
-    location: utils.genVarField('location', 'Table of Contents'),
+    location: utils.genVarField("location", "Table of Contents"),
   },
   series: [
     { 
@@ -15,11 +15,11 @@ module.exports = {
       config: [ {
         opts: {
           include: [
-            'Grit Grifter',
-            'Brothers Grimmaus',
-            'Hans Cheesetian Squeakersen',
-            'Madame d\'Ormouse',
-            'Matriarch Gander'
+            "Grit Grifter",
+            "Brothers Grimmaus",
+            "Hans Cheesetian Squeakersen",
+            "Madame d'Ormouse",
+            "Matriarch Gander"
           ]
         }
       } ]
@@ -30,17 +30,17 @@ module.exports = {
       config: [ {
         opts: {
           include: [
-            'Humphrey Dumphrey',
-            'Little Bo Squeak',
-            'Little Miss Fluffet',
-            'Matriarch Gander',
-            'Princess and the Olive',
-            'Pinkielina',
-            'Fibbocchio',
-            'Greenbeard',
-            'Flamboyant Flautist',
-            'Ice Regent',
-            'Bitter Grammarian'
+            "Humphrey Dumphrey",
+            "Little Bo Squeak",
+            "Little Miss Fluffet",
+            "Matriarch Gander",
+            "Princess and the Olive",
+            "Pinkielina",
+            "Fibbocchio",
+            "Greenbeard",
+            "Flamboyant Flautist",
+            "Ice Regent",
+            "Bitter Grammarian"
           ]
         }
       } ]
@@ -51,11 +51,11 @@ module.exports = {
       config: [ {
         opts: {
           include: [
-            'Bitter Grammarian',
-            'Mythweaver'
+            "Bitter Grammarian",
+            "Mythweaver"
           ]
         }
       } ]
     },  
   ]
-}
+};
