@@ -26,6 +26,7 @@ Arcane Summoner,7000,45000
 Arch Champion Necromancer,6000,100000
 Archer,750,4500
 Architeuthulhu of the Abyss,30000,100000
+Aristo-Cat Burglar,23500,215000
 Armored Archer,800,35000
 Artillery Commander,500000,250000
 Ascended Elder,80000,400000
@@ -43,6 +44,8 @@ Bark,1950,11250
 Barkshell,950,16525
 Barmy Gunner,200,350
 Barnacle Beautician,2500,26000
+Baroness Von Bean,15000,100000
+Baroque Dancer,8000,50000
 Barracuda,4000,38500
 Bartender,5000,4750
 Bat,3000,3000
@@ -88,14 +91,15 @@ Bruticle,5040,16560
 "Bruticus, the Blazing",15000,90000
 Buccaneer,2750,4290
 Buckethead,2000,1700
+Budrich Thornborn,5000,35000
 Builder,900,990
 Bulwark of Ascent,12000,80000
 Burglar,1250,1420
 Burly Bruiser,4500,15000
 Cabin Boy,100,270
+Cagey Countess,14000,95000
 Calalilly,2050,15250
 Calligraphy,888,2888
-Careless Catfish,9000,45000
 Camoflower,1250,11000
 Camofusion,2850,19500
 Candy Cane,1435,2500
@@ -109,14 +113,17 @@ Captain Croissant,2000,1000
 Caravan Guard,900,900
 Cardshark,15000,9000
 Carefree Cook,1200,2200
+Careless Catfish,9000,45000
 Caretaker,725,1100
 Carmine the Apothecary,800,12500
 Carnivore,5550,70000
 Carrion Medium,8340,100000
 Cavalier,700,1300
 Cavern Crumbler,3000,42000
+Cell Sweeper,10000,63000
 Centaur,960,3800
 Centaur Ranger,22500,150000
+Chafed Cellist,33000,135000
 Chamber Cleaver,10000,60000
 Chameleon,550,250
 Champion,3360,13800
@@ -143,10 +150,12 @@ Clockwork Samurai,210,150
 Clockwork Timespinner,7000,38000
 Cloud Collector,2500,42000
 Cloud Miner,3200,78000
+Cloud Strider,31000,205000
 Clownfish,3440,35880
 Clump,4800,37000
 Clumsy Carrier,5000,28100
 Clumsy Chemist,700,525
+Clumsy Cupbearer,6500,45000
 Coal Shoveller,3500,6000
 Cobweb,700,500
 Coco Commander,500,6900
@@ -154,6 +163,7 @@ Coffin Zombie,3000,2200
 Confused Courier,1500,6000
 Conjurer,4500,6875
 Conqueror,3200,7560
+Consumed Charm Tinkerer,31500,210000
 Cook,90,4090
 Coral,2500,26000
 Coral Cuddler,1900,19100
@@ -241,6 +251,7 @@ Dangerous Duo,14000,11000
 Dark Magi,24500,195000
 Dark Templar,12750,80800
 Dashing Buccaneer,250,375
+Dastardly Duchess,32000,135000
 Davy Jones,2000,9000
 Dawn Guardian,10000,50000
 Daydreamer,900,16800
@@ -264,6 +275,7 @@ Destructoy,3000,20000
 Devious Gentleman,26000,82000
 Diamond,800,1200
 Diamondhide,75000,290000
+Diminutive Detainee,6000,40000
 Dinosuit,1000,1420
 Dire Lycan,3000,5000
 Dirt Thing,3000,49500
@@ -282,6 +294,7 @@ Drummer,800,2800
 Dumpling Chef,3000,2886
 Dumpling Delivery,1750,46000
 Dunehopper,1650,13500
+Dungeon Master,70000,300000
 Dwarf,450,225
 Eagle Owl,2250,5300
 Eclipse,300000,379000
@@ -301,6 +314,10 @@ Elub Chieftain,7520,16560
 Elub Lich,8272,52992
 Elven Princess,400,2700
 Emberstone Scaled,60000,300000
+Empyrean Appraiser,30000,225000
+Empyrean Empress,350000,2500000
+Empyrean Geologist,50000,250000
+Empyrean Javelineer,22000,215000
 Enginseer,324,17800
 Enlightened Labourer,3800,50000
 Enslaved Spirit,900,20000
@@ -351,6 +368,8 @@ Force Fighter Pink,2550,5000
 Force Fighter Red,2700,4000
 Force Fighter Yellow,3000,5000
 Forever Alone,600,1200
+Forgotten Elder,22000,210000
+Fortuitous Fool,60000,200000
 Foxy,1500,1650
 Free Skiing,5000,15000
 Frightened Flying Fireworks,2017,12000
@@ -372,6 +391,7 @@ Fuzzy Drake,900,8000
 Gargantuamouse,4000,25000
 Gargoyle,2800,5600
 Gate Guardian,1400,2800
+Gate Keeper,22000,95000
 Gelatinous Octahedron,2000,21000
 Gemorpher,3000,50000
 Gemstone Worshipper,10000,68000
@@ -384,6 +404,7 @@ Gilded Leaf,9000,48750
 Gingerbread,495,900
 Glacia Ice Fist,3000,10150
 Gladiator,8250,8365
+Glamorous Gladiator,31000,205000
 Glass Blower,6000,18000
 Glazy,10000,50000
 Glitchpaw,1200,1200
@@ -418,8 +439,8 @@ Grunt,3075,910
 Guardian,7500,7600
 Guppy,2250,24300
 Guqin Player,800,5000
-Hans Cheesetian Squeakersen,2400,7250
 Gyrologer,12150,90000
+Hans Cheesetian Squeakersen,2400,7250
 Hapless,70,50
 Hapless Marionette,100,90
 Harbinger of Death,50000,200000
@@ -452,13 +473,13 @@ Hydra,5760,9640
 Hydrologist,3500,25000
 Hydrophobe,500,2000
 Hypnotized Gunslinger,9000,55000
+Ice Regent,15500,70000
 Iceberg Sculptor,3000,21000
 Iceblade,3850,14560
 Iceblock,1265,7425
 Icebreaker,1320,5850
 Icewing,11295,51250
 Icicle,3840,11980
-Ice Regent,15500,70000
 Ignatia,8000,50000
 Ignis,1000,4490
 Impersonator,180,120
@@ -470,13 +491,15 @@ Infiltrator,1900,15800
 Itty Bitty Rifty Burroughs,4600,36000
 Itty-Bitty Burroughs,4000,10000
 Jellyfish,1990,31700
+Jovial Jailor,11000,69000
 Joy,12000,40000
 Juliyes,999,999
 Jurassic,6490,39470
-Kalor'ignis of the Geyser,75000,325000
+"Kalor'ignis of the Geyser",75000,325000
 Karmachameleon,4350,42500
 Keeper,3900,3950
-Keeper's Assistant,1920,3170
+"Keeper's Assistant",1920,3170
+Key Master,20000,92000
 King Grub,8500,35000
 King Scarab,22500,175000
 Kite Flyer,980,25000
@@ -485,14 +508,16 @@ Koimaid,1990,31700
 Kung Fu,800,4750
 Lab Technician,3000,10500
 Lady Coldsnap,3745,27580
-Land Loafer,7000,50000
 Lambent,10000,60000
 Lambent Crystal,3000,9000
 Lancer Guard,12500,95000
+Land Loafer,7000,50000
 Lasso Cowgirl,2000,5500
 Launchpad Labourer,2000,65000
 Lawbender,10500,105000
+Leafton Beanwell,6500,45000
 Leprechaun,10,10
+Lethargic Guard,12500,75000
 Leviathan,2880,6910
 Lich,8700,12200
 Lightning Rod,100,175
@@ -525,11 +550,13 @@ Magma Carrier,7180,49335
 Magmarage,1000,30000
 Magmatic Crystal Thief,11000,13000
 Magmatic Golem,17000,18000
+Mairitime Pirate,30000,200000
 Maize Harvester,1000,18000
+Malevolent Maestro,100000,600000
+Malicious Marquis,34000,160000
 Mammoth,2020,10250
 Manaforge Smith,100000,350000
 Manatee,1250,11600
-Mairitime Pirate,30000,200000
 Market Guard,8000,22000
 Market Thief,9000,25000
 Martial,1500,58000
@@ -622,6 +649,7 @@ Mystic Pawn,890,8800
 Mystic Queen,13970,80960
 Mystic Rook,2277,72600
 Mystic Scholar,12750,80800
+Mythical Giant King,1250000,3000000
 Mythweaver,70000,1000000
 Nachore Golem,7000,30000
 "Nachous, The Molten",35000,90000
@@ -632,7 +660,7 @@ Necromancer,4000,17000
 Nefarious Nautilus,13000,62000
 Nerg Chieftain,9400,12545
 Nerg Lich,10340,40144
-New Year's,200,9200
+"New Year's",200,9200
 Nibbler,1400,1100
 Nice Knitting,1000,2100
 Night Shift Materials Manager,2000,25000
@@ -651,10 +679,11 @@ Nomad,5000,3400
 Nomadic Warrior,11250,73000
 Nugget,550,6875
 Nutcracker,3000,15000
+Obstinate Oboist,12000,80000
 Octomermaid,2700,34200
+"Ol' King Coal",20000,50000
 Old One,2825,36500
 Old Spice Collector,2500,22000
-"Ol' King Coal",20000,50000
 One-Mouse Band,2000,62000
 Onion Chopper,5000,5000
 Ooze,5400,5500
@@ -683,10 +712,14 @@ Parlour Player,4500,5500
 Party Head,2000,9000
 Passenger,6000,4000
 Pathfinder,660,990
+Peaceful Prisoner,5000,35000
 Pearl,20000,40000
 Pearl Diver,19500,32042
 Pebble,1100,200
+Peevish Piccoloist,13000,90000
+Peggy the Plunderer,65000,400000
 Penguin,550,4500
+Pernicious Prince,75000,360000
 Phalanx,1000,430
 Phase Zombie,4400,34000
 Photographer,7000,5000
@@ -697,6 +730,7 @@ Pintail,2000,1700
 Pirate,2750,350
 Pirate Anchor,2700,34200
 Plague Hag,3000,46000
+Plotting Page,7250,50000
 Plutonium Tentacle,50000,260000
 Pneumatic Dirt Displacement,4500,35000
 Pocketwatch,900,6400
@@ -748,7 +782,7 @@ Realm Ripper,1440,3000
 Reanimated Carver,9000,90000
 Reaper,1200,8700
 Record Keeper,4000,28000
-Record Keeper's Assistant,3000,27000
+"Record Keeper's Assistant",3000,27000
 Red Coat Bear,7500,47500
 Red Envelope,888,888
 Red-Eyed Watcher Owl,11500,71500
@@ -770,6 +804,7 @@ Riftweaver,2025,19750
 Riptide,3800,32000
 Robat,4200,32500
 Rock Muncher,875,2750
+Rocketeer,31000,205000
 Rockstar,3400,1000
 Rogue,295,700
 Romeno,300,0
@@ -796,10 +831,12 @@ Sandmouse,6000,30000
 Sandwing Cavalry,6000,26400
 Sanguinarian,5000,45950
 Sarcophamouse,2550,17000
+Sassy Salsa Dancer,7000,45000
 Scarab,3500,16500
 Scarecrow,1200,5000
 Scarlet Revenger,26050,189835
 Scavenger,5200,3375
+Scheming Squire,8500,55000
 School of Mish,1900,19100
 Scorned Pirate,5750,10000
 Scout,110,1190
@@ -843,6 +880,7 @@ Skeleton,960,2392
 Sky Dancer,10250,102000
 Sky Glass Glazier,12500,92000
 Sky Glass Sorcerer,26000,80000
+Sky Glider,22000,210000
 Sky Greaser,3000,50000
 Sky Highborne,21000,205000
 Sky Squire,30000,200000
@@ -860,6 +898,7 @@ Sludge Scientist,525,465
 Sludge Soaker,4500,35000
 Sludge Swimmer,10000,120000
 Smoldersnap,5000,40000
+Smug Smuggler,6750,45000
 Snake Charmer,600,4200
 Snooty,10,10
 Snow Boulder,1000,10000
@@ -952,6 +991,7 @@ Stuffy Banker,11500,8000
 Suave Pirate,21000,87510
 Subterranean,5800,11000
 Sugar Rush,2000,2600
+Sultry Saxophonist,14000,95000
 Summer Mage,7520,16560
 Summoning Scholar,4988,32500
 Sunken Banshee,2825,36500
@@ -1026,6 +1066,7 @@ Train Conductor,3500,6000
 Train Engineer,4500,8000
 Trampoline,420,420
 Travelling Barber,3000,5500
+Treacherous Tubaist,50000,230000
 Treant,600,1300
 Treant Queen,5250,57750
 Treasure Brawler,37250,72000
@@ -1059,7 +1100,10 @@ Vaporior,7000,40000
 Vicious Vampire Squid,15000,64000
 Vigilant Ward,5000,42275
 "Vincent, The Magnificent",10000,10000
+Vindictive Viscount,13000,90000
 Vinetail,6580,13172
+Vinneus Stalkhome,20000,150000
+Violent Violinist,29000,115000
 Violet Stormchild,10000,70000
 Walker,3000,17000
 Wandering Monk,4200,68000
@@ -1079,14 +1123,15 @@ Wealthy Werewarrior,5000,36000
 Werehauler,1500,19000
 Wereminer,2900,28000
 Whelpling,12280,1310
+Whimsical Waltzer,6000,40000
 Whirleygig,875,4000
 White,100,70
 White Mage,9000,20400
 Wicked Witch of Whisker Woods,2700,400
 Wiggler,150,100
 Wight,900,8750
-Wily Weevil,8500,58000
 Wild Chainsaw,1150,2200
+Wily Weevil,8500,58000
 Wind Warrior,7500,80000
 Wind Watcher,3500,40000
 Windy Farmer,2500,42000
@@ -1099,25 +1144,13 @@ Wordsmith,800,720
 Worker,2200,300
 Worried Wayfinder,25000,78000
 Wound Up White,100,70
+Wrathful Warden,35000,115000
 Wreath Thief,1000,8750
 Yeti,1245,12350
 Young Prodigy Racer,900,3000
+Zealous Academic,22000,210000
 Zephyr,1000,5900
 Zombie,1900,2000
 Zombot Unipire,750,1750
 Zombot Unipire the Third,4500,45000
 Zurreal the Eternal,36000,79000
-Peggy the Plunderer,65000,400000
-Glamorous Gladiator,31000,205000
-Zealous Academic,22000,210000
-Rocketeer,31000,205000
-Sky Glider,22000,210000
-Forgotten Elder,22000,210000
-Cloud Strider,31000,205000
-Empyrean Javelineer,22000,215000
-Aristo-Cat Burglar,23500,215000
-Fortuitous Fool,60000,200000
-Empyrean Appraiser,30000,225000
-Consumed Charm Tinkerer,31500,210000
-Empyrean Geologist,50000,250000
-Empyrean Empress,350000,2500000

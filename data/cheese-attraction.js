@@ -20,6 +20,7 @@ var baselineAttArray = {
   "Ancient String": 1.0000, // Gamplay update 10/05
   "Arctic Asiago": 0.9000, // Guesstimate | Calculated: 0.8513, Sample: 10204 (Very High)
   "Ascended": 1.0000, // Gamplay update 10/05
+  "Beanster": 1.0000, // Added with BB release 09 May 23
   "Bland Queso": 0.9000, // Guesstimate | Calculated: 0.8970, Sample: 163254 (Excellent)
   "Brie": 0.8500, // Gamplay update 10/05
   "Brie String": 0.8500, // Gamplay update 10/05
@@ -77,6 +78,7 @@ var baselineAttArray = {
   "Hot Queso": 1.0000, // Gamplay update 10/05
   "Inferno Havarti": 1.0000, // Gamplay update 10/05
   "Lactrodectus Lancashire": 1.0000, // Gamplay update 10/05
+  "Lavish Beanster": 1.0000, // Added with BB release 09 May 23
   "Limelight": 1.0000, // Gamplay update 10/05
   "Lockbox Limburger": 1.0000, // Gamplay update 10/05
   "Lunaria Camembert": 1.0000, // Gamplay update 10/05
@@ -112,6 +114,7 @@ var baselineAttArray = {
   "Rift Susheese": 1.0000, // Gamplay update 10/05
   "Riftiago": 1.0000, // Gamplay update 10/05
   "Rockforth": 1.0000, // Gamplay update 10/05
+  "Royal Beanster": 1.0000, // Added with BB release 09 May 23
   "Rumble": 1.0000, // Gamplay update 10/05
   "Runic": 1.0000, // Gamplay update 10/05
   "Runic String": 1.0000, // Gamplay update 10/05
