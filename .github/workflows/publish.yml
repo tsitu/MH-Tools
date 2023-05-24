@@ -31,7 +31,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         ref: master
-    
+
     - name: Setup Pages
       uses: actions/configure-pages@v1
     - name: Use Node.js
@@ -47,14 +47,16 @@ jobs:
     - run: npm run puppeteer
     - run: npm run build
     - run: npm run timestamp
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - run: npm run sample
     - run: ./build/deploy.sh
-  
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
       with:
-        path: './out' 
-   
+        path: './out'
+
   deploy:
     if: ${{ github.event_name != 'pull_request_target' && contains(fromJSON('["refs/heads/master", "refs/heads/main"]'), github.ref) }}
     runs-on: ubuntu-latest

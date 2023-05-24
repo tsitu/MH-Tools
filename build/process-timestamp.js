@@ -1,94 +1,69 @@
 (function() {
   const fileUtils = require("./file-utils");
-  const puppeteer = require("puppeteer");
-  const jsdom = require("jsdom");
+  const path = require("path");
+  const { Octokit } = require("@octokit/rest");
+  const { createActionAuth } = require("@octokit/auth-action");
 
-  // Order matters (tree/master/src/bookmarklet)
-  const bookmarkletList = [
-    "analyzer",
-    "crafting",
-    "cre",
-    "crown",
-    "loader",
-    "map",
-    "menu",
-    "powers",
-    "setup_fields",
-    "setup_items"
-  ];
-
-  function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
+  /** @type {import('@octokit/rest').Octokit} */
+  let api;
 
   /**
    * Parses datetime data from master/src/bookmarklet HTML
-   * @param {string} htmlUrl
+   * @param {{owner: string, repo: string, path: string}} options
+   * @returns {Object<string, string>}
    */
-  async function fetchTimestamps(htmlUrl) {
-    console.log("Initializing Puppeteer browser...");
+  async function fetchTimestamps(options) {
+    const bookmarkletResponse = await api.repos.getContent(options);
 
-    const browser = await puppeteer.launch({
-      args: ["--no-sandbox", "--disable-setuid-sandbox"]
-      // executablePath:
-      //   "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
-    });
+    const result = {};
+    for (const bm of bookmarkletResponse.data) {
+      const commits = await api.repos.listCommits({
+        owner: options.owner,
+        repo: options.repo,
+        path: bm.path,
+        per_page: 1,
+        page: 1,
+      });
 
-    console.log("Initialization complete. Loading pages...");
+      // Example Response: 2011-04-14T16:00:49Z
+      const date = new Date(commits.data[0].commit.committer.date)
+        // en-US -> Apr 14, 2011
+        .toLocaleDateString("en-us", {
+          year: "numeric",
+          month: "short",
+          day: "numeric"
+      });
 
-    // 2 throwaway pages to try and avoid "Failed to load latest commit information"
-    const prePage1 = await browser.newPage();
-    console.log("prePage1 object instantiated...");
-    await prePage1.goto(htmlUrl);
-    const preBody1 = await prePage1.content();
-    await sleep(200);
-    await prePage1.close();
-    await sleep(300);
-    const prePage2 = await browser.newPage();
-    console.log("prePage2 object instantiated...");
-    await prePage2.goto(htmlUrl);
-    const preBody2 = await prePage2.content();
-    await sleep(200);
-    await prePage2.close();
-    await sleep(300);
-    const page = await browser.newPage();
-    console.log("Final page object instantiated...");
-    await page.goto(htmlUrl);
-    const body = await page.content();
-    await page.close();
-    await browser.close();
-    console.log("Browser closed");
+      // transform src/bookmarket/bm-some-name.js -> some_name
+      const bookmarklet = path
+        .basename(bm.path, ".js")
+        .replace("bm-", "")
+        .replace("-", "_");
 
-    const { JSDOM } = jsdom;
-    const dom = new JSDOM(`${body}`);
-    const document = dom.window.document;
-
-    const result = [];
-    document.querySelectorAll("time-ago").forEach(el => {
-      result.push(el.title);
-    });
+      result[bookmarklet] = date;
+    }
 
     return result;
   }
 
   (async function main() {
+    if (process.env.GITHUB_TOKEN) {
+      const auth = createActionAuth();
+      const authentication = await auth();
+      api = new Octokit({ auth: authentication.token });
+      console.log("Using authenticated GitHub API");
+    } else {
+      api = new Octokit();
+      console.log("Using anonymous GitHub API (limit 60 req/hour)");
+    }
+
     console.log("Begin fetchTimestamps routine...");
 
-    const res = await fetchTimestamps(
-      "https://github.com/tsitu/MH-Tools/tree/master/src/bookmarklet"
-    ).catch(error => console.log(error));
-
-    console.log(res);
-
-    const format = res.map(el => {
-      const spl = el.split(", ");
-      return `${spl[0]}, ${spl[1]}`;
-    });
-
-    const bookmarkletJson = {};
-    for (let i = 0; i < bookmarkletList.length; i++) {
-      bookmarkletJson[bookmarkletList[i]] = format[i];
-    }
+    const bookmarkletJson = await fetchTimestamps({
+      owner: "tsitu",
+      repo: "MH-Tools",
+      path: "src/bookmarklet",
+    }).catch((error) => console.log(error));
 
     console.log(bookmarkletJson);
 
