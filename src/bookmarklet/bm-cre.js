@@ -474,6 +474,19 @@
       } else if (farmState === "boss") {
         return "Boss";
       }
+    } else if (userLocation === "Bountiful Beanstalk") {
+      const bbQuest = userQuests["QuestBountifulBeanstalk"];
+      if (bbQuest["in_castle"]) {
+        if (bbQuest["castle"]["is_boss_encounter"]) {
+          return "Castle Giants";
+        } else {
+          return bbQuest["castle"]["current_floor"]["name"].replace(" Floor", "");
+        }
+      } else {
+        return bbQuest["beanstalk"]["is_boss_encounter"]
+          ? "Beanstalk Boss"
+          : "Beanstalk"
+      }
     }
 
     return "N/A";
