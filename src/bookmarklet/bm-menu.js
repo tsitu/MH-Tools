@@ -1,30 +1,23 @@
 (function() {
-  var sha = localStorage.getItem("tsitu-latest-sha");
-  if (sha && sha !== 0) {
-    var jsonTimestamp = new Promise(function(resolve, reject) {
-      var cdn =
-        "https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@" +
-        sha +
-        "/data/json/bookmarklet-timestamps.json";
-      var xhr = new XMLHttpRequest();
-      xhr.open("GET", cdn);
-      xhr.onload = function() {
-        resolve(xhr.responseText);
-      };
-      xhr.onerror = function() {
-        reject(xhr.statusText);
-      };
-      xhr.send();
-    });
+  var jsonTimestamp = new Promise(function(resolve, reject) {
+    var cdn =
+      "https://tsitu.github.io/MH-Tools/data/json/bookmarklet-timestamps.json";
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", cdn);
+    xhr.onload = function() {
+      resolve(xhr.responseText);
+    };
+    xhr.onerror = function() {
+      reject(xhr.statusText);
+    };
+    xhr.send();
+  });
 
-    jsonTimestamp.then(function(response) {
-      // Use cached SHA to eliminate excessive requests in loadBookmarklet()
-      // Must reload/refresh to get individually updated bookmarklet versions
-      buildUI(JSON.parse(response), sha);
-    });
-  }
+  jsonTimestamp.then(function(response) {
+    buildUI(JSON.parse(response));
+  });
 
-  function buildUI(timestamps, sha) {
+  function buildUI(timestamps) {
     var mainDiv = document.createElement("div");
     mainDiv.id = "mht-bookmarklet-loader";
     var loaderTime = "Last updated: " + (timestamps["menu"] || "N/A");
@@ -50,7 +43,7 @@
 
     var descriptionSpan = document.createElement("span");
     descriptionSpan.innerHTML =
-      "Version 1.6.0 / Using <a href='https://www.jsdelivr.com/?docs=gh' target='blank'>jsDelivr</a>";
+      "Version 1.7.0 / Using <a href='https://www.jsdelivr.com/?docs=gh' target='blank'>jsDelivr</a>";
     var loaderSpanTimestamp = document.createElement("span");
     loaderSpanTimestamp.style.fontSize = "10px";
     loaderSpanTimestamp.style.fontStyle = "italic";
@@ -248,9 +241,7 @@
   function loadBookmarklet(type) {
     var el = document.createElement("script");
     var cdn =
-      "https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@" +
-      sha +
-      "/src/bookmarklet/bm-" +
+      "https://cdn.jsdelivr.net/gh/tsitu/MH-Tools@master/src/bookmarklet/bm-" +
       type +
       ".min.js";
     el.src = cdn;
