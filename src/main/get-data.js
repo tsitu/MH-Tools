@@ -7,8 +7,7 @@ var popLoaded = 0,
   peLoaded = 0;
 
 var WISDOM_URL = "data/json/mouse-wisdom.json";
-var SAMPLE_URL =
-  "https://raw.githubusercontent.com/tsitu/MH-Tools/gh-pages/data/json/sample-summary-detailed.json";
+var SAMPLE_URL = "data/json/sample-summary-detailed.json";
 var GP_URL = "data/json/mouse-gold-points.json";
 var PE_URL = "data/json/mouse-power-effs.json";
 

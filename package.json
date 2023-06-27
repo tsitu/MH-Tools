@@ -50,7 +50,7 @@
     "sample": "node build/process-sample-size.js",
     "mouse-data": "node build/process-mouse-data.js",
     "population": "node build/process-population.js",
-    "build": "npm-run-all --parallel minify:bookmarklet mouse-data population",
+    "build": "npm-run-all --parallel mouse-data population",
     "\n-- MISC --": "",
     "serve": "http-server -p 8000",
     "postinstall": "patch-package"
