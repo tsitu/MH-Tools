@@ -256,25 +256,29 @@
     fetchButton.innerText = "Fetch";
     fetchButton.onclick = function() {
       $.post(
-        "https://www.mousehuntgame.com/managers/ajax/users/profiletabs.php?action=badges&snuid=" +
-          user.sn_user_id,
-        {},
+        "https://www.mousehuntgame.com/managers/ajax/mice/getstat.php",
+        {
+          uh: user.unique_hash,
+          action: "get_hunting_stats",
+        },
         null,
         "json"
       ).done(function(response) {
         if (response) {
-          var badgeData = response["mouse_data"];
-          var remainData = response["remaining_mice"];
+
+          /**
+           * @typedef {Object} hunting_stat
+           * @property {number} num_catches
+           * @property {string} name
+           */
+
+          /** @type {hunting_stat[]} */
+          var stats = response.hunting_stats
+
           var catchData = {};
-
-          Object.keys(badgeData).forEach(function(key) {
-            catchData[badgeData[key]["name"]] = badgeData[key]["num_catches"];
-          });
-
-          remainData.forEach(function(el) {
-            var split = el["name"].split(" (");
-            catchData[split[0]] = parseInt(split[1][0]);
-          });
+          Object.values(stats).forEach(arr => {
+            catchData[arr.name] = arr.num_catches;
+          })
 
           localStorage.setItem("mh-catch-stats", JSON.stringify(catchData));
           localStorage.setItem("mh-catch-stats-timestamp", Date.now());
