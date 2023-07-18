@@ -400,12 +400,6 @@
       var fi = userQuests["QuestFloatingIslands"]["hunting_site_atts"];
       var fiStage = fi["island_name"];
 
-      if (fi["enemy"]) {
-        if (
-          fi["enemy"]["name"].indexOf("Warden") >= 0 ||
-          fi["enemy"]["name"].indexOf("Paragon") >= 0 ||
-          fi["enemy"]["name"].indexOf("Empress") >= 0
-        ) {
           if (fi["is_enemy_encounter"]) {
             if (fi["is_low_tier_island"]) {
               return "Sky Wardens";
@@ -414,11 +408,9 @@
             } else if (fi["is_vault_island"]) {
               return "Empress";
             }
-          }
-        }
       } else if (userCheese === "Sky Pirate Swiss Cheese") {
         const piratesNum = fi["activated_island_mod_types"].filter(t => t === "sky_pirates").length;
-        return (fi["is_vault_island"] ? "Vault " : "Island ") + piratesNum === 0 ? "No Pirates" : "Pirates x" + piratesNum;
+        return `${fi["is_vault_island"] ? "Vault " : "Island "}${piratesNum === 0 ? "No Pirates" : "Pirates x" + piratesNum}`;
       } else if ((userCheese === "Cloud Cheesecake" || userCheese === "Extra Rich Cloud Cheesecake") &&
                   fi["activated_island_mod_types"].filter(i => i === "loot_cache").length >= 2) {
         fiStage += ` - Loot x${fi["activated_island_mod_types"].filter(i => i === "loot_cache").length}`
