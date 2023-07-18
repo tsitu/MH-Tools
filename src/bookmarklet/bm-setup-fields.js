@@ -400,14 +400,14 @@
       var fi = userQuests["QuestFloatingIslands"]["hunting_site_atts"];
       var fiStage = fi["island_name"];
 
-          if (fi["is_enemy_encounter"]) {
-            if (fi["is_low_tier_island"]) {
-              return "Sky Wardens";
-            } else if (fi["is_high_tier_island"]) {
-              return "Sky Paragons";
-            } else if (fi["is_vault_island"]) {
-              return "Empress";
-            }
+      if (fi["is_enemy_encounter"]) {
+        if (fi["is_low_tier_island"]) {
+          return "Sky Wardens";
+        } else if (fi["is_high_tier_island"]) {
+          return "Sky Paragons";
+        } else if (fi["is_vault_island"]) {
+          return "Empress";
+        }
       } else if (userCheese === "Sky Pirate Swiss Cheese") {
         const piratesNum = fi["activated_island_mod_types"].filter(t => t === "sky_pirates").length;
         return `${fi["is_vault_island"] ? "Vault " : "Island "}${piratesNum === 0 ? "No Pirates" : "Pirates x" + piratesNum}`;
@@ -453,6 +453,19 @@
         return "Three Papyrus";
       } else if (farmState === "boss") {
         return "Boss";
+      }
+    } else if (userLocation === "Bountiful Beanstalk") {
+      const bbQuest = userQuests["QuestBountifulBeanstalk"];
+      if (bbQuest["in_castle"]) {
+        if (bbQuest["castle"]["is_boss_encounter"]) {
+          return "Castle Giants";
+        } else {
+          return bbQuest["castle"]["current_floor"]["name"].replace(" Floor", "");
+        }
+      } else {
+        return bbQuest["beanstalk"]["is_boss_encounter"]
+          ? "Beanstalk Boss"
+          : "Beanstalk"
       }
     }
 
