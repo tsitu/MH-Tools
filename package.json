@@ -24,6 +24,7 @@
     "pop:geyser": "node data/pop queso-geyser > data/pop-csv/queso-geyser.csv",
     "pop:gwh": "node data/pop great-winter-hunt > data/pop-csv/great-winter-hunt.csv",
     "pop:harbour": "node data/pop harbour > data/pop-csv/harbour.csv",
+    "pop:jod": "node data/pop jungle-of-dread > data/pop-csv/jungle-of-dread.csv",
     "pop:lab": "node data/pop laboratory > data/pop-csv/laboratory.csv",
     "!pop:laby": "node data/pop labyrinth > data/pop-csv/labyrinth.csv",
     "pop:living": "node data/pop living-garden > data/pop-csv/living-garden.csv",
