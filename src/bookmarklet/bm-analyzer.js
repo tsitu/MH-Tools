@@ -3,33 +3,40 @@
   // localStorage sample usage: 582 entries is 40.4 KB on MHG, 30.4 KB in tool
   // May use alternative storage method if 5 MB localStorage limit is reached by whales
 
+  /**
+   * @typedef {Object} Parameters
+   * @property {boolean} pause
+   * @property {boolean} done
+   * @property {Object.<number, string>} items
+   * @property {Object.<number, Listing>} listings
+   */
+
+  /**
+   * @typedef {Object} Listing
+   * @property {number} listing_id
+   * @property {string} listing_type
+   * @property {number} item_id
+   * @property {number} initial_quantity
+   * @property {number} remaining_quantity
+   * @property {number} unit_price
+   * @property {number} unit_price_without_tariff
+   * @property {number} total_price
+   * @property {number} total_price_without_tariff
+   * @property {string} date_closed
+   */
+
   // Global obj
-  const PARAMS = {};
+  /** @type {Parameters} */
+  const PARAMS = {
+    items: {},
+    listings: {},
+    pause: false,
+    done: false,
+  };
 
-  function ajaxCall(startIndex) {
+  function getHistory(page) {
     return new Promise((resolve, reject) => {
-      const payload = {
-        start: startIndex,
-        action: "history",
-        uh: user.unique_hash
-      };
-
-      $.post(
-        "https://www.mousehuntgame.com/managers/ajax/users/marketplace.php",
-        payload,
-        null,
-        "json"
-      )
-        .done(success => {
-          if (success) {
-            resolve(success);
-          } else {
-            reject("Error in POST response data");
-          }
-        })
-        .fail(error => {
-          reject(error);
-        });
+      hg.utils.Marketplace.getMyHistory(page, resolve, reject)
     });
   }
 
@@ -39,51 +46,75 @@
       return;
     }
 
-    // ajaxCall(2); // Note: Index can be specific
-    // Initial call to get number of total entries
-    ajaxCall(0)
-      .then(res => {
-        PARAMS["total-records"] = res.recordsTotal;
-        PARAMS["pause"] = false;
-        buildUI();
-      })
-      .catch(error => {
-        console.log(error);
-      });
+    loadMarketPlaceItems();
+    decodePersistedData();
+    buildUI();
   }
 
-  function processDiff(newData) {
+  function loadMarketPlaceItems() {
+    // Create dictonary of item names by id
+    // to decode item_id returned by history API
+    hg.utils.Marketplace.getMarketplaceData(
+      function (data) {
+        if (data.marketplace_items) {
+          data.marketplace_items.forEach(item => {
+            PARAMS["items"][item.item_id] = item.name
+          })
+        }
+      },
+      function () {
+        alert("Error fetching marketplace data!");
+      }
+    );
+  }
+
+  function persistData() {
+    const data = JSON.stringify(PARAMS["listings"]);
+    localStorage.setItem("tsitu-analyzer-data", data)
+  }
+
+  function decodePersistedData() {
+    // Decode storage once, store it when user sends to tool or closes UI
     const storageData = localStorage.getItem("tsitu-analyzer-data");
+
+    let storageObj = {};
     if (storageData) {
-      const storedData = JSON.parse(storageData);
-      const dataLength = newData.length;
-
-      // Self-adjusts based on length of returned data array
-      // URL encoding bug on %10 so we use a roundabout way
-      let skipIndex =
-        dataLength -
-        (PARAMS["missing-entries"] -
-          Math.floor(PARAMS["missing-entries"] / 10) * 10);
-
-      if (skipIndex === 10) {
-        skipIndex = 0; // Constrained to 0-9
-      }
-      for (let i = skipIndex; i < dataLength; i++) {
-        storedData["data"].push(newData[i]);
-      }
-
-      localStorage.setItem("tsitu-analyzer-data", JSON.stringify(storedData));
-      localStorage.setItem(
-        "tsitu-analyzer-data-length",
-        storedData["data"].length
-      );
-    } else {
-      const storageObj = {};
-      storageObj["data"] = newData;
-      localStorage.setItem("tsitu-analyzer-data", JSON.stringify(storageObj));
-      localStorage.setItem("tsitu-analyzer-data-length", newData.length);
+      try {
+        const decode = JSON.parse(storageData);
+        storageObj = decode;
+      } catch {}
     }
+
+    PARAMS["listings"] = storageObj;
+  }
+
+  /**
+   *
+   * @param {Object} newData
+   * @param {Listing[]} newData.marketplace_history
+   */
+  function processData(newData) {
+    let alreadyStoredListing = false;
+    newData.marketplace_history.forEach(val => {
+      // we can tell fetching function to stop as we've fetched already stored entries
+      alreadyStoredListing ||= val.listing_id in PARAMS["listings"];
+
+      PARAMS["listings"][val.listing_id] = {
+        name: PARAMS["items"][val.item_id],
+        action: val.listing_type,
+        quantity: val.initial_quantity - val.remaining_quantity,
+        total: val.total_price_without_tariff,
+        unit: val.unit_price_without_tariff,
+        tariff: val.total_price - val.total_price_without_tariff,
+        date: val.date_closed
+      }
+    })
+
+    localStorage.setItem("tsitu-analyzer-data-length", Object.keys(PARAMS["listings"]).length);
     refreshUI();
+
+    const shouldContinue = !(alreadyStoredListing || newData.marketplace_history.length == 0);
+    return shouldContinue;
   }
 
   function sleep(ms) {
@@ -91,29 +122,22 @@
   }
 
   async function processPages() {
-    let startIndex = Math.floor(PARAMS["missing-pages"] - 1) * 10;
-    const numIteration = PARAMS["missing-pages"];
-
-    for (let i = 0; i < numIteration; i++) {
-      if (startIndex < 0) break;
-      if (PARAMS["pause"]) break;
-      const data = await ajaxCall(startIndex);
-      if (data.recordsTotal !== PARAMS["total-records"]) {
-        // Update total records
-        alert("New transactions(s) detected. Please re-click 'Fetch'!");
-        PARAMS["total-records"] = data.recordsTotal;
-        refreshUI();
-        break;
-      }
-      const rev = data.data.reverse();
-      startIndex -= 10;
-      processDiff(rev);
+    let pageOffset = 0;
+    let shouldContinue = false;
+    do {
+      const data = await getHistory(pageOffset)
+      shouldContinue = processData(data);
       await sleep(500);
-    }
+      pageOffset += 1;
+    } while (shouldContinue && !PARAMS['pause']);
+
+    PARAMS['done'] = true;
+    PARAMS["pause"] = false;
 
     document.getElementById("mht-marketplace-analyzer-fetch").disabled = false;
     document.getElementById("mht-marketplace-analyzer-pause").disabled = true;
-    PARAMS["pause"] = false;
+    document.getElementById("mht-marketplace-analyzer-send").disabled = false;
+
     document.getElementById(
       "mht-marketplace-analyzer-background"
     ).hidden = true;
@@ -127,6 +151,7 @@
     closeButton.textContent = "x";
     closeButton.onclick = function() {
       document.body.removeChild(mainDiv);
+      persistData();
     };
 
     const titleSpan = document.createElement("span");
@@ -147,7 +172,7 @@
     fetchButton.id = "mht-marketplace-analyzer-fetch";
     fetchButton.textContent = "Fetch";
     fetchButton.onclick = () => {
-      if (PARAMS["missing-entries"] === 0 && PARAMS["missing-pages"] === 0) {
+      if (PARAMS['done']) {
         alert(
           "All available data has been downloaded.\nPlease click 'Send To Tool', or 'Reset Data' if something has broken."
         );
@@ -168,15 +193,17 @@
     };
 
     const sendButton = document.createElement("button");
+    sendButton.id = "mht-marketplace-analyzer-send"
     sendButton.textContent = "Send To Tool";
+    sendButton.disabled = true;
     sendButton.onclick = () => {
-      const storedData = localStorage.getItem("tsitu-analyzer-data");
-      if (storedData) {
+      persistData();
+      if (Object.keys(PARAMS["listings"]).length > 0) {
         const newWindow = window.open("");
         newWindow.location = "https://tsitu.github.io/MH-Tools/analyzer.html";
         // newWindow.location = "http://localhost:8000/analyzer.html"; // Debug
         // 200 IQ method to transfer stringified data across origins
-        newWindow.name = storedData;
+        newWindow.name = JSON.stringify(Object.values(PARAMS["listings"]));
       } else {
         alert("There is no data to send! Please click 'Fetch'");
       }
@@ -187,8 +214,10 @@
     resetButton.onclick = () => {
       const reset = confirm("Are you sure you want to reset the data on MHG?");
       if (reset) {
+        PARAMS["listings"] = {};
         const storedData = localStorage.getItem("tsitu-analyzer-data");
         if (storedData) {
+          PARAMS["done"] = false;
           localStorage.removeItem("tsitu-analyzer-data");
           localStorage.removeItem("tsitu-analyzer-data-length");
           refreshUI();
@@ -230,21 +259,9 @@
   }
 
   function refreshUI() {
-    let storedEntries = 0;
-    const storageData = localStorage.getItem("tsitu-analyzer-data-length");
-    if (storageData) {
-      storedEntries = storageData;
-    }
-
-    const missingEntries = PARAMS["total-records"] - storedEntries;
-    const missingPages = Math.ceil(missingEntries / 10);
-    PARAMS["missing-entries"] = missingEntries;
-    PARAMS["missing-pages"] = missingPages;
-
+    let storedEntries = localStorage.getItem("tsitu-analyzer-data-length") ?? 0;
     const d = document.getElementById("mht-marketplace-analyzer-description");
-    d.innerHTML = `Stored Entries: ${storedEntries}<br>Missing Entries: ${missingEntries}<br>Pages Remaining: ${missingPages}/${Math.ceil(
-      PARAMS["total-records"] / 10
-    )}<br>Data Remaining: ${Math.ceil(missingPages * 23.8)} KB`;
+    d.innerHTML = `Stored Entries: ${storedEntries}`;
   }
 
   main();

@@ -1,5 +1,17 @@
 "use strict";
 
+
+/**
+ * @typedef {Object} Listing
+ * @property {string} name
+ * @property {string} action
+ * @property {number} quantity
+ * @property {number} total
+ * @property {number} unit
+ * @property {number} tariff
+ * @property {string} date
+ */
+
 window.onload = function() {
   loadBookmarkletFromJS(
     BOOKMARKLET_URLS["loader"],
@@ -17,27 +29,9 @@ window.onload = function() {
     try {
       const inputObj = JSON.parse(window.name);
       if (validateJsonData(inputObj)) {
-        // Convert into 'classic' item-name-as-key format
         const classicObj = {};
-        const inputArr = inputObj["data"];
-        for (let el of inputArr) {
-          const time = el[0];
-          const action = el[1];
-          const name = el[2];
-          if (!classicObj.hasOwnProperty(name)) {
-            classicObj[name] = {};
-          }
-          if (!classicObj[name].hasOwnProperty(action)) {
-            classicObj[name][action] = {};
-          }
-          if (!classicObj[name][action].hasOwnProperty(time)) {
-            classicObj[name][action][time] = [];
-          }
-          classicObj[name][action][time].push(el[3]);
-          classicObj[name][action][time].push(el[4]);
-          classicObj[name][action][time].push(el[5]);
-        }
-        classicObj["DATA_VERSION"] = "2.0";
+        classicObj["listings"] = inputObj;
+        classicObj["DATA_VERSION"] = "3.0";
 
         localStorage.setItem("marketplaceData", JSON.stringify(classicObj));
         window.name = ""; // Reset name after capturing data
@@ -273,11 +267,11 @@ window.onload = function() {
   const storedData = localStorage.getItem("marketplaceData");
   if (storedData) {
     const parsedData = JSON.parse(storedData);
-    if (!parsedData.hasOwnProperty("DATA_VERSION")) {
+    if (!parsedData.hasOwnProperty("DATA_VERSION") || Number.parseFloat(parsedData["DATA_VERSION"]) < 3.0 ) {
       alert(
         "Old data format detected!\nPlease upgrade to the new bookmarklet and re-import your data.\nSorry for the inconvenience."
       );
-    } else if (parsedData["DATA_VERSION"] === "2.0") {
+    } else if (parsedData["DATA_VERSION"] === "3.0") {
       showTable(parsedData);
       showItemSummary(parsedData);
       showOverallSummary(parsedData);
@@ -287,6 +281,11 @@ window.onload = function() {
   }
 };
 
+/**
+ * @param {Object} dataObject
+ * @param {Listing[]} dataObject.listings
+ * @param {string} dataObject.DATA_VERSION
+ */
 function showTable(dataObject) {
   $("#tableContainer").show(500);
   const table = document.getElementById("table");
@@ -294,28 +293,17 @@ function showTable(dataObject) {
   let tableHTML =
     "<thead><tr><th id='dateClosed'>Date Closed</th><th>Item Name</th><th data-filter='false'>Action</th><th data-filter='false'>Quantity</th><th data-filter='false'>Unit Price</th><th data-filter='false'>Tariff</th><th data-filter='false'>Total</th></tr></thead><tbody>";
 
-  for (let name in dataObject) {
-    if (name === "DATA_VERSION") continue;
-    for (let action in dataObject[name]) {
-      for (let time in dataObject[name][action]) {
-        const arr = dataObject[name][action][time];
-        for (let i = 0; i < arr.length; i += 3) {
-          const qty = arr[i];
-          const unit = arr[i + 1];
-          const total = arr[i + 2];
-          let tariff = 0;
-          if (action === "Buy") {
-            tariff = total - qty * unit;
-          }
-          tableHTML += `<tr><td>${time}</td><td>${name}</td><td>${action}</td><td>${commafy(
-            qty
-          )}</td><td>${commafy(unit)}</td><td>${commafy(
-            tariff
-          )}</td><td>${commafy(total)}</td></tr>`;
-        }
-      }
-    }
-  }
+  dataObject.listings.forEach(listing => {
+    const tariff = listing.action === "buy" ? listing.tariff : 0;
+    const action = listing.action.charAt(0).toUpperCase() + listing.action.slice(1);
+
+    tableHTML += `<tr><td>${listing.date}</td><td>${listing.name}</td><td>${action}</td><td>${commafy(
+      listing.quantity
+    )}</td><td>${commafy(listing.unit)}</td><td>${commafy(
+      tariff
+    )}</td><td>${commafy(listing.total)}</td></tr>`;
+  });
+
   tableHTML += "</tbody>";
   table.innerHTML = tableHTML;
 
@@ -332,6 +320,11 @@ function showTable(dataObject) {
   $("#table").trigger("updateAll", [resort, callback]);
 }
 
+/**
+ * @param {Object} dataObject
+ * @param {Listing[]} dataObject.listings
+ * @param {string} dataObject.DATA_VERSION
+ */
 function showItemSummary(dataObject) {
   $("#itemSummaryContainer").show(500);
   const table = document.getElementById("itemSummaryTable");
@@ -339,8 +332,16 @@ function showItemSummary(dataObject) {
   let tableHTML =
     "<thead><tr><th>Item Name</th><th data-filter='false'>Action</th><th data-filter='false'>Transactions</th><th data-filter='false'>Quantity</th><th data-filter='false'>Transaction (Avg)</th><th data-filter='false'>Price (Avg)</th><th data-filter='false'>Unit Price (Low)</th><th data-filter='false'>Unit Price (High)</th><th data-filter='false'>Unit Price (Avg)</th><th id='itemSummaryAction' data-filter='false'>Amount</th><th data-filter='false'>Tariffs</th></tr></thead><tbody>";
 
-  for (let name in dataObject) {
-    if (name === "DATA_VERSION") continue;
+  /** @type {Object<string, Listing[]} */
+  const listingsGroupedByName = dataObject.listings.reduce((acc, listing) => {
+    acc[listing.name] = acc[listing.name] || [];
+    acc[listing.name].push(listing);
+
+    return acc;
+  }, {})
+
+  for (let listings of Object.values(listingsGroupedByName)) {
+    const name = listings[0].name;
     let totalSellQuantity = 0,
       totalBuyQuantity = 0;
     let sellCounter = 0,
@@ -354,40 +355,38 @@ function showItemSummary(dataObject) {
     let highSellUnitPrice = 0,
       highBuyUnitPrice = 0;
     let totalTariffs = 0;
-    for (let action in dataObject[name]) {
-      for (let time in dataObject[name][action]) {
-        const arr = dataObject[name][action][time];
-        for (let i = 0; i < arr.length; i += 3) {
-          const quantity = arr[i];
-          const unitPrice = arr[i + 1];
-          const totalAmt = arr[i + 2];
-          if (action === "Sell") {
-            sellCounter++;
-            totalSellQuantity += quantity;
-            totalSellUnitPrice += unitPrice;
-            totalSellAmt += totalAmt;
-            if (lowSellUnitPrice == 0 || unitPrice < lowSellUnitPrice) {
-              lowSellUnitPrice = unitPrice;
-            }
-            if (unitPrice > highSellUnitPrice) {
-              highSellUnitPrice = unitPrice;
-            }
-          } else if (action === "Buy") {
-            buyCounter++;
-            totalBuyQuantity += quantity;
-            totalBuyUnitPrice += unitPrice;
-            totalBuyAmt += totalAmt;
-            if (lowBuyUnitPrice == 0 || unitPrice < lowBuyUnitPrice) {
-              lowBuyUnitPrice = unitPrice;
-            }
-            if (unitPrice > highBuyUnitPrice) {
-              highBuyUnitPrice = unitPrice;
-            }
-            totalTariffs += totalAmt - quantity * unitPrice;
+
+
+    listings.forEach(listing => {
+      switch (listing.action) {
+        case "sell":
+          sellCounter++;
+          totalSellQuantity += listing.quantity;
+          totalSellUnitPrice += listing.unit;
+          totalSellAmt += listing.total;
+          if (lowSellUnitPrice == 0 || listing.unit < lowSellUnitPrice) {
+            lowSellUnitPrice = listing.unit;
           }
-        }
+          if (listing.unit > highSellUnitPrice) {
+            highSellUnitPrice = listing.unit;
+          }
+          break;
+        case "buy":
+          buyCounter++;
+          totalBuyQuantity += listing.quantity;
+          totalBuyUnitPrice += listing.unit;
+          totalBuyAmt += listing.total;
+          if (lowBuyUnitPrice == 0 || listing.unit < lowBuyUnitPrice) {
+            lowBuyUnitPrice = listing.unit;
+          }
+          if (listing.unit > highBuyUnitPrice) {
+            highBuyUnitPrice = listing.unit;
+          }
+          totalTariffs += listing.tariff;
+          break;
       }
-    }
+    });
+
     const avgTxSell = totalSellAmt / sellCounter;
     const avgTxBuy = totalBuyAmt / buyCounter;
     const avgSellPrice = totalSellAmt / totalSellQuantity;
@@ -434,6 +433,11 @@ function showItemSummary(dataObject) {
   $("#itemSummaryTable").trigger("updateAll", [resort, callback]);
 }
 
+/**
+ * @param {Object} dataObject
+ * @param {Listing[]} dataObject.listings
+ * @param {string} dataObject.DATA_VERSION
+ */
 function showOverallSummary(dataObject) {
   $("#overallSummaryContainer").show(500);
   let totalSellQuantity = 0,
@@ -451,30 +455,23 @@ function showOverallSummary(dataObject) {
   let tableHTML =
     "<thead><tr><th id='overallSummaryAction'>Action</th><th>Transactions</th><th>Quantity</th><th>Transaction (Avg)</th><th>Price (Avg)</th><th>Unit Price (Avg)</th><th>Amount</th><th>Tariffs</th></tr></thead><tbody>";
 
-  for (let name in dataObject) {
-    for (let action in dataObject[name]) {
-      for (let time in dataObject[name][action]) {
-        const arr = dataObject[name][action][time];
-        for (let i = 0; i < arr.length; i += 3) {
-          const quantity = arr[i];
-          const unitPrice = arr[i + 1];
-          const totalAmt = arr[i + 2];
-          if (action === "Sell") {
-            sellCounter++;
-            totalSellQuantity += quantity;
-            totalSellUnitPrice += unitPrice;
-            totalSellAmt += totalAmt;
-          } else if (action === "Buy") {
-            buyCounter++;
-            totalBuyQuantity += quantity;
-            totalBuyUnitPrice += unitPrice;
-            totalBuyAmt += totalAmt;
-            totalTariffs += totalAmt - quantity * unitPrice;
-          }
-        }
-      }
+  dataObject.listings.forEach(listing => {
+    switch (listing.action) {
+      case "sell":
+        sellCounter++;
+        totalSellQuantity += listing.quantity;
+        totalSellUnitPrice += listing.unit;
+        totalSellAmt += listing.total;
+        break;
+      case "buy":
+        buyCounter++;
+        totalBuyQuantity += listing.quantity;
+        totalBuyUnitPrice += listing.unit;
+        totalBuyAmt += listing.total;
+        totalTariffs += listing.tariff
+        break;
     }
-  }
+  });
 
   const avgTxSell = totalSellAmt / sellCounter;
   const avgTxBuy = totalBuyAmt / buyCounter;
@@ -533,11 +530,24 @@ function showOverallSummary(dataObject) {
  * Utilities
  */
 function validateJsonData(inputObj) {
-  let returnBool = false;
-  if (inputObj["data"].length > 0 && inputObj["data"][0].length === 6) {
-    returnBool = true;
+  if (!Array.isArray(inputObj) || inputObj.length === 0) {
+    return false
   }
-  return returnBool;
+
+  const item = inputObj[0];
+  if (!(
+    item.hasOwnProperty('name') &&
+    item.hasOwnProperty('action') &&
+    item.hasOwnProperty('quantity') &&
+    item.hasOwnProperty('total') &&
+    item.hasOwnProperty('unit') &&
+    item.hasOwnProperty('tariff') &&
+    item.hasOwnProperty('date')
+  )) {
+    return false;
+  }
+
+  return true;
 }
 
 function getDataFromURL(parameters) {
