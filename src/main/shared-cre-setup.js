@@ -1660,14 +1660,32 @@ function calcGolemStats(charge) {
  * @return {number} Salted/decreased mouse power value
  */
 function calcSaltedPower(type, mousePower) {
-  var saltedPower = mousePower;
   var saltVal = parseInt(saltLevel, 10) || 0;
-  if (saltVal > 0 && saltVal <= 50) {
-    if (type === "Grub") {
-      saltedPower = 112571 - 27883 * Math.log(saltVal);
-    } else if (type === "Scarab") {
-      saltedPower = 777879 - 183425 * Math.log(saltVal);
-    }
+
+  if (saltVal === 0) {
+    return mousePower
+  }
+
+  var saltedPower = mousePower;
+  let saltThresholds;
+  let saltCoefficients;
+  if (type === "Grub") {
+    // Many different thresholds for KG, see Scarab for easier understanding
+    saltThresholds = [0, 6, 7, 10, 14, 18, 23, 24, 27, 34, 44, 48, 50];
+    saltCoefficients = [50000, 40000, 20000, 10000, 5000, 2500, 1000, 1500, 1000, 500, 1000, 2000, 0];
+  } else if (type === "Scarab") {
+    // 25k MP decrements for up to 30 salt, -12500 from 31 to 40 salt, -6500 to 50 salt
+    saltThresholds = [0, 30, 40, 50];
+    saltCoefficients = [25000, 12500, 6500, 0];
+  }
+
+  for (let i = 0; i < saltThresholds.length - 1; i++) {
+    // When salt is below a threshold, it won't contribute to decreasing power
+    const currentSalt = Math.max(0, saltVal - saltThresholds[i]);
+    // A decrement can apply, at most, the different to the next threshold
+    // King Scarab example: 35 salt will provide 30 of the 25k decrements (30 - 0). 40 salt will provide 10 (40 - 30)
+    const maxDecrement = saltThresholds[i + 1] - saltThresholds[i];
+    saltedPower -= Math.min(maxDecrement, currentSalt) * saltCoefficients[i];
   }
 
   return saltedPower;
