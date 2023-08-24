@@ -20,6 +20,7 @@
     "data/pop-csv/great-winter-hunt.csv",
     "data/pop-csv/harbour.csv",
     "data/pop-csv/iceberg.csv",
+    "data/pop-csv/jungle-of-dread.csv",
     "data/pop-csv/laboratory.csv",
     "data/pop-csv/living-garden.csv",
     "data/pop-csv/lost-city.csv",
