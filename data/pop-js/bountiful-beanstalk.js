@@ -14,12 +14,24 @@ module.exports = {
   },
   series: [
     {
-      cheese: utils.genVarField("cheese", ["Gouda", "SB+"]),
+      cheese: utils.genVarField("cheese", "Gouda"),
       stage: utils.genVarField("stage", "Beanstalk"),
       config: [
         {
           opts: {
             include: ["Budrich Thornborn", "Leafton Beanwell"],
+          },
+        },
+      ],
+    },
+    {
+      cheese: utils.genVarField("cheese", "SB+"),
+      stage: utils.genVarField("stage", "Beanstalk"),
+      after: utils.genVarField("after", 1686754800), // 2023-06-14T15:00:00Z
+      config: [
+        {
+          opts: {
+            include: ["Budrich Thornborn", "Leafton Beanwell", "Herbaceous Bravestalk"],
           },
         },
       ],
