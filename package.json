@@ -30,6 +30,7 @@
     "pop:living": "node data/pop living-garden > data/pop-csv/living-garden.csv",
     "pop:lost": "node data/pop lost-city > data/pop-csv/lost-city.csv",
     "pop:mopi": "node data/pop moussu-picchu > data/pop-csv/moussu-picchu.csv",
+    "pop:mountain": "node data/pop mountain > data/pop-csv/mountain.csv",
     "pop:moz": "node data/pop mousoleum > data/pop-csv/mousoleum.csv",
     "pop:pond": "node data/pop prologue-pond > data/pop-csv/prologue-pond.csv",
     "pop:prickly": "node data/pop prickly-plains > data/pop-csv/prickly-plains.csv",
