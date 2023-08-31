@@ -205,11 +205,6 @@ module.exports = {
       charm: utils.genVarField('charm', "Prospector's"),
       config: [
         {
-          vars: {
-            charm: {
-              "Prospector's": false,
-            },
-          },
           opts: {
             include: [
               'Bionic',
