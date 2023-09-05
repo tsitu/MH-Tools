@@ -1,0 +1,84 @@
+"Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
+"Mountain","-","Cheddar","-","19.15%","Brown",658
+"Mountain","-","Cheddar","-","19.00%","White",658
+"Mountain","-","Cheddar","-","18.84%","Frozen",658
+"Mountain","-","Cheddar","-","17.78%","Granite",658
+"Mountain","-","Cheddar","-","17.02%","Grey",658
+"Mountain","-","Cheddar","-","8.21%","Dwarf",658
+"Mountain","-","White Cheddar","-","45.09%","Frozen",1936
+"Mountain","-","White Cheddar","-","37.50%","Granite",1936
+"Mountain","-","White Cheddar","-","17.41%","Dwarf",1936
+"Mountain","-","Marble","-","19.75%","Granite",162
+"Mountain","-","Marble","-","16.05%","Frozen",162
+"Mountain","-","Marble","-","14.81%","Dwarf",162
+"Mountain","-","Marble","-","10.49%","Brown",162
+"Mountain","-","Marble","-","9.88%","Grey",162
+"Mountain","-","Marble","-","8.64%","White",162
+"Mountain","-","Marble","-","8.64%","Bionic",162
+"Mountain","-","Marble","-","6.79%","Diamond",162
+"Mountain","-","Marble","-","4.94%","Gold",162
+"Mountain","-","Swiss","-","25.00%","Dwarf",576
+"Mountain","-","Swiss","-","15.63%","Steel",576
+"Mountain","-","Swiss","-","13.72%","Bionic",576
+"Mountain","-","Swiss","-","9.03%","Frozen",576
+"Mountain","-","Swiss","-","8.51%","Ninja",576
+"Mountain","-","Swiss","-","6.25%","Gold",576
+"Mountain","-","Swiss","-","6.08%","Diamond",576
+"Mountain","-","Swiss","-","5.56%","White",576
+"Mountain","-","Swiss","-","3.99%","Zombie",576
+"Mountain","-","Swiss","-","3.30%","Brown",576
+"Mountain","-","Swiss","-","2.95%","Grey",576
+"Mountain","-","Brie","-","18.34%","Flying",4280
+"Mountain","-","Brie","-","15.89%","Steel",4280
+"Mountain","-","Brie","-","15.12%","Diamond",4280
+"Mountain","-","Brie","-","14.70%","Bionic",4280
+"Mountain","-","Brie","-","13.18%","Ninja",4280
+"Mountain","-","Brie","-","10.98%","Gold",4280
+"Mountain","-","Brie","-","7.69%","Frozen",4280
+"Mountain","-","Brie","-","4.11%","Zombie",4280
+"Mountain","-","Brie","Prospector's","22.45%","Diamond",294
+"Mountain","-","Brie","Prospector's","15.99%","Steel",294
+"Mountain","-","Brie","Prospector's","14.97%","Gold",294
+"Mountain","-","Brie","Prospector's","14.29%","Flying",294
+"Mountain","-","Brie","Prospector's","13.95%","Bionic",294
+"Mountain","-","Brie","Prospector's","9.52%","Ninja",294
+"Mountain","-","Brie","Prospector's","5.78%","Frozen",294
+"Mountain","-","Brie","Prospector's","3.06%","Zombie",294
+"Mountain","-","Gouda","-","18.91%","Flying",2691
+"Mountain","-","Gouda","-","16.43%","Diamond",2691
+"Mountain","-","Gouda","-","15.98%","Gold",2691
+"Mountain","-","Gouda","-","15.68%","Steel",2691
+"Mountain","-","Gouda","-","13.94%","Bionic",2691
+"Mountain","-","Gouda","-","12.93%","Ninja",2691
+"Mountain","-","Gouda","-","6.13%","Zombie",2691
+"Mountain","-","Gouda","Prospector's","19.03%","Flying",925
+"Mountain","-","Gouda","Prospector's","16.97%","Diamond",925
+"Mountain","-","Gouda","Prospector's","15.14%","Bionic",925
+"Mountain","-","Gouda","Prospector's","14.70%","Gold",925
+"Mountain","-","Gouda","Prospector's","14.59%","Steel",925
+"Mountain","-","Gouda","Prospector's","12.86%","Ninja",925
+"Mountain","-","Gouda","Prospector's","6.70%","Zombie",925
+"Mountain","-","SB+","-","20.22%","Flying",9543
+"Mountain","-","SB+","-","14.97%","Pebble",9543
+"Mountain","-","SB+","-","13.45%","Silvertail",9543
+"Mountain","-","SB+","-","12.70%","Fog",9543
+"Mountain","-","SB+","-","11.18%","Frosty Snow",9543
+"Mountain","-","SB+","-","10.79%","Gold",9543
+"Mountain","-","SB+","-","6.76%","Diamond",9543
+"Mountain","-","SB+","-","6.04%","Ninja",9543
+"Mountain","-","SB+","-","2.82%","Zombie",9543
+"Mountain","-","SB+","-","1.06%","Black Widow",9543
+"Mountain","-","SB+","Prospector's","17.85%","Silvertail",874
+"Mountain","-","SB+","Prospector's","16.25%","Flying",874
+"Mountain","-","SB+","Prospector's","15.45%","Gold",874
+"Mountain","-","SB+","Prospector's","14.87%","Diamond",874
+"Mountain","-","SB+","Prospector's","10.41%","Fog",874
+"Mountain","-","SB+","Prospector's","10.30%","Pebble",874
+"Mountain","-","SB+","Prospector's","8.24%","Frosty Snow",874
+"Mountain","-","SB+","Prospector's","3.78%","Ninja",874
+"Mountain","-","SB+","Prospector's","2.17%","Zombie",874
+"Mountain","-","SB+","Prospector's","0.69%","Black Widow",874
+"Mountain","-","Chedd-Ore","-","35.93%","Craggy Ore",8831
+"Mountain","-","Chedd-Ore","-","34.55%","Slope Swimmer",8831
+"Mountain","-","Chedd-Ore","-","29.52%","Mountain",8831
+"Mountain","-","Abominable Asiago","-","100.00%","Abominable Snow",1806

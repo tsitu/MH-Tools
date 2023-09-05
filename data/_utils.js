@@ -77,7 +77,7 @@ exports.genVarItem = function genVarItem(type, value, base) {
  * @param {string} type
  * @param {string[]|string} values
  * @param {object} [{}] base
- * @returns {{vars: {type: {value: true}}, fields:{type: value}}}[]}
+ * @returns {{vars: {type: {value: true}}, fields:{type: value}}[]}}
  */
 exports.genVarField = function genVarField(type, values, base) {
   if (!Array.isArray(values)) values = [values];
