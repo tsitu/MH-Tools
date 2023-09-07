@@ -64,6 +64,7 @@ window.onload = function() {
   document.getElementById("umbraFloor").onchange = umbraChanged;
   document.getElementById("riftstalker").onchange = riftstalkerChange;
   document.getElementById("rank").onchange = rankChange;
+  document.getElementById("acolyteCatches").onchange = acolytesChanged
 
   document.getElementById("cheeseCost").onchange = function() {
     cheeseCost = parseInt(document.getElementById("cheeseCost").value);
@@ -827,6 +828,11 @@ function weaponChanged() {
         break;
       default:
     }
+  }
+
+  $("#father-timepiece-bonus-power").hide();
+  if (weaponName.indexOf("Father Winter's Timepiece") >= 0) {
+    $("#father-timepiece-bonus-power").show(500);
   }
 }
 

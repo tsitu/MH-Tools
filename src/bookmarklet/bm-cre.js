@@ -637,6 +637,17 @@
       });
   }
 
+  if (urlParams["weapon"] === "Father Winter's Timepiece Trap") {
+    document
+    .querySelectorAll(".campPage-trap-trapStat-mathRow-name")
+    .forEach(el => {
+      if (el.textContent.indexOf("(Acolyte Catches") >= 0)
+        urlParams["acolyteCatches"] = +el.textContent
+          .split("(Acolyte Catches: ")[1]
+          .split(")")[0];
+    });
+  }
+
   // Golem Guardian skin module check
   if (urlParams["weapon"].indexOf("Golem Guardian") >= 0) {
     urlParams["weapon"] =
