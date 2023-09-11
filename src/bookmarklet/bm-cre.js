@@ -172,28 +172,23 @@
       var DIRECTION_KEY = "direction";
       var RAIN_KEY = "rain";
       var WIND_KEY = "wind";
+      var PERCENT_KEY = "percent";
 
       var elements = userQuests["QuestMoussuPicchu"]["elements"];
       var stormLevel = elements["storm"][LEVEL_KEY];
 
-      // TODO: storm.level for 100/99 - medium or high? (likely former)
-      // TODO: storm.level for wind & rain both low (< 35%)
-      switch (stormLevel) {
-        case "high":
+      // storm.level tends to be inaccurate behind near thresholds
+      if (userCheese === "Dragonvine Cheese") {
+        var stormPercent = Math.min(elements[RAIN_KEY][PERCENT_KEY], elements[WIND_KEY][PERCENT_KEY]);
+        if (stormPercent === 100) {
           stormLevel = "max";
-          break;
-        case "medium":
+        } else if (stormPercent >= 80) {
           stormLevel = "high";
-          break;
-        case "low":
-          if (
-            elements[RAIN_KEY]["percent"] >= 35 &&
-            elements[WIND_KEY]["percent"] >= 35
-          ) {
-            stormLevel = "medium";
-          }
-          break;
-        default:
+        } else if (stormPercent >= 35) {
+          stormLevel = "medium";
+        } else {
+          stormLevel = "low";
+        }
       }
 
       if (stormLevel !== "none") {
