@@ -856,7 +856,7 @@ var charmsArray = {
   "Gemstone Boost Charm": [0, 0, 0, 0, "No Effect"],
   "Gift Wrapped Charm": [0, 0, 0, 2, "No Effect"],
   "Gilded Charm": [360, 3, 20, 3, "Extremely Fresh"],
-  "Gloomy Gathering Charm": [200, 2, 2, 4, "Ultimately Fresh"],
+  "Gloomy Charm": [200, 2, 2, 4, "Ultimately Fresh"],
   "Glowing Gourd Charm": [0, 10, 0, 0, "No Effect"],
   "Gnarled Charm": [250, 0, 5, 2, "No Effect"],
   "Golden Anchor Charm": [300, 4, 0, 0, "No Effect"],
