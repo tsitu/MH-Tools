@@ -45,7 +45,8 @@ var gsLuck = 7,
   subtotalPowerBonus = 0,
   tauntBonus = 0,
   saltLevel = 0,
-  umbraFloor = 0;
+  umbraFloor = 0,
+  acolyteCatches = 0;
 
 // Total trap stats
 var trapPower = 0,
@@ -290,6 +291,10 @@ function calculateTrapSetup(skipDisp) {
       charmName === "Dark Chocolate Charm"
     ) {
       shownPowerBonus += 20;
+    } else if (
+      weaponName === "Father Winter's Timepiece Trap"
+    ) {
+      specialPower += acolyteCatches * 2000;
     }
 
     determineRiftBonus(riftStalkerCodex);
@@ -772,6 +777,10 @@ function golemParamCheck() {
   }
 }
 
+function fatherWinterParamCheck() {
+  updateInputFromParameter("acolyteCatches", acolytesChanged);
+}
+
 // Update and validate changes in golem charge inputs
 function golemChargeChange(type, value) {
   if (typeof value === "string") {
@@ -964,6 +973,11 @@ function saltChanged() {
 function umbraChanged() {
   umbraFloor = document.getElementById("umbraFloor").value;
   localStorage.setItem("tsitu-umbra-floor", umbraFloor);
+  genericOnChange();
+}
+
+function acolytesChanged() {
+  acolyteCatches = document.getElementById("acolyteCatches").value;
   genericOnChange();
 }
 
@@ -1488,6 +1502,7 @@ function checkLoadState(type) {
     valourRiftParamCheck();
     rankParamCheck();
     golemParamCheck();
+    fatherWinterParamCheck();
 
     // Calculate bonuses after param checks are done
     calculateBonusPower();
