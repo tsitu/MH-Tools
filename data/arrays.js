@@ -1003,7 +1003,7 @@ var charmsArray = {
   "Ultimate Polluted Charm": [0, 0, 0, 0, "No Effect"],
   "Ultimate Party Charm": [0, 24, 0, 30, "No Effect"],
   "Ultimate Power Charm": [2500, 20, 0, 0, "No Effect"],
-  "Ulitmate Regal Charm": [4000, 10, 100, 18, "No Effect"],
+  "Ultimate Regal Charm": [4000, 10, 100, 18, "No Effect"],
   "Ultimate Snowball Charm": [800, 8, 8, 20, "No Effect"],
   "Ultimate Spooky Charm": [800, 8, 8, 20, "No Effect"],
   "Ultimate Spore Charm": [2000, 15, 15, 10, "Insanely Stale"],
