@@ -22,6 +22,7 @@
     "pop:furoma": "node data/pop furoma-rift > data/pop-csv/furoma-rift.csv",
     "!pop:ges": "node data/pop ges > data/pop-csv/ges.csv",
     "pop:geyser": "node data/pop queso-geyser > data/pop-csv/queso-geyser.csv",
+    "pop:gnawnia": "node data/pop town-of-gnawnia > data/pop-csv/town-of-gnawnia.csv",
     "pop:gwh": "node data/pop great-winter-hunt > data/pop-csv/great-winter-hunt.csv",
     "pop:harbour": "node data/pop harbour > data/pop-csv/harbour.csv",
     "pop:jod": "node data/pop jungle-of-dread > data/pop-csv/jungle-of-dread.csv",
