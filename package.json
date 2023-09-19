@@ -41,6 +41,7 @@
     "pop:toxic": "node data/pop toxic-spill > data/pop-csv/toxic-spill.csv",
     "pop:vrift": "node data/pop valour-rift > data/pop-csv/valour-rift.csv",
     "pop:warpath": "node data/pop warpath > data/pop-csv/fiery-warpath.csv",
+    "pop:windmill": "node data/pop windmill > data/pop-csv/windmill.csv",
     "pop": "npm-run-all --parallel pop:*",
     "\n-- MINIFICATION --": "",
     "minify:bookmarklet": "uglifyjs-folder src/bookmarklet -yeo src/bookmarklet -p **/*.js,!**/*min.js",
