@@ -17,6 +17,7 @@
     "data/pop-csv/fort-rox.csv",
     "data/pop-csv/fungal-cavern.csv",
     "data/pop-csv/furoma-rift.csv",
+    "data/pop-csv/gloomy-greenwood.csv",
     "data/pop-csv/great-winter-hunt.csv",
     "data/pop-csv/harbour.csv",
     "data/pop-csv/iceberg.csv",

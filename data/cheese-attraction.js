@@ -22,6 +22,7 @@ var baselineAttArray = {
   "Ascended": 1.0000, // Gamplay update 10/05
   "Beanster": 1.0000, // Added with BB release 09 May 23
   "Bland Queso": 0.9000, // Guesstimate | Calculated: 0.8970, Sample: 163254 (Excellent)
+  "Bonefort": 1.0000, // Added with Halloween 2021
   "Brie": 0.8500, // Gamplay update 10/05
   "Brie String": 0.8500, // Gamplay update 10/05
   "Candy Corn": 0.9000, // Guesstimate | Calculated: 0.9019, Sample: 3601 (High)
@@ -94,6 +95,7 @@ var baselineAttArray = {
   "Medium Queso": 1.0000, // Gamplay update 10/05
   "Mild Queso": 1.0000, // Gamplay update 10/05
   "Mineral": 1.0000, // Gamplay update 10/05
+  "Monterey Jack-O-Lantern": 1.0000, // Added with Halloween 2021
   "Moon": 1.0000, // Gamplay update 10/05
   "Mozzarella": 0.7000, // Gamplay update 10/05
   "Nian Gao'da": 1.0000, // Gamplay update 10/05
@@ -102,6 +104,7 @@ var baselineAttArray = {
   "Onyx Gorgonzola": 1.0000, // Gamplay update 10/05
   "Pecan Pecorino": 1.0000, // Gamplay update 10/05
   "Polluted Parmesan": 1.0000, // Gamplay update 10/05
+  "Polter-Geitost": 1.0000, // Added with Halloween 2021
   "Pungent Havarti": 1.0000, // Gamplay update 10/05
   "Radioactive Blue": 1.0000, // Gamplay update 10/05 | Sample: 28100
   "Rainy": 1.0000, // Gamplay update 10/05
@@ -120,6 +123,7 @@ var baselineAttArray = {
   "Runic String": 1.0000, // Gamplay update 10/05
   "Runny": 1.0000, // Gamplay update 10/05
   "SB+": 1.0000, // Gamplay update 10/05
+  "Scream": 1.0000, // Added with Halloween 2021
   "Seasoned Gouda": 0.9000, // Sample: 4275 (High)
   "Second Draft Derby": 1.0000, // Added with FF release
   "Shell": 1.0000, // Gamplay update 10/05
