@@ -3,10 +3,12 @@ const utils = require("../_utils");
 // Common Nomenclature
 // LAI = Low Altitude Island
 // HAI = High Altitude Island
-// SP = Sky Palace = vault
+// SP = Sky Palace = Vault
 
 /* Stages
-Base stage names
+Base stage names are built from the powertype then appended with Low or High or Palace
+
+All island names for reference
 +-----------+------------------+--------------------+--------------------+
 |   Type    |       Low        |        High        |       Palace       |
 +-----------+------------------+--------------------+--------------------+
@@ -24,24 +26,23 @@ Quotes ("") around a phrase indicate stage name, otherwise comments.
 
 Enemy encounter stages:
 "Warden"
-"<high_stage> Paragon"
+"<powertype> Paragon"
 "Empress"
 
 Palace Stage Modifiers:
 Whenever a palace run gets 3x of a the same modifier it gets put into a specific stage
-"<stage> <mod_counter>x <mod_type>"
+"<stage> - <mod_counter>x <mod_type>"
 <mod_type> can be the following:
-"Ancient Jade Stockpile"
-"Empyrean Seal Stowage"
-"Ore and Glass Deposit"
-"Sky Pirate Den" (only when NOT hunting with SPS)
+"Jade"
+"Emp Seal"
+"Glass + Ore"
+"Pirates" (only when NOT hunting with SPS)
 
 Special stage cases
 Loot cache are handled slightly different, both for low, high, and palace runs but only with CC and ERCC equipped
-"<stage> - Loot x<mod_count>" (mod 2x for low/high and 2x to 4x for palace)
+"<stage> - <mod_count>x Loot" (mod 2x for low/high and 2x to 4x for palace)
 Pirates are the final special case. Equipping Sky Pirate Swiss will change the stage.
-"No Pirates"
-"<Island|Vault> Pirates x<mod_count>" Choose Island (even for high alt) or Vault, then up to 2x for low/high and up to 4x for palace
+"<[Low|High]|Palace> - <mod_count>x Pirates" Choose "Low|High" or Palace, then up to 2x for low/high and up to 4x for palace
 
 */
 
@@ -83,88 +84,48 @@ const empyrean_guard = [
 ];
 
 const palace_stage_mods = [
-  "Ancient Jade Stockpile",
-  "Empyrean Seal Stowage",
-  "Ore and Glass Deposit",
-  "Sky Pirate Den",
+  "Jade",
+  "Emp Seal",
+  "Glass + Ore",
+  "Pirates",
 ]
 
 const island_configurations = {
   Arcane: {
     Common: ["Sky Glass Glazier", "Sky Glass Sorcerer"], // Appear in Low, High, Palace with any cheese: Common, CC, ERCC.
     Cloud: ["Sky Dancer", "Sky Highborne", "Sky Glider"], // CC or ERCC only
-    Stages: {
-      Low: "Arcane Island",
-      High: "Arcane Keep",
-      Palace: "Arcane Cauldron",
-    }
   },
   Draconic: {
     Common: ["Lancer Guard", "Tiny Dragonfly"],
     Cloud: ["Dragonbreather", "Regal Spearman", "Empyrean Javelineer"],
-    Stages: {
-      Low: "Draconic Island",
-      High: "Draconic Sanctuary",
-      Palace: "Draconic Hoard"
-    },
   },
   Forgotten: {
     Common: ["Spry Sky Explorer", "Spry Sky Seer"],
     Cloud: ["Cumulost", "Spheric Diviner", "Forgotten Elder"],
-    Stages: {
-      Low: "Forgotten Island",
-      High: "Forgotten Fortress",
-      Palace: "Forgotten Tomb"
-    },
   },
   Hydro: {
     Common: ["Nimbomancer", "Sky Surfer"],
     Cloud: ["Cute Cloud Conjurer", "Mist Maker", "Cloud Strider"],
-    Stages: {
-      Low: "Hydro Island",
-      High: "Hydro Hideaway",
-      Palace: "Hydro Reservoir"
-    },
   },
   Law: {
     Common: ["Stack of Thieves", "Devious Gentleman"],
     Cloud: ["Lawbender", "Agent M", "Aristo-Cat Burglar"],
-    Stages: {
-      Low: "Law Island",
-      High: "Law Garrison",
-      Palace: "Law Lockup"
-    },
   },
   Physical: {
     Common: ["Sky Swordsman", "Ground Gavaleer"],
     Cloud: ["Herc", "Sky Squire", "Glamorous Gladiator"],
-    Stages: {
-      Low: "Physical Island",
-      High: "Physical Palisade",
-      Palace: "Physical Strongbox"
-    },
   },
   Shadow: {
     Common: ["Astrological Astronomer", "Overcaster"],
     Cloud: ["Stratocaster", "Shadow Sage", "Zealous Academic"],
-    Stages: {
-      Low: "Shadow Island",
-      High: "Shadow Stronghold",
-      Palace: "Shadow Crypt"
-    },
   },
   Tactical: {
     Common: ["Gyrologer", "Worried Wayfinder"],
     Cloud: ["Seasoned Islandographer", "Captain Cloudkicker", "Rocketeer"],
-    Stages: {
-      Low: "Tactical Island",
-      High: "Tactical Castle",
-      Palace: "Tactical Maze"
-    },
   },
 }
 
-var config = {
+const config = {
   default: {
     location: utils.genVarField("location", "Floating Islands")
   },
@@ -183,14 +144,15 @@ var config = {
     {
       cheese: utils.genVarField("cheese", "Sky Pirate Swiss"),
       stage: utils.genVarField("stage", [
-        "Island No Pirates",
-        "Island Pirates x1",
-        "Island Pirates x2",
-        "Vault No Pirates",
-        "Vault Pirates x1",
-        "Vault Pirates x2",
-        "Vault Pirates x3",
-        "Vault Pirates x4"]),
+        "Low|High - 0x Pirates",
+        "Low|High - 1x Pirates",
+        "Low|High - 2x Pirates",
+        "Palace - 0x Pirates",
+        "Palace - 1x Pirates",
+        "Palace - 2x Pirates",
+        "Palace - 3x Pirates",
+        "Palace - 4x Pirates"
+      ]),
       config: [
         {
           opts: {
@@ -269,45 +231,44 @@ var config = {
 
 /**
  * Generates all possible Palace stages from the different stage mod
- * @param {string} stage Base palace stage name
+ * @param {string} powerType Base palace stage name
  * @returns {string[]} An array of generated stages plus the original stage from the argument
  */
-function generatePalaceStages(stage) {
-  var stages = [stage];
-  for (modType of palace_stage_mods) {
-    for (modCount of [3, 4]) {
-      stages.push(`${stage} ${modCount}x ${modType}`);
-    }
+function generatePalaceStages(powerType) {
+  const stages = [`${powerType} Palace`];
+
+  for (const modType of palace_stage_mods) {
+    stages.push(`${powerType} Palace - 3x ${modType}`);
+    stages.push(`${powerType} Palace - 4x ${modType}`);
   }
+
   return stages;
 }
 
 /**
  * Generate all stages need for loot caches (Rich + Fool)
- * @param {{Low: string, High: string, Palace: string}} islandStages 
+ * @param {string} powerType
  * @returns {string[]}
  */
-function generateLootCacheStages(islandStages) {
-  var stages = []
-  for (let stage of [islandStages.Low, islandStages.High]) {
-    stages.push(`${stage} - Loot x2`)
-  }
-
-  for (let i = 2; i <= 4; i++) {
-    stages.push(`${islandStages.Palace} - Loot x${i}`)
-  }
-  return stages;
+function generateLootCacheStages(powerType) {
+  return [
+    `${powerType} Low - 2x Loot`,
+    `${powerType} High - 2x Loot`,
+    `${powerType} Palace - 2x Loot`,
+    `${powerType} Palace - 3x Loot`,
+    `${powerType} Palace - 4x Loot`,
+  ];
 }
 
 function generateConfig() {
-  
+
   for (const [powerType, value] of Object.entries(island_configurations)) {
-    
+
     // All non-special LAI, HAI, SP stages
-    var stages = [value.Stages.Low, value.Stages.High, ...generatePalaceStages(value.Stages.Palace)];
-    for (cheese of allCheese) {
+    const stages = [`${powerType} Low`, `${powerType} High`, ...generatePalaceStages(powerType)];
+    for (const cheese of allCheese) {
       const seriesMiceInclude = cheese.match(/Cheesecake/) ? value.Cloud : [];
-      for (let stage of stages) {
+      for (const stage of stages) {
         const series = {
           cheese: utils.genVarField("cheese", cheese),
           stage: utils.genVarField("stage", stage),
@@ -329,10 +290,10 @@ function generateConfig() {
     }
 
     // Loot Cache stages
-    var stages = generateLootCacheStages(value.Stages);
+    const lootStages = generateLootCacheStages(powerType);
     const series = {
       cheese: utils.genVarField("cheese", cloudCheese),
-      stage: utils.genVarField("stage", stages),
+      stage: utils.genVarField("stage", lootStages),
       config: [
         {
           opts: {

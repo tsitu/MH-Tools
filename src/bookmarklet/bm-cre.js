@@ -393,7 +393,15 @@
       }
     } else if (userLocation === "Floating Islands") {
       var fi = userQuests["QuestFloatingIslands"]["hunting_site_atts"];
-      var fiStage = fi["island_name"];
+      var fiStage = fi["island_name"].match(/^(\w+) .*$/)[1];
+
+      if (fi["is_low_tier_island"]) {
+        fiStage += " Low";
+      } else if ("is_high_tier_island") {
+        fiStage += " High";
+      } else if ("is_vault_island") {
+        fiStage += " Palace";
+      }
 
       if (fi["is_enemy_encounter"]) {
         if (fi["is_low_tier_island"]) {
@@ -405,7 +413,7 @@
         }
       } else if (userCheese === "Sky Pirate Swiss Cheese") {
         const piratesNum = fi["activated_island_mod_types"].filter(t => t === "sky_pirates").length;
-        return `${fi["is_vault_island"] ? "Vault " : "Island "}${piratesNum === 0 ? "No Pirates" : "Pirates x" + piratesNum}`;
+        return `${fi["is_vault_island"] ? "Palace" : "Low|High"} - ${piratesNum}x Pirates"`;
       } else if ((userCheese === "Cloud Cheesecake" || userCheese === "Extra Rich Cloud Cheesecake") &&
                   fi["activated_island_mod_types"].filter(i => i === "loot_cache").length >= 2) {
         fiStage += ` - Loot x${fi["activated_island_mod_types"].filter(i => i === "loot_cache").length}`
@@ -413,15 +421,21 @@
         const panels = {};
         fi["activated_island_mod_types"].forEach(t => t in panels ? panels[t]++ : panels[t] = 1);
         let counter = 0;
-        let mod_type = '';
+        let mod_type = "";
         for (const [type, num] of Object.entries(panels)) {
             if (num >= 3) {
                 counter = num;
                 mod_type = fi["island_mod_panels"].filter(p => p.type === type)[0].name;
             }
         }
-        if (counter && mod_type) {
-          fiStage += ` ${counter}x ${mod_type}`;
+        const shortMod = {
+          "Ancient Jade Stockpile": "Jade",
+          "Empyrean Seal Stowage": "Emp Seal",
+          "Ore and Glass Deposit": "Glass + Ore",
+          "Sky Pirate Den": "Pirates",
+        };
+        if (counter && shortMod[mod_type]) {
+          fiStage += ` - ${counter}x ${shortMod[mod_type]}`;
         }
       }
       return fiStage
