@@ -31,6 +31,11 @@
         bases.push("Signature Series Denture Base (Toothless)");
       }
 
+      // Auto-add Naughty List Printing Press Base variants
+      if (bases.indexOf("Naughty List Printing Press Base") >= 0) {
+        bases.push("Naughty List Printing Press (Paperless)");
+      }
+      
       var weapons = arr
         .filter(function(el) {
           return el.classification === "weapon" && el.quantity > 0;
