@@ -275,25 +275,16 @@
       var district_tier = quest.district_tier;
 
       if (contains(districtname, "Minotaur")) {
-        return "Lair of the Minotaur";
+        return "Lair - Each 30+";
+      } else if (district_type == "Treasury") {
+        var tiers = ["15+", "50+"]
+        return `Treasure ${tiers[district_tier - 1]}`
+      } else if (district_type == "Farming") {
+        var tiers = ["0", "50+"]
+        return `Farming ${tiers[district_tier - 1]}`
       } else {
-        var districts = {
-          Tech: ["Tech Foundry Outskirts", "Tech Research Center", "Manaforge"],
-          Scholar: [
-            "Neophyte Scholar Study",
-            "Master Scholar Auditorium",
-            "Dark Library"
-          ],
-          Fealty: [
-            "Outer Fealty Shrine",
-            "Inner Fealty Temple",
-            "Templar's Sanctum"
-          ],
-          Treasury: ["Treasure Room", "Treasure Vault"],
-          Farming: ["Farming Garden", "Overgrown Farmhouse"]
-        };
-
-        return districts[district_type][district_tier - 1];
+        var tiers = ["15+", "50+", "80+"]
+        return `${district_type} ${tiers[district_tier - 1]}`
       }
     } else if (userLocation === "Furoma Rift") {
       if (userQuests["QuestRiftFuroma"]["droid"]["charge_level"]) {

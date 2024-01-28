@@ -23,6 +23,7 @@
     "data/pop-csv/iceberg.csv",
     "data/pop-csv/jungle-of-dread.csv",
     "data/pop-csv/laboratory.csv",
+    "data/pop-csv/labyrinth.csv",
     "data/pop-csv/living-garden.csv",
     "data/pop-csv/lost-city.csv",
     "data/pop-csv/mountain.csv",
@@ -38,6 +39,7 @@
     "data/pop-csv/town-of-gnawnia.csv",
     "data/pop-csv/toxic-spill.csv",
     "data/pop-csv/valour-rift.csv",
+    "data/pop-csv/zokor.csv",
     "data/pop-csv/windmill.csv"
   ];
 
