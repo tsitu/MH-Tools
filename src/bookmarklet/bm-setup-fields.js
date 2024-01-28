@@ -254,6 +254,8 @@
       state = state.replace(/high/g, "Medium");
       state = state.replace(/boss/g, "High");
       return state;
+    } else if (userLocation === "Fungal Cavern") {
+      return userBase === "Gemology Base" ? "Gemology Base" : "Not Gemology";
     } else if (userLocation === "Zokor") {
       var quest = userQuests["QuestAncientCity"];
 

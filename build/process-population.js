@@ -17,6 +17,7 @@
     "data/pop-csv/fort-rox.csv",
     "data/pop-csv/fungal-cavern.csv",
     "data/pop-csv/furoma-rift.csv",
+    "data/pop-csv/gloomy-greenwood.csv",
     "data/pop-csv/great-winter-hunt.csv",
     "data/pop-csv/harbour.csv",
     "data/pop-csv/iceberg.csv",
@@ -35,9 +36,11 @@
     "data/pop-csv/ronza.csv",
     "data/pop-csv/table-of-contents.csv",
     "data/pop-csv/town-of-digby.csv",
+    "data/pop-csv/town-of-gnawnia.csv",
     "data/pop-csv/toxic-spill.csv",
     "data/pop-csv/valour-rift.csv",
-    "data/pop-csv/zokor.csv"
+    "data/pop-csv/zokor.csv",
+    "data/pop-csv/windmill.csv"
   ];
 
   const fs = require("fs");
