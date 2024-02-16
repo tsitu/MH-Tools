@@ -58,6 +58,7 @@
     "population": "node build/process-population.js",
     "build": "npm-run-all --parallel mouse-data population",
     "\n-- MISC --": "",
+    "mp-effs": "node data/mp-effs > data/mouse-power-effs.csv",
     "serve": "http-server -p 8000",
     "postinstall": "patch-package"
   },
@@ -87,6 +88,7 @@
     "@octokit/auth-action": "^2.0.4",
     "@octokit/rest": "^19.0.11",
     "bluebird": "^3.5.1",
+    "csv": "^6.3.6",
     "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",

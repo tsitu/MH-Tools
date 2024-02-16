@@ -366,6 +366,10 @@ To update population data, download a copy of the most recent MHCT database dump
 
 If you would like to merge new data into the master branch, feel free to open a pull request - Travis CI will build it automatically and run the `build/process-sample-size.js` script, which generates sample size score deltas ([example](https://travis-ci.com/tsitu/MH-Tools/builds/91738912#L528)). We use this to verify that data is trending towards improvement.
 
+### :mouse2: Mouse Power & Effectiveness
+
+To update mouse powers and their power type effectivenesses, use command `npm run mp-effs` to pull the data from the MinLuck spreadsheet maintained by community members in the Discord.
+
 ### :barber: Coding Style
 
 We use ESLint ([`config-airbnb-base`](https://www.npmjs.com/package/eslint-config-airbnb-base)) configured with Prettier ([`prettier/recommended`](https://prettier.io/docs/en/eslint.html#why-not-both)) to enforce consistent coding conventions.
@@ -381,6 +385,7 @@ _This is still a work in progress, along with converting the codebase to align w
 - MH Data Repository - MP/E, Gold/Points, Groups ([spreadsheet](https://docs.google.com/spreadsheets/d/1l6P9Cp2HceKSXgJKzcOy26lK_5BEAsAO9HhoiSYviTY/edit?usp=sharing))
 - Mouse Wisdom Values ([spreadsheet](https://docs.google.com/spreadsheets/d/1nzD6iiHauMMwD2eHBuAyRziYJtCVnNwSYzCKbBnrRgc/edit?usp=sharing))
 - New Area Mouse Powers + Effectiveness Values ([spreadsheet](https://docs.google.com/spreadsheets/d/1pnS4UVFMUndjX2H2s6hfyf5flMcppZyhZrn8EUH23S8/edit?usp=sharing))
+- Minimum Luck Values ([spreadsheet](https://docs.google.com/spreadsheets/d/13hKjNDFTFR3rTkmQzyi3d4ZDOlQJUvTfWPDQemmFW_Y/))
 - Marketplace Analyzer ([forum thread](https://www.mousehuntgame.com/forum/showthread.php?126255-Marketplace-Analyzer&goto=newpost))
 - Useful Userscripts ([Reddit wiki page](https://www.reddit.com/r/mousehunt/wiki/user-scripts))
 - Discord (join the [community server](https://discordapp.com/invite/Ya9zEdk))
