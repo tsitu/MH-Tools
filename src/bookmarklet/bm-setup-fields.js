@@ -571,7 +571,7 @@
         userCheese = userCheese.slice(16, userCheese.length);
         userSublocation = userCheese;
       } else {
-        userCheese = userCheese.slice(0, userCheese.indexOf(" Cheese"));
+        userCheese = userCheese.replace(/ Cheese$/gi, '');
       }
     } else if (userCheese === "Fusion Fondue") {
       urlParams["location"] = "M400 Hunting";
