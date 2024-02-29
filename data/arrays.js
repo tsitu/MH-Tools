@@ -493,6 +493,7 @@ var basesArray = {
   "Living Grove Base": [450, 10, 5, 8, "Very Fresh"],
   "Magma Base": [300, 8, 5, 10, "Insanely Stale"],
   "Magnet Base": [250, 10, 0, 5, "Fresh"],
+  "Marble Cake Base": [300, 16, 16, 10, "Insanely Stale"],
   "Minotaur Base": [1000, 20, 10, 15, "Fresh"],
   "Mist Meter Regulator Base": [300, 10, 15, 6, "Ultimately Fresh"],
   "Molten Shrapnel Base": [350, 12, 5, 8, "Extremely Stale"],
