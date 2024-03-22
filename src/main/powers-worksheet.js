@@ -11,23 +11,58 @@ const trapTypes = [
   "Rift"
 ];
 
-const subcategories = {
-  "Indigenous Mice": ["Misc.", "Great Gnawnian Games", "Rare Rodents"],
-  "Dock Dwellers": ["Misc."],
-  "Mountain Mice": ["Misc."],
-  "Forest Guild": ["Misc."],
-  "Lab Experiments": ["Misc."],
-  "Shadow Clan": ["Misc."],
-  "Digby Dirt Dwellers": ["Misc."],
-  "Followers of Furoma": ["Misc."],
-  "The Forgotten Mice": ["Misc."],
-  "Aquatic Order": ["Misc."],
-  "The Elub Tribe": ["Misc."],
-  "The Nerg Tribe": ["Misc."],
-  "The Derr Tribe": ["Misc."],
-  "The Dreaded Horde": ["Misc."],
-  "Draconic Brood": ["Misc."],
-  "Balack's Banished": ["Misc."],
+var subcategories = {
+  "Indigenous Mice": [
+    "Misc.",
+    "Shiny Seekers",
+    "Great Gnawnian Games",
+    "Rare Rodent"
+  ],
+  "Dock Dwellers": [
+    "Misc."
+  ],
+  "Mountain Mice": [
+    "Misc."
+  ],
+  "Forest Guild": [
+    "Misc."
+  ],
+  "Lab Experiments": [
+    "Misc."
+  ],
+  "Shadow Clan": [
+    "Misc."
+  ],
+  "Digby Dirt Dwellers": [
+    "Misc."
+  ],
+  "Followers of Furoma": [
+    "Misc."
+  ],
+  "The Forgotten Mice": [
+    "Misc."
+  ],
+  "Aquatic Order": [
+    "Misc."
+  ],
+  "The Elub Tribe": [
+    "Misc."
+  ],
+  "The Nerg Tribe": [
+    "Misc."
+  ],
+  "The Derr Tribe": [
+    "Misc."
+  ],
+  "The Dreaded Horde": [
+    "Misc."
+  ],
+  "Draconic Brood": [
+    "Misc."
+  ],
+  "Balack's Banished": [
+    "Misc."
+  ],
   "Gauntlet Gladiators": [
     "Tier 1: Puppet",
     "Tier 2: Thief",
@@ -38,9 +73,20 @@ const subcategories = {
     "Tier 7: Dust",
     "Tier 8: The Eclipse"
   ],
-  "Seasonal Soldiers": ["Spring", "Summer", "Fall", "Winter"],
-  "Wizard's Pieces": ["Misc.", "Mystic", "Technic"],
-  "Zurreal's Breed": ["Misc."],
+  "Seasonal Soldiers": [
+    "Spring",
+    "Summer",
+    "Fall",
+    "Winter"
+  ],
+  "Wizard's Pieces": [
+    "Misc.",
+    "Mystic",
+    "Technic"
+  ],
+  "Zurreal's Breed": [
+    "Misc."
+  ],
   "Icewing's Invasion": [
     "Misc.",
     "Bergling",
@@ -50,7 +96,11 @@ const subcategories = {
     "Zealot",
     "Icewing's Generals"
   ],
-  "Wild Bunch": ["Misc.", "Crew", "Ringleader"],
+  "Wild Bunch": [
+    "Misc.",
+    "Crew",
+    "Ringleader"
+  ],
   "Train Robbers": [
     "Passenger",
     "Depot Worker",
@@ -75,10 +125,18 @@ const subcategories = {
     "Support",
     "Command"
   ],
-  "Muridae Market Mice": ["Misc."],
-  "Living Garden Mice": ["Misc."],
-  "Lost City Mice": ["Misc."],
-  "Sand Dunes Mice": ["Misc."],
+  "Muridae Market Mice": [
+    "Misc."
+  ],
+  "Living Garden Mice": [
+    "Misc."
+  ],
+  "Lost City Mice": [
+    "Misc."
+  ],
+  "Sand Dunes Mice": [
+    "Misc."
+  ],
   "Queso Canyoneers": [
     "River Riders",
     "Spice Mice",
@@ -121,19 +179,21 @@ const subcategories = {
   ],
   "Floating Islanders": [
     "Launch Pad",
-    "Cloud Commoners",
-    "Physical Pummelers",
-    "Shadow Overcasters",
-    "Tactical Dog Fighters",
+    "Cloud Commoner",
+    "Physical Pummeler",
+    "Shadow Overcaster",
+    "Tactical Dog Fighter",
     "Atmospheric Arcane",
     "Floating Forgotten",
     "Hovering Hydro",
-    "Dashing Dragons",
-    "Lofty Lawbreakers",
-    "Sky Pirates",
-    "Sky Wardens",
-    "Sky Paragons",
-    "The Richest"
+    "Dashing Dragon",
+    "Lofty Lawbreaker",
+    "Sky Pirate",
+    "Sky Warden",
+    "Sky Paragon",
+    "Palace Protectors",
+    "The Richest",
+    "Empyrean Guard"
   ],
   "Foreword Farmers": [
     "Seed Stowers",
@@ -155,19 +215,28 @@ const subcategories = {
     "Ballroom Blitzers",
     "Ruthless Royals"
   ],
-  "Rift Walkers": ["Gnawnia Rift", "Burroughs Rift", "Whisker Woods Rift"],
-  "Rift Stalkers": ["Bristle Woods Rift", "Furoma Rift", "Valour Rift"],
-  "The Polluted": ["Misc."],
+  "Rift Walkers": [
+    "Gnawnia Rift",
+    "Burroughs Rift",
+    "Whisker Woods Rift"
+  ],
+  "Rift Stalkers": [
+    "Furoma Rift",
+    "Bristle Woods Rift",
+    "Valour Rift"
+  ],
+  "The Polluted": [
+    "Misc."
+  ],
   "Event Mice": [
-    "Great Winter Hunt",
-    "Halloween",
-    "Spring Egg Hunt",
-    "New Year",
     "Misc.",
-    "Prize",
-    "Birthday",
     "Lunar New Year",
-    "Valentine's"
+    "Birthday",
+    "Spring Egg Hunt",
+    "Halloween",
+    "Great Winter Hunt",
+    "New Year",
+    "Prize"
   ]
 };
 
