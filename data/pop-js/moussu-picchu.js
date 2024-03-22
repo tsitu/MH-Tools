@@ -200,7 +200,7 @@ module.exports = {
           opts: {
             include: [
               "Dragoon",
-              "Ful'Mina, The Mountain Queen",
+              "Ful'Mina the Mountain Queen",
               "Thundering Watcher"
             ]
           }
@@ -218,7 +218,7 @@ module.exports = {
           fields: { stage: "Storm max", cheese: "Dragonvine" },
           opts: {
             include: [
-              "Ful'Mina, The Mountain Queen",
+              "Ful'Mina the Mountain Queen",
             ]
           }
         }
