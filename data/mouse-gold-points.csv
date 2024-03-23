@@ -88,7 +88,7 @@ Brimstone,2300,11200
 Brothers Grimmaus,2750,7750
 Brown,150,115
 Bruticle,5040,16560
-"Bruticus, the Blazing",15000,90000
+Bruticus the Blazing,15000,90000
 Buccaneer,2750,4290
 Buckethead,2000,1700
 Budrich Thornborn,5000,35000
@@ -175,7 +175,7 @@ Coral Queen,2850,37000
 Core Sample,1000,2600
 Cork Defender,2900,10000
 Corkataur,40000,225000
-"Corky, the Collector",5000,20000
+Corky the Collector,5000,20000
 Corridor Bruiser,8000,50000
 Corrupt,1250,8250
 Corrupt Commodore,600,400
@@ -223,7 +223,7 @@ Cupcake Camo,2000,5500
 Cupcake Candle Thief,3000,3000
 Cupcake Cutie,2000,5000
 Cupcake Runner,3000,3500
-Cupid,900,875
+Cupid,2222,222
 Curious Chemist,400,2400
 Cursed,1250,6500
 Cursed Crusader,3000,70000
@@ -367,7 +367,6 @@ Force Fighter Green,5000,6000
 Force Fighter Pink,2550,5000
 Force Fighter Red,2700,4000
 Force Fighter Yellow,3000,5000
-Forever Alone,600,1200
 Forgotten Elder,22000,210000
 Fortuitous Fool,60000,200000
 Foxy,1500,1650
@@ -382,7 +381,7 @@ Frostwing Commander,7525,22550
 Frosty Snow,2000,600
 Frozen,300,300
 Fuel,4000,5000
-"Ful'Mina, The Mountain Queen",30000,120000
+Ful'Mina the Mountain Queen,30000,120000
 Fungal Frog,3500,32250
 Fungal Spore,2650,15250
 Fungal Technomorph,12750,80800
@@ -396,7 +395,7 @@ Gelatinous Octahedron,2000,21000
 Gemorpher,3000,50000
 Gemstone Worshipper,10000,68000
 General Drheller,7595,36545
-Gentleman Caller,1000,850
+Gentleman Caller,2500,5000
 Ghost,3500,3250
 Ghost Pirate Queen,10000,15000
 Giant Snail,550,5750
@@ -407,7 +406,7 @@ Gladiator,8250,8365
 Glamorous Gladiator,31000,205000
 Glass Blower,6000,18000
 Glazy,10000,50000
-Glitchpaw,1200,1200
+Glitchpaw,2404,2404
 Gluttonous Zombie,2500,1500
 Goblin,3500,3500
 Gold,1500,600
@@ -463,7 +462,7 @@ Hollowed Minion,10000,10000
 Hollowhead,2000,875
 Homeopathic Apothecary,3000,45000
 Hookshot,9000,8000
-Hope,1000,1000
+Hope,2000,2000
 Horned Cork Hoarder,6000,35000
 Hot Head,550,2250
 Humphrey Dumphrey,4250,8000
@@ -485,7 +484,7 @@ Ignis,1000,4490
 Impersonator,180,120
 Incompetent Ice Climber,1150,3850
 Industrious Digger,890,3510
-"Inferna, The Engulfed",18000,150000
+Inferna the Engulfed,18000,150000
 Inferno Mage,1000,26500
 Infiltrator,1900,15800
 Itty Bitty Rifty Burroughs,4600,36000
@@ -495,10 +494,10 @@ Jovial Jailor,11000,69000
 Joy,12000,40000
 Juliyes,999,999
 Jurassic,6490,39470
-"Kalor'ignis of the Geyser",75000,325000
+Kalor'ignis of the Geyser,75000,325000
 Karmachameleon,4350,42500
 Keeper,3900,3950
-"Keeper's Assistant",1920,3170
+Keeper's Assistant,1920,3170
 Key Master,20000,92000
 King Grub,8500,35000
 King Scarab,22500,175000
@@ -532,7 +531,7 @@ Longtail,900,1000
 Lord Splodington,3295,21450
 Lost,995,30000
 Lost Legionnaire,2000,25500
-Lovely Sports,450,1850
+Lovely Sports,750,950
 Lucky,777,777
 Lumahead,1200,32000
 Lumberjack,3000,15500
@@ -542,7 +541,7 @@ Lycan,5500,9250
 Lycanoid,6500,50000
 M400,24400,600000
 Mad Elf,10000,32000
-"Madame d'Ormouse",2750,75000
+Madame d'Ormouse,2750,75000
 Mage Weaver,900,29000
 Magic,2250,2000
 Magic Champion,6000,100000
@@ -575,6 +574,7 @@ Matron of Machinery,27000,90000
 Matron of Wealth,20000,82000
 Mecha Tail,1000,45000
 Medicine,3550,33150
+Melancholy Merchant,101,1000
 Melodramatic Minnow,10000,50000
 Menace of the Rift,150000,350000
 Mermouse,600,2400
@@ -652,7 +652,7 @@ Mystic Scholar,12750,80800
 Mythical Giant King,1250000,3000000
 Mythweaver,70000,1000000
 Nachore Golem,7000,30000
-"Nachous, The Molten",35000,90000
+Nachous the Molten,35000,90000
 Narrator,600,900
 Naturalist,21000,85000
 Naughty Nougat,4000,20000
@@ -660,7 +660,7 @@ Necromancer,4000,17000
 Nefarious Nautilus,13000,62000
 Nerg Chieftain,9400,12545
 Nerg Lich,10340,40144
-"New Year's",200,9200
+New Year's,200,9200
 Nibbler,1400,1100
 Nice Knitting,1000,2100
 Night Shift Materials Manager,2000,25000
@@ -681,7 +681,7 @@ Nugget,550,6875
 Nutcracker,3000,15000
 Obstinate Oboist,12000,80000
 Octomermaid,2700,34200
-"Ol' King Coal",20000,50000
+Ol' King Coal,20000,50000
 Old One,2825,36500
 Old Spice Collector,2500,22000
 One-Mouse Band,2000,62000
@@ -782,7 +782,7 @@ Realm Ripper,1440,3000
 Reanimated Carver,9000,90000
 Reaper,1200,8700
 Record Keeper,4000,28000
-"Record Keeper's Assistant",3000,27000
+Record Keeper's Assistant,3000,27000
 Red Coat Bear,7500,47500
 Red Envelope,888,888
 Red-Eyed Watcher Owl,11500,71500
@@ -975,7 +975,7 @@ Stocking,9000,28000
 Stone Cutter,1800,4360
 Stone Maiden,5000,45000
 Stonework Warrior,4510,24670
-"Stormsurge, the Vile Tempest",20000,200000
+Stormsurge the Vile Tempest,20000,200000
 Stoutgear,8500,7000
 Stowaway,2000,4000
 Stratocaster,10250,102000
@@ -1054,7 +1054,7 @@ Toboggan Technician,3000,8000
 Tomb Exhumer,6500,50000
 Tome Sprite,1800,14000
 Tonic Salesman,8750,3000
-Totally Not Bitter,450,1850
+Totally Not Tax Fraud,24899,5000
 Toxic Avenger,1850,48000
 Toxic Warrior,7000,90000
 Toxikinetic,900,47500
@@ -1099,7 +1099,7 @@ Vanquisher,2560,9980
 Vaporior,7000,40000
 Vicious Vampire Squid,15000,64000
 Vigilant Ward,5000,42275
-"Vincent, The Magnificent",10000,10000
+Vincent the Magnificent,10000,10000
 Vindictive Viscount,13000,90000
 Vinetail,6580,13172
 Vinneus Stalkhome,20000,150000

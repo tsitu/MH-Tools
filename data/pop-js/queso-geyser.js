@@ -46,7 +46,7 @@ module.exports = {
               "Fuzzy Drake",
               "Cork Defender",
               "Burly Bruiser",
-              "Corky, the Collector"
+              "Corky the Collector"
             ]
           }
         }
@@ -65,7 +65,7 @@ module.exports = {
               "Fuzzy Drake",
               "Cork Defender",
               "Burly Bruiser",
-              "Corky, the Collector",
+              "Corky the Collector",
               "Horned Cork Hoarder"
             ]
           }
@@ -84,7 +84,7 @@ module.exports = {
             include: [
               "Cork Defender",
               "Burly Bruiser",
-              "Corky, the Collector",
+              "Corky the Collector",
               "Horned Cork Hoarder",
               "Rambunctious Rain Rumbler"
             ]
@@ -231,7 +231,7 @@ module.exports = {
               "Mild Spicekin",
               "Smoldersnap",
               "Ignatia",
-              "Bruticus, the Blazing"
+              "Bruticus the Blazing"
             ]
           }
         }
@@ -292,7 +292,7 @@ module.exports = {
               "Sizzle Pup",
               "Smoldersnap",
               "Ignatia",
-              "Bruticus, the Blazing"
+              "Bruticus the Blazing"
             ]
           }
         }
@@ -358,7 +358,7 @@ module.exports = {
               "Bearded Elder",
               "Smoldersnap",
               "Ignatia",
-              "Bruticus, the Blazing"
+              "Bruticus the Blazing"
             ]
           }
         }
@@ -419,7 +419,7 @@ module.exports = {
               "Cinderstorm",
               "Smoldersnap",
               "Ignatia",
-              "Bruticus, the Blazing"
+              "Bruticus the Blazing"
             ]
           }
         }
@@ -434,7 +434,7 @@ module.exports = {
           },
           fields: { stage: "Epic Eruption", cheese: "Mild Queso" },
           opts: {
-            include: ["Mild Spicekin", "Stormsurge, the Vile Tempest"]
+            include: ["Mild Spicekin", "Stormsurge the Vile Tempest"]
           }
         }
       ]
@@ -450,7 +450,7 @@ module.exports = {
           opts: {
             include: [
               "Mild Spicekin",
-              "Stormsurge, the Vile Tempest",
+              "Stormsurge the Vile Tempest",
               "Smoldersnap"
             ]
           }
@@ -468,7 +468,7 @@ module.exports = {
           opts: {
             include: [
               "Mild Spicekin",
-              "Stormsurge, the Vile Tempest",
+              "Stormsurge the Vile Tempest",
               "Smoldersnap",
               "Ignatia"
             ]
@@ -486,10 +486,10 @@ module.exports = {
           fields: { stage: "Epic Eruption", cheese: "Flamin' Queso" },
           opts: {
             include: [
-              "Stormsurge, the Vile Tempest",
+              "Stormsurge the Vile Tempest",
               "Smoldersnap",
               "Ignatia",
-              "Bruticus, the Blazing"
+              "Bruticus the Blazing"
             ]
           }
         }
