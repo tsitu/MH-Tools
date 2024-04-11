@@ -18,6 +18,7 @@ exports.preparePopulation = function(base, population) {
   return _.extend({}, base, {
     mouse: population.mouse,
     attraction: (population.attraction * 100).toFixed(2) + "%",
+    seen: population.seen,
     sample: population.sample
   });
 };

@@ -44,6 +44,7 @@
     "pop:warpath": "node data/pop warpath > data/pop-csv/fiery-warpath.csv",
     "pop:zokor": "node data/pop zokor > data/pop-csv/zokor.csv",
     "pop:windmill": "node data/pop windmill > data/pop-csv/windmill.csv",
+    "pop:zt": "node data/pop zugzwangs-tower > data/pop-csv/zugzwangs-tower.csv",
     "pop": "npm-run-all --parallel pop:*",
     "\n-- MINIFICATION --": "",
     "minify:bookmarklet": "uglifyjs-folder src/bookmarklet -yeo src/bookmarklet -p **/*.js,!**/*min.js",
