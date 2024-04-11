@@ -44,7 +44,7 @@
     var userViewingAtts = user["viewing_atts"];
 
     if (userLocation === "Balack's Cove") {
-      var tide = userViewingAtts["tide"];
+      var tide = userQuests["QuestBalacksCove"]["tide"]["level"];
       if (tide === "low") {
         return "Low Tide";
       } else if (tide === "med") {
