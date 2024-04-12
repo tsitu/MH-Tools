@@ -1286,34 +1286,41 @@ function checkPhase() {
 function calcCREffects(catchRate, mouseName, eff, mousePower) {
   var weaponPowerDelta = 0;
   var weaponBonusDelta = 0;
+  var weaponLuckDelta = 0;
   var charmBonusDelta = 0;
   var tauntBonusDelta = 0;
   if (locationName === "Zugzwang's Tower") {
     if (mouseName === "Technic Pawn") {
       if (weaponName === "Mystic Pawn Pincher") {
         weaponPowerDelta -= 60;
-        weaponBonusDelta -= 5;
+        weaponLuckDelta -= 0.05;
       } else if (weaponName === "Technic Pawn Pincher") {
         weaponPowerDelta += 10920;
+        weaponLuckDelta += 51;
       }
     } else if (mouseName === "Mystic Pawn") {
       if (weaponName === "Mystic Pawn Pincher") {
         weaponPowerDelta += 10920;
+        weaponLuckDelta += 51;
       } else if (weaponName === "Technic Pawn Pincher") {
         weaponPowerDelta -= 60;
-        weaponBonusDelta -= 5;
+        weaponLuckDelta -= 0.05;
       }
     } else if (contains(mouseName, "Mystic")) {
         if (weaponName === "Obvious Ambush Trap") {
         weaponPowerDelta -= 2400;
+        weaponLuckDelta -= 9;
       } else if (weaponName === "Blackstone Pass Trap") {
         weaponPowerDelta += 1800;
+        weaponLuckDelta += 6;
       }
     } else if (contains(mouseName, "Technic")) {
         if (weaponName === "Obvious Ambush Trap") {
-        weaponPowerDelta += 1800;
+          weaponPowerDelta += 1800;
+          weaponLuckDelta += 6;
       } else if (weaponName === "Blackstone Pass Trap") {
         weaponPowerDelta -= 2400;
+        weaponLuckDelta -= 9;
       }
     } if (contains(mouseName, "Rook") && charmName === "Rook Crumble Charm") {
       charmBonusDelta += 300;
@@ -1364,15 +1371,17 @@ function calcCREffects(catchRate, mouseName, eff, mousePower) {
       }
     }
   }
-  if (weaponPowerDelta !== 0 || weaponBonusDelta !== 0 || charmBonusDelta !== 0 || tauntBonusDelta !== 0) {
+  if (weaponPowerDelta !== 0 || weaponBonusDelta !== 0 || charmBonusDelta !== 0 || tauntBonusDelta !== 0 || weaponLuckDelta !== 0) {
     weaponPower += weaponPowerDelta;
     weaponBonus += weaponBonusDelta;
+    weaponLuck += weaponLuckDelta;
     charmBonus += charmBonusDelta;
     tauntBonus += tauntBonusDelta;
     calculateTrapSetup(true);
     catchRate = calcCR(eff, trapPower, trapLuck, mousePower);
     weaponPower -= weaponPowerDelta;
     weaponBonus -= weaponBonusDelta;
+    weaponLuck -= weaponLuckDelta;
     charmBonus -= charmBonusDelta;
     tauntBonus -= tauntBonusDelta;
     calculateTrapSetup(true);
