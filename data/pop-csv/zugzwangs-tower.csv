@@ -1,0 +1,174 @@
+"Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
+"Zugzwang's Tower","Technic Pawn Pincher","SB+/Gouda/Brie","-","89.64%","Technic Pawn",37468
+"Zugzwang's Tower","Technic Pawn Pincher","SB+/Gouda/Brie","-","10.36%","Mystic Pawn",37468
+"Zugzwang's Tower","Technic Knights","SB+/Gouda/Brie","-","57.72%","Technic Knight",20939
+"Zugzwang's Tower","Technic Knights","SB+/Gouda/Brie","-","22.82%","Mystic Pawn",20939
+"Zugzwang's Tower","Technic Knights","SB+/Gouda/Brie","-","19.46%","Technic Pawn",20939
+"Zugzwang's Tower","Technic Bishops","SB+/Gouda/Brie","-","40.11%","Technic Bishop",24576
+"Zugzwang's Tower","Technic Bishops","SB+/Gouda/Brie","-","27.43%","Technic Knight",24576
+"Zugzwang's Tower","Technic Bishops","SB+/Gouda/Brie","-","22.40%","Mystic Pawn",24576
+"Zugzwang's Tower","Technic Bishops","SB+/Gouda/Brie","-","10.06%","Technic Pawn",24576
+"Zugzwang's Tower","Technic Rooks","SB+/Gouda/Brie","-","40.82%","Technic Rook",23039
+"Zugzwang's Tower","Technic Rooks","SB+/Gouda/Brie","-","23.85%","Technic Bishop",23039
+"Zugzwang's Tower","Technic Rooks","SB+/Gouda/Brie","-","18.92%","Mystic Pawn",23039
+"Zugzwang's Tower","Technic Rooks","SB+/Gouda/Brie","-","8.35%","Technic Knight",23039
+"Zugzwang's Tower","Technic Rooks","SB+/Gouda/Brie","-","8.07%","Technic Pawn",23039
+"Zugzwang's Tower","Technic Queen","SB+/Gouda/Brie","-","28.54%","Technic Queen",12894
+"Zugzwang's Tower","Technic Queen","SB+/Gouda/Brie","-","20.06%","Mystic Pawn",12894
+"Zugzwang's Tower","Technic Queen","SB+/Gouda/Brie","-","19.31%","Technic Rook",12894
+"Zugzwang's Tower","Technic Queen","SB+/Gouda/Brie","-","18.66%","Technic Bishop",12894
+"Zugzwang's Tower","Technic Queen","SB+/Gouda/Brie","-","11.18%","Technic Knight",12894
+"Zugzwang's Tower","Technic Queen","SB+/Gouda/Brie","-","2.25%","Technic Pawn",12894
+"Zugzwang's Tower","Technic Queen","Checkmate","-","31.44%","Technic Queen",3006
+"Zugzwang's Tower","Technic Queen","Checkmate","-","18.06%","Technic Rook",3006
+"Zugzwang's Tower","Technic Queen","Checkmate","-","18.76%","Mystic Pawn",3006
+"Zugzwang's Tower","Technic Queen","Checkmate","-","15.97%","Technic Bishop",3006
+"Zugzwang's Tower","Technic Queen","Checkmate","-","14.07%","Technic Knight",3006
+"Zugzwang's Tower","Technic Queen","Checkmate","-","1.70%","Technic Pawn",3006
+"Zugzwang's Tower","Technic King","SB+/Gouda/Brie","-","17.19%","Technic Bishop",5026
+"Zugzwang's Tower","Technic King","SB+/Gouda/Brie","-","17.05%","Technic Queen",5026
+"Zugzwang's Tower","Technic King","SB+/Gouda/Brie","-","17.63%","Mystic Pawn",5026
+"Zugzwang's Tower","Technic King","SB+/Gouda/Brie","-","14.92%","Technic King",5026
+"Zugzwang's Tower","Technic King","SB+/Gouda/Brie","-","15.84%","Technic Rook",5026
+"Zugzwang's Tower","Technic King","SB+/Gouda/Brie","-","13.17%","Technic Knight",5026
+"Zugzwang's Tower","Technic King","SB+/Gouda/Brie","-","4.20%","Technic Pawn",5026
+"Zugzwang's Tower","Technic King","Checkmate","-","32.46%","Technic King",6920
+"Zugzwang's Tower","Technic King","Checkmate","-","27.95%","Mystic Pawn",6920
+"Zugzwang's Tower","Technic King","Checkmate","-","10.06%","Technic Queen",6920
+"Zugzwang's Tower","Technic King","Checkmate","-","10.48%","Technic Rook",6920
+"Zugzwang's Tower","Technic King","Checkmate","-","9.80%","Technic Bishop",6920
+"Zugzwang's Tower","Technic King","Checkmate","-","6.42%","Technic Knight",6920
+"Zugzwang's Tower","Technic King","Checkmate","-","2.85%","Technic Pawn",6920
+"Zugzwang's Tower","Technic Chess Master","Checkmate","-","64.53%","Chess Master",2763
+"Zugzwang's Tower","Technic Chess Master","Checkmate","-","24.97%","Mystic Pawn",2763
+"Zugzwang's Tower","Technic Chess Master","Checkmate","-","10.50%","Technic Rook",2763
+"Zugzwang's Tower","Mystic Pawn Pincher","SB+/Gouda/Brie","-","89.64%","Mystic Pawn",37468
+"Zugzwang's Tower","Mystic Pawn Pincher","SB+/Gouda/Brie","-","10.36%","Technic Pawn",37468
+"Zugzwang's Tower","Mystic Knights","SB+/Gouda/Brie","-","57.72%","Mystic Knight",20939
+"Zugzwang's Tower","Mystic Knights","SB+/Gouda/Brie","-","22.82%","Technic Pawn",20939
+"Zugzwang's Tower","Mystic Knights","SB+/Gouda/Brie","-","19.46%","Mystic Pawn",20939
+"Zugzwang's Tower","Mystic Bishops","SB+/Gouda/Brie","-","40.11%","Mystic Bishop",24576
+"Zugzwang's Tower","Mystic Bishops","SB+/Gouda/Brie","-","27.43%","Mystic Knight",24576
+"Zugzwang's Tower","Mystic Bishops","SB+/Gouda/Brie","-","22.40%","Technic Pawn",24576
+"Zugzwang's Tower","Mystic Bishops","SB+/Gouda/Brie","-","10.06%","Mystic Pawn",24576
+"Zugzwang's Tower","Mystic Rooks","SB+/Gouda/Brie","-","40.82%","Mystic Rook",23039
+"Zugzwang's Tower","Mystic Rooks","SB+/Gouda/Brie","-","23.85%","Mystic Bishop",23039
+"Zugzwang's Tower","Mystic Rooks","SB+/Gouda/Brie","-","18.92%","Technic Pawn",23039
+"Zugzwang's Tower","Mystic Rooks","SB+/Gouda/Brie","-","8.35%","Mystic Knight",23039
+"Zugzwang's Tower","Mystic Rooks","SB+/Gouda/Brie","-","8.07%","Mystic Pawn",23039
+"Zugzwang's Tower","Mystic Queen","SB+/Gouda/Brie","-","28.54%","Mystic Queen",12894
+"Zugzwang's Tower","Mystic Queen","SB+/Gouda/Brie","-","20.06%","Technic Pawn",12894
+"Zugzwang's Tower","Mystic Queen","SB+/Gouda/Brie","-","19.31%","Mystic Rook",12894
+"Zugzwang's Tower","Mystic Queen","SB+/Gouda/Brie","-","18.66%","Mystic Bishop",12894
+"Zugzwang's Tower","Mystic Queen","SB+/Gouda/Brie","-","11.18%","Mystic Knight",12894
+"Zugzwang's Tower","Mystic Queen","SB+/Gouda/Brie","-","2.25%","Mystic Pawn",12894
+"Zugzwang's Tower","Mystic Queen","Checkmate","-","31.44%","Mystic Queen",3006
+"Zugzwang's Tower","Mystic Queen","Checkmate","-","18.76%","Technic Pawn",3006
+"Zugzwang's Tower","Mystic Queen","Checkmate","-","18.06%","Mystic Rook",3006
+"Zugzwang's Tower","Mystic Queen","Checkmate","-","15.97%","Mystic Bishop",3006
+"Zugzwang's Tower","Mystic Queen","Checkmate","-","14.07%","Mystic Knight",3006
+"Zugzwang's Tower","Mystic Queen","Checkmate","-","1.70%","Mystic Pawn",3006
+"Zugzwang's Tower","Mystic King","Checkmate","-","32.46%","Mystic King",6920
+"Zugzwang's Tower","Mystic King","Checkmate","-","27.95%","Technic Pawn",6920
+"Zugzwang's Tower","Mystic King","Checkmate","-","10.48%","Mystic Rook",6920
+"Zugzwang's Tower","Mystic King","Checkmate","-","9.80%","Mystic Bishop",6920
+"Zugzwang's Tower","Mystic King","Checkmate","-","10.06%","Mystic Queen",6920
+"Zugzwang's Tower","Mystic King","Checkmate","-","6.42%","Mystic Knight",6920
+"Zugzwang's Tower","Mystic King","Checkmate","-","2.85%","Mystic Pawn",6920
+"Zugzwang's Tower","Mystic King","SB+/Gouda/Brie","-","17.63%","Technic Pawn",5026
+"Zugzwang's Tower","Mystic King","SB+/Gouda/Brie","-","17.05%","Mystic Queen",5026
+"Zugzwang's Tower","Mystic King","SB+/Gouda/Brie","-","15.84%","Mystic Rook",5026
+"Zugzwang's Tower","Mystic King","SB+/Gouda/Brie","-","17.19%","Mystic Bishop",5026
+"Zugzwang's Tower","Mystic King","SB+/Gouda/Brie","-","14.92%","Mystic King",5026
+"Zugzwang's Tower","Mystic King","SB+/Gouda/Brie","-","13.17%","Mystic Knight",5026
+"Zugzwang's Tower","Mystic King","SB+/Gouda/Brie","-","4.20%","Mystic Pawn",5026
+"Zugzwang's Tower","Mystic Chess Master","Checkmate","-","64.53%","Chess Master",2763
+"Zugzwang's Tower","Mystic Chess Master","Checkmate","-","24.97%","Technic Pawn",2763
+"Zugzwang's Tower","Mystic Chess Master","Checkmate","-","10.50%","Mystic Rook",2763
+"Zugzwang's Tower","Technic Pawn Pincher - Double Run","SB+/Gouda/Brie","-","99.01%","Technic Pawn",1307
+"Zugzwang's Tower","Technic Pawn Pincher - Double Run","SB+/Gouda/Brie","-","0.99%","Mystic Pawn",1307
+"Zugzwang's Tower","Technic Knights - Double Run","SB+/Gouda/Brie","-","73.47%","Technic Knight",3253
+"Zugzwang's Tower","Technic Knights - Double Run","SB+/Gouda/Brie","-","22.81%","Technic Pawn",3253
+"Zugzwang's Tower","Technic Knights - Double Run","SB+/Gouda/Brie","-","3.72%","Mystic Pawn",3253
+"Zugzwang's Tower","Technic Bishops - Double Run","SB+/Gouda/Brie","-","50.28%","Technic Bishop",4887
+"Zugzwang's Tower","Technic Bishops - Double Run","SB+/Gouda/Brie","-","33.80%","Technic Knight",4887
+"Zugzwang's Tower","Technic Bishops - Double Run","SB+/Gouda/Brie","-","12.28%","Technic Pawn",4887
+"Zugzwang's Tower","Technic Bishops - Double Run","SB+/Gouda/Brie","-","3.64%","Mystic Pawn",4887
+"Zugzwang's Tower","Technic Rooks - Double Run","SB+/Gouda/Brie","-","48.92%","Technic Rook",5987
+"Zugzwang's Tower","Technic Rooks - Double Run","SB+/Gouda/Brie","-","28.39%","Technic Bishop",5987
+"Zugzwang's Tower","Technic Rooks - Double Run","SB+/Gouda/Brie","-","10.02%","Technic Knight",5987
+"Zugzwang's Tower","Technic Rooks - Double Run","SB+/Gouda/Brie","-","9.59%","Technic Pawn",5987
+"Zugzwang's Tower","Technic Rooks - Double Run","SB+/Gouda/Brie","-","3.07%","Mystic Pawn",5987
+"Zugzwang's Tower","Technic Queen - Double Run","SB+/Gouda/Brie","-","33.97%","Technic Queen",4625
+"Zugzwang's Tower","Technic Queen - Double Run","SB+/Gouda/Brie","-","24.00%","Technic Rook",4625
+"Zugzwang's Tower","Technic Queen - Double Run","SB+/Gouda/Brie","-","22.29%","Technic Bishop",4625
+"Zugzwang's Tower","Technic Queen - Double Run","SB+/Gouda/Brie","-","14.05%","Technic Knight",4625
+"Zugzwang's Tower","Technic Queen - Double Run","SB+/Gouda/Brie","-","3.63%","Mystic Pawn",4625
+"Zugzwang's Tower","Technic Queen - Double Run","SB+/Gouda/Brie","-","2.05%","Technic Pawn",4625
+"Zugzwang's Tower","Technic Queen - Double Run","Checkmate","-","38.61%","Chess Master",1067
+"Zugzwang's Tower","Technic Queen - Double Run","Checkmate","-","22.96%","Technic Queen",1067
+"Zugzwang's Tower","Technic Queen - Double Run","Checkmate","-","13.12%","Technic Rook",1067
+"Zugzwang's Tower","Technic Queen - Double Run","Checkmate","-","10.87%","Technic Bishop",1067
+"Zugzwang's Tower","Technic Queen - Double Run","Checkmate","-","9.28%","Technic Knight",1067
+"Zugzwang's Tower","Technic Queen - Double Run","Checkmate","-","3.75%","Mystic Rook",1067
+"Zugzwang's Tower","Technic Queen - Double Run","Checkmate","-","1.41%","Technic Pawn",1067
+"Zugzwang's Tower","Technic King - Double Run","SB+/Gouda/Brie","-","19.51%","Technic King",3162
+"Zugzwang's Tower","Technic King - Double Run","SB+/Gouda/Brie","-","20.40%","Technic Queen",3162
+"Zugzwang's Tower","Technic King - Double Run","SB+/Gouda/Brie","-","19.77%","Technic Rook",3162
+"Zugzwang's Tower","Technic King - Double Run","SB+/Gouda/Brie","-","18.31%","Technic Bishop",3162
+"Zugzwang's Tower","Technic King - Double Run","SB+/Gouda/Brie","-","14.67%","Technic Knight",3162
+"Zugzwang's Tower","Technic King - Double Run","SB+/Gouda/Brie","-","5.03%","Technic Pawn",3162
+"Zugzwang's Tower","Technic King - Double Run","SB+/Gouda/Brie","-","2.31%","Mystic Pawn",3162
+"Zugzwang's Tower","Technic King - Double Run","Checkmate","-","47.78%","Chess Master",2587
+"Zugzwang's Tower","Technic King - Double Run","Checkmate","-","20.37%","Technic King",2587
+"Zugzwang's Tower","Technic King - Double Run","Checkmate","-","7.04%","Technic Rook",2587
+"Zugzwang's Tower","Technic King - Double Run","Checkmate","-","6.84%","Mystic Rook",2587
+"Zugzwang's Tower","Technic King - Double Run","Checkmate","-","6.57%","Technic Bishop",2587
+"Zugzwang's Tower","Technic King - Double Run","Checkmate","-","5.72%","Technic Queen",2587
+"Zugzwang's Tower","Technic King - Double Run","Checkmate","-","4.14%","Technic Knight",2587
+"Zugzwang's Tower","Technic King - Double Run","Checkmate","-","1.55%","Technic Pawn",2587
+"Zugzwang's Tower","Mystic Pawn Pincher - Double Run","SB+/Gouda/Brie","-","97.66%","Mystic Pawn",1326
+"Zugzwang's Tower","Mystic Pawn Pincher - Double Run","SB+/Gouda/Brie","-","2.34%","Technic Pawn",1326
+"Zugzwang's Tower","Mystic Knights - Double Run","SB+/Gouda/Brie","-","73.47%","Mystic Knight",3253
+"Zugzwang's Tower","Mystic Knights - Double Run","SB+/Gouda/Brie","-","22.81%","Mystic Pawn",3253
+"Zugzwang's Tower","Mystic Knights - Double Run","SB+/Gouda/Brie","-","3.72%","Technic Pawn",3253
+"Zugzwang's Tower","Mystic Bishops - Double Run","SB+/Gouda/Brie","-","50.28%","Mystic Bishop",4887
+"Zugzwang's Tower","Mystic Bishops - Double Run","SB+/Gouda/Brie","-","33.80%","Mystic Knight",4887
+"Zugzwang's Tower","Mystic Bishops - Double Run","SB+/Gouda/Brie","-","12.28%","Mystic Pawn",4887
+"Zugzwang's Tower","Mystic Bishops - Double Run","SB+/Gouda/Brie","-","3.64%","Technic Pawn",4887
+"Zugzwang's Tower","Mystic Rooks - Double Run","SB+/Gouda/Brie","-","48.92%","Mystic Rook",5987
+"Zugzwang's Tower","Mystic Rooks - Double Run","SB+/Gouda/Brie","-","28.39%","Mystic Bishop",5987
+"Zugzwang's Tower","Mystic Rooks - Double Run","SB+/Gouda/Brie","-","10.02%","Mystic Knight",5987
+"Zugzwang's Tower","Mystic Rooks - Double Run","SB+/Gouda/Brie","-","9.59%","Mystic Pawn",5987
+"Zugzwang's Tower","Mystic Rooks - Double Run","SB+/Gouda/Brie","-","3.07%","Technic Pawn",5987
+"Zugzwang's Tower","Mystic Queen - Double Run","SB+/Gouda/Brie","-","33.97%","Mystic Queen",4625
+"Zugzwang's Tower","Mystic Queen - Double Run","SB+/Gouda/Brie","-","24.00%","Mystic Rook",4625
+"Zugzwang's Tower","Mystic Queen - Double Run","SB+/Gouda/Brie","-","22.29%","Mystic Bishop",4625
+"Zugzwang's Tower","Mystic Queen - Double Run","SB+/Gouda/Brie","-","14.05%","Mystic Knight",4625
+"Zugzwang's Tower","Mystic Queen - Double Run","SB+/Gouda/Brie","-","3.63%","Technic Pawn",4625
+"Zugzwang's Tower","Mystic Queen - Double Run","SB+/Gouda/Brie","-","2.05%","Mystic Pawn",4625
+"Zugzwang's Tower","Mystic Queen - Double Run","Checkmate","-","38.61%","Chess Master",1067
+"Zugzwang's Tower","Mystic Queen - Double Run","Checkmate","-","22.96%","Mystic Queen",1067
+"Zugzwang's Tower","Mystic Queen - Double Run","Checkmate","-","13.12%","Mystic Rook",1067
+"Zugzwang's Tower","Mystic Queen - Double Run","Checkmate","-","10.87%","Mystic Bishop",1067
+"Zugzwang's Tower","Mystic Queen - Double Run","Checkmate","-","9.28%","Mystic Knight",1067
+"Zugzwang's Tower","Mystic Queen - Double Run","Checkmate","-","3.75%","Technic Rook",1067
+"Zugzwang's Tower","Mystic Queen - Double Run","Checkmate","-","1.41%","Mystic Pawn",1067
+"Zugzwang's Tower","Mystic King - Double Run","SB+/Gouda/Brie","-","20.40%","Mystic Queen",3162
+"Zugzwang's Tower","Mystic King - Double Run","SB+/Gouda/Brie","-","19.77%","Mystic Rook",3162
+"Zugzwang's Tower","Mystic King - Double Run","SB+/Gouda/Brie","-","18.31%","Mystic Bishop",3162
+"Zugzwang's Tower","Mystic King - Double Run","SB+/Gouda/Brie","-","19.51%","Mystic King",3162
+"Zugzwang's Tower","Mystic King - Double Run","SB+/Gouda/Brie","-","14.67%","Mystic Knight",3162
+"Zugzwang's Tower","Mystic King - Double Run","SB+/Gouda/Brie","-","5.03%","Mystic Pawn",3162
+"Zugzwang's Tower","Mystic King - Double Run","SB+/Gouda/Brie","-","2.31%","Technic Pawn",3162
+"Zugzwang's Tower","Mystic King - Double Run","Checkmate","-","47.78%","Chess Master",2587
+"Zugzwang's Tower","Mystic King - Double Run","Checkmate","-","20.37%","Mystic King",2587
+"Zugzwang's Tower","Mystic King - Double Run","Checkmate","-","6.84%","Technic Rook",2587
+"Zugzwang's Tower","Mystic King - Double Run","Checkmate","-","7.04%","Mystic Rook",2587
+"Zugzwang's Tower","Mystic King - Double Run","Checkmate","-","6.57%","Mystic Bishop",2587
+"Zugzwang's Tower","Mystic King - Double Run","Checkmate","-","5.72%","Mystic Queen",2587
+"Zugzwang's Tower","Mystic King - Double Run","Checkmate","-","4.14%","Mystic Knight",2587
+"Zugzwang's Tower","Mystic King - Double Run","Checkmate","-","1.55%","Mystic Pawn",2587
+"Zugzwang's Tower","Chess Master - Double Run","Checkmate","-","75.79%","Chess Master",1871
+"Zugzwang's Tower","Chess Master - Double Run","Checkmate","-","13.15%","Mystic Rook",1871
+"Zugzwang's Tower","Chess Master - Double Run","Checkmate","-","11.06%","Technic Rook",1871

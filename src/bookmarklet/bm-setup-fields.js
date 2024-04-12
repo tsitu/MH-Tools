@@ -298,40 +298,36 @@
     } else if (userLocation === "Zugzwang's Tower") {
       var mystic = userViewingAtts["zzt_mage_progress"];
       var tech = userViewingAtts["zzt_tech_progress"];
-      if (mystic >= tech) {
-        if (mystic >= 0 && mystic < 8) {
-          return "Mystic Pawn Pincher";
-        } else if (mystic >= 8 && mystic < 10) {
-          return "Mystic Knights";
-        } else if (mystic >= 10 && mystic < 12) {
-          return "Mystic Bishops";
-        } else if (mystic >= 12 && mystic < 14) {
-          return "Mystic Rooks";
-        } else if (mystic === 14) {
-          return "Mystic Queen";
-        } else if (mystic === 15) {
-          return "Mystic King";
-        } else if (mystic >= 16) {
-          return "Chess Master";
-        }
+
+      const isDoubleRun = (mystic == 16 || tech == 16) && userCheese !== "Checkmate Cheese" || (mystic == 16 && tech == 16);
+      const selector = isDoubleRun ? Math.min : Math.max;
+      const progress = selector(mystic, tech);
+      const type = mystic == progress ? "Mystic" : "Technic";
+
+      let piece;
+      if (progress < 8) {
+        piece = "Pawn Pincher";
+      } else if (progress < 10) {
+        piece = "Knights";
+      } else if (progress < 12) {
+        piece = "Bishops";
+      } else if (progress < 14) {
+        piece = "Rooks";
+      } else if (progress < 15) {
+        piece = "Queen";
+      } else if (progress < 16) {
+        piece = "King";
       } else {
-        if (tech >= 0 && tech < 8) {
-          return "Technic Pawn Pincher";
-        } else if (tech >= 8 && tech < 10) {
-          return "Technic Knights";
-        } else if (tech >= 10 && tech < 12) {
-          return "Technic Bishops";
-        } else if (tech >= 12 && tech < 14) {
-          return "Technic Rooks";
-        } else if (tech === 14) {
-          return "Technic Queen";
-        } else if (tech === 15) {
-          return "Technic King";
-        } else if (tech >= 16) {
-          return "Chess Master";
-        }
+        piece = "Chess Master";
       }
-    } else if (userLocation === "Claw Shot City") {
+
+      if (isDoubleRun && piece == "Chess Master") {
+        return "Chess Master - Double Run";
+      }
+
+      return `${type} ${piece}${isDoubleRun ? " - Double Run" : ""}`;
+
+      } else if (userLocation === "Claw Shot City") {
       // TODO: Separate Bounty hunter attracted/not once new data rolls in
       var poster_active = userQuests["QuestClawShotCity"]["map_active"];
       var has_wanted_poster =
