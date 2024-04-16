@@ -59,7 +59,7 @@
     "population": "node build/process-population.js",
     "build": "npm-run-all --parallel mouse-data population",
     "\n-- MISC --": "",
-    "mp-effs": "node data/mp-effs > data/mouse-power-effs.csv",
+    "mouse-stats": "node data/mouse-stats",
     "serve": "http-server -p 8000",
     "postinstall": "patch-package"
   },

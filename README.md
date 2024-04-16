@@ -30,6 +30,7 @@ Feel free to post your questions, comments, or concerns on the [forum thread](ht
 - [Developers](#developers)
   - [Build and Run](#construction_worker-build-and-run)
   - [Populations](#clipboard-populations)
+  - [Mouse Stats](#mouse2-mouse-stats)
   - [Coding Style](#barber-coding-style)
 - [Miscellaneous](#miscellaneous)
   - [Useful Links](#arrow_down-useful-links)
@@ -366,9 +367,9 @@ To update population data, download a copy of the most recent MHCT database dump
 
 If you would like to merge new data into the master branch, feel free to open a pull request - Travis CI will build it automatically and run the `build/process-sample-size.js` script, which generates sample size score deltas ([example](https://travis-ci.com/tsitu/MH-Tools/builds/91738912#L528)). We use this to verify that data is trending towards improvement.
 
-### :mouse2: Mouse Power & Effectiveness
+### :mouse2: Mouse Stats
 
-To update mouse powers and their power type effectivenesses, use command `npm run mp-effs` to pull the data from the MinLuck spreadsheet maintained by community members in the Discord.
+To update mouse related stats (wisdom, gold, points, effectivesnesses), use command `npm run mouse-stats` to pull the data from Brad's mouse.rip API which is powered by spreadsheets maintained by community members in the Discord.
 
 ### :barber: Coding Style
 
