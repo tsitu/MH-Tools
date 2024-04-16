@@ -7,9 +7,16 @@ const encylopedia = ['Final Draft Derby']
 module.exports = {
   default: {
     location: utils.genVarField('location', 'Table of Contents'),
+    config:[
+      {
+        opts: {
+          attraction: 0.01
+        }
+      }
+    ]
   },
   series: [
-    { 
+    {
       cheese: utils.genVarField("cheese", standardCheese),
       stage: utils.genVarField("stage", "Not Writing"),
       config: [ {
@@ -23,8 +30,8 @@ module.exports = {
           ]
         }
       } ]
-    },    
-    { 
+    },
+    {
       cheese: utils.genVarField("cheese", writing),
       stage: utils.genVarField("stage", "Pre-Encyclopedia"),
       config: [ {
@@ -44,8 +51,8 @@ module.exports = {
           ]
         }
       } ]
-    },  
-    { 
+    },
+    {
       cheese: utils.genVarField("cheese", encylopedia),
       stage: utils.genVarField("stage", "Encyclopedia"),
       config: [ {
@@ -56,6 +63,17 @@ module.exports = {
           ]
         }
       } ]
-    },  
-  ]
-}
+    },
+  ],
+  /**
+   *
+   * @param {{stage: string, location: string, cheese: string, mouse: string, attraction: string, sample: number}[]} data
+   * @returns {{stage: string, location: string, cheese: string, mouse: string, attraction: string, sample: number}[]}
+   */
+  postProcess: function(data) {
+    data.push(...[
+      {stage: "Pre-Encyclopedia", location: "Table of Contents", cheese: "Thousandth Draft Derby", mouse: "M1000", attraction: "100%", sample: 1},
+      {stage: "Encyclopedia", location: "Table of Contents", cheese: "Thousandth Draft Derby", mouse: "M1000", attraction: "100%", sample: 1},
+    ])
+    return data;
+  },}

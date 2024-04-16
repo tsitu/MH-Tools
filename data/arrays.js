@@ -473,6 +473,8 @@ var basesArray = {
   "Festive Winter Hunt Base": [100, 0, 15, 10, "Very Fresh"],
   "Firecracker Base": [300, 5, 5, 4, "Stale"],
   "Fissure Base": [450, 15, 5, 12, "Stale"],
+  "Folklore Printing Press Base (Paperless)": [500, 15, 0, 10, "Fresh"],
+  "Folklore Printing Press Base": [4500, 35, 35, 57, "Fresh"],
   "Forecaster Base": [400, 12, 10, 10, "Very Fresh"],
   "Fracture Base": [200, 10, 0, 10, "Fresh"],
   "Furoma Base": [100, 10, 10, 10, "No Effect"],
