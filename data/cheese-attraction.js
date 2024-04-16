@@ -137,6 +137,7 @@ var baselineAttArray = {
   "Swiss": 0.8000, // Gamplay update 10/05
   "Swiss String": 0.8000, // Gamplay update 10/05
   "Terre Ricotta": 1.0000, // Gamplay update 10/05
+  "Thousandth Draft Derby": 1.0000, // M1K release 16 Apr 24
   "Undead Emmental": 1.0000, // Gamplay update 10/05
   "Undead String Emmental": 1.0000, // Gamplay update 10/05
   "Vanilla Stilton": 1.0000, // Confirmed by Michele in #community-tools on discord on 08 Apr 22
