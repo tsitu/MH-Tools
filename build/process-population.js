@@ -39,6 +39,7 @@
     "data/pop-csv/town-of-gnawnia.csv",
     "data/pop-csv/toxic-spill.csv",
     "data/pop-csv/valour-rift.csv",
+    "data/pop-csv/whisker-woods-rift.csv",
     "data/pop-csv/windmill.csv",
     "data/pop-csv/zugzwangs-tower.csv",
     "data/pop-csv/zokor.csv",
