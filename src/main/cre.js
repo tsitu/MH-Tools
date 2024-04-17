@@ -837,74 +837,28 @@ function weaponChanged() {
 }
 
 function icebergPhase() {
-  var autoPhase = "";
-  if (
-    !!~phaseName.indexOf("Bombing Run") &&
-    baseName === "Remote Detonator Base"
-  )
-    autoPhase = "Bombing Run (Remote Detonator)";
-  else if (
-    !!~phaseName.indexOf("Bombing Run") &&
-    (baseName === "Ultimate Iceberg Base" || baseName === "Iceberg Boiler Base")
-  )
-    autoPhase = "Bombing Run (Ultimate Iceberg)";
-  else if (
-    phaseName === "Bombing Run (Remote Detonator)" &&
-    baseName !== "Remote Detonator Base"
-  )
-    autoPhase = "Bombing Run";
-  else if (
-    phaseName === "Bombing Run (Ultimate Iceberg)" &&
-    (baseName !== "Ultimate Iceberg Base" && baseName !== "Iceberg Boiler Base")
-  )
-    autoPhase = "Bombing Run";
-  else if (
-    !!~phaseName.indexOf("Treacherous Tunnels") &&
-    baseName === "Magnet Base"
-  )
-    autoPhase = "Treacherous Tunnels (Magnet)";
-  else if (
-    !!~phaseName.indexOf("Treacherous Tunnels") &&
-    (baseName === "Ultimate Iceberg Base" || baseName === "Iceberg Boiler Base")
-  )
-    autoPhase = "Treacherous Tunnels (Ultimate Iceberg)";
-  else if (
-    phaseName === "Treacherous Tunnels (Magnet)" &&
-    baseName !== "Magnet Base"
-  )
-    autoPhase = "Treacherous Tunnels";
-  else if (
-    phaseName === "Treacherous Tunnels (Ultimate Iceberg)" &&
-    (baseName !== "Ultimate Iceberg Base" && baseName !== "Iceberg Boiler Base")
-  )
-    autoPhase = "Treacherous Tunnels";
-  else if (
-    !!~phaseName.indexOf("The Mad Depths") &&
-    baseName === "Hearthstone Base"
-  )
-    autoPhase = "The Mad Depths (Hearthstone)";
-  else if (!!~phaseName.indexOf("The Mad Depths") && baseName === "Magnet Base")
-    autoPhase = "The Mad Depths (Magnet)";
-  else if (
-    !!~phaseName.indexOf("The Mad Depths") &&
-    (baseName === "Ultimate Iceberg Base" || baseName === "Iceberg Boiler Base")
-  )
-    autoPhase = "The Mad Depths (Ultimate Iceberg)";
-  else if (
-    phaseName === "The Mad Depths (Hearthstone)" &&
-    baseName !== "Hearthstone Base"
-  )
-    autoPhase = "The Mad Depths";
-  else if (
-    phaseName === "The Mad Depths (Magnet)" &&
-    baseName !== "Magnet Base"
-  )
-    autoPhase = "The Mad Depths";
-  else if (
-    phaseName === "The Mad Depths (Ultimate Iceberg)" &&
-    (baseName !== "Ultimate Iceberg Base" && baseName !== "Iceberg Boiler Base")
-  )
-    autoPhase = "The Mad Depths";
+  const magnetBasedEquipped = baseName === "Magnet Base";
+  const ultimateBasedEquipped = (baseName === "Ultimate Iceberg Base" || baseName === "Iceberg Boiler Base");
+  const hearthstoneBaseEquipped = baseName === "Hearthstone Base";
+
+  const currentPhase = phaseName.split(" (")[0];
+  let autoPhase = currentPhase;
+
+  if (currentPhase === "Treacherous Tunnels" || currentPhase === "Bombing Run") {
+    if (magnetBasedEquipped) {
+      autoPhase += " (Magnet)";
+    } else if (ultimateBasedEquipped) {
+      autoPhase += " (Ultimate Iceberg)";
+    }
+  } else if (currentPhase === "The Mad Depths") {
+    if (magnetBasedEquipped) {
+      autoPhase += " (Magnet)";
+    } else if (hearthstoneBaseEquipped) {
+      autoPhase += " (Hearthstone)";
+    } else if (ultimateBasedEquipped) {
+      autoPhase += " (Ultimate Iceberg)";
+    }
+  }
 
   if (autoPhase !== "") {
     var phaseSelect = document.getElementById("phase");
