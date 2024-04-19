@@ -9,7 +9,7 @@ const allCheeses = [
   "Brie",
   "Gouda",
   "SB+",
-  "Grilled Cheese"
+  "Grilled"
 ];
 
 const mice = {
