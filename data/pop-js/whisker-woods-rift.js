@@ -73,7 +73,7 @@ var dlStages = { Low: "DL 0-24", Medium: "DL 25-49", High: "DL 50" };
  * @param      {"Low" | "Medium" | "High"}  dlRage  The deep rage (Low/Medium/High)
  * @return     {Array}   The rage configuration.
  */
-function genSeriesObject(ccRage, gtRage, dlRage, charm = "") {
+function genSeriesObject(ccRage, gtRage, dlRage, charm) {
   const baseSeries = {
     cheese: [
       {
@@ -84,7 +84,7 @@ function genSeriesObject(ccRage, gtRage, dlRage, charm = "") {
           }
         },
         fields: {
-          cheese: "Regular String"
+          cheese: "Brie String/Swiss String"
         }
       },
       utils.genVarItem("cheese", "Magical String")
@@ -108,7 +108,6 @@ function genSeriesObject(ccRage, gtRage, dlRage, charm = "") {
             ...crazedClearingMice[ccRage],
             ...giganticGnarledTreeMice[gtRage],
             ...deepLagoonMice[dlRage],
-            charmMice[charm] ?? "",
             "Gilded Leaf",
             "Monstrous Black Widow",
           ]
@@ -121,11 +120,16 @@ function genSeriesObject(ccRage, gtRage, dlRage, charm = "") {
     baseSeries.cheese.push(utils.genVarItem("cheese", "Lactrodectus Lancashire"))
   }
 
+  const charms = ["Cherry", "Gnarled", "Stagnant"];
+  const allCharmSeries = charms.map(charm => {
+      const charmSeries = {...baseSeries}
+      charmSeries.charm = utils.genVarField("charm", charm);
+      charmSeries.config[0].opts.include.push(charmMice[charm])
+      return charmSeries;
+  });
+
   return [
-    {
-      ...baseSeries,
-      charm: utils.genVarField("charm", ["Cherry", "Gnarled", "Stagnant"])
-    },
+    ...allCharmSeries,
     {
       ...baseSeries,
       charm: [
