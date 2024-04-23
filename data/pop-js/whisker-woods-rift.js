@@ -10,7 +10,7 @@ var crazedClearingMice = {
   Low: [
     "Bloomed Sylvan",
     "Cranky Caterpillar",
-    "Mossy Mooskier"
+    "Mossy Moosker"
   ],
   Medium: [
     "Red-Eyed Watcher Owl",
