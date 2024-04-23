@@ -57,6 +57,7 @@ $(window).load(function() {
   document.getElementById("umbraFloor").onchange = umbraChanged;
   document.getElementById("riftstalker").onchange = riftstalkerChange;
   document.getElementById("dentureFilter").onchange = dentureFilterChange;
+  document.getElementById("printingFilter").onchange = printingFilterChange;
   document.getElementById("rank").onchange = rankChange;
 
   $("#save_setup_button").click(saveSetupStorage);
@@ -695,6 +696,17 @@ function printCombinations(micePopulation, headerHtml) {
       // Skip Denture Base variants if filter is checked
       var isDentureFiltered = localStorage.getItem("best-setup-denture-filter");
       if (isDentureFiltered === "true" && baseName.indexOf("Denture") >= 0) {
+        return true;
+      }
+
+      // Skip Printing Press Base variants if filter is checked
+      var isPrintingFiltered = localStorage.getItem(
+        "best-setup-printing-filter"
+      );
+      if (
+        isPrintingFiltered === "true" &&
+        baseName.indexOf("Printing Press Base") >= 0
+      ) {
         return true;
       }
 

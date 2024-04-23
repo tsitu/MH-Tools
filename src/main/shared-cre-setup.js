@@ -222,6 +222,7 @@ function getRiftCount(weapon, base, charm) {
 function calculateTrapSetup(skipDisp) {
   var specialPower = 0, // bonus flat power
     specialLuck = 0, // bonus flat luck
+    specialAtt = 0, // bonus AR (initially created for Printing Press Paperless scale-down)
     shownPowerBonus = 0, // able to be parsed from user.trap_power_bonus
     hiddenPowerBonus = 0; // implicit, unable to be parsed
 
@@ -291,9 +292,7 @@ function calculateTrapSetup(skipDisp) {
       charmName === "Dark Chocolate Charm"
     ) {
       shownPowerBonus += 20;
-    } else if (
-      weaponName === "Father Winter's Timepiece Trap"
-    ) {
+    } else if (weaponName === "Father Winter's Timepiece Trap") {
       specialPower += acolyteCatches * 2000;
     }
 
@@ -311,7 +310,7 @@ function calculateTrapSetup(skipDisp) {
       pourLuck +
       specialLuck;
     trapLuck = Math.floor(totalLuck * Math.min(1, getAmpBonus()));
-    trapAtt = Math.min(weaponAtt + baseAtt + charmAtt, 100);
+    trapAtt = Math.min(weaponAtt + baseAtt + charmAtt + specialAtt, 100);
     trapEff = weaponEff + baseEff + charmEff;
     trapEff = trapEff > 6 ? 6 : trapEff;
     trapEff = trapEff < -6 ? -6 : trapEff;
@@ -331,6 +330,16 @@ function calculateTrapSetup(skipDisp) {
         location === "Elub Shore" ||
         location === "Nerg Plains" ||
         location === "Derr Dunes"
+      );
+    }
+
+    function isFolkloreArea(location) {
+      return (
+        location === "Foreword Farm" ||
+        location === "Prologue Pond" ||
+        location === "Table of Contents" ||
+        location === "Bountiful Beanstalk" ||
+        location === "School of Sorcery"
       );
     }
 
@@ -474,26 +483,29 @@ function calculateTrapSetup(skipDisp) {
       }
     } else if (
       locationName === "Floating Islands" ||
-      locationName === "Sky Palace") {
+      locationName === "Sky Palace"
+    ) {
       if (cheeseName === "Extra Rich Cloud Cheesecake") {
         shownPowerBonus += 20;
         specialLuck += 5;
       }
-    } else if (
-      locationName === "Event" &&
-      phaseName === "Halloween" &&
-      weaponName === "Boiling Cauldron Trap"){
-        basePower += 1000;
-        weaponBonus += 10;
-        trapLuck += 5;
-        trapAtt += 15;
-       }
+    }
 
     if (
       cheeseName.indexOf("Fusion Fondue") >= 0 &&
       charmName === "EMP400 Charm"
     ) {
       specialPower += 25000;
+    }
+
+    if (!isFolkloreArea(locationName)) {
+      // Not in FoFo, so force Paperless stats
+      if (baseName.indexOf("Printing Press Base") >= 0) {
+        specialPower -= 4000;
+        shownPowerBonus -= 20;
+        specialAtt -= 35;
+        specialLuck -= 47;
+      }
     }
   }
 
@@ -617,9 +629,9 @@ function minLuck(effectiveness, mousePower) {
   // If, due to floating-point errors, the candidate minluck is not
   // actually enough, add one. (This is described further in the README.)
   if (calcCR(effectiveness, 0, candidateMinluck, mousePower) < 1) {
-    return candidateMinluck + 1
+    return candidateMinluck + 1;
   }
-  return candidateMinluck
+  return candidateMinluck;
 }
 
 /**
@@ -673,7 +685,7 @@ function getCheeseAttraction() {
  */
 function gsParamCheck() {
   var gsParameter = getURLParameter("gs");
-  document.getElementById("gs").checked = ('No' === gsParameter ) ? false : true;
+  document.getElementById("gs").checked = "No" === gsParameter ? false : true;
   gsChanged();
 }
 
@@ -710,6 +722,24 @@ function dentureFilterChange() {
   localStorage.setItem(
     "best-setup-denture-filter",
     $("#dentureFilter").prop("checked")
+  );
+  genericOnChange();
+}
+
+function printingFilterParamCheck() {
+  var printingFilterParam =
+    getURLParameter("printingFilter") !== NULL_URL_PARAM;
+  var printingFilterChecked =
+    printingFilterParam ||
+    localStorage.getItem("best-setup-printing-filter") === "true";
+  $("#printingFilter").prop("checked", printingFilterChecked);
+  printingFilterChange();
+}
+
+function printingFilterChange() {
+  localStorage.setItem(
+    "best-setup-printing-filter",
+    $("#printingFilter").prop("checked")
   );
   genericOnChange();
 }
@@ -1307,7 +1337,7 @@ function calcCREffects(catchRate, mouseName, eff, mousePower) {
         weaponLuckDelta -= 0.05;
       }
     } else if (contains(mouseName, "Mystic")) {
-        if (weaponName === "Obvious Ambush Trap") {
+      if (weaponName === "Obvious Ambush Trap") {
         weaponPowerDelta -= 2400;
         weaponLuckDelta -= 9;
       } else if (weaponName === "Blackstone Pass Trap") {
@@ -1315,63 +1345,84 @@ function calcCREffects(catchRate, mouseName, eff, mousePower) {
         weaponLuckDelta += 6;
       }
     } else if (contains(mouseName, "Technic")) {
-        if (weaponName === "Obvious Ambush Trap") {
-          weaponPowerDelta += 1800;
-          weaponLuckDelta += 6;
+      if (weaponName === "Obvious Ambush Trap") {
+        weaponPowerDelta += 1800;
+        weaponLuckDelta += 6;
       } else if (weaponName === "Blackstone Pass Trap") {
         weaponPowerDelta -= 2400;
         weaponLuckDelta -= 9;
       }
-    } if (contains(mouseName, "Rook") && charmName === "Rook Crumble Charm") {
+    }
+    if (contains(mouseName, "Rook") && charmName === "Rook Crumble Charm") {
       charmBonusDelta += 300;
     }
-  } if (charmName === "Dragonbane Charm" && contains(dragons, mouseName)) {
+  }
+  if (charmName === "Dragonbane Charm" && contains(dragons, mouseName)) {
     charmBonusDelta += 300;
-  } if (
-    charmName === "Super Dragonbane Charm" && contains(dragons, mouseName)) {
+  }
+  if (charmName === "Super Dragonbane Charm" && contains(dragons, mouseName)) {
     charmBonusDelta += 600;
-  } if (
-    charmName === "Extreme Dragonbane Charm" && contains(dragons, mouseName)) {
+  }
+  if (
+    charmName === "Extreme Dragonbane Charm" &&
+    contains(dragons, mouseName)
+  ) {
     charmBonusDelta += 900;
-  } if (
-    charmName === "Ultimate Dragonbane Charm" && contains(dragons, mouseName)) {
+  }
+  if (
+    charmName === "Ultimate Dragonbane Charm" &&
+    contains(dragons, mouseName)
+  ) {
     charmBonusDelta += 1200;
-  } if (charmName === "Taunting Charm" && contains(tauntings, mouseName)) {
+  }
+  if (charmName === "Taunting Charm" && contains(tauntings, mouseName)) {
     var riftCount = getRiftCount(weaponName, baseName, charmName);
     if (riftCount >= 1) tauntBonusDelta += 1;
-  } if (locationName === "Fiery Warpath") {
+  }
+  if (locationName === "Fiery Warpath") {
     if (charmName.indexOf("Super Warpath Archer Charm") >= 0) {
       var warpathArcher = ["Desert Archer", "Flame Archer", "Crimson Ranger"];
       if (contains(warpathArcher, mouseName)) {
         charmBonusDelta += 50;
       }
-    } if (charmName.indexOf("Super Warpath Warrior Charm") >= 0) {
+    }
+    if (charmName.indexOf("Super Warpath Warrior Charm") >= 0) {
       var warpathWarrior = ["Desert Soldier", "Flame Warrior", "Crimson Titan"];
       if (contains(warpathWarrior, mouseName)) {
         charmBonusDelta += 50;
       }
-    } if (charmName.indexOf("Super Warpath Scout Charm") >= 0) {
+    }
+    if (charmName.indexOf("Super Warpath Scout Charm") >= 0) {
       var warpathScout = ["Vanguard", "Sentinel", "Crimson Watch"];
       if (contains(warpathScout, mouseName)) {
         charmBonusDelta += 50;
       }
-    } if (charmName.indexOf("Super Warpath Cavalry Charm") >= 0) {
+    }
+    if (charmName.indexOf("Super Warpath Cavalry Charm") >= 0) {
       var warpathCavalry = ["Sand Cavalry", "Sandwing Cavalry"];
       if (contains(warpathCavalry, mouseName)) {
         charmBonusDelta += 50;
       }
-    } if (charmName.indexOf("Super Warpath Mage Charm") >= 0) {
+    }
+    if (charmName.indexOf("Super Warpath Mage Charm") >= 0) {
       var warpathMage = ["Inferno Mage", "Magmarage"];
       if (contains(warpathMage, mouseName)) {
         charmBonusDelta += 50;
       }
-    } if (charmName.indexOf("Super Warpath Commander's Charm") >= 0) {
+    }
+    if (charmName.indexOf("Super Warpath Commander's Charm") >= 0) {
       if (mouseName === "Crimson Commander") {
         charmBonusDelta += 50;
       }
     }
   }
-  if (weaponPowerDelta !== 0 || weaponBonusDelta !== 0 || charmBonusDelta !== 0 || tauntBonusDelta !== 0 || weaponLuckDelta !== 0) {
+  if (
+    weaponPowerDelta !== 0 ||
+    weaponBonusDelta !== 0 ||
+    charmBonusDelta !== 0 ||
+    tauntBonusDelta !== 0 ||
+    weaponLuckDelta !== 0
+  ) {
     weaponPower += weaponPowerDelta;
     weaponBonus += weaponBonusDelta;
     weaponLuck += weaponLuckDelta;
@@ -1502,6 +1553,7 @@ function checkLoadState(type) {
       baseName = getURLParameter("base");
       baseChanged();
       dentureFilterParamCheck();
+      printingFilterParamCheck();
     }
 
     gsParamCheck();
@@ -1687,7 +1739,7 @@ function calcSaltedPower(type, mousePower) {
   var saltVal = parseInt(saltLevel, 10) || 0;
 
   if (saltVal === 0) {
-    return mousePower
+    return mousePower;
   }
 
   var saltedPower = mousePower;
@@ -1696,7 +1748,21 @@ function calcSaltedPower(type, mousePower) {
   if (type === "Grub") {
     // Many different thresholds for KG, see Scarab for easier understanding
     saltThresholds = [0, 6, 7, 10, 14, 18, 23, 24, 27, 34, 44, 48, 50];
-    saltCoefficients = [50000, 40000, 20000, 10000, 5000, 2500, 1000, 1500, 1000, 500, 1000, 2000, 0];
+    saltCoefficients = [
+      50000,
+      40000,
+      20000,
+      10000,
+      5000,
+      2500,
+      1000,
+      1500,
+      1000,
+      500,
+      1000,
+      2000,
+      0
+    ];
   } else if (type === "Scarab") {
     // 25k MP decrements for up to 30 salt, -12500 from 31 to 40 salt, -6500 to 50 salt
     saltThresholds = [0, 30, 40, 50];
