@@ -171,7 +171,7 @@
       Cookies.set('savedAttraction', attractionBonus, {
         expires: 30
       });
-      sliderDelay = setTimeout(function() { processMap(mapText); }, 500);
+      sliderDelay = setTimeout(function() { processMap(mapText, "map"); }, 500);
     }
   </script>
 
@@ -254,12 +254,12 @@
                 <form>
                   <fieldset style="padding: 5px">
                     <legend style="text-align: center">Cheese Filters</legend>
-                    <input type="checkbox" class="cheese-filter" name="magicEssence">&nbsp;Magic Essence</input><br>
-                    <input type="checkbox" class="cheese-filter" name="common">&nbsp;Common</input><br>
-                    <input type="checkbox" class="cheese-filter" name="crafted">&nbsp;Crafted</input><br>
-                    <input type="checkbox" class="cheese-filter" name="marketplace">&nbsp;Marketplace</input><br>
-                    <input type="checkbox" class="cheese-filter" name="shoppe">&nbsp;Shoppe</input><br>
-                    <input type="checkbox" class="cheese-filter" name="eventLoc">&nbsp;Event Locations</input><br><br>
+                    <input type="checkbox" class="cheese-filter" name="magicEssence">&nbsp;Magic Essence<br>
+                    <input type="checkbox" class="cheese-filter" name="common">&nbsp;Common<br>
+                    <input type="checkbox" class="cheese-filter" name="crafted">&nbsp;Crafted<br>
+                    <input type="checkbox" class="cheese-filter" name="marketplace">&nbsp;Marketplace<br>
+                    <input type="checkbox" class="cheese-filter" name="shoppe">&nbsp;Shoppe<br>
+                    <input type="checkbox" class="cheese-filter" name="eventLoc">&nbsp;Event Locations<br><br>
                     <button type="button" id="clearFilter">Reset</button><br><br>
                     <textarea id="combinedFilter" placeholder="Terms to filter out" cols="20" rows="4" style="resize: none; margin: 0 0 0 4px"
                       readonly></textarea>
@@ -288,7 +288,7 @@
             <tr>
               <td>
                 <div style="text-align: center">
-                  Autocomplete Off (requires refresh)&nbsp;<input type="checkbox" id="toggleAutocomplete"></input><br>
+                  Autocomplete Off (requires refresh)&nbsp;<input type="checkbox" id="toggleAutocomplete"><br>
                   <a href="" id="mapLink" target="_blank" rel="noopener">Link to this list</a>
                 </div>
                 <textarea id="map" rows="25" cols="40" style="padding: 3px 0 0 5px"></textarea>
