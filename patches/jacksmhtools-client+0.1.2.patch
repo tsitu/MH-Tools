@@ -10,3 +10,16 @@ index 98150c1..6d3fe95 100644
  var Promise = require('bluebird')
  
  var DEFAULTS = {
+diff --git a/node_modules/jacksmhtools-client/src/utils.js b/node_modules/jacksmhtools-client/src/utils.js
+index 23250e1..1b13d7a 100644
+--- a/node_modules/jacksmhtools-client/src/utils.js
++++ b/node_modules/jacksmhtools-client/src/utils.js
+@@ -5,6 +5,8 @@ var TYPE_ALIASES = {
+ }
+ var NAME_ALIASES = {
+   cheese: {
++    'esb': 'Empowered SUPER|Brie+',
++    'esb+': 'Empowered SUPER|Brie+',
+     'sb': 'SUPER|Brie+',
+     'sb+': 'SUPER|Brie+',
+     'toxic sb': 'Toxic SUPER|Brie+',
