@@ -530,6 +530,7 @@ var basesArray = {
   "Smelly Sodium Base": [310, 10, 10, 10, "Uber Fresh"],
   "Snake Jade Base": [300, 10, 10, 10, "No Effect"],
   "Soiled Base": [400, 12, 5, 6, "Very Fresh"],
+  "Sorcerer's Sapphire Refractor Base": [2500, 20, 50, 30, "Insanely Fresh"],
   "Spellbook Base": [500, 20, 5, 7, "Fresh"],
   "Spiked Base": [300, 12, 0, 3, "Very Stale"],
   "Sprinkly Sweet Cupcake Birthday Base": [300, 9, 9, 9, "Extremely Fresh"],
