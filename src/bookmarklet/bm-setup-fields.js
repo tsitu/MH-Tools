@@ -451,6 +451,21 @@
           ? "Beanstalk Boss"
           : "Beanstalk"
       }
+    } else if (userLocation === "School of Sorcery") {
+      const sosoQuest = userQuests["QuestSchoolOfSorcery"];
+      const course = sosoQuest["current_course"];
+      if (course["course_type"] === "arcane_101_course") {
+        return course["is_boss_encounter"] ? "Arcane Arts - Boss" : "Arcane Arts";
+      } else if (course["course_type"] === "shadow_101_course") {
+        return course["is_boss_encounter"] ? "Shadow Sciences - Boss" : "Shadow Sciences";
+      } else if (course["course_type"] === "exam_course") {
+        let pName = course["is_boss_encounter"] ? "Final Exam - Boss" : "Final Exam - ";
+        if (course["power_type"] === "arcane") pName += "Arcane";
+        if (course["power_type"] === "shadow") pName += "Shadow";
+        return pName;
+      } else {
+        return "Hallway";
+      }
     }
 
     return "N/A";
@@ -681,7 +696,8 @@
   }
 
   function sendData(parameters) {
-    var url = "https://tsitu.github.io/MH-Tools/setup.html?";
+    // var url = "https://tsitu.github.io/MH-Tools/setup.html?";
+    var url = "http://localhost:8000/setup.html?";
 
     for (var key in parameters) {
       var value = encodeURIComponent(parameters[key]);
