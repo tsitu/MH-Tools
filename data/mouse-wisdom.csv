@@ -22,6 +22,8 @@ Angler,5657
 Angry Aphid,8000
 Angry Train Staff,850
 Aquos,675
+Arcana Overachiever,11500
+Arcane Master Sorcerer,30000
 Arcane Summoner,9000
 Arch Champion Necromancer,15000
 Archer,450
@@ -34,6 +36,7 @@ Ash Golem,6893
 Assassin,500
 Assassin Beast,15000
 Astrological Astronomer,16000
+Audacious Alchemist,12500
 Automated Sentry,6000
 Automated Stone Sentry,9000
 Automorat,800
@@ -75,6 +78,7 @@ Bloomed Sylvan,7000
 Bog Beast,2300
 Bonbon Gummy Globlin,6000
 Bookborn,1785
+Bookworm,10500
 Borean Commander,2250
 Bottled,336
 Bottom Feeder,3056
@@ -85,6 +89,7 @@ Breakdancer,664
 Breeze Borrower,4800
 Briegull,36
 Brimstone,1120
+Broomstick Bungler,9500
 Brothers Grimmaus,2500
 Brown,35
 Bruticle,2484
@@ -120,6 +125,7 @@ Carnivore,14000
 Carrion Medium,16290
 Cavalier,130
 Cavern Crumbler,8400
+Celestial Summoner,XXX
 Cell Sweeper,11000
 Centaur,380
 Centaur Ranger,50000
@@ -130,6 +136,7 @@ Champion,1380
 Champion Danseuse,15000
 Champion Thief,15000
 Charming Chimer,6300
+Cheat Sheet Conjurer,XXX
 Cheesy Party,300
 Cherry,900
 Cherry Sprite,20000
@@ -146,6 +153,9 @@ Cinderstorm,9000
 Circuit Judge,2250
 City Noble,2720
 City Worker,3040
+Class Clown,XXX
+Classroom Disrupter,17000
+Classroom Keener,11500
 Clockwork Samurai,23
 Clockwork Timespinner,5500
 Cloud Collector,6300
@@ -163,6 +173,7 @@ Coffin Zombie,350
 Confused Courier,135
 Conjurer,688
 Conqueror,756
+Constructively Critical Artist,XXX
 Consumed Charm Tinkerer,31500
 Cook,409
 Coral,4160
@@ -252,6 +263,7 @@ Dark Magi,29250
 Dark Templar,12120
 Dashing Buccaneer,30
 Dastardly Duchess,20000
+Data Devourer,XXX
 Davy Jones,900
 Dawn Guardian,10000
 Daydreamer,1680
@@ -318,6 +330,7 @@ Empyrean Appraiser,33750
 Empyrean Empress,500000
 Empyrean Geologist,37500
 Empyrean Javelineer,32250
+Enchanted Chess Club Champion,14000
 Enginseer,2848
 Enlightened Labourer,10000
 Enslaved Spirit,2000
@@ -342,6 +355,7 @@ Fallen Champion Footman,15000
 Falling Carpet,1470
 Farmhand,100
 Farrier,750
+Featherlight,18500
 Fencer,30
 Fete Fromager,1470
 Fetid Swamp,2083
@@ -439,6 +453,7 @@ Guardian,760
 Guppy,3888
 Guqin Player,500
 Gyrologer,18000
+Hall Monitor,5000
 Hans Cheesetian Squeakersen,2500
 Hapless,15
 Hapless Marionette,15
@@ -482,12 +497,14 @@ Icewing,8000
 Icicle,1797
 Ignatia,7500
 Ignis,449
+Illustrious Illusionist,17000
 Impersonator,18
 Incompetent Ice Climber,785
 Industrious Digger,351
 Inferna the Engulfed,25000
 Inferno Mage,4240
 Infiltrator,2370
+Invisible Fashionista,12500
 Itty Bitty Rifty Burroughs,7100
 Itty-Bitty Burroughs,1000
 Jellyfish,5072
@@ -547,6 +564,7 @@ Madame d'Ormouse,2500
 Mage Weaver,4500
 Magic,200
 Magic Champion,15000
+Magical Multitasker,XXX
 Magma Carrier,4934
 Magmarage,4800
 Magmatic Crystal Thief,1750
@@ -600,8 +618,10 @@ Mintaka,450
 Mischievous Meteorite Miner,2400
 Mischievous Wereminer,3750
 Miser,450
+Misfortune Teller,10500
 Missile Toe,6000
 Mist Maker,30000
+Mixing Mishap,8500
 Mlounder Flounder,3600
 Mobster,1
 Mole,55
@@ -652,6 +672,7 @@ Mystic Queen,11040
 Mystic Rook,9900
 Mystic Scholar,12120
 Mythical Giant King,600000
+Mythical Master Sorcerer,50000
 Mythweaver,80000
 Nachore Golem,6000
 Nachous the Molten,30000
@@ -722,6 +743,7 @@ Peevish Piccoloist,13000
 Peggy the Plunderer,60000
 Penguin,338
 Pernicious Prince,25000
+Perpetual Detention,8500
 Phalanx,43
 Phase Zombie,6200
 Photographer,400
@@ -746,6 +768,7 @@ Possessed Armaments,16635
 Praetorian Champion,15000
 Present,129
 Prestigious Adventurer,33230
+Prestigious Prestidigitator,14000
 Primal,1645
 Princess and the Olive,6000
 Princess Fist,3450
@@ -855,6 +878,7 @@ Serpent Monster,15200
 Serpentine,3800
 Shackled Servant,7000
 Shade of the Eclipse,75000
+Shadow Master Sorcerer,30000
 Shadow Sage,30900
 Shadow Stalker,10500
 Shaman,60
@@ -891,6 +915,7 @@ Sky Swordsman,18000
 Skydiver,5640
 Slay Ride,6000
 Slayer,1046
+Sleep Starved Scholar,XXX
 Sleepwalker,255
 Sleepy Merchant,3750
 Slimefist,22000
@@ -1024,6 +1049,7 @@ Technic Queen,11040
 Technic Rook,9900
 Teenage Vampire,200
 Telekinetic Mutant,15800
+Teleporting Truant,18500
 Tentacle,15800
 Terra,420
 Terrible Twos,120
@@ -1091,6 +1117,8 @@ Twisted Fiend,1050
 Twisted Hotcakes,2400
 Twisted Lilly,1700
 Twisted Treant,6000
+Tyrannical Thaumaturge,XXX
+Uncoordinated Cauldron Carrier,9500
 Undertaker,1800
 Unwavering Adventurer,8250
 Upper Class Lady,675

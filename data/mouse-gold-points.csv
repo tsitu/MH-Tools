@@ -22,6 +22,8 @@ Angler,2800,35355
 Angry Aphid,7500,55000
 Angry Train Staff,2500,3500
 Aquos,1000,6750
+Arcana Overachiever,8500,65000
+Arcane Master Sorcerer,20000,150000
 Arcane Summoner,7000,45000
 Arch Champion Necromancer,6000,100000
 Archer,750,4500
@@ -34,6 +36,7 @@ Ash Golem,5000,45950
 Assassin,3400,5000
 Assassin Beast,50000,285000
 Astrological Astronomer,26000,80000
+Audacious Alchemist,9000,75000
 Automated Sentry,4500,30500
 Automated Stone Sentry,10000,60000
 Automorat,8000,6000
@@ -75,6 +78,7 @@ Bloomed Sylvan,7180,44400
 Bog Beast,4700,11500
 Bonbon Gummy Globlin,5000,40000
 Bookborn,950,11900
+Bookworm,7500,50000
 Borean Commander,2900,19000
 Bottled,660,3360
 Bottom Feeder,1900,19100
@@ -85,6 +89,7 @@ Breakdancer,1920,3160
 Breeze Borrower,2250,32000
 Briegull,440,360
 Brimstone,2300,11200
+Broomstick Bungler,6750,40000
 Brothers Grimmaus,2750,7750
 Brown,150,115
 Bruticle,5040,16560
@@ -120,6 +125,7 @@ Carnivore,5550,70000
 Carrion Medium,8340,100000
 Cavalier,700,1300
 Cavern Crumbler,3000,42000
+Celestial Summoner,20000,90000
 Cell Sweeper,10000,63000
 Centaur,960,3800
 Centaur Ranger,22500,150000
@@ -130,6 +136,7 @@ Champion,3360,13800
 Champion Danseuse,6000,100000
 Champion Thief,6000,100000
 Charming Chimer,4500,42000
+Cheat Sheet Conjurer,10000,60000
 Cheesy Party,2000,2000
 Cherry,3000,6000
 Cherry Sprite,22500,82500
@@ -146,6 +153,9 @@ Cinderstorm,8000,60000
 Circuit Judge,9500,15000
 City Noble,1100,17000
 City Worker,700,19000
+Class Clown,20000,90000
+Classroom Disrupter,12000,92000
+Classroom Keener,8500,65000
 Clockwork Samurai,210,150
 Clockwork Timespinner,7000,38000
 Cloud Collector,2500,42000
@@ -163,6 +173,7 @@ Coffin Zombie,3000,2200
 Confused Courier,1500,6000
 Conjurer,4500,6875
 Conqueror,3200,7560
+Constructively Critical Artist,16000,110000
 Consumed Charm Tinkerer,31500,210000
 Cook,90,4090
 Coral,2500,26000
@@ -252,6 +263,7 @@ Dark Magi,24500,195000
 Dark Templar,12750,80800
 Dashing Buccaneer,250,375
 Dastardly Duchess,32000,135000
+Data Devourer,30000,120000
 Davy Jones,2000,9000
 Dawn Guardian,10000,50000
 Daydreamer,900,16800
@@ -318,6 +330,7 @@ Empyrean Appraiser,30000,225000
 Empyrean Empress,350000,2500000
 Empyrean Geologist,50000,250000
 Empyrean Javelineer,22000,215000
+Enchanted Chess Club Champion,10000,85000
 Enginseer,324,17800
 Enlightened Labourer,3800,50000
 Enslaved Spirit,900,20000
@@ -342,6 +355,7 @@ Fallen Champion Footman,6000,100000
 Falling Carpet,1600,9800
 Farmhand,1400,1000
 Farrier,7000,5000
+Featherlight,14000,100000
 Fencer,210,300
 Fete Fromager,4000,7000
 Fetid Swamp,5155,20830
@@ -439,6 +453,7 @@ Guardian,7500,7600
 Guppy,2250,24300
 Guqin Player,800,5000
 Gyrologer,12150,90000
+Hall Monitor,5000,20000
 Hans Cheesetian Squeakersen,2400,7250
 Hapless,70,50
 Hapless Marionette,100,90
@@ -482,12 +497,14 @@ Icewing,11295,51250
 Icicle,3840,11980
 Ignatia,8000,50000
 Ignis,1000,4490
+Illustrious Illusionist,12000,92000
 Impersonator,180,120
 Incompetent Ice Climber,750,5230
 Industrious Digger,890,3510
 Inferna the Engulfed,18000,150000
 Inferno Mage,1000,26500
 Infiltrator,1900,15800
+Invisible Fashionista,9000,75000
 Itty Bitty Rifty Burroughs,4600,36000
 Itty-Bitty Burroughs,4000,10000
 Jellyfish,1990,31700
@@ -547,6 +564,7 @@ Madame d'Ormouse,2750,7500
 Mage Weaver,900,29000
 Magic,2250,2000
 Magic Champion,6000,100000
+Magical Multitasker,16000,110000
 Magma Carrier,7180,49335
 Magmarage,1000,30000
 Magmatic Crystal Thief,11000,13000
@@ -600,8 +618,10 @@ Mintaka,5100,4500
 Mischievous Meteorite Miner,1500,16000
 Mischievous Wereminer,2000,25000
 Miser,5000,10000
+Misfortune Teller,7500,50000
 Missile Toe,2000,4600
 Mist Maker,30000,200000
+Mixing Mishap,6000,30000
 Mlounder Flounder,6300,18000
 Mobster,10,10
 Mole,500,550
@@ -652,6 +672,7 @@ Mystic Queen,13970,80960
 Mystic Rook,2277,72600
 Mystic Scholar,12750,80800
 Mythical Giant King,1250000,3000000
+Mythical Master Sorcerer,80000,300000
 Mythweaver,70000,1000000
 Nachore Golem,7000,30000
 Nachous the Molten,35000,90000
@@ -722,6 +743,7 @@ Peevish Piccoloist,13000,90000
 Peggy the Plunderer,65000,400000
 Penguin,550,4500
 Pernicious Prince,75000,360000
+Perpetual Detention,6000,30000
 Phalanx,1000,430
 Phase Zombie,4400,34000
 Photographer,7000,5000
@@ -746,6 +768,7 @@ Possessed Armaments,5000,110000
 Praetorian Champion,6000,100000
 Present,2000,9000
 Prestigious Adventurer,5000,125000
+Prestigious Prestidigitator,10000,85000
 Primal,5800,16450
 Princess and the Olive,6800,20000
 Princess Fist,3550,23125
@@ -855,6 +878,7 @@ Serpent Monster,6000,76000
 Serpentine,1650,25250
 Shackled Servant,8000,55000
 Shade of the Eclipse,25000,500000
+Shadow Master Sorcerer,20000,150000
 Shadow Sage,21000,205000
 Shadow Stalker,700,70000
 Shaman,1300,600
@@ -891,6 +915,7 @@ Sky Swordsman,12150,90000
 Skydiver,1500,37600
 Slay Ride,1500,14000
 Slayer,4200,10455
+Sleep Starved Scholar,10000,60000
 Sleepwalker,2000,1700
 Sleepy Merchant,5000,25000
 Slimefist,4900,110000
@@ -1024,6 +1049,7 @@ Technic Queen,17080,66240
 Technic Rook,2785,59400
 Teenage Vampire,900,1000
 Telekinetic Mutant,2000,79000
+Teleporting Truant,14000,100000
 Tentacle,6000,79000
 Terra,1000,4200
 Terrible Twos,1200,800
@@ -1091,6 +1117,8 @@ Twisted Fiend,1100,10500
 Twisted Hotcakes,3250,15400
 Twisted Lilly,1650,9500
 Twisted Treant,4300,41750
+Tyrannical Thaumaturge,30000,120000
+Uncoordinated Cauldron Carrier,6750,40000
 Undertaker,9000,12000
 Unwavering Adventurer,2000,55000
 Upper Class Lady,8000,4500
