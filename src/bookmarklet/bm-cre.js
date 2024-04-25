@@ -704,8 +704,8 @@
   }
 
   function sendData(parameters) {
-    // var url = "https://tsitu.github.io/MH-Tools/cre.html?";
-    var url = "http://localhost:8000/cre.html?";
+    var url = "https://tsitu.github.io/MH-Tools/cre.html?";
+    // var url = "http://localhost:8000/cre.html?";
 
     for (var key in parameters) {
       var value = encodeURIComponent(parameters[key]);
