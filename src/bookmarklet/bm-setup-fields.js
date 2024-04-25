@@ -568,7 +568,7 @@
   // Cheese edge cases
   if (userCheese) {
     if (contains(userCheese, "Empowered")) {
-      userCheese = userCheese.slice(6, userCheese.length);
+      userCheese = userCheese.slice(10, userCheese.length);
       urlParams["empowered"] = "Yes";
     }
 
