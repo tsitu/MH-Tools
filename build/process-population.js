@@ -34,6 +34,7 @@
     "data/pop-csv/queso-geyser.csv",
     "data/pop-csv/queso-river.csv",
     "data/pop-csv/ronza.csv",
+    "data/pop-csv/school-of-sorcery.csv",
     "data/pop-csv/table-of-contents.csv",
     "data/pop-csv/town-of-digby.csv",
     "data/pop-csv/town-of-gnawnia.csv",
