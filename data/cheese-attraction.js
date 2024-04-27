@@ -50,20 +50,12 @@ var baselineAttArray = {
   "Extra Rich Cloud Cheesecake": 1.0000, // Added with SP + Gameplay update 10/05
   "Festive Feta": 0.9000, // Sample: 4959 (High)
   "Final Draft Derby": 1.0000, // Added with FF release
-  "Fishy Fromage": 1.0000, // 2021-10-05 Gameplay Update
   "First Draft Derby": 1.0000, // Added with FF release
+  "Fishy Fromage": 1.0000, // 2021-10-05 Gameplay Update
   "Flamin' Queso": 1.0000, // 2021-10-05 Gameplay Update
   "Fusion Fondue": 1.0000, // 2021-10-05 Gameplay Update
   "Galleon Gouda": 1.0000, // 2021-10-05 Gameplay Update (Confirmed by Michele in #community-tools on discord on 10/5 12:04PM GMT-5)
   "Gauntlet String": 1.0000, // 2021-10-05 Gameplay Update
-  "Grubbeen": 1.0000, // Added with FF release
-  "Tier 2": 1.0000, // 2021-10-05 Gameplay Update
-  "Tier 3": 1.0000, // 2021-10-05 Gameplay Update
-  "Tier 4": 1.0000, // 2021-10-05 Gameplay Update
-  "Tier 5": 1.0000, // 2021-10-05 Gameplay Update
-  "Tier 6": 1.0000, // 2021-10-05 Gameplay Update
-  "Tier 7": 1.0000, // 2021-10-05 Gameplay Update
-  "Tier 8": 1.0000, // 2021-10-05 Gameplay Update
   "Gemstone": 1.0000, // 2021-10-05 Gameplay Update
   "Ghastly Galleon Gouda": 1.0000, // 2021-10-05 Gameplay Update
   "Ghoulgonzola": 0.8957, // Sample: 3123 (High)
@@ -76,6 +68,7 @@ var baselineAttArray = {
   "Gouda": 0.9000, // 2021-10-05 Gameplay Update
   "Graveblossom Camembert": 1.0000, // 2021-10-05 Gameplay Update
   "Grilled": 1.0000, // 2021-10-05 Gameplay Update
+  "Grubbeen": 1.0000, // Added with FF release
   "Gumbo": 1.0000, // 2021-10-05 Gameplay Update
   "Hot Queso": 1.0000, // 2021-10-05 Gameplay Update
   "Inferno Havarti": 1.0000, // 2021-10-05 Gameplay Update
@@ -140,6 +133,13 @@ var baselineAttArray = {
   "Swiss String": 0.8000, // 2021-10-05 Gameplay Update
   "Terre Ricotta": 1.0000, // 2021-10-05 Gameplay Update
   "Thousandth Draft Derby": 1.0000, // M1K release 16 Apr 24
+  "Tier 2": 1.0000, // 2021-10-05 Gameplay Update
+  "Tier 3": 1.0000, // 2021-10-05 Gameplay Update
+  "Tier 4": 1.0000, // 2021-10-05 Gameplay Update
+  "Tier 5": 1.0000, // 2021-10-05 Gameplay Update
+  "Tier 6": 1.0000, // 2021-10-05 Gameplay Update
+  "Tier 7": 1.0000, // 2021-10-05 Gameplay Update
+  "Tier 8": 1.0000, // 2021-10-05 Gameplay Update
   "Undead Emmental": 1.0000, // 2021-10-05 Gameplay Update
   "Undead String Emmental": 1.0000, // 2021-10-05 Gameplay Update
   "Vanilla Stilton": 1.0000, // Confirmed by Michele in #community-tools on discord on 08 Apr 22

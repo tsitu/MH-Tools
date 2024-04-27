@@ -3,6 +3,18 @@ var json2csv = require("json2csv");
 var _ = require("lodash");
 var Combinatorics = require("js-combinatorics");
 
+/**
+ * @typedef {Object} AttractionData
+ * @property {string} location
+ * @property {string} stage
+ * @property {string} cheese
+ * @property {string} charm
+ * @property {string} attraction
+ * @property {string} mouse
+ * @property {number} sample
+ * @property {number} seen
+ */
+
 // Location,Phase,Cheese,Charm,Attraction Rate,Mouse,Sample Size
 exports.POP_FIELDS = [
   { label: "Location", value: "location" },

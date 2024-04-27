@@ -134,8 +134,8 @@ module.exports = {
   ],
   /**
    *
-   * @param {{stage: string, location: string, cheese: string, mouse: string, attraction: string, sample: number}[]} data
-   * @returns {{stage: string, location: string, cheese: string, mouse: string, attraction: string, sample: number}[]}
+   * @param {import('../_utils').AttractionData[]} data
+   * @returns {import('../_utils').AttractionData[]}
    */
   postProcess: function(data) {
     return data;
