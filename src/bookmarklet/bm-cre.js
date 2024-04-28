@@ -472,6 +472,7 @@
         return course["is_boss_encounter"] ? "Shadow Sciences - Boss" : "Shadow Sciences";
       } else if (course["course_type"] === "exam_course") {
         let pName = course["is_boss_encounter"] ? "Final Exam - Boss" : "Final Exam - ";
+        if (course["is_boss_encounter"]) return pName;
         if (course["power_type"] === "arcane") pName += "Arcane";
         if (course["power_type"] === "shadow") pName += "Shadow";
         return pName;
