@@ -115,6 +115,7 @@
       }
       if (
         (sublocation === "Treacherous Tunnels" ||
+          sublocation === "Bombing Run" ||
           sublocation === "The Mad Depths") &&
         userBase === "Magnet Base"
       ) {
@@ -125,15 +126,11 @@
       ) {
         return sublocation + " (Hearthstone)";
       } else if (
-        sublocation === "Bombing Run" &&
-        userBase === "Remote Detonator Base"
-      ) {
-        return sublocation + " (Remote Detonator)";
-      } else if (
         (sublocation === "Treacherous Tunnels" ||
           sublocation === "Bombing Run" ||
           sublocation === "The Mad Depths") &&
-        userBase === "Ultimate Iceberg Base"
+        (userBase === "Ultimate Iceberg Base" ||
+          userBase === "Iceberg Boiler Base")
       ) {
         return sublocation + " (Ultimate Iceberg)";
       }

@@ -4,7 +4,6 @@
   "description": "Assortment of MouseHunt utilities",
   "scripts": {
     "\n-- POPULATION DATA --": "",
-    "ht-pop:iceberg": "node data/pop-iceberg-ht > data/pop-csv/iceberg.csv",
     "pop:acolyte": "node data/pop acolyte-realm > data/pop-csv/acolyte-realm.csv",
     "pop:balack": "node data/pop balacks-cove > data/pop-csv/balacks-cove.csv",
     "pop:beanstalk": "node data/pop bountiful-beanstalk > data/pop-csv/bountiful-beanstalk.csv",
@@ -26,6 +25,7 @@
     "pop:gloomy": "node data/pop gloomy-greenwood > data/pop-csv/gloomy-greenwood.csv",
     "pop:gwh": "node data/pop great-winter-hunt > data/pop-csv/great-winter-hunt.csv",
     "pop:harbour": "node data/pop harbour > data/pop-csv/harbour.csv",
+    "pop:iceberg": "node data/pop iceberg > data/pop-csv/iceberg.csv",
     "pop:jod": "node data/pop jungle-of-dread > data/pop-csv/jungle-of-dread.csv",
     "pop:lab": "node data/pop laboratory > data/pop-csv/laboratory.csv",
     "pop:laby": "node data/pop labyrinth > data/pop-csv/labyrinth.csv",
