@@ -622,7 +622,7 @@ var weaponsArray = {
   "Crystal Tower": ["Rift", 900, 0, 0, 0, "No Effect"],
   "Dark Magic Mirrors Trap": ["Shadow", 8000, 30, 10, 35, "Very Stale"],
   "Darkest Chocolate Bunny Trap": ["Rift", 1400, 10, 5, 2, "Very Stale"],
-  "Derelect Airship Trap": ["Rift", 2000, 5, 10, 3, "No Effect"],
+  "Derelict Airship Trap": ["Rift", 2000, 5, 10, 3, "No Effect"],
   "Digby DrillBot": ["Physical", 3600, 18, 0, 5, "No Effect"],
   "Dimensional Chest Trap": ["Tactical", 5200, 8, 10, 21, "Extremely Fresh"],
   "Double Diamond Adventure": ["Hydro", 3500, 0, 5, 18, "Insanely Fresh"],
