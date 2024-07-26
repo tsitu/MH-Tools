@@ -52,6 +52,7 @@ var riftWeapons = [
   "Christmas Crystalabra Trap",
   "Crystal Tower",
   "Darkest Chocolate Bunny Trap",
+  "Derelict Airship Trap",
   "Focused Crystal Laser",
   "Multi-Crystal Laser",
   "Mysteriously unYielding Null-Onyx Rampart of Cascading Amperes",
