@@ -148,7 +148,10 @@ var dragons = [
   "Dragonbreather",
   "Regal Spearman",
   "Paragon of Dragons",
-  "Empyrean Javelineer"
+  "Empyrean Javelineer",
+  "Rimeus Polarblast",
+  "Malignus Vilestrom",
+  "Crematio Scorchworth"
 ];
 
 var tauntings = [
