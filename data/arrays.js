@@ -722,6 +722,7 @@ var weaponsArray = {
   "RhinoBot": ["Physical", 5000, 0, 0, 8, "Very Stale"],
   "Rift Glacier Gatler": ["Rift", 1250, 10, 10, 3, "Very Fresh"],
   "Rocket Propelled Gavel Trap": ["Physical", 6200, 15, 0, 22, "Stale"],
+  "Ronza's Flock of Golden Anti-Dragonbots": ["Draconic", 5700, 15, 10, 12, "Very Fresh"],
   "Rune Shark Trap": ["Hydro", 6700, 15, 20, 27, "Very Fresh"],
   "S.A.M. F.E.D. DN-5": ["Tactical", 2750, 5, 20, 15, "Fresh"],
   "S.L.A.C.": ["Law", 650, 5, 10, 0, "No Effect"],
