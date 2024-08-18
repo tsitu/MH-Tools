@@ -38,7 +38,7 @@ const requestAsync = util.promisify(request);
       Draconic: m.effectivenesses.draconic,
       Forgotten: m.effectivenesses.forgotten,
       Hydro: m.effectivenesses.hydro,
-      Parental: m.effectivenesses.parental,
+      Parental: 0,
       Physical: m.effectivenesses.physical,
       Shadow: m.effectivenesses.shadow,
       Tactical: m.effectivenesses.tactical,
