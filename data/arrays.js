@@ -466,6 +466,7 @@ var basesArray = {
   "Desert Heater Base": [500, 15, 0, 10, "Very Stale"],
   "Dog Jade Base": [375, 12, 10, 10, "Stale"],
   "Dragon Jade Base": [300, 10, 0, 10, "No Effect"],
+  "Dragon's Breath Opal Refractor Base": [3000, 20, 50, 35, "Ultimately Fresh"],
   "Eerie Base": [300, 8, 5, 8, "Very Stale"],
   "Eerier Base": [300, 10, 0, 10, "Stale"],
   "Electromagnetic Meteorite Base": [350, 12, 15, 8, "Very Stale"],
