@@ -45,10 +45,12 @@ var baselineAttArray = {
   "Dragonvine": 1.0000, // 2021-10-05 Gameplay Update
   "Dumpling": 1.0000, // 2021-10-05 Gameplay Update | Sample: 93373
   "Duskshade Camembert": 1.0000, // 2021-10-05 Gameplay Update
+  "Elemental Emmental": 1.0000, // 2024-07-13 DD Release
   "Empowered Brie": 0.8500, // 2021-10-05 Gameplay Update
   "Empowered SUPER|brie+": 1.0000, // 2021-10-05 Gameplay Update
   "Extra Rich Cloud Cheesecake": 1.0000, // Added with SP + Gameplay update 10/05
   "Festive Feta": 0.9000, // Sample: 4959 (High)
+  "Fiery Fontina": 1.0000, // 2024-07-13 DD Release
   "Final Draft Derby": 1.0000, // Added with FF release
   "First Draft Derby": 1.0000, // Added with FF release
   "Fishy Fromage": 1.0000, // 2021-10-05 Gameplay Update
@@ -71,6 +73,7 @@ var baselineAttArray = {
   "Grubbeen": 1.0000, // Added with FF release
   "Gumbo": 1.0000, // 2021-10-05 Gameplay Update
   "Hot Queso": 1.0000, // 2021-10-05 Gameplay Update
+  "Isy Isabirra": 1.0000, // 2024-07-13 DD Release
   "Inferno Havarti": 1.0000, // 2021-10-05 Gameplay Update
   "Lactrodectus Lancashire": 1.0000, // 2021-10-05 Gameplay Update
   "Lavish Beanster": 1.0000, // Added with BB release 09 May 23
@@ -98,6 +101,7 @@ var baselineAttArray = {
   "Nutmeg": 0.9000, // 2021-10-05 Gameplay Update
   "Onyx Gorgonzola": 1.0000, // 2021-10-05 Gameplay Update
   "Pecan Pecorino": 1.0000, // 2021-10-05 Gameplay Update
+  "Poisonous Provolone": 1.0000, // 2024-07-13 DD Release
   "Polluted Parmesan": 1.0000, // 2021-10-05 Gameplay Update
   "Polter-Geitost": 1.0000, // Added with Halloween 2021
   "Pungent Havarti": 1.0000, // 2021-10-05 Gameplay Update
