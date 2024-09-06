@@ -1,6 +1,7 @@
 Mouse,Gold,Points
 Abominable Snow,5000,5000
 Absolute Acolyte,300000,1000000
+Absolutia Harmonius,20000,85000
 Acolyte,36309,31850
 Admiral Arrrgh,7000,45000
 Admiral Cloudbeard,60000,388500
@@ -28,6 +29,7 @@ Arcane Summoner,7000,45000
 Arch Champion Necromancer,6000,100000
 Archer,750,4500
 Architeuthulhu of the Abyss,30000,100000
+Arcticus the Biting Frost,35000,125000
 Aristo-Cat Burglar,32500,215000
 Armored Archer,800,35000
 Artillery Commander,500000,250000
@@ -40,6 +42,7 @@ Audacious Alchemist,9000,75000
 Automated Sentry,4500,30500
 Automated Stone Sentry,10000,60000
 Automorat,8000,6000
+Avalancheus the Glacial,20000,92500
 Baba Gaga,35000,50000
 Balack the Banished,41000,80000
 Bandit,180,300
@@ -58,6 +61,7 @@ Beachcomber,3500,35000
 Bear,575,310
 Bearded Elder,5000,45000
 Beast Tamer,3125,5000
+Belchazar Banewright,18000,80000
 Berserker,210,425
 Berzerker,1500,40000
 Betta,2535,28000
@@ -74,6 +78,7 @@ Black Mage,3500,4440
 Black Powder Thief,8000,9000
 Black Widow,10,480
 Blacksmith,6000,21000
+Blizzara Winterosa,8000,67500
 Bloomed Sylvan,7180,44400
 Bog Beast,4700,11500
 Bonbon Gummy Globlin,5000,40000
@@ -141,6 +146,7 @@ Cheesy Party,2000,2000
 Cherry,3000,6000
 Cherry Sprite,22500,82500
 Chess Master,19000,119600
+Chillandria Permafrost,18000,80000
 Chip Chiseler,1000,14670
 Chipper,1235,4525
 Chitinous,5845,44405
@@ -170,6 +176,8 @@ Coal Shoveller,3500,6000
 Cobweb,700,500
 Coco Commander,500,6900
 Coffin Zombie,3000,2200
+Colonel Crisp,9500,70000
+Combustius Furnaceheart,18000,80000
 Confused Courier,1500,6000
 Conjurer,4500,6875
 Conqueror,3200,7560
@@ -190,6 +198,7 @@ Corky the Collector,5000,20000
 Corridor Bruiser,8000,50000
 Corrupt,1250,8250
 Corrupt Commodore,600,400
+Corrupticus the Blight Baron,35000,125000
 Costumed Dog,6888,2888
 Costumed Dragon,6888,2888
 Costumed Horse,6888,2888
@@ -302,6 +311,7 @@ Dragoon,20000,100000
 Dread Knight,10000,60000
 Dread Pirate Mousert,2500,33950
 Dream Drifter,3450,30000
+Dreck Grimehaven,9500,70000
 Drudge,4988,32500
 Drummer,800,2800
 Dumpling Chef,3000,2886
@@ -372,6 +382,7 @@ Flamboyant Flautist,13000,67500
 Flame Archer,2700,19900
 Flame Ordnance,1600,33000
 Flame Warrior,3000,18000
+Flamina Cinderbreath,16000,72500
 Floating Spore,1500,39000
 Flutterby,1000,12000
 Fluttering Flutist,4800,48000
@@ -388,10 +399,12 @@ Foxy,1500,1650
 Free Skiing,5000,15000
 Frightened Flying Fireworks,2000,30000
 Frigid Foreman,1200,2000
+Frigidocius Coldshot,16000,72500
 Frog,400,325
 Frost King,50000,120000
 Frostbite,5040,11400
 Frostlance Guard,935,7435
+Frostnip Icebound,7000,65000
 Frostwing Commander,7525,22550
 Frosty Snow,2000,600
 Frozen,475,300
@@ -428,6 +441,7 @@ Gold,1500,600
 Goldleaf,2450,5500
 Golem,4500,7920
 Goliath Field,15000,119000
+Goopus Dredgemore,7000,65000
 Gorgon,2800,1400
 Gourd Ghoul,5000,20000
 Gourdborg,9000,25200
@@ -496,10 +510,12 @@ Iceblock,1265,7425
 Icebreaker,1320,5850
 Icewing,11295,51250
 Icicle,3840,11980
+Iciclesius the Defender,9500,70000
 Ignatia,8000,50000
 Ignis,1000,4490
 Illustrious Illusionist,12000,92000
 Impersonator,180,120
+Incendarius the Unquenchable,20000,92500
 Incompetent Ice Climber,750,5230
 Industrious Digger,890,3510
 Inferna the Engulfed,18000,150000
@@ -570,6 +586,7 @@ Magma Carrier,7180,49335
 Magmarage,1000,30000
 Magmatic Crystal Thief,11000,13000
 Magmatic Golem,17000,18000
+Magnatius Majestica,25000,95000
 Mairitime Pirate,30000,200000
 Maize Harvester,1000,18000
 Malevolent Maestro,100000,600000
@@ -673,6 +690,7 @@ Mystic Pawn,890,8800
 Mystic Queen,13970,80960
 Mystic Rook,2277,72600
 Mystic Scholar,12750,80800
+Mythical Dragon Emperor,120000,200000
 Mythical Giant King,1250000,3000000
 Mythical Master Sorcerer,80000,300000
 Mythweaver,70000,1000000
@@ -702,6 +720,7 @@ Ninja,2750,2750
 Nitro Racer,5000,16000
 Nomad,5000,3400
 Nomadic Warrior,11250,73000
+Noxio Sludgewell,8000,67500
 Nugget,550,6875
 Nutcracker,3000,15000
 Obstinate Oboist,12000,80000
@@ -746,6 +765,7 @@ Peggy the Plunderer,65000,400000
 Penguin,550,4500
 Pernicious Prince,75000,360000
 Perpetual Detention,6000,30000
+Pestilentia the Putrid,20000,92500
 Phalanx,1000,430
 Phase Zombie,4400,34000
 Photographer,7000,5000
@@ -990,6 +1010,7 @@ Spud,500,300
 Squeaken,3456,5528
 Squeaker Bot,650,400
 Squeaker Claws,9000,22000
+Squire Sizzleton,7000,65000
 Stack of Thieves,12500,95000
 Stagecoach Driver,8000,11000
 Stalagmite,3000,62500
@@ -1021,6 +1042,7 @@ Stuffy Banker,11500,8000
 Suave Pirate,21000,87510
 Subterranean,5800,11000
 Sugar Rush,2000,2600
+Sulfurious the Raging Inferno,35000,125000
 Sultry Saxophonist,14000,95000
 Summer Mage,7520,16560
 Summoning Scholar,4988,32500
@@ -1031,6 +1053,7 @@ Super Mega Mecha Ultra RoboGold,4200,52500
 Supernatural,2900,25000
 Supply Hoarder,12000,8000
 Supreme Sensei,60000,325000
+Supremia Magnificus,30000,100000
 Surgeon Bot,2500,32500
 Swabbie,50,70
 Swamp Runner,500,3250
@@ -1064,6 +1087,7 @@ Theurgy Warden,3000,81000
 Thirsty,1000,1000
 Thistle,1150,9050
 Thorn,1850,12500
+Three'amat the Mother of Dragons,60000,150000
 Thunder Strike,10000,60000
 Thundering Watcher,18000,100000
 Thunderlord,15000,90000
@@ -1085,6 +1109,7 @@ Toboggan Technician,3000,8000
 Tomb Exhumer,6500,50000
 Tome Sprite,1800,14000
 Tonic Salesman,8750,3000
+Torchbearer Tinderhelm,8000,67500
 Totally Not Tax Fraud,24899,5000
 Toxic Avenger,1850,48000
 Toxic Warrior,7000,90000
@@ -1096,6 +1121,7 @@ Trailblazer,880,790
 Train Conductor,3500,6000
 Train Engineer,4500,8000
 Trampoline,420,420
+Tranquilia Protecticus,20000,100000
 Travelling Barber,3000,5500
 Treacherous Tubaist,50000,230000
 Treant,600,1300
@@ -1130,6 +1156,7 @@ Vampire,900,1400
 Vanguard,2600,14000
 Vanquisher,2560,9980
 Vaporior,7000,40000
+Venomona Festerbloom,16000,72500
 Vicious Vampire Squid,15000,64000
 Vigilant Ward,5000,42275
 Vincent the Magnificent,10000,10000

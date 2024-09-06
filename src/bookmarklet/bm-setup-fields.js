@@ -464,6 +464,29 @@
       } else {
         return "Hallway";
       }
+    } else if (userLocation === "Draconic Depths") {
+      const ddQuest = userQuests["QuestDraconicDepths"];
+      if (ddQuest["in_cavern"]) {
+        const cavernCategory = ddQuest["cavern"]["category"]; // "fire" | "ice" | "poison" | "elemental"
+        const category = cavernCategory.charAt(0).toUpperCase() + cavernCategory.slice(1);
+
+        const currentTier = ddQuest.cavern.loot_tier.current_tier;
+        const lootTiers = ddQuest.cavern.loot_tier.tier_data;
+
+        // if we're not at the last tier (currentTier is one indexed), then we need a range '0-99'
+        // which consists of the current tier threshold and the next tier threshold - 1
+        // otherwise, we just need the a number '750+'
+        let range;
+        if (currentTier < lootTiers.length) {
+            range = `${lootTiers[currentTier - 1].threshold}-${lootTiers[currentTier].threshold - 1}`;
+        } else {
+            range = `${lootTiers[currentTier - 1].threshold}+`;
+        }
+
+        return `Cavern - ${category} ${range}`;
+      } else {
+        return "Crucible Forge";
+      }
     }
 
     return "N/A";
