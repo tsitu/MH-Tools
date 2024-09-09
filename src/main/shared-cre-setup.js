@@ -339,7 +339,8 @@ function calculateTrapSetup(skipDisp) {
         location === "Prologue Pond" ||
         location === "Table of Contents" ||
         location === "Bountiful Beanstalk" ||
-        location === "School of Sorcery"
+        location === "School of Sorcery" ||
+        location === "Draconic Depths"
       );
     }
 
