@@ -73,7 +73,7 @@ var baselineAttArray = {
   "Grubbeen": 1.0000, // Added with FF release
   "Gumbo": 1.0000, // 2021-10-05 Gameplay Update
   "Hot Queso": 1.0000, // 2021-10-05 Gameplay Update
-  "Isy Isabirra": 1.0000, // 2024-07-13 DD Release
+  "Icy Isabirra": 1.0000, // 2024-07-13 DD Release
   "Inferno Havarti": 1.0000, // 2021-10-05 Gameplay Update
   "Lactrodectus Lancashire": 1.0000, // 2021-10-05 Gameplay Update
   "Lavish Beanster": 1.0000, // Added with BB release 09 May 23
