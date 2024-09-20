@@ -209,7 +209,7 @@ module.exports = {
             include: [
               "Living Salt",
               "Frostwing Commander",
-              "Frostwing Guard",
+              "Frostlance Guard",
             ]
           }
         }
