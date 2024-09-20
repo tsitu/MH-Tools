@@ -116,6 +116,7 @@ var labyrinthMiceClues = {
 
 var dragons = [
   "Dragon",
+  "Icewing",
   "Dragoon",
   "Ful'Mina the Mountain Queen",
   "Thunder Strike",
