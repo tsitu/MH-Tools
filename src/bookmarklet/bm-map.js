@@ -44,7 +44,7 @@
   }
 
   $.post(
-    "https://www.mousehuntgame.com/managers/ajax/users/treasuremap.php",
+    "https://www.mousehuntgame.com/managers/ajax/users/treasuremap_v2.php",
     payload,
     null,
     "json"
