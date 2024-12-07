@@ -69,7 +69,7 @@ const caveData = {
         "Corrupticus the Blight Baron",
       ],
     },
-  },
+  }
 };
 
 
@@ -108,6 +108,7 @@ module.exports = {
   },
   series: [
     {
+      // Topside with standard cheese
       stage: utils.genVarField("stage", "Crucible Forge"),
       cheese: [
         {
@@ -125,15 +126,18 @@ module.exports = {
         }
       ],
     },
+    // Topside with RGBE cheese
     {
       stage: utils.genVarField("stage", "Crucible Forge"),
       cheese: utils.genVarField("cheese", [
         "Fiery Fontina",
         "Icy Isabirra",
         "Poisonous Provolone",
+        "Elemental Emmental",
       ]),
     },
     ...genRgbCaveSeries(),
+    // Elemental Caverns with standard cheese
     {
       stage: utils.genVarField("stage", [
         "Cavern - Elemental 0-99",
@@ -141,8 +145,23 @@ module.exports = {
         "Cavern - Elemental 250-749",
         "Cavern - Elemental 750+",
       ]),
-      cheese: utils.genVarField("cheese", ["Elemental Emmental"]),
+      cheese: [
+        {
+          vars: {
+            cheese: {
+              "SB+": true,
+              "ESB+": true,
+              Gouda: true,
+              Brie: true,
+            },
+          },
+          fields: {
+            cheese: "SB+/Gouda/Brie",
+          },
+        }
+      ],
     },
+    // Elemental Caverns with RGBE cheese
     {
       stage: utils.genVarField("stage", [
         "Cavern - Elemental 0-99",
