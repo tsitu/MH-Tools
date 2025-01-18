@@ -123,6 +123,9 @@
       if (sublocation === "General") {
         return "Generals";
       }
+      if (sublocation === "Hidden Depths") {
+        return "The Hidden Depths";
+      }
       if (
         (sublocation === "Treacherous Tunnels" ||
           sublocation === "Bombing Run" ||
