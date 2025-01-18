@@ -376,6 +376,11 @@ function calculateTrapSetup(skipDisp) {
       } else if (weaponName === "Steam Laser Mk. III") {
         specialPower += 1500;
         specialLuck += 2;
+      } else if (
+        weaponName === "Steam AugerBot 3000" &&
+        locationName === "Iceberg"
+      ) {
+        specialLuck += 45;
       }
 
       // Deep Freeze / UIB / IBB bonuses before hunt 250
