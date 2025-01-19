@@ -780,6 +780,7 @@ var weaponsArray = {
   "Sphynx Wrath": ["Tactical", 6100, 10, 10, 25, "Very Fresh"],
   "Sprinkly Cupcake Surprise Trap": ["Arcane", 3500, 9, 9, 9, "Very Fresh"],
   "Stale Cupcake Golem Trap": ["Forgotten", 6700, 7, 0, 0, "Stale"],
+  "Steam AugerBot 3000": ["Hydro", 7000, 20, 20, 20, "Fresh"],
   "Steam Laser Mk. I": ["Hydro", 4200, 8, 0, 14, "No Effect"],
   "Steam Laser Mk. II": ["Hydro", 4800, 12, 10, 18, "Fresh"],
   "Steam Laser Mk. II (Broken!)": ["Hydro", 0, 0, 0, 0, "Uber Fresh"],
