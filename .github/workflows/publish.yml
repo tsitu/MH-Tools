@@ -22,19 +22,19 @@ jobs:
 
     - name: Checkout PR
       if: ${{ github.event_name == 'pull_request_target' }}
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: ${{ github.event.pull_request.head.ref }}
         repository: ${{ github.event.pull_request.head.repo.full_name }}
 
     - name: Checkout
       if: ${{ github.event_name != 'pull_request_target' }}
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: master
 
     - name: Setup Pages
-      uses: actions/configure-pages@v1
+      uses: actions/configure-pages@v4
     - name: Use Node.js
       uses: actions/setup-node@v4
       with:
@@ -54,7 +54,7 @@ jobs:
     - run: ./build/deploy.sh
 
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v3
       with:
         path: './out'
 
@@ -73,7 +73,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
         # internal-only alpha, not available yet: https://github.com/actions/deploy-pages/pull/61
         # with:
         #   preview: ${{ github.event_name == 'pull_request_target' }}
