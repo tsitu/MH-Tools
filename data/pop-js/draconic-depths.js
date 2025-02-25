@@ -114,14 +114,29 @@ module.exports = {
         {
           vars: {
             cheese: {
-              "SB+": true,
-              "ESB+": true,
               Gouda: true,
               Brie: true,
             },
           },
           fields: {
-            cheese: "SB+/Gouda/Brie",
+            cheese: "Gouda/Brie",
+          },
+        }
+      ],
+    },
+    {
+      // Topside with SB cheese - ARs slightly differ from the above
+      stage: utils.genVarField("stage", "Crucible Forge"),
+      cheese: [
+        {
+          vars: {
+            cheese: {
+              "SB+": true,
+              "ESB+": true,
+            },
+          },
+          fields: {
+            cheese: "SB+",
           },
         }
       ],
