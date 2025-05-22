@@ -45,18 +45,18 @@
           return el.name;
         });
 
-      var charms = arr
-        .filter(function(el) {
+      var charms = {};
+      arr.filter(function(el) {
           return el.classification === "trinket" && el.quantity > 0;
         })
-        .map(function(el) {
-          return el.name;
+        .forEach(function(el) {
+          charms[el.name] = el.quantity;
         });
 
       console.group("Items Owned");
       console.log("Bases: " + bases.length);
       console.log("Weapons: " + weapons.length);
-      console.log("Charms: " + charms.length);
+      console.log("Charms: " + Object.keys(charms).length);
       console.groupEnd();
 
       // Golem Guardian check
