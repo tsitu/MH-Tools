@@ -592,7 +592,7 @@ baseKeys.sort();
 var weaponsArray = {
   "2010 Blastoff Trap": ["Tactical", 2600, 15, 0, 25, "Very Stale"],
   "2012 Big Boom Trap": ["Tactical", 2500, 15, 20, 25, "Extremely Stale"],
-  "500 Pound Spiked Crusher": ["Physical", 250, 10, 0, 1, "No Effect"],
+  "500 Pound Spiked Crusher": ["Physical", 350, 10, 0, 1, "No Effect"],
   "Admiral's Galleon Trap": ["Shadow", 2500, 25, 0, 15, "No Effect"],
   "Ambrosial Portal": ["Shadow", 1025, 0, 5, 0, "Fresh"],
   "Ambush Trap": ["Tactical", 3000, 5, 0, 12, "Fresh"],
@@ -727,7 +727,7 @@ var weaponsArray = {
   "Mouse Hot Tub": ["Physical", 70, 3, 35, 2, "No Effect"],
   "Mouse Mary O'Nette": ["Physical", 250, 0, 6, 5, "Fresh"],
   "Mouse Rocketine": ["Physical", 700, 6, 0, 3, "Extremely Stale"],
-  "Mouse Trebuchet": ["Physical", 600, 2, 4, 1, "Very Fresh"],
+  "Mouse Trebuchet": ["Physical", 750, 10, 4, 1, "Very Fresh"],
   "Multi-Crystal Laser": ["Rift", 1000, 0, 0, 3, "No Effect"],
   "Mutated Venus Mouse Trap": ["Tactical", 2300, 15, 0, 8, "Insanely Stale"],
   "Mysteriously unYielding Null-Onyx Rampart of Cascading Amperes": ["Rift", 1835, 2, 5, 5, "No Effect"],
