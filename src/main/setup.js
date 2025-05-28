@@ -1,5 +1,7 @@
 "use strict";
 
+let ownedCharmQuantities = {};
+
 $(window).load(function() {
   user = SETUP_USER;
 
@@ -282,7 +284,22 @@ function checkStorage() {
   function processStoredData(storedData) {
     var ownedBases = storedData["owned-items"]["bases"];
     var ownedWeapons = storedData["owned-items"]["weapons"];
-    var ownedCharms = storedData["owned-items"]["charms"];
+    var rawOwnedCharms = storedData["owned-items"]["charms"];
+
+    if (Array.isArray(rawOwnedCharms)) {
+      alert("Old charm data format found in localStorage. Converting to new format with default quantity 0. Please re-run 'Load Items' bookmarklet for accurate counts.");
+      ownedCharmQuantities = {};
+      rawOwnedCharms.forEach(function(charmName) {
+        ownedCharmQuantities[charmName] = 0;
+      });
+      storedData["owned-items"]["charms"] = ownedCharmQuantities;
+      localStorage.setItem("best-setup-items", JSON.stringify(storedData));
+    } else if (typeof rawOwnedCharms === 'object' && rawOwnedCharms !== null) {
+      ownedCharmQuantities = rawOwnedCharms;
+    } else {
+      console.warn("Unexpected format for owned charms in localStorage. Initializing as empty. Please re-run 'Load Items'.");
+      ownedCharmQuantities = {};
+    }
 
     // Handle Golem Guardian variants
     var golemCount = 0;
@@ -296,7 +313,7 @@ function checkStorage() {
     console.group("Items: Owned / Total");
     console.log("Bases: " + ownedBases.length + " / " + baseKeys.length);
     console.log("Weapons: " + ownedWeaponsLength + " / " + totalWeaponsLength);
-    console.log("Charms: " + ownedCharms.length + " / " + charmKeys.length);
+    console.log("Charms: " + Object.keys(ownedCharmQuantities).length + " / " + charmKeys.length);
     console.groupEnd();
 
     if (ownedBases && ownedBases.length > 0) {
@@ -318,8 +335,8 @@ function checkStorage() {
       processStorageArray(weaponKeys, ownedWeapons, "weapon");
     }
 
-    if (ownedCharms && ownedCharms.length > 0) {
-      processStorageArray(charmKeys, ownedCharms, "charm");
+    if (ownedCharmQuantities && Object.keys(ownedCharmQuantities).length > 0) {
+      processStorageArray(charmKeys, Object.keys(ownedCharmQuantities), "charm");
     }
   }
 }
@@ -338,9 +355,7 @@ function saveSetupStorage() {
   storageObj["owned-items"]["bases"] = getCheckboxString(
     getSelectors("base").checkbox
   );
-  storageObj["owned-items"]["charms"] = getCheckboxString(
-    getSelectors("charm").checkbox
-  );
+  storageObj["owned-items"]["charms"] = ownedCharmQuantities;
   storageObj["owned-items"]["weapons"] = getCheckboxString(
     getSelectors("weapon").checkbox
   );
@@ -799,7 +814,11 @@ function getCRELinkElement() {
   var caption = weaponName + " / " + baseName;
   if (charmName && charmName !== "No Charm") {
     charmName = charmName.trim().replace(/\*$/, "");
-    caption += " / " + charmName;
+    let charmDisplayName = charmName;
+    if (ownedCharmQuantities && typeof ownedCharmQuantities[charmName] === 'number') {
+      charmDisplayName += " (" + ownedCharmQuantities[charmName] + ")";
+    }
+    caption += " / " + charmDisplayName;
   }
   return (
     "<a href='" +
