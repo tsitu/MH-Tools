@@ -99,8 +99,8 @@ function genRgbCaveSeries() {
       var stage = { vars: {}, fields: {} };
       stage.vars["stage"] = {};
       // These have very few data/don't exist yet.
-      //stage.vars["stage"][`Cavern - 1x ${color} ${range}`] = true;
-      //stage.vars["stage"][`Cavern - 2x ${color} ${range}`] = true;
+      stage.vars["stage"][`Cavern - 1x ${caveType} ${range}`] = true;
+      stage.vars["stage"][`Cavern - 2x ${caveType} ${range}`] = true;
       stage.vars["stage"][`Cavern - 3x ${caveType} ${range}`] = true;
       stage.fields["stage"] = `Cavern - ${caveType} ${range}`;
 
@@ -120,14 +120,23 @@ function genRgbCaveSeries() {
           {
             vars: {
               cheese: {
-                "SB+": true,
-                "ESB+": true,
                 "Brie": true,
                 "Gouda": true,
               },
             },
             fields: {
-              cheese: "SB+/Gouda/Brie",
+              cheese: "Gouda/Brie",
+            },
+          },
+          {
+            vars: {
+              cheese: {
+                "SB+": true,
+                "ESB+": true,
+              },
+            },
+            fields: {
+              cheese: "SB+",
             },
           },
         ],
