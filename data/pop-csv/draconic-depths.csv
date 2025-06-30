@@ -1,138 +1,168 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Draconic Depths","Crucible Forge","Gouda/Brie","-","14.23%","Colonel Crisp",75005
-"Draconic Depths","Crucible Forge","Gouda/Brie","-","14.15%","Noxio Sludgewell",75005
-"Draconic Depths","Crucible Forge","Gouda/Brie","-","13.91%","Blizzara Winterosa",75005
-"Draconic Depths","Crucible Forge","Gouda/Brie","-","13.89%","Dreck Grimehaven",75005
-"Draconic Depths","Crucible Forge","Gouda/Brie","-","13.87%","Torchbearer Tinderhelm",75005
-"Draconic Depths","Crucible Forge","Gouda/Brie","-","13.71%","Iciclesius the Defender",75005
-"Draconic Depths","Crucible Forge","Gouda/Brie","-","6.08%","Squire Sizzleton",75005
-"Draconic Depths","Crucible Forge","Gouda/Brie","-","5.10%","Goopus Dredgemore",75005
-"Draconic Depths","Crucible Forge","Gouda/Brie","-","5.04%","Frostnip Icebound",75005
-"Draconic Depths","Crucible Forge","SB+","-","16.85%","Squire Sizzleton",18468
-"Draconic Depths","Crucible Forge","SB+","-","16.69%","Goopus Dredgemore",18468
-"Draconic Depths","Crucible Forge","SB+","-","15.88%","Frostnip Icebound",18468
-"Draconic Depths","Crucible Forge","SB+","-","12.44%","Noxio Sludgewell",18468
-"Draconic Depths","Crucible Forge","SB+","-","11.89%","Blizzara Winterosa",18468
-"Draconic Depths","Crucible Forge","SB+","-","11.65%","Torchbearer Tinderhelm",18468
-"Draconic Depths","Crucible Forge","SB+","-","5.05%","Colonel Crisp",18468
-"Draconic Depths","Crucible Forge","SB+","-","4.81%","Iciclesius the Defender",18468
-"Draconic Depths","Crucible Forge","SB+","-","4.74%","Dreck Grimehaven",18468
-"Draconic Depths","Crucible Forge","Fiery Fontina","-","45.49%","Torchbearer Tinderhelm",10153
-"Draconic Depths","Crucible Forge","Fiery Fontina","-","38.63%","Colonel Crisp",10153
-"Draconic Depths","Crucible Forge","Fiery Fontina","-","15.88%","Squire Sizzleton",10153
-"Draconic Depths","Crucible Forge","Icy Isabirra","-","44.34%","Blizzara Winterosa",10768
-"Draconic Depths","Crucible Forge","Icy Isabirra","-","39.85%","Iciclesius the Defender",10768
-"Draconic Depths","Crucible Forge","Icy Isabirra","-","15.82%","Frostnip Icebound",10768
-"Draconic Depths","Crucible Forge","Poisonous Provolone","-","44.66%","Noxio Sludgewell",10475
-"Draconic Depths","Crucible Forge","Poisonous Provolone","-","39.52%","Dreck Grimehaven",10475
-"Draconic Depths","Crucible Forge","Poisonous Provolone","-","15.82%","Goopus Dredgemore",10475
-"Draconic Depths","Crucible Forge","Elemental Emmental","-","100.00%","Tranquilia Protecticus",3103
-"Draconic Depths","Cavern - Ice 0-99","Icy Isabirra","-","64.66%","Rimeus Polarblast",5343
-"Draconic Depths","Cavern - Ice 0-99","Icy Isabirra","-","35.34%","Frigidocius Coldshot",5343
-"Draconic Depths","Cavern - Ice 100-249","Icy Isabirra","-","60.62%","Frigidocius Coldshot",5120
-"Draconic Depths","Cavern - Ice 100-249","Icy Isabirra","-","24.69%","Rimeus Polarblast",5120
-"Draconic Depths","Cavern - Ice 100-249","Icy Isabirra","-","9.84%","Chillandria Permafrost",5120
-"Draconic Depths","Cavern - Ice 100-249","Icy Isabirra","-","4.84%","Avalancheus the Glacial",5120
-"Draconic Depths","Cavern - Ice 250-749","Icy Isabirra","-","44.99%","Chillandria Permafrost",11178
-"Draconic Depths","Cavern - Ice 250-749","Icy Isabirra","-","25.09%","Avalancheus the Glacial",11178
-"Draconic Depths","Cavern - Ice 250-749","Icy Isabirra","-","19.57%","Frigidocius Coldshot",11178
-"Draconic Depths","Cavern - Ice 250-749","Icy Isabirra","-","10.34%","Rimeus Polarblast",11178
-"Draconic Depths","Cavern - Ice 750+","Icy Isabirra","-","39.35%","Arcticus the Biting Frost",76427
-"Draconic Depths","Cavern - Ice 750+","Icy Isabirra","-","30.80%","Chillandria Permafrost",76427
-"Draconic Depths","Cavern - Ice 750+","Icy Isabirra","-","29.85%","Avalancheus the Glacial",76427
-"Draconic Depths","Cavern - Fire 0-99","Fiery Fontina","-","65.09%","Crematio Scorchworth",5328
-"Draconic Depths","Cavern - Fire 0-99","Fiery Fontina","-","34.91%","Flamina Cinderbreath",5328
-"Draconic Depths","Cavern - Fire 100-249","Fiery Fontina","-","60.48%","Flamina Cinderbreath",4916
-"Draconic Depths","Cavern - Fire 100-249","Fiery Fontina","-","24.96%","Crematio Scorchworth",4916
-"Draconic Depths","Cavern - Fire 100-249","Fiery Fontina","-","9.52%","Combustius Furnaceheart",4916
-"Draconic Depths","Cavern - Fire 100-249","Fiery Fontina","-","5.04%","Incendarius the Unquenchable",4916
-"Draconic Depths","Cavern - Fire 250-749","Fiery Fontina","-","45.06%","Combustius Furnaceheart",11410
-"Draconic Depths","Cavern - Fire 250-749","Fiery Fontina","-","23.85%","Incendarius the Unquenchable",11410
-"Draconic Depths","Cavern - Fire 250-749","Fiery Fontina","-","20.10%","Flamina Cinderbreath",11410
-"Draconic Depths","Cavern - Fire 250-749","Fiery Fontina","-","11.00%","Crematio Scorchworth",11410
-"Draconic Depths","Cavern - Fire 750+","Fiery Fontina","-","39.68%","Sulfurious the Raging Inferno",73232
-"Draconic Depths","Cavern - Fire 750+","Fiery Fontina","-","30.70%","Combustius Furnaceheart",73232
-"Draconic Depths","Cavern - Fire 750+","Fiery Fontina","-","29.61%","Incendarius the Unquenchable",73232
-"Draconic Depths","Cavern - Poison 0-99","Poisonous Provolone","-","65.38%","Malignus Vilestrom",5278
-"Draconic Depths","Cavern - Poison 0-99","Poisonous Provolone","-","34.62%","Venomona Festerbloom",5278
-"Draconic Depths","Cavern - Poison 100-249","Poisonous Provolone","-","59.61%","Venomona Festerbloom",4984
-"Draconic Depths","Cavern - Poison 100-249","Poisonous Provolone","-","25.56%","Malignus Vilestrom",4984
-"Draconic Depths","Cavern - Poison 100-249","Poisonous Provolone","-","10.11%","Belchazar Banewright",4984
-"Draconic Depths","Cavern - Poison 100-249","Poisonous Provolone","-","4.72%","Pestilentia the Putrid",4984
-"Draconic Depths","Cavern - Poison 250-749","Poisonous Provolone","-","45.03%","Belchazar Banewright",11335
-"Draconic Depths","Cavern - Poison 250-749","Poisonous Provolone","-","24.89%","Pestilentia the Putrid",11335
-"Draconic Depths","Cavern - Poison 250-749","Poisonous Provolone","-","19.47%","Venomona Festerbloom",11335
-"Draconic Depths","Cavern - Poison 250-749","Poisonous Provolone","-","10.61%","Malignus Vilestrom",11335
-"Draconic Depths","Cavern - Poison 750+","Poisonous Provolone","-","39.75%","Corrupticus the Blight Baron",73060
-"Draconic Depths","Cavern - Poison 750+","Poisonous Provolone","-","30.68%","Belchazar Banewright",73060
-"Draconic Depths","Cavern - Poison 750+","Poisonous Provolone","-","29.58%","Pestilentia the Putrid",73060
-"Draconic Depths","Cavern - Elemental 0-99","Elemental Emmental","-","64.76%","Absolutia Harmonius",1362
-"Draconic Depths","Cavern - Elemental 0-99","Elemental Emmental","-","35.24%","Magnatius Majestica",1362
-"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","15.71%","Blizzara Winterosa",140
-"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","15.71%","Noxio Sludgewell",140
-"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","15.00%","Torchbearer Tinderhelm",140
-"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","10.71%","Colonel Crisp",140
-"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","10.71%","Iciclesius the Defender",140
-"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","10.00%","Squire Sizzleton",140
-"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","7.86%","Goopus Dredgemore",140
-"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","7.14%","Frostnip Icebound",140
-"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","7.14%","Dreck Grimehaven",140
-"Draconic Depths","Cavern - Elemental 0-99","Fiery Fontina","-","66.79%","Crematio Scorchworth",265
-"Draconic Depths","Cavern - Elemental 0-99","Fiery Fontina","-","33.21%","Flamina Cinderbreath",265
-"Draconic Depths","Cavern - Elemental 0-99","Icy Isabirra","-","65.44%","Rimeus Polarblast",298
-"Draconic Depths","Cavern - Elemental 0-99","Icy Isabirra","-","34.56%","Frigidocius Coldshot",298
-"Draconic Depths","Cavern - Elemental 0-99","Poisonous Provolone","-","68.09%","Malignus Vilestrom",282
-"Draconic Depths","Cavern - Elemental 0-99","Poisonous Provolone","-","31.91%","Venomona Festerbloom",282
-"Draconic Depths","Cavern - Elemental 100-249","Elemental Emmental","-","59.40%","Magnatius Majestica",1192
-"Draconic Depths","Cavern - Elemental 100-249","Elemental Emmental","-","26.26%","Absolutia Harmonius",1192
-"Draconic Depths","Cavern - Elemental 100-249","Elemental Emmental","-","9.65%","Supremia Magnificus",1192
-"Draconic Depths","Cavern - Elemental 100-249","Elemental Emmental","-","4.70%","Three'amat the Mother of Dragons",1192
-"Draconic Depths","Cavern - Elemental 100-249","Fiery Fontina","-","62.15%","Flamina Cinderbreath",288
-"Draconic Depths","Cavern - Elemental 100-249","Fiery Fontina","-","22.92%","Crematio Scorchworth",288
-"Draconic Depths","Cavern - Elemental 100-249","Fiery Fontina","-","9.38%","Combustius Furnaceheart",288
-"Draconic Depths","Cavern - Elemental 100-249","Fiery Fontina","-","5.56%","Incendarius the Unquenchable",288
-"Draconic Depths","Cavern - Elemental 100-249","Icy Isabirra","-","62.90%","Frigidocius Coldshot",310
-"Draconic Depths","Cavern - Elemental 100-249","Icy Isabirra","-","21.94%","Rimeus Polarblast",310
-"Draconic Depths","Cavern - Elemental 100-249","Icy Isabirra","-","10.00%","Chillandria Permafrost",310
-"Draconic Depths","Cavern - Elemental 100-249","Icy Isabirra","-","5.16%","Avalancheus the Glacial",310
-"Draconic Depths","Cavern - Elemental 100-249","Poisonous Provolone","-","62.81%","Venomona Festerbloom",285
-"Draconic Depths","Cavern - Elemental 100-249","Poisonous Provolone","-","23.51%","Malignus Vilestrom",285
-"Draconic Depths","Cavern - Elemental 100-249","Poisonous Provolone","-","9.12%","Belchazar Banewright",285
-"Draconic Depths","Cavern - Elemental 100-249","Poisonous Provolone","-","4.56%","Pestilentia the Putrid",285
-"Draconic Depths","Cavern - Elemental 250-749","Elemental Emmental","-","42.60%","Supremia Magnificus",1791
-"Draconic Depths","Cavern - Elemental 250-749","Elemental Emmental","-","26.63%","Three'amat the Mother of Dragons",1791
-"Draconic Depths","Cavern - Elemental 250-749","Elemental Emmental","-","19.26%","Magnatius Majestica",1791
-"Draconic Depths","Cavern - Elemental 250-749","Elemental Emmental","-","11.50%","Absolutia Harmonius",1791
-"Draconic Depths","Cavern - Elemental 250-749","Fiery Fontina","-","45.84%","Combustius Furnaceheart",805
-"Draconic Depths","Cavern - Elemental 250-749","Fiery Fontina","-","23.60%","Incendarius the Unquenchable",805
-"Draconic Depths","Cavern - Elemental 250-749","Fiery Fontina","-","20.50%","Flamina Cinderbreath",805
-"Draconic Depths","Cavern - Elemental 250-749","Fiery Fontina","-","10.06%","Crematio Scorchworth",805
-"Draconic Depths","Cavern - Elemental 250-749","Icy Isabirra","-","45.04%","Chillandria Permafrost",928
-"Draconic Depths","Cavern - Elemental 250-749","Icy Isabirra","-","26.08%","Avalancheus the Glacial",928
-"Draconic Depths","Cavern - Elemental 250-749","Icy Isabirra","-","21.44%","Frigidocius Coldshot",928
-"Draconic Depths","Cavern - Elemental 250-749","Icy Isabirra","-","7.44%","Rimeus Polarblast",928
-"Draconic Depths","Cavern - Elemental 250-749","Poisonous Provolone","-","44.80%","Belchazar Banewright",933
-"Draconic Depths","Cavern - Elemental 250-749","Poisonous Provolone","-","24.65%","Pestilentia the Putrid",933
-"Draconic Depths","Cavern - Elemental 250-749","Poisonous Provolone","-","19.29%","Venomona Festerbloom",933
-"Draconic Depths","Cavern - Elemental 250-749","Poisonous Provolone","-","11.25%","Malignus Vilestrom",933
-"Draconic Depths","Cavern - Elemental 750+","Elemental Emmental","-","39.79%","Mythical Dragon Emperor",32112
-"Draconic Depths","Cavern - Elemental 750+","Elemental Emmental","-","30.38%","Supremia Magnificus",32112
-"Draconic Depths","Cavern - Elemental 750+","Elemental Emmental","-","29.83%","Three'amat the Mother of Dragons",32112
-"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","18.64%","Blizzara Winterosa",118
-"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","14.41%","Torchbearer Tinderhelm",118
-"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","11.02%","Frostnip Icebound",118
-"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","11.02%","Colonel Crisp",118
-"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","11.02%","Squire Sizzleton",118
-"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","10.17%","Goopus Dredgemore",118
-"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","8.47%","Dreck Grimehaven",118
-"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","8.47%","Noxio Sludgewell",118
-"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","6.78%","Iciclesius the Defender",118
-"Draconic Depths","Cavern - Elemental 750+","Fiery Fontina","-","38.97%","Sulfurious the Raging Inferno",952
-"Draconic Depths","Cavern - Elemental 750+","Fiery Fontina","-","31.41%","Combustius Furnaceheart",952
-"Draconic Depths","Cavern - Elemental 750+","Fiery Fontina","-","29.62%","Incendarius the Unquenchable",952
-"Draconic Depths","Cavern - Elemental 750+","Icy Isabirra","-","40.07%","Arcticus the Biting Frost",916
-"Draconic Depths","Cavern - Elemental 750+","Icy Isabirra","-","31.33%","Chillandria Permafrost",916
-"Draconic Depths","Cavern - Elemental 750+","Icy Isabirra","-","28.60%","Avalancheus the Glacial",916
-"Draconic Depths","Cavern - Elemental 750+","Poisonous Provolone","-","43.83%","Corrupticus the Blight Baron",956
-"Draconic Depths","Cavern - Elemental 750+","Poisonous Provolone","-","29.39%","Belchazar Banewright",956
-"Draconic Depths","Cavern - Elemental 750+","Poisonous Provolone","-","26.78%","Pestilentia the Putrid",956
+"Draconic Depths","Crucible Forge","Gouda/Brie","-","14.18%","Colonel Crisp",117779
+"Draconic Depths","Crucible Forge","Gouda/Brie","-","14.15%","Noxio Sludgewell",117779
+"Draconic Depths","Crucible Forge","Gouda/Brie","-","13.98%","Blizzara Winterosa",117779
+"Draconic Depths","Crucible Forge","Gouda/Brie","-","13.97%","Dreck Grimehaven",117779
+"Draconic Depths","Crucible Forge","Gouda/Brie","-","13.93%","Torchbearer Tinderhelm",117779
+"Draconic Depths","Crucible Forge","Gouda/Brie","-","13.78%","Iciclesius the Defender",117779
+"Draconic Depths","Crucible Forge","Gouda/Brie","-","6.00%","Squire Sizzleton",117779
+"Draconic Depths","Crucible Forge","Gouda/Brie","-","5.04%","Frostnip Icebound",117779
+"Draconic Depths","Crucible Forge","Gouda/Brie","-","4.97%","Goopus Dredgemore",117779
+"Draconic Depths","Crucible Forge","SB+","-","16.65%","Squire Sizzleton",25109
+"Draconic Depths","Crucible Forge","SB+","-","16.48%","Goopus Dredgemore",25109
+"Draconic Depths","Crucible Forge","SB+","-","15.93%","Frostnip Icebound",25109
+"Draconic Depths","Crucible Forge","SB+","-","12.39%","Noxio Sludgewell",25109
+"Draconic Depths","Crucible Forge","SB+","-","12.23%","Blizzara Winterosa",25109
+"Draconic Depths","Crucible Forge","SB+","-","11.69%","Torchbearer Tinderhelm",25109
+"Draconic Depths","Crucible Forge","SB+","-","5.03%","Colonel Crisp",25109
+"Draconic Depths","Crucible Forge","SB+","-","4.88%","Iciclesius the Defender",25109
+"Draconic Depths","Crucible Forge","SB+","-","4.73%","Dreck Grimehaven",25109
+"Draconic Depths","Crucible Forge","Fiery Fontina","-","44.90%","Torchbearer Tinderhelm",17190
+"Draconic Depths","Crucible Forge","Fiery Fontina","-","39.27%","Colonel Crisp",17190
+"Draconic Depths","Crucible Forge","Fiery Fontina","-","15.83%","Squire Sizzleton",17190
+"Draconic Depths","Crucible Forge","Icy Isabirra","-","44.61%","Blizzara Winterosa",18129
+"Draconic Depths","Crucible Forge","Icy Isabirra","-","39.68%","Iciclesius the Defender",18129
+"Draconic Depths","Crucible Forge","Icy Isabirra","-","15.71%","Frostnip Icebound",18129
+"Draconic Depths","Crucible Forge","Poisonous Provolone","-","44.70%","Noxio Sludgewell",17599
+"Draconic Depths","Crucible Forge","Poisonous Provolone","-","39.35%","Dreck Grimehaven",17599
+"Draconic Depths","Crucible Forge","Poisonous Provolone","-","15.94%","Goopus Dredgemore",17599
+"Draconic Depths","Crucible Forge","Elemental Emmental","-","100.00%","Tranquilia Protecticus",5458
+"Draconic Depths","Cavern - Ice 0-99","Icy Isabirra","-","64.52%","Rimeus Polarblast",8167
+"Draconic Depths","Cavern - Ice 0-99","Icy Isabirra","-","35.48%","Frigidocius Coldshot",8167
+"Draconic Depths","Cavern - Ice 0-99","SB+/Gouda/Brie","-","48.90%","Blizzara Winterosa",319
+"Draconic Depths","Cavern - Ice 0-99","SB+/Gouda/Brie","-","27.59%","Iciclesius the Defender",319
+"Draconic Depths","Cavern - Ice 0-99","SB+/Gouda/Brie","-","23.51%","Frostnip Icebound",319
+"Draconic Depths","Cavern - Ice 100-249","Icy Isabirra","-","59.95%","Frigidocius Coldshot",7655
+"Draconic Depths","Cavern - Ice 100-249","Icy Isabirra","-","24.76%","Rimeus Polarblast",7655
+"Draconic Depths","Cavern - Ice 100-249","Icy Isabirra","-","10.29%","Chillandria Permafrost",7655
+"Draconic Depths","Cavern - Ice 100-249","Icy Isabirra","-","5.00%","Avalancheus the Glacial",7655
+"Draconic Depths","Cavern - Ice 250-749","Icy Isabirra","-","44.56%","Chillandria Permafrost",16725
+"Draconic Depths","Cavern - Ice 250-749","Icy Isabirra","-","25.15%","Avalancheus the Glacial",16725
+"Draconic Depths","Cavern - Ice 250-749","Icy Isabirra","-","19.74%","Frigidocius Coldshot",16725
+"Draconic Depths","Cavern - Ice 250-749","Icy Isabirra","-","10.55%","Rimeus Polarblast",16725
+"Draconic Depths","Cavern - Ice 250-749","SB+/Gouda/Brie","-","45.54%","Blizzara Winterosa",101
+"Draconic Depths","Cavern - Ice 250-749","SB+/Gouda/Brie","-","34.65%","Frostnip Icebound",101
+"Draconic Depths","Cavern - Ice 250-749","SB+/Gouda/Brie","-","19.80%","Iciclesius the Defender",101
+"Draconic Depths","Cavern - Ice 750+","Icy Isabirra","-","39.32%","Arcticus the Biting Frost",125011
+"Draconic Depths","Cavern - Ice 750+","Icy Isabirra","-","30.83%","Chillandria Permafrost",125011
+"Draconic Depths","Cavern - Ice 750+","Icy Isabirra","-","29.85%","Avalancheus the Glacial",125011
+"Draconic Depths","Cavern - Ice 750+","SB+/Gouda/Brie","-","41.76%","Blizzara Winterosa",261
+"Draconic Depths","Cavern - Ice 750+","SB+/Gouda/Brie","-","30.27%","Iciclesius the Defender",261
+"Draconic Depths","Cavern - Ice 750+","SB+/Gouda/Brie","-","27.97%","Frostnip Icebound",261
+"Draconic Depths","Cavern - Fire 0-99","Fiery Fontina","-","65.09%","Crematio Scorchworth",8095
+"Draconic Depths","Cavern - Fire 0-99","Fiery Fontina","-","34.91%","Flamina Cinderbreath",8095
+"Draconic Depths","Cavern - Fire 0-99","SB+/Gouda/Brie","-","46.25%","Torchbearer Tinderhelm",253
+"Draconic Depths","Cavern - Fire 0-99","SB+/Gouda/Brie","-","30.83%","Colonel Crisp",253
+"Draconic Depths","Cavern - Fire 0-99","SB+/Gouda/Brie","-","22.92%","Squire Sizzleton",253
+"Draconic Depths","Cavern - Fire 100-249","Fiery Fontina","-","59.56%","Flamina Cinderbreath",7438
+"Draconic Depths","Cavern - Fire 100-249","Fiery Fontina","-","25.81%","Crematio Scorchworth",7438
+"Draconic Depths","Cavern - Fire 100-249","Fiery Fontina","-","9.79%","Combustius Furnaceheart",7438
+"Draconic Depths","Cavern - Fire 100-249","Fiery Fontina","-","4.84%","Incendarius the Unquenchable",7438
+"Draconic Depths","Cavern - Fire 250-749","Fiery Fontina","-","45.03%","Combustius Furnaceheart",17155
+"Draconic Depths","Cavern - Fire 250-749","Fiery Fontina","-","24.14%","Incendarius the Unquenchable",17155
+"Draconic Depths","Cavern - Fire 250-749","Fiery Fontina","-","19.88%","Flamina Cinderbreath",17155
+"Draconic Depths","Cavern - Fire 250-749","Fiery Fontina","-","10.95%","Crematio Scorchworth",17155
+"Draconic Depths","Cavern - Fire 750+","Fiery Fontina","-","39.72%","Sulfurious the Raging Inferno",122645
+"Draconic Depths","Cavern - Fire 750+","Fiery Fontina","-","30.70%","Combustius Furnaceheart",122645
+"Draconic Depths","Cavern - Fire 750+","Fiery Fontina","-","29.58%","Incendarius the Unquenchable",122645
+"Draconic Depths","Cavern - Fire 750+","SB+/Gouda/Brie","-","47.04%","Torchbearer Tinderhelm",287
+"Draconic Depths","Cavern - Fire 750+","SB+/Gouda/Brie","-","29.97%","Colonel Crisp",287
+"Draconic Depths","Cavern - Fire 750+","SB+/Gouda/Brie","-","23.00%","Squire Sizzleton",287
+"Draconic Depths","Cavern - Poison 0-99","Poisonous Provolone","-","65.16%","Malignus Vilestrom",7925
+"Draconic Depths","Cavern - Poison 0-99","Poisonous Provolone","-","34.84%","Venomona Festerbloom",7925
+"Draconic Depths","Cavern - Poison 0-99","SB+/Gouda/Brie","-","42.09%","Noxio Sludgewell",316
+"Draconic Depths","Cavern - Poison 0-99","SB+/Gouda/Brie","-","38.92%","Dreck Grimehaven",316
+"Draconic Depths","Cavern - Poison 0-99","SB+/Gouda/Brie","-","18.99%","Goopus Dredgemore",316
+"Draconic Depths","Cavern - Poison 100-249","Poisonous Provolone","-","60.02%","Venomona Festerbloom",7503
+"Draconic Depths","Cavern - Poison 100-249","Poisonous Provolone","-","25.35%","Malignus Vilestrom",7503
+"Draconic Depths","Cavern - Poison 100-249","Poisonous Provolone","-","9.97%","Belchazar Banewright",7503
+"Draconic Depths","Cavern - Poison 100-249","Poisonous Provolone","-","4.66%","Pestilentia the Putrid",7503
+"Draconic Depths","Cavern - Poison 250-749","Poisonous Provolone","-","44.83%","Belchazar Banewright",16802
+"Draconic Depths","Cavern - Poison 250-749","Poisonous Provolone","-","24.82%","Pestilentia the Putrid",16802
+"Draconic Depths","Cavern - Poison 250-749","Poisonous Provolone","-","19.50%","Venomona Festerbloom",16802
+"Draconic Depths","Cavern - Poison 250-749","Poisonous Provolone","-","10.84%","Malignus Vilestrom",16802
+"Draconic Depths","Cavern - Poison 750+","Poisonous Provolone","-","39.66%","Corrupticus the Blight Baron",125144
+"Draconic Depths","Cavern - Poison 750+","Poisonous Provolone","-","30.80%","Belchazar Banewright",125144
+"Draconic Depths","Cavern - Poison 750+","Poisonous Provolone","-","29.54%","Pestilentia the Putrid",125144
+"Draconic Depths","Cavern - Poison 750+","SB+/Gouda/Brie","-","48.74%","Noxio Sludgewell",277
+"Draconic Depths","Cavern - Poison 750+","SB+/Gouda/Brie","-","26.71%","Goopus Dredgemore",277
+"Draconic Depths","Cavern - Poison 750+","SB+/Gouda/Brie","-","24.55%","Dreck Grimehaven",277
+"Draconic Depths","Cavern - Elemental 0-99","Fiery Fontina","-","65.29%","Crematio Scorchworth",556
+"Draconic Depths","Cavern - Elemental 0-99","Fiery Fontina","-","34.71%","Flamina Cinderbreath",556
+"Draconic Depths","Cavern - Elemental 0-99","Icy Isabirra","-","65.63%","Rimeus Polarblast",547
+"Draconic Depths","Cavern - Elemental 0-99","Icy Isabirra","-","34.37%","Frigidocius Coldshot",547
+"Draconic Depths","Cavern - Elemental 0-99","Poisonous Provolone","-","62.87%","Malignus Vilestrom",501
+"Draconic Depths","Cavern - Elemental 0-99","Poisonous Provolone","-","37.13%","Venomona Festerbloom",501
+"Draconic Depths","Cavern - Elemental 0-99","Elemental Emmental","-","65.43%","Absolutia Harmonius",2404
+"Draconic Depths","Cavern - Elemental 0-99","Elemental Emmental","-","34.57%","Magnatius Majestica",2404
+"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","17.75%","Blizzara Winterosa",231
+"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","16.02%","Noxio Sludgewell",231
+"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","13.85%","Torchbearer Tinderhelm",231
+"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","9.96%","Frostnip Icebound",231
+"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","9.96%","Iciclesius the Defender",231
+"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","9.52%","Squire Sizzleton",231
+"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","8.66%","Colonel Crisp",231
+"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","7.79%","Dreck Grimehaven",231
+"Draconic Depths","Cavern - Elemental 0-99","SB+/Gouda/Brie","-","6.49%","Goopus Dredgemore",231
+"Draconic Depths","Cavern - Elemental 100-249","Fiery Fontina","-","60.00%","Flamina Cinderbreath",505
+"Draconic Depths","Cavern - Elemental 100-249","Fiery Fontina","-","23.37%","Crematio Scorchworth",505
+"Draconic Depths","Cavern - Elemental 100-249","Fiery Fontina","-","11.68%","Combustius Furnaceheart",505
+"Draconic Depths","Cavern - Elemental 100-249","Fiery Fontina","-","4.95%","Incendarius the Unquenchable",505
+"Draconic Depths","Cavern - Elemental 100-249","Icy Isabirra","-","59.33%","Frigidocius Coldshot",504
+"Draconic Depths","Cavern - Elemental 100-249","Icy Isabirra","-","25.99%","Rimeus Polarblast",504
+"Draconic Depths","Cavern - Elemental 100-249","Icy Isabirra","-","9.52%","Chillandria Permafrost",504
+"Draconic Depths","Cavern - Elemental 100-249","Icy Isabirra","-","5.16%","Avalancheus the Glacial",504
+"Draconic Depths","Cavern - Elemental 100-249","Poisonous Provolone","-","62.24%","Venomona Festerbloom",490
+"Draconic Depths","Cavern - Elemental 100-249","Poisonous Provolone","-","24.90%","Malignus Vilestrom",490
+"Draconic Depths","Cavern - Elemental 100-249","Poisonous Provolone","-","8.37%","Belchazar Banewright",490
+"Draconic Depths","Cavern - Elemental 100-249","Poisonous Provolone","-","4.49%","Pestilentia the Putrid",490
+"Draconic Depths","Cavern - Elemental 100-249","Elemental Emmental","-","59.66%","Magnatius Majestica",1988
+"Draconic Depths","Cavern - Elemental 100-249","Elemental Emmental","-","26.61%","Absolutia Harmonius",1988
+"Draconic Depths","Cavern - Elemental 100-249","Elemental Emmental","-","9.15%","Supremia Magnificus",1988
+"Draconic Depths","Cavern - Elemental 100-249","Elemental Emmental","-","4.58%","Three'amat the Mother of Dragons",1988
+"Draconic Depths","Cavern - Elemental 250-749","Fiery Fontina","-","45.48%","Combustius Furnaceheart",1383
+"Draconic Depths","Cavern - Elemental 250-749","Fiery Fontina","-","23.72%","Incendarius the Unquenchable",1383
+"Draconic Depths","Cavern - Elemental 250-749","Fiery Fontina","-","20.54%","Flamina Cinderbreath",1383
+"Draconic Depths","Cavern - Elemental 250-749","Fiery Fontina","-","10.27%","Crematio Scorchworth",1383
+"Draconic Depths","Cavern - Elemental 250-749","Icy Isabirra","-","44.40%","Chillandria Permafrost",1491
+"Draconic Depths","Cavern - Elemental 250-749","Icy Isabirra","-","27.43%","Avalancheus the Glacial",1491
+"Draconic Depths","Cavern - Elemental 250-749","Icy Isabirra","-","19.79%","Frigidocius Coldshot",1491
+"Draconic Depths","Cavern - Elemental 250-749","Icy Isabirra","-","8.38%","Rimeus Polarblast",1491
+"Draconic Depths","Cavern - Elemental 250-749","Poisonous Provolone","-","44.63%","Belchazar Banewright",1461
+"Draconic Depths","Cavern - Elemental 250-749","Poisonous Provolone","-","25.67%","Pestilentia the Putrid",1461
+"Draconic Depths","Cavern - Elemental 250-749","Poisonous Provolone","-","19.51%","Venomona Festerbloom",1461
+"Draconic Depths","Cavern - Elemental 250-749","Poisonous Provolone","-","10.20%","Malignus Vilestrom",1461
+"Draconic Depths","Cavern - Elemental 250-749","Elemental Emmental","-","43.35%","Supremia Magnificus",3294
+"Draconic Depths","Cavern - Elemental 250-749","Elemental Emmental","-","25.96%","Three'amat the Mother of Dragons",3294
+"Draconic Depths","Cavern - Elemental 250-749","Elemental Emmental","-","19.76%","Magnatius Majestica",3294
+"Draconic Depths","Cavern - Elemental 250-749","Elemental Emmental","-","10.93%","Absolutia Harmonius",3294
+"Draconic Depths","Cavern - Elemental 250-749","SB+/Gouda/Brie","-","17.92%","Squire Sizzleton",173
+"Draconic Depths","Cavern - Elemental 250-749","SB+/Gouda/Brie","-","15.61%","Frostnip Icebound",173
+"Draconic Depths","Cavern - Elemental 250-749","SB+/Gouda/Brie","-","15.03%","Blizzara Winterosa",173
+"Draconic Depths","Cavern - Elemental 250-749","SB+/Gouda/Brie","-","13.29%","Torchbearer Tinderhelm",173
+"Draconic Depths","Cavern - Elemental 250-749","SB+/Gouda/Brie","-","12.72%","Noxio Sludgewell",173
+"Draconic Depths","Cavern - Elemental 250-749","SB+/Gouda/Brie","-","6.94%","Iciclesius the Defender",173
+"Draconic Depths","Cavern - Elemental 250-749","SB+/Gouda/Brie","-","6.36%","Goopus Dredgemore",173
+"Draconic Depths","Cavern - Elemental 250-749","SB+/Gouda/Brie","-","6.36%","Dreck Grimehaven",173
+"Draconic Depths","Cavern - Elemental 250-749","SB+/Gouda/Brie","-","5.78%","Colonel Crisp",173
+"Draconic Depths","Cavern - Elemental 750+","Fiery Fontina","-","38.28%","Sulfurious the Raging Inferno",2309
+"Draconic Depths","Cavern - Elemental 750+","Fiery Fontina","-","31.18%","Combustius Furnaceheart",2309
+"Draconic Depths","Cavern - Elemental 750+","Fiery Fontina","-","30.53%","Incendarius the Unquenchable",2309
+"Draconic Depths","Cavern - Elemental 750+","Icy Isabirra","-","39.88%","Arcticus the Biting Frost",2199
+"Draconic Depths","Cavern - Elemental 750+","Icy Isabirra","-","30.88%","Chillandria Permafrost",2199
+"Draconic Depths","Cavern - Elemental 750+","Icy Isabirra","-","29.24%","Avalancheus the Glacial",2199
+"Draconic Depths","Cavern - Elemental 750+","Poisonous Provolone","-","41.20%","Corrupticus the Blight Baron",2289
+"Draconic Depths","Cavern - Elemental 750+","Poisonous Provolone","-","29.53%","Belchazar Banewright",2289
+"Draconic Depths","Cavern - Elemental 750+","Poisonous Provolone","-","29.27%","Pestilentia the Putrid",2289
+"Draconic Depths","Cavern - Elemental 750+","Elemental Emmental","-","39.81%","Mythical Dragon Emperor",86872
+"Draconic Depths","Cavern - Elemental 750+","Elemental Emmental","-","30.55%","Supremia Magnificus",86872
+"Draconic Depths","Cavern - Elemental 750+","Elemental Emmental","-","29.64%","Three'amat the Mother of Dragons",86872
+"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","15.15%","Blizzara Winterosa",264
+"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","12.88%","Squire Sizzleton",264
+"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","11.36%","Frostnip Icebound",264
+"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","11.36%","Noxio Sludgewell",264
+"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","10.98%","Torchbearer Tinderhelm",264
+"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","10.23%","Dreck Grimehaven",264
+"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","10.23%","Goopus Dredgemore",264
+"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","9.47%","Colonel Crisp",264
+"Draconic Depths","Cavern - Elemental 750+","SB+/Gouda/Brie","-","8.33%","Iciclesius the Defender",264
