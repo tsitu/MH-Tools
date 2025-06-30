@@ -1,5 +1,23 @@
 const utils = require("../_utils");
 
+const standardMice = {
+  Ice: [
+    "Frostnip Icebound",
+    "Blizzara Winterosa",
+    "Iciclesius the Defender",
+  ],
+  Fire: [
+    "Squire Sizzleton",
+    "Torchbearer Tinderhelm",
+    "Colonel Crisp",
+  ],
+  Poison: [
+    "Goopus Dredgemore",
+    "Noxio Sludgewell",
+    "Dreck Grimehaven",
+  ],
+};
+
 const caveData = {
   Ice: {
     cheese: "Icy Isabirra",
@@ -75,24 +93,51 @@ const caveData = {
 
 function genRgbCaveSeries() {
   const series = [];
-  for (const color in caveData) {
-    for (const range in caveData[color].mice) {
+  for (const caveType in caveData) {
+    for (const range in caveData[caveType].mice) {
 
       var stage = { vars: {}, fields: {} };
       stage.vars["stage"] = {};
       // These have very few data/don't exist yet.
       //stage.vars["stage"][`Cavern - 1x ${color} ${range}`] = true;
       //stage.vars["stage"][`Cavern - 2x ${color} ${range}`] = true;
-      stage.vars["stage"][`Cavern - 3x ${color} ${range}`] = true;
-      stage.fields["stage"] = `Cavern - ${color} ${range}`;
+      stage.vars["stage"][`Cavern - 3x ${caveType} ${range}`] = true;
+      stage.fields["stage"] = `Cavern - ${caveType} ${range}`;
 
       series.push({
         stage: [stage],
-        cheese: utils.genVarField("cheese", caveData[color].cheese),
+        cheese: [
+          {
+            vars: {
+              cheese: {
+                [caveData[caveType].cheese]: true,
+              },
+            },
+            fields: {
+              cheese: caveData[caveType].cheese,
+            },
+          },
+          {
+            vars: {
+              cheese: {
+                "SB+": true,
+                "ESB+": true,
+                "Brie": true,
+                "Gouda": true,
+              },
+            },
+            fields: {
+              cheese: "SB+/Gouda/Brie",
+            },
+          },
+        ],
         config: [
           {
             opts: {
-              include: caveData[color].mice[range],
+              include: [
+                ...caveData[caveType].mice[range],
+                ...standardMice[caveType],
+              ]
             }
           }
         ]
@@ -152,7 +197,6 @@ module.exports = {
       ]),
     },
     ...genRgbCaveSeries(),
-    // Elemental Caverns with standard cheese
     {
       stage: utils.genVarField("stage", [
         "Cavern - Elemental 0-99",
@@ -161,6 +205,7 @@ module.exports = {
         "Cavern - Elemental 750+",
       ]),
       cheese: [
+        ...utils.genVarField("cheese", ["Fiery Fontina", "Icy Isabirra", "Poisonous Provolone", "Elemental Emmental"]),
         {
           vars: {
             cheese: {
@@ -176,16 +221,6 @@ module.exports = {
         }
       ],
     },
-    // Elemental Caverns with RGBE cheese
-    {
-      stage: utils.genVarField("stage", [
-        "Cavern - Elemental 0-99",
-        "Cavern - Elemental 100-249",
-        "Cavern - Elemental 250-749",
-        "Cavern - Elemental 750+",
-      ]),
-      cheese: utils.genVarField("cheese", ["Fiery Fontina", "Icy Isabirra", "Poisonous Provolone", "Elemental Emmental"]),
-      },
   ],
   /**
    *
@@ -193,6 +228,12 @@ module.exports = {
    * @returns {import('../_utils').AttractionData[]}
    */
   postProcess: function(data) {
-    return data;
+    // Sort the elemental rows by stage to improve UX
+    const elementalRows = data.filter(row => row.stage.startsWith("Cavern - Elemental"));
+    const nonElementalRows = data.filter(row => !row.stage.startsWith("Cavern - Elemental"));
+    return [
+      ...nonElementalRows,
+      ...elementalRows.sort((a, b) => a.stage.localeCompare(b.stage)),
+    ];
   },
 };
