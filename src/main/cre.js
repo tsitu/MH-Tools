@@ -15,9 +15,6 @@ window.onload = function() {
   );
 
   startPopulationLoad("data/json/populations-cre-setup.json", user);
-  loadDropdown("weapon", weaponKeys, weaponChanged, "<option></option>");
-  loadDropdown("base", baseKeys, baseChanged, "<option></option>");
-  loadCharmDropdown();
   showHideWidgets(isCustom());
 
   // Populate initial golem charge levels

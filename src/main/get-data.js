@@ -4,12 +4,18 @@ var popLoaded = 0,
   wisdomLoaded = 0,
   sampleLoaded = 0,
   gpLoaded = 0,
-  peLoaded = 0;
+  peLoaded = 0,
+  weaponsLoaded = 0,
+  basesLoaded = 0,
+  charmsLoaded = 0;
 
 var WISDOM_URL = "data/json/mouse-wisdom.json";
 var SAMPLE_URL = "data/json/sample-summary-detailed.json";
 var GP_URL = "data/json/mouse-gold-points.json";
 var PE_URL = "data/json/mouse-power-effs.json";
+var WEAPONS_URL = "data/json/weapons.json";
+var BASES_URL = "data/json/bases.json";
+var CHARMS_URL = "data/json/charms.json";
 
 /**
  * Population data parsed from CSV
@@ -41,6 +47,16 @@ var miceArray = {};
 var powersArray = {};
 
 /**
+ * Weapons data parsed from JSON
+ */
+var weaponsArray = {};
+var weaponKeys = [];
+var basesArray = {};
+var baseKeys = [];
+var charmsArray = {};
+var charmKeys = [];
+
+/**
  * Start population loading
  */
 function startPopulationLoad(populationJsonUrl, type) {
@@ -49,6 +65,9 @@ function startPopulationLoad(populationJsonUrl, type) {
     getJSONWrapper(SAMPLE_URL, setSample, "Sample Sizes");
     getJSONWrapper(GP_URL, setGoldPoints, "Gold & Points");
     getJSONWrapper(PE_URL, setPowerEffs, "Powers & Effs");
+    getJSONWrapper(WEAPONS_URL, setWeapons, "Weapons");
+    getJSONWrapper(BASES_URL, setBases, "Bases");
+    getJSONWrapper(CHARMS_URL, setCharms, "Charms");
   }
 
   if (type === "map" || type === "crown") {
@@ -110,6 +129,27 @@ function startPopulationLoad(populationJsonUrl, type) {
   function setPowerEffs(jsonData) {
     powersArray = jsonData;
     peLoaded = true;
+    checkLoadState(type);
+  }
+
+  function setWeapons(jsonData) {
+    weaponsArray = jsonData;
+    weaponKeys = Object.keys(weaponsArray).sort();
+    weaponsLoaded = true;
+    checkLoadState(type);
+  }
+
+  function setBases(jsonData) {
+    basesArray = jsonData;
+    baseKeys = Object.keys(basesArray).sort();
+    basesLoaded = true;
+    checkLoadState(type);
+  }
+
+  function setCharms(jsonData) {
+    charmsArray = jsonData;
+    charmKeys = Object.keys(charmsArray).sort();
+    charmsLoaded = true;
     checkLoadState(type);
   }
 }
