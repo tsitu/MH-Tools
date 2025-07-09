@@ -57,11 +57,11 @@ function transformItems(items, classification) {
     const stats = item.has_stats
 
     itemsArray[item.name] = [
-        stats.power,
-        Math.round(stats.power_bonus * 100),
-        Math.round(stats.attraction_bonus * 100),
-        stats.luck,
-        stats.cheese_effect
+        stats.power ?? 0,
+        Math.round((stats.power_bonus ?? 0) * 100),
+        Math.round((stats.attraction_bonus ?? 0) * 100),
+        stats.luck ?? 0,
+        stats.cheese_effect ?? "No Effect"
     ];
 
     if (classification === "weapon") {
