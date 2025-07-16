@@ -1536,7 +1536,7 @@ function calcCRMods(catchRate, mouseName) {
 
 function checkLoadState(type) {
   var loadPercentage = (
-    ((popLoaded + wisdomLoaded + sampleLoaded + gpLoaded + peLoaded) / 5) *
+    ((popLoaded + wisdomLoaded + sampleLoaded + gpLoaded + peLoaded + weaponsLoaded + basesLoaded + charmsLoaded) / 8) *
     100
   ).toFixed(0);
   var status = document.getElementById("status");
@@ -1544,11 +1544,14 @@ function checkLoadState(type) {
 
   if (loadPercentage == 100) {
     loadLocationDropdown();
+    loadCharmDropdown();
     empoweredParamCheck();
     getSliderValue();
     updateInputFromParameter("battery", batteryChanged);
 
     if (type === CRE_USER) {
+      loadDropdown("weapon", weaponKeys, weaponChanged, "<option></option>");
+      loadDropdown("base", baseKeys, baseChanged, "<option></option>");
       loadTourneyDropdown();
       updateInputFromParameter("oil", oilChanged);
     }

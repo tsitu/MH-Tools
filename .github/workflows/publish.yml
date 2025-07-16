@@ -7,6 +7,9 @@ on:
   pull_request_target:
   workflow_dispatch:
   workflow_call:
+  schedule:
+    # every wednesday at 00:00 UTC
+    - cron: '0 0 * * 3'
 
 # This allows a subsequently queued workflow run to interrupt previous runs
 concurrency:
