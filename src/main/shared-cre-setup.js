@@ -1549,21 +1549,8 @@ function checkLoadState(type) {
     getSliderValue();
     updateInputFromParameter("battery", batteryChanged);
 
-    if (type === CRE_USER) {
-      loadDropdown("weapon", weaponKeys, weaponChanged, "<option></option>");
-      loadDropdown("base", baseKeys, baseChanged, "<option></option>");
-      loadTourneyDropdown();
-      updateInputFromParameter("oil", oilChanged);
-    }
-
-    if (type === SETUP_USER) {
-      weaponName = getURLParameter("weapon");
-      weaponChanged();
-      baseName = getURLParameter("base");
-      baseChanged();
-      dentureFilterParamCheck();
-      printingFilterParamCheck();
-    }
+    // Implemented in the page-specific script: cre.js or setup.js
+    allDataLoaded();
 
     gsParamCheck();
     riftstalkerParamCheck();

@@ -134,6 +134,13 @@ window.onload = function() {
   };
 };
 
+function allDataLoaded() {
+  loadDropdown("weapon", weaponKeys, weaponChanged, "<option></option>");
+  loadDropdown("base", baseKeys, baseChanged, "<option></option>");
+  loadTourneyDropdown();
+  updateInputFromParameter("oil", oilChanged);
+}
+
 function loadCharmDropdown() {
   loadDropdown("charm", charmKeys, charmChanged, "<option>No Charm</option>");
 }
