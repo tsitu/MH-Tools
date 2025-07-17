@@ -19,13 +19,8 @@ $(window).load(function() {
     "#setupFieldsBookmarklet"
   );
 
-  loadItemSelection(weaponKeys, "weapon");
-  loadItemSelection(baseKeys, "base");
-  loadItemSelection(charmKeys, "charm");
-
   startPopulationLoad("data/json/populations-cre-setup.json", user);
-  loadCharmDropdown();
-  $("#main").show();
+
 
   var bonusPowerParameter = parseInt(getURLParameter("bonusPower"));
   if (bonusPowerParameter >= 0) {
@@ -103,6 +98,21 @@ $(window).load(function() {
     });
   }
 
+});
+
+function allDataLoaded() {
+  $("#main").show();
+
+  loadItemSelection(weaponKeys, "weapon");
+  loadItemSelection(baseKeys, "base");
+  loadItemSelection(charmKeys, "charm");
+  weaponName = getURLParameter("weapon");
+  weaponChanged();
+  baseName = getURLParameter("base");
+  baseChanged();
+  dentureFilterParamCheck();
+  printingFilterParamCheck();
+
   // Check window.name for bookmarklet data
   if (window.name) {
     try {
@@ -138,7 +148,7 @@ $(window).load(function() {
     // window.name empty
     checkStorage();
   }
-});
+}
 
 function loadCharmDropdown() {
   loadDropdown("charm", charmKeys, charmChanged, "<option>No Charm</option>");
