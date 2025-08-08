@@ -751,7 +751,7 @@ function updateLink() {
   var urlParams = {
     location: locationName,
     phase: phaseName,
-    gs: !gsLuck,
+    gs: !gsLuck ? "No" : undefined,
     cheese: cheeseName,
     oil: lanternStatus,
     empowered: isEmpowered,
