@@ -36,12 +36,6 @@
           return el.classification === "weapon" && el.quantity > 0;
         })
         .map(function(el) {
-          // Weapon edge cases
-          // if (el.name === "Ambush Trap") {
-          // return "Ambush";
-          // } else if (el.name === "School of Sharks Trap") {
-          // return "School of Sharks";
-          // }
           return el.name;
         });
 
@@ -74,7 +68,7 @@
             );
           })
           .map(function(el) {
-            return el.power_type_name;
+            return el.name.match(/^Golem Guardian (\w+) Skin Module$/)[1]
           });
 
         for (var el of skins) {
@@ -95,5 +89,7 @@
       newWindow.name = JSON.stringify(combinedObj);
       newWindow.location = "https://tsitu.github.io/MH-Tools/setup.html";
     }
+  }).fail((jqXHR, textStatus, errorThrown) => {
+    console.error(textStatus, errorThrown);
   });
 })();

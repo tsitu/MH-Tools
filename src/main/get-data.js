@@ -58,99 +58,121 @@ var charmKeys = [];
 
 /**
  * Start population loading
+ * @param {string} populationJsonUrl URL of the population JSON file
+ * @param {string} type Type of loading (cre, setup, map, crown)
+ * @param {function} [onComplete] Optional callback function called when all data is loaded
  */
-function startPopulationLoad(populationJsonUrl, type) {
+async function startPopulationLoad(populationJsonUrl, type, onComplete) {
+  const promises = [];
+
   if (type === "cre" || type === "setup") {
-    getJSONWrapper(WISDOM_URL, setWisdom, "Wisdom Values");
-    getJSONWrapper(SAMPLE_URL, setSample, "Sample Sizes");
-    getJSONWrapper(GP_URL, setGoldPoints, "Gold & Points");
-    getJSONWrapper(PE_URL, setPowerEffs, "Powers & Effs");
-    getJSONWrapper(WEAPONS_URL, setWeapons, "Weapons");
-    getJSONWrapper(BASES_URL, setBases, "Bases");
-    getJSONWrapper(CHARMS_URL, setCharms, "Charms");
+    promises.push(getJSONWrapper(WISDOM_URL, setWisdom, "Wisdom Values"));
+    promises.push(getJSONWrapper(SAMPLE_URL, setSample, "Sample Sizes"));
+    promises.push(getJSONWrapper(GP_URL, setGoldPoints, "Gold & Points"));
+    promises.push(getJSONWrapper(PE_URL, setPowerEffs, "Powers & Effs"));
+    promises.push(getJSONWrapper(WEAPONS_URL, setWeapons, "Weapons"));
+    promises.push(getJSONWrapper(BASES_URL, setBases, "Bases"));
+    promises.push(getJSONWrapper(CHARMS_URL, setCharms, "Charms"));
   }
 
   if (type === "map" || type === "crown") {
-    getJSONWrapper(PE_URL, setPowerEffs, "Powers & Effs");
+    promises.push(getJSONWrapper(PE_URL, setPowerEffs, "Powers & Effs"));
   }
 
-  getJSONWrapper(populationJsonUrl, setPopulation, "Population Data");
+  promises.push(getJSONWrapper(populationJsonUrl, setPopulation, "Population Data"));
+
+  try {
+
+    await Promise.all(promises);
+
+    if (onComplete) {
+      onComplete();
+    }
+
+  } catch (error) {
+    console.error('Error loading data:', error);
+  }
 
   /**
-   * Wrapper for jQuery's getJSON function
+   * Wrapper for fetch to get JSON data
    * @param {string} url URL of data file to fetch
    * @param {function} callback Callback function to process JSON
    * @param {string} descriptor Description of requested file for debugging purposes
+   * @returns {Promise} Promise that resolves when the request completes
    */
-  function getJSONWrapper(url, callback, descriptor) {
-    $.getJSON(url)
-      .done(function(data, textStatus, jqxhr) {
-        if (textStatus === "success" && jqxhr.status === 200) {
-          callback(data);
-        } else {
-          alert("Generic error while processing JSON data files");
-        }
-      })
-      .fail(function(jqxhr) {
-        var alertStr =
-          "An HTTP " +
-          jqxhr.status +
-          " error occured while fetching the JSON file for:\n\n- " +
-          descriptor +
-          "\n\nThis is likely an error involving the GitHub hosting service. If the tool is not working properly, please wait some time and try again.\n\nMore info: https://www.githubstatus.com";
-        alert(alertStr);
-      });
+  async function getJSONWrapper(url, callback, descriptor) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status} error occurred while fetching ${descriptor}`);
+      }
+      const data = await response.json();
+      callback(data);
+    } catch (error) {
+      var alertStr = "An error occurred while fetching the JSON file for:\n\n- " +
+        descriptor +
+        "\n\nError: " + error.message +
+        "\n\nThis is likely an error involving the GitHub hosting service. If the tool is not working properly, please wait some time and try again.\n\nMore info: https://www.githubstatus.com";
+      alert(alertStr);
+      throw error; // Re-throw to be caught by the calling code
+    }
+  }
+
+  function tryCheckLoadState(type) {
+    if (typeof checkLoadState !== 'undefined' && typeof checkLoadState === 'function') {
+      checkLoadState(type);
+    }
   }
 
   function setPopulation(jsonData) {
     popArray = jsonData;
     popLoaded = true;
-    checkLoadState(type);
+    tryCheckLoadState(type);
   }
 
   function setWisdom(jsonData) {
     mouseWisdom = jsonData;
     wisdomLoaded = true;
-    checkLoadState(type);
+    tryCheckLoadState(type);
   }
 
   function setSample(jsonData) {
     sampleSummary = jsonData;
     sampleLoaded = true;
-    checkLoadState(type);
+    tryCheckLoadState(type);
   }
 
   function setGoldPoints(jsonData) {
     miceArray = jsonData;
     gpLoaded = true;
-    checkLoadState(type);
+    tryCheckLoadState(type);
   }
 
   function setPowerEffs(jsonData) {
     powersArray = jsonData;
     peLoaded = true;
-    checkLoadState(type);
+    tryCheckLoadState(type);
   }
 
   function setWeapons(jsonData) {
     weaponsArray = jsonData;
     weaponKeys = Object.keys(weaponsArray).sort();
     weaponsLoaded = true;
-    checkLoadState(type);
+    tryCheckLoadState(type);
   }
 
   function setBases(jsonData) {
     basesArray = jsonData;
     baseKeys = Object.keys(basesArray).sort();
     basesLoaded = true;
-    checkLoadState(type);
+    tryCheckLoadState(type);
   }
 
   function setCharms(jsonData) {
     charmsArray = jsonData;
     charmKeys = Object.keys(charmsArray).sort();
     charmsLoaded = true;
-    checkLoadState(type);
+    tryCheckLoadState(type);
   }
 }
 

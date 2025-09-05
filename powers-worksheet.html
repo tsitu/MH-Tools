@@ -28,7 +28,9 @@
 
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script type="text/javascript" src="lib/js/jquery.tablesorter.combined.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/hymccord/across-tabs@c4befd061534650165610ad032c4cc856c68f911/dist/across-tabs.js"></script>
   <script type="text/javascript" src="data/arrays.js"></script>
+  <script type="text/javascript" src="src/main/get-data.js"></script>
   <script type="text/javascript" src="src/utils/bookmarklets.js"></script>
   <script type="text/javascript" src="src/main/powers.js"></script>
   <script type="text/javascript" src="src/main/powers-worksheet.js"></script>
@@ -149,6 +151,8 @@
     <a id="bookmarklet" href="#">Powers</a> <span id="bookmarkletCopy" style="cursor: pointer">📋</span>
     <br><br>
     <div>
+      <div>Tip: This tool is intended to be opened via the Auto-Loader!</div>
+      <div>Connection to MouseHunt tab: <div id="across-tabs-status" style="display: inline">❌</div></div>
       <!-- Options/Preferences -->
       <table id="tool-options">
         <caption>Options</caption>
@@ -156,36 +160,35 @@
           <tr>
             <td>Shown Types:</td>
             <td>
-              <input type="checkbox" class="shown-type" checked="checked" value="Arcane" /> Arcane&nbsp;
-              <input type="checkbox" class="shown-type" checked="checked" value="Draconic" /> Draconic&nbsp;
-              <input type="checkbox" class="shown-type" checked="checked" value="Forgotten" /> Forgotten&nbsp;
-              <input type="checkbox" class="shown-type" checked="checked" value="Hydro" /> Hydro&nbsp;
-              <input type="checkbox" class="shown-type" checked="checked" value="Parental" /> Parental&nbsp;
-              <input type="checkbox" class="shown-type" checked="checked" value="Physical" /> Physical&nbsp;
-              <input type="checkbox" class="shown-type" checked="checked" value="Shadow" /> Shadow&nbsp;
-              <input type="checkbox" class="shown-type" checked="checked" value="Tactical" /> Tactical&nbsp;
-              <input type="checkbox" class="shown-type" checked="checked" value="Law" /> Law&nbsp;
-              <input type="checkbox" class="shown-type" checked="checked" value="Rift" /> Rift
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Arcane" /> Arcane&nbsp;
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Draconic" /> Draconic&nbsp;
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Forgotten" /> Forgotten&nbsp;
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Hydro" /> Hydro&nbsp;
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Parental" /> Parental&nbsp;
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Physical" /> Physical&nbsp;
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Shadow" /> Shadow&nbsp;
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Tactical" /> Tactical&nbsp;
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Law" /> Law&nbsp;
+              <input type="checkbox" class="shown-type change-rerender" checked="checked" value="Rift" /> Rift
               <br><br><button id="type-select-all">Select / Deselect All</button>
             </td>
           </tr>
           <tr>
             <td>Filters</td>
             <td>
-              Group: <select id="group-select">
+              Group: <select id="group-select" class="change-rerender">
                 <option value="All" selected="true">All</option>
               </select>&nbsp;
-              Subgroup: <select id="subgroup-select">
+              Subgroup: <select id="subgroup-select" class="change-rerender">
                 <option value="All" selected="true">All</option>
               </select><br><br>
-              Mouse Name: <input type="text" id="mouse-filter">
+              Mouse Name: <input type="text" id="mouse-filter" class="change-rerender">
             </td>
           </tr>
           <tr>
             <td>Buttons</td>
             <td>
               <button id="reset-button">Reset Data</button>
-              <button id="reload-button" style="font-size: 18px"><b>Reload Table</b></button>
               <button id="save-button">Save Preferences</button>
             </td>
           </tr>
@@ -204,7 +207,7 @@
     <br><br>
     <div>
       <!-- Mouse gold/points/link -->
-      <table id="mouse-details" class="tablesorter">
+      <table id="mouse-details" class="tablesorter" style="display: none">
         <br><a href="#mouse-powers">Jump to 'Mouse Powers'</a>&nbsp;
         <a href="#trap-history">Jump to 'Trap History'</a><br>
         <thead></thead>
