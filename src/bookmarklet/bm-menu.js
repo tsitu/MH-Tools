@@ -1,21 +1,11 @@
-(function() {
-  var jsonTimestamp = new Promise(function(resolve, reject) {
-    var cdn =
-      "https://tsitu.github.io/MH-Tools/data/json/bookmarklet-timestamps.json";
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", cdn);
-    xhr.onload = function() {
-      resolve(xhr.responseText);
-    };
-    xhr.onerror = function() {
-      reject(xhr.statusText);
-    };
-    xhr.send();
-  });
+(async function() {
+  let timestamps = {};
+  try {
+    const response = await fetch("https://tsitu.github.io/MH-Tools/data/json/bookmarklet-timestamps.json");
+    timestamps = await response.json();
+  } catch { }
 
-  jsonTimestamp.then(function(response) {
-    buildUI(JSON.parse(response));
-  });
+  buildUI(timestamps);
 
   function buildUI(timestamps) {
     var mainDiv = document.createElement("div");
