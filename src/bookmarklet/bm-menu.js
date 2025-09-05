@@ -179,7 +179,8 @@
     mainDiv.appendChild(document.createElement("br"));
     mainDiv.appendChild(document.createTextNode("(Drag me around on a PC)"));
 
-    mainDiv.style.backgroundColor = "#F5F5F5";
+    mainDiv.style.color = "var(--d-text, rgba(0,0,0,0.87))";
+    mainDiv.style.backgroundColor = "var(--d-bg, #F2F2F2)";
     mainDiv.style.position = "fixed";
     mainDiv.style.zIndex = "9999";
     // Allow customizable left position property
@@ -188,7 +189,7 @@
         ? window.tsitu_loader_offset.concat("%")
         : "80%";
     mainDiv.style.top = "25px";
-    mainDiv.style.border = "solid 3px #696969";
+    mainDiv.style.border = "solid 3px var(--d-border, #696969)";
     mainDiv.style.borderRadius = "20px";
     mainDiv.style.padding = "10px";
     mainDiv.style.textAlign = "center";
