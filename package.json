@@ -63,9 +63,9 @@
     "mouse-data": "node build/process-mouse-data.js",
     "population": "node build/process-population.js",
     "trap-data": "node build/process-trap-data.js",
-    "build": "npm-run-all --parallel mouse-data population trap-data",
+    "build": "npm-run-all --parallel mouse-data population trap-data minify",
     "\n-- MISC --": "",
-    "serve": "http-server -p 8000",
+    "serve": "http-server -p 8000 -c-1 --cors",
     "postinstall": "patch-package"
   },
   "repository": {
@@ -87,8 +87,7 @@
     "jsdom": "^16.2.2",
     "mkdirp": "^0.5.1",
     "request": "^2.83.0",
-    "uglify-es": "^3.3.9",
-    "uglify-js": "^3.0.25"
+    "uglify-js": "^3.19.3"
   },
   "devDependencies": {
     "@octokit/auth-action": "^2.0.4",
@@ -109,6 +108,6 @@
     "npm-run-all": "^4.1.5",
     "patch-package": "^6.5.1",
     "prettier": "^1.18.2",
-    "uglifyjs-folder": "^1.5.1"
+    "uglifyjs-folder": "^3.3.0"
   }
 }
