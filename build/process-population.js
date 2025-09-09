@@ -1,56 +1,14 @@
 (function() {
-  const POPULATIONS = [
-    "data/populations.csv",
-    "data/pop-csv/acolyte-realm.csv",
-    "data/pop-csv/balacks-cove.csv",
-    "data/pop-csv/bountiful-beanstalk.csv",
-    "data/pop-csv/bristle-woods-rift.csv",
-    "data/pop-csv/burroughs-rift.csv",
-    "data/pop-csv/cantera-quarry.csv",
-    "data/pop-csv/catacombs.csv",
-    "data/pop-csv/cursed-city.csv",
-    "data/pop-csv/draconic-depths.csv",
-    "data/pop-csv/event.csv",
-    "data/pop-csv/fiery-warpath.csv",
-    "data/pop-csv/floating-islands.csv",
-    "data/pop-csv/foreword-farm.csv",
-    "data/pop-csv/forbidden-grove.csv",
-    "data/pop-csv/fort-rox.csv",
-    "data/pop-csv/fungal-cavern.csv",
-    "data/pop-csv/furoma-rift.csv",
-    "data/pop-csv/gloomy-greenwood.csv",
-    "data/pop-csv/great-winter-hunt.csv",
-    "data/pop-csv/harbour.csv",
-    "data/pop-csv/iceberg.csv",
-    "data/pop-csv/jungle-of-dread.csv",
-    "data/pop-csv/laboratory.csv",
-    "data/pop-csv/labyrinth.csv",
-    "data/pop-csv/living-garden.csv",
-    "data/pop-csv/lost-city.csv",
-    "data/pop-csv/mountain.csv",
-    "data/pop-csv/mousoleum.csv",
-    "data/pop-csv/moussu-picchu.csv",
-    "data/pop-csv/prickly-plains.csv",
-    "data/pop-csv/prologue-pond.csv",
-    "data/pop-csv/queso-geyser.csv",
-    "data/pop-csv/queso-river.csv",
-    "data/pop-csv/ronza.csv",
-    "data/pop-csv/school-of-sorcery.csv",
-    "data/pop-csv/table-of-contents.csv",
-    "data/pop-csv/town-of-digby.csv",
-    "data/pop-csv/town-of-gnawnia.csv",
-    "data/pop-csv/toxic-spill.csv",
-    "data/pop-csv/valour-rift.csv",
-    "data/pop-csv/whisker-woods-rift.csv",
-    "data/pop-csv/windmill.csv",
-    "data/pop-csv/zugzwangs-tower.csv",
-    "data/pop-csv/zokor.csv",
-  ];
-
   const fs = require("fs");
+  const path = require("path");
   const csv = require("csvtojson");
   const fileUtils = require("./file-utils");
   const CombinedStream = require("combined-stream");
+
+  const POPULATIONS = [
+    "data/populations.csv",
+    ...fs.readdirSync("data/pop-csv").map(file => path.join("data/pop-csv", file))
+  ];
 
   var mapPopulations = {};
   var creSetupPopulations = {};
