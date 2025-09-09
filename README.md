@@ -30,7 +30,6 @@ Feel free to post your questions, comments, or concerns on the [forum thread](ht
 - [Developers](#developers)
   - [Build and Run](#construction_worker-build-and-run)
   - [Populations](#clipboard-populations)
-  - [Mouse Stats](#mouse2-mouse-stats)
   - [Coding Style](#barber-coding-style)
 - [Miscellaneous](#miscellaneous)
   - [Useful Links](#arrow_down-useful-links)
@@ -357,7 +356,7 @@ The recommended way to use this tool is to focus on a couple groups of mice and 
 
 1. Run `npm install` to download project dependencies
 
-1. Build required wisdom/population JSON and minified JS files locally using `npm run build`
+1. Build required stats/wisdom/population JSON and minified JS files locally using `npm run build`
 
 1. Serve the tools for local testing using `npm run serve`, which spins up an instance of [http-server](https://www.npmjs.com/package/http-server) on port 8000
 
@@ -366,10 +365,6 @@ The recommended way to use this tool is to focus on a couple groups of mice and 
 To update population data, download a copy of the most recent MHCT database dump from [Keybase](https://keybase.pub/devjacksmith/mh_backups/nightly/) (refresh the page if it says 'Not found'). Then, import the data into your SQL client of choice (takes around an hour on MySQL Workbench 8.0 with MySQL Server 5.7.24 on Windows 10). Alternatively, consider downloading and running the [Docker](https://hub.docker.com/r/tsitu/mhct-db-docker) images. Finally, use commands such as `npm run pop:queso` (full list in [package.json](https://github.com/tsitu/MH-Tools/blob/master/package.json)) to write updated populations to CSV files in `data/pop-csv`, or use `npm run pop` to fetch them all simultaneously.
 
 If you would like to merge new data into the master branch, feel free to open a pull request - Travis CI will build it automatically and run the `build/process-sample-size.js` script, which generates sample size score deltas ([example](https://travis-ci.com/tsitu/MH-Tools/builds/91738912#L528)). We use this to verify that data is trending towards improvement.
-
-### :mouse2: Mouse Stats
-
-To update mouse related stats (wisdom, gold, points, effectivesnesses), use command `npm run mouse-stats` to pull the data from Brad's mouse.rip API which is powered by spreadsheets maintained by community members in the Discord.
 
 ### :barber: Coding Style
 
