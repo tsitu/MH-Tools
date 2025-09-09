@@ -16,6 +16,7 @@
 // prettier-ignore
 var baselineAttArray = {
   "Abominable Asiago": 1.0000, // 2021-10-05 Gameplay Update
+  "Allegory Anari": 1.0000, // 2025-09-02 FF Finale Pt 1
   "Ancient": 1.0000, // 2021-10-05 Gameplay Update
   "Ancient String": 1.0000, // 2021-10-05 Gameplay Update
   "Apprentice Ambert": 1.0000, // Guesstimate - SoSo release
@@ -91,6 +92,7 @@ var baselineAttArray = {
   "Master Fusion": 1.0000, // 2021-10-05 Gameplay Update
   "Master Mimolette": 1.0000, // Guesstimate - SoSo release
   "Medium Queso": 1.0000, // 2021-10-05 Gameplay Update
+  "Metaphor Manchego": 1.0000, // 2025-09-02 FF Finale Pt 1
   "Mild Queso": 1.0000, // 2021-10-05 Gameplay Update
   "Mineral": 1.0000, // 2021-10-05 Gameplay Update
   "Monterey Jack-O-Lantern": 1.0000, // Added with Halloween 2021
@@ -135,6 +137,7 @@ var baselineAttArray = {
   "Sweet Havarti": 1.0000, // 2021-10-05 Gameplay Update
   "Swiss": 0.8000, // 2021-10-05 Gameplay Update
   "Swiss String": 0.8000, // 2021-10-05 Gameplay Update
+  "Symbolic Sirene": 1.0000, // 2025-09-02 FF Finale Pt 1
   "Terre Ricotta": 1.0000, // 2021-10-05 Gameplay Update
   "Thousandth Draft Derby": 1.0000, // M1K release 16 Apr 24
   "Tier 2": 1.0000, // 2021-10-05 Gameplay Update
