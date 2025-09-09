@@ -1,196 +1,225 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Epilogue Falls","Sparse Morsel","Gouda/Brie","-","50.00%","Scornful Scallop",26
-"Epilogue Falls","Sparse Morsel","Gouda/Brie","-","26.92%","Abrasive Abalone",26
-"Epilogue Falls","Sparse Morsel","Gouda/Brie","-","23.08%","Crusty Crab",26
-"Epilogue Falls","Common Morsel","Gouda/Brie","-","50.00%","Abrasive Abalone",2
-"Epilogue Falls","Common Morsel","Gouda/Brie","-","50.00%","Crusty Crab",2
-"Epilogue Falls","Abundant Morsel","Gouda/Brie","-","50.00%","Abrasive Abalone",12
-"Epilogue Falls","Abundant Morsel","Gouda/Brie","-","25.00%","Crusty Crab",12
-"Epilogue Falls","Abundant Morsel","Gouda/Brie","-","25.00%","Scornful Scallop",12
-"Epilogue Falls","Common Halophyte","Gouda/Brie","-","50.00%","Abrasive Abalone",2
-"Epilogue Falls","Common Halophyte","Gouda/Brie","-","50.00%","Scornful Scallop",2
-"Epilogue Falls","Abundant Halophyte","Gouda/Brie","-","44.44%","Crusty Crab",18
-"Epilogue Falls","Abundant Halophyte","Gouda/Brie","-","38.89%","Abrasive Abalone",18
-"Epilogue Falls","Abundant Halophyte","Gouda/Brie","-","16.67%","Scornful Scallop",18
-"Epilogue Falls","Sparse Algae","Gouda/Brie","-","50.00%","Abrasive Abalone",4
-"Epilogue Falls","Sparse Algae","Gouda/Brie","-","50.00%","Crusty Crab",4
-"Epilogue Falls","Abundant Algae","Gouda/Brie","-","53.85%","Abrasive Abalone",13
-"Epilogue Falls","Abundant Algae","Gouda/Brie","-","38.46%","Crusty Crab",13
-"Epilogue Falls","Abundant Algae","Gouda/Brie","-","7.69%","Scornful Scallop",13
+"Epilogue Falls","Sparse Morsel","Gouda/Brie","-","38.78%","Abrasive Abalone",49
+"Epilogue Falls","Sparse Morsel","Gouda/Brie","-","34.69%","Scornful Scallop",49
+"Epilogue Falls","Sparse Morsel","Gouda/Brie","-","26.53%","Crusty Crab",49
+"Epilogue Falls","Common Morsel","Gouda/Brie","-","75.00%","Abrasive Abalone",4
+"Epilogue Falls","Common Morsel","Gouda/Brie","-","25.00%","Crusty Crab",4
+"Epilogue Falls","Abundant Morsel","Gouda/Brie","-","47.06%","Abrasive Abalone",17
+"Epilogue Falls","Abundant Morsel","Gouda/Brie","-","35.29%","Scornful Scallop",17
+"Epilogue Falls","Abundant Morsel","Gouda/Brie","-","17.65%","Crusty Crab",17
+"Epilogue Falls","Sparse Halophyte","Gouda/Brie","-","44.44%","Abrasive Abalone",9
+"Epilogue Falls","Sparse Halophyte","Gouda/Brie","-","33.33%","Crusty Crab",9
+"Epilogue Falls","Sparse Halophyte","Gouda/Brie","-","22.22%","Scornful Scallop",9
+"Epilogue Falls","Common Halophyte","Gouda/Brie","-","66.67%","Abrasive Abalone",6
+"Epilogue Falls","Common Halophyte","Gouda/Brie","-","16.67%","Scornful Scallop",6
+"Epilogue Falls","Common Halophyte","Gouda/Brie","-","16.67%","Crusty Crab",6
+"Epilogue Falls","Abundant Halophyte","Gouda/Brie","-","40.48%","Abrasive Abalone",42
+"Epilogue Falls","Abundant Halophyte","Gouda/Brie","-","38.10%","Crusty Crab",42
+"Epilogue Falls","Abundant Halophyte","Gouda/Brie","-","21.43%","Scornful Scallop",42
+"Epilogue Falls","Sparse Algae","Gouda/Brie","-","54.55%","Crusty Crab",11
+"Epilogue Falls","Sparse Algae","Gouda/Brie","-","36.36%","Abrasive Abalone",11
+"Epilogue Falls","Sparse Algae","Gouda/Brie","-","9.09%","Scornful Scallop",11
+"Epilogue Falls","Abundant Algae","Gouda/Brie","-","43.75%","Abrasive Abalone",16
+"Epilogue Falls","Abundant Algae","Gouda/Brie","-","31.25%","Crusty Crab",16
+"Epilogue Falls","Abundant Algae","Gouda/Brie","-","25.00%","Scornful Scallop",16
 "Epilogue Falls","Sparse Coral","Gouda/Brie","-","100.00%","Abrasive Abalone",3
 "Epilogue Falls","Common Coral","Gouda/Brie","-","100.00%","Scornful Scallop",2
+"Epilogue Falls","Abundant Coral","Gouda/Brie","-","40.00%","Crusty Crab",5
+"Epilogue Falls","Abundant Coral","Gouda/Brie","-","40.00%","Abrasive Abalone",5
+"Epilogue Falls","Abundant Coral","Gouda/Brie","-","20.00%","Scornful Scallop",5
 "Epilogue Falls","Common Shell","Gouda/Brie","-","100.00%","Abrasive Abalone",2
-"Epilogue Falls","Common Plot Hook","Gouda/Brie","-","100.00%","Abrasive Abalone",2
-"Epilogue Falls","Sparse Morsel","SB+","-","60.00%","Crusty Crab",5
-"Epilogue Falls","Sparse Morsel","SB+","-","20.00%","Abrasive Abalone",5
-"Epilogue Falls","Sparse Morsel","SB+","-","20.00%","Scornful Scallop",5
-"Epilogue Falls","Common Morsel","SB+","-","27.27%","Crusty Crab",11
-"Epilogue Falls","Common Morsel","SB+","-","27.27%","Scornful Scallop",11
-"Epilogue Falls","Common Morsel","SB+","-","27.27%","Barbaric Barnacle",11
-"Epilogue Falls","Common Morsel","SB+","-","18.18%","Abrasive Abalone",11
-"Epilogue Falls","Abundant Morsel","SB+","-","30.43%","Abrasive Abalone",46
-"Epilogue Falls","Abundant Morsel","SB+","-","28.26%","Crusty Crab",46
-"Epilogue Falls","Abundant Morsel","SB+","-","28.26%","Scornful Scallop",46
-"Epilogue Falls","Abundant Morsel","SB+","-","13.04%","Barbaric Barnacle",46
-"Epilogue Falls","Sparse Halophyte","SB+","-","50.00%","Abrasive Abalone",2
-"Epilogue Falls","Sparse Halophyte","SB+","-","50.00%","Barbaric Barnacle",2
+"Epilogue Falls","Common Plot Hook","Gouda/Brie","-","66.67%","Abrasive Abalone",3
+"Epilogue Falls","Common Plot Hook","Gouda/Brie","-","33.33%","Crusty Crab",3
+"Epilogue Falls","Sparse Morsel","SB+","-","46.15%","Crusty Crab",13
+"Epilogue Falls","Sparse Morsel","SB+","-","23.08%","Abrasive Abalone",13
+"Epilogue Falls","Sparse Morsel","SB+","-","23.08%","Scornful Scallop",13
+"Epilogue Falls","Sparse Morsel","SB+","-","7.69%","Barbaric Barnacle",13
+"Epilogue Falls","Common Morsel","SB+","-","36.84%","Abrasive Abalone",19
+"Epilogue Falls","Common Morsel","SB+","-","21.05%","Crusty Crab",19
+"Epilogue Falls","Common Morsel","SB+","-","21.05%","Scornful Scallop",19
+"Epilogue Falls","Common Morsel","SB+","-","21.05%","Barbaric Barnacle",19
+"Epilogue Falls","Abundant Morsel","SB+","-","30.36%","Abrasive Abalone",56
+"Epilogue Falls","Abundant Morsel","SB+","-","28.57%","Scornful Scallop",56
+"Epilogue Falls","Abundant Morsel","SB+","-","26.79%","Crusty Crab",56
+"Epilogue Falls","Abundant Morsel","SB+","-","14.29%","Barbaric Barnacle",56
+"Epilogue Falls","Sparse Halophyte","SB+","-","40.00%","Crusty Crab",10
+"Epilogue Falls","Sparse Halophyte","SB+","-","30.00%","Barbaric Barnacle",10
+"Epilogue Falls","Sparse Halophyte","SB+","-","20.00%","Scornful Scallop",10
+"Epilogue Falls","Sparse Halophyte","SB+","-","10.00%","Abrasive Abalone",10
 "Epilogue Falls","Common Halophyte","SB+","-","50.00%","Abrasive Abalone",2
 "Epilogue Falls","Common Halophyte","SB+","-","50.00%","Scornful Scallop",2
-"Epilogue Falls","Abundant Halophyte","SB+","-","32.74%","Crusty Crab",168
-"Epilogue Falls","Abundant Halophyte","SB+","-","30.95%","Abrasive Abalone",168
-"Epilogue Falls","Abundant Halophyte","SB+","-","18.45%","Scornful Scallop",168
-"Epilogue Falls","Abundant Halophyte","SB+","-","17.86%","Barbaric Barnacle",168
-"Epilogue Falls","Sparse Algae","SB+","-","40.00%","Crusty Crab",10
-"Epilogue Falls","Sparse Algae","SB+","-","40.00%","Scornful Scallop",10
-"Epilogue Falls","Sparse Algae","SB+","-","20.00%","Barbaric Barnacle",10
+"Epilogue Falls","Abundant Halophyte","SB+","-","36.33%","Crusty Crab",256
+"Epilogue Falls","Abundant Halophyte","SB+","-","30.08%","Abrasive Abalone",256
+"Epilogue Falls","Abundant Halophyte","SB+","-","17.97%","Scornful Scallop",256
+"Epilogue Falls","Abundant Halophyte","SB+","-","15.63%","Barbaric Barnacle",256
+"Epilogue Falls","Sparse Algae","SB+","-","40.00%","Crusty Crab",15
+"Epilogue Falls","Sparse Algae","SB+","-","26.67%","Scornful Scallop",15
+"Epilogue Falls","Sparse Algae","SB+","-","20.00%","Abrasive Abalone",15
+"Epilogue Falls","Sparse Algae","SB+","-","13.33%","Barbaric Barnacle",15
 "Epilogue Falls","Common Algae","SB+","-","50.00%","Scornful Scallop",2
 "Epilogue Falls","Common Algae","SB+","-","50.00%","Barbaric Barnacle",2
-"Epilogue Falls","Abundant Algae","SB+","-","34.78%","Abrasive Abalone",46
-"Epilogue Falls","Abundant Algae","SB+","-","30.43%","Crusty Crab",46
-"Epilogue Falls","Abundant Algae","SB+","-","17.39%","Scornful Scallop",46
-"Epilogue Falls","Abundant Algae","SB+","-","17.39%","Barbaric Barnacle",46
-"Epilogue Falls","Sparse Coral","SB+","-","50.00%","Abrasive Abalone",6
-"Epilogue Falls","Sparse Coral","SB+","-","50.00%","Barbaric Barnacle",6
-"Epilogue Falls","Abundant Shell","SB+","-","40.00%","Barbaric Barnacle",10
-"Epilogue Falls","Abundant Shell","SB+","-","30.00%","Crusty Crab",10
-"Epilogue Falls","Abundant Shell","SB+","-","20.00%","Scornful Scallop",10
-"Epilogue Falls","Abundant Shell","SB+","-","10.00%","Abrasive Abalone",10
+"Epilogue Falls","Abundant Algae","SB+","-","32.14%","Crusty Crab",56
+"Epilogue Falls","Abundant Algae","SB+","-","30.36%","Abrasive Abalone",56
+"Epilogue Falls","Abundant Algae","SB+","-","21.43%","Barbaric Barnacle",56
+"Epilogue Falls","Abundant Algae","SB+","-","16.07%","Scornful Scallop",56
+"Epilogue Falls","Sparse Coral","SB+","-","57.14%","Abrasive Abalone",7
+"Epilogue Falls","Sparse Coral","SB+","-","42.86%","Barbaric Barnacle",7
+"Epilogue Falls","Abundant Coral","SB+","-","33.33%","Crusty Crab",3
+"Epilogue Falls","Abundant Coral","SB+","-","33.33%","Abrasive Abalone",3
+"Epilogue Falls","Abundant Coral","SB+","-","33.33%","Scornful Scallop",3
+"Epilogue Falls","Abundant Shell","SB+","-","35.71%","Barbaric Barnacle",14
+"Epilogue Falls","Abundant Shell","SB+","-","28.57%","Abrasive Abalone",14
+"Epilogue Falls","Abundant Shell","SB+","-","21.43%","Crusty Crab",14
+"Epilogue Falls","Abundant Shell","SB+","-","14.29%","Scornful Scallop",14
+"Epilogue Falls","Sparse Plot Hook","SB+","-","66.67%","Crusty Crab",6
+"Epilogue Falls","Sparse Plot Hook","SB+","-","33.33%","Abrasive Abalone",6
 "Epilogue Falls","Within the Waterfall","SB+","-","100.00%","Nyagarha the Falls Guardian",4
-"Epilogue Falls","Sparse Morsel","Metaphor Manchego","-","44.59%","Menacing Medusozoa",74
-"Epilogue Falls","Sparse Morsel","Metaphor Manchego","-","32.43%","Anguished Anemone",74
-"Epilogue Falls","Sparse Morsel","Metaphor Manchego","-","22.97%","Belligerent Berghia",74
-"Epilogue Falls","Common Morsel","Metaphor Manchego","-","37.14%","Menacing Medusozoa",70
-"Epilogue Falls","Common Morsel","Metaphor Manchego","-","32.86%","Anguished Anemone",70
-"Epilogue Falls","Common Morsel","Metaphor Manchego","-","30.00%","Belligerent Berghia",70
-"Epilogue Falls","Abundant Morsel","Metaphor Manchego","-","40.66%","Menacing Medusozoa",91
-"Epilogue Falls","Abundant Morsel","Metaphor Manchego","-","39.56%","Anguished Anemone",91
-"Epilogue Falls","Abundant Morsel","Metaphor Manchego","-","19.78%","Belligerent Berghia",91
-"Epilogue Falls","Sparse Halophyte","Metaphor Manchego","-","38.89%","Anguished Anemone",72
-"Epilogue Falls","Sparse Halophyte","Metaphor Manchego","-","30.56%","Belligerent Berghia",72
-"Epilogue Falls","Sparse Halophyte","Metaphor Manchego","-","30.56%","Menacing Medusozoa",72
-"Epilogue Falls","Common Halophyte","Metaphor Manchego","-","41.24%","Anguished Anemone",97
-"Epilogue Falls","Common Halophyte","Metaphor Manchego","-","36.08%","Menacing Medusozoa",97
-"Epilogue Falls","Common Halophyte","Metaphor Manchego","-","22.68%","Belligerent Berghia",97
-"Epilogue Falls","Abundant Halophyte","Metaphor Manchego","-","40.86%","Menacing Medusozoa",279
-"Epilogue Falls","Abundant Halophyte","Metaphor Manchego","-","34.41%","Anguished Anemone",279
-"Epilogue Falls","Abundant Halophyte","Metaphor Manchego","-","24.73%","Belligerent Berghia",279
-"Epilogue Falls","Sparse Algae","Metaphor Manchego","-","38.78%","Anguished Anemone",49
-"Epilogue Falls","Sparse Algae","Metaphor Manchego","-","32.65%","Menacing Medusozoa",49
-"Epilogue Falls","Sparse Algae","Metaphor Manchego","-","28.57%","Belligerent Berghia",49
-"Epilogue Falls","Common Algae","Metaphor Manchego","-","40.30%","Menacing Medusozoa",67
-"Epilogue Falls","Common Algae","Metaphor Manchego","-","37.31%","Anguished Anemone",67
-"Epilogue Falls","Common Algae","Metaphor Manchego","-","22.39%","Belligerent Berghia",67
-"Epilogue Falls","Abundant Algae","Metaphor Manchego","-","40.74%","Anguished Anemone",216
-"Epilogue Falls","Abundant Algae","Metaphor Manchego","-","32.87%","Menacing Medusozoa",216
-"Epilogue Falls","Abundant Algae","Metaphor Manchego","-","26.39%","Belligerent Berghia",216
+"Epilogue Falls","Sparse Morsel","Metaphor Manchego","-","42.06%","Menacing Medusozoa",107
+"Epilogue Falls","Sparse Morsel","Metaphor Manchego","-","31.78%","Anguished Anemone",107
+"Epilogue Falls","Sparse Morsel","Metaphor Manchego","-","26.17%","Belligerent Berghia",107
+"Epilogue Falls","Common Morsel","Metaphor Manchego","-","38.71%","Menacing Medusozoa",93
+"Epilogue Falls","Common Morsel","Metaphor Manchego","-","33.33%","Belligerent Berghia",93
+"Epilogue Falls","Common Morsel","Metaphor Manchego","-","27.96%","Anguished Anemone",93
+"Epilogue Falls","Abundant Morsel","Metaphor Manchego","-","41.46%","Menacing Medusozoa",123
+"Epilogue Falls","Abundant Morsel","Metaphor Manchego","-","37.40%","Anguished Anemone",123
+"Epilogue Falls","Abundant Morsel","Metaphor Manchego","-","21.14%","Belligerent Berghia",123
+"Epilogue Falls","Sparse Halophyte","Metaphor Manchego","-","38.78%","Anguished Anemone",98
+"Epilogue Falls","Sparse Halophyte","Metaphor Manchego","-","31.63%","Menacing Medusozoa",98
+"Epilogue Falls","Sparse Halophyte","Metaphor Manchego","-","29.59%","Belligerent Berghia",98
+"Epilogue Falls","Common Halophyte","Metaphor Manchego","-","37.50%","Menacing Medusozoa",136
+"Epilogue Falls","Common Halophyte","Metaphor Manchego","-","34.56%","Anguished Anemone",136
+"Epilogue Falls","Common Halophyte","Metaphor Manchego","-","27.94%","Belligerent Berghia",136
+"Epilogue Falls","Abundant Halophyte","Metaphor Manchego","-","38.52%","Menacing Medusozoa",379
+"Epilogue Falls","Abundant Halophyte","Metaphor Manchego","-","35.88%","Anguished Anemone",379
+"Epilogue Falls","Abundant Halophyte","Metaphor Manchego","-","25.59%","Belligerent Berghia",379
+"Epilogue Falls","Sparse Algae","Metaphor Manchego","-","38.10%","Anguished Anemone",84
+"Epilogue Falls","Sparse Algae","Metaphor Manchego","-","35.71%","Menacing Medusozoa",84
+"Epilogue Falls","Sparse Algae","Metaphor Manchego","-","26.19%","Belligerent Berghia",84
+"Epilogue Falls","Common Algae","Metaphor Manchego","-","43.40%","Menacing Medusozoa",106
+"Epilogue Falls","Common Algae","Metaphor Manchego","-","34.91%","Anguished Anemone",106
+"Epilogue Falls","Common Algae","Metaphor Manchego","-","21.70%","Belligerent Berghia",106
+"Epilogue Falls","Abundant Algae","Metaphor Manchego","-","42.21%","Anguished Anemone",289
+"Epilogue Falls","Abundant Algae","Metaphor Manchego","-","32.18%","Menacing Medusozoa",289
+"Epilogue Falls","Abundant Algae","Metaphor Manchego","-","25.61%","Belligerent Berghia",289
 "Epilogue Falls","Sparse Coral","Metaphor Manchego","-","66.67%","Anguished Anemone",6
 "Epilogue Falls","Sparse Coral","Metaphor Manchego","-","33.33%","Menacing Medusozoa",6
-"Epilogue Falls","Common Coral","Metaphor Manchego","-","44.44%","Anguished Anemone",18
-"Epilogue Falls","Common Coral","Metaphor Manchego","-","38.89%","Menacing Medusozoa",18
-"Epilogue Falls","Common Coral","Metaphor Manchego","-","16.67%","Belligerent Berghia",18
-"Epilogue Falls","Abundant Coral","Metaphor Manchego","-","35.00%","Belligerent Berghia",20
-"Epilogue Falls","Abundant Coral","Metaphor Manchego","-","35.00%","Menacing Medusozoa",20
-"Epilogue Falls","Abundant Coral","Metaphor Manchego","-","30.00%","Anguished Anemone",20
-"Epilogue Falls","Abundant Shell","Metaphor Manchego","-","43.75%","Anguished Anemone",16
-"Epilogue Falls","Abundant Shell","Metaphor Manchego","-","31.25%","Belligerent Berghia",16
-"Epilogue Falls","Abundant Shell","Metaphor Manchego","-","25.00%","Menacing Medusozoa",16
-"Epilogue Falls","Sparse Morsel","Allegory Anari","-","42.50%","Loutish Loach",40
-"Epilogue Falls","Sparse Morsel","Allegory Anari","-","35.00%","Pesky Pleco",40
-"Epilogue Falls","Sparse Morsel","Allegory Anari","-","22.50%","Shifty Shrimp",40
-"Epilogue Falls","Common Morsel","Allegory Anari","-","33.33%","Loutish Loach",39
-"Epilogue Falls","Common Morsel","Allegory Anari","-","33.33%","Pesky Pleco",39
-"Epilogue Falls","Common Morsel","Allegory Anari","-","33.33%","Shifty Shrimp",39
-"Epilogue Falls","Abundant Morsel","Allegory Anari","-","41.18%","Pesky Pleco",34
-"Epilogue Falls","Abundant Morsel","Allegory Anari","-","29.41%","Loutish Loach",34
-"Epilogue Falls","Abundant Morsel","Allegory Anari","-","29.41%","Shifty Shrimp",34
-"Epilogue Falls","Sparse Halophyte","Allegory Anari","-","42.31%","Loutish Loach",26
-"Epilogue Falls","Sparse Halophyte","Allegory Anari","-","34.62%","Pesky Pleco",26
-"Epilogue Falls","Sparse Halophyte","Allegory Anari","-","23.08%","Shifty Shrimp",26
-"Epilogue Falls","Common Halophyte","Allegory Anari","-","45.00%","Loutish Loach",40
-"Epilogue Falls","Common Halophyte","Allegory Anari","-","35.00%","Pesky Pleco",40
-"Epilogue Falls","Common Halophyte","Allegory Anari","-","20.00%","Shifty Shrimp",40
-"Epilogue Falls","Abundant Halophyte","Allegory Anari","-","42.42%","Loutish Loach",66
-"Epilogue Falls","Abundant Halophyte","Allegory Anari","-","31.82%","Pesky Pleco",66
-"Epilogue Falls","Abundant Halophyte","Allegory Anari","-","25.76%","Shifty Shrimp",66
-"Epilogue Falls","Sparse Algae","Allegory Anari","-","41.67%","Loutish Loach",36
-"Epilogue Falls","Sparse Algae","Allegory Anari","-","41.67%","Pesky Pleco",36
-"Epilogue Falls","Sparse Algae","Allegory Anari","-","16.67%","Shifty Shrimp",36
-"Epilogue Falls","Common Algae","Allegory Anari","-","40.28%","Loutish Loach",72
-"Epilogue Falls","Common Algae","Allegory Anari","-","33.33%","Pesky Pleco",72
-"Epilogue Falls","Common Algae","Allegory Anari","-","26.39%","Shifty Shrimp",72
-"Epilogue Falls","Abundant Algae","Allegory Anari","-","48.81%","Loutish Loach",84
-"Epilogue Falls","Abundant Algae","Allegory Anari","-","33.33%","Pesky Pleco",84
-"Epilogue Falls","Abundant Algae","Allegory Anari","-","17.86%","Shifty Shrimp",84
-"Epilogue Falls","Sparse Coral","Allegory Anari","-","50.82%","Pesky Pleco",61
-"Epilogue Falls","Sparse Coral","Allegory Anari","-","27.87%","Loutish Loach",61
-"Epilogue Falls","Sparse Coral","Allegory Anari","-","21.31%","Shifty Shrimp",61
-"Epilogue Falls","Common Coral","Allegory Anari","-","39.29%","Pesky Pleco",168
-"Epilogue Falls","Common Coral","Allegory Anari","-","32.74%","Loutish Loach",168
-"Epilogue Falls","Common Coral","Allegory Anari","-","27.98%","Shifty Shrimp",168
-"Epilogue Falls","Abundant Coral","Allegory Anari","-","43.07%","Loutish Loach",137
-"Epilogue Falls","Abundant Coral","Allegory Anari","-","38.69%","Pesky Pleco",137
-"Epilogue Falls","Abundant Coral","Allegory Anari","-","18.25%","Shifty Shrimp",137
-"Epilogue Falls","Sparse Shell","Allegory Anari","-","45.10%","Pesky Pleco",51
-"Epilogue Falls","Sparse Shell","Allegory Anari","-","29.41%","Loutish Loach",51
-"Epilogue Falls","Sparse Shell","Allegory Anari","-","25.49%","Shifty Shrimp",51
-"Epilogue Falls","Common Shell","Allegory Anari","-","50.00%","Pesky Pleco",72
-"Epilogue Falls","Common Shell","Allegory Anari","-","30.56%","Shifty Shrimp",72
-"Epilogue Falls","Common Shell","Allegory Anari","-","19.44%","Loutish Loach",72
-"Epilogue Falls","Abundant Shell","Allegory Anari","-","39.65%","Pesky Pleco",734
-"Epilogue Falls","Abundant Shell","Allegory Anari","-","35.69%","Loutish Loach",734
-"Epilogue Falls","Abundant Shell","Allegory Anari","-","24.66%","Shifty Shrimp",734
-"Epilogue Falls","Sparse Plot Hook","Allegory Anari","-","60.00%","Pesky Pleco",5
-"Epilogue Falls","Sparse Plot Hook","Allegory Anari","-","40.00%","Loutish Loach",5
-"Epilogue Falls","The Hidden Grotto","Allegory Anari","-","57.14%","Nyagarha the Falls Guardian",7
-"Epilogue Falls","The Hidden Grotto","Allegory Anari","-","42.86%","Ancient Wisdom Keeper",7
-"Epilogue Falls","Sparse Morsel","Symbolic Sirene","-","48.75%","Chaotic Chiton",80
-"Epilogue Falls","Sparse Morsel","Symbolic Sirene","-","32.50%","Killer Krill",80
-"Epilogue Falls","Sparse Morsel","Symbolic Sirene","-","18.75%","Muscular Mussel",80
-"Epilogue Falls","Abundant Morsel","Symbolic Sirene","-","45.45%","Chaotic Chiton",55
-"Epilogue Falls","Abundant Morsel","Symbolic Sirene","-","34.55%","Killer Krill",55
-"Epilogue Falls","Abundant Morsel","Symbolic Sirene","-","20.00%","Muscular Mussel",55
+"Epilogue Falls","Common Coral","Metaphor Manchego","-","43.33%","Menacing Medusozoa",30
+"Epilogue Falls","Common Coral","Metaphor Manchego","-","33.33%","Anguished Anemone",30
+"Epilogue Falls","Common Coral","Metaphor Manchego","-","23.33%","Belligerent Berghia",30
+"Epilogue Falls","Abundant Coral","Metaphor Manchego","-","40.00%","Anguished Anemone",35
+"Epilogue Falls","Abundant Coral","Metaphor Manchego","-","31.43%","Belligerent Berghia",35
+"Epilogue Falls","Abundant Coral","Metaphor Manchego","-","28.57%","Menacing Medusozoa",35
+"Epilogue Falls","Sparse Shell","Metaphor Manchego","-","33.33%","Anguished Anemone",3
+"Epilogue Falls","Sparse Shell","Metaphor Manchego","-","33.33%","Belligerent Berghia",3
+"Epilogue Falls","Sparse Shell","Metaphor Manchego","-","33.33%","Menacing Medusozoa",3
+"Epilogue Falls","Common Shell","Metaphor Manchego","-","100.00%","Menacing Medusozoa",2
+"Epilogue Falls","Abundant Shell","Metaphor Manchego","-","40.74%","Menacing Medusozoa",27
+"Epilogue Falls","Abundant Shell","Metaphor Manchego","-","37.04%","Anguished Anemone",27
+"Epilogue Falls","Abundant Shell","Metaphor Manchego","-","22.22%","Belligerent Berghia",27
+"Epilogue Falls","Sparse Plot Hook","Metaphor Manchego","-","50.00%","Anguished Anemone",12
+"Epilogue Falls","Sparse Plot Hook","Metaphor Manchego","-","25.00%","Belligerent Berghia",12
+"Epilogue Falls","Sparse Plot Hook","Metaphor Manchego","-","25.00%","Menacing Medusozoa",12
+"Epilogue Falls","Sparse Morsel","Allegory Anari","-","43.64%","Loutish Loach",55
+"Epilogue Falls","Sparse Morsel","Allegory Anari","-","38.18%","Pesky Pleco",55
+"Epilogue Falls","Sparse Morsel","Allegory Anari","-","18.18%","Shifty Shrimp",55
+"Epilogue Falls","Common Morsel","Allegory Anari","-","36.73%","Shifty Shrimp",49
+"Epilogue Falls","Common Morsel","Allegory Anari","-","32.65%","Pesky Pleco",49
+"Epilogue Falls","Common Morsel","Allegory Anari","-","30.61%","Loutish Loach",49
+"Epilogue Falls","Abundant Morsel","Allegory Anari","-","36.36%","Pesky Pleco",44
+"Epilogue Falls","Abundant Morsel","Allegory Anari","-","34.09%","Loutish Loach",44
+"Epilogue Falls","Abundant Morsel","Allegory Anari","-","29.55%","Shifty Shrimp",44
+"Epilogue Falls","Sparse Halophyte","Allegory Anari","-","45.71%","Pesky Pleco",35
+"Epilogue Falls","Sparse Halophyte","Allegory Anari","-","34.29%","Loutish Loach",35
+"Epilogue Falls","Sparse Halophyte","Allegory Anari","-","20.00%","Shifty Shrimp",35
+"Epilogue Falls","Common Halophyte","Allegory Anari","-","50.00%","Loutish Loach",50
+"Epilogue Falls","Common Halophyte","Allegory Anari","-","32.00%","Pesky Pleco",50
+"Epilogue Falls","Common Halophyte","Allegory Anari","-","18.00%","Shifty Shrimp",50
+"Epilogue Falls","Abundant Halophyte","Allegory Anari","-","42.11%","Loutish Loach",95
+"Epilogue Falls","Abundant Halophyte","Allegory Anari","-","29.47%","Pesky Pleco",95
+"Epilogue Falls","Abundant Halophyte","Allegory Anari","-","28.42%","Shifty Shrimp",95
+"Epilogue Falls","Sparse Algae","Allegory Anari","-","46.67%","Loutish Loach",45
+"Epilogue Falls","Sparse Algae","Allegory Anari","-","35.56%","Pesky Pleco",45
+"Epilogue Falls","Sparse Algae","Allegory Anari","-","17.78%","Shifty Shrimp",45
+"Epilogue Falls","Common Algae","Allegory Anari","-","39.36%","Pesky Pleco",94
+"Epilogue Falls","Common Algae","Allegory Anari","-","37.23%","Loutish Loach",94
+"Epilogue Falls","Common Algae","Allegory Anari","-","23.40%","Shifty Shrimp",94
+"Epilogue Falls","Abundant Algae","Allegory Anari","-","44.04%","Loutish Loach",109
+"Epilogue Falls","Abundant Algae","Allegory Anari","-","34.86%","Pesky Pleco",109
+"Epilogue Falls","Abundant Algae","Allegory Anari","-","21.10%","Shifty Shrimp",109
+"Epilogue Falls","Sparse Coral","Allegory Anari","-","49.40%","Pesky Pleco",83
+"Epilogue Falls","Sparse Coral","Allegory Anari","-","30.12%","Loutish Loach",83
+"Epilogue Falls","Sparse Coral","Allegory Anari","-","20.48%","Shifty Shrimp",83
+"Epilogue Falls","Common Coral","Allegory Anari","-","38.39%","Pesky Pleco",224
+"Epilogue Falls","Common Coral","Allegory Anari","-","33.48%","Loutish Loach",224
+"Epilogue Falls","Common Coral","Allegory Anari","-","28.13%","Shifty Shrimp",224
+"Epilogue Falls","Abundant Coral","Allegory Anari","-","41.41%","Loutish Loach",198
+"Epilogue Falls","Abundant Coral","Allegory Anari","-","41.41%","Pesky Pleco",198
+"Epilogue Falls","Abundant Coral","Allegory Anari","-","17.17%","Shifty Shrimp",198
+"Epilogue Falls","Sparse Shell","Allegory Anari","-","43.06%","Pesky Pleco",72
+"Epilogue Falls","Sparse Shell","Allegory Anari","-","29.17%","Loutish Loach",72
+"Epilogue Falls","Sparse Shell","Allegory Anari","-","27.78%","Shifty Shrimp",72
+"Epilogue Falls","Common Shell","Allegory Anari","-","45.61%","Pesky Pleco",114
+"Epilogue Falls","Common Shell","Allegory Anari","-","29.82%","Shifty Shrimp",114
+"Epilogue Falls","Common Shell","Allegory Anari","-","24.56%","Loutish Loach",114
+"Epilogue Falls","Abundant Shell","Allegory Anari","-","38.86%","Pesky Pleco",1001
+"Epilogue Falls","Abundant Shell","Allegory Anari","-","36.56%","Loutish Loach",1001
+"Epilogue Falls","Abundant Shell","Allegory Anari","-","24.58%","Shifty Shrimp",1001
+"Epilogue Falls","Sparse Plot Hook","Allegory Anari","-","50.00%","Pesky Pleco",6
+"Epilogue Falls","Sparse Plot Hook","Allegory Anari","-","33.33%","Loutish Loach",6
+"Epilogue Falls","Sparse Plot Hook","Allegory Anari","-","16.67%","Shifty Shrimp",6
+"Epilogue Falls","The Hidden Grotto","Allegory Anari","-","57.14%","Ancient Wisdom Keeper",14
+"Epilogue Falls","The Hidden Grotto","Allegory Anari","-","42.86%","Nyagarha the Falls Guardian",14
+"Epilogue Falls","Sparse Morsel","Symbolic Sirene","-","44.09%","Chaotic Chiton",127
+"Epilogue Falls","Sparse Morsel","Symbolic Sirene","-","35.43%","Killer Krill",127
+"Epilogue Falls","Sparse Morsel","Symbolic Sirene","-","20.47%","Muscular Mussel",127
+"Epilogue Falls","Common Morsel","Symbolic Sirene","-","33.33%","Chaotic Chiton",3
+"Epilogue Falls","Common Morsel","Symbolic Sirene","-","33.33%","Muscular Mussel",3
+"Epilogue Falls","Common Morsel","Symbolic Sirene","-","33.33%","Killer Krill",3
+"Epilogue Falls","Abundant Morsel","Symbolic Sirene","-","43.42%","Chaotic Chiton",76
+"Epilogue Falls","Abundant Morsel","Symbolic Sirene","-","39.47%","Killer Krill",76
+"Epilogue Falls","Abundant Morsel","Symbolic Sirene","-","17.11%","Muscular Mussel",76
 "Epilogue Falls","Sparse Halophyte","Symbolic Sirene","-","50.00%","Chaotic Chiton",2
 "Epilogue Falls","Sparse Halophyte","Symbolic Sirene","-","50.00%","Killer Krill",2
-"Epilogue Falls","Common Halophyte","Symbolic Sirene","-","37.50%","Muscular Mussel",8
-"Epilogue Falls","Common Halophyte","Symbolic Sirene","-","37.50%","Killer Krill",8
-"Epilogue Falls","Common Halophyte","Symbolic Sirene","-","25.00%","Chaotic Chiton",8
-"Epilogue Falls","Abundant Halophyte","Symbolic Sirene","-","48.08%","Chaotic Chiton",52
-"Epilogue Falls","Abundant Halophyte","Symbolic Sirene","-","30.77%","Killer Krill",52
-"Epilogue Falls","Abundant Halophyte","Symbolic Sirene","-","21.15%","Muscular Mussel",52
-"Epilogue Falls","Sparse Algae","Symbolic Sirene","-","38.71%","Chaotic Chiton",31
-"Epilogue Falls","Sparse Algae","Symbolic Sirene","-","32.26%","Killer Krill",31
-"Epilogue Falls","Sparse Algae","Symbolic Sirene","-","29.03%","Muscular Mussel",31
-"Epilogue Falls","Common Algae","Symbolic Sirene","-","50.00%","Chaotic Chiton",2
-"Epilogue Falls","Common Algae","Symbolic Sirene","-","50.00%","Killer Krill",2
-"Epilogue Falls","Abundant Algae","Symbolic Sirene","-","39.53%","Chaotic Chiton",43
-"Epilogue Falls","Abundant Algae","Symbolic Sirene","-","37.21%","Killer Krill",43
-"Epilogue Falls","Abundant Algae","Symbolic Sirene","-","23.26%","Muscular Mussel",43
-"Epilogue Falls","Sparse Coral","Symbolic Sirene","-","41.67%","Chaotic Chiton",36
-"Epilogue Falls","Sparse Coral","Symbolic Sirene","-","33.33%","Killer Krill",36
-"Epilogue Falls","Sparse Coral","Symbolic Sirene","-","25.00%","Muscular Mussel",36
-"Epilogue Falls","Common Coral","Symbolic Sirene","-","34.74%","Muscular Mussel",95
-"Epilogue Falls","Common Coral","Symbolic Sirene","-","33.68%","Chaotic Chiton",95
-"Epilogue Falls","Common Coral","Symbolic Sirene","-","31.58%","Killer Krill",95
-"Epilogue Falls","Abundant Coral","Symbolic Sirene","-","41.46%","Killer Krill",41
-"Epilogue Falls","Abundant Coral","Symbolic Sirene","-","34.15%","Chaotic Chiton",41
-"Epilogue Falls","Abundant Coral","Symbolic Sirene","-","24.39%","Muscular Mussel",41
-"Epilogue Falls","Sparse Shell","Symbolic Sirene","-","43.75%","Killer Krill",48
-"Epilogue Falls","Sparse Shell","Symbolic Sirene","-","39.58%","Chaotic Chiton",48
-"Epilogue Falls","Sparse Shell","Symbolic Sirene","-","16.67%","Muscular Mussel",48
-"Epilogue Falls","Common Shell","Symbolic Sirene","-","51.61%","Killer Krill",62
-"Epilogue Falls","Common Shell","Symbolic Sirene","-","29.03%","Chaotic Chiton",62
-"Epilogue Falls","Common Shell","Symbolic Sirene","-","19.35%","Muscular Mussel",62
-"Epilogue Falls","Abundant Shell","Symbolic Sirene","-","37.74%","Killer Krill",53
-"Epilogue Falls","Abundant Shell","Symbolic Sirene","-","33.96%","Chaotic Chiton",53
-"Epilogue Falls","Abundant Shell","Symbolic Sirene","-","28.30%","Muscular Mussel",53
-"Epilogue Falls","Sparse Plot Hook","Symbolic Sirene","-","43.62%","Killer Krill",94
-"Epilogue Falls","Sparse Plot Hook","Symbolic Sirene","-","34.04%","Chaotic Chiton",94
-"Epilogue Falls","Sparse Plot Hook","Symbolic Sirene","-","22.34%","Muscular Mussel",94
-"Epilogue Falls","Common Plot Hook","Symbolic Sirene","-","40.00%","Chaotic Chiton",155
-"Epilogue Falls","Common Plot Hook","Symbolic Sirene","-","32.90%","Killer Krill",155
-"Epilogue Falls","Common Plot Hook","Symbolic Sirene","-","27.10%","Muscular Mussel",155
-"Epilogue Falls","Abundant Plot Hook","Symbolic Sirene","-","40.74%","Chaotic Chiton",81
-"Epilogue Falls","Abundant Plot Hook","Symbolic Sirene","-","34.57%","Killer Krill",81
-"Epilogue Falls","Abundant Plot Hook","Symbolic Sirene","-","24.69%","Muscular Mussel",81
-"Epilogue Falls","Within the Waterfall","Symbolic Sirene","-","100.00%","Nyagarha the Falls Guardian",246
-"Epilogue Falls","The Hidden Grotto","Symbolic Sirene","-","100.00%","Ancient Wisdom Keeper",591
+"Epilogue Falls","Common Halophyte","Symbolic Sirene","-","46.15%","Killer Krill",13
+"Epilogue Falls","Common Halophyte","Symbolic Sirene","-","30.77%","Muscular Mussel",13
+"Epilogue Falls","Common Halophyte","Symbolic Sirene","-","23.08%","Chaotic Chiton",13
+"Epilogue Falls","Abundant Halophyte","Symbolic Sirene","-","51.90%","Chaotic Chiton",79
+"Epilogue Falls","Abundant Halophyte","Symbolic Sirene","-","25.32%","Killer Krill",79
+"Epilogue Falls","Abundant Halophyte","Symbolic Sirene","-","22.78%","Muscular Mussel",79
+"Epilogue Falls","Sparse Algae","Symbolic Sirene","-","38.30%","Chaotic Chiton",47
+"Epilogue Falls","Sparse Algae","Symbolic Sirene","-","31.91%","Killer Krill",47
+"Epilogue Falls","Sparse Algae","Symbolic Sirene","-","29.79%","Muscular Mussel",47
+"Epilogue Falls","Common Algae","Symbolic Sirene","-","66.67%","Chaotic Chiton",3
+"Epilogue Falls","Common Algae","Symbolic Sirene","-","33.33%","Killer Krill",3
+"Epilogue Falls","Abundant Algae","Symbolic Sirene","-","38.89%","Chaotic Chiton",72
+"Epilogue Falls","Abundant Algae","Symbolic Sirene","-","36.11%","Killer Krill",72
+"Epilogue Falls","Abundant Algae","Symbolic Sirene","-","25.00%","Muscular Mussel",72
+"Epilogue Falls","Sparse Coral","Symbolic Sirene","-","45.61%","Chaotic Chiton",57
+"Epilogue Falls","Sparse Coral","Symbolic Sirene","-","28.07%","Killer Krill",57
+"Epilogue Falls","Sparse Coral","Symbolic Sirene","-","26.32%","Muscular Mussel",57
+"Epilogue Falls","Common Coral","Symbolic Sirene","-","36.99%","Chaotic Chiton",146
+"Epilogue Falls","Common Coral","Symbolic Sirene","-","32.19%","Killer Krill",146
+"Epilogue Falls","Common Coral","Symbolic Sirene","-","30.82%","Muscular Mussel",146
+"Epilogue Falls","Abundant Coral","Symbolic Sirene","-","45.76%","Killer Krill",59
+"Epilogue Falls","Abundant Coral","Symbolic Sirene","-","37.29%","Chaotic Chiton",59
+"Epilogue Falls","Abundant Coral","Symbolic Sirene","-","16.95%","Muscular Mussel",59
+"Epilogue Falls","Sparse Shell","Symbolic Sirene","-","46.48%","Killer Krill",71
+"Epilogue Falls","Sparse Shell","Symbolic Sirene","-","36.62%","Chaotic Chiton",71
+"Epilogue Falls","Sparse Shell","Symbolic Sirene","-","16.90%","Muscular Mussel",71
+"Epilogue Falls","Common Shell","Symbolic Sirene","-","42.86%","Killer Krill",91
+"Epilogue Falls","Common Shell","Symbolic Sirene","-","36.26%","Chaotic Chiton",91
+"Epilogue Falls","Common Shell","Symbolic Sirene","-","20.88%","Muscular Mussel",91
+"Epilogue Falls","Abundant Shell","Symbolic Sirene","-","40.51%","Chaotic Chiton",79
+"Epilogue Falls","Abundant Shell","Symbolic Sirene","-","34.18%","Killer Krill",79
+"Epilogue Falls","Abundant Shell","Symbolic Sirene","-","25.32%","Muscular Mussel",79
+"Epilogue Falls","Sparse Plot Hook","Symbolic Sirene","-","39.20%","Killer Krill",125
+"Epilogue Falls","Sparse Plot Hook","Symbolic Sirene","-","38.40%","Chaotic Chiton",125
+"Epilogue Falls","Sparse Plot Hook","Symbolic Sirene","-","22.40%","Muscular Mussel",125
+"Epilogue Falls","Common Plot Hook","Symbolic Sirene","-","40.58%","Chaotic Chiton",207
+"Epilogue Falls","Common Plot Hook","Symbolic Sirene","-","33.82%","Killer Krill",207
+"Epilogue Falls","Common Plot Hook","Symbolic Sirene","-","25.60%","Muscular Mussel",207
+"Epilogue Falls","Abundant Plot Hook","Symbolic Sirene","-","41.28%","Chaotic Chiton",109
+"Epilogue Falls","Abundant Plot Hook","Symbolic Sirene","-","31.19%","Killer Krill",109
+"Epilogue Falls","Abundant Plot Hook","Symbolic Sirene","-","27.52%","Muscular Mussel",109
+"Epilogue Falls","Within the Waterfall","Symbolic Sirene","-","100.00%","Nyagarha the Falls Guardian",316
+"Epilogue Falls","The Hidden Grotto","Symbolic Sirene","-","100.00%","Ancient Wisdom Keeper",804
