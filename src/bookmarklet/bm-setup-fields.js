@@ -489,13 +489,13 @@
       }
     } else if (userLocation === "Afterword Acres") {
       const tier = userQuests["QuestAfterwordAcres"].blight_tier
-      if (tier == "tier_1") {
+      if (tier === "tier_1") {
         return "1x"
-      } else if (tier == "tier_2") {
+      } else if (tier === "tier_2") {
         return "2x"
-      } else if (tier == "tier_3") {
+      } else if (tier === "tier_3") {
         return "4x"
-      } else if (tier == "tier_4") {
+      } else if (tier === "tier_4") {
         return "8x"
       }
     } else if (userLocation === "Epilogue Falls") {
