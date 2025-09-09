@@ -487,6 +487,24 @@
       } else {
         return "Crucible Forge";
       }
+    } else if (userLocation === "Afterword Acres") {
+      const tier = userQuests["QuestAfterwordAcres"].blight_tier
+      if (tier == "tier_1") {
+        return "1x"
+      } else if (tier == "tier_2") {
+        return "2x"
+      } else if (tier == "tier_3") {
+        return "4x"
+      } else if (tier == "tier_4") {
+        return "8x"
+      }
+    } else if (userLocation === "Epilogue Falls") {
+      const efQuest = userQuests["QuestEpilogueFalls"];
+      if (!efQuest.on_rapids) {
+        return "Shore";
+      }
+
+      return efQuest.rapids.zone_data.name.replace(" Zone", "");
     }
 
     return "N/A";
