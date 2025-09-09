@@ -5,6 +5,7 @@
   "scripts": {
     "\n-- POPULATION DATA --": "",
     "pop:acolyte": "node data/pop acolyte-realm > data/pop-csv/acolyte-realm.csv",
+    "pop:afterword": "node data/pop afterword-acres > data/pop-csv/afterword-acres.csv",
     "pop:balack": "node data/pop balacks-cove > data/pop-csv/balacks-cove.csv",
     "pop:beanstalk": "node data/pop bountiful-beanstalk > data/pop-csv/bountiful-beanstalk.csv",
     "pop:burroughs": "node data/pop burroughs-rift > data/pop-csv/burroughs-rift.csv",
