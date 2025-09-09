@@ -6,7 +6,8 @@ testing/
 *.iml
 .eslintrc.json
 src/**/*.min.js
-data/**/*.json
+data/**/*[.csv,.json]
 !data/json/all-recipes.json
+!data/pop-csv/*.csv
 .vscode/
 data/debug&tests/
