@@ -65,7 +65,6 @@
     "trap-data": "node build/process-trap-data.js",
     "build": "npm-run-all --parallel mouse-data population trap-data",
     "\n-- MISC --": "",
-    "mouse-stats": "node data/mouse-stats",
     "serve": "http-server -p 8000",
     "postinstall": "patch-package"
   },
