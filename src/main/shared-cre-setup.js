@@ -340,7 +340,10 @@ function calculateTrapSetup(skipDisp) {
         location === "Table of Contents" ||
         location === "Bountiful Beanstalk" ||
         location === "School of Sorcery" ||
-        location === "Draconic Depths"
+        location === "Draconic Depths" ||
+        location === "Afterword Acres" ||
+        location === "Epilogue Falls" ||
+        location === "Conclusion Cliffs"
       );
     }
 
