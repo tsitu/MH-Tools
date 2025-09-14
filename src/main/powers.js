@@ -131,7 +131,7 @@ window.onload = function() {
         }
       };
     $("#trap-setups").trigger("updateAll", [resort, callback]);
-    $(".armButton").css(`background-color: ${connectedToMouseHunt ? 'green' : 'red'}`);
+    $(".armButton").css({'background-color': connectedToMouseHunt ? 'green' : 'red'});
     $(".armButton").click(function() {
       const row = $(this).closest("tr");
       const base = row.data("base");
@@ -202,11 +202,6 @@ window.onload = function() {
   });
 };
 
-function allDataLoaded() {
-  // console.debug("powers: All data loaded, AcrossTabs initialized");
-  child.init();
-}
-
 function loadPreferences() {
   const prefString = localStorage.getItem("powers-tool-prefs");
   if (prefString) {
@@ -253,7 +248,7 @@ function calcPower(weapon, base, charm, bonusObj) {
 
   if (base == "Prestige Base") {
     var umbraFloor = parseInt(localStorage.getItem("tsitu-umbra-floor")) || 0;
-    rawPower += umbraFloor * 20
+    rawPower += umbraFloor * 20;
   }
 
   const pourBonus = 1 + (bonusObj["pour"] / 100) * (1 + rawPowerBonus / 100);
@@ -504,7 +499,16 @@ function generateResults() {
 
           if (precisePower >= powerMin && precisePower <= powerMax) {
             const roundedPower = Math.ceil(precisePower);
-            resultsHTML += `<tr data-base="${base}" data-weapon="${weapon}" data-charm="${charm}"><td><button class='armButton' style="background-color: ${connectedToMouseHunt ? 'green' : 'red'};">Arm!</button></td><td>${precisePower}</td><td>${base}</td><td>${weapon}</td><td>${charm}</td><td>${powerType}</td><td>${roundedPower}</td></tr>`;
+            resultsHTML += `
+              <tr data-base="${base}" data-weapon="${weapon}" data-charm="${charm}">
+                <td><button class='armButton' style="background-color: ${connectedToMouseHunt ? 'green' : 'red'};">Arm!</button></td>
+                <td>${precisePower}</td>
+                <td>${base}</td>
+                <td>${weapon}</td>
+                <td>${charm}</td>
+                <td>${powerType}</td>
+                <td>${roundedPower}</td>
+              </tr>`;
             if (typeof countPer[precisePower] === "undefined") {
               countPer[precisePower] = 1;
             } else {
