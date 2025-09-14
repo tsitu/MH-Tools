@@ -742,7 +742,7 @@
     };
 
     var supplementalButton = document.createElement("button");
-    supplementalButton.textContent = "Open Powers Worksheet";
+    supplementalButton.textContent = "Open Supplemental";
     supplementalButton.onclick = function() {
       openSupplementalTab();
     };
