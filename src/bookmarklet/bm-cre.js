@@ -397,9 +397,9 @@
 
       if (fi["is_low_tier_island"]) {
         fiStage += " Low";
-      } else if ("is_high_tier_island") {
+      } else if (fi["is_high_tier_island"]) {
         fiStage += " High";
-      } else if ("is_vault_island") {
+      } else if (fi["is_vault_island"]) {
         fiStage += " Palace";
       }
 
@@ -413,7 +413,7 @@
         }
       } else if (userCheese === "Sky Pirate Swiss Cheese") {
         const piratesNum = fi["activated_island_mod_types"].filter(t => t === "sky_pirates").length;
-        return `${fi["is_vault_island"] ? "Palace" : "Low|High"} - ${piratesNum}x Pirates"`;
+        return `${fi["is_vault_island"] ? "Palace" : "Low|High"} - ${piratesNum}x Pirates`;
       } else if ((userCheese === "Cloud Cheesecake" || userCheese === "Extra Rich Cloud Cheesecake") &&
                   fi["activated_island_mod_types"].filter(i => i === "loot_cache").length >= 2) {
         fiStage += ` - Loot x${fi["activated_island_mod_types"].filter(i => i === "loot_cache").length}`
