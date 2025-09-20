@@ -137,15 +137,21 @@ In light of these discrepancies, Discord user mmalks ran a regression analysis o
 
 After observing the increased accuracy of mmalks' new catch rate and ML formulas over an extended period of time, we have decided to incorporate them into the tools. Further research is being conducted to improve on them, and catch rate estimates are liable to change as we inch closer to a fully complete model of MH's catch logic. With that said, please continue to report misses at or above displayed minimum luck values.
 
-Classic catch rate formula: <img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+CR+%3D+%5Cfrac%7BE+%2A+T+%2B+%5C+%283+-+min%282%2C+E%29%29+%2A+%28min%282%2C+E%29+%2A+L%29%5E%7B2%7D%7D%7BE+%2A+T+%2B+%5C+M%7D" alt="CR = \frac{E * T + \ (3 - min(2, E)) * (min(2, E) * L)^{2}}{E * T + \ M}"><br><br>
+### Classic catch rate formula
 
-New catch rate formula: <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+CR+%3D+%5Cfrac%7BE+%2A+T+%2B+%5C+2+%2A+%28floor%28min%281.4%2C+E%29+%2A+L%29%29%5E%7B2%7D%7D%7BE+%2A+T+%2B+%5C+M%7D" alt="CR = \frac{E * T + \ 2 * (floor(min(1.4, E) * L))^{2}}{E * T + \ M}"><br><br>
+$`CR = \frac{E * T + \ (3 - \min(2, E)) * (\min(2, E) * L)^{2}}{E * T + \ M}`$
 
-<!-- New catch rate formula: <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+CR+%3D+%5Cfrac%7BE+%2A+T+%2B+%5C+2+%2A+%28floor%28min%281.4%2C+E%29+%2A+L%29%29%5E%7B1.975%7D%7D%7BE+%2A+T+%2B+%5C+M%7D" alt="CR = \frac{E * T + \ 2 * (floor(min(1.4, E) * L))^{1.975}}{E * T + \ M}"><br><br> -->
+### New catch rate formula 
 
-Classic minimum luck formula: <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+ML+%3D+%5Cceil%28%5Cfrac%7B%5Csqrt%7B%5Cfrac%7BM%7D%7B3+-+min%282%2C+E%29%7D%7D%7D%7Bmin%282%2C+E%29%7D%29" alt="ML = \ceil(\frac{\sqrt{\frac{M}{3 - min(2, E)}}}{min(2, E)})"><br><br>
+$`CR = \frac{E * T + \ 2 * (\lfloor\min(1.4, E) * L\rfloor)^{2}}{E * T + \ M}`$
 
-New minimum luck formula: <img src="https://render.githubusercontent.com/render/math?math=\huge ML = \ceil({\frac{\ceil({\sqrt{\frac{M}{2}})}}{min(1.4, E)}})"><br><br>
+### Classic minimum luck formula
+
+$`ML = \left\lceil\frac{\sqrt{\frac{M}{3 - \min(2, E)}}}{\min(2, E)}\right\rceil`$
+
+### New minimum luck formula
+
+$`ML = \left\lceil\frac{\left\lceil\sqrt{\frac{M}{2}}\right\rceil}{\min(1.4, E)}\right\rceil`$
 
 - E = Weapon Type Effectiveness %
 - T = Trap Power
