@@ -265,7 +265,16 @@
       state = state.replace(/boss/g, "High");
       return state;
     } else if (userLocation === "Fungal Cavern") {
-      return userBase === "Gemology Base" ? "Gemology Base" : "Not Gemology";
+      var hasCavernCheese = [
+        "Glowing Gruyere Cheese",
+        "Mineral Cheese",
+        "Gemstone Cheese",
+        "Diamond Cheese",
+      ].indexOf(userCheese) > -1;
+      if (hasCavernCheese) {
+        return userBase === "Gemology Base" ? "Gemology" : "Not Gemology";
+      }
+      return;
     } else if (userLocation === "Zokor") {
       var quest = userQuests["QuestAncientCity"];
 
