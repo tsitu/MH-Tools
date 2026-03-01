@@ -11,9 +11,50 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
+    - name: Aggressive cleanup
+      run: |
+        df -h
+        # Remove Java (JDKs)
+        sudo rm -rf /usr/lib/jvm
+
+        # Remove .NET SDKs
+        sudo rm -rf /usr/share/dotnet
+
+        # Remove Swift toolchain
+        sudo rm -rf /usr/share/swift
+
+        # Remove Haskell (GHC)
+        sudo rm -rf /usr/local/.ghcup
+
+        # Remove Julia
+        sudo rm -rf /usr/local/julia*
+
+        # Remove Android SDKs
+        sudo rm -rf /usr/local/lib/android
+
+        # Remove Chromium (optional if not using for browser tests)
+        sudo rm -rf /usr/local/share/chromium
+
+        # Remove Microsoft/Edge and Google Chrome builds
+        sudo rm -rf /opt/microsoft /opt/google
+
+        # Remove Azure CLI
+        sudo rm -rf /opt/az
+
+        # Remove PowerShell
+        sudo rm -rf /usr/local/share/powershell
+
+        # Remove CodeQL and other toolcaches
+        sudo rm -rf /opt/hostedtoolcache
+
+        sudo docker system prune -af || true
+        sudo docker builder prune -af || true
+        df -h
+
     - name: Checkout MHCT db docker repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         repository: m-h-c-t/mhct-db-docker
         path: mhct-db-docker
@@ -22,34 +63,51 @@ jobs:
     - name: Build MHCT db docker image
       run: |
         cd mhct-db-docker
-        docker build -t mhct-db-docker .
+        docker build -t mhct-db -f Dockerfile.slim .
 
     - name: Run MHCT db docker container
       run: |
-        docker run -d --name mhct-db -p 3306:3306 mhct-db-docker
+        docker run -d --name mhct-db -v mhct-db-data:/var/lib/mysql -p 3306:3306 mhct-db
 
-        # Wait for database to be ready with retry loop
-        echo "Waiting for database to be ready..."
-        for i in {1..30}; do
-          if docker exec mhct-db mysqladmin ping -h localhost -psecret --silent; then
-            echo "Database is ready!"
+        # Wait for database initialization (up to 2 hours)
+        echo "Waiting for database initialization to complete..."
+        for i in {1..120}; do
+          if docker logs mhct-db 2>&1 | grep -q "MySQL init process done. Ready for start up."; then
+            echo "Database initialization complete!"
             break
           fi
-          echo "Attempt $i: Database not ready yet, waiting..."
-          sleep 2
+          echo "Attempt $i: Database still initializing, waiting..."
+          sleep 60
         done
 
-        # Final check to ensure database is ready
-        if ! docker exec mhct-db mysqladmin ping -h localhost -psecret --silent; then
-          echo "Database failed to become ready after 60 seconds"
+        # Wait for MySQL to come back up after initialization
+        if docker logs mhct-db 2>&1 | grep -q "MySQL init process done. Ready for start up."; then
+          echo "Waiting for MySQL to restart and become ready..."
+          for i in {1..30}; do
+            if docker exec mhct-db mysqladmin ping -h localhost -psecret --silent; then
+              echo "MySQL is ready!"
+              break
+            fi
+            echo "Waiting for MySQL to come back up..."
+            sleep 2
+          done
+
+          if ! docker exec mhct-db mysqladmin ping -h localhost -psecret --silent; then
+            echo "MySQL failed to become ready after restart."
+            docker logs mhct-db
+            exit 1
+          fi
+        else
+          echo "Database initialization failed to complete after 120 minutes."
+          docker logs mhct-db
           exit 1
         fi
 
     - name: Checkout repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Set up Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v5
       with:
         node-version: 24
         cache: npm
@@ -60,7 +118,7 @@ jobs:
     - name: Update population data
       run: npm run pop
 
-    - name: Commit and push if there are changes
+    - name: Create a PR if population data changed
       run: |
         if [ -z "$(git status --porcelain data/pop-csv)" ]; then
           echo "No changes in population data."
@@ -72,9 +130,13 @@ jobs:
 
         git add data/pop-csv/*
 
+        git checkout -b scheduled/population-$(date +%Y%m%d)
         git commit -m "Automated population data update" || exit 0
-        git push
+        git push origin HEAD
 
+        gh pr create --fill || echo "PR already exists"
+      env:
+        GH_TOKEN: ${{ github.token }}
     - name: Cleanup Docker container
       if: always()
       run: |

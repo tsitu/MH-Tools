@@ -81,20 +81,6 @@ module.exports = {
         }
       ]
     },
-    {
-      cheese: utils.genVarField("cheese", [
-        "Vanilla Stilton",
-        "Vengeful Vanilla Stilton",
-      ]),
-      phase: utils.genVarField("stage", "High Tide"),
-      config: [
-        {
-          opts: {
-            include: ["Riptide"]
-          }
-        }
-      ]
-    }
   ],
   /**
    *
