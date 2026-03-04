@@ -563,6 +563,22 @@
           return "Writing " + story["current_chapter"]["genre_type"].charAt(0).toUpperCase() + story["current_chapter"]["genre_type"].slice(1);
         }
       }
+    } else if (userLocation === "SUPER|brie+ Factory") {
+      var sbfAtts = userQuests["QuestSuperBrieFactory"]["factory_atts"];
+      if (sbfAtts["boss_warning"] === true) {
+        return "Boss";
+      }
+      var sbfRoomMap = {
+        pumping_room: "Pump Room",
+        mixing_room: "Mixing Room",
+        break_room: "Break Room",
+        quality_assurance_room: "QA Room"
+      };
+      var sbfStage = sbfRoomMap[sbfAtts["current_room"]];
+      if (sbfStage && userCheese.indexOf("Coggy Colby") >= 0) {
+        return sbfStage;
+      }
+      return "Any Room";
     }
 
     return "N/A";

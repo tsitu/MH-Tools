@@ -1133,7 +1133,7 @@ function showHideWidgets(custom) {
     ".display-" +
     locationName
       .replace(/ /g, "-")
-      .replace(/'/g, "")
+      .replace(/[^a-z0-9-]/gi, "")
       .toLowerCase();
 
   $("#empoweredRow").hide();

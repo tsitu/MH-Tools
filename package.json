@@ -42,6 +42,7 @@
     "pop:prickly": "node data/pop prickly-plains > data/pop-csv/prickly-plains.csv",
     "pop:queso": "node data/pop queso-river > data/pop-csv/queso-river.csv",
     "pop:ronza": "node data/pop ronza > data/pop-csv/ronza.csv",
+    "pop:sbf": "node data/pop super-brie-factory > data/pop-csv/super-brie-factory.csv",
     "pop:soso": "node data/pop school-of-sorcery > data/pop-csv/school-of-sorcery.csv",
     "pop:toc": "node data/pop table-of-contents > data/pop-csv/table-of-contents.csv",
     "pop:toxic": "node data/pop toxic-spill > data/pop-csv/toxic-spill.csv",
