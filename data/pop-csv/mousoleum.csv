@@ -1,58 +1,75 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Mousoleum","No Wall","Radioactive Blue","-","40.65%","Gluttonous Zombie",43691
-"Mousoleum","No Wall","Radioactive Blue","-","29.38%","Zombie",43691
-"Mousoleum","No Wall","Radioactive Blue","-","24.58%","Ravenous Zombie",43691
-"Mousoleum","No Wall","Radioactive Blue","-","5.39%","Coffin Zombie",43691
-"Mousoleum","No Wall","Rancid Radioactive Blue","-","30.59%","Zombie",572
-"Mousoleum","No Wall","Rancid Radioactive Blue","-","30.07%","Gluttonous Zombie",572
-"Mousoleum","No Wall","Rancid Radioactive Blue","-","23.08%","Ravenous Zombie",572
-"Mousoleum","No Wall","Rancid Radioactive Blue","-","16.26%","Coffin Zombie",572
-"Mousoleum","No Wall","Undead Emmental","-","27.85%","Coffin Zombie",2226
-"Mousoleum","No Wall","Undead Emmental","-","20.98%","Gluttonous Zombie",2226
-"Mousoleum","No Wall","Undead Emmental","-","20.62%","Zombie",2226
-"Mousoleum","No Wall","Undead Emmental","-","14.29%","Ravenous Zombie",2226
-"Mousoleum","No Wall","Undead Emmental","-","9.34%","Grave Robber",2226
-"Mousoleum","No Wall","Undead Emmental","-","6.92%","Zombot Unipire",2226
-"Mousoleum","No Wall","Crimson","-","98.53%","Coffin Zombie",3596
-"Mousoleum","No Wall","Crimson","-","1.47%","Gluttonous Zombie",3596
-"Mousoleum","Has Wall","Crimson","-","54.43%","Mousevina von Vermin",9182
-"Mousoleum","Has Wall","Crimson","-","15.06%","Vampire",9182
-"Mousoleum","Has Wall","Crimson","-","10.86%","Ghost",9182
-"Mousoleum","Has Wall","Crimson","-","9.99%","Mummy",9182
-"Mousoleum","Has Wall","Crimson","-","9.66%","Bat",9182
-"Mousoleum","Has Wall","Moon","-","54.10%","Lycan",2222
-"Mousoleum","Has Wall","Moon","-","13.28%","Ghost",2222
-"Mousoleum","Has Wall","Moon","-","11.61%","Vampire",2222
-"Mousoleum","Has Wall","Moon","-","10.89%","Bat",2222
-"Mousoleum","Has Wall","Moon","-","10.13%","Mummy",2222
-"Mousoleum","Has Wall","Crescent","-","54.98%","Lycan",251
-"Mousoleum","Has Wall","Crescent","-","13.55%","Ghost",251
-"Mousoleum","Has Wall","Crescent","-","12.75%","Vampire",251
-"Mousoleum","Has Wall","Crescent","-","10.36%","Bat",251
-"Mousoleum","Has Wall","Crescent","-","8.37%","Mummy",251
-"Mousoleum","Has Wall","Radioactive Blue","-","35.33%","Bat",29096
-"Mousoleum","Has Wall","Radioactive Blue","-","20.00%","Vampire",29096
-"Mousoleum","Has Wall","Radioactive Blue","-","19.83%","Mummy",29096
-"Mousoleum","Has Wall","Radioactive Blue","-","15.94%","Ghost",29096
-"Mousoleum","Has Wall","Radioactive Blue","-","5.88%","Giant Snail",29096
-"Mousoleum","Has Wall","Radioactive Blue","-","2.06%","Monster",29096
-"Mousoleum","Has Wall","Radioactive Blue","-","0.97%","Black Widow",29096
-"Mousoleum","Has Wall","Rancid Radioactive Blue","-","40.09%","Bat",1125
-"Mousoleum","Has Wall","Rancid Radioactive Blue","-","26.58%","Vampire",1125
-"Mousoleum","Has Wall","Rancid Radioactive Blue","-","14.67%","Mummy",1125
-"Mousoleum","Has Wall","Rancid Radioactive Blue","-","10.04%","Ghost",1125
-"Mousoleum","Has Wall","Rancid Radioactive Blue","-","4.98%","Giant Snail",1125
-"Mousoleum","Has Wall","Rancid Radioactive Blue","-","2.67%","Monster",1125
-"Mousoleum","Has Wall","Rancid Radioactive Blue","-","0.98%","Black Widow",1125
-"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","41.15%","Bat",537
-"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","35.75%","Vampire",537
-"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","8.75%","Mummy",537
-"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","5.96%","Giant Snail",537
-"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","5.03%","Ghost",537
-"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","2.79%","Monster",537
-"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","0.56%","Black Widow",537
-"Mousoleum","Has Wall","Undead Emmental","-","28.58%","Mummy",3706
-"Mousoleum","Has Wall","Undead Emmental","-","28.36%","Ghost",3706
-"Mousoleum","Has Wall","Undead Emmental","-","17.49%","Vampire",3706
-"Mousoleum","Has Wall","Undead Emmental","-","14.92%","Grave Robber",3706
-"Mousoleum","Has Wall","Undead Emmental","-","10.66%","Zombot Unipire",3706
+"Mousoleum","No Wall","Radioactive Blue","-","40.60%","Gluttonous Zombie",56622
+"Mousoleum","No Wall","Radioactive Blue","-","29.45%","Zombie",56622
+"Mousoleum","No Wall","Radioactive Blue","-","24.55%","Ravenous Zombie",56622
+"Mousoleum","No Wall","Radioactive Blue","-","5.34%","Coffin Zombie",56622
+"Mousoleum","No Wall","Radioactive Blue","-","0.06%","Glitchpaw",56622
+"Mousoleum","No Wall","Rancid Radioactive Blue","-","32.06%","Gluttonous Zombie",1073
+"Mousoleum","No Wall","Rancid Radioactive Blue","-","29.36%","Zombie",1073
+"Mousoleum","No Wall","Rancid Radioactive Blue","-","23.39%","Ravenous Zombie",1073
+"Mousoleum","No Wall","Rancid Radioactive Blue","-","15.19%","Coffin Zombie",1073
+"Mousoleum","No Wall","Magical Rancid Radioactive Blue","-","28.35%","Gluttonous Zombie",127
+"Mousoleum","No Wall","Magical Rancid Radioactive Blue","-","26.77%","Zombie",127
+"Mousoleum","No Wall","Magical Rancid Radioactive Blue","-","25.98%","Coffin Zombie",127
+"Mousoleum","No Wall","Magical Rancid Radioactive Blue","-","18.90%","Ravenous Zombie",127
+"Mousoleum","No Wall","Undead Emmental","-","27.26%","Coffin Zombie",3191
+"Mousoleum","No Wall","Undead Emmental","-","21.06%","Gluttonous Zombie",3191
+"Mousoleum","No Wall","Undead Emmental","-","19.84%","Zombie",3191
+"Mousoleum","No Wall","Undead Emmental","-","14.04%","Ravenous Zombie",3191
+"Mousoleum","No Wall","Undead Emmental","-","10.12%","Grave Robber",3191
+"Mousoleum","No Wall","Undead Emmental","-","7.68%","Zombot Unipire",3191
+"Mousoleum","No Wall","Crimson","-","98.38%","Coffin Zombie",4804
+"Mousoleum","No Wall","Crimson","-","1.62%","Gluttonous Zombie",4804
+"Mousoleum","Has Wall","Crimson","-","54.40%","Mousevina von Vermin",12172
+"Mousoleum","Has Wall","Crimson","-","15.00%","Vampire",12172
+"Mousoleum","Has Wall","Crimson","-","10.91%","Ghost",12172
+"Mousoleum","Has Wall","Crimson","-","9.95%","Mummy",12172
+"Mousoleum","Has Wall","Crimson","-","9.66%","Bat",12172
+"Mousoleum","Has Wall","Crimson","-","0.07%","Coffin Zombie",12172
+"Mousoleum","Has Wall","Moon","-","53.25%","Lycan",2569
+"Mousoleum","Has Wall","Moon","-","13.55%","Ghost",2569
+"Mousoleum","Has Wall","Moon","-","12.11%","Vampire",2569
+"Mousoleum","Has Wall","Moon","-","10.67%","Bat",2569
+"Mousoleum","Has Wall","Moon","-","10.43%","Mummy",2569
+"Mousoleum","Has Wall","Crescent","-","56.64%","Lycan",572
+"Mousoleum","Has Wall","Crescent","-","14.86%","Ghost",572
+"Mousoleum","Has Wall","Crescent","-","11.01%","Vampire",572
+"Mousoleum","Has Wall","Crescent","-","9.44%","Mummy",572
+"Mousoleum","Has Wall","Crescent","-","8.04%","Bat",572
+"Mousoleum","Has Wall","Radioactive Blue","-","35.46%","Bat",36964
+"Mousoleum","Has Wall","Radioactive Blue","-","20.04%","Vampire",36964
+"Mousoleum","Has Wall","Radioactive Blue","-","19.77%","Mummy",36964
+"Mousoleum","Has Wall","Radioactive Blue","-","15.72%","Ghost",36964
+"Mousoleum","Has Wall","Radioactive Blue","-","5.87%","Giant Snail",36964
+"Mousoleum","Has Wall","Radioactive Blue","-","2.04%","Monster",36964
+"Mousoleum","Has Wall","Radioactive Blue","-","0.96%","Black Widow",36964
+"Mousoleum","Has Wall","Radioactive Blue","-","0.09%","Gluttonous Zombie",36964
+"Mousoleum","Has Wall","Radioactive Blue","-","0.06%","Ravenous Zombie",36964
+"Mousoleum","Has Wall","Rancid Radioactive Blue","-","39.35%","Bat",2531
+"Mousoleum","Has Wall","Rancid Radioactive Blue","-","27.02%","Vampire",2531
+"Mousoleum","Has Wall","Rancid Radioactive Blue","-","14.78%","Mummy",2531
+"Mousoleum","Has Wall","Rancid Radioactive Blue","-","9.76%","Ghost",2531
+"Mousoleum","Has Wall","Rancid Radioactive Blue","-","5.73%","Giant Snail",2531
+"Mousoleum","Has Wall","Rancid Radioactive Blue","-","2.41%","Monster",2531
+"Mousoleum","Has Wall","Rancid Radioactive Blue","-","0.91%","Black Widow",2531
+"Mousoleum","Has Wall","Rancid Radioactive Blue","-","0.04%","Ravenous Zombie",2531
+"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","39.81%","Bat",1173
+"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","35.72%","Vampire",1173
+"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","9.97%","Mummy",1173
+"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","6.31%","Giant Snail",1173
+"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","4.69%","Ghost",1173
+"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","2.30%","Monster",1173
+"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","1.11%","Black Widow",1173
+"Mousoleum","Has Wall","Magical Rancid Radioactive Blue","-","0.09%","Coffin Zombie",1173
+"Mousoleum","Has Wall","Undead Emmental","-","28.95%","Ghost",5686
+"Mousoleum","Has Wall","Undead Emmental","-","28.81%","Mummy",5686
+"Mousoleum","Has Wall","Undead Emmental","-","17.73%","Vampire",5686
+"Mousoleum","Has Wall","Undead Emmental","-","14.26%","Grave Robber",5686
+"Mousoleum","Has Wall","Undead Emmental","-","10.22%","Zombot Unipire",5686
+"Mousoleum","Has Wall","Undead Emmental","-","0.02%","Zombie",5686
+"Mousoleum","Has Wall","Undead Emmental","-","0.02%","Coffin Zombie",5686
+"Mousoleum","Has Wall","Undead String Emmental","-","36.65%","Ghost",161
+"Mousoleum","Has Wall","Undead String Emmental","-","23.60%","Mummy",161
+"Mousoleum","Has Wall","Undead String Emmental","-","21.74%","Vampire",161
+"Mousoleum","Has Wall","Undead String Emmental","-","9.94%","Grave Robber",161
+"Mousoleum","Has Wall","Undead String Emmental","-","8.07%","Zombot Unipire",161
