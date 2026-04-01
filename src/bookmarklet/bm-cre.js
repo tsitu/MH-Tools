@@ -520,7 +520,7 @@
             range = `${lootTiers[currentTier - 1].threshold}+`;
         }
 
-        return `Cavern - ${category} ${range}`;
+        return `Cavern: ${category} ${range}`;
       } else {
         return "Crucible Forge";
       }
