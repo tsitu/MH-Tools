@@ -1,143 +1,176 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Cinnamon Hill","-","Brie","-","26.26%","Candy Cane",396
-"Cinnamon Hill","-","Brie","-","19.19%","Hoarder",396
-"Cinnamon Hill","-","Brie","-","16.16%","Young Prodigy Racer",396
-"Cinnamon Hill","-","Brie","-","15.66%","Nice Knitting",396
-"Cinnamon Hill","-","Brie","-","9.60%","Snow Scavenger",396
-"Cinnamon Hill","-","Brie","-","8.08%","Toboggan Technician",396
-"Cinnamon Hill","-","Brie","-","5.05%","Shorts-All-Year",396
-"Cinnamon Hill","-","Gouda","-","22.74%","Candy Cane",4235
-"Cinnamon Hill","-","Gouda","-","22.22%","Young Prodigy Racer",4235
-"Cinnamon Hill","-","Gouda","-","20.33%","Hoarder",4235
-"Cinnamon Hill","-","Gouda","-","14.50%","Nice Knitting",4235
-"Cinnamon Hill","-","Gouda","-","8.24%","Toboggan Technician",4235
-"Cinnamon Hill","-","Gouda","-","6.87%","Snow Scavenger",4235
-"Cinnamon Hill","-","Gouda","-","5.10%","Shorts-All-Year",4235
-"Cinnamon Hill","-","SB+","-","24.46%","Hoarder",1803
-"Cinnamon Hill","-","SB+","-","21.13%","Candy Cane",1803
-"Cinnamon Hill","-","SB+","-","17.80%","Young Prodigy Racer",1803
-"Cinnamon Hill","-","SB+","-","10.37%","Shorts-All-Year",1803
-"Cinnamon Hill","-","SB+","-","9.76%","Toboggan Technician",1803
-"Cinnamon Hill","-","SB+","-","8.99%","Nice Knitting",1803
-"Cinnamon Hill","-","SB+","-","7.49%","Snow Scavenger",1803
-"Cinnamon Hill","-","Pecan Pecorino","-","19.46%","Black Diamond Racer",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","12.74%","Sporty Ski Instructor",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","10.21%","Wreath Thief",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","9.98%","Snow Golem Jockey",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","7.99%","Snow Boulder",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","7.74%","Snowball Hoarder",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","4.90%","Triple Lutz",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","4.89%","Stuck Snowball",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","4.06%","Double Black Diamond Racer",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","4.02%","Nitro Racer",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","3.92%","Free Skiing",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","3.14%","Great Giftnapper",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","2.84%","Snowflake",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","2.13%","Rainbow Racer",19319
-"Cinnamon Hill","-","Pecan Pecorino","-","1.99%","Ol' King Coal",19319
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","12.21%","Snow Boulder",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","11.98%","Snowball Hoarder",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","10.22%","Sporty Ski Instructor",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","9.19%","Black Diamond Racer",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","8.33%","Wreath Thief",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","8.18%","Snow Golem Jockey",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","5.89%","Joy",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","5.29%","Snowflake",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","5.19%","Glazy",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","4.40%","Stuck Snowball",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","4.38%","Nitro Racer",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","4.11%","Double Black Diamond Racer",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","3.99%","Free Skiing",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","2.73%","Great Giftnapper",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","2.04%","Rainbow Racer",5159
-"Cinnamon Hill","-","Glazed Pecan Pecorino","-","1.86%","Ol' King Coal",5159
-"Golem Workshop","-","Gouda","-","23.39%","Mouse of Winter Present",3506
-"Golem Workshop","-","Gouda","-","21.59%","Gingerbread",3506
-"Golem Workshop","-","Gouda","-","20.91%","Hoarder",3506
-"Golem Workshop","-","Gouda","-","14.92%","Mouse of Winter Future",3506
-"Golem Workshop","-","Gouda","-","9.75%","Greedy Al",3506
-"Golem Workshop","-","Gouda","-","9.44%","Mouse of Winter Past",3506
-"Golem Workshop","-","SB+","-","26.88%","Hoarder",1782
-"Golem Workshop","-","SB+","-","19.14%","Mouse of Winter Present",1782
-"Golem Workshop","-","SB+","-","15.88%","Gingerbread",1782
-"Golem Workshop","-","SB+","-","10.21%","Mouse of Winter Past",1782
-"Golem Workshop","-","SB+","-","9.93%","Greedy Al",1782
-"Golem Workshop","-","SB+","-","9.71%","Mouse of Winter Future",1782
-"Golem Workshop","-","SB+","-","8.25%","Scrooge",1782
-"Golem Workshop","-","Pecan Pecorino","-","16.97%","Elf",8898
-"Golem Workshop","-","Pecan Pecorino","-","10.31%","Present",8898
-"Golem Workshop","-","Pecan Pecorino","-","9.88%","Christmas Tree",8898
-"Golem Workshop","-","Pecan Pecorino","-","9.78%","Toy",8898
-"Golem Workshop","-","Pecan Pecorino","-","7.96%","Ridiculous Sweater",8898
-"Golem Workshop","-","Pecan Pecorino","-","7.74%","Toy Tinkerer",8898
-"Golem Workshop","-","Pecan Pecorino","-","6.83%","Destructoy",8898
-"Golem Workshop","-","Pecan Pecorino","-","5.28%","Ribbon",8898
-"Golem Workshop","-","Pecan Pecorino","-","4.70%","Stuck Snowball",8898
-"Golem Workshop","-","Pecan Pecorino","-","4.01%","Nutcracker",8898
-"Golem Workshop","-","Pecan Pecorino","-","3.90%","Stocking",8898
-"Golem Workshop","-","Pecan Pecorino","-","3.84%","Ornament",8898
-"Golem Workshop","-","Pecan Pecorino","-","3.83%","Snow Golem Architect",8898
-"Golem Workshop","-","Pecan Pecorino","-","2.94%","Snowflake",8898
-"Golem Workshop","-","Pecan Pecorino","-","2.02%","Mad Elf",8898
-"Golem Workshop","-","Glazed Pecan Pecorino","-","11.83%","Toy",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","10.09%","Destructoy",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","9.81%","Ridiculous Sweater",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","8.18%","Elf",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","7.79%","Present",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","7.51%","Christmas Tree",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","6.11%","Joy",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","5.60%","Stuck Snowball",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","5.53%","Toy Tinkerer",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","4.88%","Snowflake",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","4.86%","Snow Golem Architect",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","4.18%","Glazy",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","4.14%","Stocking",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","4.00%","Ornament",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","3.97%","Nutcracker",4302
-"Golem Workshop","-","Glazed Pecan Pecorino","-","1.51%","Mad Elf",4302
-"Ice Fortress","-","Gouda","-","22.05%","Hoarder",993
-"Ice Fortress","-","Gouda","-","19.74%","Snowglobe",993
-"Ice Fortress","-","Gouda","-","15.61%","Snowblower",993
-"Ice Fortress","-","Gouda","-","13.49%","Missile Toe",993
-"Ice Fortress","-","Gouda","-","12.08%","Frigid Foreman",993
-"Ice Fortress","-","Gouda","-","9.47%","Confused Courier",993
-"Ice Fortress","-","Gouda","-","7.55%","Miser",993
-"Ice Fortress","-","SB+","-","25.43%","Hoarder",1117
-"Ice Fortress","-","SB+","-","15.22%","Missile Toe",1117
-"Ice Fortress","-","SB+","-","14.95%","Miser",1117
-"Ice Fortress","-","SB+","-","13.88%","Confused Courier",1117
-"Ice Fortress","-","SB+","-","10.74%","Snowglobe",1117
-"Ice Fortress","-","SB+","-","10.03%","Frigid Foreman",1117
-"Ice Fortress","-","SB+","-","9.76%","Snowblower",1117
-"Ice Fortress","-","Pecan Pecorino","-","18.87%","Reinbo",3546
-"Ice Fortress","-","Pecan Pecorino","-","10.60%","Snow Fort",3546
-"Ice Fortress","-","Pecan Pecorino","-","9.31%","Glacia Ice Fist",3546
-"Ice Fortress","-","Pecan Pecorino","-","8.26%","Slay Ride",3546
-"Ice Fortress","-","Pecan Pecorino","-","6.88%","Builder",3546
-"Ice Fortress","-","Pecan Pecorino","-","6.82%","Great Winter Hunt Impostor",3546
-"Ice Fortress","-","Pecan Pecorino","-","6.43%","Snow Sorceress",3546
-"Ice Fortress","-","Pecan Pecorino","-","6.35%","Borean Commander",3546
-"Ice Fortress","-","Pecan Pecorino","-","4.60%","Stuck Snowball",3546
-"Ice Fortress","-","Pecan Pecorino","-","4.40%","Squeaker Claws",3546
-"Ice Fortress","-","Pecan Pecorino","-","4.31%","S.N.O.W. Golem",3546
-"Ice Fortress","-","Pecan Pecorino","-","4.17%","Iceberg Sculptor",3546
-"Ice Fortress","-","Pecan Pecorino","-","3.92%","Naughty Nougat",3546
-"Ice Fortress","-","Pecan Pecorino","-","2.90%","Snowflake",3546
-"Ice Fortress","-","Pecan Pecorino","-","2.17%","Tundra Huntress",3546
-"Ice Fortress","-","Glazed Pecan Pecorino","-","14.21%","Great Winter Hunt Impostor",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","9.92%","Snow Fort",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","9.65%","Slay Ride",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","7.90%","Borean Commander",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","7.62%","Snow Sorceress",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","6.18%","Joy",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","6.08%","Glacia Ice Fist",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","5.77%","Stuck Snowball",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","5.36%","Glazy",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","4.81%","Snowflake",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","4.81%","S.N.O.W. Golem",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","4.63%","Reinbo",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","4.43%","Naughty Nougat",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","3.43%","Squeaker Claws",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","3.33%","Iceberg Sculptor",2913
-"Ice Fortress","-","Glazed Pecan Pecorino","-","1.89%","Tundra Huntress",2913
+"Cinnamon Hill","-","Swiss","-","21.69%","Hoarder",839
+"Cinnamon Hill","-","Swiss","-","20.86%","Candy Cane",839
+"Cinnamon Hill","-","Swiss","-","19.19%","Young Prodigy Racer",839
+"Cinnamon Hill","-","Swiss","-","14.42%","Nice Knitting",839
+"Cinnamon Hill","-","Swiss","-","8.58%","Toboggan Technician",839
+"Cinnamon Hill","-","Swiss","-","8.58%","Snow Scavenger",839
+"Cinnamon Hill","-","Swiss","-","6.67%","Shorts-All-Year",839
+"Cinnamon Hill","-","Brie","-","23.19%","Candy Cane",8498
+"Cinnamon Hill","-","Brie","-","21.32%","Young Prodigy Racer",8498
+"Cinnamon Hill","-","Brie","-","20.52%","Hoarder",8498
+"Cinnamon Hill","-","Brie","-","14.70%","Nice Knitting",8498
+"Cinnamon Hill","-","Brie","-","8.24%","Toboggan Technician",8498
+"Cinnamon Hill","-","Brie","-","7.11%","Snow Scavenger",8498
+"Cinnamon Hill","-","Brie","-","4.92%","Shorts-All-Year",8498
+"Cinnamon Hill","-","Gouda","-","22.77%","Candy Cane",94730
+"Cinnamon Hill","-","Gouda","-","21.79%","Young Prodigy Racer",94730
+"Cinnamon Hill","-","Gouda","-","20.76%","Hoarder",94730
+"Cinnamon Hill","-","Gouda","-","14.87%","Nice Knitting",94730
+"Cinnamon Hill","-","Gouda","-","7.96%","Toboggan Technician",94730
+"Cinnamon Hill","-","Gouda","-","6.93%","Snow Scavenger",94730
+"Cinnamon Hill","-","Gouda","-","4.92%","Shorts-All-Year",94730
+"Cinnamon Hill","-","SB+","-","25.48%","Hoarder",48212
+"Cinnamon Hill","-","SB+","-","19.87%","Candy Cane",48212
+"Cinnamon Hill","-","SB+","-","16.92%","Young Prodigy Racer",48212
+"Cinnamon Hill","-","SB+","-","10.08%","Shorts-All-Year",48212
+"Cinnamon Hill","-","SB+","-","9.92%","Toboggan Technician",48212
+"Cinnamon Hill","-","SB+","-","9.81%","Nice Knitting",48212
+"Cinnamon Hill","-","SB+","-","7.92%","Snow Scavenger",48212
+"Cinnamon Hill","-","Pecan Pecorino","-","20.08%","Black Diamond Racer",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","13.21%","Sporty Ski Instructor",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","10.16%","Wreath Thief",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","10.09%","Snow Golem Jockey",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","7.87%","Snowball Hoarder",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","6.39%","Snow Boulder",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","5.07%","Triple Lutz",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","5.01%","Stuck Snowball",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","4.03%","Nitro Racer",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","3.99%","Double Black Diamond Racer",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","3.99%","Free Skiing",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","3.05%","Snowflake",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","3.04%","Great Giftnapper",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","2.01%","Rainbow Racer",285998
+"Cinnamon Hill","-","Pecan Pecorino","-","2.00%","Ol' King Coal",285998
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","12.35%","Snowball Hoarder",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","10.29%","Sporty Ski Instructor",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","10.19%","Black Diamond Racer",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","8.93%","Snow Boulder",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","8.19%","Snow Golem Jockey",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","8.04%","Wreath Thief",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","6.23%","Joy",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","5.20%","Snowflake",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","5.10%","Glazy",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","5.10%","Nitro Racer",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","5.07%","Stuck Snowball",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","4.06%","Free Skiing",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","4.00%","Double Black Diamond Racer",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","3.13%","Great Giftnapper",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","2.06%","Rainbow Racer",141758
+"Cinnamon Hill","-","Glazed Pecan Pecorino","-","2.06%","Ol' King Coal",141758
+"Golem Workshop","-","Swiss","-","22.16%","Mouse of Winter Present",3335
+"Golem Workshop","-","Swiss","-","22.01%","Hoarder",3335
+"Golem Workshop","-","Swiss","-","21.98%","Gingerbread",3335
+"Golem Workshop","-","Swiss","-","15.11%","Mouse of Winter Future",3335
+"Golem Workshop","-","Swiss","-","9.87%","Greedy Al",3335
+"Golem Workshop","-","Swiss","-","8.88%","Mouse of Winter Past",3335
+"Golem Workshop","-","Brie","-","23.24%","Mouse of Winter Present",10055
+"Golem Workshop","-","Brie","-","22.01%","Hoarder",10055
+"Golem Workshop","-","Brie","-","21.74%","Gingerbread",10055
+"Golem Workshop","-","Brie","-","14.40%","Mouse of Winter Future",10055
+"Golem Workshop","-","Brie","-","9.95%","Greedy Al",10055
+"Golem Workshop","-","Brie","-","8.66%","Mouse of Winter Past",10055
+"Golem Workshop","-","Gouda","-","23.25%","Mouse of Winter Present",128308
+"Golem Workshop","-","Gouda","-","21.83%","Gingerbread",128308
+"Golem Workshop","-","Gouda","-","21.37%","Hoarder",128308
+"Golem Workshop","-","Gouda","-","14.74%","Mouse of Winter Future",128308
+"Golem Workshop","-","Gouda","-","9.98%","Greedy Al",128308
+"Golem Workshop","-","Gouda","-","8.84%","Mouse of Winter Past",128308
+"Golem Workshop","-","SB+","-","25.66%","Hoarder",57459
+"Golem Workshop","-","SB+","-","19.94%","Mouse of Winter Present",57459
+"Golem Workshop","-","SB+","-","16.77%","Gingerbread",57459
+"Golem Workshop","-","SB+","-","10.00%","Mouse of Winter Past",57459
+"Golem Workshop","-","SB+","-","9.97%","Greedy Al",57459
+"Golem Workshop","-","SB+","-","9.71%","Mouse of Winter Future",57459
+"Golem Workshop","-","SB+","-","7.95%","Scrooge",57459
+"Golem Workshop","-","Pecan Pecorino","-","17.19%","Elf",211625
+"Golem Workshop","-","Pecan Pecorino","-","10.25%","Present",211625
+"Golem Workshop","-","Pecan Pecorino","-","10.20%","Christmas Tree",211625
+"Golem Workshop","-","Pecan Pecorino","-","8.23%","Toy Tinkerer",211625
+"Golem Workshop","-","Pecan Pecorino","-","8.12%","Ridiculous Sweater",211625
+"Golem Workshop","-","Pecan Pecorino","-","7.42%","Toy",211625
+"Golem Workshop","-","Pecan Pecorino","-","7.10%","Destructoy",211625
+"Golem Workshop","-","Pecan Pecorino","-","5.09%","Ribbon",211625
+"Golem Workshop","-","Pecan Pecorino","-","5.05%","Stuck Snowball",211625
+"Golem Workshop","-","Pecan Pecorino","-","4.09%","Stocking",211625
+"Golem Workshop","-","Pecan Pecorino","-","4.07%","Nutcracker",211625
+"Golem Workshop","-","Pecan Pecorino","-","4.07%","Ornament",211625
+"Golem Workshop","-","Pecan Pecorino","-","4.06%","Snow Golem Architect",211625
+"Golem Workshop","-","Pecan Pecorino","-","3.07%","Snowflake",211625
+"Golem Workshop","-","Pecan Pecorino","-","2.02%","Mad Elf",211625
+"Golem Workshop","-","Glazed Pecan Pecorino","-","10.24%","Destructoy",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","10.12%","Ridiculous Sweater",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","8.80%","Toy",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","8.60%","Elf",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","8.15%","Present",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","8.03%","Christmas Tree",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","6.11%","Joy",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","5.20%","Snow Golem Architect",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","5.13%","Toy Tinkerer",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","5.11%","Stuck Snowball",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","5.07%","Snowflake",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","4.98%","Glazy",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","4.21%","Ornament",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","4.14%","Nutcracker",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","4.08%","Stocking",144061
+"Golem Workshop","-","Glazed Pecan Pecorino","-","2.02%","Mad Elf",144061
+"Ice Fortress","-","Swiss","-","21.04%","Hoarder",1321
+"Ice Fortress","-","Swiss","-","19.98%","Snowglobe",1321
+"Ice Fortress","-","Swiss","-","14.84%","Snowblower",1321
+"Ice Fortress","-","Swiss","-","14.31%","Missile Toe",1321
+"Ice Fortress","-","Swiss","-","10.14%","Frigid Foreman",1321
+"Ice Fortress","-","Swiss","-","9.99%","Confused Courier",1321
+"Ice Fortress","-","Swiss","-","9.69%","Miser",1321
+"Ice Fortress","-","Brie","-","21.16%","Hoarder",8379
+"Ice Fortress","-","Brie","-","20.01%","Snowglobe",8379
+"Ice Fortress","-","Brie","-","14.73%","Missile Toe",8379
+"Ice Fortress","-","Brie","-","14.44%","Snowblower",8379
+"Ice Fortress","-","Brie","-","10.08%","Miser",8379
+"Ice Fortress","-","Brie","-","9.97%","Frigid Foreman",8379
+"Ice Fortress","-","Brie","-","9.61%","Confused Courier",8379
+"Ice Fortress","-","Gouda","-","20.72%","Hoarder",128902
+"Ice Fortress","-","Gouda","-","19.88%","Snowglobe",128902
+"Ice Fortress","-","Gouda","-","14.80%","Missile Toe",128902
+"Ice Fortress","-","Gouda","-","14.75%","Snowblower",128902
+"Ice Fortress","-","Gouda","-","10.02%","Frigid Foreman",128902
+"Ice Fortress","-","Gouda","-","9.97%","Confused Courier",128902
+"Ice Fortress","-","Gouda","-","9.86%","Miser",128902
+"Ice Fortress","-","SB+","-","25.92%","Hoarder",70854
+"Ice Fortress","-","SB+","-","14.86%","Miser",70854
+"Ice Fortress","-","SB+","-","14.81%","Confused Courier",70854
+"Ice Fortress","-","SB+","-","14.78%","Missile Toe",70854
+"Ice Fortress","-","SB+","-","9.97%","Frigid Foreman",70854
+"Ice Fortress","-","SB+","-","9.91%","Snowblower",70854
+"Ice Fortress","-","SB+","-","9.76%","Snowglobe",70854
+"Ice Fortress","-","Pecan Pecorino","-","16.35%","Reinbo",195962
+"Ice Fortress","-","Pecan Pecorino","-","10.26%","Glacia Ice Fist",195962
+"Ice Fortress","-","Pecan Pecorino","-","9.98%","Borean Commander",195962
+"Ice Fortress","-","Pecan Pecorino","-","8.08%","Slay Ride",195962
+"Ice Fortress","-","Pecan Pecorino","-","7.78%","Snow Sorceress",195962
+"Ice Fortress","-","Pecan Pecorino","-","7.46%","Snow Fort",195962
+"Ice Fortress","-","Pecan Pecorino","-","7.18%","Great Winter Hunt Impostor",195962
+"Ice Fortress","-","Pecan Pecorino","-","6.47%","Builder",195962
+"Ice Fortress","-","Pecan Pecorino","-","5.11%","Stuck Snowball",195962
+"Ice Fortress","-","Pecan Pecorino","-","4.12%","Iceberg Sculptor",195962
+"Ice Fortress","-","Pecan Pecorino","-","4.07%","Naughty Nougat",195962
+"Ice Fortress","-","Pecan Pecorino","-","4.07%","S.N.O.W. Golem",195962
+"Ice Fortress","-","Pecan Pecorino","-","4.02%","Squeaker Claws",195962
+"Ice Fortress","-","Pecan Pecorino","-","3.04%","Snowflake",195962
+"Ice Fortress","-","Pecan Pecorino","-","2.01%","Tundra Huntress",195962
+"Ice Fortress","-","Glazed Pecan Pecorino","-","14.54%","Great Winter Hunt Impostor",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","9.89%","Slay Ride",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","8.35%","Borean Commander",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","8.34%","Snow Sorceress",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","7.70%","Snow Fort",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","6.29%","Joy",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","6.20%","Glacia Ice Fist",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","5.30%","Glazy",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","5.19%","Snowflake",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","5.18%","Stuck Snowball",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","4.91%","S.N.O.W. Golem",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","4.55%","Reinbo",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","4.17%","Squeaker Claws",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","4.13%","Naughty Nougat",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","3.14%","Iceberg Sculptor",210476
+"Ice Fortress","-","Glazed Pecan Pecorino","-","2.11%","Tundra Huntress",210476
 "Ice Fortress","Boss","SB+","-","100.00%","Frost King",1

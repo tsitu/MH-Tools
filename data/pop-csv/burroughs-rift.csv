@@ -1,129 +1,130 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Burroughs Rift","Mist Level 0","Marble String","-","20.86%","Amplified White",6151
-"Burroughs Rift","Mist Level 0","Marble String","-","20.57%","Rift Bio Engineer",6151
-"Burroughs Rift","Mist Level 0","Marble String","-","15.10%","Cybernetic Specialist",6151
-"Burroughs Rift","Mist Level 0","Marble String","-","14.31%","Amplified Brown",6151
-"Burroughs Rift","Mist Level 0","Marble String","-","9.67%","Amplified Grey",6151
-"Burroughs Rift","Mist Level 0","Marble String","-","5.20%","Evil Scientist",6151
-"Burroughs Rift","Mist Level 0","Marble String","-","4.81%","Doktor",6151
-"Burroughs Rift","Mist Level 0","Marble String","-","4.75%","Automated Sentry",6151
-"Burroughs Rift","Mist Level 0","Marble String","-","4.73%","Surgeon Bot",6151
-"Burroughs Rift","Mist Level 0","Swiss String","-","19.72%","Cybernetic Specialist",14379
-"Burroughs Rift","Mist Level 0","Swiss String","-","19.70%","Rift Bio Engineer",14379
-"Burroughs Rift","Mist Level 0","Swiss String","-","14.84%","Amplified Brown",14379
-"Burroughs Rift","Mist Level 0","Swiss String","-","14.79%","Automated Sentry",14379
-"Burroughs Rift","Mist Level 0","Swiss String","-","9.79%","Surgeon Bot",14379
-"Burroughs Rift","Mist Level 0","Swiss String","-","5.79%","Amplified White",14379
-"Burroughs Rift","Mist Level 0","Swiss String","-","5.20%","Evil Scientist",14379
-"Burroughs Rift","Mist Level 0","Swiss String","-","5.19%","Doktor",14379
-"Burroughs Rift","Mist Level 0","Swiss String","-","4.97%","Amplified Grey",14379
-"Burroughs Rift","Mist Level 0","Brie String","-","19.97%","Evil Scientist",32735
-"Burroughs Rift","Mist Level 0","Brie String","-","19.56%","Doktor",32735
-"Burroughs Rift","Mist Level 0","Brie String","-","14.87%","Automated Sentry",32735
-"Burroughs Rift","Mist Level 0","Brie String","-","14.80%","Surgeon Bot",32735
-"Burroughs Rift","Mist Level 0","Brie String","-","9.95%","Rift Bio Engineer",32735
-"Burroughs Rift","Mist Level 0","Brie String","-","6.02%","Amplified White",32735
-"Burroughs Rift","Mist Level 0","Brie String","-","5.06%","Amplified Brown",32735
-"Burroughs Rift","Mist Level 0","Brie String","-","4.89%","Amplified Grey",32735
-"Burroughs Rift","Mist Level 0","Brie String","-","4.88%","Cybernetic Specialist",32735
-"Burroughs Rift","Mist Level 0","Magical String","-","20.13%","Doktor",14534
-"Burroughs Rift","Mist Level 0","Magical String","-","15.59%","Portable Generator",14534
-"Burroughs Rift","Mist Level 0","Magical String","-","15.48%","Surgeon Bot",14534
-"Burroughs Rift","Mist Level 0","Magical String","-","15.05%","Evil Scientist",14534
-"Burroughs Rift","Mist Level 0","Magical String","-","10.27%","Automated Sentry",14534
-"Burroughs Rift","Mist Level 0","Magical String","-","6.30%","Amplified White",14534
-"Burroughs Rift","Mist Level 0","Magical String","-","5.20%","Amplified Brown",14534
-"Burroughs Rift","Mist Level 0","Magical String","-","4.99%","Cybernetic Specialist",14534
-"Burroughs Rift","Mist Level 0","Magical String","-","4.99%","Amplified Grey",14534
-"Burroughs Rift","Mist Level 0","Magical String","-","2.00%","Rift Bio Engineer",14534
-"Burroughs Rift","Mist Level 1-5","Marble String","-","31.12%","Tech Ravenous Zombie",498
-"Burroughs Rift","Mist Level 1-5","Marble String","-","23.49%","Count Vampire",498
-"Burroughs Rift","Mist Level 1-5","Marble String","-","18.47%","Phase Zombie",498
-"Burroughs Rift","Mist Level 1-5","Marble String","-","17.07%","Robat",498
-"Burroughs Rift","Mist Level 1-5","Marble String","-","9.84%","Prototype",498
-"Burroughs Rift","Mist Level 1-5","Swiss String","-","31.13%","Tech Ravenous Zombie",1410
-"Burroughs Rift","Mist Level 1-5","Swiss String","-","24.96%","Count Vampire",1410
-"Burroughs Rift","Mist Level 1-5","Swiss String","-","18.65%","Phase Zombie",1410
-"Burroughs Rift","Mist Level 1-5","Swiss String","-","13.19%","Robat",1410
-"Burroughs Rift","Mist Level 1-5","Swiss String","-","12.06%","Prototype",1410
-"Burroughs Rift","Mist Level 1-5","Brie String","-","30.21%","Tech Ravenous Zombie",11672
-"Burroughs Rift","Mist Level 1-5","Brie String","-","24.38%","Count Vampire",11672
-"Burroughs Rift","Mist Level 1-5","Brie String","-","20.11%","Phase Zombie",11672
-"Burroughs Rift","Mist Level 1-5","Brie String","-","14.77%","Robat",11672
-"Burroughs Rift","Mist Level 1-5","Brie String","-","10.53%","Prototype",11672
-"Burroughs Rift","Mist Level 1-5","Magical String","-","31.35%","Tech Ravenous Zombie",3844
-"Burroughs Rift","Mist Level 1-5","Magical String","-","23.96%","Count Vampire",3844
-"Burroughs Rift","Mist Level 1-5","Magical String","-","19.88%","Phase Zombie",3844
-"Burroughs Rift","Mist Level 1-5","Magical String","-","14.18%","Robat",3844
-"Burroughs Rift","Mist Level 1-5","Magical String","-","10.64%","Prototype",3844
-"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","24.55%","Cyber Miner",8855
-"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","22.74%","Clump",8855
-"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","20.15%","Rifterranian",8855
-"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","17.22%","Itty Bitty Rifty Burroughs",8855
-"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","15.34%","Pneumatic Dirt Displacement",8855
-"Burroughs Rift","Mist Level 1-5","Polluted Parmesan","-","40.48%","Toxikinetic",5714
-"Burroughs Rift","Mist Level 1-5","Polluted Parmesan","-","30.99%","Mecha Tail",5714
-"Burroughs Rift","Mist Level 1-5","Polluted Parmesan","-","28.53%","Radioactive Ooze",5714
-"Burroughs Rift","Mist Level 6-18","Marble String","-","25.03%","Revenant",815
-"Burroughs Rift","Mist Level 6-18","Marble String","-","21.96%","Lycanoid",815
-"Burroughs Rift","Mist Level 6-18","Marble String","-","17.79%","Zombot Unipire the Third",815
-"Burroughs Rift","Mist Level 6-18","Marble String","-","9.45%","Tech Ravenous Zombie",815
-"Burroughs Rift","Mist Level 6-18","Marble String","-","9.08%","Count Vampire",815
-"Burroughs Rift","Mist Level 6-18","Marble String","-","7.36%","Phase Zombie",815
-"Burroughs Rift","Mist Level 6-18","Marble String","-","5.03%","Robat",815
-"Burroughs Rift","Mist Level 6-18","Marble String","-","4.29%","Prototype",815
-"Burroughs Rift","Mist Level 6-18","Swiss String","-","24.59%","Lycanoid",21937
-"Burroughs Rift","Mist Level 6-18","Swiss String","-","24.28%","Revenant",21937
-"Burroughs Rift","Mist Level 6-18","Swiss String","-","19.59%","Zombot Unipire the Third",21937
-"Burroughs Rift","Mist Level 6-18","Swiss String","-","8.22%","Tech Ravenous Zombie",21937
-"Burroughs Rift","Mist Level 6-18","Swiss String","-","7.12%","Count Vampire",21937
-"Burroughs Rift","Mist Level 6-18","Swiss String","-","6.11%","Phase Zombie",21937
-"Burroughs Rift","Mist Level 6-18","Swiss String","-","5.19%","Prototype",21937
-"Burroughs Rift","Mist Level 6-18","Swiss String","-","4.91%","Robat",21937
-"Burroughs Rift","Mist Level 6-18","Brie String","-","24.44%","Lycanoid",33386
-"Burroughs Rift","Mist Level 6-18","Brie String","-","23.91%","Revenant",33386
-"Burroughs Rift","Mist Level 6-18","Brie String","-","19.78%","Zombot Unipire the Third",33386
-"Burroughs Rift","Mist Level 6-18","Brie String","-","8.36%","Tech Ravenous Zombie",33386
-"Burroughs Rift","Mist Level 6-18","Brie String","-","6.99%","Count Vampire",33386
-"Burroughs Rift","Mist Level 6-18","Brie String","-","6.44%","Phase Zombie",33386
-"Burroughs Rift","Mist Level 6-18","Brie String","-","5.14%","Robat",33386
-"Burroughs Rift","Mist Level 6-18","Brie String","-","4.95%","Prototype",33386
-"Burroughs Rift","Mist Level 6-18","Magical String","-","24.61%","Revenant",5375
-"Burroughs Rift","Mist Level 6-18","Magical String","-","23.01%","Lycanoid",5375
-"Burroughs Rift","Mist Level 6-18","Magical String","-","19.50%","Zombot Unipire the Third",5375
-"Burroughs Rift","Mist Level 6-18","Magical String","-","8.82%","Tech Ravenous Zombie",5375
-"Burroughs Rift","Mist Level 6-18","Magical String","-","7.61%","Count Vampire",5375
-"Burroughs Rift","Mist Level 6-18","Magical String","-","6.70%","Phase Zombie",5375
-"Burroughs Rift","Mist Level 6-18","Magical String","-","5.13%","Prototype",5375
-"Burroughs Rift","Mist Level 6-18","Magical String","-","4.61%","Robat",5375
-"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","24.59%","Boulder Biter",54522
-"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","19.68%","Master Exploder",54522
-"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","14.87%","Lambent",54522
-"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","9.98%","Cyber Miner",54522
-"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","9.02%","Clump",54522
-"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","7.95%","Rifterranian",54522
-"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","7.18%","Itty Bitty Rifty Burroughs",54522
-"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","6.73%","Pneumatic Dirt Displacement",54522
-"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","22.35%","Super Mega Mecha Ultra RoboGold",10862
-"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","21.67%","Toxic Avenger",10862
-"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","20.48%","Rancid Bog Beast",10862
-"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","14.59%","Toxikinetic",10862
-"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","10.63%","Mecha Tail",10862
-"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","10.27%","Radioactive Ooze",10862
-"Burroughs Rift","Mist Level 19-20","Swiss String","-","100.00%","Monstrous Abomination",1019
-"Burroughs Rift","Mist Level 19-20","Brie String","-","100.00%","Monstrous Abomination",7112
-"Burroughs Rift","Mist Level 19-20","Magical String","-","100.00%","Monstrous Abomination",4288
-"Burroughs Rift","Mist Level 19-20","Terre Ricotta","-","100.00%","Big Bad Behemoth Burroughs",11013
-"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","24.71%","Assassin Beast",40861
-"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","24.07%","Plutonium Tentacle",40861
-"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","19.79%","Menace of the Rift",40861
-"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","11.20%","Toxic Avenger",40861
-"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","10.20%","Super Mega Mecha Ultra RoboGold",40861
-"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","10.02%","Rancid Bog Beast",40861
-"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","24.22%","Tomb Exhumer",5607
-"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","17.10%","Revenant",5607
-"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","15.18%","Tech Ravenous Zombie",5607
-"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","14.36%","Phase Zombie",5607
-"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","9.93%","Count Vampire",5607
-"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","9.81%","Lycanoid",5607
-"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","9.40%","Zombot Unipire the Third",5607
+"Burroughs Rift","Mist Level 0","Marble String","-","21.18%","Amplified White",7987
+"Burroughs Rift","Mist Level 0","Marble String","-","20.31%","Rift Bio Engineer",7987
+"Burroughs Rift","Mist Level 0","Marble String","-","15.15%","Cybernetic Specialist",7987
+"Burroughs Rift","Mist Level 0","Marble String","-","14.42%","Amplified Brown",7987
+"Burroughs Rift","Mist Level 0","Marble String","-","9.53%","Amplified Grey",7987
+"Burroughs Rift","Mist Level 0","Marble String","-","4.96%","Evil Scientist",7987
+"Burroughs Rift","Mist Level 0","Marble String","-","4.93%","Automated Sentry",7987
+"Burroughs Rift","Mist Level 0","Marble String","-","4.78%","Surgeon Bot",7987
+"Burroughs Rift","Mist Level 0","Marble String","-","4.73%","Doktor",7987
+"Burroughs Rift","Mist Level 0","Swiss String","-","19.83%","Cybernetic Specialist",15692
+"Burroughs Rift","Mist Level 0","Swiss String","-","19.69%","Rift Bio Engineer",15692
+"Burroughs Rift","Mist Level 0","Swiss String","-","14.72%","Automated Sentry",15692
+"Burroughs Rift","Mist Level 0","Swiss String","-","14.68%","Amplified Brown",15692
+"Burroughs Rift","Mist Level 0","Swiss String","-","9.72%","Surgeon Bot",15692
+"Burroughs Rift","Mist Level 0","Swiss String","-","5.79%","Amplified White",15692
+"Burroughs Rift","Mist Level 0","Swiss String","-","5.25%","Evil Scientist",15692
+"Burroughs Rift","Mist Level 0","Swiss String","-","5.23%","Doktor",15692
+"Burroughs Rift","Mist Level 0","Swiss String","-","5.10%","Amplified Grey",15692
+"Burroughs Rift","Mist Level 0","Brie String","-","19.88%","Evil Scientist",40606
+"Burroughs Rift","Mist Level 0","Brie String","-","19.53%","Doktor",40606
+"Burroughs Rift","Mist Level 0","Brie String","-","14.94%","Surgeon Bot",40606
+"Burroughs Rift","Mist Level 0","Brie String","-","14.83%","Automated Sentry",40606
+"Burroughs Rift","Mist Level 0","Brie String","-","10.04%","Rift Bio Engineer",40606
+"Burroughs Rift","Mist Level 0","Brie String","-","5.95%","Amplified White",40606
+"Burroughs Rift","Mist Level 0","Brie String","-","5.03%","Amplified Brown",40606
+"Burroughs Rift","Mist Level 0","Brie String","-","4.91%","Cybernetic Specialist",40606
+"Burroughs Rift","Mist Level 0","Brie String","-","4.88%","Amplified Grey",40606
+"Burroughs Rift","Mist Level 0","Magical String","-","20.14%","Doktor",20003
+"Burroughs Rift","Mist Level 0","Magical String","-","15.63%","Portable Generator",20003
+"Burroughs Rift","Mist Level 0","Magical String","-","15.43%","Surgeon Bot",20003
+"Burroughs Rift","Mist Level 0","Magical String","-","15.22%","Evil Scientist",20003
+"Burroughs Rift","Mist Level 0","Magical String","-","10.16%","Automated Sentry",20003
+"Burroughs Rift","Mist Level 0","Magical String","-","6.15%","Amplified White",20003
+"Burroughs Rift","Mist Level 0","Magical String","-","5.10%","Cybernetic Specialist",20003
+"Burroughs Rift","Mist Level 0","Magical String","-","5.08%","Amplified Brown",20003
+"Burroughs Rift","Mist Level 0","Magical String","-","5.02%","Amplified Grey",20003
+"Burroughs Rift","Mist Level 0","Magical String","-","2.07%","Rift Bio Engineer",20003
+"Burroughs Rift","Mist Level 1-5","Marble String","-","30.34%","Tech Ravenous Zombie",679
+"Burroughs Rift","Mist Level 1-5","Marble String","-","24.89%","Count Vampire",679
+"Burroughs Rift","Mist Level 1-5","Marble String","-","17.97%","Phase Zombie",679
+"Burroughs Rift","Mist Level 1-5","Marble String","-","16.20%","Robat",679
+"Burroughs Rift","Mist Level 1-5","Marble String","-","10.60%","Prototype",679
+"Burroughs Rift","Mist Level 1-5","Swiss String","-","30.91%","Tech Ravenous Zombie",1870
+"Burroughs Rift","Mist Level 1-5","Swiss String","-","24.87%","Count Vampire",1870
+"Burroughs Rift","Mist Level 1-5","Swiss String","-","18.45%","Phase Zombie",1870
+"Burroughs Rift","Mist Level 1-5","Swiss String","-","14.12%","Robat",1870
+"Burroughs Rift","Mist Level 1-5","Swiss String","-","11.66%","Prototype",1870
+"Burroughs Rift","Mist Level 1-5","Brie String","-","30.26%","Tech Ravenous Zombie",13904
+"Burroughs Rift","Mist Level 1-5","Brie String","-","24.96%","Count Vampire",13904
+"Burroughs Rift","Mist Level 1-5","Brie String","-","19.63%","Phase Zombie",13904
+"Burroughs Rift","Mist Level 1-5","Brie String","-","14.72%","Robat",13904
+"Burroughs Rift","Mist Level 1-5","Brie String","-","10.43%","Prototype",13904
+"Burroughs Rift","Mist Level 1-5","Magical String","-","31.04%","Tech Ravenous Zombie",5170
+"Burroughs Rift","Mist Level 1-5","Magical String","-","24.68%","Count Vampire",5170
+"Burroughs Rift","Mist Level 1-5","Magical String","-","19.46%","Phase Zombie",5170
+"Burroughs Rift","Mist Level 1-5","Magical String","-","14.12%","Robat",5170
+"Burroughs Rift","Mist Level 1-5","Magical String","-","10.70%","Prototype",5170
+"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","24.52%","Cyber Miner",11435
+"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","22.48%","Clump",11435
+"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","20.17%","Rifterranian",11435
+"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","17.17%","Itty Bitty Rifty Burroughs",11435
+"Burroughs Rift","Mist Level 1-5","Terre Ricotta","-","15.66%","Pneumatic Dirt Displacement",11435
+"Burroughs Rift","Mist Level 1-5","Polluted Parmesan","-","40.48%","Toxikinetic",8291
+"Burroughs Rift","Mist Level 1-5","Polluted Parmesan","-","30.68%","Mecha Tail",8291
+"Burroughs Rift","Mist Level 1-5","Polluted Parmesan","-","28.84%","Radioactive Ooze",8291
+"Burroughs Rift","Mist Level 6-18","Marble String","-","25.30%","Revenant",1008
+"Burroughs Rift","Mist Level 6-18","Marble String","-","22.52%","Lycanoid",1008
+"Burroughs Rift","Mist Level 6-18","Marble String","-","18.06%","Zombot Unipire the Third",1008
+"Burroughs Rift","Mist Level 6-18","Marble String","-","9.03%","Count Vampire",1008
+"Burroughs Rift","Mist Level 6-18","Marble String","-","8.93%","Tech Ravenous Zombie",1008
+"Burroughs Rift","Mist Level 6-18","Marble String","-","6.85%","Phase Zombie",1008
+"Burroughs Rift","Mist Level 6-18","Marble String","-","5.26%","Robat",1008
+"Burroughs Rift","Mist Level 6-18","Marble String","-","4.07%","Prototype",1008
+"Burroughs Rift","Mist Level 6-18","Swiss String","-","24.60%","Lycanoid",22288
+"Burroughs Rift","Mist Level 6-18","Swiss String","-","24.31%","Revenant",22288
+"Burroughs Rift","Mist Level 6-18","Swiss String","-","19.58%","Zombot Unipire the Third",22288
+"Burroughs Rift","Mist Level 6-18","Swiss String","-","8.21%","Tech Ravenous Zombie",22288
+"Burroughs Rift","Mist Level 6-18","Swiss String","-","7.12%","Count Vampire",22288
+"Burroughs Rift","Mist Level 6-18","Swiss String","-","6.09%","Phase Zombie",22288
+"Burroughs Rift","Mist Level 6-18","Swiss String","-","5.18%","Prototype",22288
+"Burroughs Rift","Mist Level 6-18","Swiss String","-","4.91%","Robat",22288
+"Burroughs Rift","Mist Level 6-18","Brie String","-","24.44%","Lycanoid",39904
+"Burroughs Rift","Mist Level 6-18","Brie String","-","24.10%","Revenant",39904
+"Burroughs Rift","Mist Level 6-18","Brie String","-","19.80%","Zombot Unipire the Third",39904
+"Burroughs Rift","Mist Level 6-18","Brie String","-","8.31%","Tech Ravenous Zombie",39904
+"Burroughs Rift","Mist Level 6-18","Brie String","-","6.98%","Count Vampire",39904
+"Burroughs Rift","Mist Level 6-18","Brie String","-","6.33%","Phase Zombie",39904
+"Burroughs Rift","Mist Level 6-18","Brie String","-","5.08%","Robat",39904
+"Burroughs Rift","Mist Level 6-18","Brie String","-","4.96%","Prototype",39904
+"Burroughs Rift","Mist Level 6-18","Magical String","-","24.51%","Revenant",7389
+"Burroughs Rift","Mist Level 6-18","Magical String","-","23.32%","Lycanoid",7389
+"Burroughs Rift","Mist Level 6-18","Magical String","-","19.96%","Zombot Unipire the Third",7389
+"Burroughs Rift","Mist Level 6-18","Magical String","-","8.34%","Tech Ravenous Zombie",7389
+"Burroughs Rift","Mist Level 6-18","Magical String","-","7.62%","Count Vampire",7389
+"Burroughs Rift","Mist Level 6-18","Magical String","-","6.70%","Phase Zombie",7389
+"Burroughs Rift","Mist Level 6-18","Magical String","-","4.86%","Prototype",7389
+"Burroughs Rift","Mist Level 6-18","Magical String","-","4.70%","Robat",7389
+"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","24.52%","Boulder Biter",65470
+"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","19.94%","Master Exploder",65470
+"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","14.79%","Lambent",65470
+"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","10.00%","Cyber Miner",65470
+"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","8.99%","Clump",65470
+"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","7.87%","Rifterranian",65470
+"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","7.09%","Itty Bitty Rifty Burroughs",65470
+"Burroughs Rift","Mist Level 6-18","Terre Ricotta","-","6.79%","Pneumatic Dirt Displacement",65470
+"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","22.21%","Super Mega Mecha Ultra RoboGold",14261
+"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","21.58%","Toxic Avenger",14261
+"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","20.74%","Rancid Bog Beast",14261
+"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","14.47%","Toxikinetic",14261
+"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","10.81%","Mecha Tail",14261
+"Burroughs Rift","Mist Level 6-18","Polluted Parmesan","-","10.20%","Radioactive Ooze",14261
+"Burroughs Rift","Mist Level 19-20","Marble String","-","100.00%","Monstrous Abomination",135
+"Burroughs Rift","Mist Level 19-20","Swiss String","-","100.00%","Monstrous Abomination",1057
+"Burroughs Rift","Mist Level 19-20","Brie String","-","100.00%","Monstrous Abomination",10059
+"Burroughs Rift","Mist Level 19-20","Magical String","-","100.00%","Monstrous Abomination",6703
+"Burroughs Rift","Mist Level 19-20","Terre Ricotta","-","100.00%","Big Bad Behemoth Burroughs",17115
+"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","24.78%","Assassin Beast",56092
+"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","24.22%","Plutonium Tentacle",56092
+"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","19.76%","Menace of the Rift",56092
+"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","11.12%","Toxic Avenger",56092
+"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","10.13%","Super Mega Mecha Ultra RoboGold",56092
+"Burroughs Rift","Mist Level 19-20","Polluted Parmesan","-","9.98%","Rancid Bog Beast",56092
+"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","23.93%","Tomb Exhumer",7153
+"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","17.22%","Revenant",7153
+"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","15.03%","Tech Ravenous Zombie",7153
+"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","14.15%","Phase Zombie",7153
+"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","9.98%","Count Vampire",7153
+"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","9.95%","Lycanoid",7153
+"Burroughs Rift","Undead String Emmental","Undead String Emmental","-","9.73%","Zombot Unipire the Third",7153

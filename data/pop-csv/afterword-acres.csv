@@ -1,74 +1,77 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Afterword Acres","1x","Gouda/Brie","-","39.34%","Sap Stealer",882
-"Afterword Acres","1x","Gouda/Brie","-","32.43%","Bark Burner",882
-"Afterword Acres","1x","Gouda/Brie","-","28.23%","Branch Breaker",882
-"Afterword Acres","2x","Gouda/Brie","-","34.54%","Sap Stealer",776
-"Afterword Acres","2x","Gouda/Brie","-","31.57%","Bark Burner",776
-"Afterword Acres","2x","Gouda/Brie","-","27.32%","Branch Breaker",776
-"Afterword Acres","2x","Gouda/Brie","-","6.57%","Herbicidal Maniac",776
-"Afterword Acres","4x","Gouda/Brie","-","27.80%","Branch Breaker",590
-"Afterword Acres","4x","Gouda/Brie","-","25.76%","Sap Stealer",590
-"Afterword Acres","4x","Gouda/Brie","-","24.92%","Herbicidal Maniac",590
-"Afterword Acres","4x","Gouda/Brie","-","21.53%","Bark Burner",590
-"Afterword Acres","8x","Gouda/Brie","-","43.30%","Herbicidal Maniac",97
-"Afterword Acres","8x","Gouda/Brie","-","20.62%","Branch Breaker",97
-"Afterword Acres","8x","Gouda/Brie","-","20.62%","Bark Burner",97
-"Afterword Acres","8x","Gouda/Brie","-","15.46%","Sap Stealer",97
-"Afterword Acres","1x","SB+","-","30.14%","Sap Stealer",73
-"Afterword Acres","1x","SB+","-","28.77%","Bark Burner",73
-"Afterword Acres","1x","SB+","-","26.03%","Moss Comber",73
-"Afterword Acres","1x","SB+","-","15.07%","Branch Breaker",73
-"Afterword Acres","2x","SB+","-","28.87%","Moss Comber",142
-"Afterword Acres","2x","SB+","-","24.65%","Bark Burner",142
-"Afterword Acres","2x","SB+","-","23.94%","Branch Breaker",142
-"Afterword Acres","2x","SB+","-","17.61%","Sap Stealer",142
-"Afterword Acres","2x","SB+","-","4.93%","Herbicidal Maniac",142
-"Afterword Acres","4x","SB+","-","33.83%","Moss Comber",133
-"Afterword Acres","4x","SB+","-","22.56%","Herbicidal Maniac",133
-"Afterword Acres","4x","SB+","-","17.29%","Sap Stealer",133
-"Afterword Acres","4x","SB+","-","14.29%","Branch Breaker",133
-"Afterword Acres","4x","SB+","-","12.03%","Bark Burner",133
-"Afterword Acres","8x","SB+","-","40.48%","Herbicidal Maniac",42
-"Afterword Acres","8x","SB+","-","30.95%","Moss Comber",42
-"Afterword Acres","8x","SB+","-","14.29%","Bark Burner",42
-"Afterword Acres","8x","SB+","-","11.90%","Branch Breaker",42
-"Afterword Acres","8x","SB+","-","2.38%","Sap Stealer",42
-"Afterword Acres","1x","Metaphor Manchego","-","42.11%","Twisted Twig",171
-"Afterword Acres","1x","Metaphor Manchego","-","38.01%","Sardonic Sapling",171
-"Afterword Acres","1x","Metaphor Manchego","-","19.88%","Sour Sprout",171
-"Afterword Acres","2x","Metaphor Manchego","-","36.79%","Twisted Twig",492
-"Afterword Acres","2x","Metaphor Manchego","-","35.37%","Sardonic Sapling",492
-"Afterword Acres","2x","Metaphor Manchego","-","23.37%","Sour Sprout",492
-"Afterword Acres","2x","Metaphor Manchego","-","4.47%","Herbicidal Maniac",492
-"Afterword Acres","4x","Metaphor Manchego","-","31.79%","Sour Sprout",648
-"Afterword Acres","4x","Metaphor Manchego","-","25.00%","Twisted Twig",648
-"Afterword Acres","4x","Metaphor Manchego","-","23.46%","Herbicidal Maniac",648
-"Afterword Acres","4x","Metaphor Manchego","-","19.75%","Sardonic Sapling",648
-"Afterword Acres","8x","Metaphor Manchego","-","41.92%","Herbicidal Maniac",365
-"Afterword Acres","8x","Metaphor Manchego","-","24.11%","Twisted Twig",365
-"Afterword Acres","8x","Metaphor Manchego","-","20.00%","Sour Sprout",365
-"Afterword Acres","8x","Metaphor Manchego","-","13.97%","Sardonic Sapling",365
-"Afterword Acres","1x","Allegory Anari","-","41.82%","Brash Birch",55
-"Afterword Acres","1x","Allegory Anari","-","32.73%","Maniacal Maple",55
-"Afterword Acres","1x","Allegory Anari","-","25.45%","Wailing Willow",55
-"Afterword Acres","2x","Allegory Anari","-","37.37%","Brash Birch",99
-"Afterword Acres","2x","Allegory Anari","-","32.32%","Maniacal Maple",99
-"Afterword Acres","2x","Allegory Anari","-","22.22%","Wailing Willow",99
-"Afterword Acres","2x","Allegory Anari","-","8.08%","Herbicidal Maniac",99
-"Afterword Acres","4x","Allegory Anari","-","28.80%","Wailing Willow",382
-"Afterword Acres","4x","Allegory Anari","-","25.39%","Herbicidal Maniac",382
-"Afterword Acres","4x","Allegory Anari","-","23.56%","Brash Birch",382
-"Afterword Acres","4x","Allegory Anari","-","22.25%","Maniacal Maple",382
-"Afterword Acres","8x","Allegory Anari","-","51.04%","Herbicidal Maniac",821
-"Afterword Acres","8x","Allegory Anari","-","22.41%","Brash Birch",821
-"Afterword Acres","8x","Allegory Anari","-","17.66%","Wailing Willow",821
-"Afterword Acres","8x","Allegory Anari","-","8.89%","Maniacal Maple",821
-"Afterword Acres","2x","Symbolic Sirene","-","100.00%","Furious Fir",2
-"Afterword Acres","4x","Symbolic Sirene","-","30.77%","Rampaging Redwood",143
-"Afterword Acres","4x","Symbolic Sirene","-","28.67%","Heinous Hemlock",143
-"Afterword Acres","4x","Symbolic Sirene","-","23.08%","Blight Incarnate",143
-"Afterword Acres","4x","Symbolic Sirene","-","17.48%","Furious Fir",143
-"Afterword Acres","8x","Symbolic Sirene","-","46.24%","Blight Incarnate",519
-"Afterword Acres","8x","Symbolic Sirene","-","23.31%","Rampaging Redwood",519
-"Afterword Acres","8x","Symbolic Sirene","-","21.39%","Heinous Hemlock",519
-"Afterword Acres","8x","Symbolic Sirene","-","9.06%","Furious Fir",519
+"Afterword Acres","1x","Gouda/Brie","-","39.59%","Sap Stealer",9208
+"Afterword Acres","1x","Gouda/Brie","-","35.24%","Bark Burner",9208
+"Afterword Acres","1x","Gouda/Brie","-","25.17%","Branch Breaker",9208
+"Afterword Acres","2x","Gouda/Brie","-","35.07%","Bark Burner",12222
+"Afterword Acres","2x","Gouda/Brie","-","34.43%","Sap Stealer",12222
+"Afterword Acres","2x","Gouda/Brie","-","25.27%","Branch Breaker",12222
+"Afterword Acres","2x","Gouda/Brie","-","5.23%","Herbicidal Maniac",12222
+"Afterword Acres","4x","Gouda/Brie","-","29.72%","Branch Breaker",18896
+"Afterword Acres","4x","Gouda/Brie","-","24.92%","Herbicidal Maniac",18896
+"Afterword Acres","4x","Gouda/Brie","-","24.65%","Sap Stealer",18896
+"Afterword Acres","4x","Gouda/Brie","-","20.71%","Bark Burner",18896
+"Afterword Acres","8x","Gouda/Brie","-","49.15%","Herbicidal Maniac",5581
+"Afterword Acres","8x","Gouda/Brie","-","20.23%","Branch Breaker",5581
+"Afterword Acres","8x","Gouda/Brie","-","16.00%","Bark Burner",5581
+"Afterword Acres","8x","Gouda/Brie","-","14.62%","Sap Stealer",5581
+"Afterword Acres","1x","SB+","-","31.44%","Bark Burner",722
+"Afterword Acres","1x","SB+","-","23.82%","Sap Stealer",722
+"Afterword Acres","1x","SB+","-","23.27%","Moss Comber",722
+"Afterword Acres","1x","SB+","-","21.47%","Branch Breaker",722
+"Afterword Acres","2x","SB+","-","30.49%","Bark Burner",1594
+"Afterword Acres","2x","SB+","-","25.66%","Moss Comber",1594
+"Afterword Acres","2x","SB+","-","19.45%","Sap Stealer",1594
+"Afterword Acres","2x","SB+","-","19.45%","Branch Breaker",1594
+"Afterword Acres","2x","SB+","-","4.96%","Herbicidal Maniac",1594
+"Afterword Acres","4x","SB+","-","26.19%","Moss Comber",3841
+"Afterword Acres","4x","SB+","-","24.45%","Herbicidal Maniac",3841
+"Afterword Acres","4x","SB+","-","19.53%","Sap Stealer",3841
+"Afterword Acres","4x","SB+","-","19.45%","Branch Breaker",3841
+"Afterword Acres","4x","SB+","-","10.39%","Bark Burner",3841
+"Afterword Acres","8x","SB+","-","47.88%","Herbicidal Maniac",1508
+"Afterword Acres","8x","SB+","-","23.21%","Moss Comber",1508
+"Afterword Acres","8x","SB+","-","12.73%","Branch Breaker",1508
+"Afterword Acres","8x","SB+","-","9.35%","Sap Stealer",1508
+"Afterword Acres","8x","SB+","-","6.83%","Bark Burner",1508
+"Afterword Acres","1x","Metaphor Manchego","-","39.96%","Twisted Twig",1709
+"Afterword Acres","1x","Metaphor Manchego","-","36.22%","Sardonic Sapling",1709
+"Afterword Acres","1x","Metaphor Manchego","-","23.82%","Sour Sprout",1709
+"Afterword Acres","2x","Metaphor Manchego","-","36.20%","Sardonic Sapling",4705
+"Afterword Acres","2x","Metaphor Manchego","-","35.49%","Twisted Twig",4705
+"Afterword Acres","2x","Metaphor Manchego","-","23.74%","Sour Sprout",4705
+"Afterword Acres","2x","Metaphor Manchego","-","4.57%","Herbicidal Maniac",4705
+"Afterword Acres","4x","Metaphor Manchego","-","29.08%","Sour Sprout",15535
+"Afterword Acres","4x","Metaphor Manchego","-","25.10%","Herbicidal Maniac",15535
+"Afterword Acres","4x","Metaphor Manchego","-","24.80%","Twisted Twig",15535
+"Afterword Acres","4x","Metaphor Manchego","-","21.02%","Sardonic Sapling",15535
+"Afterword Acres","8x","Metaphor Manchego","-","49.64%","Herbicidal Maniac",11684
+"Afterword Acres","8x","Metaphor Manchego","-","20.33%","Twisted Twig",11684
+"Afterword Acres","8x","Metaphor Manchego","-","18.97%","Sour Sprout",11684
+"Afterword Acres","8x","Metaphor Manchego","-","11.06%","Sardonic Sapling",11684
+"Afterword Acres","1x","Allegory Anari","-","39.57%","Maniacal Maple",278
+"Afterword Acres","1x","Allegory Anari","-","38.49%","Brash Birch",278
+"Afterword Acres","1x","Allegory Anari","-","21.94%","Wailing Willow",278
+"Afterword Acres","2x","Allegory Anari","-","35.93%","Brash Birch",977
+"Afterword Acres","2x","Allegory Anari","-","33.98%","Maniacal Maple",977
+"Afterword Acres","2x","Allegory Anari","-","25.18%","Wailing Willow",977
+"Afterword Acres","2x","Allegory Anari","-","4.91%","Herbicidal Maniac",977
+"Afterword Acres","4x","Allegory Anari","-","30.23%","Wailing Willow",5395
+"Afterword Acres","4x","Allegory Anari","-","25.26%","Herbicidal Maniac",5395
+"Afterword Acres","4x","Allegory Anari","-","23.60%","Brash Birch",5395
+"Afterword Acres","4x","Allegory Anari","-","20.91%","Maniacal Maple",5395
+"Afterword Acres","8x","Allegory Anari","-","49.56%","Herbicidal Maniac",18504
+"Afterword Acres","8x","Allegory Anari","-","19.81%","Brash Birch",18504
+"Afterword Acres","8x","Allegory Anari","-","19.70%","Wailing Willow",18504
+"Afterword Acres","8x","Allegory Anari","-","10.94%","Maniacal Maple",18504
+"Afterword Acres","2x","Symbolic Sirene","-","37.67%","Furious Fir",223
+"Afterword Acres","2x","Symbolic Sirene","-","33.18%","Heinous Hemlock",223
+"Afterword Acres","2x","Symbolic Sirene","-","19.73%","Rampaging Redwood",223
+"Afterword Acres","2x","Symbolic Sirene","-","9.42%","Blight Incarnate",223
+"Afterword Acres","4x","Symbolic Sirene","-","28.79%","Rampaging Redwood",1622
+"Afterword Acres","4x","Symbolic Sirene","-","25.22%","Heinous Hemlock",1622
+"Afterword Acres","4x","Symbolic Sirene","-","25.22%","Blight Incarnate",1622
+"Afterword Acres","4x","Symbolic Sirene","-","20.78%","Furious Fir",1622
+"Afterword Acres","8x","Symbolic Sirene","-","48.95%","Blight Incarnate",7208
+"Afterword Acres","8x","Symbolic Sirene","-","20.03%","Heinous Hemlock",7208
+"Afterword Acres","8x","Symbolic Sirene","-","19.81%","Rampaging Redwood",7208
+"Afterword Acres","8x","Symbolic Sirene","-","11.21%","Furious Fir",7208

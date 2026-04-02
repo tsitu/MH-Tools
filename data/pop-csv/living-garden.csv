@@ -1,46 +1,56 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Living Garden","Not Poured","Duskshade Camembert","-","49.37%","Carmine the Apothecary",11295
-"Living Garden","Not Poured","Duskshade Camembert","-","33.86%","Shroom",11295
-"Living Garden","Not Poured","Duskshade Camembert","-","16.78%","Camoflower",11295
-"Living Garden","Not Poured","SB+","-","24.52%","Strawberry Hotcakes",7854
-"Living Garden","Not Poured","SB+","-","20.73%","Thistle",7854
-"Living Garden","Not Poured","SB+","-","17.80%","Bark",7854
-"Living Garden","Not Poured","SB+","-","15.62%","Calalilly",7854
-"Living Garden","Not Poured","SB+","-","13.88%","Shroom",7854
-"Living Garden","Not Poured","SB+","-","7.45%","Camoflower",7854
-"Living Garden","Not Poured","Gouda","-","26.21%","Thistle",43562
-"Living Garden","Not Poured","Gouda","-","21.95%","Bark",43562
-"Living Garden","Not Poured","Gouda","-","18.07%","Calalilly",43562
-"Living Garden","Not Poured","Gouda","-","16.03%","Shroom",43562
-"Living Garden","Not Poured","Gouda","-","10.05%","Strawberry Hotcakes",43562
-"Living Garden","Not Poured","Gouda","-","7.69%","Camoflower",43562
-"Living Garden","Not Poured","Brie","-","26.16%","Thistle",3884
-"Living Garden","Not Poured","Brie","-","20.65%","Bark",3884
-"Living Garden","Not Poured","Brie","-","19.18%","Calalilly",3884
-"Living Garden","Not Poured","Brie","-","16.17%","Shroom",3884
-"Living Garden","Not Poured","Brie","-","9.91%","Strawberry Hotcakes",3884
-"Living Garden","Not Poured","Brie","-","7.93%","Camoflower",3884
-"Living Garden","Poured","Duskshade Camembert","-","50.93%","Carmine the Apothecary",4864
-"Living Garden","Poured","Duskshade Camembert","-","32.55%","Shroom",4864
-"Living Garden","Poured","Duskshade Camembert","-","16.53%","Camoflower",4864
-"Living Garden","Poured","SB+","-","22.08%","Strawberry Hotcakes",4900
-"Living Garden","Poured","SB+","-","19.51%","Thistle",4900
-"Living Garden","Poured","SB+","-","15.78%","Bark",4900
-"Living Garden","Poured","SB+","-","13.98%","Calalilly",4900
-"Living Garden","Poured","SB+","-","11.69%","Shroom",4900
-"Living Garden","Poured","SB+","-","9.82%","Thirsty",4900
-"Living Garden","Poured","SB+","-","7.14%","Camoflower",4900
-"Living Garden","Poured","Gouda","-","23.67%","Thistle",19792
-"Living Garden","Poured","Gouda","-","19.87%","Bark",19792
-"Living Garden","Poured","Gouda","-","16.15%","Calalilly",19792
-"Living Garden","Poured","Gouda","-","14.81%","Shroom",19792
-"Living Garden","Poured","Gouda","-","9.80%","Thirsty",19792
-"Living Garden","Poured","Gouda","-","8.63%","Strawberry Hotcakes",19792
-"Living Garden","Poured","Gouda","-","7.07%","Camoflower",19792
-"Living Garden","Poured","Brie","-","24.50%","Thistle",1563
-"Living Garden","Poured","Brie","-","20.86%","Bark",1563
-"Living Garden","Poured","Brie","-","15.23%","Calalilly",1563
-"Living Garden","Poured","Brie","-","14.40%","Shroom",1563
-"Living Garden","Poured","Brie","-","9.92%","Thirsty",1563
-"Living Garden","Poured","Brie","-","7.87%","Strawberry Hotcakes",1563
-"Living Garden","Poured","Brie","-","7.23%","Camoflower",1563
+"Living Garden","Not Poured","Duskshade Camembert","-","40.32%","Carmine the Apothecary",14802
+"Living Garden","Not Poured","Duskshade Camembert","-","39.72%","Shroom",14802
+"Living Garden","Not Poured","Duskshade Camembert","-","19.65%","Camoflower",14802
+"Living Garden","Not Poured","Duskshade Camembert","-","0.16%","Twisted Lilly",14802
+"Living Garden","Not Poured","Duskshade Camembert","-","0.07%","Barkshell",14802
+"Living Garden","Not Poured","Duskshade Camembert","-","0.05%","Fungal Spore",14802
+"Living Garden","Not Poured","Duskshade Camembert","-","0.03%","Twisted Hotcakes",14802
+"Living Garden","Not Poured","SB+","-","24.77%","Strawberry Hotcakes",10775
+"Living Garden","Not Poured","SB+","-","21.00%","Thistle",10775
+"Living Garden","Not Poured","SB+","-","17.94%","Bark",10775
+"Living Garden","Not Poured","SB+","-","15.25%","Calalilly",10775
+"Living Garden","Not Poured","SB+","-","13.69%","Shroom",10775
+"Living Garden","Not Poured","SB+","-","7.35%","Camoflower",10775
+"Living Garden","Not Poured","Gouda","-","26.20%","Thistle",60185
+"Living Garden","Not Poured","Gouda","-","21.82%","Bark",60185
+"Living Garden","Not Poured","Gouda","-","18.08%","Calalilly",60185
+"Living Garden","Not Poured","Gouda","-","16.14%","Shroom",60185
+"Living Garden","Not Poured","Gouda","-","10.10%","Strawberry Hotcakes",60185
+"Living Garden","Not Poured","Gouda","-","7.66%","Camoflower",60185
+"Living Garden","Not Poured","Brie","-","26.09%","Thistle",4512
+"Living Garden","Not Poured","Brie","-","20.79%","Bark",4512
+"Living Garden","Not Poured","Brie","-","19.37%","Calalilly",4512
+"Living Garden","Not Poured","Brie","-","16.33%","Shroom",4512
+"Living Garden","Not Poured","Brie","-","9.73%","Strawberry Hotcakes",4512
+"Living Garden","Not Poured","Brie","-","7.69%","Camoflower",4512
+"Living Garden","Poured","Duskshade Camembert","-","43.56%","Carmine the Apothecary",5939
+"Living Garden","Poured","Duskshade Camembert","-","37.04%","Shroom",5939
+"Living Garden","Poured","Duskshade Camembert","-","18.84%","Camoflower",5939
+"Living Garden","Poured","Duskshade Camembert","-","0.17%","Twisted Lilly",5939
+"Living Garden","Poured","Duskshade Camembert","-","0.12%","Barkshell",5939
+"Living Garden","Poured","Duskshade Camembert","-","0.10%","Fungal Spore",5939
+"Living Garden","Poured","Duskshade Camembert","-","0.10%","Camofusion",5939
+"Living Garden","Poured","Duskshade Camembert","-","0.03%","Twisted Hotcakes",5939
+"Living Garden","Poured","Duskshade Camembert","-","0.03%","Dehydrated",5939
+"Living Garden","Poured","SB+","-","22.02%","Strawberry Hotcakes",6698
+"Living Garden","Poured","SB+","-","19.47%","Thistle",6698
+"Living Garden","Poured","SB+","-","15.96%","Bark",6698
+"Living Garden","Poured","SB+","-","13.80%","Calalilly",6698
+"Living Garden","Poured","SB+","-","11.82%","Shroom",6698
+"Living Garden","Poured","SB+","-","9.63%","Thirsty",6698
+"Living Garden","Poured","SB+","-","7.30%","Camoflower",6698
+"Living Garden","Poured","Gouda","-","23.54%","Thistle",24504
+"Living Garden","Poured","Gouda","-","19.94%","Bark",24504
+"Living Garden","Poured","Gouda","-","16.04%","Calalilly",24504
+"Living Garden","Poured","Gouda","-","14.86%","Shroom",24504
+"Living Garden","Poured","Gouda","-","9.82%","Thirsty",24504
+"Living Garden","Poured","Gouda","-","8.64%","Strawberry Hotcakes",24504
+"Living Garden","Poured","Gouda","-","7.16%","Camoflower",24504
+"Living Garden","Poured","Brie","-","24.31%","Thistle",1765
+"Living Garden","Poured","Brie","-","21.08%","Bark",1765
+"Living Garden","Poured","Brie","-","14.73%","Shroom",1765
+"Living Garden","Poured","Brie","-","14.67%","Calalilly",1765
+"Living Garden","Poured","Brie","-","9.58%","Thirsty",1765
+"Living Garden","Poured","Brie","-","8.39%","Strawberry Hotcakes",1765
+"Living Garden","Poured","Brie","-","7.25%","Camoflower",1765
