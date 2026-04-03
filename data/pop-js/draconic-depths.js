@@ -1,91 +1,94 @@
 const utils = require("../_utils");
 
-const standardMice = {
-  Ice: [
-    "Frostnip Icebound",
-    "Blizzara Winterosa",
-    "Iciclesius the Defender",
-  ],
-  Fire: [
-    "Squire Sizzleton",
-    "Torchbearer Tinderhelm",
-    "Colonel Crisp",
-  ],
-  Poison: [
-    "Goopus Dredgemore",
-    "Noxio Sludgewell",
-    "Dreck Grimehaven",
-  ],
-};
-
 const caveData = {
   Ice: {
     cheese: "Icy Isabirra",
     mice: {
-      "0-99": ["Rimeus Polarblast", "Frigidocius Coldshot"],
-      "100-249": [
-        "Rimeus Polarblast",
-        "Frigidocius Coldshot",
-        "Chillandria Permafrost",
-        "Avalancheus the Glacial",
+      standard: [
+        "Frostnip Icebound",
+        "Blizzara Winterosa",
+        "Iciclesius the Defender",
       ],
-      "250-749": [
-        "Rimeus Polarblast",
-        "Frigidocius Coldshot",
-        "Chillandria Permafrost",
-        "Avalancheus the Glacial",
-      ],
-      "750+": [
-        "Chillandria Permafrost",
-        "Avalancheus the Glacial",
-        "Arcticus the Biting Frost",
-      ],
+      caves: {
+        "0-99": ["Rimeus Polarblast", "Frigidocius Coldshot"],
+        "100-249": [
+          "Rimeus Polarblast",
+          "Frigidocius Coldshot",
+          "Chillandria Permafrost",
+          "Avalancheus the Glacial",
+        ],
+        "250-749": [
+          "Rimeus Polarblast",
+          "Frigidocius Coldshot",
+          "Chillandria Permafrost",
+          "Avalancheus the Glacial",
+        ],
+        "750+": [
+          "Chillandria Permafrost",
+          "Avalancheus the Glacial",
+          "Arcticus the Biting Frost",
+        ],
+      }
     },
   },
   Fire: {
     cheese: "Fiery Fontina",
     mice: {
-      "0-99": ["Crematio Scorchworth", "Flamina Cinderbreath"],
-      "100-249": [
-        "Crematio Scorchworth",
-        "Flamina Cinderbreath",
-        "Combustius Furnaceheart",
-        "Incendarius the Unquenchable",
+      standard: [
+        "Squire Sizzleton",
+        "Torchbearer Tinderhelm",
+        "Colonel Crisp",
       ],
-      "250-749": [
-        "Crematio Scorchworth",
-        "Flamina Cinderbreath",
-        "Combustius Furnaceheart",
-        "Incendarius the Unquenchable",
-      ],
-      "750+": [
-        "Combustius Furnaceheart",
-        "Incendarius the Unquenchable",
-        "Sulfurious the Raging Inferno",
-      ],
+      caves: {
+        "0-99": ["Crematio Scorchworth", "Flamina Cinderbreath"],
+        "100-249": [
+          "Crematio Scorchworth",
+          "Flamina Cinderbreath",
+          "Combustius Furnaceheart",
+          "Incendarius the Unquenchable",
+        ],
+        "250-749": [
+          "Crematio Scorchworth",
+          "Flamina Cinderbreath",
+          "Combustius Furnaceheart",
+          "Incendarius the Unquenchable",
+        ],
+        "750+": [
+          "Combustius Furnaceheart",
+          "Incendarius the Unquenchable",
+          "Sulfurious the Raging Inferno",
+        ],
+      }
     },
   },
   Poison: {
     cheese: "Poisonous Provolone",
     mice: {
-      "0-99": ["Malignus Vilestrom", "Venomona Festerbloom"],
-      "100-249": [
-        "Malignus Vilestrom",
-        "Venomona Festerbloom",
-        "Belchazar Banewright",
-        "Pestilentia the Putrid",
+      standard: [
+        "Goopus Dredgemore",
+        "Noxio Sludgewell",
+        "Dreck Grimehaven",
       ],
-      "250-749": [
-        "Malignus Vilestrom",
-        "Venomona Festerbloom",
-        "Belchazar Banewright",
-        "Pestilentia the Putrid",
-      ],
-      "750+": [
-        "Belchazar Banewright",
-        "Pestilentia the Putrid",
-        "Corrupticus the Blight Baron",
-      ],
+      caves: {
+        "0-99": ["Malignus Vilestrom", "Venomona Festerbloom"],
+        "100-249": [
+          "Malignus Vilestrom",
+          "Venomona Festerbloom",
+          "Belchazar Banewright",
+          "Pestilentia the Putrid",
+        ],
+        "250-749": [
+          "Malignus Vilestrom",
+          "Venomona Festerbloom",
+          "Belchazar Banewright",
+          "Pestilentia the Putrid",
+        ],
+        "750+": [
+          "Belchazar Banewright",
+          "Pestilentia the Putrid",
+          "Corrupticus the Blight Baron",
+        ],
+      }
     },
   }
 };
@@ -94,19 +97,12 @@ const caveData = {
 function genRgbCaveSeries() {
   const series = [];
   for (const caveType in caveData) {
-    for (const range in caveData[caveType].mice) {
-
-      var stage = { vars: {}, fields: {} };
-      stage.vars["stage"] = {};
-      // These have very few data/don't exist yet.
-      stage.vars["stage"][`Cavern - 1x ${caveType} ${range}`] = true;
-      stage.vars["stage"][`Cavern - 2x ${caveType} ${range}`] = true;
-      stage.vars["stage"][`Cavern - 3x ${caveType} ${range}`] = true;
-      stage.fields["stage"] = `Cavern - ${caveType} ${range}`;
+    for (const caveLootRange in caveData[caveType].mice.caves) {
 
       series.push({
-        stage: [stage],
+        stage: utils.genVarField("stage", `Cavern: ${caveType} ${caveLootRange}`),
         cheese: [
+          // Specific cheese for the cave type/range
           {
             vars: {
               cheese: {
@@ -117,6 +113,7 @@ function genRgbCaveSeries() {
               cheese: caveData[caveType].cheese,
             },
           },
+          // Standard cheeses
           {
             vars: {
               cheese: {
@@ -128,6 +125,7 @@ function genRgbCaveSeries() {
               cheese: "Gouda/Brie",
             },
           },
+          // SB+. Because AR pool changes
           {
             vars: {
               cheese: {
@@ -144,8 +142,8 @@ function genRgbCaveSeries() {
           {
             opts: {
               include: [
-                ...caveData[caveType].mice[range],
-                ...standardMice[caveType],
+                ...caveData[caveType].mice.caves[caveLootRange],
+                ...caveData[caveType].mice.standard,
               ]
             }
           }
@@ -208,10 +206,10 @@ module.exports = {
     ...genRgbCaveSeries(),
     {
       stage: utils.genVarField("stage", [
-        "Cavern - Elemental 0-99",
-        "Cavern - Elemental 100-249",
-        "Cavern - Elemental 250-749",
-        "Cavern - Elemental 750+",
+        "Cavern: Elemental 0-99",
+        "Cavern: Elemental 100-249",
+        "Cavern: Elemental 250-749",
+        "Cavern: Elemental 750+",
       ]),
       cheese: [
         ...utils.genVarField("cheese", ["Fiery Fontina", "Icy Isabirra", "Poisonous Provolone", "Elemental Emmental"]),
@@ -238,8 +236,8 @@ module.exports = {
    */
   postProcess: function(data) {
     // Sort the elemental rows by stage to improve UX
-    const elementalRows = data.filter(row => row.stage.startsWith("Cavern - Elemental"));
-    const nonElementalRows = data.filter(row => !row.stage.startsWith("Cavern - Elemental"));
+    const elementalRows = data.filter(row => row.stage.startsWith("Cavern: Elemental"));
+    const nonElementalRows = data.filter(row => !row.stage.startsWith("Cavern: Elemental"));
     return [
       ...nonElementalRows,
       ...elementalRows.sort((a, b) => a.stage.localeCompare(b.stage)),
