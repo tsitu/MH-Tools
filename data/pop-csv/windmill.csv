@@ -1,15 +1,15 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Windmill","-","Cheddar","-","20.92%","Field",1042
-"Windmill","-","Cheddar","-","19.48%","Scruffy",1042
-"Windmill","-","Cheddar","-","16.89%","White",1042
-"Windmill","-","Cheddar","-","14.97%","Brown",1042
-"Windmill","-","Cheddar","-","14.40%","Grey",1042
-"Windmill","-","Cheddar","-","9.60%","Dwarf",1042
-"Windmill","-","Cheddar","-","3.74%","Spud",1042
-"Windmill","-","White Cheddar","-","37.39%","Field",4410
-"Windmill","-","White Cheddar","-","34.94%","Scruffy",4410
-"Windmill","-","White Cheddar","-","18.84%","Dwarf",4410
-"Windmill","-","White Cheddar","-","8.82%","Spud",4410
+"Windmill","-","Cheddar","-","21.21%","Field",1070
+"Windmill","-","Cheddar","-","19.25%","Scruffy",1070
+"Windmill","-","Cheddar","-","16.92%","White",1070
+"Windmill","-","Cheddar","-","15.05%","Brown",1070
+"Windmill","-","Cheddar","-","14.49%","Grey",1070
+"Windmill","-","Cheddar","-","9.35%","Dwarf",1070
+"Windmill","-","Cheddar","-","3.74%","Spud",1070
+"Windmill","-","White Cheddar","-","37.38%","Field",4465
+"Windmill","-","White Cheddar","-","34.92%","Scruffy",4465
+"Windmill","-","White Cheddar","-","18.86%","Dwarf",4465
+"Windmill","-","White Cheddar","-","8.85%","Spud",4465
 "Windmill","-","Marble","-","12.60%","Dwarf",857
 "Windmill","-","Marble","-","12.49%","Pugilist",857
 "Windmill","-","Marble","-","11.67%","Longtail",857
@@ -22,36 +22,36 @@
 "Windmill","-","Marble","-","3.62%","Gold",857
 "Windmill","-","Marble","-","3.50%","Diamond",857
 "Windmill","-","Marble","-","1.52%","Mole",857
-"Windmill","-","Swiss","-","26.11%","Dwarf",2991
-"Windmill","-","Swiss","-","23.80%","Longtail",2991
-"Windmill","-","Swiss","-","10.60%","Pugilist",2991
-"Windmill","-","Swiss","-","10.43%","Scruffy",2991
-"Windmill","-","Swiss","-","10.43%","Spud",2991
-"Windmill","-","Swiss","-","7.15%","Gold",2991
-"Windmill","-","Swiss","-","6.19%","Diamond",2991
-"Windmill","-","Swiss","-","5.28%","Mole",2991
-"Windmill","-","Brie","-","19.23%","Pugilist",5564
-"Windmill","-","Brie","-","17.99%","Longtail",5564
-"Windmill","-","Brie","-","16.36%","Flying",5564
-"Windmill","-","Brie","-","15.22%","Speedy",5564
-"Windmill","-","Brie","-","9.85%","Spud",5564
-"Windmill","-","Brie","-","8.61%","Gold",5564
-"Windmill","-","Brie","-","7.85%","Diamond",5564
-"Windmill","-","Brie","-","4.89%","Mole",5564
-"Windmill","-","Gouda","-","25.29%","Dwarf",6477
-"Windmill","-","Gouda","-","24.66%","Longtail",6477
-"Windmill","-","Gouda","-","10.28%","Pugilist",6477
-"Windmill","-","Gouda","-","10.22%","Scruffy",6477
-"Windmill","-","Gouda","-","9.16%","Spud",6477
-"Windmill","-","Gouda","-","7.18%","Diamond",6477
-"Windmill","-","Gouda","-","6.92%","Gold",6477
-"Windmill","-","Gouda","-","6.30%","Mole",6477
-"Windmill","-","SB+","-","20.03%","Flying",6400
-"Windmill","-","SB+","-","17.27%","Silvertail",6400
-"Windmill","-","SB+","-","15.67%","Farmhand",6400
-"Windmill","-","SB+","-","11.66%","Tiny",6400
-"Windmill","-","SB+","-","10.78%","Diamond",6400
-"Windmill","-","SB+","-","10.42%","Gold",6400
-"Windmill","-","SB+","-","7.70%","Spud",6400
-"Windmill","-","SB+","-","6.47%","Mole",6400
-"Windmill","-","Grilled","-","100.00%","Captain Croissant",4591
+"Windmill","-","Swiss","-","26.14%","Dwarf",3003
+"Windmill","-","Swiss","-","23.78%","Longtail",3003
+"Windmill","-","Swiss","-","10.62%","Pugilist",3003
+"Windmill","-","Swiss","-","10.42%","Scruffy",3003
+"Windmill","-","Swiss","-","10.42%","Spud",3003
+"Windmill","-","Swiss","-","7.16%","Gold",3003
+"Windmill","-","Swiss","-","6.16%","Diamond",3003
+"Windmill","-","Swiss","-","5.29%","Mole",3003
+"Windmill","-","Brie","-","19.21%","Pugilist",5591
+"Windmill","-","Brie","-","17.98%","Longtail",5591
+"Windmill","-","Brie","-","16.37%","Flying",5591
+"Windmill","-","Brie","-","15.24%","Speedy",5591
+"Windmill","-","Brie","-","9.86%","Spud",5591
+"Windmill","-","Brie","-","8.59%","Gold",5591
+"Windmill","-","Brie","-","7.83%","Diamond",5591
+"Windmill","-","Brie","-","4.94%","Mole",5591
+"Windmill","-","Gouda","-","25.35%","Dwarf",6497
+"Windmill","-","Gouda","-","24.64%","Longtail",6497
+"Windmill","-","Gouda","-","10.28%","Pugilist",6497
+"Windmill","-","Gouda","-","10.20%","Scruffy",6497
+"Windmill","-","Gouda","-","9.16%","Spud",6497
+"Windmill","-","Gouda","-","7.16%","Diamond",6497
+"Windmill","-","Gouda","-","6.91%","Gold",6497
+"Windmill","-","Gouda","-","6.30%","Mole",6497
+"Windmill","-","SB+","-","19.96%","Flying",6449
+"Windmill","-","SB+","-","17.32%","Silvertail",6449
+"Windmill","-","SB+","-","15.65%","Farmhand",6449
+"Windmill","-","SB+","-","11.69%","Tiny",6449
+"Windmill","-","SB+","-","10.82%","Diamond",6449
+"Windmill","-","SB+","-","10.39%","Gold",6449
+"Windmill","-","SB+","-","7.71%","Spud",6449
+"Windmill","-","SB+","-","6.47%","Mole",6449
+"Windmill","-","Grilled","-","100.00%","Captain Croissant",4612

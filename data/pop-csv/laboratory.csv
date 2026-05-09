@@ -1,24 +1,24 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Laboratory","-","SB+","-","27.03%","Sludge Scientist",12977
-"Laboratory","-","SB+","-","24.44%","Clumsy Chemist",12977
-"Laboratory","-","SB+","-","22.76%","Squeaker Bot",12977
-"Laboratory","-","SB+","-","15.96%","Bionic",12977
-"Laboratory","-","SB+","-","8.35%","Burglar",12977
-"Laboratory","-","SB+","-","0.93%","Glitchpaw",12977
-"Laboratory","-","SB+","-","0.52%","Black Widow",12977
-"Laboratory","-","Brie","-","30.94%","Squeaker Bot",18249
-"Laboratory","-","Brie","-","28.30%","Bionic",18249
-"Laboratory","-","Brie","-","26.38%","Sludge Scientist",18249
-"Laboratory","-","Brie","-","9.44%","Clumsy Chemist",18249
-"Laboratory","-","Brie","-","4.84%","Burglar",18249
-"Laboratory","-","Brie","-","0.09%","Glitchpaw",18249
-"Laboratory","-","Brie","-","0.01%","Lucky",18249
-"Laboratory","-","Gouda","-","33.37%","Sludge Scientist",13605
-"Laboratory","-","Gouda","-","30.52%","Squeaker Bot",13605
-"Laboratory","-","Gouda","-","24.74%","Bionic",13605
-"Laboratory","-","Gouda","-","11.27%","Clumsy Chemist",13605
-"Laboratory","-","Gouda","-","0.09%","Glitchpaw",13605
-"Laboratory","-","Gouda","-","0.01%","Lucky",13605
+"Laboratory","-","SB+","-","27.07%","Sludge Scientist",13062
+"Laboratory","-","SB+","-","24.45%","Clumsy Chemist",13062
+"Laboratory","-","SB+","-","22.78%","Squeaker Bot",13062
+"Laboratory","-","SB+","-","15.90%","Bionic",13062
+"Laboratory","-","SB+","-","8.34%","Burglar",13062
+"Laboratory","-","SB+","-","0.94%","Glitchpaw",13062
+"Laboratory","-","SB+","-","0.51%","Black Widow",13062
+"Laboratory","-","Brie","-","30.96%","Squeaker Bot",18278
+"Laboratory","-","Brie","-","28.31%","Bionic",18278
+"Laboratory","-","Brie","-","26.36%","Sludge Scientist",18278
+"Laboratory","-","Brie","-","9.44%","Clumsy Chemist",18278
+"Laboratory","-","Brie","-","4.84%","Burglar",18278
+"Laboratory","-","Brie","-","0.09%","Glitchpaw",18278
+"Laboratory","-","Brie","-","0.01%","Lucky",18278
+"Laboratory","-","Gouda","-","33.38%","Sludge Scientist",13613
+"Laboratory","-","Gouda","-","30.51%","Squeaker Bot",13613
+"Laboratory","-","Gouda","-","24.74%","Bionic",13613
+"Laboratory","-","Gouda","-","11.26%","Clumsy Chemist",13613
+"Laboratory","-","Gouda","-","0.09%","Glitchpaw",13613
+"Laboratory","-","Gouda","-","0.01%","Lucky",13613
 "Laboratory","-","Swiss","-","32.24%","Sludge Scientist",2587
 "Laboratory","-","Swiss","-","31.08%","Squeaker Bot",2587
 "Laboratory","-","Swiss","-","26.09%","Bionic",2587
@@ -33,19 +33,19 @@
 "Laboratory","-","Cheddar","-","23.21%","Bionic",474
 "Laboratory","-","Cheddar","-","12.03%","Clumsy Chemist",474
 "Laboratory","-","Cheddar","-","0.21%","Glitchpaw",474
-"Laboratory","-","Radioactive Blue","-","28.40%","Mutated White",28560
-"Laboratory","-","Radioactive Blue","-","27.98%","Mutated Grey",28560
-"Laboratory","-","Radioactive Blue","-","25.20%","Monster",28560
-"Laboratory","-","Radioactive Blue","-","18.25%","Mutated Brown",28560
-"Laboratory","-","Radioactive Blue","-","0.17%","Black Widow",28560
-"Laboratory","-","Rancid Radioactive Blue","-","31.02%","Mutated White",24800
-"Laboratory","-","Rancid Radioactive Blue","-","24.95%","Monster",24800
-"Laboratory","-","Rancid Radioactive Blue","-","24.38%","Mutated Grey",24800
-"Laboratory","-","Rancid Radioactive Blue","-","18.71%","Mutated Brown",24800
-"Laboratory","-","Rancid Radioactive Blue","-","0.93%","Black Widow",24800
-"Laboratory","-","Magical Rancid Radioactive Blue","-","47.32%","Monster",20913
-"Laboratory","-","Magical Rancid Radioactive Blue","-","19.96%","Mutated Grey",20913
-"Laboratory","-","Magical Rancid Radioactive Blue","-","16.35%","Mutated White",20913
-"Laboratory","-","Magical Rancid Radioactive Blue","-","14.50%","Mutated Brown",20913
-"Laboratory","-","Magical Rancid Radioactive Blue","-","1.86%","Black Widow",20913
-"Laboratory","-","Limelight","-","100.00%","Mutated Mole",4681
+"Laboratory","-","Radioactive Blue","-","28.36%","Mutated White",29345
+"Laboratory","-","Radioactive Blue","-","28.09%","Mutated Grey",29345
+"Laboratory","-","Radioactive Blue","-","25.09%","Monster",29345
+"Laboratory","-","Radioactive Blue","-","18.28%","Mutated Brown",29345
+"Laboratory","-","Radioactive Blue","-","0.18%","Black Widow",29345
+"Laboratory","-","Rancid Radioactive Blue","-","31.03%","Mutated White",24857
+"Laboratory","-","Rancid Radioactive Blue","-","24.93%","Monster",24857
+"Laboratory","-","Rancid Radioactive Blue","-","24.38%","Mutated Grey",24857
+"Laboratory","-","Rancid Radioactive Blue","-","18.73%","Mutated Brown",24857
+"Laboratory","-","Rancid Radioactive Blue","-","0.93%","Black Widow",24857
+"Laboratory","-","Magical Rancid Radioactive Blue","-","47.32%","Monster",20996
+"Laboratory","-","Magical Rancid Radioactive Blue","-","19.96%","Mutated Grey",20996
+"Laboratory","-","Magical Rancid Radioactive Blue","-","16.37%","Mutated White",20996
+"Laboratory","-","Magical Rancid Radioactive Blue","-","14.49%","Mutated Brown",20996
+"Laboratory","-","Magical Rancid Radioactive Blue","-","1.87%","Black Widow",20996
+"Laboratory","-","Limelight","-","100.00%","Mutated Mole",4686
