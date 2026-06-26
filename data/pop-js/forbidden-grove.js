@@ -1,40 +1,89 @@
 const utils = require("../_utils");
 
-const cheeses = [
-  "Ancient",
-  "Moon",
-  "Crescent",
-  "Radioactive Blue",
-  "Rancid Radioactive Blue"
-];
-
 module.exports = {
   default: {
     location: utils.genVarField("location", "Forbidden Grove"),
-    cheese: utils.genVarField("cheese", cheeses)
+    phase: utils.genVarField("stage", "Open"),
+    charm: utils.genNegateVar("charm", "Realm Ripper"),
   },
   series: [
     {
-      // stages
-      phase: utils.genVarField("stage", "Open"),
-      config: [
-        {
-          opts: {
-            exclude: ["Glitchpaw", "Realm Ripper"]
-          }
-        }
-      ]
+      cheese: utils.genVarField("cheese", [
+        "Radioactive Blue",
+        "Rancid Radioactive Blue",
+        "Magical Rancid Radioactive Blue"
+      ]),
+      mice: utils.genInclude([
+        "Black Widow",
+        "Ghost",
+        "Lycan",
+        "Mutated Brown",
+        "Mutated Grey",
+        "Mutated White",
+        "Ravenous Zombie",
+        "Zombie"
+      ])
     },
     {
-      // stages
-      phase: utils.genVarField("stage", "Closed"),
-      config: [
-        {
-          opts: {
-            include: ["Realm Ripper"]
-          }
-        }
-      ]
+      cheese: utils.genOrField("cheese", [
+        "Crescent",
+        "Moon"
+      ]),
+      mice: utils.genInclude([
+        "Ghost",
+        "Lycan",
+        "Scavenger",
+        "Sorcerer",
+        "Vampire"
+      ])
+    },
+    {
+      cheese: utils.genVarField("cheese", "Ancient"),
+      mice: utils.genInclude([
+        "Gargoyle",
+        "Bat",
+        "Gate Guardian",
+        "Ghost",
+        "Golem",
+        "Gorgon",
+        "Ravenous Zombie",
+        "Reaper",
+        "Scavenger",
+        "Sorcerer",
+        "Spectre",
+        "Spider",
+        "Vampire",
+        "Zombie"
+      ])
     }
-  ]
+  ],
+  /**
+   *
+   * @param {import('../_utils').AttractionData[]} data
+   * @returns {import('../_utils').AttractionData[]}
+   */
+  postProcess: function(data) {
+    // add realm ripper to all stages
+    data.push(...[
+      {
+        stage: "Open",
+        location: "Forbidden Grove",
+        cheese: "Ancient/Moon/Crescent/Radioactive Blue/Rancid Radioactive Blue/Magical Rancid Radioactive Blue",
+        charm: "Realm Ripper",
+        mouse: "Realm Ripper",
+        attraction: "100.00%",
+        sample: 1
+      },
+      {
+        stage: "Closed",
+        location: "Forbidden Grove",
+        cheese: "Ancient/Moon/Crescent/Radioactive Blue/Rancid Radioactive Blue/Magical Rancid Radioactive Blue",
+        mouse: "Realm Ripper",
+        attraction: "100.00%",
+        sample: 1
+      }
+    ]);
+
+    return data;
+  },
 };
