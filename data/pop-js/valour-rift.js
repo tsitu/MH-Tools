@@ -13,241 +13,197 @@ module.exports = {
         "Magical String",
         "Brie String",
         "Swiss String"
+      ]),
+      mice: utils.genInclude([
+        "Elixir Maker",
+        "Timid Explorer",
       ])
     },
     {
       phase: utils.genVarField("stage", "Floors 1-7"),
-      config: [
-        {
-          opts: {
-            include: [
-              "Terrified Adventurer",
-              "Unwavering Adventurer",
-              "Berzerker",
-              "Lumi-lancer",
-              "Puppetto",
-              "Cutpurse",
-              "Martial",
-              "One-Mouse Band",
-              "Mouse of Elements",
-              "Cursed Crusader",
-              "Withered Remains"
-            ]
-          }
-        }
-      ]
+      mice: utils.genInclude([
+        "Terrified Adventurer",
+        "Unwavering Adventurer",
+        "Berzerker",
+        "Lumi-lancer",
+        "Puppetto",
+        "Cutpurse",
+        "Martial",
+        "One-Mouse Band",
+        "Mouse of Elements",
+        "Cursed Crusader",
+        "Withered Remains"
+      ])
     },
     {
       phase: utils.genVarField("stage", "Floors 9-15"),
-      config: [
-        {
-          opts: {
-            include: [
-              "Terrified Adventurer",
-              "Unwavering Adventurer",
-              "Berzerker",
-              "Lumi-lancer",
-              "Puppetto",
-              "Puppet Champion",
-              "Cutpurse",
-              "Champion Thief",
-              "Martial",
-              "Praetorian Champion",
-              "One-Mouse Band",
-              "Champion Danseuse",
-              "Mouse of Elements",
-              "Magic Champion",
-              "Cursed Crusader",
-              "Fallen Champion Footman",
-              "Withered Remains",
-              "Arch Champion Necromancer",
-              "Possessed Armaments"
-            ]
-          }
-        }
-      ]
+      mice: utils.genInclude([
+        "Terrified Adventurer",
+        "Unwavering Adventurer",
+        "Berzerker",
+        "Lumi-lancer",
+        "Puppetto",
+        "Puppet Champion",
+        "Cutpurse",
+        "Champion Thief",
+        "Martial",
+        "Praetorian Champion",
+        "One-Mouse Band",
+        "Champion Danseuse",
+        "Mouse of Elements",
+        "Magic Champion",
+        "Cursed Crusader",
+        "Fallen Champion Footman",
+        "Withered Remains",
+        "Arch Champion Necromancer",
+        "Possessed Armaments"
+      ])
     },
     {
       phase: utils.genVarField("stage", "Floors 17-23"),
-      config: [
-        {
-          opts: {
-            include: [
-              "Terrified Adventurer",
-              "Unwavering Adventurer",
-              "Berzerker",
-              "Lumi-lancer",
-              "Puppetto",
-              "Puppet Champion",
-              "Cutpurse",
-              "Champion Thief",
-              "Martial",
-              "Praetorian Champion",
-              "One-Mouse Band",
-              "Champion Danseuse",
-              "Mouse of Elements",
-              "Magic Champion",
-              "Cursed Crusader",
-              "Fallen Champion Footman",
-              "Withered Remains",
-              "Arch Champion Necromancer",
-              "Possessed Armaments",
-              "Prestigious Adventurer"
-            ]
-          }
-        }
-      ]
+      mice: utils.genInclude([
+        "Terrified Adventurer",
+        "Unwavering Adventurer",
+        "Berzerker",
+        "Lumi-lancer",
+        "Puppetto",
+        "Puppet Champion",
+        "Cutpurse",
+        "Champion Thief",
+        "Martial",
+        "Praetorian Champion",
+        "One-Mouse Band",
+        "Champion Danseuse",
+        "Mouse of Elements",
+        "Magic Champion",
+        "Cursed Crusader",
+        "Fallen Champion Footman",
+        "Withered Remains",
+        "Arch Champion Necromancer",
+        "Possessed Armaments",
+        "Prestigious Adventurer"
+      ])
     },
     {
       phase: utils.genVarField("stage", "Floors 25-31+"),
-      config: [
-        {
-          opts: {
-            include: [
-              "Terrified Adventurer",
-              "Unwavering Adventurer",
-              "Berzerker",
-              "Lumi-lancer",
-              "Puppetto",
-              "Puppet Champion",
-              "Cutpurse",
-              "Champion Thief",
-              "Martial",
-              "Praetorian Champion",
-              "One-Mouse Band",
-              "Champion Danseuse",
-              "Mouse of Elements",
-              "Magic Champion",
-              "Cursed Crusader",
-              "Fallen Champion Footman",
-              "Withered Remains",
-              "Arch Champion Necromancer",
-              "Possessed Armaments",
-              "Prestigious Adventurer",
-              "Soldier of the Shade"
-            ]
-          }
-        }
-      ]
+      mice: utils.genInclude([
+        "Terrified Adventurer",
+        "Unwavering Adventurer",
+        "Berzerker",
+        "Lumi-lancer",
+        "Puppetto",
+        "Puppet Champion",
+        "Cutpurse",
+        "Champion Thief",
+        "Martial",
+        "Praetorian Champion",
+        "One-Mouse Band",
+        "Champion Danseuse",
+        "Mouse of Elements",
+        "Magic Champion",
+        "Cursed Crusader",
+        "Fallen Champion Footman",
+        "Withered Remains",
+        "Arch Champion Necromancer",
+        "Possessed Armaments",
+        "Prestigious Adventurer",
+        "Soldier of the Shade"
+      ])
     },
     {
       phase: utils.genVarField("stage", "UU Floors 1-7"),
-      config: [
-        {
-          opts: {
-            include: [
-              "Terrified Adventurer",
-              "Unwavering Adventurer",
-              "Berzerker",
-              "Lumi-lancer",
-              "Puppetto",
-              "Cutpurse",
-              "Martial",
-              "One-Mouse Band",
-              "Mouse of Elements",
-              "Cursed Crusader",
-              "Withered Remains",
-              "Bulwark of Ascent"
-            ]
-          }
-        }
-      ]
+      mice: utils.genInclude([
+        "Terrified Adventurer",
+        "Unwavering Adventurer",
+        "Berzerker",
+        "Lumi-lancer",
+        "Puppetto",
+        "Cutpurse",
+        "Martial",
+        "One-Mouse Band",
+        "Mouse of Elements",
+        "Cursed Crusader",
+        "Withered Remains",
+        "Bulwark of Ascent"
+      ])
     },
     {
       phase: utils.genVarField("stage", "UU Floors 9-15"),
-      config: [
-        {
-          opts: {
-            include: [
-              "Terrified Adventurer",
-              "Unwavering Adventurer",
-              "Berzerker",
-              "Lumi-lancer",
-              "Puppetto",
-              "Puppet Champion",
-              "Cutpurse",
-              "Champion Thief",
-              "Martial",
-              "Praetorian Champion",
-              "One-Mouse Band",
-              "Champion Danseuse",
-              "Mouse of Elements",
-              "Magic Champion",
-              "Cursed Crusader",
-              "Fallen Champion Footman",
-              "Withered Remains",
-              "Arch Champion Necromancer",
-              "Possessed Armaments",
-              "Bulwark of Ascent"
-            ]
-          }
-        }
-      ]
+      mice: utils.genInclude([
+        "Terrified Adventurer",
+        "Unwavering Adventurer",
+        "Berzerker",
+        "Lumi-lancer",
+        "Puppetto",
+        "Puppet Champion",
+        "Cutpurse",
+        "Champion Thief",
+        "Martial",
+        "Praetorian Champion",
+        "One-Mouse Band",
+        "Champion Danseuse",
+        "Mouse of Elements",
+        "Magic Champion",
+        "Cursed Crusader",
+        "Fallen Champion Footman",
+        "Withered Remains",
+        "Arch Champion Necromancer",
+        "Possessed Armaments",
+        "Bulwark of Ascent"
+      ])
     },
     {
       phase: utils.genVarField("stage", "UU Floors 17-23"),
-      config: [
-        {
-          opts: {
-            include: [
-              "Terrified Adventurer",
-              "Unwavering Adventurer",
-              "Berzerker",
-              "Lumi-lancer",
-              "Puppetto",
-              "Puppet Champion",
-              "Cutpurse",
-              "Champion Thief",
-              "Martial",
-              "Praetorian Champion",
-              "One-Mouse Band",
-              "Champion Danseuse",
-              "Mouse of Elements",
-              "Magic Champion",
-              "Cursed Crusader",
-              "Fallen Champion Footman",
-              "Withered Remains",
-              "Arch Champion Necromancer",
-              "Possessed Armaments",
-              "Prestigious Adventurer",
-              "Bulwark of Ascent"
-            ]
-          }
-        }
-      ]
+      mice: utils.genInclude([
+        "Terrified Adventurer",
+        "Unwavering Adventurer",
+        "Berzerker",
+        "Lumi-lancer",
+        "Puppetto",
+        "Puppet Champion",
+        "Cutpurse",
+        "Champion Thief",
+        "Martial",
+        "Praetorian Champion",
+        "One-Mouse Band",
+        "Champion Danseuse",
+        "Mouse of Elements",
+        "Magic Champion",
+        "Cursed Crusader",
+        "Fallen Champion Footman",
+        "Withered Remains",
+        "Arch Champion Necromancer",
+        "Possessed Armaments",
+        "Prestigious Adventurer",
+        "Bulwark of Ascent"
+      ])
     },
     {
       phase: utils.genVarField("stage", "UU Floors 25-31+"),
-      config: [
-        {
-          opts: {
-            include: [
-              "Terrified Adventurer",
-              "Unwavering Adventurer",
-              "Berzerker",
-              "Lumi-lancer",
-              "Puppetto",
-              "Puppet Champion",
-              "Cutpurse",
-              "Champion Thief",
-              "Martial",
-              "Praetorian Champion",
-              "One-Mouse Band",
-              "Champion Danseuse",
-              "Mouse of Elements",
-              "Magic Champion",
-              "Cursed Crusader",
-              "Fallen Champion Footman",
-              "Withered Remains",
-              "Arch Champion Necromancer",
-              "Possessed Armaments",
-              "Prestigious Adventurer",
-              "Soldier of the Shade",
-              "Bulwark of Ascent"
-            ]
-          }
-        }
-      ]
+      mice: utils.genInclude([
+        "Terrified Adventurer",
+        "Unwavering Adventurer",
+        "Berzerker",
+        "Lumi-lancer",
+        "Puppetto",
+        "Puppet Champion",
+        "Cutpurse",
+        "Champion Thief",
+        "Martial",
+        "Praetorian Champion",
+        "One-Mouse Band",
+        "Champion Danseuse",
+        "Mouse of Elements",
+        "Magic Champion",
+        "Cursed Crusader",
+        "Fallen Champion Footman",
+        "Withered Remains",
+        "Arch Champion Necromancer",
+        "Possessed Armaments",
+        "Prestigious Adventurer",
+        "Soldier of the Shade",
+        "Bulwark of Ascent"
+      ])
     }
   ],
   postProcess: function(data) {
