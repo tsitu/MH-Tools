@@ -8,6 +8,9 @@ const rbCheeses = [
 const emCheeses = ["Undead Emmental", "Undead String Emmental"];
 const vampCheeses = ["Crimson", "Moon", "Crescent"];
 
+const wall = utils.genVarField("stage", "Has Wall");
+const noWall = utils.genVarField("stage", "No Wall");
+
 module.exports = {
   default: {
     location: utils.genVarField("location", "Mousoleum"),
@@ -16,77 +19,80 @@ module.exports = {
   series: [
     {
       cheese: utils.genVarField("cheese", rbCheeses),
-      stage: utils.genVarField("stage", "No Wall"),
-      config: [
-        {
-          opts: {
-            exclude: [
-              "Bat",
-              "Vampire",
-              "Mummy",
-              "Ghost",
-              "Giant Snail",
-              "Monster"
-            ]
-          }
-        }
-      ]
+      stage: noWall,
+      mice: utils.genInclude([
+        "Coffin Zombie",
+        "Glitchpaw",
+        "Gluttonous Zombie",
+        "Ravenous Zombie",
+        "Zombie",
+      ])
     },
     {
       cheese: utils.genVarField("cheese", emCheeses),
-      stage: utils.genVarField("stage", "No Wall"),
-      config: [
-        {
-          opts: {
-            exclude: [
-              "Bat",
-              "Vampire",
-              "Mummy",
-              "Ghost",
-              "Giant Snail",
-              "Monster"
-            ]
-          }
-        }
-      ]
+      stage: noWall,
+      mice: utils.genInclude([
+        "Coffin Zombie",
+        "Gluttonous Zombie",
+        "Grave Robber",
+        "Ravenous Zombie",
+        "Zombie",
+        "Zombot Unipire",
+      ])
     },
     {
       cheese: utils.genVarField("cheese", vampCheeses),
-      stage: utils.genVarField("stage", "No Wall"),
-      config: [
-        {
-          opts: {
-            exclude: [
-              "Bat",
-              "Vampire",
-              "Mummy",
-              "Ghost",
-              "Giant Snail",
-              "Monster",
-              "Mousevina von Vermin"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      cheese: utils.genVarField("cheese", vampCheeses),
-      stage: utils.genVarField("stage", "Has Wall")
+      stage: noWall,
+      mice: utils.genInclude([
+        "Coffin Zombie",
+        "Gluttonous Zombie",
+      ])
     },
     {
       cheese: utils.genVarField("cheese", rbCheeses),
-      stage: utils.genVarField("stage", "Has Wall"),
-      config: [
-        {
-          opts: {
-            exclude: ["Glitchpaw", "Zombie"]
-          }
-        }
-      ]
+      stage: wall,
+      mice: utils.genInclude([
+        "Bat",
+        "Black Widow",
+        "Ghost",
+        "Giant Snail",
+        "Monster",
+        "Mummy",
+        "Vampire",
+      ])
     },
     {
       cheese: utils.genVarField("cheese", emCheeses),
-      stage: utils.genVarField("stage", "Has Wall")
+      stage: wall,
+      mice: utils.genInclude([
+        "Ghost",
+        "Grave Robber",
+        "Mummy",
+        "Vampire",
+        "Zombot Unipire",
+      ])
+    },
+    {
+      cheese: utils.genVarField("cheese", ["Moon", "Crescent"]),
+      stage: wall,
+      mice: utils.genInclude([
+        "Bat",
+        "Ghost",
+        "Lycan",
+        "Mummy",
+        "Vampire",
+      ])
+    },
+    {
+      cheese: utils.genVarField("cheese", "Crimson"),
+      stage: wall,
+      mice: utils.genInclude([
+        "Bat",
+        "Ghost",
+        "Mousevina von Vermin",
+        "Mummy",
+        "Vampire",
+      ])
     }
   ]
 };
