@@ -128,8 +128,11 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-        git add data/pop-csv/*
+        for branch in $(git ls-remote --heads origin 'scheduled/population-*' | awk '{print $2}' | sed 's|refs/heads/||'); do
+          git push origin --delete "$branch" || true
+        done
 
+        git add data/pop-csv/*
         git checkout -b scheduled/population-$(date +%Y%m%d)
         git commit -m "Automated population data update" || exit 0
         git push origin HEAD

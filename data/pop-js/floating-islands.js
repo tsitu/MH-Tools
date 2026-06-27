@@ -188,7 +188,7 @@ const config = {
       masterArr.push({
         stage: "Sky Wardens",
         location: "Floating Islands",
-        cheese: "SB+",
+        cheese: "SB+/Cloud Cheesecake/Extra Rich Cloud Cheesecake",
         mouse: mouse,
         attraction: "25.00%",
         sample: 4
@@ -209,7 +209,7 @@ const config = {
       masterArr.push({
         stage: "Sky Paragons",
         location: "Floating Islands",
-        cheese: "SB+",
+        cheese: "SB+/Cloud Cheesecake/Extra Rich Cloud Cheesecake",
         mouse: mouse,
         attraction: "12.50%",
         sample: 8
@@ -219,7 +219,7 @@ const config = {
     masterArr.push({
       stage: "Empress",
       location: "Floating Islands",
-      cheese: "SB+",
+      cheese: "SB+/Cloud Cheesecake/Extra Rich Cloud Cheesecake",
       mouse: "Empyrean Empress",
       attraction: "100.00%",
       sample: 1

@@ -76,44 +76,17 @@ var dlStages = { Low: "DL 0-24", Medium: "DL 25-49", High: "DL 50" };
 function genSeriesObject(ccRage, gtRage, dlRage, charm) {
   const baseSeries = {
     cheese: [
-      {
-        vars: {
-          cheese: {
-            "Brie String": true,
-            "Swiss String": true
-          }
-        },
-        fields: {
-          cheese: "Brie String/Swiss String"
-        }
-      },
-      utils.genVarItem("cheese", "Magical String")
+        ...utils.genOrField("cheese", ["Brie String", "Swiss String"]),
+        utils.genVarItem("cheese", "Magical String")
     ],
-    stage: [
-      {
-        vars: {
-          stage1: { [ccStages[ccRage]]: true },
-          stage2: { [gtStages[gtRage]]: true },
-          stage3: { [dlStages[dlRage]]: true },
-        },
-        fields: {
-          stage: `${ccRage}/${gtRage}/${dlRage}`
-        },
-      }
-    ],
-    config: [
-      {
-        opts: {
-          include: [
-            ...crazedClearingMice[ccRage],
-            ...giganticGnarledTreeMice[gtRage],
-            ...deepLagoonMice[dlRage],
-            "Gilded Leaf",
-            "Monstrous Black Widow",
-          ]
-        }
-      }
-    ]
+    stage: utils.genStageAnd([ccStages[ccRage], gtStages[gtRage], dlStages[dlRage]], `${ccRage}/${gtRage}/${dlRage}`),
+    mice: utils.genInclude([
+      ...crazedClearingMice[ccRage],
+      ...giganticGnarledTreeMice[gtRage],
+      ...deepLagoonMice[dlRage],
+      "Gilded Leaf",
+      "Monstrous Black Widow",
+    ])
   }
 
   if (ccRage == "High" || gtRage == "High" || dlRage == "High") {
@@ -122,9 +95,9 @@ function genSeriesObject(ccRage, gtRage, dlRage, charm) {
 
   const charms = ["Cherry", "Gnarled", "Stagnant"];
   const allCharmSeries = charms.map(charm => {
-      const charmSeries = {...baseSeries}
+      const charmSeries = JSON.parse(JSON.stringify(baseSeries))
       charmSeries.charm = utils.genVarField("charm", charm);
-      charmSeries.config[0].opts.include.push(charmMice[charm])
+      charmSeries.mice[0].opts.include.push(charmMice[charm])
       return charmSeries;
   });
 
@@ -132,17 +105,7 @@ function genSeriesObject(ccRage, gtRage, dlRage, charm) {
     ...allCharmSeries,
     {
       ...baseSeries,
-      charm: [
-        {
-          vars: {
-            charm: {
-              Stagnant: false,
-              Cherry: false,
-              Gnarled: false,
-            }
-          }
-        }
-      ]
+      charm: utils.genNegateVar("charm", charms),
     }
   ]
 }
@@ -153,7 +116,6 @@ function genSeriesObject(ccRage, gtRage, dlRage, charm) {
  * @return     {Array}  The configuration list.
  */
 function genSeries() {
-
   const rageLevels = ["Low", "Medium", "High"]
   const x = rageLevels.map(crazedRage => {
     return rageLevels.map(gnarledRage => {

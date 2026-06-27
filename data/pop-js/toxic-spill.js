@@ -12,6 +12,32 @@ var stages = [
   "Archduke/Archduchess"
 ];
 
+const allMice = [
+"Biohazard",
+"Bog Beast",
+"Gelatinous Octahedron",
+"Hazmat",
+"Lab Technician",
+"Monster Tail",
+"Mutant Mongrel",
+"Mutant Ninja",
+"Mutated Behemoth",
+"Mutated Siblings",
+"Outbreak Assassin",
+"Plague Hag",
+"Scrap Metal Monster",
+"Slimefist",
+"Sludge Soaker",
+"Sludge Swimmer",
+"Sludge",
+"Spore",
+"Swamp Runner",
+"Telekinetic Mutant",
+"Tentacle",
+"The Menace",
+"Toxic Warrior",
+]
+
 module.exports = {
   default: {
     location: utils.genVarField("location", "Toxic Spill")
@@ -19,52 +45,23 @@ module.exports = {
   series: [
     {
       cheese: utils.genVarField("cheese", cheeses),
-      charm: [
-        {
-          vars: {
-            charm: { Rotten: false, "Super Rotten": false }
-          }
-        }
-      ],
+      charm: utils.genNegateVar("charm", ["Rotten", "Super Rotten"]),
       phases: utils.genVarField("stage", stages),
-      config: [
-        {
-          opts: {
-            exclude: ["Lab Technician", "Hazmat"]
-          }
-        }
-      ]
+      miceInclude: utils.genInclude(allMice),
+      miceExclude: utils.genExclude(["Hazmat", "Lab Technician"])
     },
     {
       cheese: utils.genVarField("cheese", cheeses),
-      charm: [
-        {
-          vars: { charm: { Rotten: true } },
-          fields: {
-            charm: "Rotten"
-          }
-        }
-      ],
+      charm: utils.genVarField("charm", "Rotten"),
       phases: utils.genVarField("stage", stages),
-      config: [
-        {
-          opts: {
-            exclude: ["Hazmat"]
-          }
-        }
-      ]
+      miceInclude: utils.genInclude(allMice),
+      miceExclude: utils.genExclude(["Hazmat"])
     },
     {
       cheese: utils.genVarField("cheese", cheeses),
-      charm: [
-        {
-          vars: { charm: { "Super Rotten": true } },
-          fields: {
-            charm: "Super Rotten"
-          }
-        }
-      ],
-      phases: utils.genVarField("stage", stages)
+      charm: utils.genVarField("charm", "Super Rotten"),
+      phases: utils.genVarField("stage", stages),
+      miceInclude: utils.genInclude(allMice),
     }
   ],
   postProcess: function(data) {

@@ -131,6 +131,24 @@ module.exports = {
         },
       ],
     },
+
+    // Multi stage OR is helpful when combining cheese
+    {
+      config: [
+        {
+          vars: {
+            cheese: {
+              "Brie": true,
+              "Gouda": true,
+              "SB+": true
+            }
+          },
+          fields: {
+            cheese: "Brie/Gouda/SB+"
+          }
+        },
+      ],
+    },
   ],
   /**
    *
