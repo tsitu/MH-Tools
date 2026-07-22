@@ -15,7 +15,6 @@
 const fs = require("fs");
 const fileUtils = require("./file-utils");
 const request = require("request");
-const puppeteer = require("puppeteer");
 
 // GitHub-served raw JSON file URLs from gh-pages branch
 const overallURL =
@@ -24,6 +23,47 @@ const conciseURL =
   "https://tsitu.github.io/MH-Tools/data/json/sample-summary-concise.json";
 const detailedURL =
   "https://tsitu.github.io/MH-Tools/data/json/sample-summary-detailed.json";
+
+/**
+ * Add a unique query string to bypass edge/browser caches for GitHub Pages JSON
+ * @param {string} url
+ * @returns {string}
+ */
+function cacheBust(url) {
+  return `${url}?t=${Date.now()}`;
+}
+
+/**
+ * Fetch and parse JSON with explicit no-cache headers
+ * @param {string} url
+ * @returns {Promise<object>}
+ */
+function fetchJSON(url) {
+  return new Promise((resolve, reject) => {
+    request(
+      {
+        url: cacheBust(url),
+        headers: {
+          "Cache-Control": "no-cache, no-store, must-revalidate",
+          Pragma: "no-cache",
+          Expires: "0"
+        }
+      },
+      (error, response, body) => {
+        if (error) {
+          reject(error);
+          return;
+        }
+
+        try {
+          resolve(JSON.parse(body));
+        } catch (parseErr) {
+          reject(parseErr);
+        }
+      }
+    );
+  });
+}
 
 /**
  * Returns ideal sample size for 10% relative uncertainty at 95% level
@@ -253,127 +293,127 @@ function parseJSON() {
 
 function processOverall() {
   return new Promise((resolve, reject) => {
-    request(overallURL, (error, response, body) => {
-      if (error) throw error;
-      const obj = JSON.parse(body);
+    fetchJSON(overallURL)
+      .then(obj => {
 
-      // Compare overall summary scores
-      const currentOverallSS = +obj["score"];
-      const incomingOverallSS = +overallObj["score"];
+        // Compare overall summary scores
+        const currentOverallSS = +obj["score"];
+        const incomingOverallSS = +overallObj["score"];
 
-      console.log("----------------------------------------\n");
-      console.log(
-        `[ Overall Score Change ]\n\n ${currentOverallSS} (${scoreLabel(
-          currentOverallSS
-        )}) -> ${incomingOverallSS} (${scoreLabel(incomingOverallSS)})\n`
-      );
-      console.log("----------------------------------------\n");
+        console.log("----------------------------------------\n");
+        console.log(
+          `[ Overall Score Change ]\n\n ${currentOverallSS} (${scoreLabel(
+            currentOverallSS
+          )}) -> ${incomingOverallSS} (${scoreLabel(incomingOverallSS)})\n`
+        );
+        console.log("----------------------------------------\n");
 
-      resolve();
-    });
+        resolve();
+      })
+      .catch(reject);
   });
 }
 
 function processLocation() {
   return new Promise((resolve, reject) => {
-    request(conciseURL, (error, response, body) => {
-      if (error) throw error;
-      const obj = JSON.parse(body);
-      console.log("[ Changes By Location ]\n");
+    fetchJSON(conciseURL)
+      .then(obj => {
+        console.log("[ Changes By Location ]\n");
 
-      // Compare concise summaries
-      for (let el in conciseObj) {
-        if (!obj[el]) {
-          console.log(
-            `${el} (New Location)\n  Average Score: ${
-              conciseObj[el]["Average Score"]
-            }\n  Location Rating: ${
-              conciseObj[el]["Location Rating"]
-            }\n  Average Sample Size: ${
-              conciseObj[el]["Average Sample Size"]
-            }\n  Average Mice Count: ${conciseObj[el]["Average Mice Count"]}\n`
-          );
-        } else if (
-          conciseObj[el]["Average Score"] != obj[el]["Average Score"] ||
-          conciseObj[el]["Location Rating"] != obj[el]["Location Rating"] ||
-          conciseObj[el]["Average Sample Size"] !=
-            obj[el]["Average Sample Size"] ||
-          conciseObj[el]["Average Mice Count"] != obj[el]["Average Mice Count"]
-        ) {
-          console.log(
-            `${el}\n  Average Score: ${obj[el]["Average Score"]} -> ${
-              conciseObj[el]["Average Score"]
-            }\n  Location Rating: ${obj[el]["Location Rating"]} -> ${
-              conciseObj[el]["Location Rating"]
-            }\n  Average Sample Size: ${obj[el]["Average Sample Size"]} -> ${
-              conciseObj[el]["Average Sample Size"]
-            }\n  Average Mice Count: ${obj[el]["Average Mice Count"]} -> ${
-              conciseObj[el]["Average Mice Count"]
-            }\n`
-          );
+        // Compare concise summaries
+        for (let el in conciseObj) {
+          if (!obj[el]) {
+            console.log(
+              `${el} (New Location)\n  Average Score: ${
+                conciseObj[el]["Average Score"]
+              }\n  Location Rating: ${
+                conciseObj[el]["Location Rating"]
+              }\n  Average Sample Size: ${
+                conciseObj[el]["Average Sample Size"]
+              }\n  Average Mice Count: ${conciseObj[el]["Average Mice Count"]}\n`
+            );
+          } else if (
+            conciseObj[el]["Average Score"] != obj[el]["Average Score"] ||
+            conciseObj[el]["Location Rating"] != obj[el]["Location Rating"] ||
+            conciseObj[el]["Average Sample Size"] !=
+              obj[el]["Average Sample Size"] ||
+            conciseObj[el]["Average Mice Count"] != obj[el]["Average Mice Count"]
+          ) {
+            console.log(
+              `${el}\n  Average Score: ${obj[el]["Average Score"]} -> ${
+                conciseObj[el]["Average Score"]
+              }\n  Location Rating: ${obj[el]["Location Rating"]} -> ${
+                conciseObj[el]["Location Rating"]
+              }\n  Average Sample Size: ${obj[el]["Average Sample Size"]} -> ${
+                conciseObj[el]["Average Sample Size"]
+              }\n  Average Mice Count: ${obj[el]["Average Mice Count"]} -> ${
+                conciseObj[el]["Average Mice Count"]
+              }\n`
+            );
+          }
         }
-      }
-      console.log("----------------------------------------\n");
+        console.log("----------------------------------------\n");
 
-      resolve();
-    });
+        resolve();
+      })
+      .catch(reject);
   });
 }
 
 function processDetailed() {
   return new Promise((resolve, reject) => {
-    request(detailedURL, (error, response, body) => {
-      if (error) throw error;
-      const obj = JSON.parse(body);
-      console.log("[ Changes By Phase/Cheese/Charm ]\n");
+    fetchJSON(detailedURL)
+      .then(obj => {
+        console.log("[ Changes By Phase/Cheese/Charm ]\n");
 
-      // Compare detailed summaries
-      for (let loc in detailedObj) {
-        if (!obj[loc]) {
-          console.log(`${loc} (New Location)`);
-          for (let sub in detailedObj[loc]) {
-            console.log(
-              `${sub}\n  Score: ${
-                detailedObj[loc][sub]["score"]
-              }\n  Sample Size: ${
-                detailedObj[loc][sub]["sample"]
-              }\n  Mouse Count: ${detailedObj[loc][sub]["count"]}`
-            );
-          }
-          console.log("");
-        } else {
-          for (let sub in detailedObj[loc]) {
-            if (!obj[loc][sub]) {
-              // Log location every time?
+        // Compare detailed summaries
+        for (let loc in detailedObj) {
+          if (!obj[loc]) {
+            console.log(`${loc} (New Location)`);
+            for (let sub in detailedObj[loc]) {
               console.log(
-                `${loc}, ${sub} (New PCC)\n  Score: ${
+                `${sub}\n  Score: ${
                   detailedObj[loc][sub]["score"]
                 }\n  Sample Size: ${
                   detailedObj[loc][sub]["sample"]
-                }\n  Mouse Count: ${detailedObj[loc][sub]["count"]}\n`
+                }\n  Mouse Count: ${detailedObj[loc][sub]["count"]}`
               );
-            } else if (
-              detailedObj[loc][sub]["score"] != obj[loc][sub]["score"] ||
-              detailedObj[loc][sub]["sample"] != obj[loc][sub]["sample"] ||
-              detailedObj[loc][sub]["count"] != obj[loc][sub]["count"]
-            ) {
-              console.log(
-                `${loc}, ${sub}\n  Score: ${obj[loc][sub]["score"]} -> ${
-                  detailedObj[loc][sub]["score"]
-                }\n  Sample Size: ${obj[loc][sub]["sample"]} -> ${
-                  detailedObj[loc][sub]["sample"]
-                }\n  Mouse Count: ${obj[loc][sub]["count"]} -> ${
-                  detailedObj[loc][sub]["count"]
-                }\n`
-              );
+            }
+            console.log("");
+          } else {
+            for (let sub in detailedObj[loc]) {
+              if (!obj[loc][sub]) {
+                // Log location every time?
+                console.log(
+                  `${loc}, ${sub} (New PCC)\n  Score: ${
+                    detailedObj[loc][sub]["score"]
+                  }\n  Sample Size: ${
+                    detailedObj[loc][sub]["sample"]
+                  }\n  Mouse Count: ${detailedObj[loc][sub]["count"]}\n`
+                );
+              } else if (
+                detailedObj[loc][sub]["score"] != obj[loc][sub]["score"] ||
+                detailedObj[loc][sub]["sample"] != obj[loc][sub]["sample"] ||
+                detailedObj[loc][sub]["count"] != obj[loc][sub]["count"]
+              ) {
+                console.log(
+                  `${loc}, ${sub}\n  Score: ${obj[loc][sub]["score"]} -> ${
+                    detailedObj[loc][sub]["score"]
+                  }\n  Sample Size: ${obj[loc][sub]["sample"]} -> ${
+                    detailedObj[loc][sub]["sample"]
+                  }\n  Mouse Count: ${obj[loc][sub]["count"]} -> ${
+                    detailedObj[loc][sub]["count"]
+                  }\n`
+                );
+              }
             }
           }
         }
-      }
-      console.log("----------------------------------------");
+        console.log("----------------------------------------");
 
-      resolve();
-    });
+        resolve();
+      })
+      .catch(reject);
   });
 }
 
@@ -382,20 +422,6 @@ function processDetailed() {
  * Consistent console.log ordering by using separate functions and chaining
  */
 async function calculateDiffs() {
-  // Force update raw JSON files on GitHub using Puppeteer
-  const browser = await puppeteer.launch({
-    args: ["--no-sandbox", "--disable-setuid-sandbox"]
-    // executablePath:
-    //   "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
-  });
-  const overallPage = await browser.newPage();
-  const concisePage = await browser.newPage();
-  const detailedPage = await browser.newPage();
-  await overallPage.goto(overallURL);
-  await concisePage.goto(conciseURL);
-  await detailedPage.goto(detailedURL);
-  await browser.close();
-
   await processOverall();
   await processLocation();
   await processDetailed();

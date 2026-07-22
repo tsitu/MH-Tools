@@ -1,83 +1,117 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Fungal Cavern","-","SB+","-","14.57%","Funglore",32332
-"Fungal Cavern","-","SB+","-","13.99%","Lumahead",32332
-"Fungal Cavern","-","SB+","-","12.08%","Mush",32332
-"Fungal Cavern","-","SB+","-","11.92%","Floating Spore",32332
-"Fungal Cavern","-","SB+","-","11.82%","Quillback",32332
-"Fungal Cavern","-","SB+","-","9.01%","Mushroom Sprite",32332
-"Fungal Cavern","-","SB+","-","7.97%","Nightshade Masquerade",32332
-"Fungal Cavern","-","SB+","-","7.96%","Bitter Root",32332
-"Fungal Cavern","-","SB+","-","6.80%","Spiked Burrower",32332
-"Fungal Cavern","-","SB+","-","1.89%","Sporeticus",32332
-"Fungal Cavern","-","SB+","-","1.04%","Mouldy Mole",32332
-"Fungal Cavern","-","SB+","-","0.95%","Spore Muncher",32332
-"Fungal Cavern","-","Gouda","-","14.81%","Funglore",121216
-"Fungal Cavern","-","Gouda","-","14.78%","Mush",121216
-"Fungal Cavern","-","Gouda","-","13.85%","Floating Spore",121216
-"Fungal Cavern","-","Gouda","-","13.76%","Lumahead",121216
-"Fungal Cavern","-","Gouda","-","11.93%","Quillback",121216
-"Fungal Cavern","-","Gouda","-","10.06%","Mushroom Sprite",121216
-"Fungal Cavern","-","Gouda","-","8.07%","Bitter Root",121216
-"Fungal Cavern","-","Gouda","-","6.85%","Spiked Burrower",121216
-"Fungal Cavern","-","Gouda","-","2.01%","Sporeticus",121216
-"Fungal Cavern","-","Gouda","-","1.94%","Mouldy Mole",121216
-"Fungal Cavern","-","Gouda","-","1.92%","Spore Muncher",121216
-"Fungal Cavern","-","Brie","-","14.41%","Mush",13383
-"Fungal Cavern","-","Brie","-","12.60%","Quillback",13383
-"Fungal Cavern","-","Brie","-","12.42%","Lumahead",13383
-"Fungal Cavern","-","Brie","-","10.21%","Floating Spore",13383
-"Fungal Cavern","-","Brie","-","9.99%","Funglore",13383
-"Fungal Cavern","-","Brie","-","8.48%","Mushroom Sprite",13383
-"Fungal Cavern","-","Brie","-","8.48%","Bitter Root",13383
-"Fungal Cavern","-","Brie","-","7.15%","Spiked Burrower",13383
-"Fungal Cavern","-","Brie","-","5.94%","Sporeticus",13383
-"Fungal Cavern","-","Brie","-","5.44%","Mouldy Mole",13383
-"Fungal Cavern","-","Brie","-","4.89%","Spore Muncher",13383
-"Fungal Cavern","Gemology Base","Glowing Gruyere","-","24.77%","Dirt Thing",6185
-"Fungal Cavern","Gemology Base","Glowing Gruyere","-","24.28%","Crystalline Slasher",6185
-"Fungal Cavern","Gemology Base","Glowing Gruyere","-","15.55%","Crag Elder",6185
-"Fungal Cavern","Gemology Base","Glowing Gruyere","-","10.90%","Stone Maiden",6185
-"Fungal Cavern","Gemology Base","Glowing Gruyere","-","9.96%","Splintered Stone Sentry",6185
-"Fungal Cavern","Gemology Base","Glowing Gruyere","-","9.83%","Shattered Obsidian",6185
-"Fungal Cavern","Gemology Base","Glowing Gruyere","-","4.70%","Gemstone Worshipper",6185
-"Fungal Cavern","Not Gemology","Glowing Gruyere","-","19.94%","Crag Elder",88882
-"Fungal Cavern","Not Gemology","Glowing Gruyere","-","19.73%","Stone Maiden",88882
-"Fungal Cavern","Not Gemology","Glowing Gruyere","-","17.87%","Dirt Thing",88882
-"Fungal Cavern","Not Gemology","Glowing Gruyere","-","17.69%","Crystalline Slasher",88882
-"Fungal Cavern","Not Gemology","Glowing Gruyere","-","12.91%","Cavern Crumbler",88882
-"Fungal Cavern","Not Gemology","Glowing Gruyere","-","5.95%","Shattered Obsidian",88882
-"Fungal Cavern","Not Gemology","Glowing Gruyere","-","3.97%","Splintered Stone Sentry",88882
-"Fungal Cavern","Not Gemology","Glowing Gruyere","-","1.93%","Gemstone Worshipper",88882
-"Fungal Cavern","Gemology Base","Mineral","-","32.31%","Crystal Controller",4639
-"Fungal Cavern","Gemology Base","Mineral","-","30.63%","Crystalback",4639
-"Fungal Cavern","Gemology Base","Mineral","-","21.34%","Stalagmite",4639
-"Fungal Cavern","Gemology Base","Mineral","-","9.36%","Crystal Cave Worm",4639
-"Fungal Cavern","Gemology Base","Mineral","-","2.24%","Crystal Lurker",4639
-"Fungal Cavern","Gemology Base","Mineral","-","2.07%","Crystal Observer",4639
-"Fungal Cavern","Gemology Base","Mineral","-","2.05%","Crystal Queen",4639
-"Fungal Cavern","Not Gemology","Mineral","-","27.79%","Gemorpher",49202
-"Fungal Cavern","Not Gemology","Mineral","-","24.84%","Crystal Controller",49202
-"Fungal Cavern","Not Gemology","Mineral","-","23.53%","Crystalback",49202
-"Fungal Cavern","Not Gemology","Mineral","-","14.78%","Stalagmite",49202
-"Fungal Cavern","Not Gemology","Mineral","-","6.13%","Crystal Cave Worm",49202
-"Fungal Cavern","Not Gemology","Mineral","-","1.00%","Crystal Queen",49202
-"Fungal Cavern","Not Gemology","Mineral","-","0.98%","Crystal Observer",49202
-"Fungal Cavern","Not Gemology","Mineral","-","0.95%","Crystal Lurker",49202
-"Fungal Cavern","Gemology Base","Gemstone","-","33.40%","Crystal Golem",4677
-"Fungal Cavern","Gemology Base","Gemstone","-","28.27%","Crystal Queen",4677
-"Fungal Cavern","Gemology Base","Gemstone","-","19.29%","Crystal Lurker",4677
-"Fungal Cavern","Gemology Base","Gemstone","-","15.03%","Crystal Observer",4677
-"Fungal Cavern","Gemology Base","Gemstone","-","2.10%","Diamondhide",4677
-"Fungal Cavern","Gemology Base","Gemstone","-","1.92%","Huntereater",4677
-"Fungal Cavern","Not Gemology","Gemstone","-","37.25%","Crystal Queen",40935
-"Fungal Cavern","Not Gemology","Gemstone","-","29.46%","Crystal Lurker",40935
-"Fungal Cavern","Not Gemology","Gemstone","-","24.59%","Crystal Observer",40935
-"Fungal Cavern","Not Gemology","Gemstone","-","6.79%","Crystal Golem",40935
-"Fungal Cavern","Not Gemology","Gemstone","-","0.97%","Diamondhide",40935
-"Fungal Cavern","Not Gemology","Gemstone","-","0.94%","Huntereater",40935
-"Fungal Cavern","Gemology Base","Diamond","-","67.14%","Crystal Behemoth",703
-"Fungal Cavern","Gemology Base","Diamond","-","23.19%","Huntereater",703
-"Fungal Cavern","Gemology Base","Diamond","-","9.67%","Diamondhide",703
-"Fungal Cavern","Not Gemology","Diamond","-","67.43%","Crystal Behemoth",27732
-"Fungal Cavern","Not Gemology","Diamond","-","24.59%","Huntereater",27732
-"Fungal Cavern","Not Gemology","Diamond","-","7.98%","Diamondhide",27732
+"Fungal Cavern","Gemology Base","SB+","-","15.96%","Funglore",727
+"Fungal Cavern","Gemology Base","SB+","-","14.17%","Mush",727
+"Fungal Cavern","Gemology Base","SB+","-","12.52%","Lumahead",727
+"Fungal Cavern","Gemology Base","SB+","-","10.45%","Quillback",727
+"Fungal Cavern","Gemology Base","SB+","-","10.32%","Floating Spore",727
+"Fungal Cavern","Gemology Base","SB+","-","9.08%","Bitter Root",727
+"Fungal Cavern","Gemology Base","SB+","-","9.08%","Nightshade Masquerade",727
+"Fungal Cavern","Gemology Base","SB+","-","7.84%","Mushroom Sprite",727
+"Fungal Cavern","Gemology Base","SB+","-","6.60%","Spiked Burrower",727
+"Fungal Cavern","Gemology Base","SB+","-","1.65%","Sporeticus",727
+"Fungal Cavern","Gemology Base","SB+","-","1.24%","Mouldy Mole",727
+"Fungal Cavern","Gemology Base","SB+","-","1.10%","Spore Muncher",727
+"Fungal Cavern","Gemology Base","Gouda","-","15.27%","Funglore",5559
+"Fungal Cavern","Gemology Base","Gouda","-","14.23%","Mush",5559
+"Fungal Cavern","Gemology Base","Gouda","-","14.07%","Floating Spore",5559
+"Fungal Cavern","Gemology Base","Gouda","-","13.87%","Lumahead",5559
+"Fungal Cavern","Gemology Base","Gouda","-","11.23%","Quillback",5559
+"Fungal Cavern","Gemology Base","Gouda","-","9.98%","Mushroom Sprite",5559
+"Fungal Cavern","Gemology Base","Gouda","-","8.11%","Bitter Root",5559
+"Fungal Cavern","Gemology Base","Gouda","-","7.32%","Spiked Burrower",5559
+"Fungal Cavern","Gemology Base","Gouda","-","2.25%","Sporeticus",5559
+"Fungal Cavern","Gemology Base","Gouda","-","1.94%","Spore Muncher",5559
+"Fungal Cavern","Gemology Base","Gouda","-","1.73%","Mouldy Mole",5559
+"Fungal Cavern","Gemology Base","Brie","-","14.79%","Mush",311
+"Fungal Cavern","Gemology Base","Brie","-","13.18%","Quillback",311
+"Fungal Cavern","Gemology Base","Brie","-","12.54%","Lumahead",311
+"Fungal Cavern","Gemology Base","Brie","-","11.25%","Funglore",311
+"Fungal Cavern","Gemology Base","Brie","-","10.61%","Floating Spore",311
+"Fungal Cavern","Gemology Base","Brie","-","10.61%","Bitter Root",311
+"Fungal Cavern","Gemology Base","Brie","-","7.72%","Mushroom Sprite",311
+"Fungal Cavern","Gemology Base","Brie","-","7.07%","Spiked Burrower",311
+"Fungal Cavern","Gemology Base","Brie","-","4.18%","Mouldy Mole",311
+"Fungal Cavern","Gemology Base","Brie","-","4.18%","Sporeticus",311
+"Fungal Cavern","Gemology Base","Brie","-","3.86%","Spore Muncher",311
+"Fungal Cavern","Not Gemology","SB+","-","14.54%","Funglore",31612
+"Fungal Cavern","Not Gemology","SB+","-","14.02%","Lumahead",31612
+"Fungal Cavern","Not Gemology","SB+","-","12.03%","Mush",31612
+"Fungal Cavern","Not Gemology","SB+","-","11.96%","Floating Spore",31612
+"Fungal Cavern","Not Gemology","SB+","-","11.85%","Quillback",31612
+"Fungal Cavern","Not Gemology","SB+","-","9.03%","Mushroom Sprite",31612
+"Fungal Cavern","Not Gemology","SB+","-","7.95%","Nightshade Masquerade",31612
+"Fungal Cavern","Not Gemology","SB+","-","7.94%","Bitter Root",31612
+"Fungal Cavern","Not Gemology","SB+","-","6.80%","Spiked Burrower",31612
+"Fungal Cavern","Not Gemology","SB+","-","1.90%","Sporeticus",31612
+"Fungal Cavern","Not Gemology","SB+","-","1.03%","Mouldy Mole",31612
+"Fungal Cavern","Not Gemology","SB+","-","0.95%","Spore Muncher",31612
+"Fungal Cavern","Not Gemology","Gouda","-","14.81%","Mush",115792
+"Fungal Cavern","Not Gemology","Gouda","-","14.79%","Funglore",115792
+"Fungal Cavern","Not Gemology","Gouda","-","13.85%","Floating Spore",115792
+"Fungal Cavern","Not Gemology","Gouda","-","13.76%","Lumahead",115792
+"Fungal Cavern","Not Gemology","Gouda","-","11.96%","Quillback",115792
+"Fungal Cavern","Not Gemology","Gouda","-","10.07%","Mushroom Sprite",115792
+"Fungal Cavern","Not Gemology","Gouda","-","8.07%","Bitter Root",115792
+"Fungal Cavern","Not Gemology","Gouda","-","6.83%","Spiked Burrower",115792
+"Fungal Cavern","Not Gemology","Gouda","-","2.00%","Sporeticus",115792
+"Fungal Cavern","Not Gemology","Gouda","-","1.94%","Mouldy Mole",115792
+"Fungal Cavern","Not Gemology","Gouda","-","1.93%","Spore Muncher",115792
+"Fungal Cavern","Not Gemology","Brie","-","14.41%","Mush",13160
+"Fungal Cavern","Not Gemology","Brie","-","12.58%","Quillback",13160
+"Fungal Cavern","Not Gemology","Brie","-","12.42%","Lumahead",13160
+"Fungal Cavern","Not Gemology","Brie","-","10.21%","Floating Spore",13160
+"Fungal Cavern","Not Gemology","Brie","-","9.94%","Funglore",13160
+"Fungal Cavern","Not Gemology","Brie","-","8.49%","Mushroom Sprite",13160
+"Fungal Cavern","Not Gemology","Brie","-","8.47%","Bitter Root",13160
+"Fungal Cavern","Not Gemology","Brie","-","7.14%","Spiked Burrower",13160
+"Fungal Cavern","Not Gemology","Brie","-","5.97%","Sporeticus",13160
+"Fungal Cavern","Not Gemology","Brie","-","5.48%","Mouldy Mole",13160
+"Fungal Cavern","Not Gemology","Brie","-","4.91%","Spore Muncher",13160
+"Fungal Cavern","Gemology Base","Glowing Gruyere","-","24.76%","Dirt Thing",6188
+"Fungal Cavern","Gemology Base","Glowing Gruyere","-","24.29%","Crystalline Slasher",6188
+"Fungal Cavern","Gemology Base","Glowing Gruyere","-","15.55%","Crag Elder",6188
+"Fungal Cavern","Gemology Base","Glowing Gruyere","-","10.91%","Stone Maiden",6188
+"Fungal Cavern","Gemology Base","Glowing Gruyere","-","9.95%","Splintered Stone Sentry",6188
+"Fungal Cavern","Gemology Base","Glowing Gruyere","-","9.83%","Shattered Obsidian",6188
+"Fungal Cavern","Gemology Base","Glowing Gruyere","-","4.72%","Gemstone Worshipper",6188
+"Fungal Cavern","Not Gemology","Glowing Gruyere","-","19.94%","Crag Elder",88912
+"Fungal Cavern","Not Gemology","Glowing Gruyere","-","19.73%","Stone Maiden",88912
+"Fungal Cavern","Not Gemology","Glowing Gruyere","-","17.87%","Dirt Thing",88912
+"Fungal Cavern","Not Gemology","Glowing Gruyere","-","17.68%","Crystalline Slasher",88912
+"Fungal Cavern","Not Gemology","Glowing Gruyere","-","12.92%","Cavern Crumbler",88912
+"Fungal Cavern","Not Gemology","Glowing Gruyere","-","5.95%","Shattered Obsidian",88912
+"Fungal Cavern","Not Gemology","Glowing Gruyere","-","3.97%","Splintered Stone Sentry",88912
+"Fungal Cavern","Not Gemology","Glowing Gruyere","-","1.93%","Gemstone Worshipper",88912
+"Fungal Cavern","Gemology Base","Mineral","-","32.41%","Crystal Controller",4650
+"Fungal Cavern","Gemology Base","Mineral","-","30.56%","Crystalback",4650
+"Fungal Cavern","Gemology Base","Mineral","-","21.31%","Stalagmite",4650
+"Fungal Cavern","Gemology Base","Mineral","-","9.35%","Crystal Cave Worm",4650
+"Fungal Cavern","Gemology Base","Mineral","-","2.24%","Crystal Lurker",4650
+"Fungal Cavern","Gemology Base","Mineral","-","2.06%","Crystal Observer",4650
+"Fungal Cavern","Gemology Base","Mineral","-","2.06%","Crystal Queen",4650
+"Fungal Cavern","Not Gemology","Mineral","-","27.78%","Gemorpher",49293
+"Fungal Cavern","Not Gemology","Mineral","-","24.86%","Crystal Controller",49293
+"Fungal Cavern","Not Gemology","Mineral","-","23.54%","Crystalback",49293
+"Fungal Cavern","Not Gemology","Mineral","-","14.76%","Stalagmite",49293
+"Fungal Cavern","Not Gemology","Mineral","-","6.13%","Crystal Cave Worm",49293
+"Fungal Cavern","Not Gemology","Mineral","-","1.00%","Crystal Queen",49293
+"Fungal Cavern","Not Gemology","Mineral","-","0.98%","Crystal Observer",49293
+"Fungal Cavern","Not Gemology","Mineral","-","0.95%","Crystal Lurker",49293
+"Fungal Cavern","Gemology Base","Gemstone","-","33.44%","Crystal Golem",4686
+"Fungal Cavern","Gemology Base","Gemstone","-","28.21%","Crystal Queen",4686
+"Fungal Cavern","Gemology Base","Gemstone","-","19.27%","Crystal Lurker",4686
+"Fungal Cavern","Gemology Base","Gemstone","-","15.07%","Crystal Observer",4686
+"Fungal Cavern","Gemology Base","Gemstone","-","2.09%","Diamondhide",4686
+"Fungal Cavern","Gemology Base","Gemstone","-","1.92%","Huntereater",4686
+"Fungal Cavern","Not Gemology","Gemstone","-","37.25%","Crystal Queen",40960
+"Fungal Cavern","Not Gemology","Gemstone","-","29.47%","Crystal Lurker",40960
+"Fungal Cavern","Not Gemology","Gemstone","-","24.59%","Crystal Observer",40960
+"Fungal Cavern","Not Gemology","Gemstone","-","6.79%","Crystal Golem",40960
+"Fungal Cavern","Not Gemology","Gemstone","-","0.97%","Diamondhide",40960
+"Fungal Cavern","Not Gemology","Gemstone","-","0.94%","Huntereater",40960
+"Fungal Cavern","Gemology Base","Diamond","-","67.37%","Crystal Behemoth",708
+"Fungal Cavern","Gemology Base","Diamond","-","23.02%","Huntereater",708
+"Fungal Cavern","Gemology Base","Diamond","-","9.60%","Diamondhide",708
+"Fungal Cavern","Not Gemology","Diamond","-","67.42%","Crystal Behemoth",27827
+"Fungal Cavern","Not Gemology","Diamond","-","24.59%","Huntereater",27827
+"Fungal Cavern","Not Gemology","Diamond","-","7.99%","Diamondhide",27827

@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-  pull_request_target:
+  pull_request:
   workflow_dispatch:
   workflow_call:
   schedule:
@@ -22,33 +22,21 @@ jobs:
     permissions:
       contents: read
     steps:
-
-    - name: Checkout PR
-      if: ${{ github.event_name == 'pull_request_target' }}
-      uses: actions/checkout@v4
-      with:
-        ref: ${{ github.event.pull_request.head.ref }}
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
-
     - name: Checkout
-      if: ${{ github.event_name != 'pull_request_target' }}
-      uses: actions/checkout@v4
-      with:
-        ref: master
+      uses: actions/checkout@v7
 
     - name: Setup Pages
-      uses: actions/configure-pages@v4
+      uses: actions/configure-pages@v6
     - name: Use Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v7
       with:
-        node-version: 22
+        node-version: 24
         cache: npm
     - name: Update npm to latest
       run: npm i --prefer-online --no-fund --no-audit -g npm@latest
     - run: npm -v
     - run: npm i --ignore-scripts --no-audit --no-fund --package-lock
 
-    - run: npm run puppeteer
     - run: npm run build
     - run: npm run timestamp
       env:
@@ -57,12 +45,12 @@ jobs:
     - run: ./build/deploy.sh
 
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v5
       with:
         path: './out'
 
   deploy:
-    if: ${{ github.event_name != 'pull_request_target' && contains(fromJSON('["refs/heads/master", "refs/heads/main"]'), github.ref) }}
+    if: ${{ contains(fromJSON('["refs/heads/master", "refs/heads/main"]'), github.ref) }}
     runs-on: ubuntu-latest
     needs: build
     environment:
@@ -76,7 +64,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
         # internal-only alpha, not available yet: https://github.com/actions/deploy-pages/pull/61
         # with:
         #   preview: ${{ github.event_name == 'pull_request_target' }}
