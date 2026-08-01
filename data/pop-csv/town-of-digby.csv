@@ -1,13 +1,13 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Town of Digby","-","Brie","-","24.46%","Bionic",3499
-"Town of Digby","-","Brie","-","23.46%","Granite",3499
-"Town of Digby","-","Brie","-","20.81%","Steel",3499
-"Town of Digby","-","Brie","-","10.00%","Dwarf",3499
-"Town of Digby","-","Brie","-","6.54%","Gold",3499
-"Town of Digby","-","Brie","-","6.49%","Zombie",3499
-"Town of Digby","-","Brie","-","6.29%","Diamond",3499
-"Town of Digby","-","Brie","-","1.43%","Bat",3499
-"Town of Digby","-","Brie","-","0.51%","Mole",3499
+"Town of Digby","-","Brie","-","24.46%","Bionic",3500
+"Town of Digby","-","Brie","-","23.49%","Granite",3500
+"Town of Digby","-","Brie","-","20.80%","Steel",3500
+"Town of Digby","-","Brie","-","10.00%","Dwarf",3500
+"Town of Digby","-","Brie","-","6.54%","Gold",3500
+"Town of Digby","-","Brie","-","6.49%","Zombie",3500
+"Town of Digby","-","Brie","-","6.29%","Diamond",3500
+"Town of Digby","-","Brie","-","1.43%","Bat",3500
+"Town of Digby","-","Brie","-","0.51%","Mole",3500
 "Town of Digby","-","Gouda","-","24.25%","Bionic",4611
 "Town of Digby","-","Gouda","-","22.88%","Granite",4611
 "Town of Digby","-","Gouda","-","20.82%","Steel",4611
@@ -17,36 +17,36 @@
 "Town of Digby","-","Gouda","-","6.16%","Diamond",4611
 "Town of Digby","-","Gouda","-","0.91%","Bat",4611
 "Town of Digby","-","Gouda","-","0.43%","Mole",4611
-"Town of Digby","-","SB+","-","23.14%","Bionic",12610
-"Town of Digby","-","SB+","-","20.97%","Granite",12610
-"Town of Digby","-","SB+","-","18.84%","Steel",12610
-"Town of Digby","-","SB+","-","11.89%","Zombie",12610
-"Town of Digby","-","SB+","-","10.25%","Dwarf",12610
-"Town of Digby","-","SB+","-","5.79%","Diamond",12610
-"Town of Digby","-","SB+","-","5.38%","Gold",12610
-"Town of Digby","-","SB+","-","1.36%","Mole",12610
-"Town of Digby","-","SB+","-","0.96%","Bat",12610
-"Town of Digby","-","SB+","-","0.95%","Nibbler",12610
-"Town of Digby","-","SB+","-","0.47%","Black Widow",12610
-"Town of Digby","-","Limelight","-","15.71%","Industrious Digger",151384
-"Town of Digby","-","Limelight","-","13.70%","Stone Cutter",151384
-"Town of Digby","-","Limelight","-","11.72%","Demolitions",151384
-"Town of Digby","-","Limelight","-","10.39%","Itty-Bitty Burroughs",151384
-"Town of Digby","-","Limelight","-","9.89%","Miner",151384
-"Town of Digby","-","Limelight","-","9.86%","Core Sample",151384
-"Town of Digby","-","Limelight","-","9.75%","Rock Muncher",151384
-"Town of Digby","-","Limelight","-","7.94%","Lambent Crystal",151384
-"Town of Digby","-","Limelight","-","5.66%","Big Bad Burroughs",151384
-"Town of Digby","-","Limelight","-","4.90%","Subterranean",151384
-"Town of Digby","-","Limelight","-","0.47%","Nugget",151384
-"Town of Digby","-","Limelight","Mining","14.66%","Industrious Digger",52657
-"Town of Digby","-","Limelight","Mining","14.48%","Itty-Bitty Burroughs",52657
-"Town of Digby","-","Limelight","Mining","12.79%","Stone Cutter",52657
-"Town of Digby","-","Limelight","Mining","10.93%","Demolitions",52657
-"Town of Digby","-","Limelight","Mining","9.19%","Rock Muncher",52657
-"Town of Digby","-","Limelight","Mining","9.01%","Miner",52657
-"Town of Digby","-","Limelight","Mining","8.97%","Core Sample",52657
-"Town of Digby","-","Limelight","Mining","7.79%","Big Bad Burroughs",52657
-"Town of Digby","-","Limelight","Mining","7.31%","Lambent Crystal",52657
-"Town of Digby","-","Limelight","Mining","4.44%","Subterranean",52657
-"Town of Digby","-","Limelight","Mining","0.44%","Nugget",52657
+"Town of Digby","-","SB+","-","23.14%","Bionic",12640
+"Town of Digby","-","SB+","-","20.97%","Granite",12640
+"Town of Digby","-","SB+","-","18.88%","Steel",12640
+"Town of Digby","-","SB+","-","11.88%","Zombie",12640
+"Town of Digby","-","SB+","-","10.24%","Dwarf",12640
+"Town of Digby","-","SB+","-","5.78%","Diamond",12640
+"Town of Digby","-","SB+","-","5.39%","Gold",12640
+"Town of Digby","-","SB+","-","1.36%","Mole",12640
+"Town of Digby","-","SB+","-","0.96%","Bat",12640
+"Town of Digby","-","SB+","-","0.95%","Nibbler",12640
+"Town of Digby","-","SB+","-","0.47%","Black Widow",12640
+"Town of Digby","-","Limelight","-","15.72%","Industrious Digger",152484
+"Town of Digby","-","Limelight","-","13.71%","Stone Cutter",152484
+"Town of Digby","-","Limelight","-","11.71%","Demolitions",152484
+"Town of Digby","-","Limelight","-","10.39%","Itty-Bitty Burroughs",152484
+"Town of Digby","-","Limelight","-","9.89%","Miner",152484
+"Town of Digby","-","Limelight","-","9.87%","Core Sample",152484
+"Town of Digby","-","Limelight","-","9.74%","Rock Muncher",152484
+"Town of Digby","-","Limelight","-","7.95%","Lambent Crystal",152484
+"Town of Digby","-","Limelight","-","5.66%","Big Bad Burroughs",152484
+"Town of Digby","-","Limelight","-","4.89%","Subterranean",152484
+"Town of Digby","-","Limelight","-","0.48%","Nugget",152484
+"Town of Digby","-","Limelight","Mining","14.66%","Industrious Digger",52926
+"Town of Digby","-","Limelight","Mining","14.48%","Itty-Bitty Burroughs",52926
+"Town of Digby","-","Limelight","Mining","12.79%","Stone Cutter",52926
+"Town of Digby","-","Limelight","Mining","10.92%","Demolitions",52926
+"Town of Digby","-","Limelight","Mining","9.20%","Rock Muncher",52926
+"Town of Digby","-","Limelight","Mining","9.01%","Miner",52926
+"Town of Digby","-","Limelight","Mining","8.97%","Core Sample",52926
+"Town of Digby","-","Limelight","Mining","7.78%","Big Bad Burroughs",52926
+"Town of Digby","-","Limelight","Mining","7.32%","Lambent Crystal",52926
+"Town of Digby","-","Limelight","Mining","4.43%","Subterranean",52926
+"Town of Digby","-","Limelight","Mining","0.44%","Nugget",52926

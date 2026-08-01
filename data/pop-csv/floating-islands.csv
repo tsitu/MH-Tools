@@ -1,281 +1,281 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Floating Islands","Launch Pad","SB+","-","34.25%","Cloud Miner",35029
-"Floating Islands","Launch Pad","SB+","-","31.03%","Launchpad Labourer",35029
-"Floating Islands","Launch Pad","SB+","-","20.65%","Skydiver",35029
-"Floating Islands","Launch Pad","SB+","-","14.08%","Sky Greaser",35029
-"Floating Islands","Launch Pad","Gouda","-","40.71%","Launchpad Labourer",158010
-"Floating Islands","Launch Pad","Gouda","-","37.58%","Sky Greaser",158010
-"Floating Islands","Launch Pad","Gouda","-","21.70%","Skydiver",158010
-"Floating Islands","Low|High - 1x Pirates","Sky Pirate Swiss","-","50.61%","Suave Pirate",28636
-"Floating Islands","Low|High - 1x Pirates","Sky Pirate Swiss","-","29.97%","Cutthroat Pirate",28636
-"Floating Islands","Low|High - 1x Pirates","Sky Pirate Swiss","-","19.41%","Cutthroat Cannoneer",28636
-"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","26.65%","Mairitime Pirate",204822
-"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","19.97%","Scarlet Revenger",204822
-"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","19.86%","Admiral Cloudbeard",204822
-"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","13.23%","Cutthroat Pirate",204822
-"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","10.34%","Suave Pirate",204822
-"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","9.95%","Cutthroat Cannoneer",204822
-"Floating Islands","Palace - 1x Pirates","Sky Pirate Swiss","-","50.09%","Suave Pirate",3160
-"Floating Islands","Palace - 1x Pirates","Sky Pirate Swiss","-","30.44%","Cutthroat Pirate",3160
-"Floating Islands","Palace - 1x Pirates","Sky Pirate Swiss","-","19.46%","Cutthroat Cannoneer",3160
-"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","27.62%","Mairitime Pirate",4127
-"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","19.89%","Admiral Cloudbeard",4127
-"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","19.82%","Scarlet Revenger",4127
-"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","13.35%","Cutthroat Pirate",4127
-"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","9.91%","Suave Pirate",4127
-"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","9.40%","Cutthroat Cannoneer",4127
-"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","20.35%","Peggy the Plunderer",8604
-"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","20.20%","Mairitime Pirate",8604
-"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","19.49%","Admiral Cloudbeard",8604
-"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","14.70%","Scarlet Revenger",8604
-"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","9.95%","Cutthroat Pirate",8604
-"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","7.68%","Suave Pirate",8604
-"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","7.62%","Cutthroat Cannoneer",8604
-"Floating Islands","Palace - 4x Pirates","Sky Pirate Swiss","-","39.50%","Peggy the Plunderer",49265
-"Floating Islands","Palace - 4x Pirates","Sky Pirate Swiss","-","23.12%","Mairitime Pirate",49265
-"Floating Islands","Palace - 4x Pirates","Sky Pirate Swiss","-","20.03%","Admiral Cloudbeard",49265
-"Floating Islands","Palace - 4x Pirates","Sky Pirate Swiss","-","17.34%","Scarlet Revenger",49265
-"Floating Islands","Empress","SB+","-","100.00%","Empyrean Empress",228
-"Floating Islands","Empress","Cloud Cheesecake","-","100.00%","Empyrean Empress",2109
-"Floating Islands","Empress","Extra Rich Cloud Cheesecake","-","100.00%","Empyrean Empress",16057
-"Floating Islands","Arcane Low","SB+","-","49.19%","Kite Flyer",431
-"Floating Islands","Arcane Low","SB+","-","38.98%","Daydreamer",431
-"Floating Islands","Arcane Low","SB+","-","6.26%","Sky Glass Sorcerer",431
-"Floating Islands","Arcane Low","SB+","-","5.57%","Sky Glass Glazier",431
-"Floating Islands","Arcane Low","Gouda","-","50.90%","Daydreamer",4774
-"Floating Islands","Arcane Low","Gouda","-","40.18%","Kite Flyer",4774
-"Floating Islands","Arcane Low","Gouda","-","4.50%","Sky Glass Glazier",4774
-"Floating Islands","Arcane Low","Gouda","-","4.42%","Sky Glass Sorcerer",4774
-"Floating Islands","Arcane High","Gouda","-","50.43%","Daydreamer",587
-"Floating Islands","Arcane High","Gouda","-","41.57%","Kite Flyer",587
-"Floating Islands","Arcane High","Gouda","-","4.09%","Sky Glass Sorcerer",587
-"Floating Islands","Arcane High","Gouda","-","3.92%","Sky Glass Glazier",587
-"Floating Islands","Arcane Low","Cloud Cheesecake","-","29.73%","Sky Glass Glazier",438943
-"Floating Islands","Arcane Low","Cloud Cheesecake","-","20.81%","Sky Dancer",438943
-"Floating Islands","Arcane Low","Cloud Cheesecake","-","20.32%","Sky Glass Sorcerer",438943
-"Floating Islands","Arcane Low","Cloud Cheesecake","-","18.83%","Kite Flyer",438943
-"Floating Islands","Arcane Low","Cloud Cheesecake","-","10.32%","Daydreamer",438943
-"Floating Islands","Arcane High","Cloud Cheesecake","-","34.71%","Sky Highborne",156196
-"Floating Islands","Arcane High","Cloud Cheesecake","-","24.58%","Sky Glass Glazier",156196
-"Floating Islands","Arcane High","Cloud Cheesecake","-","20.86%","Sky Glass Sorcerer",156196
-"Floating Islands","Arcane High","Cloud Cheesecake","-","19.84%","Sky Dancer",156196
-"Floating Islands","Arcane Palace","Cloud Cheesecake","-","41.09%","Daydreamer",842
-"Floating Islands","Arcane Palace","Cloud Cheesecake","-","40.97%","Kite Flyer",842
-"Floating Islands","Arcane Palace","Cloud Cheesecake","-","9.74%","Sky Glass Glazier",842
-"Floating Islands","Arcane Palace","Cloud Cheesecake","-","8.19%","Sky Glass Sorcerer",842
-"Floating Islands","Arcane Palace - 4x Emp Seal","Cloud Cheesecake","-","46.96%","Daydreamer",115
-"Floating Islands","Arcane Palace - 4x Emp Seal","Cloud Cheesecake","-","40.00%","Kite Flyer",115
-"Floating Islands","Arcane Palace - 4x Emp Seal","Cloud Cheesecake","-","8.70%","Sky Glass Sorcerer",115
-"Floating Islands","Arcane Palace - 4x Emp Seal","Cloud Cheesecake","-","4.35%","Sky Glass Glazier",115
-"Floating Islands","Arcane Low","Extra Rich Cloud Cheesecake","-","40.16%","Sky Glass Sorcerer",7179
-"Floating Islands","Arcane Low","Extra Rich Cloud Cheesecake","-","39.24%","Sky Glass Glazier",7179
-"Floating Islands","Arcane Low","Extra Rich Cloud Cheesecake","-","20.60%","Sky Dancer",7179
-"Floating Islands","Arcane High","Extra Rich Cloud Cheesecake","-","49.38%","Sky Glass Sorcerer",2963
-"Floating Islands","Arcane High","Extra Rich Cloud Cheesecake","-","30.31%","Sky Glass Glazier",2963
-"Floating Islands","Arcane High","Extra Rich Cloud Cheesecake","-","10.97%","Sky Dancer",2963
-"Floating Islands","Arcane High","Extra Rich Cloud Cheesecake","-","9.35%","Sky Highborne",2963
-"Floating Islands","Arcane Palace","Extra Rich Cloud Cheesecake","-","34.04%","Sky Glider",9606
-"Floating Islands","Arcane Palace","Extra Rich Cloud Cheesecake","-","25.89%","Sky Glass Sorcerer",9606
-"Floating Islands","Arcane Palace","Extra Rich Cloud Cheesecake","-","24.96%","Sky Glass Glazier",9606
-"Floating Islands","Arcane Palace","Extra Rich Cloud Cheesecake","-","15.11%","Sky Dancer",9606
-"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","39.95%","Consumed Charm Tinkerer",438
-"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","21.00%","Sky Glider",438
-"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","16.44%","Sky Glass Sorcerer",438
-"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","15.07%","Sky Glass Glazier",438
-"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","7.53%","Sky Dancer",438
-"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","38.02%","Consumed Charm Tinkerer",2462
-"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","22.71%","Sky Glider",2462
-"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","16.13%","Sky Glass Sorcerer",2462
-"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.83%","Sky Glass Glazier",2462
-"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","8.33%","Sky Dancer",2462
+"Floating Islands","Launch Pad","SB+","-","34.26%","Cloud Miner",35076
+"Floating Islands","Launch Pad","SB+","-","31.02%","Launchpad Labourer",35076
+"Floating Islands","Launch Pad","SB+","-","20.65%","Skydiver",35076
+"Floating Islands","Launch Pad","SB+","-","14.08%","Sky Greaser",35076
+"Floating Islands","Launch Pad","Gouda","-","40.72%","Launchpad Labourer",158526
+"Floating Islands","Launch Pad","Gouda","-","37.59%","Sky Greaser",158526
+"Floating Islands","Launch Pad","Gouda","-","21.70%","Skydiver",158526
+"Floating Islands","Low|High - 1x Pirates","Sky Pirate Swiss","-","50.62%","Suave Pirate",28894
+"Floating Islands","Low|High - 1x Pirates","Sky Pirate Swiss","-","30.02%","Cutthroat Pirate",28894
+"Floating Islands","Low|High - 1x Pirates","Sky Pirate Swiss","-","19.37%","Cutthroat Cannoneer",28894
+"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","26.66%","Mairitime Pirate",205604
+"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","19.97%","Scarlet Revenger",205604
+"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","19.85%","Admiral Cloudbeard",205604
+"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","13.24%","Cutthroat Pirate",205604
+"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","10.33%","Suave Pirate",205604
+"Floating Islands","Low|High - 2x Pirates","Sky Pirate Swiss","-","9.95%","Cutthroat Cannoneer",205604
+"Floating Islands","Palace - 1x Pirates","Sky Pirate Swiss","-","50.06%","Suave Pirate",3220
+"Floating Islands","Palace - 1x Pirates","Sky Pirate Swiss","-","30.47%","Cutthroat Pirate",3220
+"Floating Islands","Palace - 1x Pirates","Sky Pirate Swiss","-","19.47%","Cutthroat Cannoneer",3220
+"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","27.63%","Mairitime Pirate",4216
+"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","19.92%","Admiral Cloudbeard",4216
+"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","19.81%","Scarlet Revenger",4216
+"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","13.33%","Cutthroat Pirate",4216
+"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","9.84%","Suave Pirate",4216
+"Floating Islands","Palace - 2x Pirates","Sky Pirate Swiss","-","9.46%","Cutthroat Cannoneer",4216
+"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","20.37%","Peggy the Plunderer",8762
+"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","20.24%","Mairitime Pirate",8762
+"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","19.45%","Admiral Cloudbeard",8762
+"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","14.69%","Scarlet Revenger",8762
+"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","10.02%","Cutthroat Pirate",8762
+"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","7.67%","Suave Pirate",8762
+"Floating Islands","Palace - 3x Pirates","Sky Pirate Swiss","-","7.57%","Cutthroat Cannoneer",8762
+"Floating Islands","Palace - 4x Pirates","Sky Pirate Swiss","-","39.48%","Peggy the Plunderer",49741
+"Floating Islands","Palace - 4x Pirates","Sky Pirate Swiss","-","23.12%","Mairitime Pirate",49741
+"Floating Islands","Palace - 4x Pirates","Sky Pirate Swiss","-","20.04%","Admiral Cloudbeard",49741
+"Floating Islands","Palace - 4x Pirates","Sky Pirate Swiss","-","17.36%","Scarlet Revenger",49741
+"Floating Islands","Empress","SB+","-","100.00%","Empyrean Empress",229
+"Floating Islands","Empress","Cloud Cheesecake","-","100.00%","Empyrean Empress",2126
+"Floating Islands","Empress","Extra Rich Cloud Cheesecake","-","100.00%","Empyrean Empress",16214
+"Floating Islands","Arcane Low","SB+","-","48.88%","Kite Flyer",448
+"Floating Islands","Arcane Low","SB+","-","39.06%","Daydreamer",448
+"Floating Islands","Arcane Low","SB+","-","6.47%","Sky Glass Sorcerer",448
+"Floating Islands","Arcane Low","SB+","-","5.58%","Sky Glass Glazier",448
+"Floating Islands","Arcane Low","Gouda","-","50.84%","Daydreamer",4795
+"Floating Islands","Arcane Low","Gouda","-","40.19%","Kite Flyer",4795
+"Floating Islands","Arcane Low","Gouda","-","4.53%","Sky Glass Glazier",4795
+"Floating Islands","Arcane Low","Gouda","-","4.44%","Sky Glass Sorcerer",4795
+"Floating Islands","Arcane High","Gouda","-","50.25%","Daydreamer",599
+"Floating Islands","Arcane High","Gouda","-","41.74%","Kite Flyer",599
+"Floating Islands","Arcane High","Gouda","-","4.17%","Sky Glass Sorcerer",599
+"Floating Islands","Arcane High","Gouda","-","3.84%","Sky Glass Glazier",599
+"Floating Islands","Arcane Low","Cloud Cheesecake","-","29.74%","Sky Glass Glazier",441135
+"Floating Islands","Arcane Low","Cloud Cheesecake","-","20.81%","Sky Dancer",441135
+"Floating Islands","Arcane Low","Cloud Cheesecake","-","20.32%","Sky Glass Sorcerer",441135
+"Floating Islands","Arcane Low","Cloud Cheesecake","-","18.82%","Kite Flyer",441135
+"Floating Islands","Arcane Low","Cloud Cheesecake","-","10.31%","Daydreamer",441135
+"Floating Islands","Arcane High","Cloud Cheesecake","-","34.69%","Sky Highborne",156816
+"Floating Islands","Arcane High","Cloud Cheesecake","-","24.59%","Sky Glass Glazier",156816
+"Floating Islands","Arcane High","Cloud Cheesecake","-","20.87%","Sky Glass Sorcerer",156816
+"Floating Islands","Arcane High","Cloud Cheesecake","-","19.85%","Sky Dancer",156816
+"Floating Islands","Arcane Palace","Cloud Cheesecake","-","41.32%","Daydreamer",847
+"Floating Islands","Arcane Palace","Cloud Cheesecake","-","40.85%","Kite Flyer",847
+"Floating Islands","Arcane Palace","Cloud Cheesecake","-","9.68%","Sky Glass Glazier",847
+"Floating Islands","Arcane Palace","Cloud Cheesecake","-","8.15%","Sky Glass Sorcerer",847
+"Floating Islands","Arcane Palace - 4x Emp Seal","Cloud Cheesecake","-","46.15%","Daydreamer",117
+"Floating Islands","Arcane Palace - 4x Emp Seal","Cloud Cheesecake","-","41.03%","Kite Flyer",117
+"Floating Islands","Arcane Palace - 4x Emp Seal","Cloud Cheesecake","-","8.55%","Sky Glass Sorcerer",117
+"Floating Islands","Arcane Palace - 4x Emp Seal","Cloud Cheesecake","-","4.27%","Sky Glass Glazier",117
+"Floating Islands","Arcane Low","Extra Rich Cloud Cheesecake","-","40.13%","Sky Glass Sorcerer",7241
+"Floating Islands","Arcane Low","Extra Rich Cloud Cheesecake","-","39.26%","Sky Glass Glazier",7241
+"Floating Islands","Arcane Low","Extra Rich Cloud Cheesecake","-","20.60%","Sky Dancer",7241
+"Floating Islands","Arcane High","Extra Rich Cloud Cheesecake","-","49.43%","Sky Glass Sorcerer",2994
+"Floating Islands","Arcane High","Extra Rich Cloud Cheesecake","-","30.39%","Sky Glass Glazier",2994
+"Floating Islands","Arcane High","Extra Rich Cloud Cheesecake","-","10.92%","Sky Dancer",2994
+"Floating Islands","Arcane High","Extra Rich Cloud Cheesecake","-","9.25%","Sky Highborne",2994
+"Floating Islands","Arcane Palace","Extra Rich Cloud Cheesecake","-","34.00%","Sky Glider",9660
+"Floating Islands","Arcane Palace","Extra Rich Cloud Cheesecake","-","25.94%","Sky Glass Sorcerer",9660
+"Floating Islands","Arcane Palace","Extra Rich Cloud Cheesecake","-","24.98%","Sky Glass Glazier",9660
+"Floating Islands","Arcane Palace","Extra Rich Cloud Cheesecake","-","15.08%","Sky Dancer",9660
+"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","40.09%","Consumed Charm Tinkerer",439
+"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","20.96%","Sky Glider",439
+"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","16.40%","Sky Glass Sorcerer",439
+"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","15.03%","Sky Glass Glazier",439
+"Floating Islands","Arcane Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","7.52%","Sky Dancer",439
+"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","38.08%","Consumed Charm Tinkerer",2484
+"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","22.67%","Sky Glider",2484
+"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","16.02%","Sky Glass Sorcerer",2484
+"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.86%","Sky Glass Glazier",2484
+"Floating Islands","Arcane Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","8.37%","Sky Dancer",2484
 "Floating Islands","Arcane Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.97%","Sky Glider",1305
 "Floating Islands","Arcane Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","21.46%","Empyrean Geologist",1305
 "Floating Islands","Arcane Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.08%","Sky Glass Glazier",1305
 "Floating Islands","Arcane Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.00%","Sky Glass Sorcerer",1305
 "Floating Islands","Arcane Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","11.49%","Sky Dancer",1305
-"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","39.54%","Empyrean Geologist",7101
-"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","20.42%","Sky Glider",7101
-"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","16.11%","Sky Glass Glazier",7101
-"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.52%","Sky Glass Sorcerer",7101
-"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.41%","Sky Dancer",7101
-"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","28.50%","Sky Glider",635
-"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.47%","Sky Glass Sorcerer",635
-"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","18.74%","Sky Glass Glazier",635
-"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","17.95%","Empyrean Appraiser",635
-"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.33%","Sky Dancer",635
-"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.12%","Empyrean Appraiser",2633
-"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","22.71%","Sky Glider",2633
-"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.23%","Sky Glass Sorcerer",2633
-"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.55%","Sky Glass Glazier",2633
-"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","8.39%","Sky Dancer",2633
-"Floating Islands","Arcane Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","39.84%","Sky Glider",379
-"Floating Islands","Arcane Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","23.48%","Sky Glass Glazier",379
-"Floating Islands","Arcane Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","22.16%","Sky Glass Sorcerer",379
-"Floating Islands","Arcane Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","14.51%","Sky Dancer",379
+"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","39.54%","Empyrean Geologist",7119
+"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","20.45%","Sky Glider",7119
+"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","16.10%","Sky Glass Glazier",7119
+"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.52%","Sky Glass Sorcerer",7119
+"Floating Islands","Arcane Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.39%","Sky Dancer",7119
+"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","28.68%","Sky Glider",638
+"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.53%","Sky Glass Sorcerer",638
+"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","18.65%","Sky Glass Glazier",638
+"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","17.87%","Empyrean Appraiser",638
+"Floating Islands","Arcane Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.26%","Sky Dancer",638
+"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.09%","Empyrean Appraiser",2640
+"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","22.69%","Sky Glider",2640
+"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.23%","Sky Glass Sorcerer",2640
+"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.58%","Sky Glass Glazier",2640
+"Floating Islands","Arcane Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","8.41%","Sky Dancer",2640
+"Floating Islands","Arcane Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","39.63%","Sky Glider",381
+"Floating Islands","Arcane Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","23.36%","Sky Glass Glazier",381
+"Floating Islands","Arcane Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","22.31%","Sky Glass Sorcerer",381
+"Floating Islands","Arcane Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","14.70%","Sky Dancer",381
 "Floating Islands","Arcane Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","36.88%","Sky Glider",770
 "Floating Islands","Arcane Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","25.32%","Sky Glass Sorcerer",770
 "Floating Islands","Arcane Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","23.64%","Sky Glass Glazier",770
 "Floating Islands","Arcane Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.16%","Sky Dancer",770
-"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","24.54%","Sky Glass Glazier",33648
-"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","17.88%","Richard the Rich",33648
-"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","17.06%","Sky Dancer",33648
-"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","16.68%","Sky Glass Sorcerer",33648
-"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","15.71%","Kite Flyer",33648
-"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","8.14%","Daydreamer",33648
+"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","24.52%","Sky Glass Glazier",33818
+"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","17.88%","Richard the Rich",33818
+"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","17.06%","Sky Dancer",33818
+"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","16.68%","Sky Glass Sorcerer",33818
+"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","15.69%","Kite Flyer",33818
+"Floating Islands","Arcane Low - 2x Loot","Cloud Cheesecake","-","8.17%","Daydreamer",33818
 "Floating Islands","Arcane Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.68%","Sky Glass Sorcerer",8993
 "Floating Islands","Arcane Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.53%","Sky Glass Glazier",8993
 "Floating Islands","Arcane Low - 2x Loot","Extra Rich Cloud Cheesecake","-","25.93%","Richard the Rich",8993
 "Floating Islands","Arcane Low - 2x Loot","Extra Rich Cloud Cheesecake","-","14.86%","Sky Dancer",8993
-"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","28.52%","Sky Highborne",33102
-"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","20.14%","Sky Glass Glazier",33102
-"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","18.13%","Richard the Rich",33102
-"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","16.94%","Sky Glass Sorcerer",33102
-"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","16.26%","Sky Dancer",33102
-"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.18%","Sky Glass Sorcerer",7011
-"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.45%","Richard the Rich",7011
-"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","22.44%","Sky Glass Glazier",7011
-"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.47%","Sky Dancer",7011
-"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.46%","Sky Highborne",7011
+"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","28.52%","Sky Highborne",33300
+"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","20.13%","Sky Glass Glazier",33300
+"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","18.10%","Richard the Rich",33300
+"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","16.96%","Sky Glass Sorcerer",33300
+"Floating Islands","Arcane High - 2x Loot","Cloud Cheesecake","-","16.29%","Sky Dancer",33300
+"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.15%","Sky Glass Sorcerer",7031
+"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.40%","Richard the Rich",7031
+"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","22.51%","Sky Glass Glazier",7031
+"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.48%","Sky Dancer",7031
+"Floating Islands","Arcane High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.45%","Sky Highborne",7031
 "Floating Islands","Arcane Palace - 2x Loot","Cloud Cheesecake","-","41.90%","Daydreamer",105
 "Floating Islands","Arcane Palace - 2x Loot","Cloud Cheesecake","-","38.10%","Kite Flyer",105
 "Floating Islands","Arcane Palace - 2x Loot","Cloud Cheesecake","-","13.33%","Richard the Rich",105
 "Floating Islands","Arcane Palace - 2x Loot","Cloud Cheesecake","-","6.67%","Sky Glass Glazier",105
-"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.50%","Richard the Rich",3675
-"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","24.65%","Sky Glider",3675
-"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.27%","Sky Glass Sorcerer",3675
-"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","18.64%","Sky Glass Glazier",3675
-"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.94%","Sky Dancer",3675
-"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.38%","Richard the Rich",8338
-"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","20.96%","Sky Glider",8338
-"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.98%","Sky Glass Sorcerer",8338
-"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.26%","Sky Glass Glazier",8338
-"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.75%","Fortuitous Fool",8338
-"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","8.67%","Sky Dancer",8338
-"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.19%","Fortuitous Fool",32787
-"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","25.18%","Richard the Rich",32787
-"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.40%","Sky Glider",32787
-"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.47%","Sky Glass Sorcerer",32787
-"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","10.94%","Sky Glass Glazier",32787
-"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.81%","Sky Dancer",32787
+"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.51%","Richard the Rich",3682
+"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","24.63%","Sky Glider",3682
+"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.26%","Sky Glass Sorcerer",3682
+"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","18.66%","Sky Glass Glazier",3682
+"Floating Islands","Arcane Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.95%","Sky Dancer",3682
+"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.38%","Richard the Rich",8405
+"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","21.02%","Sky Glider",8405
+"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.94%","Sky Glass Sorcerer",8405
+"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.22%","Sky Glass Glazier",8405
+"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.78%","Fortuitous Fool",8405
+"Floating Islands","Arcane Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","8.66%","Sky Dancer",8405
+"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.19%","Fortuitous Fool",32828
+"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","25.17%","Richard the Rich",32828
+"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.40%","Sky Glider",32828
+"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.47%","Sky Glass Sorcerer",32828
+"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","10.95%","Sky Glass Glazier",32828
+"Floating Islands","Arcane Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.82%","Sky Dancer",32828
 "Floating Islands","Draconic Low","SB+","-","46.01%","Kite Flyer",376
 "Floating Islands","Draconic Low","SB+","-","42.82%","Daydreamer",376
 "Floating Islands","Draconic Low","SB+","-","5.85%","Tiny Dragonfly",376
 "Floating Islands","Draconic Low","SB+","-","5.32%","Lancer Guard",376
-"Floating Islands","Draconic Low","Gouda","-","49.80%","Daydreamer",5381
-"Floating Islands","Draconic Low","Gouda","-","40.01%","Kite Flyer",5381
-"Floating Islands","Draconic Low","Gouda","-","5.30%","Lancer Guard",5381
-"Floating Islands","Draconic Low","Gouda","-","4.89%","Tiny Dragonfly",5381
+"Floating Islands","Draconic Low","Gouda","-","49.75%","Daydreamer",5413
+"Floating Islands","Draconic Low","Gouda","-","40.05%","Kite Flyer",5413
+"Floating Islands","Draconic Low","Gouda","-","5.30%","Lancer Guard",5413
+"Floating Islands","Draconic Low","Gouda","-","4.90%","Tiny Dragonfly",5413
 "Floating Islands","Draconic High","Gouda","-","51.21%","Daydreamer",705
 "Floating Islands","Draconic High","Gouda","-","38.58%","Kite Flyer",705
 "Floating Islands","Draconic High","Gouda","-","6.10%","Lancer Guard",705
 "Floating Islands","Draconic High","Gouda","-","4.11%","Tiny Dragonfly",705
-"Floating Islands","Draconic Low","Cloud Cheesecake","-","29.61%","Lancer Guard",411645
-"Floating Islands","Draconic Low","Cloud Cheesecake","-","20.85%","Dragonbreather",411645
-"Floating Islands","Draconic Low","Cloud Cheesecake","-","20.39%","Tiny Dragonfly",411645
-"Floating Islands","Draconic Low","Cloud Cheesecake","-","18.89%","Kite Flyer",411645
-"Floating Islands","Draconic Low","Cloud Cheesecake","-","10.26%","Daydreamer",411645
-"Floating Islands","Draconic High","Cloud Cheesecake","-","34.65%","Regal Spearman",169471
-"Floating Islands","Draconic High","Cloud Cheesecake","-","24.70%","Lancer Guard",169471
-"Floating Islands","Draconic High","Cloud Cheesecake","-","20.76%","Tiny Dragonfly",169471
-"Floating Islands","Draconic High","Cloud Cheesecake","-","19.89%","Dragonbreather",169471
-"Floating Islands","Draconic Palace","Cloud Cheesecake","-","42.26%","Kite Flyer",1072
-"Floating Islands","Draconic Palace","Cloud Cheesecake","-","41.23%","Daydreamer",1072
-"Floating Islands","Draconic Palace","Cloud Cheesecake","-","10.07%","Tiny Dragonfly",1072
-"Floating Islands","Draconic Palace","Cloud Cheesecake","-","6.44%","Lancer Guard",1072
-"Floating Islands","Draconic Low","Extra Rich Cloud Cheesecake","-","40.25%","Tiny Dragonfly",6646
-"Floating Islands","Draconic Low","Extra Rich Cloud Cheesecake","-","39.93%","Lancer Guard",6646
-"Floating Islands","Draconic Low","Extra Rich Cloud Cheesecake","-","19.82%","Dragonbreather",6646
-"Floating Islands","Draconic High","Extra Rich Cloud Cheesecake","-","50.82%","Tiny Dragonfly",3896
-"Floating Islands","Draconic High","Extra Rich Cloud Cheesecake","-","30.08%","Lancer Guard",3896
-"Floating Islands","Draconic High","Extra Rich Cloud Cheesecake","-","9.78%","Dragonbreather",3896
-"Floating Islands","Draconic High","Extra Rich Cloud Cheesecake","-","9.32%","Regal Spearman",3896
-"Floating Islands","Draconic Palace","Extra Rich Cloud Cheesecake","-","34.95%","Empyrean Javelineer",10126
-"Floating Islands","Draconic Palace","Extra Rich Cloud Cheesecake","-","25.77%","Tiny Dragonfly",10126
-"Floating Islands","Draconic Palace","Extra Rich Cloud Cheesecake","-","24.83%","Lancer Guard",10126
-"Floating Islands","Draconic Palace","Extra Rich Cloud Cheesecake","-","14.46%","Dragonbreather",10126
-"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","36.16%","Consumed Charm Tinkerer",542
-"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","22.88%","Empyrean Javelineer",542
-"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","16.79%","Tiny Dragonfly",542
-"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","14.21%","Lancer Guard",542
-"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","9.96%","Dragonbreather",542
-"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","39.52%","Consumed Charm Tinkerer",3077
-"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","21.12%","Empyrean Javelineer",3077
-"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.95%","Tiny Dragonfly",3077
-"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.14%","Lancer Guard",3077
-"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","10.27%","Dragonbreather",3077
-"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.33%","Empyrean Javelineer",1472
-"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.92%","Empyrean Geologist",1472
-"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.63%","Tiny Dragonfly",1472
-"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.02%","Lancer Guard",1472
-"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","12.09%","Dragonbreather",1472
-"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","40.19%","Empyrean Geologist",7917
-"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","20.68%","Empyrean Javelineer",7917
-"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.45%","Tiny Dragonfly",7917
-"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.70%","Lancer Guard",7917
-"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.98%","Dragonbreather",7917
-"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","32.06%","Empyrean Javelineer",811
-"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.85%","Empyrean Appraiser",811
-"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.11%","Lancer Guard",811
-"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","17.51%","Tiny Dragonfly",811
-"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","11.47%","Dragonbreather",811
-"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.12%","Empyrean Appraiser",3382
-"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","22.53%","Empyrean Javelineer",3382
-"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.46%","Tiny Dragonfly",3382
-"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.31%","Lancer Guard",3382
-"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","8.57%","Dragonbreather",3382
-"Floating Islands","Draconic Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","34.26%","Empyrean Javelineer",502
-"Floating Islands","Draconic Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","26.49%","Tiny Dragonfly",502
-"Floating Islands","Draconic Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","23.71%","Lancer Guard",502
-"Floating Islands","Draconic Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","15.54%","Dragonbreather",502
-"Floating Islands","Draconic Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","34.79%","Empyrean Javelineer",1239
-"Floating Islands","Draconic Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.31%","Tiny Dragonfly",1239
-"Floating Islands","Draconic Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","23.49%","Lancer Guard",1239
-"Floating Islands","Draconic Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","15.42%","Dragonbreather",1239
-"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","23.90%","Lancer Guard",30925
-"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","18.33%","Richard the Rich",30925
-"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","17.13%","Dragonbreather",30925
-"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","16.93%","Tiny Dragonfly",30925
-"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","15.43%","Kite Flyer",30925
-"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","8.28%","Daydreamer",30925
-"Floating Islands","Draconic Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.31%","Tiny Dragonfly",7601
-"Floating Islands","Draconic Low - 2x Loot","Extra Rich Cloud Cheesecake","-","27.75%","Lancer Guard",7601
-"Floating Islands","Draconic Low - 2x Loot","Extra Rich Cloud Cheesecake","-","27.21%","Richard the Rich",7601
-"Floating Islands","Draconic Low - 2x Loot","Extra Rich Cloud Cheesecake","-","14.73%","Dragonbreather",7601
-"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","28.33%","Regal Spearman",35342
-"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","20.44%","Lancer Guard",35342
-"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","18.24%","Richard the Rich",35342
-"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","16.65%","Tiny Dragonfly",35342
-"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","16.35%","Dragonbreather",35342
-"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.83%","Tiny Dragonfly",5234
-"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","24.95%","Richard the Rich",5234
-"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","22.09%","Lancer Guard",5234
-"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.81%","Dragonbreather",5234
-"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.32%","Regal Spearman",5234
+"Floating Islands","Draconic Low","Cloud Cheesecake","-","29.61%","Lancer Guard",414516
+"Floating Islands","Draconic Low","Cloud Cheesecake","-","20.85%","Dragonbreather",414516
+"Floating Islands","Draconic Low","Cloud Cheesecake","-","20.40%","Tiny Dragonfly",414516
+"Floating Islands","Draconic Low","Cloud Cheesecake","-","18.89%","Kite Flyer",414516
+"Floating Islands","Draconic Low","Cloud Cheesecake","-","10.25%","Daydreamer",414516
+"Floating Islands","Draconic High","Cloud Cheesecake","-","34.65%","Regal Spearman",170471
+"Floating Islands","Draconic High","Cloud Cheesecake","-","24.70%","Lancer Guard",170471
+"Floating Islands","Draconic High","Cloud Cheesecake","-","20.76%","Tiny Dragonfly",170471
+"Floating Islands","Draconic High","Cloud Cheesecake","-","19.90%","Dragonbreather",170471
+"Floating Islands","Draconic Palace","Cloud Cheesecake","-","42.18%","Kite Flyer",1074
+"Floating Islands","Draconic Palace","Cloud Cheesecake","-","41.25%","Daydreamer",1074
+"Floating Islands","Draconic Palace","Cloud Cheesecake","-","10.15%","Tiny Dragonfly",1074
+"Floating Islands","Draconic Palace","Cloud Cheesecake","-","6.42%","Lancer Guard",1074
+"Floating Islands","Draconic Low","Extra Rich Cloud Cheesecake","-","40.22%","Tiny Dragonfly",6674
+"Floating Islands","Draconic Low","Extra Rich Cloud Cheesecake","-","39.95%","Lancer Guard",6674
+"Floating Islands","Draconic Low","Extra Rich Cloud Cheesecake","-","19.84%","Dragonbreather",6674
+"Floating Islands","Draconic High","Extra Rich Cloud Cheesecake","-","50.79%","Tiny Dragonfly",3914
+"Floating Islands","Draconic High","Extra Rich Cloud Cheesecake","-","30.15%","Lancer Guard",3914
+"Floating Islands","Draconic High","Extra Rich Cloud Cheesecake","-","9.79%","Dragonbreather",3914
+"Floating Islands","Draconic High","Extra Rich Cloud Cheesecake","-","9.27%","Regal Spearman",3914
+"Floating Islands","Draconic Palace","Extra Rich Cloud Cheesecake","-","34.96%","Empyrean Javelineer",10221
+"Floating Islands","Draconic Palace","Extra Rich Cloud Cheesecake","-","25.72%","Tiny Dragonfly",10221
+"Floating Islands","Draconic Palace","Extra Rich Cloud Cheesecake","-","24.90%","Lancer Guard",10221
+"Floating Islands","Draconic Palace","Extra Rich Cloud Cheesecake","-","14.42%","Dragonbreather",10221
+"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","35.95%","Consumed Charm Tinkerer",548
+"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","22.81%","Empyrean Javelineer",548
+"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","17.15%","Tiny Dragonfly",548
+"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","14.05%","Lancer Guard",548
+"Floating Islands","Draconic Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","10.04%","Dragonbreather",548
+"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","39.40%","Consumed Charm Tinkerer",3119
+"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","21.03%","Empyrean Javelineer",3119
+"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.04%","Tiny Dragonfly",3119
+"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.30%","Lancer Guard",3119
+"Floating Islands","Draconic Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","10.23%","Dragonbreather",3119
+"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.27%","Empyrean Javelineer",1475
+"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.95%","Empyrean Geologist",1475
+"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.66%","Tiny Dragonfly",1475
+"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.05%","Lancer Guard",1475
+"Floating Islands","Draconic Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","12.07%","Dragonbreather",1475
+"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","40.16%","Empyrean Geologist",7949
+"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","20.69%","Empyrean Javelineer",7949
+"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.50%","Tiny Dragonfly",7949
+"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.66%","Lancer Guard",7949
+"Floating Islands","Draconic Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.99%","Dragonbreather",7949
+"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","31.95%","Empyrean Javelineer",817
+"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.83%","Empyrean Appraiser",817
+"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.09%","Lancer Guard",817
+"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","17.75%","Tiny Dragonfly",817
+"Floating Islands","Draconic Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","11.38%","Dragonbreather",817
+"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.09%","Empyrean Appraiser",3400
+"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","22.53%","Empyrean Javelineer",3400
+"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.47%","Tiny Dragonfly",3400
+"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.32%","Lancer Guard",3400
+"Floating Islands","Draconic Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","8.59%","Dragonbreather",3400
+"Floating Islands","Draconic Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","34.19%","Empyrean Javelineer",506
+"Floating Islands","Draconic Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","26.48%","Tiny Dragonfly",506
+"Floating Islands","Draconic Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","23.52%","Lancer Guard",506
+"Floating Islands","Draconic Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","15.81%","Dragonbreather",506
+"Floating Islands","Draconic Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","35.16%","Empyrean Javelineer",1280
+"Floating Islands","Draconic Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.25%","Tiny Dragonfly",1280
+"Floating Islands","Draconic Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","23.28%","Lancer Guard",1280
+"Floating Islands","Draconic Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","15.31%","Dragonbreather",1280
+"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","23.92%","Lancer Guard",31181
+"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","18.34%","Richard the Rich",31181
+"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","17.14%","Dragonbreather",31181
+"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","16.93%","Tiny Dragonfly",31181
+"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","15.43%","Kite Flyer",31181
+"Floating Islands","Draconic Low - 2x Loot","Cloud Cheesecake","-","8.26%","Daydreamer",31181
+"Floating Islands","Draconic Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.27%","Tiny Dragonfly",7612
+"Floating Islands","Draconic Low - 2x Loot","Extra Rich Cloud Cheesecake","-","27.77%","Lancer Guard",7612
+"Floating Islands","Draconic Low - 2x Loot","Extra Rich Cloud Cheesecake","-","27.21%","Richard the Rich",7612
+"Floating Islands","Draconic Low - 2x Loot","Extra Rich Cloud Cheesecake","-","14.75%","Dragonbreather",7612
+"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","28.31%","Regal Spearman",35500
+"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","20.44%","Lancer Guard",35500
+"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","18.24%","Richard the Rich",35500
+"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","16.67%","Tiny Dragonfly",35500
+"Floating Islands","Draconic High - 2x Loot","Cloud Cheesecake","-","16.34%","Dragonbreather",35500
+"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.85%","Tiny Dragonfly",5284
+"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","24.92%","Richard the Rich",5284
+"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","22.10%","Lancer Guard",5284
+"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.80%","Dragonbreather",5284
+"Floating Islands","Draconic High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.32%","Regal Spearman",5284
 "Floating Islands","Draconic Palace - 2x Loot","Cloud Cheesecake","-","41.67%","Kite Flyer",132
 "Floating Islands","Draconic Palace - 2x Loot","Cloud Cheesecake","-","41.67%","Daydreamer",132
 "Floating Islands","Draconic Palace - 2x Loot","Cloud Cheesecake","-","16.67%","Richard the Rich",132
-"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.68%","Empyrean Javelineer",2796
-"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","23.53%","Richard the Rich",2796
-"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","20.03%","Tiny Dragonfly",2796
-"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","18.99%","Lancer Guard",2796
-"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.77%","Dragonbreather",2796
-"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.81%","Richard the Rich",6191
-"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","20.24%","Empyrean Javelineer",6191
-"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.67%","Tiny Dragonfly",6191
-"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.07%","Fortuitous Fool",6191
-"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.28%","Lancer Guard",6191
-"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","9.93%","Dragonbreather",6191
+"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.65%","Empyrean Javelineer",2807
+"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","23.55%","Richard the Rich",2807
+"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","20.02%","Tiny Dragonfly",2807
+"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.02%","Lancer Guard",2807
+"Floating Islands","Draconic Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.76%","Dragonbreather",2807
+"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.78%","Richard the Rich",6210
+"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","20.26%","Empyrean Javelineer",6210
+"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.64%","Tiny Dragonfly",6210
+"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.09%","Fortuitous Fool",6210
+"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.32%","Lancer Guard",6210
+"Floating Islands","Draconic Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","9.92%","Dragonbreather",6210
 "Floating Islands","Draconic Palace - 4x Loot","Cloud Cheesecake","-","33.33%","Daydreamer",150
 "Floating Islands","Draconic Palace - 4x Loot","Cloud Cheesecake","-","27.33%","Kite Flyer",150
 "Floating Islands","Draconic Palace - 4x Loot","Cloud Cheesecake","-","24.00%","Richard the Rich",150
 "Floating Islands","Draconic Palace - 4x Loot","Cloud Cheesecake","-","8.00%","Tiny Dragonfly",150
 "Floating Islands","Draconic Palace - 4x Loot","Cloud Cheesecake","-","7.33%","Lancer Guard",150
-"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.16%","Fortuitous Fool",16066
-"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.93%","Richard the Rich",16066
-"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.27%","Empyrean Javelineer",16066
-"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.55%","Lancer Guard",16066
-"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.48%","Tiny Dragonfly",16066
-"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.61%","Dragonbreather",16066
+"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.17%","Fortuitous Fool",16214
+"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.90%","Richard the Rich",16214
+"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.25%","Empyrean Javelineer",16214
+"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.56%","Lancer Guard",16214
+"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.49%","Tiny Dragonfly",16214
+"Floating Islands","Draconic Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.64%","Dragonbreather",16214
 "Floating Islands","Forgotten Low","SB+","-","47.39%","Kite Flyer",479
 "Floating Islands","Forgotten Low","SB+","-","41.34%","Daydreamer",479
 "Floating Islands","Forgotten Low","SB+","-","6.26%","Spry Sky Explorer",479
@@ -284,298 +284,298 @@
 "Floating Islands","Forgotten High","SB+","-","33.64%","Daydreamer",107
 "Floating Islands","Forgotten High","SB+","-","4.67%","Spry Sky Seer",107
 "Floating Islands","Forgotten High","SB+","-","3.74%","Spry Sky Explorer",107
-"Floating Islands","Forgotten Low","Gouda","-","49.78%","Daydreamer",6553
-"Floating Islands","Forgotten Low","Gouda","-","39.77%","Kite Flyer",6553
-"Floating Islands","Forgotten Low","Gouda","-","5.43%","Spry Sky Seer",6553
-"Floating Islands","Forgotten Low","Gouda","-","5.02%","Spry Sky Explorer",6553
+"Floating Islands","Forgotten Low","Gouda","-","49.79%","Daydreamer",6565
+"Floating Islands","Forgotten Low","Gouda","-","39.74%","Kite Flyer",6565
+"Floating Islands","Forgotten Low","Gouda","-","5.42%","Spry Sky Seer",6565
+"Floating Islands","Forgotten Low","Gouda","-","5.04%","Spry Sky Explorer",6565
 "Floating Islands","Forgotten High","Gouda","-","51.59%","Daydreamer",692
 "Floating Islands","Forgotten High","Gouda","-","37.43%","Kite Flyer",692
 "Floating Islands","Forgotten High","Gouda","-","5.78%","Spry Sky Explorer",692
 "Floating Islands","Forgotten High","Gouda","-","5.20%","Spry Sky Seer",692
-"Floating Islands","Forgotten Low","Cloud Cheesecake","-","29.75%","Spry Sky Seer",404177
-"Floating Islands","Forgotten Low","Cloud Cheesecake","-","20.86%","Cumulost",404177
-"Floating Islands","Forgotten Low","Cloud Cheesecake","-","20.36%","Spry Sky Explorer",404177
-"Floating Islands","Forgotten Low","Cloud Cheesecake","-","18.75%","Kite Flyer",404177
-"Floating Islands","Forgotten Low","Cloud Cheesecake","-","10.28%","Daydreamer",404177
-"Floating Islands","Forgotten High","Cloud Cheesecake","-","34.85%","Spheric Diviner",152796
-"Floating Islands","Forgotten High","Cloud Cheesecake","-","24.61%","Spry Sky Seer",152796
-"Floating Islands","Forgotten High","Cloud Cheesecake","-","20.72%","Spry Sky Explorer",152796
-"Floating Islands","Forgotten High","Cloud Cheesecake","-","19.82%","Cumulost",152796
-"Floating Islands","Forgotten Palace","Cloud Cheesecake","-","42.59%","Daydreamer",1181
-"Floating Islands","Forgotten Palace","Cloud Cheesecake","-","39.97%","Kite Flyer",1181
-"Floating Islands","Forgotten Palace","Cloud Cheesecake","-","9.99%","Spry Sky Explorer",1181
-"Floating Islands","Forgotten Palace","Cloud Cheesecake","-","7.45%","Spry Sky Seer",1181
-"Floating Islands","Forgotten Low","Extra Rich Cloud Cheesecake","-","40.64%","Spry Sky Explorer",6292
-"Floating Islands","Forgotten Low","Extra Rich Cloud Cheesecake","-","40.03%","Spry Sky Seer",6292
-"Floating Islands","Forgotten Low","Extra Rich Cloud Cheesecake","-","19.33%","Cumulost",6292
-"Floating Islands","Forgotten High","Extra Rich Cloud Cheesecake","-","50.05%","Spry Sky Explorer",2939
-"Floating Islands","Forgotten High","Extra Rich Cloud Cheesecake","-","30.79%","Spry Sky Seer",2939
-"Floating Islands","Forgotten High","Extra Rich Cloud Cheesecake","-","10.14%","Spheric Diviner",2939
-"Floating Islands","Forgotten High","Extra Rich Cloud Cheesecake","-","9.02%","Cumulost",2939
-"Floating Islands","Forgotten Palace","Extra Rich Cloud Cheesecake","-","34.06%","Forgotten Elder",9391
-"Floating Islands","Forgotten Palace","Extra Rich Cloud Cheesecake","-","25.74%","Spry Sky Explorer",9391
-"Floating Islands","Forgotten Palace","Extra Rich Cloud Cheesecake","-","24.86%","Spry Sky Seer",9391
-"Floating Islands","Forgotten Palace","Extra Rich Cloud Cheesecake","-","15.33%","Cumulost",9391
+"Floating Islands","Forgotten Low","Cloud Cheesecake","-","29.76%","Spry Sky Seer",406554
+"Floating Islands","Forgotten Low","Cloud Cheesecake","-","20.86%","Cumulost",406554
+"Floating Islands","Forgotten Low","Cloud Cheesecake","-","20.35%","Spry Sky Explorer",406554
+"Floating Islands","Forgotten Low","Cloud Cheesecake","-","18.75%","Kite Flyer",406554
+"Floating Islands","Forgotten Low","Cloud Cheesecake","-","10.28%","Daydreamer",406554
+"Floating Islands","Forgotten High","Cloud Cheesecake","-","34.86%","Spheric Diviner",153349
+"Floating Islands","Forgotten High","Cloud Cheesecake","-","24.62%","Spry Sky Seer",153349
+"Floating Islands","Forgotten High","Cloud Cheesecake","-","20.71%","Spry Sky Explorer",153349
+"Floating Islands","Forgotten High","Cloud Cheesecake","-","19.81%","Cumulost",153349
+"Floating Islands","Forgotten Palace","Cloud Cheesecake","-","42.46%","Daydreamer",1187
+"Floating Islands","Forgotten Palace","Cloud Cheesecake","-","40.02%","Kite Flyer",1187
+"Floating Islands","Forgotten Palace","Cloud Cheesecake","-","10.03%","Spry Sky Explorer",1187
+"Floating Islands","Forgotten Palace","Cloud Cheesecake","-","7.50%","Spry Sky Seer",1187
+"Floating Islands","Forgotten Low","Extra Rich Cloud Cheesecake","-","40.60%","Spry Sky Explorer",6303
+"Floating Islands","Forgotten Low","Extra Rich Cloud Cheesecake","-","40.01%","Spry Sky Seer",6303
+"Floating Islands","Forgotten Low","Extra Rich Cloud Cheesecake","-","19.39%","Cumulost",6303
+"Floating Islands","Forgotten High","Extra Rich Cloud Cheesecake","-","49.97%","Spry Sky Explorer",2958
+"Floating Islands","Forgotten High","Extra Rich Cloud Cheesecake","-","30.76%","Spry Sky Seer",2958
+"Floating Islands","Forgotten High","Extra Rich Cloud Cheesecake","-","10.21%","Spheric Diviner",2958
+"Floating Islands","Forgotten High","Extra Rich Cloud Cheesecake","-","9.06%","Cumulost",2958
+"Floating Islands","Forgotten Palace","Extra Rich Cloud Cheesecake","-","34.03%","Forgotten Elder",9431
+"Floating Islands","Forgotten Palace","Extra Rich Cloud Cheesecake","-","25.77%","Spry Sky Explorer",9431
+"Floating Islands","Forgotten Palace","Extra Rich Cloud Cheesecake","-","24.91%","Spry Sky Seer",9431
+"Floating Islands","Forgotten Palace","Extra Rich Cloud Cheesecake","-","15.30%","Cumulost",9431
 "Floating Islands","Forgotten Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","40.03%","Consumed Charm Tinkerer",612
 "Floating Islands","Forgotten Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","21.90%","Forgotten Elder",612
 "Floating Islands","Forgotten Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","16.01%","Spry Sky Explorer",612
 "Floating Islands","Forgotten Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","14.22%","Spry Sky Seer",612
 "Floating Islands","Forgotten Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","7.84%","Cumulost",612
-"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","38.30%","Consumed Charm Tinkerer",2559
-"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","20.91%","Forgotten Elder",2559
-"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.98%","Spry Sky Explorer",2559
-"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.65%","Spry Sky Seer",2559
-"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","10.16%","Cumulost",2559
+"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","38.33%","Consumed Charm Tinkerer",2567
+"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","20.88%","Forgotten Elder",2567
+"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.97%","Spry Sky Explorer",2567
+"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.69%","Spry Sky Seer",2567
+"Floating Islands","Forgotten Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","10.13%","Cumulost",2567
 "Floating Islands","Forgotten Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","27.94%","Forgotten Elder",1539
 "Floating Islands","Forgotten Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","21.64%","Spry Sky Explorer",1539
 "Floating Islands","Forgotten Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","21.31%","Empyrean Geologist",1539
 "Floating Islands","Forgotten Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","18.39%","Spry Sky Seer",1539
 "Floating Islands","Forgotten Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","10.72%","Cumulost",1539
-"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","40.40%","Empyrean Geologist",7661
-"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","21.28%","Forgotten Elder",7661
-"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.83%","Spry Sky Explorer",7661
-"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.53%","Spry Sky Seer",7661
-"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.97%","Cumulost",7661
-"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","26.23%","Forgotten Elder",812
-"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","21.06%","Spry Sky Seer",812
-"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.20%","Spry Sky Explorer",812
-"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.09%","Empyrean Appraiser",812
-"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","13.42%","Cumulost",812
-"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","40.57%","Empyrean Appraiser",2753
-"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.76%","Forgotten Elder",2753
-"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.58%","Spry Sky Seer",2753
-"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.04%","Spry Sky Explorer",2753
-"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","9.04%","Cumulost",2753
+"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","40.39%","Empyrean Geologist",7668
+"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","21.27%","Forgotten Elder",7668
+"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.84%","Spry Sky Explorer",7668
+"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.53%","Spry Sky Seer",7668
+"Floating Islands","Forgotten Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.97%","Cumulost",7668
+"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","26.16%","Forgotten Elder",818
+"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","21.03%","Spry Sky Seer",818
+"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.17%","Spry Sky Explorer",818
+"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.32%","Empyrean Appraiser",818
+"Floating Islands","Forgotten Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","13.33%","Cumulost",818
+"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","40.61%","Empyrean Appraiser",2790
+"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.86%","Forgotten Elder",2790
+"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.41%","Spry Sky Seer",2790
+"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.09%","Spry Sky Explorer",2790
+"Floating Islands","Forgotten Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","9.03%","Cumulost",2790
 "Floating Islands","Forgotten Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","37.45%","Forgotten Elder",470
 "Floating Islands","Forgotten Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","24.68%","Spry Sky Explorer",470
 "Floating Islands","Forgotten Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","24.47%","Spry Sky Seer",470
 "Floating Islands","Forgotten Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","13.40%","Cumulost",470
-"Floating Islands","Forgotten Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","33.63%","Forgotten Elder",1142
-"Floating Islands","Forgotten Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.27%","Spry Sky Seer",1142
-"Floating Islands","Forgotten Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.01%","Spry Sky Explorer",1142
-"Floating Islands","Forgotten Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.10%","Cumulost",1142
-"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","24.11%","Spry Sky Seer",27286
-"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","18.58%","Richard the Rich",27286
-"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","17.04%","Spry Sky Explorer",27286
-"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","16.47%","Cumulost",27286
-"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","15.55%","Kite Flyer",27286
-"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","8.25%","Daydreamer",27286
+"Floating Islands","Forgotten Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","33.60%","Forgotten Elder",1143
+"Floating Islands","Forgotten Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.25%","Spry Sky Seer",1143
+"Floating Islands","Forgotten Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.07%","Spry Sky Explorer",1143
+"Floating Islands","Forgotten Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.09%","Cumulost",1143
+"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","24.10%","Spry Sky Seer",27523
+"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","18.60%","Richard the Rich",27523
+"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","17.05%","Spry Sky Explorer",27523
+"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","16.49%","Cumulost",27523
+"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","15.52%","Kite Flyer",27523
+"Floating Islands","Forgotten Low - 2x Loot","Cloud Cheesecake","-","8.24%","Daydreamer",27523
 "Floating Islands","Forgotten Low - 2x Loot","Extra Rich Cloud Cheesecake","-","31.21%","Spry Sky Explorer",4851
 "Floating Islands","Forgotten Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.56%","Spry Sky Seer",4851
 "Floating Islands","Forgotten Low - 2x Loot","Extra Rich Cloud Cheesecake","-","24.72%","Richard the Rich",4851
 "Floating Islands","Forgotten Low - 2x Loot","Extra Rich Cloud Cheesecake","-","14.51%","Cumulost",4851
-"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","28.35%","Spheric Diviner",28244
-"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","19.82%","Spry Sky Seer",28244
-"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","18.55%","Richard the Rich",28244
-"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","17.04%","Spry Sky Explorer",28244
-"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","16.25%","Cumulost",28244
-"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.58%","Spry Sky Explorer",4087
-"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.59%","Richard the Rich",4087
-"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","21.87%","Spry Sky Seer",4087
-"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.73%","Cumulost",4087
-"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.22%","Spheric Diviner",4087
-"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","33.71%","Daydreamer",175
-"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","30.86%","Kite Flyer",175
-"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","20.57%","Richard the Rich",175
-"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","8.57%","Spry Sky Explorer",175
-"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","6.29%","Spry Sky Seer",175
-"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.78%","Richard the Rich",2237
-"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.21%","Forgotten Elder",2237
-"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.27%","Spry Sky Seer",2237
-"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","17.97%","Spry Sky Explorer",2237
-"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.77%","Cumulost",2237
+"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","28.35%","Spheric Diviner",28357
+"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","19.81%","Spry Sky Seer",28357
+"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","18.52%","Richard the Rich",28357
+"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","17.05%","Spry Sky Explorer",28357
+"Floating Islands","Forgotten High - 2x Loot","Cloud Cheesecake","-","16.27%","Cumulost",28357
+"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.64%","Spry Sky Explorer",4097
+"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.60%","Richard the Rich",4097
+"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","21.85%","Spry Sky Seer",4097
+"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.71%","Cumulost",4097
+"Floating Islands","Forgotten High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.20%","Spheric Diviner",4097
+"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","34.27%","Daydreamer",178
+"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","30.34%","Kite Flyer",178
+"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","20.22%","Richard the Rich",178
+"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","8.99%","Spry Sky Explorer",178
+"Floating Islands","Forgotten Palace - 2x Loot","Cloud Cheesecake","-","6.18%","Spry Sky Seer",178
+"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.79%","Richard the Rich",2247
+"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.19%","Forgotten Elder",2247
+"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.27%","Spry Sky Seer",2247
+"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","17.98%","Spry Sky Explorer",2247
+"Floating Islands","Forgotten Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.77%","Cumulost",2247
 "Floating Islands","Forgotten Palace - 3x Loot","Cloud Cheesecake","-","32.50%","Kite Flyer",120
 "Floating Islands","Forgotten Palace - 3x Loot","Cloud Cheesecake","-","30.00%","Daydreamer",120
 "Floating Islands","Forgotten Palace - 3x Loot","Cloud Cheesecake","-","16.67%","Richard the Rich",120
 "Floating Islands","Forgotten Palace - 3x Loot","Cloud Cheesecake","-","14.17%","Spry Sky Explorer",120
 "Floating Islands","Forgotten Palace - 3x Loot","Cloud Cheesecake","-","6.67%","Spry Sky Seer",120
-"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.80%","Richard the Rich",4612
-"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","20.16%","Forgotten Elder",4612
-"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","16.37%","Spry Sky Explorer",4612
-"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.83%","Fortuitous Fool",4612
-"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.31%","Spry Sky Seer",4612
-"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","8.52%","Cumulost",4612
-"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","34.80%","Kite Flyer",204
-"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","33.82%","Daydreamer",204
-"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","17.65%","Richard the Rich",204
-"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","7.35%","Spry Sky Explorer",204
-"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","6.37%","Spry Sky Seer",204
-"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.25%","Fortuitous Fool",12330
-"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","25.13%","Richard the Rich",12330
-"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.86%","Forgotten Elder",12330
-"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.39%","Spry Sky Seer",12330
-"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","10.84%","Spry Sky Explorer",12330
-"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.53%","Cumulost",12330
-"Floating Islands","Hydro Low","SB+","-","49.88%","Kite Flyer",824
-"Floating Islands","Hydro Low","SB+","-","39.44%","Daydreamer",824
-"Floating Islands","Hydro Low","SB+","-","6.31%","Sky Surfer",824
-"Floating Islands","Hydro Low","SB+","-","4.37%","Nimbomancer",824
-"Floating Islands","Hydro Low","Gouda","-","50.37%","Daydreamer",7736
-"Floating Islands","Hydro Low","Gouda","-","39.40%","Kite Flyer",7736
-"Floating Islands","Hydro Low","Gouda","-","5.16%","Nimbomancer",7736
-"Floating Islands","Hydro Low","Gouda","-","5.07%","Sky Surfer",7736
-"Floating Islands","Hydro High","Gouda","-","51.43%","Daydreamer",842
-"Floating Islands","Hydro High","Gouda","-","37.29%","Kite Flyer",842
-"Floating Islands","Hydro High","Gouda","-","6.06%","Sky Surfer",842
-"Floating Islands","Hydro High","Gouda","-","5.23%","Nimbomancer",842
-"Floating Islands","Hydro Low","Cloud Cheesecake","-","29.79%","Sky Surfer",517432
-"Floating Islands","Hydro Low","Cloud Cheesecake","-","20.82%","Cute Cloud Conjurer",517432
-"Floating Islands","Hydro Low","Cloud Cheesecake","-","20.43%","Nimbomancer",517432
-"Floating Islands","Hydro Low","Cloud Cheesecake","-","18.74%","Kite Flyer",517432
-"Floating Islands","Hydro Low","Cloud Cheesecake","-","10.22%","Daydreamer",517432
-"Floating Islands","Hydro High","Cloud Cheesecake","-","34.62%","Mist Maker",178051
-"Floating Islands","Hydro High","Cloud Cheesecake","-","24.84%","Sky Surfer",178051
-"Floating Islands","Hydro High","Cloud Cheesecake","-","20.80%","Nimbomancer",178051
-"Floating Islands","Hydro High","Cloud Cheesecake","-","19.74%","Cute Cloud Conjurer",178051
-"Floating Islands","Hydro Palace","Cloud Cheesecake","-","44.42%","Kite Flyer",2089
-"Floating Islands","Hydro Palace","Cloud Cheesecake","-","38.97%","Daydreamer",2089
-"Floating Islands","Hydro Palace","Cloud Cheesecake","-","8.33%","Nimbomancer",2089
-"Floating Islands","Hydro Palace","Cloud Cheesecake","-","8.28%","Sky Surfer",2089
+"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.79%","Richard the Rich",4622
+"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","20.16%","Forgotten Elder",4622
+"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","16.33%","Spry Sky Explorer",4622
+"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.82%","Fortuitous Fool",4622
+"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.34%","Spry Sky Seer",4622
+"Floating Islands","Forgotten Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","8.55%","Cumulost",4622
+"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","35.12%","Kite Flyer",205
+"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","33.66%","Daydreamer",205
+"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","17.56%","Richard the Rich",205
+"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","7.32%","Spry Sky Explorer",205
+"Floating Islands","Forgotten Palace - 4x Loot","Cloud Cheesecake","-","6.34%","Spry Sky Seer",205
+"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.23%","Fortuitous Fool",12367
+"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","25.12%","Richard the Rich",12367
+"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.88%","Forgotten Elder",12367
+"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.39%","Spry Sky Seer",12367
+"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","10.86%","Spry Sky Explorer",12367
+"Floating Islands","Forgotten Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.53%","Cumulost",12367
+"Floating Islands","Hydro Low","SB+","-","49.64%","Kite Flyer",830
+"Floating Islands","Hydro Low","SB+","-","39.76%","Daydreamer",830
+"Floating Islands","Hydro Low","SB+","-","6.27%","Sky Surfer",830
+"Floating Islands","Hydro Low","SB+","-","4.34%","Nimbomancer",830
+"Floating Islands","Hydro Low","Gouda","-","50.42%","Daydreamer",7776
+"Floating Islands","Hydro Low","Gouda","-","39.34%","Kite Flyer",7776
+"Floating Islands","Hydro Low","Gouda","-","5.17%","Nimbomancer",7776
+"Floating Islands","Hydro Low","Gouda","-","5.07%","Sky Surfer",7776
+"Floating Islands","Hydro High","Gouda","-","51.40%","Daydreamer",860
+"Floating Islands","Hydro High","Gouda","-","37.44%","Kite Flyer",860
+"Floating Islands","Hydro High","Gouda","-","6.05%","Sky Surfer",860
+"Floating Islands","Hydro High","Gouda","-","5.12%","Nimbomancer",860
+"Floating Islands","Hydro Low","Cloud Cheesecake","-","29.79%","Sky Surfer",519581
+"Floating Islands","Hydro Low","Cloud Cheesecake","-","20.82%","Cute Cloud Conjurer",519581
+"Floating Islands","Hydro Low","Cloud Cheesecake","-","20.43%","Nimbomancer",519581
+"Floating Islands","Hydro Low","Cloud Cheesecake","-","18.74%","Kite Flyer",519581
+"Floating Islands","Hydro Low","Cloud Cheesecake","-","10.21%","Daydreamer",519581
+"Floating Islands","Hydro High","Cloud Cheesecake","-","34.62%","Mist Maker",178637
+"Floating Islands","Hydro High","Cloud Cheesecake","-","24.84%","Sky Surfer",178637
+"Floating Islands","Hydro High","Cloud Cheesecake","-","20.79%","Nimbomancer",178637
+"Floating Islands","Hydro High","Cloud Cheesecake","-","19.75%","Cute Cloud Conjurer",178637
+"Floating Islands","Hydro Palace","Cloud Cheesecake","-","44.57%","Kite Flyer",2109
+"Floating Islands","Hydro Palace","Cloud Cheesecake","-","38.83%","Daydreamer",2109
+"Floating Islands","Hydro Palace","Cloud Cheesecake","-","8.39%","Nimbomancer",2109
+"Floating Islands","Hydro Palace","Cloud Cheesecake","-","8.20%","Sky Surfer",2109
 "Floating Islands","Hydro Palace - 4x Emp Seal","Cloud Cheesecake","-","43.39%","Daydreamer",189
 "Floating Islands","Hydro Palace - 4x Emp Seal","Cloud Cheesecake","-","41.27%","Kite Flyer",189
 "Floating Islands","Hydro Palace - 4x Emp Seal","Cloud Cheesecake","-","9.52%","Nimbomancer",189
 "Floating Islands","Hydro Palace - 4x Emp Seal","Cloud Cheesecake","-","5.82%","Sky Surfer",189
-"Floating Islands","Hydro Low","Extra Rich Cloud Cheesecake","-","40.10%","Sky Surfer",6955
-"Floating Islands","Hydro Low","Extra Rich Cloud Cheesecake","-","39.53%","Nimbomancer",6955
-"Floating Islands","Hydro Low","Extra Rich Cloud Cheesecake","-","20.37%","Cute Cloud Conjurer",6955
-"Floating Islands","Hydro High","Extra Rich Cloud Cheesecake","-","50.58%","Nimbomancer",2916
-"Floating Islands","Hydro High","Extra Rich Cloud Cheesecake","-","30.56%","Sky Surfer",2916
-"Floating Islands","Hydro High","Extra Rich Cloud Cheesecake","-","9.84%","Mist Maker",2916
-"Floating Islands","Hydro High","Extra Rich Cloud Cheesecake","-","9.02%","Cute Cloud Conjurer",2916
-"Floating Islands","Hydro Palace","Extra Rich Cloud Cheesecake","-","33.99%","Cloud Strider",15172
-"Floating Islands","Hydro Palace","Extra Rich Cloud Cheesecake","-","25.73%","Nimbomancer",15172
-"Floating Islands","Hydro Palace","Extra Rich Cloud Cheesecake","-","24.73%","Sky Surfer",15172
-"Floating Islands","Hydro Palace","Extra Rich Cloud Cheesecake","-","15.55%","Cute Cloud Conjurer",15172
-"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","38.90%","Consumed Charm Tinkerer",581
-"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","20.48%","Cloud Strider",581
-"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","17.73%","Nimbomancer",581
-"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","12.56%","Sky Surfer",581
-"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","10.33%","Cute Cloud Conjurer",581
-"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","39.03%","Consumed Charm Tinkerer",2859
-"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","21.37%","Cloud Strider",2859
-"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.15%","Nimbomancer",2859
-"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.15%","Sky Surfer",2859
-"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","9.30%","Cute Cloud Conjurer",2859
-"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.12%","Cloud Strider",2102
-"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","21.12%","Nimbomancer",2102
-"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.60%","Empyrean Geologist",2102
-"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","18.51%","Sky Surfer",2102
-"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","12.65%","Cute Cloud Conjurer",2102
-"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","39.72%","Empyrean Geologist",9790
-"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","21.29%","Cloud Strider",9790
-"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.61%","Nimbomancer",9790
-"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.72%","Sky Surfer",9790
-"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.66%","Cute Cloud Conjurer",9790
+"Floating Islands","Hydro Low","Extra Rich Cloud Cheesecake","-","40.08%","Sky Surfer",6989
+"Floating Islands","Hydro Low","Extra Rich Cloud Cheesecake","-","39.55%","Nimbomancer",6989
+"Floating Islands","Hydro Low","Extra Rich Cloud Cheesecake","-","20.37%","Cute Cloud Conjurer",6989
+"Floating Islands","Hydro High","Extra Rich Cloud Cheesecake","-","50.58%","Nimbomancer",2930
+"Floating Islands","Hydro High","Extra Rich Cloud Cheesecake","-","30.58%","Sky Surfer",2930
+"Floating Islands","Hydro High","Extra Rich Cloud Cheesecake","-","9.83%","Mist Maker",2930
+"Floating Islands","Hydro High","Extra Rich Cloud Cheesecake","-","9.01%","Cute Cloud Conjurer",2930
+"Floating Islands","Hydro Palace","Extra Rich Cloud Cheesecake","-","33.98%","Cloud Strider",15210
+"Floating Islands","Hydro Palace","Extra Rich Cloud Cheesecake","-","25.75%","Nimbomancer",15210
+"Floating Islands","Hydro Palace","Extra Rich Cloud Cheesecake","-","24.71%","Sky Surfer",15210
+"Floating Islands","Hydro Palace","Extra Rich Cloud Cheesecake","-","15.56%","Cute Cloud Conjurer",15210
+"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","39.11%","Consumed Charm Tinkerer",583
+"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","20.41%","Cloud Strider",583
+"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","17.67%","Nimbomancer",583
+"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","12.52%","Sky Surfer",583
+"Floating Islands","Hydro Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","10.29%","Cute Cloud Conjurer",583
+"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","39.04%","Consumed Charm Tinkerer",2864
+"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","21.37%","Cloud Strider",2864
+"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.19%","Sky Surfer",2864
+"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.12%","Nimbomancer",2864
+"Floating Islands","Hydro Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","9.29%","Cute Cloud Conjurer",2864
+"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.17%","Cloud Strider",2109
+"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","21.10%","Nimbomancer",2109
+"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.63%","Empyrean Geologist",2109
+"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","18.49%","Sky Surfer",2109
+"Floating Islands","Hydro Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","12.61%","Cute Cloud Conjurer",2109
+"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","39.71%","Empyrean Geologist",9844
+"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","21.28%","Cloud Strider",9844
+"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.60%","Nimbomancer",9844
+"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.69%","Sky Surfer",9844
+"Floating Islands","Hydro Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.72%","Cute Cloud Conjurer",9844
 "Floating Islands","Hydro Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","24.96%","Cloud Strider",1198
 "Floating Islands","Hydro Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","21.20%","Sky Surfer",1198
 "Floating Islands","Hydro Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","21.20%","Nimbomancer",1198
 "Floating Islands","Hydro Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.70%","Empyrean Appraiser",1198
 "Floating Islands","Hydro Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","12.94%","Cute Cloud Conjurer",1198
-"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.96%","Empyrean Appraiser",4840
-"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","21.36%","Cloud Strider",4840
-"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.60%","Nimbomancer",4840
-"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.21%","Sky Surfer",4840
-"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","8.86%","Cute Cloud Conjurer",4840
-"Floating Islands","Hydro Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","35.10%","Cloud Strider",678
-"Floating Islands","Hydro Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","24.78%","Nimbomancer",678
-"Floating Islands","Hydro Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","23.89%","Sky Surfer",678
-"Floating Islands","Hydro Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","16.22%","Cute Cloud Conjurer",678
-"Floating Islands","Hydro Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","36.13%","Cloud Strider",1309
-"Floating Islands","Hydro Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","24.98%","Nimbomancer",1309
-"Floating Islands","Hydro Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","22.38%","Sky Surfer",1309
-"Floating Islands","Hydro Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","16.50%","Cute Cloud Conjurer",1309
-"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","24.11%","Sky Surfer",33839
-"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","18.07%","Richard the Rich",33839
-"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","17.36%","Nimbomancer",33839
-"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","16.77%","Cute Cloud Conjurer",33839
-"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","15.52%","Kite Flyer",33839
-"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","8.17%","Daydreamer",33839
-"Floating Islands","Hydro Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.13%","Nimbomancer",8650
-"Floating Islands","Hydro Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.18%","Sky Surfer",8650
-"Floating Islands","Hydro Low - 2x Loot","Extra Rich Cloud Cheesecake","-","25.72%","Richard the Rich",8650
-"Floating Islands","Hydro Low - 2x Loot","Extra Rich Cloud Cheesecake","-","14.97%","Cute Cloud Conjurer",8650
-"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","28.07%","Mist Maker",32838
-"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","20.37%","Sky Surfer",32838
-"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","18.48%","Richard the Rich",32838
-"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","16.87%","Nimbomancer",32838
-"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","16.21%","Cute Cloud Conjurer",32838
-"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.52%","Nimbomancer",5861
-"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.59%","Richard the Rich",5861
-"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","21.72%","Sky Surfer",5861
-"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.63%","Cute Cloud Conjurer",5861
-"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.54%","Mist Maker",5861
-"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","37.40%","Daydreamer",393
-"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","33.33%","Kite Flyer",393
-"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","15.01%","Richard the Rich",393
-"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","7.12%","Sky Surfer",393
-"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","7.12%","Nimbomancer",393
-"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.14%","Richard the Rich",6254
-"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.74%","Cloud Strider",6254
-"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.24%","Nimbomancer",6254
-"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","18.04%","Sky Surfer",6254
-"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.84%","Cute Cloud Conjurer",6254
+"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.95%","Empyrean Appraiser",4841
+"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","21.38%","Cloud Strider",4841
+"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.60%","Nimbomancer",4841
+"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.21%","Sky Surfer",4841
+"Floating Islands","Hydro Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","8.86%","Cute Cloud Conjurer",4841
+"Floating Islands","Hydro Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","34.93%","Cloud Strider",690
+"Floating Islands","Hydro Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","24.78%","Nimbomancer",690
+"Floating Islands","Hydro Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","24.20%","Sky Surfer",690
+"Floating Islands","Hydro Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","16.09%","Cute Cloud Conjurer",690
+"Floating Islands","Hydro Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","35.77%","Cloud Strider",1367
+"Floating Islands","Hydro Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","25.09%","Nimbomancer",1367
+"Floating Islands","Hydro Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","22.68%","Sky Surfer",1367
+"Floating Islands","Hydro Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","16.46%","Cute Cloud Conjurer",1367
+"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","24.12%","Sky Surfer",34009
+"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","18.07%","Richard the Rich",34009
+"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","17.35%","Nimbomancer",34009
+"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","16.79%","Cute Cloud Conjurer",34009
+"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","15.50%","Kite Flyer",34009
+"Floating Islands","Hydro Low - 2x Loot","Cloud Cheesecake","-","8.17%","Daydreamer",34009
+"Floating Islands","Hydro Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.18%","Nimbomancer",8681
+"Floating Islands","Hydro Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.16%","Sky Surfer",8681
+"Floating Islands","Hydro Low - 2x Loot","Extra Rich Cloud Cheesecake","-","25.70%","Richard the Rich",8681
+"Floating Islands","Hydro Low - 2x Loot","Extra Rich Cloud Cheesecake","-","14.96%","Cute Cloud Conjurer",8681
+"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","28.07%","Mist Maker",33011
+"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","20.34%","Sky Surfer",33011
+"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","18.48%","Richard the Rich",33011
+"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","16.89%","Nimbomancer",33011
+"Floating Islands","Hydro High - 2x Loot","Cloud Cheesecake","-","16.21%","Cute Cloud Conjurer",33011
+"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.54%","Nimbomancer",5868
+"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.58%","Richard the Rich",5868
+"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","21.71%","Sky Surfer",5868
+"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.63%","Cute Cloud Conjurer",5868
+"Floating Islands","Hydro High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.53%","Mist Maker",5868
+"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","37.47%","Daydreamer",395
+"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","33.42%","Kite Flyer",395
+"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","14.94%","Richard the Rich",395
+"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","7.09%","Sky Surfer",395
+"Floating Islands","Hydro Palace - 2x Loot","Cloud Cheesecake","-","7.09%","Nimbomancer",395
+"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.13%","Richard the Rich",6261
+"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.75%","Cloud Strider",6261
+"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.25%","Nimbomancer",6261
+"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","18.05%","Sky Surfer",6261
+"Floating Islands","Hydro Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.83%","Cute Cloud Conjurer",6261
 "Floating Islands","Hydro Palace - 3x Loot","Cloud Cheesecake","-","35.04%","Kite Flyer",254
 "Floating Islands","Hydro Palace - 3x Loot","Cloud Cheesecake","-","31.50%","Daydreamer",254
 "Floating Islands","Hydro Palace - 3x Loot","Cloud Cheesecake","-","19.29%","Richard the Rich",254
 "Floating Islands","Hydro Palace - 3x Loot","Cloud Cheesecake","-","8.27%","Sky Surfer",254
 "Floating Islands","Hydro Palace - 3x Loot","Cloud Cheesecake","-","5.91%","Nimbomancer",254
-"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","25.47%","Richard the Rich",15095
-"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","20.70%","Cloud Strider",15095
-"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.10%","Sky Surfer",15095
-"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.97%","Fortuitous Fool",15095
-"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.93%","Nimbomancer",15095
-"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","8.82%","Cute Cloud Conjurer",15095
-"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","37.55%","Daydreamer",522
-"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","33.52%","Kite Flyer",522
-"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","14.75%","Richard the Rich",522
-"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","7.47%","Sky Surfer",522
-"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","6.70%","Nimbomancer",522
-"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","29.69%","Fortuitous Fool",38935
-"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","25.04%","Richard the Rich",38935
-"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.61%","Cloud Strider",38935
-"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.71%","Nimbomancer",38935
-"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.18%","Sky Surfer",38935
-"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.77%","Cute Cloud Conjurer",38935
-"Floating Islands","Law Low","SB+","-","50.49%","Kite Flyer",408
-"Floating Islands","Law Low","SB+","-","42.89%","Daydreamer",408
-"Floating Islands","Law Low","SB+","-","3.43%","Devious Gentleman",408
-"Floating Islands","Law Low","SB+","-","3.19%","Stack of Thieves",408
+"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","25.45%","Richard the Rich",15128
+"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","20.72%","Cloud Strider",15128
+"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.08%","Sky Surfer",15128
+"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.97%","Fortuitous Fool",15128
+"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.95%","Nimbomancer",15128
+"Floating Islands","Hydro Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","8.82%","Cute Cloud Conjurer",15128
+"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","37.48%","Daydreamer",523
+"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","33.65%","Kite Flyer",523
+"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","14.72%","Richard the Rich",523
+"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","7.46%","Sky Surfer",523
+"Floating Islands","Hydro Palace - 4x Loot","Cloud Cheesecake","-","6.69%","Nimbomancer",523
+"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","29.68%","Fortuitous Fool",38968
+"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","25.05%","Richard the Rich",38968
+"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.61%","Cloud Strider",38968
+"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.70%","Nimbomancer",38968
+"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.19%","Sky Surfer",38968
+"Floating Islands","Hydro Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.77%","Cute Cloud Conjurer",38968
+"Floating Islands","Law Low","SB+","-","50.61%","Kite Flyer",409
+"Floating Islands","Law Low","SB+","-","42.79%","Daydreamer",409
+"Floating Islands","Law Low","SB+","-","3.42%","Devious Gentleman",409
+"Floating Islands","Law Low","SB+","-","3.18%","Stack of Thieves",409
 "Floating Islands","Law High","SB+","-","50.38%","Kite Flyer",131
 "Floating Islands","Law High","SB+","-","38.93%","Daydreamer",131
 "Floating Islands","Law High","SB+","-","6.87%","Stack of Thieves",131
 "Floating Islands","Law High","SB+","-","3.82%","Devious Gentleman",131
-"Floating Islands","Law Low","Gouda","-","51.39%","Daydreamer",3094
-"Floating Islands","Law Low","Gouda","-","38.66%","Kite Flyer",3094
-"Floating Islands","Law Low","Gouda","-","4.98%","Stack of Thieves",3094
-"Floating Islands","Law Low","Gouda","-","4.98%","Devious Gentleman",3094
+"Floating Islands","Law Low","Gouda","-","51.34%","Daydreamer",3107
+"Floating Islands","Law Low","Gouda","-","38.75%","Kite Flyer",3107
+"Floating Islands","Law Low","Gouda","-","4.96%","Stack of Thieves",3107
+"Floating Islands","Law Low","Gouda","-","4.96%","Devious Gentleman",3107
 "Floating Islands","Law High","Gouda","-","49.06%","Daydreamer",373
 "Floating Islands","Law High","Gouda","-","41.82%","Kite Flyer",373
 "Floating Islands","Law High","Gouda","-","5.36%","Devious Gentleman",373
 "Floating Islands","Law High","Gouda","-","3.75%","Stack of Thieves",373
-"Floating Islands","Law Low","Cloud Cheesecake","-","29.87%","Stack of Thieves",519185
-"Floating Islands","Law Low","Cloud Cheesecake","-","20.67%","Lawbender",519185
-"Floating Islands","Law Low","Cloud Cheesecake","-","20.46%","Devious Gentleman",519185
-"Floating Islands","Law Low","Cloud Cheesecake","-","18.81%","Kite Flyer",519185
-"Floating Islands","Law Low","Cloud Cheesecake","-","10.18%","Daydreamer",519185
-"Floating Islands","Law High","Cloud Cheesecake","-","34.70%","Agent M",177480
-"Floating Islands","Law High","Cloud Cheesecake","-","24.83%","Stack of Thieves",177480
-"Floating Islands","Law High","Cloud Cheesecake","-","20.73%","Devious Gentleman",177480
-"Floating Islands","Law High","Cloud Cheesecake","-","19.74%","Lawbender",177480
-"Floating Islands","Law Palace","Cloud Cheesecake","-","42.69%","Daydreamer",998
-"Floating Islands","Law Palace","Cloud Cheesecake","-","40.68%","Kite Flyer",998
-"Floating Islands","Law Palace","Cloud Cheesecake","-","8.72%","Devious Gentleman",998
-"Floating Islands","Law Palace","Cloud Cheesecake","-","7.92%","Stack of Thieves",998
-"Floating Islands","Law Low","Extra Rich Cloud Cheesecake","-","40.47%","Devious Gentleman",9023
-"Floating Islands","Law Low","Extra Rich Cloud Cheesecake","-","39.79%","Stack of Thieves",9023
-"Floating Islands","Law Low","Extra Rich Cloud Cheesecake","-","19.74%","Lawbender",9023
-"Floating Islands","Law High","Extra Rich Cloud Cheesecake","-","50.74%","Devious Gentleman",2623
-"Floating Islands","Law High","Extra Rich Cloud Cheesecake","-","29.78%","Stack of Thieves",2623
-"Floating Islands","Law High","Extra Rich Cloud Cheesecake","-","10.94%","Lawbender",2623
-"Floating Islands","Law High","Extra Rich Cloud Cheesecake","-","8.54%","Agent M",2623
-"Floating Islands","Law Palace","Extra Rich Cloud Cheesecake","-","35.11%","Aristo-Cat Burglar",9778
-"Floating Islands","Law Palace","Extra Rich Cloud Cheesecake","-","26.17%","Devious Gentleman",9778
-"Floating Islands","Law Palace","Extra Rich Cloud Cheesecake","-","23.81%","Stack of Thieves",9778
-"Floating Islands","Law Palace","Extra Rich Cloud Cheesecake","-","14.91%","Lawbender",9778
+"Floating Islands","Law Low","Cloud Cheesecake","-","29.87%","Stack of Thieves",522615
+"Floating Islands","Law Low","Cloud Cheesecake","-","20.67%","Lawbender",522615
+"Floating Islands","Law Low","Cloud Cheesecake","-","20.46%","Devious Gentleman",522615
+"Floating Islands","Law Low","Cloud Cheesecake","-","18.81%","Kite Flyer",522615
+"Floating Islands","Law Low","Cloud Cheesecake","-","10.18%","Daydreamer",522615
+"Floating Islands","Law High","Cloud Cheesecake","-","34.69%","Agent M",179028
+"Floating Islands","Law High","Cloud Cheesecake","-","24.83%","Stack of Thieves",179028
+"Floating Islands","Law High","Cloud Cheesecake","-","20.74%","Devious Gentleman",179028
+"Floating Islands","Law High","Cloud Cheesecake","-","19.73%","Lawbender",179028
+"Floating Islands","Law Palace","Cloud Cheesecake","-","42.46%","Daydreamer",1015
+"Floating Islands","Law Palace","Cloud Cheesecake","-","40.79%","Kite Flyer",1015
+"Floating Islands","Law Palace","Cloud Cheesecake","-","8.87%","Devious Gentleman",1015
+"Floating Islands","Law Palace","Cloud Cheesecake","-","7.88%","Stack of Thieves",1015
+"Floating Islands","Law Low","Extra Rich Cloud Cheesecake","-","40.49%","Devious Gentleman",9084
+"Floating Islands","Law Low","Extra Rich Cloud Cheesecake","-","39.77%","Stack of Thieves",9084
+"Floating Islands","Law Low","Extra Rich Cloud Cheesecake","-","19.74%","Lawbender",9084
+"Floating Islands","Law High","Extra Rich Cloud Cheesecake","-","50.90%","Devious Gentleman",2678
+"Floating Islands","Law High","Extra Rich Cloud Cheesecake","-","29.65%","Stack of Thieves",2678
+"Floating Islands","Law High","Extra Rich Cloud Cheesecake","-","10.94%","Lawbender",2678
+"Floating Islands","Law High","Extra Rich Cloud Cheesecake","-","8.51%","Agent M",2678
+"Floating Islands","Law Palace","Extra Rich Cloud Cheesecake","-","35.38%","Aristo-Cat Burglar",10144
+"Floating Islands","Law Palace","Extra Rich Cloud Cheesecake","-","25.95%","Devious Gentleman",10144
+"Floating Islands","Law Palace","Extra Rich Cloud Cheesecake","-","23.88%","Stack of Thieves",10144
+"Floating Islands","Law Palace","Extra Rich Cloud Cheesecake","-","14.80%","Lawbender",10144
 "Floating Islands","Law Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","39.07%","Consumed Charm Tinkerer",691
 "Floating Islands","Law Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","20.12%","Aristo-Cat Burglar",691
 "Floating Islands","Law Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","16.21%","Stack of Thieves",691
@@ -586,219 +586,219 @@
 "Floating Islands","Law Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.19%","Devious Gentleman",3286
 "Floating Islands","Law Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.00%","Stack of Thieves",3286
 "Floating Islands","Law Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","9.71%","Lawbender",3286
-"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","27.36%","Aristo-Cat Burglar",2186
-"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.86%","Devious Gentleman",2186
-"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.63%","Stack of Thieves",2186
-"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.90%","Empyrean Geologist",2186
-"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","11.25%","Lawbender",2186
-"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","40.26%","Empyrean Geologist",12990
-"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","20.55%","Aristo-Cat Burglar",12990
-"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.57%","Devious Gentleman",12990
-"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.97%","Stack of Thieves",12990
-"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.65%","Lawbender",12990
-"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","28.46%","Aristo-Cat Burglar",991
-"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","22.91%","Stack of Thieves",991
-"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","18.37%","Devious Gentleman",991
-"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","18.06%","Empyrean Appraiser",991
-"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","12.21%","Lawbender",991
-"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.78%","Empyrean Appraiser",5392
-"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.18%","Aristo-Cat Burglar",5392
-"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.73%","Devious Gentleman",5392
-"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.21%","Stack of Thieves",5392
-"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","9.11%","Lawbender",5392
-"Floating Islands","Law Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","35.54%","Aristo-Cat Burglar",560
-"Floating Islands","Law Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","26.96%","Stack of Thieves",560
-"Floating Islands","Law Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","23.39%","Devious Gentleman",560
-"Floating Islands","Law Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","14.11%","Lawbender",560
-"Floating Islands","Law Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","34.64%","Aristo-Cat Burglar",993
-"Floating Islands","Law Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","25.58%","Devious Gentleman",993
-"Floating Islands","Law Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","24.67%","Stack of Thieves",993
-"Floating Islands","Law Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","15.11%","Lawbender",993
-"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","24.50%","Stack of Thieves",30374
-"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","17.79%","Richard the Rich",30374
-"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","17.12%","Lawbender",30374
-"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","16.89%","Devious Gentleman",30374
-"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","15.63%","Kite Flyer",30374
-"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","8.07%","Daydreamer",30374
+"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","27.34%","Aristo-Cat Burglar",2191
+"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.86%","Devious Gentleman",2191
+"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.58%","Stack of Thieves",2191
+"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.99%","Empyrean Geologist",2191
+"Floating Islands","Law Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","11.23%","Lawbender",2191
+"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","40.26%","Empyrean Geologist",12992
+"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","20.55%","Aristo-Cat Burglar",12992
+"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.57%","Devious Gentleman",12992
+"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.97%","Stack of Thieves",12992
+"Floating Islands","Law Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.65%","Lawbender",12992
+"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","28.54%","Aristo-Cat Burglar",995
+"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","22.81%","Stack of Thieves",995
+"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","18.39%","Devious Gentleman",995
+"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","18.09%","Empyrean Appraiser",995
+"Floating Islands","Law Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","12.16%","Lawbender",995
+"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.59%","Empyrean Appraiser",5481
+"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.25%","Aristo-Cat Burglar",5481
+"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.84%","Devious Gentleman",5481
+"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.18%","Stack of Thieves",5481
+"Floating Islands","Law Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","9.14%","Lawbender",5481
+"Floating Islands","Law Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","36.24%","Aristo-Cat Burglar",643
+"Floating Islands","Law Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","26.59%","Stack of Thieves",643
+"Floating Islands","Law Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","23.17%","Devious Gentleman",643
+"Floating Islands","Law Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","14.00%","Lawbender",643
+"Floating Islands","Law Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","33.47%","Aristo-Cat Burglar",1440
+"Floating Islands","Law Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.74%","Stack of Thieves",1440
+"Floating Islands","Law Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","25.07%","Devious Gentleman",1440
+"Floating Islands","Law Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.72%","Lawbender",1440
+"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","24.47%","Stack of Thieves",30523
+"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","17.81%","Richard the Rich",30523
+"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","17.13%","Lawbender",30523
+"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","16.87%","Devious Gentleman",30523
+"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","15.62%","Kite Flyer",30523
+"Floating Islands","Law Low - 2x Loot","Cloud Cheesecake","-","8.08%","Daydreamer",30523
 "Floating Islands","Law Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.14%","Stack of Thieves",5059
 "Floating Islands","Law Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.06%","Devious Gentleman",5059
 "Floating Islands","Law Low - 2x Loot","Extra Rich Cloud Cheesecake","-","25.36%","Richard the Rich",5059
 "Floating Islands","Law Low - 2x Loot","Extra Rich Cloud Cheesecake","-","15.44%","Lawbender",5059
-"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","28.11%","Agent M",29952
-"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","20.91%","Stack of Thieves",29952
-"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","18.10%","Richard the Rich",29952
-"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","16.88%","Devious Gentleman",29952
-"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","16.00%","Lawbender",29952
-"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.94%","Devious Gentleman",3727
-"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.01%","Richard the Rich",3727
-"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","21.71%","Stack of Thieves",3727
-"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","8.21%","Agent M",3727
-"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.14%","Lawbender",3727
+"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","28.14%","Agent M",30180
+"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","20.92%","Stack of Thieves",30180
+"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","18.09%","Richard the Rich",30180
+"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","16.85%","Devious Gentleman",30180
+"Floating Islands","Law High - 2x Loot","Cloud Cheesecake","-","15.99%","Lawbender",30180
+"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.91%","Devious Gentleman",3743
+"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.11%","Richard the Rich",3743
+"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","21.64%","Stack of Thieves",3743
+"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","8.20%","Agent M",3743
+"Floating Islands","Law High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.13%","Lawbender",3743
 "Floating Islands","Law Palace - 2x Loot","Cloud Cheesecake","-","37.61%","Kite Flyer",117
 "Floating Islands","Law Palace - 2x Loot","Cloud Cheesecake","-","35.04%","Daydreamer",117
 "Floating Islands","Law Palace - 2x Loot","Cloud Cheesecake","-","17.95%","Richard the Rich",117
 "Floating Islands","Law Palace - 2x Loot","Cloud Cheesecake","-","9.40%","Devious Gentleman",117
-"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.95%","Aristo-Cat Burglar",2200
-"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.45%","Richard the Rich",2200
-"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.36%","Stack of Thieves",2200
-"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","17.68%","Devious Gentleman",2200
-"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","11.55%","Lawbender",2200
-"Floating Islands","Law Palace - 3x Loot","Cloud Cheesecake","-","44.86%","Kite Flyer",107
-"Floating Islands","Law Palace - 3x Loot","Cloud Cheesecake","-","29.91%","Daydreamer",107
-"Floating Islands","Law Palace - 3x Loot","Cloud Cheesecake","-","19.63%","Richard the Rich",107
-"Floating Islands","Law Palace - 3x Loot","Cloud Cheesecake","-","5.61%","Devious Gentleman",107
-"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.60%","Richard the Rich",5285
-"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","21.63%","Aristo-Cat Burglar",5285
-"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.84%","Devious Gentleman",5285
-"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.04%","Fortuitous Fool",5285
-"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","13.96%","Stack of Thieves",5285
-"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","8.93%","Lawbender",5285
+"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.06%","Aristo-Cat Burglar",2279
+"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.63%","Richard the Rich",2279
+"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.13%","Stack of Thieves",2279
+"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","17.51%","Devious Gentleman",2279
+"Floating Islands","Law Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","11.67%","Lawbender",2279
+"Floating Islands","Law Palace - 3x Loot","Cloud Cheesecake","-","44.55%","Kite Flyer",110
+"Floating Islands","Law Palace - 3x Loot","Cloud Cheesecake","-","30.00%","Daydreamer",110
+"Floating Islands","Law Palace - 3x Loot","Cloud Cheesecake","-","20.00%","Richard the Rich",110
+"Floating Islands","Law Palace - 3x Loot","Cloud Cheesecake","-","5.45%","Devious Gentleman",110
+"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.27%","Richard the Rich",5850
+"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","21.76%","Aristo-Cat Burglar",5850
+"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.81%","Devious Gentleman",5850
+"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.08%","Fortuitous Fool",5850
+"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.07%","Stack of Thieves",5850
+"Floating Islands","Law Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","9.01%","Lawbender",5850
 "Floating Islands","Law Palace - 4x Loot","Cloud Cheesecake","-","39.52%","Kite Flyer",167
 "Floating Islands","Law Palace - 4x Loot","Cloud Cheesecake","-","32.93%","Daydreamer",167
 "Floating Islands","Law Palace - 4x Loot","Cloud Cheesecake","-","20.96%","Richard the Rich",167
 "Floating Islands","Law Palace - 4x Loot","Cloud Cheesecake","-","6.59%","Devious Gentleman",167
-"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.47%","Fortuitous Fool",10891
-"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.86%","Richard the Rich",10891
-"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.30%","Aristo-Cat Burglar",10891
-"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.50%","Stack of Thieves",10891
-"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.34%","Devious Gentleman",10891
-"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.55%","Lawbender",10891
-"Floating Islands","Physical Low","SB+","-","47.40%","Kite Flyer",443
-"Floating Islands","Physical Low","SB+","-","39.95%","Daydreamer",443
-"Floating Islands","Physical Low","SB+","-","7.00%","Sky Swordsman",443
-"Floating Islands","Physical Low","SB+","-","5.64%","Ground Gavaleer",443
+"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.40%","Fortuitous Fool",10984
+"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.85%","Richard the Rich",10984
+"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.36%","Aristo-Cat Burglar",10984
+"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.51%","Stack of Thieves",10984
+"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.31%","Devious Gentleman",10984
+"Floating Islands","Law Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.57%","Lawbender",10984
+"Floating Islands","Physical Low","SB+","-","47.56%","Kite Flyer",450
+"Floating Islands","Physical Low","SB+","-","40.00%","Daydreamer",450
+"Floating Islands","Physical Low","SB+","-","6.89%","Sky Swordsman",450
+"Floating Islands","Physical Low","SB+","-","5.56%","Ground Gavaleer",450
 "Floating Islands","Physical High","SB+","-","47.06%","Kite Flyer",102
 "Floating Islands","Physical High","SB+","-","43.14%","Daydreamer",102
 "Floating Islands","Physical High","SB+","-","4.90%","Sky Swordsman",102
 "Floating Islands","Physical High","SB+","-","4.90%","Ground Gavaleer",102
-"Floating Islands","Physical Low","Gouda","-","49.64%","Daydreamer",7287
-"Floating Islands","Physical Low","Gouda","-","40.39%","Kite Flyer",7287
-"Floating Islands","Physical Low","Gouda","-","5.15%","Ground Gavaleer",7287
-"Floating Islands","Physical Low","Gouda","-","4.83%","Sky Swordsman",7287
+"Floating Islands","Physical Low","Gouda","-","49.56%","Daydreamer",7321
+"Floating Islands","Physical Low","Gouda","-","40.47%","Kite Flyer",7321
+"Floating Islands","Physical Low","Gouda","-","5.16%","Ground Gavaleer",7321
+"Floating Islands","Physical Low","Gouda","-","4.81%","Sky Swordsman",7321
 "Floating Islands","Physical High","Gouda","-","51.26%","Daydreamer",597
 "Floating Islands","Physical High","Gouda","-","40.37%","Kite Flyer",597
 "Floating Islands","Physical High","Gouda","-","5.03%","Sky Swordsman",597
 "Floating Islands","Physical High","Gouda","-","3.35%","Ground Gavaleer",597
-"Floating Islands","Physical Low","Cloud Cheesecake","-","29.79%","Sky Swordsman",514180
-"Floating Islands","Physical Low","Cloud Cheesecake","-","20.83%","Herc",514180
-"Floating Islands","Physical Low","Cloud Cheesecake","-","20.39%","Ground Gavaleer",514180
-"Floating Islands","Physical Low","Cloud Cheesecake","-","18.83%","Kite Flyer",514180
-"Floating Islands","Physical Low","Cloud Cheesecake","-","10.16%","Daydreamer",514180
-"Floating Islands","Physical High","Cloud Cheesecake","-","34.70%","Sky Squire",163495
-"Floating Islands","Physical High","Cloud Cheesecake","-","24.71%","Sky Swordsman",163495
-"Floating Islands","Physical High","Cloud Cheesecake","-","20.81%","Ground Gavaleer",163495
-"Floating Islands","Physical High","Cloud Cheesecake","-","19.78%","Herc",163495
-"Floating Islands","Physical Palace","Cloud Cheesecake","-","41.62%","Daydreamer",1951
-"Floating Islands","Physical Palace","Cloud Cheesecake","-","40.03%","Kite Flyer",1951
-"Floating Islands","Physical Palace","Cloud Cheesecake","-","9.74%","Ground Gavaleer",1951
-"Floating Islands","Physical Palace","Cloud Cheesecake","-","8.61%","Sky Swordsman",1951
+"Floating Islands","Physical Low","Cloud Cheesecake","-","29.79%","Sky Swordsman",518093
+"Floating Islands","Physical Low","Cloud Cheesecake","-","20.83%","Herc",518093
+"Floating Islands","Physical Low","Cloud Cheesecake","-","20.40%","Ground Gavaleer",518093
+"Floating Islands","Physical Low","Cloud Cheesecake","-","18.83%","Kite Flyer",518093
+"Floating Islands","Physical Low","Cloud Cheesecake","-","10.16%","Daydreamer",518093
+"Floating Islands","Physical High","Cloud Cheesecake","-","34.70%","Sky Squire",164267
+"Floating Islands","Physical High","Cloud Cheesecake","-","24.69%","Sky Swordsman",164267
+"Floating Islands","Physical High","Cloud Cheesecake","-","20.82%","Ground Gavaleer",164267
+"Floating Islands","Physical High","Cloud Cheesecake","-","19.78%","Herc",164267
+"Floating Islands","Physical Palace","Cloud Cheesecake","-","41.63%","Daydreamer",1965
+"Floating Islands","Physical Palace","Cloud Cheesecake","-","40.00%","Kite Flyer",1965
+"Floating Islands","Physical Palace","Cloud Cheesecake","-","9.77%","Ground Gavaleer",1965
+"Floating Islands","Physical Palace","Cloud Cheesecake","-","8.60%","Sky Swordsman",1965
 "Floating Islands","Physical Palace - 4x Emp Seal","Cloud Cheesecake","-","46.11%","Daydreamer",167
 "Floating Islands","Physical Palace - 4x Emp Seal","Cloud Cheesecake","-","43.11%","Kite Flyer",167
 "Floating Islands","Physical Palace - 4x Emp Seal","Cloud Cheesecake","-","7.78%","Sky Swordsman",167
 "Floating Islands","Physical Palace - 4x Emp Seal","Cloud Cheesecake","-","2.99%","Ground Gavaleer",167
-"Floating Islands","Physical Palace - 4x Pirates","Cloud Cheesecake","-","45.19%","Daydreamer",104
-"Floating Islands","Physical Palace - 4x Pirates","Cloud Cheesecake","-","40.38%","Kite Flyer",104
-"Floating Islands","Physical Palace - 4x Pirates","Cloud Cheesecake","-","10.58%","Sky Swordsman",104
-"Floating Islands","Physical Palace - 4x Pirates","Cloud Cheesecake","-","3.85%","Ground Gavaleer",104
-"Floating Islands","Physical Low","Extra Rich Cloud Cheesecake","-","40.30%","Ground Gavaleer",7968
-"Floating Islands","Physical Low","Extra Rich Cloud Cheesecake","-","40.14%","Sky Swordsman",7968
-"Floating Islands","Physical Low","Extra Rich Cloud Cheesecake","-","19.57%","Herc",7968
-"Floating Islands","Physical High","Extra Rich Cloud Cheesecake","-","49.23%","Ground Gavaleer",3392
-"Floating Islands","Physical High","Extra Rich Cloud Cheesecake","-","30.72%","Sky Swordsman",3392
-"Floating Islands","Physical High","Extra Rich Cloud Cheesecake","-","10.17%","Herc",3392
-"Floating Islands","Physical High","Extra Rich Cloud Cheesecake","-","9.88%","Sky Squire",3392
-"Floating Islands","Physical Palace","Extra Rich Cloud Cheesecake","-","34.73%","Glamorous Gladiator",14775
-"Floating Islands","Physical Palace","Extra Rich Cloud Cheesecake","-","26.02%","Ground Gavaleer",14775
-"Floating Islands","Physical Palace","Extra Rich Cloud Cheesecake","-","24.67%","Sky Swordsman",14775
-"Floating Islands","Physical Palace","Extra Rich Cloud Cheesecake","-","14.59%","Herc",14775
+"Floating Islands","Physical Palace - 4x Pirates","Cloud Cheesecake","-","44.76%","Daydreamer",105
+"Floating Islands","Physical Palace - 4x Pirates","Cloud Cheesecake","-","40.95%","Kite Flyer",105
+"Floating Islands","Physical Palace - 4x Pirates","Cloud Cheesecake","-","10.48%","Sky Swordsman",105
+"Floating Islands","Physical Palace - 4x Pirates","Cloud Cheesecake","-","3.81%","Ground Gavaleer",105
+"Floating Islands","Physical Low","Extra Rich Cloud Cheesecake","-","40.24%","Ground Gavaleer",8001
+"Floating Islands","Physical Low","Extra Rich Cloud Cheesecake","-","40.18%","Sky Swordsman",8001
+"Floating Islands","Physical Low","Extra Rich Cloud Cheesecake","-","19.57%","Herc",8001
+"Floating Islands","Physical High","Extra Rich Cloud Cheesecake","-","49.31%","Ground Gavaleer",3413
+"Floating Islands","Physical High","Extra Rich Cloud Cheesecake","-","30.68%","Sky Swordsman",3413
+"Floating Islands","Physical High","Extra Rich Cloud Cheesecake","-","10.17%","Herc",3413
+"Floating Islands","Physical High","Extra Rich Cloud Cheesecake","-","9.84%","Sky Squire",3413
+"Floating Islands","Physical Palace","Extra Rich Cloud Cheesecake","-","34.75%","Glamorous Gladiator",14880
+"Floating Islands","Physical Palace","Extra Rich Cloud Cheesecake","-","25.98%","Ground Gavaleer",14880
+"Floating Islands","Physical Palace","Extra Rich Cloud Cheesecake","-","24.65%","Sky Swordsman",14880
+"Floating Islands","Physical Palace","Extra Rich Cloud Cheesecake","-","14.62%","Herc",14880
 "Floating Islands","Physical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","42.43%","Consumed Charm Tinkerer",700
 "Floating Islands","Physical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","20.14%","Glamorous Gladiator",700
 "Floating Islands","Physical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","15.00%","Sky Swordsman",700
 "Floating Islands","Physical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","14.57%","Ground Gavaleer",700
 "Floating Islands","Physical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","7.86%","Herc",700
-"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","39.50%","Consumed Charm Tinkerer",3294
-"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","20.86%","Glamorous Gladiator",3294
-"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.60%","Ground Gavaleer",3294
-"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.45%","Sky Swordsman",3294
-"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","9.59%","Herc",3294
-"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.89%","Glamorous Gladiator",1852
-"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","21.06%","Ground Gavaleer",1852
-"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.98%","Empyrean Geologist",1852
-"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","18.68%","Sky Swordsman",1852
-"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","11.39%","Herc",1852
+"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","39.51%","Consumed Charm Tinkerer",3298
+"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","20.86%","Glamorous Gladiator",3298
+"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.62%","Ground Gavaleer",3298
+"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.43%","Sky Swordsman",3298
+"Floating Islands","Physical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","9.58%","Herc",3298
+"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.86%","Glamorous Gladiator",1864
+"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","21.03%","Ground Gavaleer",1864
+"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.01%","Empyrean Geologist",1864
+"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","18.72%","Sky Swordsman",1864
+"Floating Islands","Physical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","11.37%","Herc",1864
 "Floating Islands","Physical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","39.23%","Empyrean Geologist",9319
 "Floating Islands","Physical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","20.85%","Glamorous Gladiator",9319
 "Floating Islands","Physical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.37%","Ground Gavaleer",9319
 "Floating Islands","Physical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.13%","Sky Swordsman",9319
 "Floating Islands","Physical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","9.42%","Herc",9319
-"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","29.17%","Glamorous Gladiator",1169
-"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.79%","Ground Gavaleer",1169
-"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.19%","Sky Swordsman",1169
-"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.85%","Empyrean Appraiser",1169
-"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","10.01%","Herc",1169
-"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.54%","Empyrean Appraiser",3875
-"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.90%","Glamorous Gladiator",3875
-"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.77%","Ground Gavaleer",3875
-"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.79%","Sky Swordsman",3875
-"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","9.01%","Herc",3875
-"Floating Islands","Physical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","35.33%","Glamorous Gladiator",634
-"Floating Islands","Physical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","25.55%","Sky Swordsman",634
-"Floating Islands","Physical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","24.45%","Ground Gavaleer",634
-"Floating Islands","Physical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","14.67%","Herc",634
-"Floating Islands","Physical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","33.12%","Glamorous Gladiator",1386
-"Floating Islands","Physical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.62%","Sky Swordsman",1386
-"Floating Islands","Physical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.05%","Ground Gavaleer",1386
-"Floating Islands","Physical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.21%","Herc",1386
-"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","24.40%","Sky Swordsman",33305
-"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","17.92%","Richard the Rich",33305
-"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","17.16%","Ground Gavaleer",33305
-"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","16.61%","Herc",33305
-"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","15.76%","Kite Flyer",33305
-"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","8.15%","Daydreamer",33305
-"Floating Islands","Physical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.66%","Ground Gavaleer",8649
-"Floating Islands","Physical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.34%","Sky Swordsman",8649
-"Floating Islands","Physical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","24.89%","Richard the Rich",8649
-"Floating Islands","Physical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","15.10%","Herc",8649
-"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","28.37%","Sky Squire",33506
-"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","20.41%","Sky Swordsman",33506
-"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","18.41%","Richard the Rich",33506
-"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","16.81%","Ground Gavaleer",33506
-"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","16.00%","Herc",33506
-"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.41%","Ground Gavaleer",6402
-"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.41%","Richard the Rich",6402
-"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","22.45%","Sky Swordsman",6402
-"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.37%","Sky Squire",6402
-"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.36%","Herc",6402
+"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","29.34%","Glamorous Gladiator",1176
+"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.66%","Ground Gavaleer",1176
+"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.24%","Sky Swordsman",1176
+"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.81%","Empyrean Appraiser",1176
+"Floating Islands","Physical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","9.95%","Herc",1176
+"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","39.60%","Empyrean Appraiser",3899
+"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.88%","Glamorous Gladiator",3899
+"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.75%","Ground Gavaleer",3899
+"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","14.75%","Sky Swordsman",3899
+"Floating Islands","Physical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","9.03%","Herc",3899
+"Floating Islands","Physical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","35.56%","Glamorous Gladiator",658
+"Floating Islands","Physical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","25.38%","Sky Swordsman",658
+"Floating Islands","Physical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","24.47%","Ground Gavaleer",658
+"Floating Islands","Physical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","14.59%","Herc",658
+"Floating Islands","Physical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","33.09%","Glamorous Gladiator",1496
+"Floating Islands","Physical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.27%","Sky Swordsman",1496
+"Floating Islands","Physical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.07%","Ground Gavaleer",1496
+"Floating Islands","Physical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.57%","Herc",1496
+"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","24.42%","Sky Swordsman",33495
+"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","17.91%","Richard the Rich",33495
+"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","17.20%","Ground Gavaleer",33495
+"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","16.59%","Herc",33495
+"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","15.76%","Kite Flyer",33495
+"Floating Islands","Physical Low - 2x Loot","Cloud Cheesecake","-","8.12%","Daydreamer",33495
+"Floating Islands","Physical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.73%","Ground Gavaleer",8719
+"Floating Islands","Physical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.29%","Sky Swordsman",8719
+"Floating Islands","Physical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","24.92%","Richard the Rich",8719
+"Floating Islands","Physical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","15.06%","Herc",8719
+"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","28.37%","Sky Squire",33681
+"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","20.44%","Sky Swordsman",33681
+"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","18.40%","Richard the Rich",33681
+"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","16.80%","Ground Gavaleer",33681
+"Floating Islands","Physical High - 2x Loot","Cloud Cheesecake","-","16.00%","Herc",33681
+"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.42%","Ground Gavaleer",6403
+"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.41%","Richard the Rich",6403
+"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","22.44%","Sky Swordsman",6403
+"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.37%","Sky Squire",6403
+"Floating Islands","Physical High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.36%","Herc",6403
 "Floating Islands","Physical Palace - 2x Loot","Cloud Cheesecake","-","41.54%","Kite Flyer",260
 "Floating Islands","Physical Palace - 2x Loot","Cloud Cheesecake","-","35.00%","Daydreamer",260
 "Floating Islands","Physical Palace - 2x Loot","Cloud Cheesecake","-","16.15%","Richard the Rich",260
 "Floating Islands","Physical Palace - 2x Loot","Cloud Cheesecake","-","7.31%","Ground Gavaleer",260
-"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.17%","Richard the Rich",5154
-"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.11%","Glamorous Gladiator",5154
-"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.40%","Ground Gavaleer",5154
-"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","18.70%","Sky Swordsman",5154
-"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.61%","Herc",5154
-"Floating Islands","Physical Palace - 3x Loot","Cloud Cheesecake","-","41.98%","Kite Flyer",243
-"Floating Islands","Physical Palace - 3x Loot","Cloud Cheesecake","-","33.74%","Daydreamer",243
-"Floating Islands","Physical Palace - 3x Loot","Cloud Cheesecake","-","16.05%","Richard the Rich",243
-"Floating Islands","Physical Palace - 3x Loot","Cloud Cheesecake","-","8.23%","Sky Swordsman",243
-"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","25.15%","Richard the Rich",12894
-"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","21.18%","Glamorous Gladiator",12894
-"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.52%","Ground Gavaleer",12894
-"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.89%","Fortuitous Fool",12894
-"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.22%","Sky Swordsman",12894
-"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","9.04%","Herc",12894
-"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","35.60%","Kite Flyer",573
-"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","34.03%","Daydreamer",573
-"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","17.10%","Richard the Rich",573
-"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","6.81%","Ground Gavaleer",573
-"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","6.46%","Sky Swordsman",573
-"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.07%","Fortuitous Fool",39010
-"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.87%","Richard the Rich",39010
-"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.51%","Glamorous Gladiator",39010
-"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.80%","Ground Gavaleer",39010
-"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.00%","Sky Swordsman",39010
-"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.74%","Herc",39010
+"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","26.16%","Richard the Rich",5191
+"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.16%","Glamorous Gladiator",5191
+"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.36%","Ground Gavaleer",5191
+"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","18.69%","Sky Swordsman",5191
+"Floating Islands","Physical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.63%","Herc",5191
+"Floating Islands","Physical Palace - 3x Loot","Cloud Cheesecake","-","42.21%","Kite Flyer",244
+"Floating Islands","Physical Palace - 3x Loot","Cloud Cheesecake","-","33.61%","Daydreamer",244
+"Floating Islands","Physical Palace - 3x Loot","Cloud Cheesecake","-","15.98%","Richard the Rich",244
+"Floating Islands","Physical Palace - 3x Loot","Cloud Cheesecake","-","8.20%","Sky Swordsman",244
+"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","25.14%","Richard the Rich",13050
+"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","21.25%","Glamorous Gladiator",13050
+"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.54%","Ground Gavaleer",13050
+"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.89%","Fortuitous Fool",13050
+"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.17%","Sky Swordsman",13050
+"Floating Islands","Physical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","9.01%","Herc",13050
+"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","35.65%","Kite Flyer",575
+"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","33.91%","Daydreamer",575
+"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","17.22%","Richard the Rich",575
+"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","6.78%","Ground Gavaleer",575
+"Floating Islands","Physical Palace - 4x Loot","Cloud Cheesecake","-","6.43%","Sky Swordsman",575
+"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","30.07%","Fortuitous Fool",39289
+"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.87%","Richard the Rich",39289
+"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.51%","Glamorous Gladiator",39289
+"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.82%","Ground Gavaleer",39289
+"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","10.98%","Sky Swordsman",39289
+"Floating Islands","Physical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.75%","Herc",39289
 "Floating Islands","Shadow Low","SB+","-","52.26%","Kite Flyer",421
 "Floating Islands","Shadow Low","SB+","-","37.77%","Daydreamer",421
 "Floating Islands","Shadow Low","SB+","-","5.46%","Overcaster",421
@@ -807,174 +807,174 @@
 "Floating Islands","Shadow High","SB+","-","46.03%","Daydreamer",126
 "Floating Islands","Shadow High","SB+","-","3.97%","Astrological Astronomer",126
 "Floating Islands","Shadow High","SB+","-","3.17%","Overcaster",126
-"Floating Islands","Shadow Low","Gouda","-","50.30%","Daydreamer",2958
-"Floating Islands","Shadow Low","Gouda","-","39.69%","Kite Flyer",2958
-"Floating Islands","Shadow Low","Gouda","-","5.24%","Overcaster",2958
-"Floating Islands","Shadow Low","Gouda","-","4.77%","Astrological Astronomer",2958
-"Floating Islands","Shadow High","Gouda","-","48.93%","Daydreamer",419
-"Floating Islands","Shadow High","Gouda","-","40.33%","Kite Flyer",419
-"Floating Islands","Shadow High","Gouda","-","5.97%","Astrological Astronomer",419
-"Floating Islands","Shadow High","Gouda","-","4.77%","Overcaster",419
-"Floating Islands","Shadow Low","Cloud Cheesecake","-","29.90%","Overcaster",280993
-"Floating Islands","Shadow Low","Cloud Cheesecake","-","20.81%","Stratocaster",280993
-"Floating Islands","Shadow Low","Cloud Cheesecake","-","20.29%","Astrological Astronomer",280993
-"Floating Islands","Shadow Low","Cloud Cheesecake","-","18.73%","Kite Flyer",280993
-"Floating Islands","Shadow Low","Cloud Cheesecake","-","10.27%","Daydreamer",280993
-"Floating Islands","Shadow High","Cloud Cheesecake","-","34.75%","Shadow Sage",135531
-"Floating Islands","Shadow High","Cloud Cheesecake","-","24.60%","Overcaster",135531
-"Floating Islands","Shadow High","Cloud Cheesecake","-","20.84%","Astrological Astronomer",135531
-"Floating Islands","Shadow High","Cloud Cheesecake","-","19.81%","Stratocaster",135531
+"Floating Islands","Shadow Low","Gouda","-","50.30%","Daydreamer",2960
+"Floating Islands","Shadow Low","Gouda","-","39.70%","Kite Flyer",2960
+"Floating Islands","Shadow Low","Gouda","-","5.24%","Overcaster",2960
+"Floating Islands","Shadow Low","Gouda","-","4.76%","Astrological Astronomer",2960
+"Floating Islands","Shadow High","Gouda","-","48.94%","Daydreamer",423
+"Floating Islands","Shadow High","Gouda","-","40.43%","Kite Flyer",423
+"Floating Islands","Shadow High","Gouda","-","5.91%","Astrological Astronomer",423
+"Floating Islands","Shadow High","Gouda","-","4.73%","Overcaster",423
+"Floating Islands","Shadow Low","Cloud Cheesecake","-","29.90%","Overcaster",282189
+"Floating Islands","Shadow Low","Cloud Cheesecake","-","20.81%","Stratocaster",282189
+"Floating Islands","Shadow Low","Cloud Cheesecake","-","20.30%","Astrological Astronomer",282189
+"Floating Islands","Shadow Low","Cloud Cheesecake","-","18.73%","Kite Flyer",282189
+"Floating Islands","Shadow Low","Cloud Cheesecake","-","10.27%","Daydreamer",282189
+"Floating Islands","Shadow High","Cloud Cheesecake","-","34.73%","Shadow Sage",136116
+"Floating Islands","Shadow High","Cloud Cheesecake","-","24.61%","Overcaster",136116
+"Floating Islands","Shadow High","Cloud Cheesecake","-","20.85%","Astrological Astronomer",136116
+"Floating Islands","Shadow High","Cloud Cheesecake","-","19.81%","Stratocaster",136116
 "Floating Islands","Shadow Palace","Cloud Cheesecake","-","43.99%","Kite Flyer",707
 "Floating Islands","Shadow Palace","Cloud Cheesecake","-","38.05%","Daydreamer",707
 "Floating Islands","Shadow Palace","Cloud Cheesecake","-","10.04%","Overcaster",707
 "Floating Islands","Shadow Palace","Cloud Cheesecake","-","7.92%","Astrological Astronomer",707
-"Floating Islands","Shadow Low","Extra Rich Cloud Cheesecake","-","39.95%","Astrological Astronomer",5154
-"Floating Islands","Shadow Low","Extra Rich Cloud Cheesecake","-","39.72%","Overcaster",5154
-"Floating Islands","Shadow Low","Extra Rich Cloud Cheesecake","-","20.33%","Stratocaster",5154
-"Floating Islands","Shadow High","Extra Rich Cloud Cheesecake","-","48.41%","Astrological Astronomer",2979
-"Floating Islands","Shadow High","Extra Rich Cloud Cheesecake","-","31.86%","Overcaster",2979
-"Floating Islands","Shadow High","Extra Rich Cloud Cheesecake","-","10.71%","Shadow Sage",2979
-"Floating Islands","Shadow High","Extra Rich Cloud Cheesecake","-","9.03%","Stratocaster",2979
-"Floating Islands","Shadow Palace","Extra Rich Cloud Cheesecake","-","35.17%","Zealous Academic",7427
-"Floating Islands","Shadow Palace","Extra Rich Cloud Cheesecake","-","25.53%","Astrological Astronomer",7427
-"Floating Islands","Shadow Palace","Extra Rich Cloud Cheesecake","-","24.88%","Overcaster",7427
-"Floating Islands","Shadow Palace","Extra Rich Cloud Cheesecake","-","14.42%","Stratocaster",7427
-"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","41.45%","Consumed Charm Tinkerer",468
-"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","20.94%","Zealous Academic",468
-"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","15.17%","Astrological Astronomer",468
-"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","12.61%","Overcaster",468
-"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","9.83%","Stratocaster",468
-"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","40.18%","Consumed Charm Tinkerer",2469
-"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","21.79%","Zealous Academic",2469
-"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.62%","Astrological Astronomer",2469
-"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.30%","Overcaster",2469
-"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","9.11%","Stratocaster",2469
-"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.57%","Zealous Academic",1190
-"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","22.35%","Empyrean Geologist",1190
-"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.33%","Astrological Astronomer",1190
-"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","18.15%","Overcaster",1190
-"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","11.60%","Stratocaster",1190
-"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","38.90%","Empyrean Geologist",6074
-"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","21.47%","Zealous Academic",6074
-"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.23%","Overcaster",6074
-"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.05%","Astrological Astronomer",6074
-"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","9.35%","Stratocaster",6074
-"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","29.15%","Zealous Academic",597
-"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.27%","Astrological Astronomer",597
-"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.93%","Empyrean Appraiser",597
-"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","17.76%","Overcaster",597
-"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","12.90%","Stratocaster",597
-"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","40.10%","Empyrean Appraiser",2556
-"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.76%","Zealous Academic",2556
-"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.77%","Astrological Astronomer",2556
-"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.57%","Overcaster",2556
-"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","8.80%","Stratocaster",2556
-"Floating Islands","Shadow Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","33.05%","Zealous Academic",475
-"Floating Islands","Shadow Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","27.16%","Astrological Astronomer",475
-"Floating Islands","Shadow Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","25.47%","Overcaster",475
-"Floating Islands","Shadow Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","14.32%","Stratocaster",475
-"Floating Islands","Shadow Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","32.58%","Zealous Academic",801
-"Floating Islands","Shadow Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","28.34%","Astrological Astronomer",801
-"Floating Islands","Shadow Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","24.72%","Overcaster",801
-"Floating Islands","Shadow Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.36%","Stratocaster",801
-"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","24.93%","Overcaster",26937
-"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","18.05%","Richard the Rich",26937
-"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","16.95%","Astrological Astronomer",26937
-"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","16.67%","Stratocaster",26937
-"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","15.14%","Kite Flyer",26937
-"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","8.26%","Daydreamer",26937
-"Floating Islands","Shadow Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.79%","Astrological Astronomer",6305
-"Floating Islands","Shadow Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.42%","Overcaster",6305
-"Floating Islands","Shadow Low - 2x Loot","Extra Rich Cloud Cheesecake","-","25.65%","Richard the Rich",6305
-"Floating Islands","Shadow Low - 2x Loot","Extra Rich Cloud Cheesecake","-","14.15%","Stratocaster",6305
-"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","28.67%","Shadow Sage",30047
-"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","20.08%","Overcaster",30047
-"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","18.31%","Richard the Rich",30047
-"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","16.95%","Astrological Astronomer",30047
-"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","15.98%","Stratocaster",30047
-"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.70%","Astrological Astronomer",5210
-"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.28%","Richard the Rich",5210
-"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","22.25%","Overcaster",5210
-"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.49%","Stratocaster",5210
-"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.29%","Shadow Sage",5210
-"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.86%","Zealous Academic",1775
-"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.69%","Richard the Rich",1775
-"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","20.34%","Astrological Astronomer",1775
-"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","17.30%","Overcaster",1775
-"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.82%","Stratocaster",1775
-"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.94%","Richard the Rich",4964
-"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","19.86%","Zealous Academic",4964
-"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","16.10%","Astrological Astronomer",4964
-"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.83%","Fortuitous Fool",4964
-"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.20%","Overcaster",4964
-"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","9.07%","Stratocaster",4964
+"Floating Islands","Shadow Low","Extra Rich Cloud Cheesecake","-","39.91%","Astrological Astronomer",5189
+"Floating Islands","Shadow Low","Extra Rich Cloud Cheesecake","-","39.74%","Overcaster",5189
+"Floating Islands","Shadow Low","Extra Rich Cloud Cheesecake","-","20.35%","Stratocaster",5189
+"Floating Islands","Shadow High","Extra Rich Cloud Cheesecake","-","48.46%","Astrological Astronomer",2988
+"Floating Islands","Shadow High","Extra Rich Cloud Cheesecake","-","31.79%","Overcaster",2988
+"Floating Islands","Shadow High","Extra Rich Cloud Cheesecake","-","10.71%","Shadow Sage",2988
+"Floating Islands","Shadow High","Extra Rich Cloud Cheesecake","-","9.04%","Stratocaster",2988
+"Floating Islands","Shadow Palace","Extra Rich Cloud Cheesecake","-","35.19%","Zealous Academic",7456
+"Floating Islands","Shadow Palace","Extra Rich Cloud Cheesecake","-","25.58%","Astrological Astronomer",7456
+"Floating Islands","Shadow Palace","Extra Rich Cloud Cheesecake","-","24.84%","Overcaster",7456
+"Floating Islands","Shadow Palace","Extra Rich Cloud Cheesecake","-","14.39%","Stratocaster",7456
+"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","41.58%","Consumed Charm Tinkerer",469
+"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","20.90%","Zealous Academic",469
+"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","15.14%","Astrological Astronomer",469
+"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","12.58%","Overcaster",469
+"Floating Islands","Shadow Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","9.81%","Stratocaster",469
+"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","40.10%","Consumed Charm Tinkerer",2481
+"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","21.81%","Zealous Academic",2481
+"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.63%","Astrological Astronomer",2481
+"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","14.35%","Overcaster",2481
+"Floating Islands","Shadow Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","9.11%","Stratocaster",2481
+"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.35%","Zealous Academic",1217
+"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","22.35%","Empyrean Geologist",1217
+"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.56%","Astrological Astronomer",1217
+"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","18.24%","Overcaster",1217
+"Floating Islands","Shadow Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","11.50%","Stratocaster",1217
+"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","38.93%","Empyrean Geologist",6082
+"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","21.47%","Zealous Academic",6082
+"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.21%","Overcaster",6082
+"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","15.04%","Astrological Astronomer",6082
+"Floating Islands","Shadow Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","9.34%","Stratocaster",6082
+"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","29.00%","Zealous Academic",600
+"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.33%","Astrological Astronomer",600
+"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.83%","Empyrean Appraiser",600
+"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","17.83%","Overcaster",600
+"Floating Islands","Shadow Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","13.00%","Stratocaster",600
+"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","40.12%","Empyrean Appraiser",2560
+"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","19.73%","Zealous Academic",2560
+"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.74%","Astrological Astronomer",2560
+"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.63%","Overcaster",2560
+"Floating Islands","Shadow Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","8.79%","Stratocaster",2560
+"Floating Islands","Shadow Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","33.33%","Zealous Academic",477
+"Floating Islands","Shadow Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","27.04%","Astrological Astronomer",477
+"Floating Islands","Shadow Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","25.37%","Overcaster",477
+"Floating Islands","Shadow Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","14.26%","Stratocaster",477
+"Floating Islands","Shadow Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","32.78%","Zealous Academic",848
+"Floating Islands","Shadow Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","28.07%","Astrological Astronomer",848
+"Floating Islands","Shadow Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","24.76%","Overcaster",848
+"Floating Islands","Shadow Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.39%","Stratocaster",848
+"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","24.93%","Overcaster",27051
+"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","18.05%","Richard the Rich",27051
+"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","16.94%","Astrological Astronomer",27051
+"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","16.67%","Stratocaster",27051
+"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","15.15%","Kite Flyer",27051
+"Floating Islands","Shadow Low - 2x Loot","Cloud Cheesecake","-","8.25%","Daydreamer",27051
+"Floating Islands","Shadow Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.78%","Astrological Astronomer",6309
+"Floating Islands","Shadow Low - 2x Loot","Extra Rich Cloud Cheesecake","-","29.43%","Overcaster",6309
+"Floating Islands","Shadow Low - 2x Loot","Extra Rich Cloud Cheesecake","-","25.63%","Richard the Rich",6309
+"Floating Islands","Shadow Low - 2x Loot","Extra Rich Cloud Cheesecake","-","14.15%","Stratocaster",6309
+"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","28.68%","Shadow Sage",30262
+"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","20.10%","Overcaster",30262
+"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","18.32%","Richard the Rich",30262
+"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","16.94%","Astrological Astronomer",30262
+"Floating Islands","Shadow High - 2x Loot","Cloud Cheesecake","-","15.97%","Stratocaster",30262
+"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.71%","Astrological Astronomer",5213
+"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.26%","Richard the Rich",5213
+"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","22.23%","Overcaster",5213
+"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.50%","Stratocaster",5213
+"Floating Islands","Shadow High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.29%","Shadow Sage",5213
+"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.84%","Richard the Rich",1780
+"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.84%","Zealous Academic",1780
+"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","20.28%","Astrological Astronomer",1780
+"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","17.25%","Overcaster",1780
+"Floating Islands","Shadow Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","10.79%","Stratocaster",1780
+"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.91%","Richard the Rich",4969
+"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","19.86%","Zealous Academic",4969
+"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","16.08%","Astrological Astronomer",4969
+"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.86%","Fortuitous Fool",4969
+"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.21%","Overcaster",4969
+"Floating Islands","Shadow Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","9.08%","Stratocaster",4969
 "Floating Islands","Shadow Palace - 4x Loot","Cloud Cheesecake","-","35.37%","Kite Flyer",147
 "Floating Islands","Shadow Palace - 4x Loot","Cloud Cheesecake","-","34.69%","Daydreamer",147
 "Floating Islands","Shadow Palace - 4x Loot","Cloud Cheesecake","-","14.29%","Richard the Rich",147
 "Floating Islands","Shadow Palace - 4x Loot","Cloud Cheesecake","-","8.16%","Astrological Astronomer",147
 "Floating Islands","Shadow Palace - 4x Loot","Cloud Cheesecake","-","7.48%","Overcaster",147
-"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","29.94%","Fortuitous Fool",10480
-"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.54%","Richard the Rich",10480
-"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","16.07%","Zealous Academic",10480
-"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.33%","Overcaster",10480
-"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.33%","Astrological Astronomer",10480
-"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.79%","Stratocaster",10480
-"Floating Islands","Tactical Low","SB+","-","51.20%","Kite Flyer",541
-"Floating Islands","Tactical Low","SB+","-","39.93%","Daydreamer",541
-"Floating Islands","Tactical Low","SB+","-","4.44%","Gyrologer",541
-"Floating Islands","Tactical Low","SB+","-","4.44%","Worried Wayfinder",541
-"Floating Islands","Tactical Low","Gouda","-","50.93%","Daydreamer",4581
-"Floating Islands","Tactical Low","Gouda","-","39.07%","Kite Flyer",4581
-"Floating Islands","Tactical Low","Gouda","-","5.11%","Worried Wayfinder",4581
-"Floating Islands","Tactical Low","Gouda","-","4.89%","Gyrologer",4581
+"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","29.95%","Fortuitous Fool",10515
+"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.54%","Richard the Rich",10515
+"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","16.04%","Zealous Academic",10515
+"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.36%","Overcaster",10515
+"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.31%","Astrological Astronomer",10515
+"Floating Islands","Shadow Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.81%","Stratocaster",10515
+"Floating Islands","Tactical Low","SB+","-","51.37%","Kite Flyer",549
+"Floating Islands","Tactical Low","SB+","-","39.53%","Daydreamer",549
+"Floating Islands","Tactical Low","SB+","-","4.74%","Gyrologer",549
+"Floating Islands","Tactical Low","SB+","-","4.37%","Worried Wayfinder",549
+"Floating Islands","Tactical Low","Gouda","-","50.96%","Daydreamer",4588
+"Floating Islands","Tactical Low","Gouda","-","39.06%","Kite Flyer",4588
+"Floating Islands","Tactical Low","Gouda","-","5.10%","Worried Wayfinder",4588
+"Floating Islands","Tactical Low","Gouda","-","4.88%","Gyrologer",4588
 "Floating Islands","Tactical High","Gouda","-","47.00%","Daydreamer",434
 "Floating Islands","Tactical High","Gouda","-","42.40%","Kite Flyer",434
 "Floating Islands","Tactical High","Gouda","-","6.22%","Worried Wayfinder",434
 "Floating Islands","Tactical High","Gouda","-","4.38%","Gyrologer",434
-"Floating Islands","Tactical Low","Cloud Cheesecake","-","29.77%","Gyrologer",483964
-"Floating Islands","Tactical Low","Cloud Cheesecake","-","20.78%","Seasoned Islandographer",483964
-"Floating Islands","Tactical Low","Cloud Cheesecake","-","20.31%","Worried Wayfinder",483964
-"Floating Islands","Tactical Low","Cloud Cheesecake","-","18.93%","Kite Flyer",483964
-"Floating Islands","Tactical Low","Cloud Cheesecake","-","10.21%","Daydreamer",483964
-"Floating Islands","Tactical High","Cloud Cheesecake","-","34.57%","Captain Cloudkicker",167464
-"Floating Islands","Tactical High","Cloud Cheesecake","-","24.77%","Gyrologer",167464
-"Floating Islands","Tactical High","Cloud Cheesecake","-","20.66%","Worried Wayfinder",167464
-"Floating Islands","Tactical High","Cloud Cheesecake","-","20.01%","Seasoned Islandographer",167464
-"Floating Islands","Tactical Palace","Cloud Cheesecake","-","41.69%","Kite Flyer",1720
-"Floating Islands","Tactical Palace","Cloud Cheesecake","-","40.81%","Daydreamer",1720
-"Floating Islands","Tactical Palace","Cloud Cheesecake","-","9.42%","Worried Wayfinder",1720
-"Floating Islands","Tactical Palace","Cloud Cheesecake","-","8.08%","Gyrologer",1720
-"Floating Islands","Tactical Low","Extra Rich Cloud Cheesecake","-","41.57%","Worried Wayfinder",7927
-"Floating Islands","Tactical Low","Extra Rich Cloud Cheesecake","-","39.71%","Gyrologer",7927
-"Floating Islands","Tactical Low","Extra Rich Cloud Cheesecake","-","18.72%","Seasoned Islandographer",7927
-"Floating Islands","Tactical High","Extra Rich Cloud Cheesecake","-","50.34%","Worried Wayfinder",3113
-"Floating Islands","Tactical High","Extra Rich Cloud Cheesecake","-","29.59%","Gyrologer",3113
-"Floating Islands","Tactical High","Extra Rich Cloud Cheesecake","-","10.18%","Seasoned Islandographer",3113
-"Floating Islands","Tactical High","Extra Rich Cloud Cheesecake","-","9.89%","Captain Cloudkicker",3113
-"Floating Islands","Tactical Palace","Extra Rich Cloud Cheesecake","-","34.47%","Rocketeer",16979
-"Floating Islands","Tactical Palace","Extra Rich Cloud Cheesecake","-","25.47%","Worried Wayfinder",16979
-"Floating Islands","Tactical Palace","Extra Rich Cloud Cheesecake","-","24.77%","Gyrologer",16979
-"Floating Islands","Tactical Palace","Extra Rich Cloud Cheesecake","-","15.30%","Seasoned Islandographer",16979
-"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","34.76%","Consumed Charm Tinkerer",538
-"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","22.12%","Rocketeer",538
-"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","16.36%","Gyrologer",538
-"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","15.61%","Worried Wayfinder",538
-"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","11.15%","Seasoned Islandographer",538
+"Floating Islands","Tactical Low","Cloud Cheesecake","-","29.76%","Gyrologer",486690
+"Floating Islands","Tactical Low","Cloud Cheesecake","-","20.79%","Seasoned Islandographer",486690
+"Floating Islands","Tactical Low","Cloud Cheesecake","-","20.31%","Worried Wayfinder",486690
+"Floating Islands","Tactical Low","Cloud Cheesecake","-","18.93%","Kite Flyer",486690
+"Floating Islands","Tactical Low","Cloud Cheesecake","-","10.22%","Daydreamer",486690
+"Floating Islands","Tactical High","Cloud Cheesecake","-","34.55%","Captain Cloudkicker",168371
+"Floating Islands","Tactical High","Cloud Cheesecake","-","24.77%","Gyrologer",168371
+"Floating Islands","Tactical High","Cloud Cheesecake","-","20.66%","Worried Wayfinder",168371
+"Floating Islands","Tactical High","Cloud Cheesecake","-","20.01%","Seasoned Islandographer",168371
+"Floating Islands","Tactical Palace","Cloud Cheesecake","-","41.50%","Kite Flyer",1735
+"Floating Islands","Tactical Palace","Cloud Cheesecake","-","40.98%","Daydreamer",1735
+"Floating Islands","Tactical Palace","Cloud Cheesecake","-","9.39%","Worried Wayfinder",1735
+"Floating Islands","Tactical Palace","Cloud Cheesecake","-","8.13%","Gyrologer",1735
+"Floating Islands","Tactical Low","Extra Rich Cloud Cheesecake","-","41.57%","Worried Wayfinder",7974
+"Floating Islands","Tactical Low","Extra Rich Cloud Cheesecake","-","39.68%","Gyrologer",7974
+"Floating Islands","Tactical Low","Extra Rich Cloud Cheesecake","-","18.75%","Seasoned Islandographer",7974
+"Floating Islands","Tactical High","Extra Rich Cloud Cheesecake","-","50.35%","Worried Wayfinder",3146
+"Floating Islands","Tactical High","Extra Rich Cloud Cheesecake","-","29.56%","Gyrologer",3146
+"Floating Islands","Tactical High","Extra Rich Cloud Cheesecake","-","10.20%","Seasoned Islandographer",3146
+"Floating Islands","Tactical High","Extra Rich Cloud Cheesecake","-","9.89%","Captain Cloudkicker",3146
+"Floating Islands","Tactical Palace","Extra Rich Cloud Cheesecake","-","34.46%","Rocketeer",17060
+"Floating Islands","Tactical Palace","Extra Rich Cloud Cheesecake","-","25.50%","Worried Wayfinder",17060
+"Floating Islands","Tactical Palace","Extra Rich Cloud Cheesecake","-","24.77%","Gyrologer",17060
+"Floating Islands","Tactical Palace","Extra Rich Cloud Cheesecake","-","15.28%","Seasoned Islandographer",17060
+"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","34.69%","Consumed Charm Tinkerer",539
+"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","22.26%","Rocketeer",539
+"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","16.33%","Gyrologer",539
+"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","15.58%","Worried Wayfinder",539
+"Floating Islands","Tactical Palace - 3x Jade","Extra Rich Cloud Cheesecake","-","11.13%","Seasoned Islandographer",539
 "Floating Islands","Tactical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","38.50%","Consumed Charm Tinkerer",2535
 "Floating Islands","Tactical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","22.01%","Rocketeer",2535
 "Floating Islands","Tactical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.42%","Gyrologer",2535
 "Floating Islands","Tactical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","15.15%","Worried Wayfinder",2535
 "Floating Islands","Tactical Palace - 4x Jade","Extra Rich Cloud Cheesecake","-","8.92%","Seasoned Islandographer",2535
-"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.22%","Rocketeer",1566
-"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.43%","Empyrean Geologist",1566
-"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.18%","Gyrologer",1566
-"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.41%","Worried Wayfinder",1566
-"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","11.75%","Seasoned Islandographer",1566
-"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","39.70%","Empyrean Geologist",9955
-"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","20.86%","Rocketeer",9955
-"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","16.10%","Worried Wayfinder",9955
-"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.89%","Gyrologer",9955
-"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.45%","Seasoned Islandographer",9955
+"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","28.22%","Rocketeer",1570
+"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.45%","Empyrean Geologist",1570
+"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","20.19%","Gyrologer",1570
+"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","19.36%","Worried Wayfinder",1570
+"Floating Islands","Tactical Palace - 3x Emp Seal","Extra Rich Cloud Cheesecake","-","11.78%","Seasoned Islandographer",1570
+"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","39.70%","Empyrean Geologist",9988
+"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","20.87%","Rocketeer",9988
+"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","16.08%","Worried Wayfinder",9988
+"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","14.91%","Gyrologer",9988
+"Floating Islands","Tactical Palace - 4x Emp Seal","Extra Rich Cloud Cheesecake","-","8.45%","Seasoned Islandographer",9988
 "Floating Islands","Tactical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","28.32%","Rocketeer",558
 "Floating Islands","Tactical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","21.33%","Empyrean Appraiser",558
 "Floating Islands","Tactical Palace - 3x Glass + Ore","Extra Rich Cloud Cheesecake","-","20.61%","Worried Wayfinder",558
@@ -985,65 +985,65 @@
 "Floating Islands","Tactical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","16.92%","Worried Wayfinder",2364
 "Floating Islands","Tactical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","15.65%","Gyrologer",2364
 "Floating Islands","Tactical Palace - 4x Glass + Ore","Extra Rich Cloud Cheesecake","-","9.18%","Seasoned Islandographer",2364
-"Floating Islands","Tactical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","34.73%","Rocketeer",645
-"Floating Islands","Tactical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","25.58%","Worried Wayfinder",645
-"Floating Islands","Tactical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","23.41%","Gyrologer",645
-"Floating Islands","Tactical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","16.28%","Seasoned Islandographer",645
-"Floating Islands","Tactical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","32.85%","Rocketeer",968
-"Floating Islands","Tactical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","27.58%","Gyrologer",968
-"Floating Islands","Tactical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","24.79%","Worried Wayfinder",968
-"Floating Islands","Tactical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.77%","Seasoned Islandographer",968
-"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","24.36%","Gyrologer",34244
-"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","18.07%","Richard the Rich",34244
-"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","17.29%","Seasoned Islandographer",34244
-"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","16.62%","Worried Wayfinder",34244
-"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","15.45%","Kite Flyer",34244
-"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","8.21%","Daydreamer",34244
+"Floating Islands","Tactical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","34.56%","Rocketeer",651
+"Floating Islands","Tactical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","25.81%","Worried Wayfinder",651
+"Floating Islands","Tactical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","23.35%","Gyrologer",651
+"Floating Islands","Tactical Palace - 3x Pirates","Extra Rich Cloud Cheesecake","-","16.28%","Seasoned Islandographer",651
+"Floating Islands","Tactical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","33.50%","Rocketeer",1021
+"Floating Islands","Tactical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","26.84%","Gyrologer",1021
+"Floating Islands","Tactical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","24.88%","Worried Wayfinder",1021
+"Floating Islands","Tactical Palace - 4x Pirates","Extra Rich Cloud Cheesecake","-","14.79%","Seasoned Islandographer",1021
+"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","24.34%","Gyrologer",34490
+"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","18.11%","Richard the Rich",34490
+"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","17.30%","Seasoned Islandographer",34490
+"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","16.62%","Worried Wayfinder",34490
+"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","15.42%","Kite Flyer",34490
+"Floating Islands","Tactical Low - 2x Loot","Cloud Cheesecake","-","8.21%","Daydreamer",34490
 "Floating Islands","Tactical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","30.24%","Worried Wayfinder",10298
 "Floating Islands","Tactical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","28.74%","Gyrologer",10298
 "Floating Islands","Tactical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","26.45%","Richard the Rich",10298
 "Floating Islands","Tactical Low - 2x Loot","Extra Rich Cloud Cheesecake","-","14.57%","Seasoned Islandographer",10298
-"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","28.32%","Captain Cloudkicker",34605
-"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","19.83%","Gyrologer",34605
-"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","18.69%","Richard the Rich",34605
-"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","17.05%","Worried Wayfinder",34605
-"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","16.11%","Seasoned Islandographer",34605
-"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.44%","Worried Wayfinder",7150
-"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.85%","Richard the Rich",7150
-"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","21.72%","Gyrologer",7150
-"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.62%","Seasoned Islandographer",7150
-"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.37%","Captain Cloudkicker",7150
-"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","34.43%","Daydreamer",334
-"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","34.13%","Kite Flyer",334
-"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","17.07%","Richard the Rich",334
-"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","8.08%","Worried Wayfinder",334
-"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","6.29%","Gyrologer",334
-"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.85%","Rocketeer",8783
-"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.71%","Richard the Rich",8783
-"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.21%","Worried Wayfinder",8783
-"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","18.18%","Gyrologer",8783
-"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","11.06%","Seasoned Islandographer",8783
-"Floating Islands","Tactical Palace - 3x Loot","Cloud Cheesecake","-","37.65%","Daydreamer",247
-"Floating Islands","Tactical Palace - 3x Loot","Cloud Cheesecake","-","32.79%","Kite Flyer",247
-"Floating Islands","Tactical Palace - 3x Loot","Cloud Cheesecake","-","19.43%","Richard the Rich",247
-"Floating Islands","Tactical Palace - 3x Loot","Cloud Cheesecake","-","10.12%","Worried Wayfinder",247
-"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.96%","Richard the Rich",24826
-"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","21.09%","Rocketeer",24826
-"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.41%","Worried Wayfinder",24826
-"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.84%","Gyrologer",24826
-"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.47%","Fortuitous Fool",24826
-"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","9.22%","Seasoned Islandographer",24826
-"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","36.65%","Daydreamer",322
-"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","32.92%","Kite Flyer",322
-"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","16.46%","Richard the Rich",322
-"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","7.14%","Worried Wayfinder",322
-"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","6.83%","Gyrologer",322
-"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","29.68%","Fortuitous Fool",75032
-"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.93%","Richard the Rich",75032
-"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.77%","Rocketeer",75032
-"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.69%","Worried Wayfinder",75032
-"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.04%","Gyrologer",75032
-"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.88%","Seasoned Islandographer",75032
+"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","28.32%","Captain Cloudkicker",34771
+"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","19.84%","Gyrologer",34771
+"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","18.66%","Richard the Rich",34771
+"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","17.07%","Worried Wayfinder",34771
+"Floating Islands","Tactical High - 2x Loot","Cloud Cheesecake","-","16.11%","Seasoned Islandographer",34771
+"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","37.49%","Worried Wayfinder",7268
+"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","25.73%","Richard the Rich",7268
+"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","21.78%","Gyrologer",7268
+"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.59%","Seasoned Islandographer",7268
+"Floating Islands","Tactical High - 2x Loot","Extra Rich Cloud Cheesecake","-","7.40%","Captain Cloudkicker",7268
+"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","34.42%","Kite Flyer",337
+"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","34.12%","Daydreamer",337
+"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","17.21%","Richard the Rich",337
+"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","8.01%","Worried Wayfinder",337
+"Floating Islands","Tactical Palace - 2x Loot","Cloud Cheesecake","-","6.23%","Gyrologer",337
+"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.88%","Rocketeer",8842
+"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","25.75%","Richard the Rich",8842
+"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","19.20%","Worried Wayfinder",8842
+"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","18.14%","Gyrologer",8842
+"Floating Islands","Tactical Palace - 2x Loot","Extra Rich Cloud Cheesecake","-","11.03%","Seasoned Islandographer",8842
+"Floating Islands","Tactical Palace - 3x Loot","Cloud Cheesecake","-","37.60%","Daydreamer",250
+"Floating Islands","Tactical Palace - 3x Loot","Cloud Cheesecake","-","32.80%","Kite Flyer",250
+"Floating Islands","Tactical Palace - 3x Loot","Cloud Cheesecake","-","19.60%","Richard the Rich",250
+"Floating Islands","Tactical Palace - 3x Loot","Cloud Cheesecake","-","10.00%","Worried Wayfinder",250
+"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","24.96%","Richard the Rich",24910
+"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","21.10%","Rocketeer",24910
+"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","15.40%","Worried Wayfinder",24910
+"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.83%","Gyrologer",24910
+"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","14.48%","Fortuitous Fool",24910
+"Floating Islands","Tactical Palace - 3x Loot","Extra Rich Cloud Cheesecake","-","9.23%","Seasoned Islandographer",24910
+"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","36.47%","Daydreamer",329
+"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","33.13%","Kite Flyer",329
+"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","16.72%","Richard the Rich",329
+"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","6.99%","Worried Wayfinder",329
+"Floating Islands","Tactical Palace - 4x Loot","Cloud Cheesecake","-","6.69%","Gyrologer",329
+"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","29.71%","Fortuitous Fool",75785
+"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","24.92%","Richard the Rich",75785
+"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","15.77%","Rocketeer",75785
+"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.67%","Worried Wayfinder",75785
+"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","11.05%","Gyrologer",75785
+"Floating Islands","Tactical Palace - 4x Loot","Extra Rich Cloud Cheesecake","-","6.88%","Seasoned Islandographer",75785
 "Floating Islands","Sky Wardens","SB+/Cloud Cheesecake/Extra Rich Cloud Cheesecake","-","25.00%","Warden of Rain",4
 "Floating Islands","Sky Wardens","SB+/Cloud Cheesecake/Extra Rich Cloud Cheesecake","-","25.00%","Warden of Fog",4
 "Floating Islands","Sky Wardens","SB+/Cloud Cheesecake/Extra Rich Cloud Cheesecake","-","25.00%","Warden of Frost",4

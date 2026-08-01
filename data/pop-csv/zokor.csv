@@ -1,20 +1,20 @@
 "Location","Phase","Cheese","Charm","Attraction Rate","Mouse","Sample Size"
-"Zokor","Fealty 15+","Glowing Gruyere","-","36.50%","Masked Pikeman",2674
-"Zokor","Fealty 15+","Glowing Gruyere","-","33.32%","Drudge",2674
-"Zokor","Fealty 15+","Glowing Gruyere","-","21.05%","Reanimated Carver",2674
-"Zokor","Fealty 15+","Glowing Gruyere","-","9.12%","Battle Cleric",2674
+"Zokor","Fealty 15+","Glowing Gruyere","-","36.52%","Masked Pikeman",2686
+"Zokor","Fealty 15+","Glowing Gruyere","-","33.32%","Drudge",2686
+"Zokor","Fealty 15+","Glowing Gruyere","-","21.00%","Reanimated Carver",2686
+"Zokor","Fealty 15+","Glowing Gruyere","-","9.16%","Battle Cleric",2686
 "Zokor","Fealty 15+","SB+/Gouda/Brie","-","30.50%","Masked Pikeman",2764
 "Zokor","Fealty 15+","SB+/Gouda/Brie","-","27.17%","Drudge",2764
 "Zokor","Fealty 15+","SB+/Gouda/Brie","-","20.44%","Shadow Stalker",2764
 "Zokor","Fealty 15+","SB+/Gouda/Brie","-","15.34%","Reanimated Carver",2764
 "Zokor","Fealty 15+","SB+/Gouda/Brie","-","6.55%","Battle Cleric",2764
-"Zokor","Fealty 50+","Glowing Gruyere","-","34.41%","Battle Cleric",4406
-"Zokor","Fealty 50+","Glowing Gruyere","-","30.30%","Sir Fleekio",4406
-"Zokor","Fealty 50+","Glowing Gruyere","-","16.66%","Reanimated Carver",4406
-"Zokor","Fealty 50+","Glowing Gruyere","-","10.10%","Mind Tearer",4406
-"Zokor","Fealty 50+","Glowing Gruyere","-","5.95%","Solemn Soldier",4406
-"Zokor","Fealty 50+","Glowing Gruyere","-","1.34%","Drudge",4406
-"Zokor","Fealty 50+","Glowing Gruyere","-","1.25%","Masked Pikeman",4406
+"Zokor","Fealty 50+","Glowing Gruyere","-","34.40%","Battle Cleric",4416
+"Zokor","Fealty 50+","Glowing Gruyere","-","30.30%","Sir Fleekio",4416
+"Zokor","Fealty 50+","Glowing Gruyere","-","16.69%","Reanimated Carver",4416
+"Zokor","Fealty 50+","Glowing Gruyere","-","10.10%","Mind Tearer",4416
+"Zokor","Fealty 50+","Glowing Gruyere","-","5.93%","Solemn Soldier",4416
+"Zokor","Fealty 50+","Glowing Gruyere","-","1.34%","Drudge",4416
+"Zokor","Fealty 50+","Glowing Gruyere","-","1.25%","Masked Pikeman",4416
 "Zokor","Fealty 50+","SB+/Gouda/Brie","-","27.95%","Battle Cleric",2905
 "Zokor","Fealty 50+","SB+/Gouda/Brie","-","22.96%","Sir Fleekio",2905
 "Zokor","Fealty 50+","SB+/Gouda/Brie","-","22.24%","Shadow Stalker",2905
@@ -23,41 +23,41 @@
 "Zokor","Fealty 50+","SB+/Gouda/Brie","-","5.51%","Solemn Soldier",2905
 "Zokor","Fealty 50+","SB+/Gouda/Brie","-","0.69%","Drudge",2905
 "Zokor","Fealty 50+","SB+/Gouda/Brie","-","0.69%","Masked Pikeman",2905
-"Zokor","Fealty 80+","Glowing Gruyere","-","32.15%","Battle Cleric",128364
-"Zokor","Fealty 80+","Glowing Gruyere","-","28.98%","Sir Fleekio",128364
-"Zokor","Fealty 80+","Glowing Gruyere","-","12.65%","Reanimated Carver",128364
-"Zokor","Fealty 80+","Glowing Gruyere","-","8.74%","Mind Tearer",128364
-"Zokor","Fealty 80+","Glowing Gruyere","-","7.78%","Dark Templar",128364
-"Zokor","Fealty 80+","Glowing Gruyere","-","5.78%","Solemn Soldier",128364
-"Zokor","Fealty 80+","Glowing Gruyere","-","1.97%","Paladin Weapon Master",128364
-"Zokor","Fealty 80+","Glowing Gruyere","-","0.98%","Drudge",128364
-"Zokor","Fealty 80+","Glowing Gruyere","-","0.96%","Masked Pikeman",128364
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","26.16%","Battle Cleric",13609
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","24.21%","Sir Fleekio",13609
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","19.69%","Shadow Stalker",13609
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","9.43%","Reanimated Carver",13609
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","7.18%","Mind Tearer",13609
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","5.96%","Dark Templar",13609
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","4.83%","Solemn Soldier",13609
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","0.90%","Drudge",13609
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","0.88%","Paladin Weapon Master",13609
-"Zokor","Fealty 80+","SB+/Gouda/Brie","-","0.75%","Masked Pikeman",13609
-"Zokor","Scholar 15+","Glowing Gruyere","-","35.87%","Sanguinarian",2155
-"Zokor","Scholar 15+","Glowing Gruyere","-","35.03%","Summoning Scholar",2155
-"Zokor","Scholar 15+","Glowing Gruyere","-","19.95%","Reanimated Carver",2155
-"Zokor","Scholar 15+","Glowing Gruyere","-","9.14%","Ethereal Guardian",2155
-"Zokor","Scholar 15+","SB+/Gouda/Brie","-","27.86%","Sanguinarian",2606
-"Zokor","Scholar 15+","SB+/Gouda/Brie","-","27.55%","Summoning Scholar",2606
-"Zokor","Scholar 15+","SB+/Gouda/Brie","-","20.11%","Shadow Stalker",2606
-"Zokor","Scholar 15+","SB+/Gouda/Brie","-","17.46%","Reanimated Carver",2606
-"Zokor","Scholar 15+","SB+/Gouda/Brie","-","7.02%","Ethereal Guardian",2606
-"Zokor","Scholar 50+","Glowing Gruyere","-","33.94%","Ethereal Guardian",3919
-"Zokor","Scholar 50+","Glowing Gruyere","-","31.16%","Ancient Scribe",3919
-"Zokor","Scholar 50+","Glowing Gruyere","-","17.17%","Reanimated Carver",3919
-"Zokor","Scholar 50+","Glowing Gruyere","-","9.24%","Mystic Herald",3919
-"Zokor","Scholar 50+","Glowing Gruyere","-","6.30%","Mystic Guardian",3919
-"Zokor","Scholar 50+","Glowing Gruyere","-","1.20%","Summoning Scholar",3919
-"Zokor","Scholar 50+","Glowing Gruyere","-","1.00%","Sanguinarian",3919
+"Zokor","Fealty 80+","Glowing Gruyere","-","32.14%","Battle Cleric",129327
+"Zokor","Fealty 80+","Glowing Gruyere","-","29.00%","Sir Fleekio",129327
+"Zokor","Fealty 80+","Glowing Gruyere","-","12.63%","Reanimated Carver",129327
+"Zokor","Fealty 80+","Glowing Gruyere","-","8.75%","Mind Tearer",129327
+"Zokor","Fealty 80+","Glowing Gruyere","-","7.78%","Dark Templar",129327
+"Zokor","Fealty 80+","Glowing Gruyere","-","5.79%","Solemn Soldier",129327
+"Zokor","Fealty 80+","Glowing Gruyere","-","1.96%","Paladin Weapon Master",129327
+"Zokor","Fealty 80+","Glowing Gruyere","-","0.98%","Drudge",129327
+"Zokor","Fealty 80+","Glowing Gruyere","-","0.96%","Masked Pikeman",129327
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","26.16%","Battle Cleric",13687
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","24.18%","Sir Fleekio",13687
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","19.68%","Shadow Stalker",13687
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","9.43%","Reanimated Carver",13687
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","7.21%","Mind Tearer",13687
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","5.95%","Dark Templar",13687
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","4.83%","Solemn Soldier",13687
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","0.90%","Drudge",13687
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","0.89%","Paladin Weapon Master",13687
+"Zokor","Fealty 80+","SB+/Gouda/Brie","-","0.75%","Masked Pikeman",13687
+"Zokor","Scholar 15+","Glowing Gruyere","-","35.77%","Sanguinarian",2178
+"Zokor","Scholar 15+","Glowing Gruyere","-","34.94%","Summoning Scholar",2178
+"Zokor","Scholar 15+","Glowing Gruyere","-","20.06%","Reanimated Carver",2178
+"Zokor","Scholar 15+","Glowing Gruyere","-","9.23%","Ethereal Guardian",2178
+"Zokor","Scholar 15+","SB+/Gouda/Brie","-","27.81%","Sanguinarian",2614
+"Zokor","Scholar 15+","SB+/Gouda/Brie","-","27.58%","Summoning Scholar",2614
+"Zokor","Scholar 15+","SB+/Gouda/Brie","-","20.05%","Shadow Stalker",2614
+"Zokor","Scholar 15+","SB+/Gouda/Brie","-","17.56%","Reanimated Carver",2614
+"Zokor","Scholar 15+","SB+/Gouda/Brie","-","7.00%","Ethereal Guardian",2614
+"Zokor","Scholar 50+","Glowing Gruyere","-","33.96%","Ethereal Guardian",3931
+"Zokor","Scholar 50+","Glowing Gruyere","-","31.09%","Ancient Scribe",3931
+"Zokor","Scholar 50+","Glowing Gruyere","-","17.15%","Reanimated Carver",3931
+"Zokor","Scholar 50+","Glowing Gruyere","-","9.29%","Mystic Herald",3931
+"Zokor","Scholar 50+","Glowing Gruyere","-","6.33%","Mystic Guardian",3931
+"Zokor","Scholar 50+","Glowing Gruyere","-","1.20%","Summoning Scholar",3931
+"Zokor","Scholar 50+","Glowing Gruyere","-","0.99%","Sanguinarian",3931
 "Zokor","Scholar 50+","SB+/Gouda/Brie","-","26.14%","Ethereal Guardian",2525
 "Zokor","Scholar 50+","SB+/Gouda/Brie","-","25.86%","Ancient Scribe",2525
 "Zokor","Scholar 50+","SB+/Gouda/Brie","-","21.78%","Shadow Stalker",2525
@@ -66,116 +66,116 @@
 "Zokor","Scholar 50+","SB+/Gouda/Brie","-","5.58%","Mystic Guardian",2525
 "Zokor","Scholar 50+","SB+/Gouda/Brie","-","0.67%","Summoning Scholar",2525
 "Zokor","Scholar 50+","SB+/Gouda/Brie","-","0.63%","Sanguinarian",2525
-"Zokor","Scholar 80+","Glowing Gruyere","-","32.12%","Ethereal Guardian",130418
-"Zokor","Scholar 80+","Glowing Gruyere","-","29.15%","Ancient Scribe",130418
-"Zokor","Scholar 80+","Glowing Gruyere","-","12.48%","Reanimated Carver",130418
-"Zokor","Scholar 80+","Glowing Gruyere","-","8.81%","Mystic Herald",130418
-"Zokor","Scholar 80+","Glowing Gruyere","-","7.67%","Mystic Scholar",130418
-"Zokor","Scholar 80+","Glowing Gruyere","-","5.84%","Mystic Guardian",130418
-"Zokor","Scholar 80+","Glowing Gruyere","-","1.91%","Soul Binder",130418
-"Zokor","Scholar 80+","Glowing Gruyere","-","1.01%","Summoning Scholar",130418
-"Zokor","Scholar 80+","Glowing Gruyere","-","1.01%","Sanguinarian",130418
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","25.79%","Ethereal Guardian",14454
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","23.40%","Ancient Scribe",14454
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","20.13%","Shadow Stalker",14454
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","9.67%","Reanimated Carver",14454
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","7.32%","Mystic Herald",14454
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","6.41%","Mystic Scholar",14454
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","4.84%","Mystic Guardian",14454
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","0.93%","Soul Binder",14454
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","0.77%","Sanguinarian",14454
-"Zokor","Scholar 80+","SB+/Gouda/Brie","-","0.75%","Summoning Scholar",14454
-"Zokor","Tech 15+","Glowing Gruyere","-","34.89%","Ash Golem",2081
-"Zokor","Tech 15+","Glowing Gruyere","-","34.07%","RR-8",2081
-"Zokor","Tech 15+","Glowing Gruyere","-","21.34%","Reanimated Carver",2081
-"Zokor","Tech 15+","Glowing Gruyere","-","9.71%","Exo-Tech",2081
-"Zokor","Tech 15+","SB+/Gouda/Brie","-","30.04%","Ash Golem",2287
-"Zokor","Tech 15+","SB+/Gouda/Brie","-","26.67%","RR-8",2287
-"Zokor","Tech 15+","SB+/Gouda/Brie","-","19.50%","Shadow Stalker",2287
-"Zokor","Tech 15+","SB+/Gouda/Brie","-","16.48%","Reanimated Carver",2287
-"Zokor","Tech 15+","SB+/Gouda/Brie","-","7.30%","Exo-Tech",2287
-"Zokor","Tech 50+","Glowing Gruyere","-","31.67%","Exo-Tech",3900
-"Zokor","Tech 50+","Glowing Gruyere","-","29.56%","Matron of Machinery",3900
-"Zokor","Tech 50+","Glowing Gruyere","-","16.15%","Reanimated Carver",3900
-"Zokor","Tech 50+","Glowing Gruyere","-","13.26%","Automated Stone Sentry",3900
-"Zokor","Tech 50+","Glowing Gruyere","-","5.46%","Tech Golem",3900
-"Zokor","Tech 50+","Glowing Gruyere","-","2.03%","RR-8",3900
-"Zokor","Tech 50+","Glowing Gruyere","-","1.87%","Ash Golem",3900
-"Zokor","Tech 50+","SB+/Gouda/Brie","-","26.20%","Exo-Tech",2580
-"Zokor","Tech 50+","SB+/Gouda/Brie","-","23.68%","Matron of Machinery",2580
-"Zokor","Tech 50+","SB+/Gouda/Brie","-","21.36%","Shadow Stalker",2580
-"Zokor","Tech 50+","SB+/Gouda/Brie","-","12.05%","Reanimated Carver",2580
-"Zokor","Tech 50+","SB+/Gouda/Brie","-","9.69%","Automated Stone Sentry",2580
-"Zokor","Tech 50+","SB+/Gouda/Brie","-","3.76%","Tech Golem",2580
-"Zokor","Tech 50+","SB+/Gouda/Brie","-","1.82%","Ash Golem",2580
-"Zokor","Tech 50+","SB+/Gouda/Brie","-","1.43%","RR-8",2580
-"Zokor","Tech 80+","Glowing Gruyere","-","32.37%","Exo-Tech",130351
-"Zokor","Tech 80+","Glowing Gruyere","-","28.99%","Matron of Machinery",130351
-"Zokor","Tech 80+","Glowing Gruyere","-","12.61%","Reanimated Carver",130351
-"Zokor","Tech 80+","Glowing Gruyere","-","8.61%","Automated Stone Sentry",130351
-"Zokor","Tech 80+","Glowing Gruyere","-","7.80%","Fungal Technomorph",130351
-"Zokor","Tech 80+","Glowing Gruyere","-","5.81%","Tech Golem",130351
-"Zokor","Tech 80+","Glowing Gruyere","-","1.89%","Manaforge Smith",130351
-"Zokor","Tech 80+","Glowing Gruyere","-","0.97%","Ash Golem",130351
-"Zokor","Tech 80+","Glowing Gruyere","-","0.96%","RR-8",130351
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","26.02%","Exo-Tech",14519
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","23.77%","Matron of Machinery",14519
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","20.08%","Shadow Stalker",14519
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","9.21%","Reanimated Carver",14519
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","7.05%","Automated Stone Sentry",14519
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","6.47%","Fungal Technomorph",14519
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","4.75%","Tech Golem",14519
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","1.09%","Manaforge Smith",14519
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","0.79%","Ash Golem",14519
-"Zokor","Tech 80+","SB+/Gouda/Brie","-","0.77%","RR-8",14519
-"Zokor","Farming 0+","Glowing Gruyere","-","33.93%","Mush Monster",2703
-"Zokor","Farming 0+","Glowing Gruyere","-","31.41%","Nightshade Nanny",2703
-"Zokor","Farming 0+","Glowing Gruyere","-","19.76%","Reanimated Carver",2703
-"Zokor","Farming 0+","Glowing Gruyere","-","14.91%","Mushroom Harvester",2703
-"Zokor","Farming 0+","SB+/Gouda/Brie","-","25.87%","Mushroom Harvester",1778
-"Zokor","Farming 0+","SB+/Gouda/Brie","-","23.45%","Nightshade Nanny",1778
-"Zokor","Farming 0+","SB+/Gouda/Brie","-","19.01%","Shadow Stalker",1778
-"Zokor","Farming 0+","SB+/Gouda/Brie","-","16.14%","Mush Monster",1778
-"Zokor","Farming 0+","SB+/Gouda/Brie","-","15.52%","Reanimated Carver",1778
-"Zokor","Farming 50+","Glowing Gruyere","-","38.03%","Mush Monster",47965
-"Zokor","Farming 50+","Glowing Gruyere","-","29.53%","Nightshade Fungalmancer",47965
-"Zokor","Farming 50+","Glowing Gruyere","-","15.86%","Nightshade Nanny",47965
-"Zokor","Farming 50+","Glowing Gruyere","-","15.55%","Reanimated Carver",47965
-"Zokor","Farming 50+","Glowing Gruyere","-","1.02%","Mushroom Harvester",47965
-"Zokor","Farming 50+","SB+/Gouda/Brie","-","31.45%","Mush Monster",7117
-"Zokor","Farming 50+","SB+/Gouda/Brie","-","20.68%","Shadow Stalker",7117
-"Zokor","Farming 50+","SB+/Gouda/Brie","-","17.56%","Nightshade Nanny",7117
-"Zokor","Farming 50+","SB+/Gouda/Brie","-","16.31%","Nightshade Fungalmancer",7117
-"Zokor","Farming 50+","SB+/Gouda/Brie","-","11.86%","Reanimated Carver",7117
-"Zokor","Farming 50+","SB+/Gouda/Brie","-","2.14%","Mushroom Harvester",7117
-"Zokor","Treasure 15+","Glowing Gruyere","-","33.60%","Mimic",9144
-"Zokor","Treasure 15+","Glowing Gruyere","-","25.46%","Hired Eidolon",9144
-"Zokor","Treasure 15+","Glowing Gruyere","-","20.95%","Reanimated Carver",9144
-"Zokor","Treasure 15+","Glowing Gruyere","-","19.99%","Matron of Wealth",9144
+"Zokor","Scholar 80+","Glowing Gruyere","-","32.12%","Ethereal Guardian",131021
+"Zokor","Scholar 80+","Glowing Gruyere","-","29.16%","Ancient Scribe",131021
+"Zokor","Scholar 80+","Glowing Gruyere","-","12.49%","Reanimated Carver",131021
+"Zokor","Scholar 80+","Glowing Gruyere","-","8.81%","Mystic Herald",131021
+"Zokor","Scholar 80+","Glowing Gruyere","-","7.66%","Mystic Scholar",131021
+"Zokor","Scholar 80+","Glowing Gruyere","-","5.84%","Mystic Guardian",131021
+"Zokor","Scholar 80+","Glowing Gruyere","-","1.91%","Soul Binder",131021
+"Zokor","Scholar 80+","Glowing Gruyere","-","1.01%","Summoning Scholar",131021
+"Zokor","Scholar 80+","Glowing Gruyere","-","1.01%","Sanguinarian",131021
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","25.79%","Ethereal Guardian",14498
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","23.41%","Ancient Scribe",14498
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","20.11%","Shadow Stalker",14498
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","9.67%","Reanimated Carver",14498
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","7.32%","Mystic Herald",14498
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","6.40%","Mystic Scholar",14498
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","4.84%","Mystic Guardian",14498
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","0.93%","Soul Binder",14498
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","0.77%","Sanguinarian",14498
+"Zokor","Scholar 80+","SB+/Gouda/Brie","-","0.75%","Summoning Scholar",14498
+"Zokor","Tech 15+","Glowing Gruyere","-","34.76%","Ash Golem",2097
+"Zokor","Tech 15+","Glowing Gruyere","-","34.24%","RR-8",2097
+"Zokor","Tech 15+","Glowing Gruyere","-","21.36%","Reanimated Carver",2097
+"Zokor","Tech 15+","Glowing Gruyere","-","9.63%","Exo-Tech",2097
+"Zokor","Tech 15+","SB+/Gouda/Brie","-","29.90%","Ash Golem",2304
+"Zokor","Tech 15+","SB+/Gouda/Brie","-","26.78%","RR-8",2304
+"Zokor","Tech 15+","SB+/Gouda/Brie","-","19.53%","Shadow Stalker",2304
+"Zokor","Tech 15+","SB+/Gouda/Brie","-","16.49%","Reanimated Carver",2304
+"Zokor","Tech 15+","SB+/Gouda/Brie","-","7.29%","Exo-Tech",2304
+"Zokor","Tech 50+","Glowing Gruyere","-","31.66%","Exo-Tech",3901
+"Zokor","Tech 50+","Glowing Gruyere","-","29.56%","Matron of Machinery",3901
+"Zokor","Tech 50+","Glowing Gruyere","-","16.18%","Reanimated Carver",3901
+"Zokor","Tech 50+","Glowing Gruyere","-","13.25%","Automated Stone Sentry",3901
+"Zokor","Tech 50+","Glowing Gruyere","-","5.46%","Tech Golem",3901
+"Zokor","Tech 50+","Glowing Gruyere","-","2.03%","RR-8",3901
+"Zokor","Tech 50+","Glowing Gruyere","-","1.87%","Ash Golem",3901
+"Zokor","Tech 50+","SB+/Gouda/Brie","-","26.15%","Exo-Tech",2616
+"Zokor","Tech 50+","SB+/Gouda/Brie","-","23.78%","Matron of Machinery",2616
+"Zokor","Tech 50+","SB+/Gouda/Brie","-","21.41%","Shadow Stalker",2616
+"Zokor","Tech 50+","SB+/Gouda/Brie","-","12.00%","Reanimated Carver",2616
+"Zokor","Tech 50+","SB+/Gouda/Brie","-","9.67%","Automated Stone Sentry",2616
+"Zokor","Tech 50+","SB+/Gouda/Brie","-","3.71%","Tech Golem",2616
+"Zokor","Tech 50+","SB+/Gouda/Brie","-","1.83%","Ash Golem",2616
+"Zokor","Tech 50+","SB+/Gouda/Brie","-","1.45%","RR-8",2616
+"Zokor","Tech 80+","Glowing Gruyere","-","32.36%","Exo-Tech",130786
+"Zokor","Tech 80+","Glowing Gruyere","-","28.99%","Matron of Machinery",130786
+"Zokor","Tech 80+","Glowing Gruyere","-","12.60%","Reanimated Carver",130786
+"Zokor","Tech 80+","Glowing Gruyere","-","8.61%","Automated Stone Sentry",130786
+"Zokor","Tech 80+","Glowing Gruyere","-","7.80%","Fungal Technomorph",130786
+"Zokor","Tech 80+","Glowing Gruyere","-","5.81%","Tech Golem",130786
+"Zokor","Tech 80+","Glowing Gruyere","-","1.89%","Manaforge Smith",130786
+"Zokor","Tech 80+","Glowing Gruyere","-","0.97%","Ash Golem",130786
+"Zokor","Tech 80+","Glowing Gruyere","-","0.96%","RR-8",130786
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","26.00%","Exo-Tech",14540
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","23.77%","Matron of Machinery",14540
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","20.07%","Shadow Stalker",14540
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","9.22%","Reanimated Carver",14540
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","7.06%","Automated Stone Sentry",14540
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","6.49%","Fungal Technomorph",14540
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","4.75%","Tech Golem",14540
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","1.09%","Manaforge Smith",14540
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","0.79%","Ash Golem",14540
+"Zokor","Tech 80+","SB+/Gouda/Brie","-","0.77%","RR-8",14540
+"Zokor","Farming 0+","Glowing Gruyere","-","34.15%","Mush Monster",2741
+"Zokor","Farming 0+","Glowing Gruyere","-","31.30%","Nightshade Nanny",2741
+"Zokor","Farming 0+","Glowing Gruyere","-","19.59%","Reanimated Carver",2741
+"Zokor","Farming 0+","Glowing Gruyere","-","14.96%","Mushroom Harvester",2741
+"Zokor","Farming 0+","SB+/Gouda/Brie","-","25.85%","Mushroom Harvester",1791
+"Zokor","Farming 0+","SB+/Gouda/Brie","-","23.51%","Nightshade Nanny",1791
+"Zokor","Farming 0+","SB+/Gouda/Brie","-","19.04%","Shadow Stalker",1791
+"Zokor","Farming 0+","SB+/Gouda/Brie","-","16.14%","Mush Monster",1791
+"Zokor","Farming 0+","SB+/Gouda/Brie","-","15.47%","Reanimated Carver",1791
+"Zokor","Farming 50+","Glowing Gruyere","-","38.06%","Mush Monster",48715
+"Zokor","Farming 50+","Glowing Gruyere","-","29.51%","Nightshade Fungalmancer",48715
+"Zokor","Farming 50+","Glowing Gruyere","-","15.84%","Nightshade Nanny",48715
+"Zokor","Farming 50+","Glowing Gruyere","-","15.58%","Reanimated Carver",48715
+"Zokor","Farming 50+","Glowing Gruyere","-","1.01%","Mushroom Harvester",48715
+"Zokor","Farming 50+","SB+/Gouda/Brie","-","31.46%","Mush Monster",7118
+"Zokor","Farming 50+","SB+/Gouda/Brie","-","20.68%","Shadow Stalker",7118
+"Zokor","Farming 50+","SB+/Gouda/Brie","-","17.56%","Nightshade Nanny",7118
+"Zokor","Farming 50+","SB+/Gouda/Brie","-","16.31%","Nightshade Fungalmancer",7118
+"Zokor","Farming 50+","SB+/Gouda/Brie","-","11.86%","Reanimated Carver",7118
+"Zokor","Farming 50+","SB+/Gouda/Brie","-","2.14%","Mushroom Harvester",7118
+"Zokor","Treasure 15+","Glowing Gruyere","-","33.51%","Mimic",9278
+"Zokor","Treasure 15+","Glowing Gruyere","-","25.47%","Hired Eidolon",9278
+"Zokor","Treasure 15+","Glowing Gruyere","-","21.02%","Reanimated Carver",9278
+"Zokor","Treasure 15+","Glowing Gruyere","-","20.00%","Matron of Wealth",9278
 "Zokor","Treasure 15+","SB+/Gouda/Brie","-","25.97%","Mimic",1259
 "Zokor","Treasure 15+","SB+/Gouda/Brie","-","22.88%","Shadow Stalker",1259
 "Zokor","Treasure 15+","SB+/Gouda/Brie","-","18.75%","Hired Eidolon",1259
 "Zokor","Treasure 15+","SB+/Gouda/Brie","-","16.28%","Matron of Wealth",1259
 "Zokor","Treasure 15+","SB+/Gouda/Brie","-","16.12%","Reanimated Carver",1259
-"Zokor","Treasure 50+","Glowing Gruyere","-","49.65%","Molten Midas",63588
-"Zokor","Treasure 50+","Glowing Gruyere","-","15.94%","Reanimated Carver",63588
-"Zokor","Treasure 50+","Glowing Gruyere","-","12.90%","Hired Eidolon",63588
-"Zokor","Treasure 50+","Glowing Gruyere","-","9.51%","Treasure Brawler",63588
-"Zokor","Treasure 50+","Glowing Gruyere","-","6.98%","Matron of Wealth",63588
-"Zokor","Treasure 50+","Glowing Gruyere","-","5.02%","Mimic",63588
-"Zokor","Treasure 50+","SB+/Gouda/Brie","-","40.84%","Molten Midas",2867
-"Zokor","Treasure 50+","SB+/Gouda/Brie","-","19.22%","Shadow Stalker",2867
-"Zokor","Treasure 50+","SB+/Gouda/Brie","-","11.58%","Reanimated Carver",2867
-"Zokor","Treasure 50+","SB+/Gouda/Brie","-","10.46%","Hired Eidolon",2867
-"Zokor","Treasure 50+","SB+/Gouda/Brie","-","8.69%","Treasure Brawler",2867
-"Zokor","Treasure 50+","SB+/Gouda/Brie","-","5.20%","Matron of Wealth",2867
-"Zokor","Treasure 50+","SB+/Gouda/Brie","-","4.01%","Mimic",2867
-"Zokor","Lair - Each 30+","Glowing Gruyere","-","55.62%","Decrepit Tentacle Terror",28745
-"Zokor","Lair - Each 30+","Glowing Gruyere","-","23.27%","Reanimated Carver",28745
-"Zokor","Lair - Each 30+","Glowing Gruyere","-","15.49%","Retired Minotaur",28745
-"Zokor","Lair - Each 30+","Glowing Gruyere","-","5.62%","Corridor Bruiser",28745
-"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","43.82%","Decrepit Tentacle Terror",6511
-"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","22.12%","Shadow Stalker",6511
-"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","16.48%","Reanimated Carver",6511
-"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","13.27%","Retired Minotaur",6511
-"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","4.32%","Corridor Bruiser",6511
+"Zokor","Treasure 50+","Glowing Gruyere","-","49.63%","Molten Midas",63923
+"Zokor","Treasure 50+","Glowing Gruyere","-","15.96%","Reanimated Carver",63923
+"Zokor","Treasure 50+","Glowing Gruyere","-","12.90%","Hired Eidolon",63923
+"Zokor","Treasure 50+","Glowing Gruyere","-","9.51%","Treasure Brawler",63923
+"Zokor","Treasure 50+","Glowing Gruyere","-","6.97%","Matron of Wealth",63923
+"Zokor","Treasure 50+","Glowing Gruyere","-","5.03%","Mimic",63923
+"Zokor","Treasure 50+","SB+/Gouda/Brie","-","40.83%","Molten Midas",2873
+"Zokor","Treasure 50+","SB+/Gouda/Brie","-","19.25%","Shadow Stalker",2873
+"Zokor","Treasure 50+","SB+/Gouda/Brie","-","11.59%","Reanimated Carver",2873
+"Zokor","Treasure 50+","SB+/Gouda/Brie","-","10.44%","Hired Eidolon",2873
+"Zokor","Treasure 50+","SB+/Gouda/Brie","-","8.70%","Treasure Brawler",2873
+"Zokor","Treasure 50+","SB+/Gouda/Brie","-","5.19%","Matron of Wealth",2873
+"Zokor","Treasure 50+","SB+/Gouda/Brie","-","4.00%","Mimic",2873
+"Zokor","Lair - Each 30+","Glowing Gruyere","-","55.65%","Decrepit Tentacle Terror",28807
+"Zokor","Lair - Each 30+","Glowing Gruyere","-","23.27%","Reanimated Carver",28807
+"Zokor","Lair - Each 30+","Glowing Gruyere","-","15.46%","Retired Minotaur",28807
+"Zokor","Lair - Each 30+","Glowing Gruyere","-","5.62%","Corridor Bruiser",28807
+"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","43.81%","Decrepit Tentacle Terror",6522
+"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","22.11%","Shadow Stalker",6522
+"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","16.51%","Reanimated Carver",6522
+"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","13.26%","Retired Minotaur",6522
+"Zokor","Lair - Each 30+","SB+/Gouda/Brie","-","4.31%","Corridor Bruiser",6522
