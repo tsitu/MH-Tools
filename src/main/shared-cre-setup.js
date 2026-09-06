@@ -1062,7 +1062,7 @@ function phaseChanged() {
   if (!popArray[locationName][phaseName]) {
     var phases = Object.keys(popArray[locationName]);
     loadDropdown("phase", phases, function() {
-      document.getElementById("#phase").selectedIndex = 0;
+      document.getElementById("phase").selectedIndex = 0;
       setPhase();
     });
   }
