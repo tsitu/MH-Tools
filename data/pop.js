@@ -26,7 +26,7 @@ Promise
         return mhct
           .getSAEncounterRateData(item.vars, item.opts ?? setup.opts)
           .filter(function (item) {
-            return item.sample > 100;
+            return item.sample > (setup.opts?.minSample ?? 100);
           })
           .map(utils.preparePopulation.bind(utils, item.fields));
       }
