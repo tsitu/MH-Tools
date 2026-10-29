@@ -7,6 +7,7 @@
     "pop:acolyte": "node data/pop acolyte-realm > data/pop-csv/acolyte-realm.csv",
     "pop:afterword": "node data/pop afterword-acres > data/pop-csv/afterword-acres.csv",
     "pop:balack": "node data/pop balacks-cove > data/pop-csv/balacks-cove.csv",
+    "pop:bazaar": "node data/pop bazaar > data/pop-csv/bazaar.csv",
     "pop:beanstalk": "node data/pop bountiful-beanstalk > data/pop-csv/bountiful-beanstalk.csv",
     "pop:burroughs": "node data/pop burroughs-rift > data/pop-csv/burroughs-rift.csv",
     "!pop:bristle": "node data/pop bristle-woods-rift > data/pop-csv/bristle-woods-rift.csv",
