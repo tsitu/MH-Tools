@@ -841,6 +841,10 @@ function weaponChanged() {
 }
 
 function icebergPhase() {
+  if (locationName !== "Iceberg") {
+    return;
+  }
+
   const magnetBasedEquipped = baseName === "Magnet Base";
   const ultimateBasedEquipped = (baseName === "Ultimate Iceberg Base" || baseName === "Iceberg Boiler Base");
   const hearthstoneBaseEquipped = baseName === "Hearthstone Base";
